@@ -16,6 +16,10 @@ This guide provides steps for the installation of various types of databases. Fo
 
 
 
+## Install Databases with the One Click Apps Installer
+
+You can install **Databases** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **Databases**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **Databases** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
+
 ## Preparation
 
 Before you begin with the installation of a database, it is firstly necessary to ensure that the system is up to date. To do this, you need to update the packages from your system package manager with the following command, depending on your operating system:

@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-databases
 title: "Sätt upp databaser på en Linux-server - Distribuera och hantera databastjänster"
-description: "Upptäck hur du installerar och konfigurerar olika databaser på Ubuntu och andra Linux-distros för bättre prestanda och säkerhet → Lär dig mer nu"
+description: "Utforska hur du installerar och sätter upp olika databaser på Ubuntu och andra Linux-distros för bättre prestanda och säkerhet → Lär dig mer nu"
 sidebar_label: Installera databaser
 services:
   - vserver
@@ -16,9 +16,13 @@ Den här guiden visar steg för installation av olika typer av databaser. I exem
 
 
 
+## Installera databaser med One Click Apps Installer
+
+Du kan installera **Databaser** direkt via vår **One Click Apps Installer** i VPS-webbgränssnittet. Efter att ha slutfört den initiala app-inställningen, öppna appkatalogen, sök efter **Databaser** och starta distributionen med dina föredragna projekt-, miljö- och domäninställningar. Detta ger dig ett snabbt och användarvänligt sätt att distribuera och hantera **Databaser** utan manuell kommandoradskonfiguration, samtidigt som du får fördelar av integrerad webbaserad hantering, stöd för egna domäner och SSL-provisionering där det är tillgängligt.
+
 ## Förberedelser
 
-Innan du börjar installera en databas behöver du först se till att systemet är uppdaterat. Det gör du genom att uppdatera paketen från din systempakethanterare med följande kommando, beroende på ditt operativsystem:
+Innan du börjar med installationen av en databas är det först nödvändigt att säkerställa att systemet är uppdaterat. För att göra detta behöver du uppdatera paketen från din systempakethanterare med följande kommando, beroende på ditt operativsystem:
 
 ```
 // Ubuntu & Debian
@@ -46,23 +50,23 @@ import TabItem from '@theme/TabItem';
 
 ## Vad är MariaDB?
 
-MariaDB är ett open-source relationsdatabashanteringssystem, ursprungligen en fork av MySQL. Det erbjuder förbättrad prestanda, säkerhet och kontinuerlig utveckling. MariaDB har bland annat förbättrade lagringsmotorer och dess arkitektur är fullt kompatibel med MySQL. Vi rekommenderar MariaDB framför MySQL.
+MariaDB är ett open-source relationsdatabashanteringssystem, ursprungligen en fork av MySQL. Det säkerställer förbättrad prestanda, säkerhet och kontinuerlig utveckling. MariaDB erbjuder bland annat förbättrade lagringsmotorer och dess arkitektur är fullt kompatibel med MySQL. Vi rekommenderar MariaDB framför MySQL.
 
 ## Installation av MariaDB
 
-Först måste du säkerställa att den senaste versionen av MariaDB installeras. Vissa äldre operativsystem som Debian 9 eller Ubuntu 18.04 har inte den senaste MariaDB-versionen i sin pakethanterare som standard, så genom att köra följande kommando ser du till att den senaste versionen hämtas.
+Först måste du säkerställa att den senaste versionen av MariaDB installeras. Vissa äldre operativsystem som Debian 9 eller Ubuntu 18.04 har inte den senaste MariaDB-versionen i sina pakethanterare som standard, så genom att köra följande kommando ser du till att den senaste versionen hämtas.
 
 ```
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-Efter att ha installerat repo, uppdatera din pakethanterares cache enligt stegen i förberedelseavsnittet.
+Efter att ha installerat repo, uppdatera din pakethanterar-cache enligt stegen i förberedelseavsnittet.
 
 :::info
-MariaDB-repo-installationen (steget ovan) kan tryggt hoppas över på moderna operativsystem som Ubuntu 22.04 eller Debian 11.
+Installation av MariaDB-repot (steg ovan) kan tryggt hoppas över på moderna operativsystem som Ubuntu 22.04 eller Debian 11.
 :::
 
-När repo-setup är klar kan installationen av MariaDB påbörjas genom att installera paketet `mariadb-server`. Beroende på operativsystem kör du något av följande kommandon:
+När repot är klart kan installationen av MariaDB påbörjas genom att installera paketet `mariadb-server`. Beroende på operativsystem kör du något av följande kommandon:
 
 ```
 // Ubuntu & Debian
@@ -86,37 +90,37 @@ När installationen är klar, skriv in följande kommando för att starta server
 mysql_secure_installation
 ```
 
-Nu kan du konfigurera din MariaDB (MySQL) server genom att följa instruktionerna och sätta ett lösenord för servern. Vid nästa prompt kan du hoppa över inmatningen genom att trycka på **Enter**.
+Nu kan du konfigurera din MariaDB (MySQL)-server genom att följa instruktionerna och sätta ett lösenord för din server. Vid nästa prompt kan du hoppa över inmatningen för tillfället genom att trycka på **Enter**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sYDegXcMZwCoZzJ/preview)
 
 :::info
-Användaren root är huvudkontot för din MariaDB (MySQL) server!
+Användaren root är huvudanvändaren för din MariaDB (MySQL)-server!
 :::
 
-Du kommer nu bli tillfrågad om du vill sätta ett lösenord för root-användaren, bekräfta med **y** för ja. Därefter skriver du in det nya lösenordet för root.
+Du kommer sedan att bli tillfrågad om du vill sätta ett lösenord för root-användaren, bekräfta detta med **y** för ja. Därefter skriver du in det nya lösenordet för root-användaren.
 
 :::note
-När du skriver in lösenordet syns det inte, men det är helt normalt och lösenordet sparas ändå. Se till att använda ett säkert lösenord för root och förvara det på ett säkert ställe.
+När du skriver in lösenordet syns det inte på skärmen. Detta är normalt och ditt lösenord sparas ändå. Se till att använda ett säkert lösenord för root-användaren och förvara det på ett säkert ställe.
 :::
 
-Nästa fråga är om du vill ta bort anonyma användare från servern, det bör du göra av säkerhetsskäl. Bekräfta med **y**:
+Nu blir du tillfrågad om du vill ta bort anonyma användare från servern, detta bör du göra av säkerhetsskäl. Bekräfta med **y** för ja:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9rnHy9dJmezjemq/preview)
 
-I nästa prompt bestämmer du om root-användaren ska tillåtas ansluta externt till servern. Av säkerhetsskäl bör du inaktivera detta och bekräfta med **y**:
+I nästa prompt definierar du om root-användaren ska tillåtas ansluta till servern externt. Av säkerhetsskäl bör du inaktivera detta och bekräfta med **y**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cEozmgcXDBgaRwY/preview)
 
-I nästa steg kan du också bekräfta att ta bort testdatabasen som MariaDB (MySQL) levererar med **y**, eftersom den inte behövs och enkelt kan tas bort:
+I nästa steg kan du också bekräfta att ta bort testdatabasen som MariaDB (MySQL) tillhandahåller med **y**, eftersom den inte behövs och enkelt kan tas bort:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGHT3tm78dNBTRo/preview)
 
-I slutet av konfigurationsprocessen frågas du om du vill uppdatera databasens rättigheter. Bekräfta med **y** för att aktivera det lösenord du just satt för root:
+I slutet av konfigurationsprocessen blir du tillfrågad om du vill uppdatera databasens behörigheter. Bekräfta med **y** för att aktivera det tidigare satta lösenordet för root-användaren:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGNDZkRS4QrpEfF/preview)
 
-Din MariaDB (MySQL) server är nu redo att användas!
+Din MariaDB (MySQL)-server är nu redo att användas!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/nFxJoiYeCp7MYXN/preview)
 </TabItem>
@@ -125,11 +129,11 @@ Din MariaDB (MySQL) server är nu redo att användas!
 
 ## Vad är Redis?
 
-Redis är en in-memory datalagringsstruktur, främst använd för att lagra data i nyckel-värde-format, men stöder även andra format som listor, JSON med mera. Det kännetecknas av sin hastighet och ger svar på förfrågningar inom millisekunder.
+Redis är en in-memory datalagringsstruktur, främst använd för att lagra data med nyckel-värde-struktur, men stöder även andra format som listor, JSON med mera. Det kännetecknas av sin hastighet och levererar svar på förfrågningar på millisekunder.
 
 ## Installation av Redis
 
-Först måste du lägga till ett repo som gör det möjligt att installera Redis. Detta steg behövs inte för alla Linux-distributioner, endast för de listade nedan. Kör kommandot som passar ditt operativsystem och version:
+Först måste du lägga till ett repo som gör det möjligt att installera Redis. Detta steg är inte nödvändigt för alla Linux-distributioner, endast för de listade nedan. Kör kommandot som motsvarar ditt operativsystem och version:
 
 ```
 // Ubuntu (alla versioner) och Debian (endast Debian 10)
@@ -143,13 +147,13 @@ sudo yum install epel-release
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-Efter att ha installerat repo, uppdatera din pakethanterares cache enligt förberedelseavsnittet.
+Efter att ha installerat repot, uppdatera din pakethanterar-cache enligt förberedelseavsnittet.
 
 :::info
 Om ditt operativsystem inte finns med ovan kan du hoppa över detta steg.
 :::
 
-Efter att ha installerat rätt repo, fortsätt med installationen av Redis-serverpaketet. Kör kommandot som passar ditt operativsystem:
+Efter att ha installerat rätt repo kan du installera Redis-serverpaketet. Kör kommandot som passar ditt operativsystem:
 
 ```
 // Ubuntu och Debian
@@ -191,7 +195,7 @@ Välj ditt operativsystem i flikarna nedan för att visa motsvarande guide.
 
 ### Installation på Ubuntu & Debian
 
-Först ska du importera MongoDB:s publika GPG-nyckel med följande kommando:
+Först ska du köra följande kommando för att importera MongoDB:s publika GPG-nyckel:
 
 ```
 curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
@@ -199,7 +203,7 @@ curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
    --dearmor
 ```
 
-Därefter behöver du lägga till MongoDB-källan till din systems källista. Det gör du med detta kommando:
+Därefter behöver du lägga till MongoDB-källan i din operativsystems källista. Det gör du med följande kommando:
 
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/$(lsb_release -si | awk '{print tolower($0)}') $(lsb_release -sc)/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
@@ -218,7 +222,7 @@ Din MongoDB-installation borde nu fungera!
 
 ### Installation på CentOS & Fedora
 
-Först behöver du sätta upp MongoDB-repot för Red Hat-system.
+Först måste du konfigurera MongoDB-repot för Red Hat-system.
 
 Skapa en fil vid `/etc/yum.repos.d/mongodb-org-6.0.repo` och klistra in följande innehåll:
 
@@ -231,7 +235,7 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Nu kan du installera MongoDB. Det finns en liten skillnad i installationskommandot mellan CentOS och Fedora, så använd rätt kommando nedan:
+Nu kan du installera MongoDB. Det finns en liten skillnad i installationskommandot mellan CentOS och Fedora, så använd det som passar nedan:
 
 ```
 // CentOS
@@ -248,13 +252,13 @@ Din MongoDB-installation borde nu fungera, det är mycket enklare jämfört med 
 
 ### Installation på OpenSUSE
 
-Först importerar du MongoDB:s publika nyckel för MongoDB-repot med kommandot:
+Först måste du importera MongoDB:s publika nyckel för MongoDB-repot med kommandot:
 
 ```
 sudo rpm --import https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Därefter lägger du till MongoDB-repot med:
+Därefter lägger du till MongoDB-repot med följande kommando:
 
 ```
 sudo zypper addrepo --gpgcheck "https://repo.mongodb.org/zypper/suse/15/mongodb-org/6.0/x86_64/" mongodb

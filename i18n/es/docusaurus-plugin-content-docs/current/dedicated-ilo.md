@@ -10,12 +10,12 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
-En nuestros Servidores Dedicados Enterprise usamos la interfaz de gestión iLO, que permite una gestión completa e ilimitada de tu servidor.  
+En nuestros Servidores Dedicados Enterprise usamos la interfaz de gestión iLO, que permite una gestión total e ilimitada de tu servidor.  
 Sus funcionalidades incluyen encendido/apagado/reinicio del servidor, consola de gestión vía Java o HTML5, montaje de medios de arranque (ISOs).  
 Debes modificar la configuración con cuidado, ya que cambios incorrectos pueden causar problemas graves.
 
 ## Acceso a iLO
-Abre el panel de control de tu Servidor Dedicado ZAP con el navegador que prefieras. Allí ya encontrarás la información más importante sobre tu iLO.  
+Abre el panel de tu Servidor Dedicado ZAP con el navegador que prefieras. Allí ya encontrarás la información más importante sobre tu iLO.  
 Para activar el iLO simplemente haz clic en "Activate iLO".  
 ![](https://screensaver01.zap-hosting.com/index.php/s/grj9PxttLKiZg6m/preview)
 
@@ -32,9 +32,9 @@ Aquí encontrarás mucha información importante:
 
 ### Resumen
 * **Estado del Sistema**  
-Normalmente debería estar en verde. En cada arranque, el hardware de tu servidor se auto-revisa y reporta cualquier problema inmediatamente.  
+Normalmente debería estar en verde. En cada arranque el hardware de tu servidor se auto-revisa y si hay problemas, el sistema los reporta inmediatamente.  
 Las variantes posibles son: verde (OK), amarillo (Degradado) y rojo (Crítico). Puede pasar que el servidor muestre tu SSD como degradado, normalmente no es problema.  
-Por supuesto, puedes informar al soporte y revisaremos si es necesario actuar. Si el estado es rojo ("Crítico"), contacta al soporte de inmediato.  
+Por supuesto, puedes informar al soporte y revisaremos si hay que actuar. Si el estado es rojo ("Crítico"), contacta soporte de inmediato.  
 El primer paso para solucionar el problema siempre debe ser un reinicio completo del servidor.
 
 * **Estado de iLO**  
@@ -65,7 +65,7 @@ Si hay problemas con el hardware de tu servidor dedicado, se mostrarán aquí.
 ### Medios Virtuales
 La integración de medios de arranque propios (ISOs) se hace en el submenú "Connect CD/DVD-ROM".  
 El orden de arranque está configurado para que siempre arranque primero un ISO registrado por defecto.  
-El orden también puede cambiarse en el menú "Boot Order".
+El orden también se puede cambiar en el menú "Boot Order".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6ezDgt2dsCMwEam/preview)
 
@@ -80,7 +80,7 @@ En este menú puedes hacer todo lo relacionado con encender y apagar tu Servidor
 ![](https://screensaver01.zap-hosting.com/index.php/s/NHW8iafC3zjcsJG/preview)
 
 * **Apagado Controlado**  
-Apaga tu servidor de forma ordenada, igual que presionar el botón de encendido de tu portátil o PC una vez.  
+Apaga tu servidor de forma ordenada, igual que presionar el botón de encendido de tu portátil/PC una vez.  
 Todas las aplicaciones se cierran correctamente y el servidor se apaga de forma programada.  
 Esto puede tardar un poco dependiendo de las aplicaciones.
 
@@ -98,23 +98,23 @@ Muestra el consumo medio de energía de tu sistema, básicamente a mayor consumo
 Muestra la configuración de red de tu iLO, ten en cuenta que esta configuración no está relacionada con la red de tu servidor en sí.
 
 :::info
-Para configurar tu servidor o si el acceso por red no funciona, siempre puedes mirar directamente tu servidor.
+Para configurar tu servidor o si el acceso por red no funciona, siempre puedes acceder directamente a tu servidor.
 :::
 
 ## Consolas Remotas (Pantalla)
-iLO te ofrece por defecto dos tipos de consolas remotas:
+El iLO te ofrece por defecto dos tipos de consolas remotas:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
-### Consola HTML5
-Con un clic ya estás en tu servidor, no necesitas software adicional y se lanza directamente en tu navegador.  
+### Consola HTML5 {#the-html5-console}
+Con un simple clic ya estás en tu servidor, no necesitas software adicional y se lanza directamente en tu navegador.  
 Ofrece muchas herramientas útiles:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/G8DjtHYnJosiQBy/preview)
 
-* 1 - Configuración de gestión de energía (arrancar, apagar, reiniciar) del servidor  
-* 2 - Enviar atajos de teclado (por ejemplo CTRL + ALT + DEL)  
-* 3 - Incluir ISOs > CD/DVD > URL de medios scriptados  
+* 1 - Configuración de gestión de energía (encender, apagar, reiniciar) del servidor  
+* 2 - Envío de atajos de teclado (por ejemplo CTRL + ALT + DEL)  
+* 3 - Inclusión de ISOs > CD/DVD > URL de medios scriptados  
 * 4 - Estado del sistema  
 * 5 - Estado de energía del servidor (ON / OFF)
 
@@ -140,9 +140,9 @@ La aplicación suele cambiar el layout del teclado a "EN".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kAp5rddEDjdLNwi/preview)
 
-* 1 - Configuración de gestión de energía (arrancar, apagar, reiniciar) del servidor  
-* 2 - Incluir ISOs > URL CD/DVD-ROM  
-* 3 - Enviar combinaciones de teclas (ej. CTRL + ALT + DEL)  
+* 1 - Configuración de gestión de energía (encender, apagar, reiniciar) del servidor  
+* 2 - Inclusión de ISOs > URL CD/DVD-ROM  
+* 3 - Envío de combinaciones de teclas (ej. CTRL + ALT + DEL)  
 * 4 - Estado del sistema  
 * 5 - Estado de energía del servidor (ON / OFF)
 
@@ -151,19 +151,19 @@ Si tu servidor tiene interfaz gráfica (GUI), puedes usar el ratón normalmente 
 ## Problemas Comunes, Tips & Trucos
 
 * El servidor se queda atascado en POST (Power on Self Test) y no arranca.  
-Conéctate a una consola remota y verifica dónde exactamente se queda atascado. ¿Muestra errores?  
+Conéctate a una consola remota y revisa dónde exactamente se queda atascado. ¿Muestra errores?  
 Apaga el servidor en Gestión de Energía por unos segundos (Apagado Forzado) y luego enciéndelo de nuevo (Presión Momentánea).  
 Si sigue sin arrancar, contacta al soporte.
 
 * El ISO no se carga.  
-Verifica que el enlace a tu ISO sea correcto, la prueba más fácil es pegar el enlace en tu navegador, si comienza la descarga está bien.  
+Revisa que el enlace a tu ISO sea correcto, la prueba más fácil es pegar el enlace en tu navegador, si empieza la descarga todo está bien.  
 Asegúrate de que el enlace esté bien puesto en Medios Virtuales y que el servidor haya sido reiniciado. También revisa el orden de arranque y que la unidad CD/DVD esté arriba.
 
 * Mi servidor tarda mucho en arrancar.  
-El hardware Enterprise usado tarda en arrancar, es totalmente normal. Puede tardar hasta 10-15 minutos.
+El hardware Enterprise usado tarda en arrancar, esto es totalmente normal. Puede tardar hasta 10-15 minutos.
 
 * No puedo abrir el iLO.  
-Asegúrate de que el iLO esté activado en el panel de control de tu servidor, por seguridad la interfaz de gestión se apaga automáticamente tras un tiempo.  
+Asegúrate de que el iLO esté activado en el panel de tu servidor, por seguridad la interfaz de gestión se apaga automáticamente tras un tiempo.  
 Puedes desactivar y activar el iLO de nuevo. (Espera al menos 5 minutos tras activarlo)
 
 ## Conclusión

@@ -18,6 +18,10 @@ Nextcloud é uma solução de nuvem open source e fork do Owncloud, fundada em 2
 
 Para alcançar desempenho, estabilidade e funcionalidade ideais, a seguinte configuração é recomendada para hospedar um servidor Nextcloud. O servidor Nextcloud não é compatível com Windows e MacOS. Pelo menos não sem virtualização adicional ou soluções similares.
 
+## Instale o Nextcloud com o Instalador One Click Apps
+
+Você pode instalar o **Nextcloud** diretamente pelo nosso **Instalador One Click Apps** na interface web do VPS. Após completar a configuração inicial dos apps, abra o catálogo de apps, busque por **Nextcloud** e inicie a implantação com seu projeto, ambiente e configurações de domínio preferidos. Isso oferece uma forma rápida e amigável de implantar e gerenciar o **Nextcloud** sem precisar configurar manualmente via linha de comando, aproveitando a gestão integrada via web, suporte a domínios personalizados e provisionamento SSL onde disponível.
+
 <InlineVoucher />
 
 ## Preparação
@@ -26,25 +30,25 @@ Os seguintes requisitos são recomendados pelos desenvolvedores e baseados na no
 
 #### Hardware
 
-| Componentes   | Mínimo                | Recomendado                  |
-| ------------ | --------------------- | ---------------------------- |
-| CPU          | 2x 1 GHz              | 4x 2+ GHz                   |
-| RAM          | 512 MB                | 4+ GB                       |
-| Armazenamento| 10 GB                 | 50+ GB                      |
-| Largura de banda | 100 mbit/s (upload & download) | 500mbit/s (upload & download) Recomendado se vários usuários forem usar a nuvem |
+| Componentes   | Mínimo                 | Recomendado                 |
+| ------------- | ---------------------- | --------------------------- |
+| CPU           | 2x 1 GHz               | 4x 2+ GHz                   |
+| RAM           | 512 MB                 | 4+ GB                       |
+| Armazenamento | 10 GB                  | 50+ GB                      |
+| Largura de banda | 100 mbit/s (upload & download) | 500 mbit/s (upload & download) Recomendado se vários usuários forem usar a nuvem |
 
 #### Software
 
 | Plataforma       | Opções                                                      |
 | ---------------- | ------------------------------------------------------------ |
-| Sistema Operacional | Ubuntu (14.04, 16.04, 18.04), Debian(8,9,10), CentOS 6.5/7   |
+| Sistema Operacional | Ubuntu (14.04, 16.04, 18.04), Debian (8,9,10), CentOS 6.5/7   |
 | Banco de Dados   | MySQL ou MariaDB 5.5+ (recomendado), SQLite (apenas para testes e instâncias mínimas) |
 | Servidor Web     | Apache 2.4 com `mod_php` ou `php-fpm` (recomendado)         |
 | PHP              | 5.6, 7.0 (recomendado), 7.1 (recomendado), 7.2               |
 
 É necessário estabelecer uma conexão via cliente SSH para instalar a nuvem em um servidor Linux. Caso não saiba usar SSH, aqui está um guia de como fazer: [Acesso inicial (SSH)](vserver-linux-ssh.md)
 
-Uma vez conectando, você pode começar a instalar os pacotes necessários para a instalação do Nextcloud. Isso inclui a instalação de um servidor web e PHP.
+Uma vez conectado, você pode começar a instalar os pacotes necessários para a instalação do Nextcloud. Isso inclui a instalação do servidor web e do PHP.
 
 
 import Tabs from '@theme/Tabs';
@@ -76,7 +80,7 @@ echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /et
 # Passo 2: Instalar PHP 7.3
 sudo apt -y install php7.3
 
-# Passo 3: Instalar extensões PHP 7.3
+# Passo 3: Instalar extensões do PHP 7.3
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
@@ -90,7 +94,7 @@ echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /et
 # Passo 2: Instalar PHP 7.3
 sudo apt -y install php7.3
 
-# Passo 3: Instalar extensões PHP 7.3
+# Passo 3: Instalar extensões do PHP 7.3
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
@@ -99,7 +103,7 @@ sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.
 # Passo 1: Instalar PHP 7.3
 sudo apt -y install php php-common
 
-# Passo 2: Instalar extensões PHP 7.3
+# Passo 2: Instalar extensões do PHP 7.3
 sudo apt -y install php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
 ```
 
@@ -133,7 +137,7 @@ sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
 sudo apt-get install -y php7.3
 
-# Passo 3: Instalar extensões PHP 7.3
+# Passo 3: Instalar extensões do PHP 7.3
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
@@ -147,7 +151,7 @@ sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
 sudo apt-get install -y php7.3
 
-# Passo 3: Instalar extensões PHP 7.3
+# Passo 3: Instalar extensões do PHP 7.3
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
@@ -161,7 +165,7 @@ sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
 sudo apt-get install -y php7.3
 
-# Passo 3: Instalar extensões PHP 7.3
+# Passo 3: Instalar extensões do PHP 7.3
 sudo apt install php7.3-cli php7.3-fpm php7.3-json php7.3-pdo php7.3-mysql php7.3-zip php7.3-gd  php7.3-mbstring php7.3-curl php7.3-xml php7.3-bcmath php7.3-json
 ```
 
@@ -221,7 +225,7 @@ rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 # Passo 2: Instalar PHP 7.3
 yum --enablerepo=remi-php73 install php
 
-# Passo 3: Instalar extensões PHP 7.3
+# Passo 3: Instalar extensões do PHP 7.3
 yum --enablerepo=remi-php73 install php-xml php-soap php-xmlrpc php-mbstring php-json php-gd php-mcrypt
 ```
 
@@ -234,7 +238,7 @@ rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
 # Passo 2: Instalar PHP 7.3
 yum --enablerepo=remi-php73 install php
 
-# Passo 3: Instalar extensões PHP 7.3
+# Passo 3: Instalar extensões do PHP 7.3
 yum --enablerepo=remi-php73 install php-xml php-soap php-xmlrpc php-mbstring php-json php-gd php-mcrypt
 ```
 
@@ -272,7 +276,7 @@ Instalação do pacote:
 sudo apt-get install mariadb-server php-mysql
 ```
 
-Durante a instalação, será solicitado que você defina uma senha root. Se não houver solicitação de senha, a senha padrão é vazia. Isso não é seguro e deve ser alterado imediatamente!
+Durante a instalação, será solicitado que você defina uma senha root. Se não for solicitado, a senha padrão é em branco. Isso não é seguro e deve ser alterado imediatamente!
 
 O próximo passo é conectar ao servidor de banco de dados e criar o banco necessário:
 
@@ -311,7 +315,7 @@ Instalação do pacote:
 sudo apt-get install mysql-server php-mysql
 ```
 
-Durante a instalação, será solicitado que você defina uma senha root. Se não houver solicitação de senha, a senha padrão é vazia. Isso não é seguro e deve ser alterado imediatamente!
+Durante a instalação, será solicitado que você defina uma senha root. Se não for solicitado, a senha padrão é em branco. Isso não é seguro e deve ser alterado imediatamente!
 
 O próximo passo é conectar ao servidor de banco de dados e criar o banco necessário:
 
@@ -351,7 +355,7 @@ sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib
 ```
 
-Durante a instalação, será solicitado que você defina uma senha root. Se não houver solicitação de senha, a senha padrão é vazia. Isso não é seguro e deve ser alterado imediatamente!
+Durante a instalação, será solicitado que você defina uma senha root. Se não for solicitado, a senha padrão é em branco. Isso não é seguro e deve ser alterado imediatamente!
 
 O próximo passo é conectar ao servidor de banco de dados e criar o banco necessário:
 
@@ -377,7 +381,7 @@ grant all privileges on database mydb to myuser;
 FLUSH PRIVILEGES;
 ```
 
-Quando terminar, pressione Ctrl-D para sair do banco. Depois, você pode modificar o banco PostgreSQL via instalador web ou pelo arquivo **config.php**.
+Quando terminar, pressione Ctrl-D para sair do banco. Depois você pode modificar o banco PostgreSQL via instalador web ou via o arquivo **config.php**.
 
 ```
 <?php
@@ -407,7 +411,7 @@ Crie um novo banco SQLite 3
 sqlite3 DatabaseName.db
 ```
 
-Depois disso, o banco SQLite 3 pode ser modificado via instalador web ou pelo arquivo **config.php**.
+Depois disso, o banco SQLite 3 pode ser modificado via instalador web ou via o arquivo **config.php**.
 ```
 <?php
 $AUTOCONFIG = array(
@@ -455,7 +459,7 @@ A configuração do script de instalação aparece, onde um usuário root é cri
 
 **Diretório de Dados**
 
-É altamente recomendado colocar o diretório de dados fora do diretório raiz web (ou seja, fora de /var/www). A forma mais fácil é numa instalação nova. O diretório pode ser definido durante a configuração. Porém, o diretório deve ser criado antes e as permissões correspondentes configuradas. Os dados podem, por exemplo, ser armazenados em um diretório chamado Cloud no diretório home.
+É altamente recomendado colocar o diretório de dados fora do diretório raiz web (ou seja, fora de /var/www). A forma mais fácil de fazer isso é numa instalação nova. O diretório pode ser definido durante a configuração. Porém, o diretório deve ser criado antes e as permissões correspondentes configuradas. Os dados podem, por exemplo, ser armazenados em um diretório chamado Cloud no diretório home.
 
 
 ```
@@ -516,15 +520,15 @@ Além disso, todo o tráfego HTTP deve ser redirecionado para HTTPS usando um re
 
 ## Gerenciar Nextcloud
 
-O acesso ao Nextcloud é possível via navegador, assim como pelo smartphone e computador usando o app. As fontes para download estão aqui: https://nextcloud.com/install/#install-clients
+O acesso ao Nextcloud é possível via navegador, assim como via smartphone e computador usando o app. As fontes para download estão aqui: https://nextcloud.com/install/#install-clients
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aw6qpNE7TkwQeaP/preview)
 
-Nas configurações você pode ajustar várias opções mesmo após a instalação e ver informações importantes como logs, atividades. Isso inclui configurações extras de segurança (autenticação em dois fatores, criptografia, ... ), configurações de design (logo, cor, slogan, cabeçalho), configurações de acesso e muito mais.
+Nas configurações você pode ajustar várias opções mesmo após a instalação e visualizar informações importantes como logs e atividades. Isso inclui configurações adicionais de segurança (autenticação de dois fatores, criptografia, ...), configurações de design (logo, cor, slogan, cabeçalho), configurações de acesso e muito mais.
 
 **Apps**
 
-Além disso, existe a possibilidade de instalar apps adicionais além dos padrões. Você pode acessá-los pelo menu **Apps**.
+Além disso, existe a possibilidade de instalar apps adicionais além dos apps padrão. Você pode acessá-los pelo menu **Apps**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wKERd24E25668kt/preview)
 

@@ -16,7 +16,11 @@ Nextcloud ist eine Open-Source-Cloud-Lösung und ein Fork von Owncloud, gegründ
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kCndbKaFAaktERk/preview)
 
-Für optimale Performance, Stabilität und Funktionalität empfehlen wir folgendes Setup für das Hosting eines Nextcloud Servers. Der Nextcloud Server ist nicht kompatibel mit Windows und MacOS. Zumindest nicht ohne zusätzliche Virtualisierung oder ähnliche Workarounds.
+Um optimale Performance, Stabilität und Funktionalität zu gewährleisten, empfehlen wir folgendes Setup für das Hosting eines Nextcloud-Servers. Der Nextcloud-Server ist nicht kompatibel mit Windows und MacOS. Zumindest nicht ohne zusätzliche Virtualisierung oder ähnliche Workarounds.
+
+## Nextcloud mit dem One Click Apps Installer installieren
+
+Du kannst **Nextcloud** direkt über unseren **One Click Apps Installer** im VPS Webinterface installieren. Nach der ersten Einrichtung öffnest du den App-Katalog, suchst nach **Nextcloud** und startest die Installation mit deinen bevorzugten Projekt-, Umgebung- und Domain-Einstellungen. So bekommst du eine schnelle und benutzerfreundliche Möglichkeit, **Nextcloud** zu deployen und zu verwalten – ganz ohne manuelle Kommandozeilen-Installation, aber mit integriertem webbasiertem Management, Custom Domain Support und SSL-Bereitstellung, wo verfügbar.
 
 <InlineVoucher />
 
@@ -26,12 +30,12 @@ Die folgenden Anforderungen werden von den Entwicklern empfohlen und basieren au
 
 #### Hardware
 
-| Komponenten     | Minimum                | Empfohlen                   |
-| -------------- | ---------------------- | --------------------------- |
-| CPU            | 2x 1 GHz               | 4x 2+ GHz                   |
-| RAM            | 512 MB                 | 4+ GB                       |
-| Speicher       | 10 GB                  | 50+ GB                      |
-| Bandbreite     | 100 Mbit/s (Up & Down) | 500 Mbit/s (Up & Down) Empfohlen, wenn mehrere Nutzer die Cloud verwenden sollen |
+| Komponenten     | Minimum                | Empfohlen                  |
+| -------------- | ---------------------- | ------------------------- |
+| CPU            | 2x 1 GHz               | 4x 2+ GHz                 |
+| RAM            | 512 MB                 | 4+ GB                     |
+| Speicher       | 10 GB                  | 50+ GB                    |
+| Bandbreite     | 100 Mbit/s (Up & Down) | 500 Mbit/s (Up & Down) Empfohlen, wenn mehrere Nutzer die Cloud verwenden |
 
 #### Software
 
@@ -42,9 +46,9 @@ Die folgenden Anforderungen werden von den Entwicklern empfohlen und basieren au
 | Webserver        | Apache 2.4 mit `mod_php` oder `php-fpm` (empfohlen)           |
 | PHP              | 5.6, 7.0 (empfohlen), 7.1 (empfohlen), 7.2                   |
 
-Um die Cloud auf einem Linux Server zu installieren, musst du dich per SSH-Client verbinden. Falls du nicht weißt, wie SSH funktioniert, hier eine Anleitung: [Erstzugang (SSH)](vserver-linux-ssh.md)
+Für die Installation der Cloud auf einem Linux Server muss eine Verbindung über einen SSH-Client hergestellt werden. Falls du nicht sicher bist, wie SSH funktioniert, hier eine Anleitung: [Erster Zugriff (SSH)](vserver-linux-ssh.md)
 
-Sobald die Verbindung steht, kannst du die nötigen Pakete installieren, die für die Nextcloud-Installation gebraucht werden. Dazu gehört die Installation eines Webservers und PHP.
+Sobald die Verbindung steht, kannst du die notwendigen Pakete installieren, die für die eigentliche Nextcloud-Installation gebraucht werden. Dazu gehört die Installation eines Webservers sowie PHP.
 
 
 import Tabs from '@theme/Tabs';
@@ -330,7 +334,6 @@ CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'DEIN_PASSWORT_HIER';
 Überspringe diesen Schritt nicht, indem du den Root-User nutzt. Das ist unsicher und gefährdet deine Daten!
 :::
 
-
 Zum Schluss werden dem neuen Benutzer die Rechte zugewiesen:
 
 ```SQL
@@ -437,7 +440,7 @@ Sobald dieser Schritt abgeschlossen ist, kannst du das Installationsskript start
 **http://domain.tld/nextcloud/** 
 :::
 
-Das Installationsskript erscheint, in dem ein Root-User angelegt und die Datenbankinformationen definiert werden:
+Das Installationsskript erscheint, in dem ein Root-User erstellt und die Datenbankinformationen definiert werden:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/79kgamkS36Dgi9x/preview)
 
@@ -516,22 +519,22 @@ Außerdem sollte sämtlicher HTTP-Traffic per permanentem Redirect mit Statuscod
 
 ## Nextcloud verwalten
 
-Der Zugriff auf Nextcloud ist über den Browser sowie über Smartphone und PC per App möglich. Die Downloadquellen findest du hier: https://nextcloud.com/install/#install-clients
+Der Zugriff auf Nextcloud ist über den Browser sowie über Smartphone und PC per App möglich. Die Download-Quellen findest du hier: https://nextcloud.com/install/#install-clients
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aw6qpNE7TkwQeaP/preview)
 
-Unter den Einstellungen kannst du auch nach der Einrichtung noch einige Optionen anpassen und wichtige Infos wie Logs, Aktivitäten einsehen. Dazu gehören zusätzliche Sicherheitsfeatures (Zwei-Faktor-Authentifizierung, Verschlüsselung, ...), Design-Einstellungen (Logo, Farbe, Slogan, Header), Zugriffsrechte und vieles mehr.
+Unter den Einstellungen kannst du auch nach der Einrichtung noch einige Optionen anpassen und wichtige Infos wie Logs, Aktivitäten einsehen. Dazu gehören zusätzliche Sicherheitsfeatures (Zwei-Faktor-Authentifizierung, Verschlüsselung, ...), Design-Anpassungen (Logo, Farbe, Slogan, Header), Zugriffsrechte und vieles mehr.
 
 **Apps**
 
-Außerdem kannst du neben den Standard-Apps weitere Apps installieren. Diese findest du im Menüpunkt **Apps**.
+Außerdem kannst du neben den Standard-Apps auch weitere Apps installieren. Diese findest du im Menüpunkt **Apps**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wKERd24E25668kt/preview)
 
 Mit solchen **Apps** kannst du Nextcloud noch individueller an deine Wünsche anpassen.
 
 
-## Abschluss
+## Fazit
 
 Glückwunsch, du hast Nextcloud erfolgreich installiert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

@@ -18,9 +18,13 @@ Joplin es una aplicación de código abierto para tomar notas y gestionar tareas
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/bqFberi2tRqobRn/preview)
 
-¿Estás pensando en hospedar este servicio por tu cuenta? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
+¿Estás pensando en hospedar este servicio tú mismo? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que necesitas tener en cuenta.
 
 
+
+## Instala Joplin con el Instalador de Apps One Click
+
+Puedes instalar **Joplin** directamente a través de nuestro **Instalador de Apps One Click** en la interfaz web del VPS. Tras completar la configuración inicial de apps, abre el catálogo de aplicaciones, busca **Joplin** y comienza el despliegue con tu proyecto, entorno y configuración de dominio preferidos. Esto te ofrece una forma rápida y sencilla de desplegar y gestionar **Joplin** sin necesidad de configuración manual por línea de comandos, mientras aprovechas la gestión integrada basada en web, soporte para dominios personalizados y provisión de SSL donde esté disponible.
 
 <InlineVoucher />
 
@@ -28,7 +32,7 @@ Joplin es una aplicación de código abierto para tomar notas y gestionar tareas
 
 ## Requisitos Previos
 
-Antes de instalar **Joplin**, asegúrate de que tu entorno de hosting cumpla con los siguientes requisitos para garantizar una instalación sin problemas y un rendimiento óptimo.
+Antes de instalar **Joplin**, asegúrate de que tu entorno de hosting cumple con los siguientes requisitos para garantizar una instalación fluida y un rendimiento óptimo.
 
 | Hardware | Mínimo | Recomendación ZAP-Hosting |
 | ---------- | ------------ | -------------------------- |
@@ -42,7 +46,7 @@ Antes de instalar **Joplin**, asegúrate de que tu entorno de hosting cumpla con
 ## Instalación
 Ahora que se han cumplido todos los requisitos y realizado las preparaciones necesarias, puedes proceder con la instalación de la aplicación Joplin. Para ello, descarga la aplicación desde la web oficial: https://joplinapp.org/download/
 
-Ejecuta el instalador de Joplin y sigue los pasos indicados. 
+Ejecuta el instalador de Joplin y sigue los pasos indicados.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sRkz7mJdB6ispSf/download)
 
@@ -56,10 +60,10 @@ Después de instalar Joplin, deberías configurar los ajustes básicos para adap
 Joplin soporta múltiples destinos de sincronización como Nextcloud, Dropbox, OneDrive o WebDAV. Selecciona tu proveedor preferido en “Sincronización” e ingresa tus credenciales. Esto te permite mantener las notas actualizadas en todos tus dispositivos.
 
 **Cifrado**  
-Para proteger tus notas sincronizadas, activa el cifrado de extremo a extremo en la configuración de “Cifrado”. Se generará una clave que debe configurarse en todos los dispositivos que accedan a tus notas.
+Para asegurar tus notas sincronizadas, activa el cifrado de extremo a extremo en los ajustes de “Cifrado”. Se generará una clave que debe configurarse en todos los dispositivos que accedan a tus notas.
 
 **Editor y Apariencia**  
-Joplin usa Markdown para las notas. En la configuración del “Editor” puedes definir si la vista previa se muestra automáticamente y ajustar el tipo y tamaño de fuente.
+Joplin usa Markdown para las notas. En los ajustes de “Editor” puedes definir si la vista previa se muestra automáticamente y ajustar el tipo y tamaño de fuente.
 
 **Plugins y Extensiones**  
 El gestor de plugins integrado te permite instalar funciones adicionales, como soporte para diagramas, integración de calendario o gestión avanzada de etiquetas.
@@ -82,7 +86,3 @@ Con estos ajustes básicos, Joplin está listo para usarse en múltiples escenar
 - [Joplinapp.org/help/](https://joplinapp.org/help/) - Centro de Ayuda de Joplin
 
 ¿Tienes preguntas específicas que no se abordan aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
-
-
-
-<InlineVoucher />

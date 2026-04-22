@@ -1,6 +1,6 @@
 ---
 id: server-linux-n8n
-title: "Configura n8n en un Servidor Linux - Crea Automatizaciones de Flujo de Trabajo Poderosas"
+title: "Configura n8n en un Servidor Linux - Crea Automatizaciones de Flujo de Trabajo Potentes"
 description: "Descubre cómo instalar y configurar n8n para autoalojamiento y crear una automatización de flujo de trabajo con IA que facilite tu trabajo → Aprende más ahora"
 sidebar_label: Instalar n8n
 services:
@@ -20,7 +20,11 @@ import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 El soporte para autoalojamiento y el editor Low Code hacen de n8n el favorito de cualquier Dev. Si quieres máximo control, personalizaciones y mantener los costos bajos a largo plazo, la opción de autoalojamiento es una excelente elección para ti.
 
-¿Planeas alojar n8n tú mismo? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
+¿Planeas alojar n8n tú mismo? Te guiaremos paso a paso para configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
+
+## Instala n8n con el Instalador de Apps One Click
+
+Puedes instalar **n8n** directamente a través de nuestro **Instalador de Apps One Click** en la interfaz web del VPS. Tras completar la configuración inicial de apps, abre el catálogo de apps, busca **n8n** y comienza el despliegue con tu proyecto, entorno y configuración de dominio preferidos. Esto te ofrece una forma rápida y amigable de desplegar y gestionar **n8n** sin configuraciones manuales por línea de comandos, mientras aprovechas la gestión integrada basada en web, soporte para dominios personalizados y provisión de SSL donde esté disponible.
 
 <InlineVoucher />
 
@@ -36,16 +40,16 @@ n8n ofrece más de 1367 integraciones como Google Sheets, Telegram, MySQL, Slack
 
 Aunque n8n es ligero en su núcleo, el uso de recursos puede aumentar con el tiempo según la cantidad de flujos de trabajo, llamadas API y nodos con datos pesados. Recomendamos los siguientes requisitos de hardware para alojar n8n en tu VPS.
 
-| Hardware   | Mínimo      | Recomendado               |
-| ---------- | ----------- | ------------------------- |
-| CPU        | 1 núcleo vCPU | 2 núcleos vCPU           |
-| RAM        | 2 GB        | 4 GB                      |
-| Espacio en disco | 20 GB   | 50 GB                     |
+| Hardware   | Mínimo      | Recomendado                |
+| ---------- | ------------ | -------------------------- |
+| CPU        | 1 núcleo vCPU | 2 núcleos vCPU             |
+| RAM        | 2 GB         | 4 GB                       |
+| Espacio en disco | 20 GB        | 50 GB                      |
 <InlineServiceLink />
 
 ## Preparación
 
-Antes de comenzar, necesitamos instalar Docker y actualizar los paquetes del sistema. Ya tenemos una guía sobre [Instalar Docker](dedicated-linux-docker.md). Asegúrate de completar esto antes de empezar con la instalación.
+Antes de comenzar, necesitamos instalar Docker y actualizar los paquetes del sistema. Ya tenemos una guía sobre [Instalar Docker](dedicated-linux-docker.md). Asegúrate de completar esto antes de iniciar la instalación.
 
 ## Instalación
 Después de instalar Docker en tu servidor, ejecuta el siguiente comando para verificar la instalación:
@@ -55,7 +59,7 @@ docker --version
 docker compose version
 ```
 
-### Crear un archivo `.env`
+### Crea un archivo `.env`
 
 Crea un directorio de proyecto para almacenar los archivos locales de n8n y las configuraciones de entorno de n8n y navega dentro:
 
@@ -79,33 +83,33 @@ SUBDOMAIN=silver-octopus-xxxxx
 # Zona horaria opcional que se usa para Cron y otros nodos de programación
 GENERIC_TIMEZONE=Europe/Berlin
 
-# Dirección de email para la creación del certificado TLS/SSL
+# La dirección de correo para la creación del certificado TLS/SSL
 SSL_EMAIL=hello@zap-hosting.com
 ```
 
 :::info
-Para encontrar DOMAIN_NAME y SUBDOMAIN, ve a la página de producto de tu VPS en ZAP-Hosting y localiza tu `Nombre de host`.
+Para encontrar DOMAIN_NAME y SUBDOMAIN, ve a la página de tu producto ZAP-Hosting, accede a tu VPS y localiza tu `Nombre de host`.
 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7DoXD5F9m2oYTXX/preview)
 
 :::
 
-Introduce la parte `zap.cloud` en DOMAIN_NAME y la parte anterior en SUBDOMAIN (ejemplo silver-octopus-xxxxx).
+Ingresa la parte `zap.cloud` en DOMAIN_NAME y la parte anterior en SUBDOMAIN (ejemplo silver-octopus-xxxxx).
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/EaQn97J25TpwDSa/preview)
 
 :::warning Requisito HTTPS
-No uses una dirección IP directa en el archivo .env. n8n requiere conexión HTTPS para acceder al sitio web, y los certificados SSL solo se emiten para dominios, no para direcciones IP directas.
+No uses una dirección IP directa en el archivo .env. n8n requiere una conexión HTTPS para acceder al sitio web, y los certificados SSL solo se emiten para dominios, no para direcciones IP directas.
 :::
 
-Si quieres alojar n8n en tu propio dominio, crea un subdominio para n8n creando un registro A en el administrador DNS de tu dominio apuntando a la IP del VPS que usas.
+Si quieres alojar n8n en tu propio dominio, crea un subdominio para n8n añadiendo un registro A en el administrador DNS de tu dominio apuntando a la IP del VPS que usas.
 
-| Nombre           | Tipo | Valor          | TTL  | Prioridad |
-| ---------------- | ---- | -------------- | ---- | --------- |
-| n8n (Subdominio) | A    | Dirección IPv4 | 1440 | 0         |
+| Nombre           | Tipo | Valor           | TTL  | Prioridad |
+| ---------------- | ---- | --------------- | ---- | -------- |
+| n8n (Subdominio) | A    | Dirección IPv4  | 1440 | 0        |
 
-### Crear directorio para archivos locales
+### Crea directorio para archivos locales
 
 Dentro del directorio del proyecto, crea otro directorio llamado `local-files` para compartir archivos entre la instancia de n8n y el sistema host:
 
@@ -113,7 +117,7 @@ Dentro del directorio del proyecto, crea otro directorio llamado `local-files` p
 mkdir local-files
 ```
 
-### Crear archivo Docker Compose
+### Crea archivo Docker Compose
 
 Crea el archivo Docker Compose `compose.yaml` usando `nano compose.yaml` y pega el siguiente contenido:
 
@@ -197,7 +201,7 @@ sudo docker compose stop
 
 ### Acceder a n8n
 
-Después de iniciar n8n, el siguiente paso es acceder a él con un navegador web. Ingresa la URL (o el nombre de host si lo usaste) para entrar a la página de configuración. Aquí, debes crear una cuenta de Admin antes de continuar.
+Después de iniciar n8n, el siguiente paso es acceder con un navegador web. Ingresa la URL (o el nombre de host si lo usaste) para entrar a la página de configuración. Aquí, debes crear una cuenta de Admin antes de continuar.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3SNBcAtXco8RTQr/preview)
 
@@ -205,19 +209,19 @@ Después de iniciar n8n, el siguiente paso es acceder a él con un navegador web
 ¡Asegúrate de recordar tu contraseña para uso futuro!
 :::
 
-Luego, aparecerá una pequeña encuesta pidiéndote algunos datos básicos.
+Luego, aparecerá una pequeña encuesta solicitando algunos datos básicos.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/bY8sDwenKtSEBg4/preview)
 
-Opcionalmente, puedes acceder gratis a algunas funciones de pago que requieren que ingreses tu email y recibas un correo con la clave de licencia. Si te interesa, ingresa tu correo y solicita la clave de licencia.
+Opcionalmente, puedes obtener acceso gratuito a algunas funciones de pago ingresando tu correo electrónico y recibiendo un email con la clave de licencia. Si te interesa, ingresa tu correo y solicita la clave.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7jEtswn3s3gZ3Es/preview)
 
-La clave de licencia llegará instantáneamente a tu email. Copia esa clave y pégala en Configuración > Uso y Planes > Ingresar clave de activación.
+La clave de licencia llegará instantáneamente a tu correo. Copia esa clave y pégala en Configuración > Uso y Planes > Ingresar clave de activación.
 
-### Crear el primer flujo de trabajo
+### Crear tu primer flujo de trabajo
 
-Después de eso, podrás visitar el panel y comenzar a usar n8n ¡de inmediato!
+Después de eso, podrás visitar el panel y comenzar a usar n8n de inmediato.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RbFAoJ9ZRD9m8Px/preview)
 
@@ -229,13 +233,12 @@ Ahora puedes empezar con un lienzo en blanco o trabajar con una plantilla prehec
 
 ## Conclusión y más recursos
 
-¡Genial! Has instalado n8n exitosamente en tu servidor y puedes empezar a usarlo ya. También te recomendamos echar un vistazo a los siguientes recursos, que pueden darte ayuda y guía adicional durante la configuración de tu servidor:
+¡Genial! Has instalado n8n exitosamente en tu servidor y puedes empezar a usarlo ya. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
 
 - [n8n.io](https://n8n.io/) - Sitio oficial
 - [docs.n8n.io](https://docs.n8n.io/) - Documentación de n8n
 
-¿Tienes preguntas específicas que no se cubren aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
+¿Tienes preguntas específicas que no se cubren aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, disponible a diario para ayudarte 🙂
 
 
 
-<InlineVoucher />

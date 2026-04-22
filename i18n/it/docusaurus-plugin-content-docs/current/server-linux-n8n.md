@@ -1,7 +1,7 @@
 ---
 id: server-linux-n8n
 title: "Configura n8n su un Server Linux - Crea Automazioni Workflow Potenti"
-description: "Scopri come installare e configurare n8n in self-hosting per costruire automazioni AI che semplificano il tuo lavoro → Scopri di più ora"
+description: "Scopri come installare e configurare n8n per l’hosting autonomo e costruire automazioni AI che semplificano il tuo lavoro → Scopri di più ora"
 sidebar_label: Installa n8n
 services:
   - vserver-service-n8n
@@ -14,27 +14,31 @@ import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 ## Introduzione
 
-[n8n](https://n8n.io/) è un editor visuale top per iterazioni rapide, dove puoi costruire workflow di automazione e vedere i risultati all’istante. Perfetto sia per automazioni quotidiane che per workflow AI complessi.
+[n8n](https://n8n.io/) è un editor visuale top per iterazioni rapide, dove puoi costruire workflow di automazione e vedere i risultati all’istante. Perfetto sia per automazioni quotidiane che per workflow complessi con agenti AI.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/skzPCRajMZPbfw3/preview)
 
-Il supporto al Self Hosting e l’Editor Low Code rendono n8n il preferito di ogni Dev. Se vuoi il massimo controllo, personalizzazioni e mantenere bassi i costi nel tempo, l’opzione Self-Hosted è la scelta top per te.
+Il supporto per Self Hosting e l’Editor Low Code rendono n8n il preferito di ogni Dev. Se vuoi il massimo controllo, personalizzazioni e contenere i costi nel tempo, l’opzione Self-Hosted è la scelta top per te.
 
-Vuoi ospitare n8n da solo? Ti guidiamo passo passo su come installarlo e configurarlo, con tutto quello che devi sapere.
+Vuoi ospitare n8n in autonomia? Ti guidiamo passo passo su come installarlo e configurarlo, con tutto quello che devi sapere.
+
+## Installa n8n con il One Click Apps Installer
+
+Puoi installare **n8n** direttamente tramite il nostro **One Click Apps Installer** nell’interfaccia web del VPS. Dopo aver completato la configurazione iniziale delle app, apri il catalogo app, cerca **n8n** e avvia il deployment scegliendo progetto, ambiente e dominio preferiti. Così hai un modo veloce e user-friendly per gestire **n8n** senza setup manuale da linea di comando, con gestione web integrata, supporto per domini personalizzati e provisioning SSL dove disponibile.
 
 <InlineVoucher />
 
 
 
-## Casi d’uso di n8n
+## Use case di n8n
 
-n8n si può usare in tantissimi scenari quotidiani ed è perfetto per chiunque voglia automatizzare task, usare un editor low code, costruire agenti AI, gestire automazioni lead, potenziare CRM, operazioni IT, sicurezza, prototipazione backend e molto altro! n8n è ideale sia per principianti che per esperti.
+n8n si usa in tantissimi scenari quotidiani ed è perfetto per chiunque voglia automatizzare task, usare un editor low code, costruire agenti AI, gestire automazioni lead, potenziare CRM, operazioni IT, sicurezza, prototipazione backend e molto altro! n8n è adatto sia ai principianti che agli esperti.
 
-n8n offre oltre 1367 integrazioni come Google Sheets, Telegram, MySQL, Slack, Discord, Postgres con combo di automazioni super trendy come HubSpot e Salesforce, Twilio e WhatsApp, GitHub e Jira, Asana e Slack, Asana e Salesforce, Jira e Slack e tantissimi template dalla community.
+n8n offre oltre 1367 integrazioni come Google Sheets, Telegram, MySQL, Slack, Discord, Postgres con combo di automazioni top come HubSpot e Salesforce, Twilio e WhatsApp, GitHub e Jira, Asana e Slack, Asana e Salesforce, Jira e Slack e tantissimi template dalla community.
 
 ## Prerequisiti
 
-Anche se n8n è leggero di base, l’uso di risorse può aumentare col tempo in base al numero di workflow, chiamate API, nodi pesanti di dati. Ti consigliamo questi requisiti hardware per ospitare n8n sul tuo VPS.
+Anche se n8n è leggero di base, l’uso di risorse può crescere in base al numero di workflow, chiamate API, nodi pesanti di dati. Consigliamo questi requisiti hardware per ospitare n8n sul tuo VPS.
 
 | Hardware   | Minimo      | Consigliato                |
 | ---------- | ------------ | -------------------------- |
@@ -48,7 +52,7 @@ Anche se n8n è leggero di base, l’uso di risorse può aumentare col tempo in 
 Prima di iniziare, dobbiamo installare Docker e aggiornare i pacchetti di sistema. Abbiamo già una guida su [Come installare Docker](dedicated-linux-docker.md). Assicurati di averla completata prima di partire con l’installazione.
 
 ## Installazione
-Dopo aver installato Docker sul server, esegui questo comando per verificare l’installazione:
+Dopo aver installato Docker sul server, verifica l’installazione con questi comandi:
 
 ```
 docker --version
@@ -57,7 +61,7 @@ docker compose version
 
 ### Crea un file `.env`
 
-Crea una cartella progetto per salvare i file locali di n8n e le configurazioni ambiente, poi entra dentro:
+Crea una cartella progetto per salvare i file locali di n8n e le configurazioni ambiente, poi entra nella cartella:
 
 ```
 mkdir n8n-compose
@@ -67,11 +71,11 @@ cd n8n-compose
 Dentro `n8n-compose`, crea un file `.env` con `nano .env` e inserisci questo codice con la configurazione ambiente di n8n.
 
 ```
-# DOMAIN_NAME e SUBDOMAIN insieme determinano da dove sarà raggiungibile n8n
-# Il dominio di primo livello da usare
+# DOMAIN_NAME e SUBDOMAIN insieme definiscono dove sarà raggiungibile n8n
+# Dominio di primo livello da usare
 DOMAIN_NAME=zap.cloud
 
-# Il sottodominio da usare
+# Sottodominio da usare
 SUBDOMAIN=silver-octopus-xxxxx
 
 # L’esempio sopra serve n8n su: https://silver-octopus-xxxxx.zap.cloud
@@ -84,7 +88,7 @@ SSL_EMAIL=hello@zap-hosting.com
 ```
 
 :::info
-Per trovare DOMAIN_NAME e SUBDOMAIN, vai sulla pagina prodotto ZAP-Hosting del tuo VPS e cerca il tuo `Hostname`.
+Per trovare DOMAIN_NAME e SUBDOMAIN, vai sulla pagina prodotto ZAP-Hosting del tuo VPS e cerca il `Hostname`.
 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7DoXD5F9m2oYTXX/preview)
@@ -96,10 +100,10 @@ Inserisci la parte `zap.cloud` in DOMAIN_NAME e la parte precedente in SUBDOMAIN
 ![img](https://screensaver01.zap-hosting.com/index.php/s/EaQn97J25TpwDSa/preview)
 
 :::warning HTTPS Obbligatorio
-Non usare un indirizzo IP nudo nel file .env. n8n richiede una connessione HTTPS per accedere al sito, e i certificati SSL vengono emessi solo per domini, non per IP nudi.
+Non usare un indirizzo IP nudo nel file .env. n8n richiede una connessione HTTPS per accedere al sito, e i certificati SSL sono emessi solo per domini, non per IP nudi.
 :::
 
-Se vuoi ospitare n8n sul tuo dominio personale, crea un sottodominio per n8n aggiungendo un record A nel DNS del tuo dominio che punti all’IP del VPS che usi.
+Se vuoi ospitare n8n su un tuo dominio, crea un sottodominio per n8n aggiungendo un record A nel DNS del dominio che punti all’IP del VPS che usi.
 
 | Nome             | Tipo | Valore           | TTL  | Priorità |
 | ---------------- | ---- | --------------- | ---- | -------- |
@@ -107,7 +111,7 @@ Se vuoi ospitare n8n sul tuo dominio personale, crea un sottodominio per n8n agg
 
 ### Crea la cartella per i file locali
 
-Dentro la cartella progetto, crea un’altra cartella chiamata `local-files` per condividere file tra l’istanza n8n e il sistema host:
+Dentro la cartella progetto, crea una cartella `local-files` per condividere file tra l’istanza n8n e il sistema host:
 
 ```
 mkdir local-files
@@ -197,23 +201,23 @@ sudo docker compose stop
 
 ### Accesso a n8n
 
-Dopo aver avviato n8n, apri il browser e vai all’URL (o Hostname se lo hai usato) per entrare nella pagina di setup. Qui devi creare un account Admin prima di procedere.
+Dopo aver avviato n8n, apri il browser e vai all’URL (o Hostname se lo hai usato) per accedere alla pagina di setup. Qui devi creare un account Admin prima di procedere.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3SNBcAtXco8RTQr/preview)
 
 :::info Nota sulla Password
-Ricordati la password per usi futuri!
+Ricordati bene la password per usi futuri!
 :::
 
-Poi ti apparirà un piccolo sondaggio per inserire qualche dettaglio base.
+Poi comparirà un piccolo sondaggio per inserire qualche dettaglio base.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/bY8sDwenKtSEBg4/preview)
 
-Facoltativamente, puoi accedere gratis ad alcune funzionalità a pagamento inserendo la tua email per ricevere una License Key. Se ti interessa, inserisci la tua email e richiedi la License Key.
+Facoltativamente, puoi accedere gratis ad alcune funzionalità a pagamento inserendo la tua email per ricevere una License Key. Se ti interessa, inserisci la mail e richiedi la License Key.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7jEtswn3s3gZ3Es/preview)
 
-La License Key arriverà subito via email. Copiala e incollala in Impostazioni > Uso e Piani > Inserisci Chiave di Attivazione.
+La License Key arriverà subito via email. Copiala e incollala in Impostazioni > Uso e Piani > Inserisci Chiave Attivazione.
 
 ### Crea il primo Workflow
 
@@ -229,11 +233,9 @@ Ora puoi partire da una tela bianca o usare un template già pronto. La tua inst
 
 ## Conclusione e Risorse Extra
 
-Grande! Hai installato n8n sul tuo server e puoi iniziare a usarlo subito. Ti consigliamo anche di dare un’occhiata a queste risorse, che ti possono aiutare durante la configurazione:
+Grande! Hai installato n8n sul tuo server e puoi iniziare subito a usarlo. Ti consigliamo anche di dare un’occhiata a queste risorse, che ti possono aiutare durante la configurazione del server:
 
 - [n8n.io](https://n8n.io/) - Sito Ufficiale
 - [docs.n8n.io](https://docs.n8n.io/) - Documentazione n8n
 
-Hai domande specifiche non coperte qui? Per qualsiasi dubbio o supporto, contatta pure il nostro team di assistenza, sempre pronto ad aiutarti ogni giorno! 🙂
-
-<InlineVoucher />
+Hai domande specifiche non coperte qui? Per qualsiasi dubbio o supporto, contatta pure il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂

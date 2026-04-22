@@ -5025,7 +5025,7 @@ const sidebars = {
     "vserver-rescue",
     "vserver-dedicated-comparison",
     "vserver-ballooning", 
-    "verver-one-click-apps-installer",
+    "vserver-one-click-apps-installer",
     {
       type: "category",
       label: "Troubleshooting",

@@ -22,19 +22,23 @@ Självhosting-stöd och Low Code Editor gör n8n till varje utvecklares favorit.
 
 Planerar du att hosta n8n själv? Vi guidar dig steg för steg hur du sätter upp och konfigurerar det, plus allt du behöver ha koll på.
 
+## Installera n8n med One Click Apps Installer
+
+Du kan installera **n8n** direkt via vår **One Click Apps Installer** i VPS-webbgränssnittet. Efter att ha slutfört den initiala app-installationen, öppna appkatalogen, sök efter **n8n** och starta deployment med dina valda projekt-, miljö- och domäninställningar. Det ger dig ett snabbt och användarvänligt sätt att köra och hantera **n8n** utan manuell kommandoradskonfiguration, samtidigt som du får fördelarna av integrerad webbaserad hantering, stöd för egna domäner och SSL-certifikat där det finns.
+
 <InlineVoucher />
 
 
 
 ## Användningsområden för n8n
 
-n8n kan användas i många olika vardagsscenarion och passar alla som vill automatisera uppgifter, använda low code-editor, bygga AI-agenter, leda automationer, boosta CRM, IT-drift, säkerhetsoperationer, backend-prototypning och mycket mer! n8n är perfekt för både nybörjare och proffs.
+n8n kan användas i massor av olika vardagsscenarion och passar alla som vill automatisera uppgifter, använda low code-editor, bygga AI-agenter, leda automationer, boosta CRM, IT-drift, säkerhetsoperationer, backend-prototypning och mycket mer! n8n är perfekt för både nybörjare och proffs.
 
 n8n erbjuder över 1367 integrationer som Google Sheets, Telegram, MySQL, Slack, Discord, Postgres med trendiga automationskombinationer som HubSpot och Salesforce, Twilio och WhatsApp, GitHub och Jira, Asana och Slack, Asana och Salesforce, Jira och Slack och massor av community-mallar.
 
 ## Förutsättningar
 
-Även om n8n är lättviktigt i grunden kan resursanvändningen öka över tid beroende på antal arbetsflöden, API-anrop och datatungt innehåll. Vi rekommenderar följande hårdvarukrav för att hosta n8n på din VPS.
+Även om n8n är lättviktigt i grunden kan resursanvändningen öka över tid beroende på mängden arbetsflöden, API-anrop och datatungt innehåll. Vi rekommenderar följande hårdvarukrav för att hosta n8n på din VPS.
 
 | Hårdvara   | Minsta       | Rekommenderat             |
 | ---------- | ------------ | ------------------------- |
@@ -45,7 +49,7 @@ n8n erbjuder över 1367 integrationer som Google Sheets, Telegram, MySQL, Slack,
 
 ## Förberedelser
 
-Innan vi börjar behöver vi installera Docker och uppdatera systempaketen. Vi har redan en guide för [Installera Docker](dedicated-linux-docker.md). Se till att du gjort det innan du startar installationen.
+Innan du börjar behöver vi installera Docker och uppdatera systempaketen. Vi har redan en guide för [Installera Docker](dedicated-linux-docker.md). Se till att du gjort detta innan du fortsätter med installationen.
 
 ## Installation
 När du har installerat Docker på din server, kör följande kommando för att verifiera installationen:
@@ -64,7 +68,7 @@ mkdir n8n-compose
 cd n8n-compose
 ```
 
-Inuti `n8n-compose`-mappen, skapa en `.env`-fil med `nano .env` och lägg in följande kod med n8n:s miljöinställningar.
+Inuti `n8n-compose`-mappen, skapa en `.env`-fil med `nano .env` och lägg in följande kod med n8n-miljöinställningar.
 
 ```
 # DOMAIN_NAME och SUBDOMAIN tillsammans bestämmer var n8n kommer vara åtkomligt
@@ -74,7 +78,7 @@ DOMAIN_NAME=zap.cloud
 # Subdomänen som tjänsten ska köras från
 SUBDOMAIN=silver-octopus-xxxxx
 
-# Exemplet ovan gör n8n åtkomligt på: https://silver-octopus-xxxxx.zap.cloud
+# Exemplet ovan gör n8n tillgängligt på: https://silver-octopus-xxxxx.zap.cloud
 
 # Valfri tidszon som används av Cron och andra schemaläggningsnoder
 GENERIC_TIMEZONE=Europe/Berlin
@@ -96,18 +100,18 @@ Fyll i `zap.cloud` i DOMAIN_NAME och den första delen i SUBDOMAIN (t.ex. silver
 ![img](https://screensaver01.zap-hosting.com/index.php/s/EaQn97J25TpwDSa/preview)
 
 :::warning HTTPS-krav
-Använd inte enbart IP-adress i .env-filen. n8n kräver HTTPS-anslutning för att nå webbplatsen, och SSL-certifikat utfärdas endast för domäner, inte för rena IP-adresser.
+Använd inte enbart en IP-adress i .env-filen. n8n kräver HTTPS-anslutning för att komma åt webbplatsen, och SSL-certifikat utfärdas endast för domäner, inte för rena IP-adresser.
 :::
 
-Vill du hosta n8n på din egen domän istället, skapa en subdomän för n8n genom att lägga till en A-post i din domäns DNS-hanterare som pekar på VPS:ens IP-adress.
+Vill du hosta n8n på din egen domän istället, skapa en subdomän för n8n genom att lägga till en A-post i din domäns DNS-hanterare som pekar på VPS:ens IP-adress du använder.
 
 | Namn             | Typ  | Värde          | TTL  | Prioritet |
-| ---------------- | ---- | -------------- | ---- | -------- |
-| n8n (Subdomän)   | A    | IPv4-adress    | 1440 | 0        |
+| ---------------- | ---- | -------------- | ---- | --------- |
+| n8n (Subdomän)   | A    | IPv4-adress    | 1440 | 0         |
 
 ### Skapa mapp för lokala filer
 
-Inuti projektmappen, skapa en mapp som heter `local-files` för att dela filer mellan n8n-instansen och värdsystemet:
+Inuti projektmappen, skapa en ny mapp som heter `local-files` för att dela filer mellan n8n-instansen och värdsystemet:
 
 ```
 mkdir local-files
@@ -197,23 +201,23 @@ sudo docker compose stop
 
 ### Komma åt n8n
 
-Efter att ha startat n8n är nästa steg att öppna det i webbläsaren. Skriv in URL:en (eller Hostname om du använde det) för att komma till installationssidan. Här måste du skapa ett Admin-konto innan du går vidare.
+Efter att ha startat n8n är nästa steg att öppna det i en webbläsare. Skriv in URL:en (eller Hostname om du använde det) för att komma till installationssidan. Här måste du skapa ett Admin-konto innan du går vidare.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3SNBcAtXco8RTQr/preview)
 
 :::info Lösenordsnotis
-Se till att du kommer ihåg ditt lösenord för framtida användning!
+Se till att du kommer ihåg ditt lösenord för framtida inloggningar!
 :::
 
-Nästa steg är en kort enkät som dyker upp och ber dig fylla i några grundläggande uppgifter.
+Nästa steg är en kort enkät där du får fylla i några grundläggande uppgifter.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/bY8sDwenKtSEBg4/preview)
 
-Valfritt får du gratis tillgång till vissa betalfunktioner genom att ange din e-post och få en licensnyckel skickad till dig. Om du är intresserad, skriv in din e-postadress och begär en licensnyckel.
+Valfritt kan du få gratis tillgång till vissa betalfunktioner genom att ange din e-post och få en licensnyckel skickad till dig. Om du är intresserad, skriv in din e-postadress och begär en licensnyckel.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7jEtswn3s3gZ3Es/preview)
 
-En licensnyckel skickas direkt till din e-post. Kopiera nyckeln och klistra in den under Inställningar > Användning och Planer > Ange Aktiveringsnyckel.
+Licensnyckeln kommer direkt till din e-post. Kopiera nyckeln och klistra in den under Inställningar > Användning och Planer > Ange Aktiveringsnyckel.
 
 ### Skapa ditt första arbetsflöde
 
@@ -234,8 +238,4 @@ Grattis! Du har nu installerat n8n på din server och kan börja använda det di
 - [n8n.io](https://n8n.io/) - Officiell webbplats
 - [docs.n8n.io](https://docs.n8n.io/) - n8n Dokumentation
 
-Har du frågor som inte täcks här? För fler frågor eller support, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
-
-
-
-<InlineVoucher />
+Har du specifika frågor som inte täcks här? För fler frågor eller support, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂

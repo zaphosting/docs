@@ -12,18 +12,22 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-WordPress is een populair contentmanagementsysteem voor het beheren en publiceren van websites. Tegenwoordig is WordPress uitgegroeid tot veel meer, zoals mailing, forums, webshops en nog veel meer. Dit wordt ondersteund door een actieve community die een sterk ecosysteem van plugins en templates heeft opgebouwd, waardoor het voor eindgebruikers super makkelijk is om alles op te zetten. In deze gids behandelen we het proces van het installeren van WordPress CMS op een Linux-server.
+WordPress is een populair contentmanagementsysteem voor het beheren en publiceren van websites. Tegenwoordig is WordPress uitgegroeid tot veel meer dan alleen een CMS, met toepassingen zoals mailing, forums, webshops en nog veel meer. Dit wordt ondersteund door een actieve community die een sterk ecosysteem van plugins en templates heeft opgebouwd, waardoor het voor eindgebruikers super makkelijk is om alles op te zetten. In deze gids leggen we uit hoe je WordPress CMS installeert op een Linux-server.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/r26L7xASWY3d5Z5/preview)
 
 
 
+## WordPress installeren met de One Click Apps Installer
+
+Je kunt **WordPress** direct installeren via onze **One Click Apps Installer** in de VPS-webinterface. Na het afronden van de eerste apps-setup, open je de app-catalogus, zoek je naar **WordPress** en start je de installatie met je gewenste project-, omgeving- en domeininstellingen. Dit is een snelle en gebruiksvriendelijke manier om **WordPress** te deployen en beheren zonder handmatige command line setup, terwijl je toch profiteert van geïntegreerd webbeheer, custom domeinsupport en SSL provisioning waar beschikbaar.
+
 ## Voorbereiding
 
-Begin met verbinden met je server via SSH. Weet je niet hoe? Check dan onze [Eerste toegang (SSH)](dedicated-linux-ssh.md) gids.
+Begin met verbinden met je server via SSH. Als je niet weet hoe dat moet, check dan onze [Eerste toegang (SSH)](dedicated-linux-ssh.md) gids.
 
 :::info
-In deze gids gebruiken we de Ubuntu distro, gecombineerd met Apache als webserver, MySQL voor de database en PHP als kerncomponent. Dit staat bekend als de LAMP-stack: Linux, Apache, MySQL en PHP.
+In deze gids gebruiken we de Ubuntu-distributie, gecombineerd met Apache als webserver, MySQL voor de database en PHP als kerncomponent. Dit staat bekend als de LAMP-stack: Linux, Apache, MySQL en PHP.
 :::
 
 Als je bent ingelogd, start dan met het updaten van de pakketlijst.
@@ -31,7 +35,7 @@ Als je bent ingelogd, start dan met het updaten van de pakketlijst.
 sudo apt update
 ```
 
-Daarna kun je alle benodigde dependencies installeren. Kopieer gewoon de hele onderstaande opdracht en plak deze om alles in één keer te installeren. Heb geduld, het kan even duren.
+Daarna kun je alle benodigde dependencies installeren. Kopieer gewoon de hele onderstaande opdracht en plak deze om alles in één keer te installeren. Heb even geduld, het kan even duren.
 ```
 sudo apt install apache2 \
                  ghostscript \
@@ -53,89 +57,89 @@ Met de dependencies geïnstalleerd, zijn er een paar kleine aanbevolen stappen o
 
 ### Apache & Firewall
 
-Eerst moet je de firewall instellen zodat de Apache webserver verbinding kan maken met het internet en functioneel is. Het is belangrijk dat de juiste firewallregels worden aangemaakt zodat de webserver bereikbaar is vanaf het internet.
+Eerst moet je de firewall instellen zodat de Apache-webserver verbinding kan maken met het internet en functioneel is. Het is belangrijk dat de juiste firewallregels worden aangemaakt zodat de webserver bereikbaar is vanaf het internet.
 
-In dit voorbeeld gebruiken we de **UFW Firewall** omdat Apache hiervoor een geregistreerde applicatie heeft. Gebruik je een andere firewall? Zorg dan dat poort 80 (HTTP) openstaat. Meer over firewalls in Linux vind je in onze [Firewall beheren](vserver-linux-firewall.md) gids.
+In dit voorbeeld gebruiken we de **UFW Firewall** omdat Apache hiervoor een geregistreerde applicatie heeft. Gebruik je een andere firewall, zorg dan dat poort 80 (HTTP) openstaat. Meer info over firewalls in Linux vind je in onze [Firewall beheren](vserver-linux-firewall.md) gids.
 
-Zorg dat de UFW firewall aanstaat en dat er een regel voor SSH is.
+Zorg dat de UFW firewall aanstaat en dat er een regel voor SSH is toegevoegd.
 ```
-# Maak een regel aan voor SSH
+# Regel toevoegen om SSH toe te staan
 sudo ufw allow OpenSSH
 
-# Zet UFW Firewall aan
+# UFW Firewall inschakelen
 sudo ufw enable
 ```
 
 :::caution
-Zorg dat je een regel voor SSH hebt als je UFW gebruikt! Zonder die regel kun je niet meer inloggen via SSH als je verbinding wegvalt!
+Zorg dat je een regel voor SSH hebt als je UFW gebruikt! Zonder die regel kun je **niet** meer inloggen via SSH als je verbinding wegvalt!
 :::
 
-Maak nu de regel aan om Apache toe te staan en check daarna of de regels er staan.
+Maak nu de regel aan om Apache toe te staan en controleer daarna of de regels aanwezig zijn.
 ```
-# Regel om Apache toe te staan
+# Regel toevoegen voor Apache
 sudo ufw allow in "Apache Full"
 
-# Check de UFW firewall regels
+# UFW firewallregels controleren
 sudo ufw status
 ```
 
 :::tip
-Je kunt zien welke profielen beschikbaar zijn met `ufw app list`. In het voorbeeld hierboven zorgt `Apache Full` ervoor dat zowel HTTP (poort 80) als HTTPS (poort 443) openstaan.
+Je kunt zien welke profielen beschikbaar zijn met het commando `ufw app list`. In het voorbeeld hierboven zorgt `Apache Full` ervoor dat zowel HTTP (poort 80) als HTTPS (poort 443) openstaan.
 :::
 
-Je zou regels moeten zien voor `Apache` en `Apache (v6)` met de actie `ALLOW`, wat betekent dat de firewall klaar is. Ook zie je andere regels die je eerder hebt ingesteld, inclusief die voor SSH.
+Je zou regels moeten zien voor `Apache` en `Apache (v6)` met de actie `ALLOW`, wat betekent dat de firewall klaar is. Ook zie je andere regels die je eerder hebt ingesteld, inclusief de SSH-regel.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o8NDBppnTwHdSgf/preview)
 
 Met de firewall open voor Apache, check je nu of Apache werkt. Probeer je IP-adres te openen in een browser: `http://[jouw_ipadres]`
 
-Als het werkt, zie je een standaard welkomstpagina. Zo niet, check dan de status van de service met: `systemctl status apache2`
+Als alles werkt, zie je een standaard welkomstpagina. Zo niet, check dan de status van de service met: `systemctl status apache2`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/irmnDDNi436HH4c/preview)
 
 ### MySQL Setup
 
-De volgende stap is de eerste setup van MySQL. Het is aan te raden om het beveiligingsscript te draaien, zodat je MySQL-server veilig blijft. Dit is optioneel maar sterk aanbevolen. Voer uit met `sudo mysql_secure_installation`.
+De volgende stap is de eerste setup van MySQL. Het is aan te raden om het beveiligingsscript te draaien, zodat je MySQL-server veilig blijft. Dit is optioneel, maar sterk aanbevolen. Voer het uit met `sudo mysql_secure_installation`.
 
 Je doorloopt een interactieve setup. Eerst wordt gevraagd naar wachtwoordvalidatie. Kies `Y` om alleen veilige wachtwoorden toe te staan en selecteer `MEDIUM` met `1` of `STRONG` met `2`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
 
-Daarna wordt gevraagd om de `anonymous` gebruiker te verwijderen en root-login op afstand uit te schakelen. We raden aan dit met `Y` te accepteren voor betere beveiliging. Zo wordt de testgebruiker verwijderd en kan root alleen lokaal via SSH inloggen, wat veiliger is.
+Daarna wordt gevraagd of je de `anonymous` gebruiker wilt verwijderen en root-login op afstand wilt uitschakelen. We raden aan beide met `Y` te accepteren voor betere beveiliging. Zo wordt de testgebruiker verwijderd en kan root alleen lokaal via SSH inloggen, wat veiliger is.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-Tot slot wordt gevraagd om de `test` database te verwijderen en de privilege-tabellen te herladen. Ook dit raden we aan met `Y` te accepteren, want de testdatabase is niet nodig en privileges moeten worden vernieuwd.
+Tot slot wordt gevraagd of je de `test` database wilt verwijderen en de privileges wilt herladen. Ook dit raden we aan met `Y` te accepteren, want de testdatabase is niet nodig en de privileges moeten worden vernieuwd.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
-Check nu of MySQL draait door in te loggen met: `sudo mysql -u root`. Als het lukt, zie je een welkombericht. Verlaat met `quit`.
+Controleer nu of MySQL draait door in te loggen met: `sudo mysql -u root`. Als het lukt, zie je een welkombericht. Verlaat met `quit`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gFKBAZyaFiHgrCz/preview)
 
 ### PHP testen
 
-Tot slot check je of PHP werkt. Maak een `info.php` bestand aan in de Apache `/var/www/html/` map met de volgende inhoud om `phpinfo()` uit te voeren.
+Tot slot check je of PHP werkt. Maak een `info.php` bestand aan in de Apache map `/var/www/html/` met de volgende inhoud om `phpinfo()` uit te voeren.
 ```
 # Open nano editor voor het nieuwe bestand
 nano /var/www/html/info.php
 
-# Plak deze inhoud in de editor
+# Plak de volgende inhoud in de editor
 <?php
 phpinfo();
 ?>
 ```
 
-Sla op met `CTRL+X`, dan `Y` en `Enter`.
+Sla het bestand op met `CTRL+X`, dan `Y` en `Enter`.
 
-Ga nu naar deze URL, die een PHP info-pagina moet tonen als alles werkt:
+Open nu deze URL in je browser, je zou een PHP info-pagina moeten zien:
 ```
 http://[jouw_ipadres]/info.php
 ```
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bSg3nHaKRatBxFR/preview)
 
-Met de kern van de LAMP-stack getest en werkend, ben je klaar voor de WordPress installatie.
+Met de LAMP-stack nu getest en werkend, ben je klaar voor de WordPress installatie.
 
 ## Installatie
 
@@ -162,29 +166,29 @@ GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
 ON wordpress.*
 TO wordpress@localhost;
 
-# Herlaad de privileges
+# Privileges herladen
 FLUSH PRIVILEGES;
 ```
 
-Als je klaar bent, verlaat je MySQL met `quit`. Je bent nu klaar om WordPress te installeren.
+Als je klaar bent, verlaat MySQL met `quit`. Je bent nu klaar om WordPress te installeren.
 
 ### WordPress installeren
 
 Voor de WordPress installatie raden we aan om de officiële release van **wordpress.org** te gebruiken in plaats van het APT-pakket, omdat WordPress dit aanbeveelt om problemen te voorkomen.
 
-Download de nieuwste versie met dit commando, die wordt opgeslagen in de tijdelijke map.
+Download de laatste versie met dit commando, dit zet het bestand in de tijdelijke map.
 ```
 cd /tmp && wget https://wordpress.org/latest.tar.gz
 ```
 
-Pak het archief uit, dit levert een `wordpress` map met alle bestanden.
+Pak het bestand uit, dit maakt een `wordpress` map met alle benodigde bestanden.
 ```
 tar -xvf latest.tar.gz
 ```
 
-Kopieer de map naar de Apache `/var/www/html/` map zodat alles via het web bereikbaar is. Voer deze commando’s uit om te kopiëren, een `uploads` map aan te maken en rechten goed te zetten zodat de `www-data` groep toegang heeft.
+Kopieer de map naar de Apache map `/var/www/html/` zodat alles via het web toegankelijk is. Voer de volgende commando’s uit om te kopiëren, een uploads map aan te maken en de rechten goed te zetten zodat de `www-data` groep toegang heeft.
 ```
-# Kopieer wordpress map en pas eigenaar aan
+# Kopieer de wordpress map en pas eigenaar aan
 cp -R wordpress /var/www/html/
 chown -R www-data:www-data /var/www/html/wordpress/
 
@@ -200,38 +204,38 @@ WordPress is nu geïnstalleerd. Open de setup wizard via: `http://[jouw_ipadres]
 
 ### Setup Wizard
 
-In de setup wizard configureer je WordPress, de laatste stap van de installatie. Eerst kies je je taal.
+In de setup wizard configureer je WordPress, de laatste stap van de installatie. Kies eerst je taal.
 
-Daarna vul je de databasegegevens in. Die heb je net aangemaakt, dus gebruik dezelfde gegevens. Als je onze voorbeelden hebt gevolgd, vul je dit in, waarbij je `[your_password]` vervangt door je eigen wachtwoord.
+Daarna vul je de databasegegevens in. Deze heb je net aangemaakt in MySQL, dus gebruik dezelfde gegevens. Als je onze voorbeelden hebt gevolgd, vul je dit in, waarbij je `[your_password]` vervangt door het wachtwoord dat je eerder hebt gekozen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4ZmA43WMjf2bBxB/preview)
 
-Na deze stap start je de installatie.
+Klik daarna op de knop om de installatie te starten, dit is de laatste stap.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7kfjz8p2cCzoD8S/preview)
 
-Op de volgende pagina vul je info in zoals de sitetitel, e-mailadres, gebruikersnaam en wachtwoord voor de hoofd WordPress account. Je kunt ook kiezen of zoekmachines je site mogen indexeren of niet.
+Op de volgende pagina vul je informatie in zoals de sitetitel, e-mailadres, gebruikersnaam en wachtwoord voor het hoofdaccount van WordPress. Je kunt ook instellen of je site door zoekmachines geïndexeerd mag worden of juist niet.
 
 :::tip
-Kies een sterk wachtwoord en sla je inloggegevens goed op, zodat je niet buitengesloten raakt!
+Kies een sterk wachtwoord en sla je inloggegevens goed op, zodat je altijd toegang hebt tot je WordPress dashboard!
 :::
 
 Klik op **WordPress installeren** om de installatie af te ronden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BZwxEpQAs3sKcc7/preview)
 
-Je komt op een succespagina die je doorstuurt naar de **Inloggen** pagina. Klik hier en log in met je gegevens om voor het eerst in je WordPress dashboard te komen!
+Je komt op een succespagina die je doorstuurt naar de **Inloggen** pagina. Klik hier en log in met je zojuist aangemaakte gegevens.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qEGcRQFWBcLDosj/preview)
 
-En zo, na succesvol inloggen, sta je in je WordPress dashboard met een volledige installatie.
+En zo, na succesvol inloggen, sta je in je WordPress dashboard met een complete installatie.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/r26L7xASWY3d5Z5/preview)
 
 ## Conclusie
 
-Gefeliciteerd, je hebt WordPress succesvol geïnstalleerd en geconfigureerd! Als volgende stap raden we **sterk aan** om een domein en een **SSL-certificaat** in te stellen, zodat data veilig wordt verzonden en je WordPress dashboard makkelijker te bereiken is. Bekijk onze [Certbot gids](dedicated-linux-certbot.md) met focus op de **Apache Plugin** en volg de interactieve setup om snel een certificaat voor je domein te regelen.
+Gefeliciteerd, je hebt WordPress succesvol geïnstalleerd en geconfigureerd! Als volgende stap raden we **sterk aan** om een domein en een **SSL-certificaat** in te stellen, zodat je data veilig wordt verzonden en je WordPress dashboard makkelijker bereikbaar is. Bekijk onze [Certbot gids](dedicated-linux-certbot.md) met focus op de **Apache Plugin** en volg de interactieve setup om snel en eenvoudig een certificaat voor je domein te regelen.
 
-Voor verdere verdieping en uitbreidingen raden we je aan om onze [WordPress Plugins](webspace-wordpress-plugins.md) en [WordPress Elementor](webspace-wordpress-elementor.md) gidsen te bekijken. Hier leer je hoe je plugins installeert en werkt met Elementor, een populaire en gebruiksvriendelijke page builder.
+Voor meer info en verdere setup raden we je aan om onze [WordPress Plugins](webspace-wordpress-plugins.md) en [WordPress Elementor](webspace-wordpress-elementor.md) gidsen te bekijken. Daarin leer je hoe je plugins installeert en werkt met Elementor, een populaire en gebruiksvriendelijke page builder.
 
 Heb je vragen of hulp nodig? Neem gerust contact op met onze support, we staan dagelijks voor je klaar! 🙂

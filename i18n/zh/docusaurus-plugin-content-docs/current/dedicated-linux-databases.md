@@ -12,11 +12,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 介绍
 
-本指南提供了安装各种数据库的步骤。示例中使用的是 Ubuntu 20.04 操作系统，但我们也列出了适用于其他 Linux 发行版的等效命令，这些发行版均由我们网站提供。所有命令均需通过 SSH 执行，如果你还不知道如何通过 SSH 连接服务器，请查看这里：[初始访问（SSH）](vserver-linux-ssh.md)。
+本指南提供了安装各种类型数据库的步骤。示例中使用的是 Ubuntu 20.04 操作系统，但我们也列出了适用于其他 Linux 发行版的等效命令，这些发行版均可在我们网站上找到。所有命令均需通过 SSH 执行，如果你还不知道如何通过 SSH 连接服务器，请查看这里：[初始访问（SSH）](vserver-linux-ssh.md)。
+
+## 使用一键应用安装器安装数据库
+
+你可以直接通过我们的 **一键应用安装器** 在 VPS 网页界面中安装 **数据库**。完成初始应用设置后，打开应用目录，搜索 **数据库**，并根据你的项目、环境和域名偏好开始部署。这为你提供了快速且用户友好的数据库部署和管理方式，无需手动命令行配置，同时还能享受集成的网页管理、自定义域名支持及可用的 SSL 证书配置。
 
 ## 准备工作
 
-在开始安装数据库之前，首先需要确保系统是最新的。根据你的操作系统，使用以下命令更新系统包管理器中的软件包：
+开始安装数据库之前，首先要确保系统是最新的。根据你的操作系统，使用以下命令更新系统包管理器中的软件包：
 
 ```
 // Ubuntu & Debian
@@ -44,23 +48,23 @@ import TabItem from '@theme/TabItem';
 
 ## 什么是 MariaDB？
 
-MariaDB 是一个开源的关系型数据库管理系统，最初是从 MySQL 分叉而来。它提供了更好的性能、安全性和持续的开发支持。MariaDB 拥有改进的存储引擎，其架构与 MySQL 完全兼容。我们推荐使用 MariaDB 代替 MySQL。
+MariaDB 是一个开源的关系型数据库管理系统，最初由 MySQL 分叉而来。它提供了更好的性能、安全性和持续开发支持。MariaDB 拥有改进的存储引擎，架构上完全兼容 MySQL。我们推荐使用 MariaDB 替代 MySQL。
 
 ## MariaDB 安装
 
-首先，确保安装的是最新版本的 MariaDB。某些较旧的操作系统（如 Debian 9 或 Ubuntu 18.04）默认的软件源中不包含最新版本的 MariaDB，因此执行以下命令以确保获取最新版本：
+首先，确保安装的是最新版本的 MariaDB。部分老旧操作系统（如 Debian 9 或 Ubuntu 18.04）默认包管理器中不包含最新版本，因此执行以下命令以确保获取最新版本：
 
 ```
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-安装完仓库后，按照准备工作部分的步骤更新包管理器缓存。
+安装完仓库后，按照准备步骤中的说明更新包管理器缓存。
 
 :::info
 在现代操作系统如 Ubuntu 22.04 或 Debian 11 上，可以安全忽略上述 MariaDB 仓库安装步骤。
 :::
 
-仓库设置完成后，即可开始安装 MariaDB，执行以下命令安装 `mariadb-server` 包：
+仓库设置完成后，即可安装 MariaDB，执行以下命令：
 
 ```
 // Ubuntu & Debian
@@ -78,18 +82,18 @@ sudo dnf install mariadb-server
 
 ## MariaDB 配置
 
-安装完成后，输入以下命令开始配置服务器：
+安装完成后，输入以下命令开始服务器配置：
 
 ```
 mysql_secure_installation
 ```
 
-根据提示配置你的 MariaDB（MySQL）服务器，并为服务器设置密码。接下来的提示可以先按 **Enter** 跳过。
+根据提示配置 MariaDB（MySQL）服务器，并为服务器设置密码。接下来的提示可以先按 **Enter** 跳过。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sYDegXcMZwCoZzJ/preview)
 
 :::info
-root 用户是你的 MariaDB（MySQL）服务器的主用户！
+root 用户是你 MariaDB（MySQL）服务器的主用户！
 :::
 
 接下来系统会询问是否为 root 用户设置密码，输入 **y** 确认。然后输入 root 用户的新密码。
@@ -102,15 +106,15 @@ root 用户是你的 MariaDB（MySQL）服务器的主用户！
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9rnHy9dJmezjemq/preview)
 
-接着询问是否允许 root 用户远程连接服务器，出于安全考虑建议禁用此选项，选择 **y**：
+接下来询问是否允许 root 用户远程连接，为安全起见建议禁用，选择 **y**：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cEozmgcXDBgaRwY/preview)
 
-下一步询问是否删除 MariaDB（MySQL）自带的测试数据库，建议删除，选择 **y**：
+然后可以选择删除 MariaDB（MySQL）自带的测试数据库，建议删除，选择 **y**：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGHT3tm78dNBTRo/preview)
 
-配置结束时，系统会询问是否更新权限表，选择 **y** 以激活刚才设置的 root 密码：
+配置结束时，系统会询问是否重新加载权限表，选择 **y** 以激活刚才设置的 root 密码：
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGNDZkRS4QrpEfF/preview)
 
@@ -123,11 +127,11 @@ root 用户是你的 MariaDB（MySQL）服务器的主用户！
 
 ## 什么是 Redis？
 
-Redis 是一个内存数据结构存储，主要用于存储键值对数据结构，同时支持列表、JSON 等多种格式。它以极快的速度响应查询，通常在毫秒级别。
+Redis 是一个内存数据结构存储，主要用于存储键值对数据，同时支持列表、JSON 等多种格式。它以极快的速度响应查询，通常在毫秒级。
 
 ## Redis 安装
 
-首先，你需要添加一个仓库以便安装 Redis。此步骤并非所有 Linux 发行版都需要，仅适用于以下列出的发行版。根据你的操作系统和版本执行对应命令：
+首先，你需要添加一个仓库以安装 Redis。此步骤并非所有 Linux 发行版都需要，仅适用于以下列出的发行版。根据你的操作系统和版本执行对应命令：
 
 ```
 // Ubuntu（任意版本）和 Debian（仅 Debian 10）
@@ -141,13 +145,13 @@ sudo yum install epel-release
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-安装完仓库后，按照准备工作部分的步骤更新包管理器缓存。
+安装完仓库后，按照准备步骤更新包管理器缓存。
 
 :::info
 如果你的操作系统不在上述列表中，可以跳过此步骤。
 :::
 
-仓库安装完成后，执行对应操作系统的命令安装 Redis Server：
+仓库安装完成后，执行对应命令安装 Redis 服务器：
 
 ```
 // Ubuntu 和 Debian
@@ -163,11 +167,11 @@ sudo zypper install redis
 sudo dnf install redis
 ```
 
-安装完成后，Redis 服务器即可使用！默认监听地址为 127.0.0.1:6379，且无密码。
+安装完成后，Redis 服务器默认运行在 127.0.0.1:6379，且无密码。
 
 :::caution 
 Debian/Ubuntu 用户注意：
-安装完成后请启用 `redis-server` 服务，确保服务器重启时自动启动。执行以下命令即可：
+安装完成后请启用 `redis-server` 服务，确保服务器重启时自动启动。执行以下命令：
 ```
 sudo systemctl enable --now redis-server
 ```
@@ -178,11 +182,11 @@ sudo systemctl enable --now redis-server
 <TabItem value="mongodb" label="MongoDB">
 
 ## 什么是 MongoDB？
-MongoDB 是一个面向文档的 NoSQL 数据库，设计目标是可扩展性和开发灵活性。它以类似 JSON 的 BSON 格式存储数据，支持多种数据类型。MongoDB 支持索引以减少响应时间，且不像 MySQL 或 SQLite 那样有预定义的模式，提供了更高的灵活性和敏捷性。
+MongoDB 是一个面向文档的 NoSQL 数据库，设计上注重可扩展性和开发灵活性。它以类似 JSON 的 BSON 格式存储数据，支持多样化数据类型。MongoDB 支持索引以缩短响应时间，且不像 MySQL 或 SQLite 那样有预定义的模式，提供更高的灵活性和敏捷性。
 
 ## MongoDB 安装
 
-从下面的标签页中选择你的操作系统，查看对应的安装指南。
+请选择你的操作系统标签，查看对应安装指南。
 
 <Tabs>
 <TabItem value="mongodb-ubuntu-debian" label="Ubuntu & Debian">
@@ -235,7 +239,7 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-然后根据你的系统执行安装命令：
+然后安装 MongoDB。CentOS 和 Fedora 的安装命令略有不同，请根据你的系统选择：
 
 ```
 // CentOS
@@ -252,7 +256,7 @@ MongoDB 安装完成，过程比其他 Linux 发行版简单多了！
 
 ### OpenSUSE 安装
 
-首先导入 MongoDB 公钥：
+首先导入 MongoDB 公共密钥：
 
 ```
 sudo rpm --import https://www.mongodb.org/static/pgp/server-6.0.asc
@@ -264,7 +268,7 @@ sudo rpm --import https://www.mongodb.org/static/pgp/server-6.0.asc
 sudo zypper addrepo --gpgcheck "https://repo.mongodb.org/zypper/suse/15/mongodb-org/6.0/x86_64/" mongodb
 ```
 
-最后安装 MongoDB：
+最后安装最新版本 MongoDB：
 
 ```
 sudo zypper -n install mongodb-org

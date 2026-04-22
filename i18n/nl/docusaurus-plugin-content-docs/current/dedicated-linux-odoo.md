@@ -2,7 +2,7 @@
 id: dedicated-linux-odoo
 title: "Odoo installeren op een Linux Server - Run je eigen Open Source ERP en CRM"
 description: "Ontdek hoe je bedrijfsprocessen beheert en automatiseert met Odoo’s geïntegreerde ERP- en CRM-platform voor gestroomlijnde bedrijfsvoering → Leer nu meer"
-sidebar_label: Odoo Installeren
+sidebar_label: Odoo installeren
 services:
   - vserver
   - dedicated
@@ -14,15 +14,21 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Odoo is een modulair open-source platform dat Enterprise Resource Planning (ERP) en Customer Relationship Management (CRM) functies combineert. Het stelt bedrijven in staat om processen zoals boekhouding, voorraadbeheer, projectmanagement en sales te beheren en automatiseren vanuit één systeem.
+Odoo is een modulair open-source platform dat Enterprise Resource Planning (ERP) en Customer Relationship Management (CRM) functies combineert. Het stelt bedrijven in staat om processen zoals boekhouding, voorraadbeheer, projectmanagement en verkoop te beheren en te automatiseren vanuit één systeem.
 
-Dankzij de flexibele uitbreidingen kan Odoo op maat gemaakt worden voor specifieke behoeften en biedt het een geïntegreerde oplossing voor het beheer van alle bedrijfsgebieden.
+Dankzij de flexibele uitbreidingen kan Odoo op maat worden gemaakt voor specifieke behoeften en biedt het een geïntegreerde oplossing voor het beheer van alle bedrijfsgebieden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3nwfLeK2c9kTiCp/preview)
 
-Overweeg je deze service zelf te hosten? We nemen je stap voor stap mee in het opzetten en configureren, inclusief alles wat je moet weten.
+Overweeg je deze service zelf te hosten? We begeleiden je stap voor stap bij het opzetten en configureren, inclusief alles waar je op moet letten.
 
 
+
+
+
+## Odoo installeren met de One Click Apps Installer
+
+Je kunt **Odoo** direct installeren via onze **One Click Apps Installer** in de VPS-webinterface. Na het voltooien van de initiële app-setup, open je de app-catalogus, zoek je naar **Odoo** en start je de deployment met je gewenste project-, omgeving- en domeininstellingen. Dit biedt een snelle en gebruiksvriendelijke manier om **Odoo** te deployen en beheren zonder handmatige command line setup, terwijl je profiteert van geïntegreerd webbeheer, ondersteuning voor custom domeinen en SSL provisioning waar beschikbaar.
 
 ## Vereisten
 
@@ -34,7 +40,7 @@ Voordat je **Odoo** installeert, zorg dat je hostingomgeving aan de volgende eis
 | RAM        | 1 GB        | 4 GB        |
 | Schijfruimte | 15 GB     | 25 GB       |
 
-De software vereist dat alle benodigde dependencies geïnstalleerd zijn en dat het draait op een ondersteund besturingssysteem. Controleer dat je server aan de volgende eisen voldoet voordat je verder gaat met de installatie:
+De software vereist dat alle benodigde dependencies geïnstalleerd zijn en dat het draait op een ondersteund besturingssysteem. Zorg dat je server aan de volgende eisen voldoet voordat je verder gaat met de installatie:
 
 **Dependencies:** `Docker`
 
@@ -46,16 +52,16 @@ Zorg dat alle dependencies geïnstalleerd zijn en dat je de juiste OS-versie geb
 
 ## Voorbereiding
 
-Voordat je **Odoo** installeert, moet je je systeem voorbereiden. Dit betekent dat je het besturingssysteem bijwerkt naar de nieuwste versie en alle benodigde dependencies installeert. Deze voorbereidingen zorgen voor een stabiele omgeving en helpen problemen tijdens of na de installatie te voorkomen.
+Voordat je **Odoo** installeert, moet je je systeem voorbereiden. Dit betekent het updaten van je besturingssysteem naar de nieuwste versie en het installeren van alle benodigde dependencies. Deze voorbereidingen zorgen voor een stabiele omgeving en helpen problemen tijdens of na de installatie te voorkomen.
 
 
 ### Systeem updaten
-Om zeker te zijn dat je systeem draait met de nieuwste software en beveiligingsupdates, voer je eerst een systeemupdate uit met het volgende commando:
+Om te zorgen dat je systeem draait met de nieuwste software en beveiligingsupdates, voer je eerst altijd een systeemupdate uit. Gebruik hiervoor het volgende commando:
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-Dit zorgt ervoor dat je systeem de laatste beveiligingspatches en softwareversies heeft voordat je verder gaat.
+Dit zorgt ervoor dat je systeem de nieuwste beveiligingspatches en softwareversies heeft voordat je verder gaat.
 
 ### Dependencies installeren
 Als de update klaar is, kun je de dependencies installeren. Odoo wordt gedraaid via Docker containers, dus Docker moet eerst geïnstalleerd worden. Gebruik hiervoor het volgende commando:
@@ -65,43 +71,43 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Een uitgebreide uitleg over het installatieproces en het gebruik van Docker vind je in onze [Docker](dedicated-linux-docker.md) gids.
+Een volledige walkthrough van het installatieproces en het gebruik van Docker vind je in onze [Docker](dedicated-linux-docker.md) gids.
 
 
 
 ### Domein configureren
 
-Standaard draait Odoo op de server via poorten 80 (HTTP) en 443 (HTTPS). Stel een domein in met DNS-records die naar je server wijzen. Als je domein bij ons beheerd wordt, kun je dit eenvoudig regelen via de [EasyDNS](domain-easydns.md) optie.
+Standaard draait Odoo op de host via poorten 80 (HTTP) en 443 (HTTPS). Stel een domein in met DNS-records die naar de host verwijzen. Als het domein bij ons wordt beheerd, kun je dit eenvoudig regelen via de [EasyDNS](domain-easydns.md) optie.
 
 
 
 
 ## Installatie
-Nu aan alle vereisten is voldaan en de voorbereidingen zijn afgerond, kun je doorgaan met het installeren van de Odoo applicatie.
+Nu aan alle vereisten is voldaan en de voorbereidingen zijn getroffen, kun je doorgaan met het installeren van de Odoo-applicatie.
 
-Bij het werken met meerdere Docker-projecten is het slim om een duidelijke mappenstructuur aan te houden om projecten gescheiden te houden. Een veelgebruikte aanpak is een *docker* map aanmaken in de home directory van de gebruiker, met voor elk domein een aparte submap. Zo kun je meerdere projecten op dezelfde server hosten zonder configuratieconflicten.
+Bij het werken met meerdere Docker-omgevingen is het slim om een duidelijke mappenstructuur aan te houden om projecten gescheiden te houden. Een veelgebruikte aanpak is een *docker* map aanmaken in de home directory van de gebruiker, met een aparte submap per domein. Zo kunnen meerdere projecten op dezelfde server draaien zonder configuratieconflicten.
 
-Bijvoorbeeld, om de structuur voor het domein `example.com` klaar te zetten:
+Bijvoorbeeld, om de structuur voor het domein `example.com` voor te bereiden:
 
 ```
 mkdir -p /docker/example.com
 cd /docker/example.com
 ```
 
-Binnen deze projectmap is het aan te raden submappen te maken die als volumes door de containers worden gebruikt. Deze volumes zorgen ervoor dat data gedeeld of persistent blijft. Een belangrijk voorbeeld is de gedeelde webroot, die zowel door nginx als certbot gebruikt wordt om SSL-certificaten te genereren en vernieuwen. Een geschikte structuur maak je zo aan:
+Binnen deze projectmap is het aan te raden submappen aan te maken die als volumes door de containers worden gemount. Deze volumes maken het mogelijk data te delen tussen services of persistent te houden. Een belangrijk voorbeeld is de gedeelde webroot, die zowel nginx als certbot nodig hebben om SSL-certificaten te genereren en te vernieuwen. Een geschikte structuur maak je zo aan:
 
 ```
 mkdir -p nginx/{conf,ssl,inc} config addons
 ```
 
-Dit creëert aparte mappen voor nginx configuratie, SSL-certificaten, include-bestanden en Odoo-specifieke content zoals configs en addons.
+Dit creëert aparte mappen voor nginx-configuratie, SSL-certificaten, include-bestanden en Odoo-specifieke content zoals configs en addons.
 
 
 
 
 ### Docker Compose aanmaken
 
-Maak in je docker projectmap het bestand `compose.yml` aan met `nano compose.yml`. Plak daar de volgende code in:
+Maak in je docker project de compose.yml aan met `nano compose.yml`. Plak daar de volgende code in:
 
 ```
 services:
@@ -157,20 +163,20 @@ volumes:
 
 ### Firewall
 
-Voor een goede werking van nginx en certbot moeten de TCP-poorten 80 (HTTP) en 443 (HTTPS) openstaan in de firewall. Certbot gebruikt poort 80 voor HTTP-validatie en poort 443 is nodig voor versleuteld HTTPS-verkeer. Als UFW (Uncomplicated Firewall) actief is, voeg je de regels toe met:
+Voor een goede werking van nginx en certbot moet je TCP-poorten 80 (HTTP) en 443 (HTTPS) openzetten in de firewall. Deze poorten zijn essentieel omdat certbot poort 80 gebruikt voor HTTP-validatie en poort 443 nodig is voor versleuteld HTTPS-verkeer. Als UFW (Uncomplicated Firewall) actief is, voeg je de regels toe met:
 
 ```
 sudo ufw allow http
 sudo ufw allow https
 ```
 
-Controleer daarna met `sudo ufw status` of de poorten openstaan. Zorg dat geen andere firewallregels deze poorten blokkeren, anders kan het genereren van certificaten of HTTPS-verkeer mislukken.
+Controleer daarna met `sudo ufw status` of de poorten openstaan. Zorg dat er geen andere firewallregels zijn die de toegang blokkeren, anders kan het genereren van certificaten of veilig HTTPS-verkeer mislukken.
 
 
 
 ### Nginx configuratie
 
-Begin met het aanmaken van een configuratiebestand voor je domein in de map `nginx/conf`. Maak een nieuw bestand aan met de naam van je domein, bijvoorbeeld `nano nginx/conf/example.com.conf`, en voeg de volgende basisconfiguratie toe. Vervang `example.com` door je eigen domeinnaam:
+De nginx-configuratie begint met het aanmaken van een configuratiebestand voor je domein. Maak in de map `nginx/conf` een nieuw bestand aan met de naam van je domein. Voer uit: `nano nginx/conf/example.com.conf` en voeg de basisdirectieven toe, vervang `example.com` door je eigen domein:
 
 ```
 server {
@@ -187,26 +193,26 @@ server {
 }
 ```
 
-Deze configuratie zorgt ervoor dat certbot de ACME challenge kan voltooien en geldige SSL-certificaten kan uitgeven. Ook worden alle HTTP-verzoeken doorgestuurd naar HTTPS.
+Deze configuratie zorgt dat certbot de ACME challenge kan voltooien en geldige SSL-certificaten kan uitgeven. Ook worden alle HTTP-verzoeken doorgestuurd naar HTTPS.
 
-Sla het bestand op en start daarna de benodigde containers: de database, Odoo en nginx. Gebruik het commando:
+Sla het bestand op en start de benodigde containers: database, Odoo en nginx. Gebruik:
 
 ```
 sudo docker compose up -d db odoo nginx
 ```
 
-De containers draaien nu op de achtergrond en nginx gebruikt direct de nieuwe configuratie, zodat certbot certificaten kan genereren in de volgende stap.
+De containers draaien nu op de achtergrond en nginx gebruikt de nieuwe configuratie, zodat certbot certificaten kan genereren in de volgende stap.
 
 
 ### SSL-certificaten genereren
 
-Gebruik het volgende commando om SSL-certificaten aan te maken met certbot. Vervang `example.com` door je eigen domein en `user@mail.com` door je geldige e-mailadres.
+Voer het volgende commando uit om SSL-certificaten te maken met certbot. Vervang `example.com` door je eigen domein en `user@mail.com` door je geldige e-mailadres.
 
 ```
 sudo docker compose run --rm certbot certonly --webroot --webroot-path=/var/www/certbot -d example.com --email user@mail.com --agree-tos --no-eff-email
 ```
 
-Maak daarna een dedicated DH-parameterbestand aan om de veiligheid van de cryptografische sleuteluitwisseling te versterken:
+Maak daarna een dedicated DH-parameterbestand aan om de veiligheid van de cryptografische sleuteluitwisseling te versterken.
 
 ```
 openssl dhparam -out nginx/ssl/dhparam.pem 2048
@@ -234,9 +240,9 @@ resolver 1.1.1.1 1.0.0.1 valid=300s;
 
 ### Nginx configuratie
 
-Bewerk het nginx-configuratiebestand dat je eerder hebt aangemaakt en vervang de inhoud door de onderstaande configuratie om ervoor te zorgen dat je site alleen via HTTPS bereikbaar is.
+Bewerk het nginx-configuratiebestand dat je eerder hebt aangemaakt en vervang de inhoud door onderstaande configuratie om ervoor te zorgen dat je site alleen via HTTPS wordt geserveerd.
 
-Vervang `example.com` door je eigen domeinnaam en pas de paden naar je certificaatbestanden aan in de `ssl_certificate` en `ssl_certificate_key` directives.
+Vervang `example.com` door je eigen domeinnaam in de `server_name` directive en geef de juiste paden op naar je certificaatbestanden in `ssl_certificate` en `ssl_certificate_key`.
 
 ```bash
 server {
@@ -330,21 +336,21 @@ server {
 
 
 
-Sla de wijzigingen op en pas de nieuwe instellingen toe door de nginx container te herstarten:
+Sla de wijzigingen op en pas de nieuwe instellingen toe door de nginx-container te herstarten:
 
 ```
 sudo docker compose restart nginx
 ```
 
-Door te herstarten laadt nginx de nieuwe configuratie en begint direct met het bedienen van verzoeken volgens de nieuwe instellingen. Let op foutmeldingen tijdens het herstarten. Bij problemen kun je de logs bekijken met `sudo docker compose logs nginx` om configuratiefouten op te sporen. Als de container zonder fouten draait, bezoek dan je website om te controleren of HTTPS actief is en alles werkt zoals verwacht.
+Door te herstarten laadt nginx de nieuwe configuratie en begint direct met het bedienen van verzoeken volgens de nieuwe instellingen. Let op eventuele foutmeldingen tijdens het herstarten. Bij problemen kun je de logs bekijken met `sudo docker compose logs nginx` om configuratiefouten op te sporen. Als de container zonder fouten draait, bezoek dan je website om te controleren of HTTPS actief is en de site correct wordt geladen.
 
 
 
-### Odoo Configuratie-opties
+### Odoo Config Opties
 
-Voor aangepaste instellingen kun je een dedicated configuratiebestand voor Odoo aanmaken. Plaats een nieuw bestand op `config/odoo.conf` en voeg de gewenste opties toe.
+Voor custom instellingen kun je een dedicated configuratiebestand voor Odoo aanmaken. Plaats een nieuw bestand op `config/odoo.conf` en voeg de gewenste opties toe.
 
-In dit bestand kun je handige parameters definiëren: `list_db = False` verbergt de databasekeuze op de loginpagina, `proxy_mode = True` geeft aan dat Odoo achter een reverse proxy draait, en als je custom addons wilt gebruiken, kun je de `addons_path` regel decommentariëren en verwijzen naar de addons map die je eerder hebt aangemaakt. Voorbeeldconfiguratie:
+In dit bestand kun je handige parameters definiëren: `list_db = False` verbergt de databasekeuze op de loginpagina, `proxy_mode = True` geeft aan dat Odoo achter een reverse proxy draait, en als je custom addons wilt gebruiken, kun je de `addons_path` regel uncommenten en verwijzen naar de addons map die je eerder hebt aangemaakt. Voorbeeldconfiguratie:
 
 ```
 [options]
@@ -357,7 +363,7 @@ proxy_mode = True
 
 ### Verwijder de -i base flag
 
-De `-i base` flag moet verwijderd worden uit het `compose.yml` bestand, anders wordt de database telkens opnieuw aangemaakt als je de Odoo container herstart. Open het compose bestand met `nano compose.yml` en pas de commandoregel aan naar:
+De `-i base` flag moet verwijderd worden uit het `compose.yml` bestand, anders wordt de database opnieuw aangemaakt bij het herstarten van de Odoo-container. Open het compose bestand met `nano compose.yml` en pas de commandoregel aan naar:
 
 ```
 command: odoo -d odoo_db --db_user=odoo --db_password=odoo --db_host=db
@@ -379,12 +385,12 @@ Dit laadt de startpagina van je nieuwe installatie. Voor de eerste login is er e
 
 ## Conclusie en meer bronnen
 
-Gefeliciteerd! Je hebt Odoo succesvol geïnstalleerd en geconfigureerd op je VPS/Dedicated Server. We raden je ook aan om de volgende bronnen te bekijken, die je extra hulp en tips kunnen bieden tijdens je serverconfiguratie:
+Gefeliciteerd! Je hebt Odoo nu succesvol geïnstalleerd en geconfigureerd op je VPS/Dedicated Server. We raden je ook aan om onderstaande bronnen te bekijken, die je extra hulp en tips kunnen bieden tijdens je serverconfiguratie.
 
 - [Odoo.com](https://odoo.com) - Officiële website
 - [odoo.com/documentation/18.0/](https://www.odoo.com/documentation/18.0/) - Odoo Documentatie
 
-Heb je specifieke vragen die hier niet behandeld worden? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat om je te helpen! 🙂
+Heb je specifieke vragen die hier niet behandeld worden? Voor verdere vragen of hulp kun je altijd contact opnemen met onze support, die dagelijks voor je klaarstaat! 🙂
 
 
 

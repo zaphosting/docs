@@ -1,7 +1,7 @@
 ---
 id: server-linux-n8n
 title: "Konfiguracja n8n na serwerze Linux - Twórz potężne automatyzacje workflow"
-description: "Dowiedz się, jak zainstalować i skonfigurować n8n do samodzielnego hostingu, aby tworzyć automatyzacje workflow z AI, które ułatwią Ci pracę → Sprawdź teraz"
+description: "Dowiedz się, jak zainstalować i skonfigurować n8n do samodzielnego hostingu, aby tworzyć AI workflow automatyzacje, które ułatwią Ci pracę → Sprawdź teraz"
 sidebar_label: Instalacja n8n
 services:
   - vserver-service-n8n
@@ -14,13 +14,17 @@ import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 ## Wprowadzenie
 
-[n8n](https://n8n.io/) to wiodący wizualny edytor do szybkiego iterowania, w którym możesz tworzyć automatyzacje workflow i od razu widzieć efekty. Idealny zarówno do codziennych automatyzacji, jak i złożonych workflow z agentami AI.
+[n8n](https://n8n.io/) to wiodący wizualny edytor do szybkiego iterowania, w którym możesz tworzyć automatyczne workflow i od razu widzieć efekty. Idealny zarówno do codziennych automatyzacji, jak i złożonych workflow AI agentów.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/skzPCRajMZPbfw3/preview)
 
-Wsparcie dla samodzielnego hostingu i edytor Low Code sprawiają, że n8n to ulubieniec każdego deva. Jeśli chcesz mieć maksymalną kontrolę, możliwość personalizacji i obniżyć koszty w dłuższej perspektywie, opcja Self-Hosted jest dla Ciebie strzałem w dziesiątkę.
+Wsparcie dla samodzielnego hostingu i edytor Low Code sprawiają, że n8n to ulubieniec każdego deva. Jeśli chcesz mieć maksymalną kontrolę, możliwość personalizacji i obniżyć koszty na dłuższą metę, opcja Self-Hosted jest dla Ciebie strzałem w dziesiątkę.
 
 Planujesz samodzielnie hostować n8n? Przeprowadzimy Cię przez każdy krok instalacji i konfiguracji oraz podpowiemy, na co zwrócić uwagę.
+
+## Instalacja n8n przez One Click Apps Installer
+
+Możesz zainstalować **n8n** bezpośrednio przez nasz **One Click Apps Installer** w panelu VPS. Po zakończeniu wstępnej konfiguracji aplikacji, otwórz katalog aplikacji, wyszukaj **n8n** i rozpocznij wdrożenie z wybranymi ustawieniami projektu, środowiska i domeny. To szybki i wygodny sposób na uruchomienie i zarządzanie **n8n** bez ręcznej konfiguracji w terminalu, a jednocześnie z korzyściami takimi jak zarządzanie przez web, wsparcie dla własnej domeny i automatyczne wystawianie certyfikatów SSL tam, gdzie to możliwe.
 
 <InlineVoucher />
 
@@ -28,27 +32,27 @@ Planujesz samodzielnie hostować n8n? Przeprowadzimy Cię przez każdy krok inst
 
 ## Zastosowania n8n
 
-n8n sprawdzi się w wielu codziennych scenariuszach i jest idealny dla każdego, kto chce automatyzować zadania, korzystać z edytora low code, budować agentów AI, prowadzić automatyzacje, wspomagać CRM, operacje IT, bezpieczeństwo, prototypowanie backendu i wiele więcej! n8n jest świetny zarówno dla początkujących, jak i ekspertów.
+n8n sprawdzi się w wielu codziennych scenariuszach i jest idealny dla każdego, kto chce automatyzować zadania, korzystać z edytora low code, budować AI agentów, prowadzić automatyzacje, podkręcać CRM, operacje IT, bezpieczeństwo, prototypowanie backendu i wiele więcej! n8n jest świetny zarówno dla początkujących, jak i ekspertów.
 
 n8n oferuje ponad 1367 integracji, takich jak Google Sheets, Telegram, MySQL, Slack, Discord, Postgres oraz popularne kombinacje automatyzacji jak HubSpot i Salesforce, Twilio i WhatsApp, GitHub i Jira, Asana i Slack, Asana i Salesforce, Jira i Slack oraz mnóstwo szablonów od społeczności.
 
 ## Wymagania wstępne
 
-Choć n8n jest lekki, zużycie zasobów może rosnąć w zależności od liczby workflow, wywołań API i węzłów przetwarzających duże ilości danych. Zalecamy następujące wymagania sprzętowe do hostingu n8n na Twoim VPS.
+Choć n8n jest lekki, zużycie zasobów może rosnąć w zależności od liczby workflow, wywołań API i węzłów przetwarzających duże ilości danych. Zalecamy następujące wymagania sprzętowe do hostingu n8n na VPS.
 
 | Sprzęt    | Minimum     | Zalecane                  |
 | --------- | ----------- | ------------------------- |
 | CPU       | 1 rdzeń vCPU| 2 rdzenie vCPU            |
 | RAM       | 2 GB        | 4 GB                      |
-| Miejsce na dysku | 20 GB | 50 GB                     |
+| Miejsce na dysku | 20 GB  | 50 GB                     |
 <InlineServiceLink />
 
 ## Przygotowanie
 
-Zanim zaczniesz, musisz zainstalować Dockera i zaktualizować pakiety systemowe. Mamy już poradnik o [Instalacji Dockera](dedicated-linux-docker.md). Upewnij się, że to zrobiłeś, zanim przejdziesz do instalacji.
+Przed startem musimy zainstalować Dockera i zaktualizować pakiety systemowe. Mamy już poradnik o [Instalacji Dockera](dedicated-linux-docker.md). Upewnij się, że to zrobiłeś, zanim zaczniesz instalację.
 
 ## Instalacja
-Po zainstalowaniu Dockera na serwerze, sprawdź instalację poleceniami:
+Po zainstalowaniu Dockera na serwerze, sprawdź wersję poleceniem:
 
 ```
 docker --version
@@ -57,21 +61,21 @@ docker compose version
 
 ### Utwórz plik `.env`
 
-Stwórz katalog projektu, w którym będą przechowywane lokalne pliki n8n oraz konfiguracje środowiska, i przejdź do niego:
+Stwórz katalog projektu na lokalne pliki n8n i konfiguracje środowiska, a następnie przejdź do niego:
 
 ```
 mkdir n8n-compose
 cd n8n-compose
 ```
 
-W katalogu `n8n-compose` utwórz plik `.env` za pomocą `nano .env` i wklej poniższy kod z konfiguracją środowiska n8n.
+W katalogu `n8n-compose` utwórz plik `.env` poleceniem `nano .env` i wklej poniższy kod z konfiguracją środowiska n8n.
 
 ```
 # DOMAIN_NAME i SUBDOMAIN razem określają, pod jakim adresem będzie dostępne n8n
-# Główna domena, z której będzie serwowane
+# Główna domena
 DOMAIN_NAME=zap.cloud
 
-# Subdomena, z której będzie serwowane
+# Subdomena
 SUBDOMAIN=silver-octopus-xxxxx
 
 # Powyższy przykład udostępnia n8n pod adresem: https://silver-octopus-xxxxx.zap.cloud
@@ -79,12 +83,12 @@ SUBDOMAIN=silver-octopus-xxxxx
 # Opcjonalna strefa czasowa używana przez Cron i inne węzły harmonogramu
 GENERIC_TIMEZONE=Europe/Berlin
 
-# Adres e-mail do tworzenia certyfikatu TLS/SSL
+# Email do tworzenia certyfikatu TLS/SSL
 SSL_EMAIL=hello@zap-hosting.com
 ```
 
 :::info
-Aby znaleźć DOMAIN_NAME i SUBDOMAIN, przejdź do strony produktu ZAP-Hosting, wejdź na swój VPS i znajdź `Nazwa hosta`.
+Aby znaleźć DOMAIN_NAME i SUBDOMAIN, przejdź do strony produktu ZAP-Hosting, wejdź do swojego VPS i znajdź `Nazwa hosta`.
 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7DoXD5F9m2oYTXX/preview)
@@ -101,11 +105,11 @@ Nie używaj samego adresu IP w pliku .env. n8n wymaga połączenia HTTPS, a cert
 
 Jeśli chcesz hostować n8n na własnej domenie, utwórz subdomenę dla n8n, dodając rekord A w panelu zarządzania DNS domeny, wskazujący na adres IP VPS, którego używasz.
 
-| Nazwa           | Typ  | Wartość        | TTL  | Priorytet |
-| --------------- | ---- | -------------- | ---- | --------- |
-| n8n (Subdomena) | A    | Adres IPv4 VPS | 1440 | 0         |
+| Nazwa           | Typ  | Wartość         | TTL  | Priorytet |
+| --------------- | ---- | --------------- | ---- | --------- |
+| n8n (subdomena) | A    | Adres IPv4 VPS  | 1440 | 0         |
 
-### Utwórz katalog na pliki lokalne
+### Utwórz katalog na lokalne pliki
 
 W katalogu projektu stwórz katalog `local-files` do współdzielenia plików między instancją n8n a systemem hosta:
 
@@ -115,7 +119,7 @@ mkdir local-files
 
 ### Utwórz plik Docker Compose
 
-Stwórz plik Docker Compose `compose.yaml` za pomocą `nano compose.yaml` i wklej do niego poniższą zawartość:
+Stwórz plik `compose.yaml` poleceniem `nano compose.yaml` i wklej do niego poniższą zawartość:
 
 ```yaml
 services:
@@ -197,23 +201,23 @@ sudo docker compose stop
 
 ### Dostęp do n8n
 
-Po uruchomieniu n8n, otwórz przeglądarkę i wpisz URL (lub nazwę hosta, jeśli jej użyłeś), aby wejść na stronę konfiguracji. Tutaj musisz utworzyć konto administratora, zanim przejdziesz dalej.
+Po uruchomieniu n8n, otwórz przeglądarkę i wpisz adres URL (lub nazwę hosta, jeśli jej użyłeś), aby wejść na stronę konfiguracji. Tutaj musisz utworzyć konto administratora, zanim przejdziesz dalej.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3SNBcAtXco8RTQr/preview)
 
 :::info Uwaga na hasło
-Pamiętaj swoje hasło, będzie potrzebne później!
+Pamiętaj, aby zapisać swoje hasło do późniejszego użytku!
 :::
 
 Następnie pojawi się krótka ankieta z prośbą o podanie podstawowych informacji.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/bY8sDwenKtSEBg4/preview)
 
-Opcjonalnie możesz uzyskać darmowy dostęp do niektórych płatnych funkcji, podając swój e-mail i otrzymując klucz licencyjny. Jeśli jesteś zainteresowany, wpisz swój adres e-mail i poproś o klucz licencyjny.
+Opcjonalnie możesz uzyskać darmowy dostęp do niektórych płatnych funkcji, podając swój email i otrzymując klucz licencyjny. Jeśli jesteś zainteresowany, wpisz swój adres email i poproś o klucz licencyjny.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7jEtswn3s3gZ3Es/preview)
 
-Klucz licencyjny pojawi się od razu w Twojej skrzynce. Skopiuj go i wklej w Ustawienia > Użytkowanie i Plany > Wprowadź klucz aktywacyjny.
+Klucz licencyjny pojawi się od razu w Twojej skrzynce mailowej. Skopiuj go i wklej w Ustawienia > Użytkowanie i Plany > Wprowadź klucz aktywacyjny.
 
 ### Tworzenie pierwszego workflow
 
@@ -229,13 +233,9 @@ Możesz zacząć od pustego płótna lub skorzystać z gotowego szablonu. Twoja 
 
 ## Podsumowanie i dodatkowe zasoby
 
-Gratulacje! Udało Ci się zainstalować n8n na serwerze i możesz zacząć go używać od zaraz. Polecamy też rzucić okiem na poniższe materiały, które mogą pomóc i wesprzeć Cię podczas konfiguracji serwera.
+Gratulacje! Udało Ci się zainstalować n8n na serwerze i możesz zacząć z niego korzystać od zaraz. Polecamy też rzucić okiem na poniższe materiały, które mogą pomóc i wesprzeć Cię podczas konfiguracji serwera.
 
 - [n8n.io](https://n8n.io/) - Oficjalna strona
 - [docs.n8n.io](https://docs.n8n.io/) - Dokumentacja n8n
 
 Masz pytania, których tu nie ma? Jeśli potrzebujesz pomocy lub masz dodatkowe pytania, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
-
-
-
-<InlineVoucher />

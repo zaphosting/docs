@@ -22,6 +22,10 @@ Considering about hosting this service yourself? We’ll walk you through every 
 
 
 
+## Install Git with the One Click Apps Installer
+
+You can install **Git** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **Git**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **Git** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
+
 ## Preparation
 
 Before setting up the **Git**, you need to prepare your system. This includes updating your operating system to the latest version. These preparations ensure a stable environment and help prevent issues during or after the installation.

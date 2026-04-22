@@ -18,6 +18,10 @@ Nextcloud is an open source cloud solution and fork of Owncloud, which was found
 
 In order to achieve optimal performance, stability and functionality, the following setup is recommended for hosting a Nextcloud server. The Nextcloud server is not compatible with Windows and MacOS. At least not without any further virtualization or similar workarounds.
 
+## Install Nextcloud with the One Click Apps Installer
+
+You can install **Nextcloud** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **Nextcloud**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **Nextcloud** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
+
 <InlineVoucher />
 
 ## Preparation

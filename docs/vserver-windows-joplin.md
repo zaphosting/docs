@@ -22,6 +22,10 @@ Considering about hosting this service yourself? We’ll walk you through every 
 
 
 
+## Install Joplin with the One Click Apps Installer
+
+You can install **Joplin** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **Joplin**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **Joplin** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
+
 <InlineVoucher />
 
 
@@ -85,4 +89,3 @@ Got specific questions that aren't covered here? For further questions or assist
 
 
 
-<InlineVoucher />

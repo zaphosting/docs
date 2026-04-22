@@ -16,6 +16,10 @@ phpMyAdmin est un outil gratuit basé sur le web pour gérer les bases de donné
 
 
 
+## Installer phpMyAdmin avec le One Click Apps Installer
+
+Tu peux installer **phpMyAdmin** directement via notre **One Click Apps Installer** dans l’interface web de ton VPS. Après avoir terminé la configuration initiale des apps, ouvre le catalogue d’applications, cherche **phpMyAdmin**, et lance le déploiement avec ton projet, environnement et paramètres de domaine préférés. C’est une manière rapide et simple de déployer et gérer **phpMyAdmin** sans passer par la ligne de commande, tout en profitant d’une gestion web intégrée, du support de domaine personnalisé, et de la mise en place SSL quand c’est dispo.
+
 ## Préparation
 
 Avant de commencer l’installation, assure-toi que ton système est à jour. Les mises à jour et upgrades en attente peuvent être effectuées comme suit :
@@ -54,7 +58,7 @@ unzip phpmyadmin.zip
 Si le service `unzip` n’est pas trouvé, il peut être installé avec la commande `sudo apt install unzip -y`. 
 :::
 
-L’archive décompressée peut maintenant être renommée avec un nom plus simple, le fichier ZIP supprimé et les permissions nécessaires définies :
+L’archive décompressée peut maintenant être renommée avec un nom plus simple, le fichier ZIP supprimé, et les permissions nécessaires appliquées :
 
 ```
 mv phpMyAdmin-*-all-languages phpmyadmin
@@ -65,7 +69,7 @@ rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 
 ### Fichier de configuration du serveur web
 
-Maintenant, phpMyAdmin doit être ajouté à la configuration du serveur web. Pour cela, utilise `nano /etc/apache2/conf-available/phpmyadmin.conf` pour créer un nouveau fichier de configuration Virtual Host et remplis-le avec le contenu suivant :
+Maintenant, phpMyAdmin doit être ajouté à la configuration du serveur web. Pour cela, utilise `nano /etc/apache2/conf-available/phpmyadmin.conf` pour créer un nouveau fichier de configuration Virtual Host et remplis-le avec ce contenu :
 
 ```
 # Configuration Apache pour phpMyAdmin
@@ -89,7 +93,7 @@ Alias /phpmyadmin /usr/share/phpmyadmin
 </Directory>
 ```
 
-Une fois la configuration Apache2-phpMyAdmin remplie, sauvegarde et ferme avec `CTRL+X`, puis appuie sur `Y` et confirme avec `Entrée`.
+Une fois la configuration Apache2-phpMyAdmin remplie, sauvegarde et ferme avec `CTRL+X`, puis appuie sur `Y` et valide avec `Entrée`.
 
 Le fichier de configuration Virtual Host nouvellement créé doit ensuite être activé et chargé. Pour cela, exécute les commandes suivantes :
 
@@ -100,7 +104,7 @@ systemctl reload apache2
 
 ### Création du répertoire temporaire requis
 
-Pour que phpMyAdmin fonctionne correctement, un répertoire temporaire doit être créé et les permissions nécessaires définies. Tu peux faire cela avec les commandes suivantes :
+Pour que phpMyAdmin fonctionne correctement, un répertoire temporaire doit être créé et les permissions nécessaires définies. Tu peux faire ça avec ces commandes :
 
 ```
 mkdir /usr/share/phpmyadmin/tmp/
@@ -109,4 +113,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Conclusion
 
-Félicitations, tu as installé et configuré phpMyAdmin avec succès. Tu peux accéder à l’interface web en utilisant l’adresse IP et le chemin de ton serveur (http://Adresse-IP/phpmyadmin). Pour toute question ou aide supplémentaire, n’hésite pas à contacter notre équipe support, disponible tous les jours pour t’aider ! 🙂
+Félicitations, tu as installé et configuré phpMyAdmin avec succès. Tu peux accéder à l’interface web en utilisant l’adresse IP et le chemin de ton serveur (http://Adresse-IP/phpmyadmin). Pour toute question ou aide, n’hésite pas à contacter notre équipe support, dispo tous les jours pour t’aider ! 🙂

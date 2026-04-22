@@ -14,11 +14,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Plex est une plateforme pour gérer et streamer du contenu média comme des films, séries, musiques et photos depuis un emplacement central. Avec Plex Media Server, tu peux organiser tes bibliothèques, enrichir automatiquement avec des métadonnées, et streamer sur différents appareils, que ce soit sur ton réseau local ou via internet. Plex est donc une solution flexible pour accéder facilement à ta collection perso.
+Plex est une plateforme pour gérer et streamer du contenu média comme des films, séries, musiques et photos depuis un emplacement central. Avec Plex Media Server, tu peux organiser tes bibliothèques, enrichir automatiquement avec des métadonnées, et streamer sur différents appareils, que ce soit sur ton réseau local ou via internet. Plex est donc une solution flexible pour accéder facilement et confortablement à ta collection perso.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/68xdESEHimoY9Jp/preview)
 
-Tu envisages d’héberger ce service toi-même ? On te guide étape par étape pour l’installer et le configurer, avec tout ce qu’il faut savoir.
+Tu envisages d’héberger ce service toi-même ? On te guide pas à pas pour l’installer et le configurer, avec tout ce qu’il faut savoir.
+
+## Installer Plex avec le One Click Apps Installer
+
+Tu peux installer **Plex** directement via notre **One Click Apps Installer** dans l’interface web de ton VPS. Après la configuration initiale des apps, ouvre le catalogue, cherche **Plex**, et lance le déploiement avec ton projet, environnement et paramètres de domaine préférés. C’est une méthode rapide et simple pour déployer et gérer **Plex** sans passer par la ligne de commande, tout en profitant d’une gestion web intégrée, du support de domaine personnalisé, et du SSL quand c’est dispo.
 
 ## Prérequis
 
@@ -40,11 +44,11 @@ Assure-toi que toutes les dépendances sont en place et que la bonne version du 
 
 ## Installation
 
-Le site officiel de Plex Media propose la version Windows actuelle du Plex Media Server en téléchargement. Prends la version 64 bits pour garantir la compatibilité avec toutes les éditions modernes de Windows. Le téléchargement est dispo ici : https://www.plex.tv/media-server-downloads/
+Le site officiel de Plex Media propose la version Windows actuelle du Plex Media Server en téléchargement. Prends la version 64 bits pour garantir la compatibilité avec toutes les éditions Windows modernes. Le téléchargement est dispo ici : https://www.plex.tv/media-server-downloads/
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/d3b4mZsiQ4iqXrL/preview)
 
-Après téléchargement, lance l’installateur pour configurer Plex Media Server. Une fois installé, la configuration se fait via l’interface web dans ton navigateur, où tu pourras créer tes bibliothèques et gérer ta collection média.
+Après téléchargement, lance l’installateur pour configurer Plex Media Server. Une fois installé, la configuration se fait via l’interface web dans ton navigateur, où tu pourras créer des bibliothèques et gérer ta collection média.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/5TnmMeRkdLAt2RJ/download)
 
@@ -56,7 +60,7 @@ Cette étape de connexion est nécessaire pour lier le serveur à ton compte per
 
 Après l’installation, tu peux aussi accéder à ton Plex Media Server depuis l’extérieur en ouvrant l’interface web dans un navigateur via `http://<adresse-ip>:32400`. Remplace `<adresse-ip>` par l’adresse publique de ton serveur.
 
-Le port 32400 est le port par défaut pour l’accès web Plex et devra peut-être être autorisé dans ton pare-feu ou routeur si tu souhaites te connecter depuis internet.
+Le port 32400 est le port par défaut pour l’accès web Plex et devra peut-être être autorisé dans ton pare-feu ou routeur si tu veux te connecter depuis internet.
 
 Une fois l’adresse atteinte, tu seras redirigé vers la page de connexion Plex et pourras gérer tes bibliothèques et paramètres. Pour un accès externe sécurisé, il est recommandé d’activer l’Accès à distance dans les paramètres Plex, ce qui garantit une connexion chiffrée et relaie le trafic via le service Plex.
 

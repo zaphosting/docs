@@ -8,10 +8,10 @@ services:
   - dedicated-service-openclaw
 ---
 
-import Button from '@site/src/components/Button';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
+import InlineServiceLink from '@site/src/components/InlineServiceLink';
 
 ## Einführung
 
@@ -19,11 +19,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/XQkk46EnKzxxWrK/preview)
 
-Was OpenClaw besonders revolutionär macht, ist, dass es eine moderne „Kontrollebene“ für Anwendungen und Systeme ermöglicht. Anstatt an eine lokale Desktop-Sitzung gebunden zu sein, kann OpenClaw auf einer entfernten Maschine wie einem VPS oder Dedicated Server laufen und trotzdem von überall aus vollständig verwaltet werden. Das macht es zu einem mächtigen Tool für Nutzer, die zuverlässige Automatisierung, Fernsteuerung und zentrale Verwaltung wollen, ohne einen lokalen Rechner dauerhaft laufen lassen zu müssen.
+Was OpenClaw besonders revolutionär macht, ist, dass es eine moderne „Kontrollschicht“ für Anwendungen und Systeme ermöglicht. Anstatt an eine lokale Desktop-Sitzung gebunden zu sein, kann OpenClaw auf einer entfernten Maschine wie einem VPS oder Dedicated Server laufen und trotzdem von überall aus vollständig verwaltet werden. Das macht es zu einem mächtigen Tool für Nutzer, die zuverlässige Automatisierung, Fernsteuerung und zentrale Verwaltung wollen, ohne einen lokalen Rechner dauerhaft laufen lassen zu müssen.
 
 Du denkst darüber nach, diesen Service selbst zu hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
 
-<Button label="Bestelle jetzt deinen eigenen Server mit OpenClaw!" link="https://zap-hosting.com/en/vps-for-openclaw/" block style={{backgroundColor: '#ECFCCB', color: '#27272A', border: '1px solid lightgrey' }} />
+
+
+## OpenClaw mit dem One Click Apps Installer installieren
+
+Du kannst **OpenClaw** direkt über unseren **One Click Apps Installer** im VPS-Webinterface installieren. Nach der ersten Einrichtung der Apps öffnest du den App-Katalog, suchst nach **OpenClaw** und startest die Bereitstellung mit deinen bevorzugten Projekt-, Umgebungs- und Domain-Einstellungen. So bekommst du eine schnelle und benutzerfreundliche Möglichkeit, **OpenClaw** zu deployen und zu verwalten – ganz ohne manuelle Kommandozeilen-Installation, aber mit integriertem webbasiertem Management, Unterstützung für eigene Domains und SSL-Bereitstellung, wo verfügbar.
 
 <InlineVoucher />
 
@@ -31,13 +35,13 @@ Du denkst darüber nach, diesen Service selbst zu hosten? Wir führen dich Schri
 
 OpenClaw kann in vielen verschiedenen Alltagsszenarien eingesetzt werden und eignet sich für alle, die Aufgaben automatisieren, KI-Nutzung zentralisieren oder einen persistenten Assistenten betreiben wollen, der immer verfügbar ist.
 
-Ein häufiger Anwendungsfall ist die Konsolidierung von KI-Interaktionen über mehrere Plattformen hinweg. Anstatt verschiedene Tools für unterschiedliche Messenger-Apps zu nutzen, kann OpenClaw als ein einziger Assistent mit konsistentem Kontext und Konfiguration fungieren, unabhängig davon, von wo aus darauf zugegriffen wird.
+Ein häufiger Anwendungsfall ist die Konsolidierung von KI-Interaktionen über mehrere Plattformen hinweg. Anstatt verschiedene Tools für unterschiedliche Messenger-Apps zu nutzen, kann OpenClaw als ein einziger Assistent mit konsistentem Kontext und Konfiguration fungieren – unabhängig davon, von wo aus darauf zugegriffen wird.
 
 OpenClaw ist auch super für Automatisierung. Es hilft, repetitive manuelle Arbeit zu reduzieren, indem es wiederkehrende Aufgaben übernimmt, Informationen organisiert, Inhalte zusammenfasst und strukturierte Antworten liefert.
 
 Ein weiterer wichtiger Anwendungsfall ist Web-Automatisierung. Durch die Steuerung von Browsersitzungen über dedizierte Chrome- oder Chromium-Instanzen kann OpenClaw mit Weboberflächen interagieren, selbst wenn keine direkte API-Integration vorhanden ist.
 
-Um diese Szenarien zu unterstützen, bietet OpenClaw eine breite Palette an Funktionen, darunter Multi-Channel-Messaging-Support (z.B. WhatsApp, Telegram, Slack und Discord), eine Gateway-basierte Architektur zur Verwaltung von Sessions und Kanälen, optionale Voice-Features, eine interaktive Canvas-Oberfläche, eine erweiterbare Skills-Plattform, Unterstützung für mehrere KI-Anbieter (inklusive OpenAI und Anthropic), Device Nodes für mobile Aktionen, API-Key-Authentifizierung sowie persistente Workspace- und Konfigurationsverwaltung.
+Um diese Szenarien zu unterstützen, bietet OpenClaw eine breite Palette an Funktionen, darunter Multi-Channel-Messaging-Support (z.B. WhatsApp, Telegram, Slack und Discord), eine Gateway-basierte Architektur zur Verwaltung von Sessions und Kanälen, optionale Voice-Features, eine interaktive Canvas-Oberfläche, eine erweiterbare Skills-Plattform, Unterstützung für mehrere KI-Anbieter (inklusive OpenAI und Anthropic), Device-Nodes für mobile Aktionen, API-Key-Authentifizierung sowie persistente Workspace- und Konfigurationsverwaltung.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7A5eiaMSE8FFQRs/download)
 
@@ -52,11 +56,11 @@ Je nachdem, wie du **OpenClaw** nutzen möchtest, kann der Ressourcenverbrauch s
 | RAM        | 4 GB         | 16 GB                     |
 | Festplattenspeicher | 25 GB        | 50 GB                     |
 
-<Button label="Bestelle jetzt deinen eigenen Server mit OpenClaw!" link="https://zap-hosting.com/en/vps-for-openclaw/" block style={{backgroundColor: '#ECFCCB', color: '#27272A', border: '1px solid lightgrey' }} />
+<InlineServiceLink />
 
 
 ## Installation
-Die Installation startet mit dem Ausführen des offiziellen OpenClaw-Installationsskripts auf deinem Linux Dedicated Server. Verbinde dich per SSH mit deinem Server und führe folgenden Befehl aus:
+Die Installation startet mit dem offiziellen OpenClaw-Installer-Skript auf deinem Linux Dedicated Server. Verbinde dich per SSH mit deinem Server und führe folgenden Befehl aus:
 
 ```bash
 curl -fsSL https://openclaw.ai/install.sh | bash
@@ -70,7 +74,7 @@ Nach Ausführung startet automatisch ein interaktives Installationsskript, das d
 ### Plattform-Erkennung und Abhängigkeitsprüfung
 
 Der Installer erkennt automatisch dein Betriebssystem und installiert bei Bedarf erforderliche Abhängigkeiten.  
-Wenn z.B. Node.js fehlt, wird es automatisch installiert. Manuelle Eingriffe sind nicht nötig.
+Wenn z.B. Node.js fehlt, wird es automatisch installiert. Manuelles Eingreifen ist nicht nötig.
 
 
 
@@ -80,7 +84,7 @@ OpenClaw installiert die benötigten Pakete über den System-Paketmanager. Auch 
 
 ### OpenClaw installieren
 
-Nachdem die Abhängigkeiten bereitgestellt wurden, lädt der Installer die OpenClaw-Version herunter und installiert sie. Sobald der Vorgang abgeschlossen ist, solltest du eine Bestätigung wie diese sehen:
+Nachdem die Abhängigkeiten vorbereitet sind, lädt der Installer die OpenClaw-Version herunter und installiert sie. Nach Abschluss solltest du eine Bestätigung wie diese sehen:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/NwTqC997KQ23Htr/preview)
 
@@ -92,11 +96,11 @@ Nach der Installation startet der Onboarding-Assistent automatisch. Dieses Onboa
 
 
 
-Lies zuerst den angezeigten Sicherheitshinweis und bestätige ihn, um fortzufahren. Wähle dann den Onboarding-Modus. Für die meisten Nutzer ist **QuickStart** die empfohlene Option.
+Zuerst liest du die angezeigte Sicherheitshinweis und bestätigst ihn, um fortzufahren. Danach wählst du den Onboarding-Modus. Für die meisten Nutzer ist **QuickStart** die empfohlene Option.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ZQXSmmwQ29yk374/preview)
 
-Anschließend wählst du dein Modell/Auth-Anbieter. In diesem Beispiel ist **OpenAI** ausgewählt. Gib nun deinen OpenAI API-Schlüssel ein. OpenClaw speichert den Schlüssel lokal in der Konfiguration, damit er für zukünftige Sessions genutzt werden kann. Nachdem der API-Schlüssel gespeichert wurde, wähle das Standardmodell, das OpenClaw verwenden soll.
+Anschließend wählst du dein Modell/Auth-Anbieter. In diesem Beispiel ist **OpenAI** ausgewählt. Jetzt gibst du deinen OpenAI API-Schlüssel ein. OpenClaw speichert den Schlüssel lokal in der Konfiguration, damit er für zukünftige Sessions genutzt werden kann. Nachdem der API-Schlüssel gespeichert wurde, wählst du das Standardmodell, das OpenClaw verwenden soll.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/HQ5MNqCxdd5EY8Q/preview)
 
@@ -122,24 +126,24 @@ BotFather: Gut. Jetzt wähle einen Benutzernamen für deinen Bot. Er muss mit `b
 
 User: ZAP_DOCS_EXAMPLE_BOT 
 
-BotFather: Fertig! Glückwunsch zu deinem neuen Bot. Du findest ihn unter t.me/ZAP_DOCS_EXAMPLE_BOT. Du kannst jetzt eine Beschreibung, Info und Profilbild für deinen Bot hinzufügen, siehe /help für eine Liste der Befehle. Übrigens, wenn du deinen coolen Bot fertig hast, melde dich bei unserem Bot-Support, falls du einen besseren Benutzernamen möchtest. Achte nur darauf, dass der Bot voll funktionsfähig ist, bevor du das machst.
+BotFather: Fertig! Glückwunsch zu deinem neuen Bot. Du findest ihn unter t.me/ZAP_DOCS_EXAMPLE_BOT. Du kannst jetzt eine Beschreibung, Info und Profilbild hinzufügen, siehe /help für eine Liste der Befehle. Wenn du deinen coolen Bot fertig hast, melde dich bei unserem Bot-Support, falls du einen besseren Benutzernamen möchtest. Achte nur darauf, dass der Bot voll funktionsfähig ist, bevor du das machst.
 
-Nutze diesen Token, um auf die HTTP API zuzugreifen:
+Nutze diesen Token, um auf die HTTP-API zuzugreifen:
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-Bewahre deinen Token sicher auf, er kann von jedem genutzt werden, um deinen Bot zu steuern.
+Halte deinen Token sicher und speichere ihn gut, denn jeder mit dem Token kann deinen Bot steuern.
 
-Eine Beschreibung der Bot API findest du hier: https://core.telegram.org/bots/api
+Eine Beschreibung der Bot-API findest du hier: https://core.telegram.org/bots/api
 ```
 
 Nachdem BotFather die Bot-Erstellung bestätigt hat, kopiere den angezeigten **Token** und bewahre ihn sicher auf. Diesen Token brauchst du später, wenn du Telegram als Kanal im OpenClaw-Onboarding oder in der Konfiguration verbindest. Jeder mit diesem Token kann deinen Bot steuern, daher darf er niemals öffentlich geteilt werden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/JHTxW7Pi4SRsoe7/preview)
 
-Nachdem du den Telegram-Bot erstellt und den Token gespeichert hast, kannst du mit dem OpenClaw-Onboarding fortfahren. In den nächsten Schritten kannst du **Skills** installieren und **Hooks** aktivieren. Diese Optionen sind empfohlen, können aber auch übersprungen und später in der Konfiguration eingerichtet werden, falls du die Einrichtung erst abschließen möchtest.
+Nachdem du den Telegram-Bot erstellt und den Token gespeichert hast, kannst du mit dem OpenClaw-Onboarding fortfahren. In den nächsten Schritten kannst du **Skills** installieren und **Hooks** aktivieren. Diese Optionen sind empfohlen, können aber auch übersprungen und später in der Konfiguration nachgeholt werden.
 
-Nach Abschluss des Onboardings installiert OpenClaw automatisch den **Gateway-Service**. Wähle abschließend die **Web UI**-Option, damit OpenClaw den Dashboard-Link ausgibt. So kannst du die OpenClaw Control UI aufrufen und deine Einrichtung bequem im Browser weiter verwalten.
+Nach Abschluss des Onboardings installiert OpenClaw automatisch den **Gateway-Service**. Zum Schluss wählst du die **Web UI**-Option, damit OpenClaw den Dashboard-Link ausgibt. So kannst du die OpenClaw Control UI öffnen und deine Einrichtung bequem im Browser weiter verwalten.
 
-Danach wird das Onboarding als abgeschlossen markiert. Am Ende der Einrichtung bietet OpenClaw auch an, das **Shell Completion Script** zu installieren. Das ist optional, aber empfohlen, da es die Bedienung der Kommandozeile verbessert, indem es Auto-Completion für OpenClaw-Befehle aktiviert. Folge einfach den Anweisungen.
+Danach wird das Onboarding als abgeschlossen markiert. Am Ende des Setups bietet OpenClaw außerdem an, das **Shell Completion Script** zu installieren. Das ist optional, aber empfohlen, da es die Bedienung in der Kommandozeile verbessert, indem es Auto-Completion für OpenClaw-Befehle aktiviert. Folge einfach den Anweisungen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xWNpjYj2XeKgK4J/preview)
 
@@ -149,7 +153,7 @@ Danach wird das Onboarding als abgeschlossen markiert. Am Ende der Einrichtung b
 
 ## Konfiguration
 
-Unsere VPS- und Dedicated Server werden standardmäßig ohne grafische Benutzeroberfläche ausgeliefert. Deshalb läuft OpenClaw im Headless-Modus und stellt seine Control UI nur lokal auf dem Server auf Port `18789` bereit.
+Unsere VPS- und Dedicated Server werden standardmäßig ohne grafische Benutzeroberfläche ausgeliefert. Deshalb läuft OpenClaw im Headless-Modus und stellt seine Control UI nur lokal auf dem Server über Port `18789` bereit.
 
 Nach Abschluss von Installation und Onboarding gibt OpenClaw die Dashboard-Informationen in der Konsole aus:
 
@@ -158,7 +162,7 @@ Dashboard-Link (mit Token):
 http://127.0.0.1:18789/?token=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 Kopiere/füge diese URL in einen Browser auf diesem Rechner ein, um OpenClaw zu steuern.
-Keine GUI erkannt. Öffne vom Computer aus:
+Keine GUI erkannt. Öffne von deinem PC aus:
 ssh -N -L 18789:127.0.0.1:18789 root@92.42.46.111
 
 Dann öffne:
@@ -174,7 +178,7 @@ Da die Weboberfläche an `127.0.0.1` gebunden ist, ist sie nicht direkt aus dem 
 ssh -N -L 18789:127.0.0.1:18789 root@92.42.46.111
 ```
 
-Solange diese SSH-Sitzung offen ist, kannst du die OpenClaw Control UI im Browser über folgende URL erreichen:
+Solange diese SSH-Verbindung offen ist, kannst du die OpenClaw Control UI im Browser über folgende URL erreichen:
 
 ```
 http://localhost:18789/
@@ -188,9 +192,9 @@ http://127.0.0.1:18789/?token=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 
-:::tip Nutze eine GUI (Desktop-Umgebung)
+:::tip GUI (Desktop-Umgebung) nutzen
 
-Wenn du OpenClaw lieber mit grafischer Oberfläche nutzen möchtest, kannst du auf deinem VPS/Dedicated Server eine Desktop-Umgebung installieren, z.B. **XFCE**. Nach Installation einer GUI (und einer Remote-Desktop-Lösung wie RDP oder VNC) kannst du OpenClaw direkt über den Desktop des Dedicated Servers steuern, ohne SSH-Portweiterleitung zu nutzen.
+Wenn du OpenClaw lieber mit grafischer Oberfläche verwenden möchtest, kannst du auf deinem VPS/Dedicated Server eine Desktop-Umgebung installieren, z.B. **XFCE**. Nach Installation einer GUI (und einer Remote-Desktop-Lösung wie RDP oder VNC) kannst du OpenClaw direkt über den Dedicated Server-Desktop steuern, ohne SSH-Port-Forwarding zu nutzen.
 
 :::
 
@@ -203,7 +207,7 @@ Wenn du OpenClaw lieber mit grafischer Oberfläche nutzen möchtest, kannst du a
 ### Skills installieren
 
 Skills erweitern OpenClaw um zusätzliche Funktionen und Integrationen.  
-OpenClaw bringt über 50 Skills mit. Du kannst Skills direkt im Dashboard unter dem Bereich **Skills** installieren und aktivieren.
+OpenClaw bringt über 50 Skills mit. Du kannst Skills direkt im Dashboard unter dem Bereich **Skills** auswählen und aktivieren.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/gXxs6j9WHtxPYAQ/preview)
 
@@ -211,7 +215,7 @@ OpenClaw bringt über 50 Skills mit. Du kannst Skills direkt im Dashboard unter 
 
 ### Hooks aktivieren
 
-Hooks erlauben es OpenClaw, automatisch Aktionen auszuführen, wenn bestimmte Ereignisse eintreten oder spezifische Befehle genutzt werden.  
+Hooks erlauben es OpenClaw, automatisch Aktionen auszuführen, wenn bestimmte Ereignisse eintreten oder spezielle Befehle genutzt werden.  
 Das ist praktisch, um wiederkehrende Aufgaben zu automatisieren, Kontext zu speichern oder Workflows ohne manuelle Eingriffe auszulösen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/KYSWM4cFcDp45F6/preview)
@@ -220,7 +224,7 @@ Das ist praktisch, um wiederkehrende Aufgaben zu automatisieren, Kontext zu spei
 
 ### Kanäle konfigurieren
 
-Kanäle ermöglichen dir, OpenClaw über Messaging-Plattformen zu nutzen.  
+Kanäle ermöglichen die Nutzung von OpenClaw über Messaging-Plattformen.  
 Im Dashboard kannst du unterstützte Kanäle wie Telegram, Discord, Slack und andere konfigurieren und verbinden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Le38gZXf2BDintr/preview)
@@ -229,7 +233,7 @@ Je nach Plattform musst du zusätzliche Tokens oder Zugangsdaten angeben (z.B. w
 
 
 
-Nach erfolgreicher Kanalverbindung kann OpenClaw Nachrichten über diese Plattform empfangen und beantworten. Eine Unterhaltung mit dem KI-Assistenten via Telegram könnte so aussehen:
+Nach erfolgreicher Kanal-Verbindung kann OpenClaw Nachrichten über diese Plattform empfangen und beantworten. Eine Unterhaltung mit dem KI-Assistenten via Telegram könnte so aussehen:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/oFRZCEPFyyMmsG4/preview)
 
@@ -237,20 +241,20 @@ Nach erfolgreicher Kanalverbindung kann OpenClaw Nachrichten über diese Plattfo
 
 ## Sicherheitshinweise
 
-OpenClaw ist ein mächtiges Tool und sollte immer mit angemessenen Sicherheitsvorkehrungen genutzt werden. Das Gateway-Dashboard ist durch ein Token geschützt, das wie ein Passwort funktioniert und Zugriff auf deine OpenClaw-Instanz gewährt. Teile dieses Gateway-Token niemals öffentlich (z.B. in Screenshots, Tickets oder Chatlogs), denn jeder mit dem Token kann das Dashboard steuern.
+OpenClaw ist ein mächtiges Tool und sollte immer mit angemessenen Sicherheitsvorkehrungen genutzt werden. Das Gateway-Dashboard ist durch ein Token geschützt, das wie ein Passwort funktioniert und Zugriff auf deine OpenClaw-Instanz gewährt. Teile dieses Gateway-Token niemals öffentlich (z.B. in Screenshots, Tickets oder Chat-Logs), denn jeder mit dem Token kann das Dashboard steuern.
 
-Es wird empfohlen, OpenClaw hinter einer Firewall zu betreiben und die Gateway-Oberfläche nicht direkt öffentlich zugänglich zu machen. Standardmäßig bindet OpenClaw den Gateway-Service an `127.0.0.1`, was externen Zugriff verhindert und für die meisten Anwendungsfälle die sicherste Option ist. Für den Fernzugriff nutze SSH-Portweiterleitung und beschränke den Zugang auf vertrauenswürdige Nutzer.
+Es wird empfohlen, OpenClaw hinter einer Firewall zu betreiben und die Gateway-Oberfläche nicht direkt öffentlich im Internet freizugeben. Standardmäßig bindet OpenClaw den Gateway-Service an `127.0.0.1`, was externen Zugriff verhindert und für die meisten Anwendungsfälle die sicherste Option ist. Für den Fernzugriff nutze SSH-Port-Forwarding und beschränke den Zugang auf vertrauenswürdige Nutzer.
+
+<InlineServiceLink />
 
 
 
-## Abschluss und weitere Ressourcen
+## Fazit und weitere Ressourcen
 
-Glückwunsch! Du hast OpenClaw jetzt erfolgreich auf deinem VPS oder Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der Server-Konfiguration weiterhelfen können:
+Glückwunsch! Du hast OpenClaw jetzt erfolgreich auf deinem VPS oder Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf folgende Ressourcen zu werfen, die dir bei der weiteren Server-Konfiguration helfen können:
 
 - [openclaw.ai](https://https://openclaw.ai/) – Offizielle Webseite
 - [docs.openclaw.ai](https://docs.openclaw.ai/start/getting-started) – OpenClaw Dokumentation
 - [clawhub.com](https://clawhub.com/) – ClawHub – Community-gebaute Skills
 
-Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich einfach bei uns! 🙂
-
-<InlineVoucher />
+Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich gerne bei uns! 🙂
