@@ -26,27 +26,23 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
+
+      - name: Restore Docusaurus caches
+        uses: actions/cache@v4
+        with:
+          path: |
+            .docusaurus
+            node_modules/.cache
+          key: ${{ runner.os }}-docusaurus-${{ hashFiles('package-lock.json', 'docusaurus.config.js') }}
+          restore-keys: |
+            ${{ runner.os }}-docusaurus-
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build Docusaurus
         run: |
-          npm run write-translations -- --locale de
-          npm run write-translations -- --locale es
-          npm run write-translations -- --locale fr
-          npm run write-translations -- --locale ar
-          npm run write-translations -- --locale pt
-          npm run write-translations -- --locale th
-          npm run write-translations -- --locale pl
-          npm run write-translations -- --locale ja   
-          npm run write-translations -- --locale sv
-          npm run write-translations -- --locale it
-          npm run write-translations -- --locale nl
-          npm run write-translations -- --locale zh
-
-          rm -rf build
-          npm run docusaurus clear
           rm -f build.tar
           npm run build
           tar cf build.tar -C build --transform 's~^\./~~' .
