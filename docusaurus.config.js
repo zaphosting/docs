@@ -104,7 +104,7 @@ const config = {
     [
       '@docusaurus/plugin-pwa',
       {
-        debug: true,
+        debug: false,
         offlineModeActivationStrategies: [
           'appInstalled',
           'standalone',
