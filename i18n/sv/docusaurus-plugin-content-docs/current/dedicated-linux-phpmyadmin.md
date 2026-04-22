@@ -113,4 +113,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Avslutning
 
-Grattis, du har nu installerat och konfigurerat phpMyAdmin! Du kan nå webbgränssnittet via serverns IP-adress och sökvägen (http://IP-Address/phpmyadmin). Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vår support – vi finns här för dig varje dag! 🙂
+Grattis, du har nu installerat och konfigurerat phpMyAdmin! Du kan nå webbgränssnittet via serverns IP-adress och sökvägen (`http://IP-Address/phpmyadmin`). Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vår support – vi finns här för dig varje dag! 🙂
