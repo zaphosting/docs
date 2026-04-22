@@ -112,4 +112,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Afronding
 
-Gefeliciteerd, je hebt phpMyAdmin succesvol geïnstalleerd en geconfigureerd! Je kunt de webinterface bereiken via het IP-adres en pad van je server (http://IP-Address/phpmyadmin). Heb je vragen of hulp nodig? Onze support staat dagelijks voor je klaar! 🙂
+Gefeliciteerd, je hebt phpMyAdmin succesvol geïnstalleerd en geconfigureerd! Je kunt de webinterface bereiken via het IP-adres en pad van je server (`http://IP-Address/phpmyadmin`). Heb je vragen of hulp nodig? Onze support staat dagelijks voor je klaar! 🙂

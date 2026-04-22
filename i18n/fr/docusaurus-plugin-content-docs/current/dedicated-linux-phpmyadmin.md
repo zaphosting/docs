@@ -113,4 +113,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Conclusion
 
-Félicitations, tu as installé et configuré phpMyAdmin avec succès. Tu peux accéder à l’interface web en utilisant l’adresse IP et le chemin de ton serveur (http://Adresse-IP/phpmyadmin). Pour toute question ou aide, n’hésite pas à contacter notre équipe support, dispo tous les jours pour t’aider ! 🙂
+Félicitations, tu as installé et configuré phpMyAdmin avec succès. Tu peux accéder à l’interface web en utilisant l’adresse IP et le chemin de ton serveur (`http://Adresse-IP/phpmyadmin`). Pour toute question ou aide, n’hésite pas à contacter notre équipe support, dispo tous les jours pour t’aider ! 🙂

@@ -113,4 +113,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Podsumowanie
 
-Gratulacje, właśnie zainstalowałeś i skonfigurowałeś phpMyAdmin! Do webowego panelu dostaniesz się przez adres IP serwera i ścieżkę (http://Adres-IP/phpmyadmin). Jeśli masz pytania lub potrzebujesz pomocy, nasz support jest do Twojej dyspozycji codziennie! 🙂
+Gratulacje, właśnie zainstalowałeś i skonfigurowałeś phpMyAdmin! Do webowego panelu dostaniesz się przez adres IP serwera i ścieżkę (`http://Adres-IP/phpmyadmin`). Jeśli masz pytania lub potrzebujesz pomocy, nasz support jest do Twojej dyspozycji codziennie! 🙂
