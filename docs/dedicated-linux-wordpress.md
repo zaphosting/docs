@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-wordpress
-title: "Dedicated Server: Installation of WordPress"
+title: "Setup WordPress on a Linux Server - Launch Your Own Website or Blog"
 description: "Discover how to install WordPress on a Linux server using the LAMP stack to build and manage your website efficiently → Learn more now"
 sidebar_label: Install WordPress
 services:
+  - vserver
   - dedicated
 ---
 
@@ -16,6 +17,10 @@ WordPress is a popular web content management system used for managing and publi
 ![](https://screensaver01.zap-hosting.com/index.php/s/r26L7xASWY3d5Z5/preview)
 
 
+
+## Install WordPress with the One Click Apps Installer
+
+You can install **WordPress** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **WordPress**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **WordPress** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
 
 ## Preparation
 

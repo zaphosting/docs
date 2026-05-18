@@ -1,6 +1,6 @@
 ---
 id: dedicated-windows-fivem-txAdmin-cloudflare-tunnel
-title: "Dedicated Server: Setting up Cloudflare Tunnel for txAdmin"
+title: "Setting up Cloudflare Tunnel for txAdmin"
 description: "Discover how to setup Cloudflare tunnel for txAdmin for more security → Learn more now"
 sidebar_label: Cloudflare Tunnel for txAdmin
 services:
@@ -19,7 +19,7 @@ If you want to take additional security measures on top of the existing ZAP-Host
 
 ## Prerequisites
 
-To use a Cloudflare Tunnel on Windows you need a Windows Dedicated Server, a working txAdmin installation, your txAdmin port and a domain that is already connected to your Cloudflare account. If your domain is not yet connected to Cloudflare, please follow our [Cloudflare Setup](domain-cloudflare-setup.md) guide first.
+To use a Cloudflare Tunnel on Windows you need a Windows VPS/Dedicated Server, a working txAdmin installation, your txAdmin port and a domain that is already connected to your Cloudflare account. If your domain is not yet connected to Cloudflare, please follow our [Cloudflare Setup](domain-cloudflare-setup.md) guide first.
 
 Cloudflare Tunnel works by creating an outgoing encrypted connection from your server to Cloudflare so no public ports have to stay open for txAdmin.
 

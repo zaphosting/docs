@@ -52,7 +52,7 @@ Anschließend kannst du alle Serverbefehle als Admin ausführen. Im Folgenden fi
 | admincheat addexperience Menge                 | Fügt dem Spieler Erfahrung hinzu                              |
 | admincheat settimeofday Zeit                   | Ändert die Tageszeit auf dem Gameserver. Beispiel: "admincheat settimeofday 12:00" |
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

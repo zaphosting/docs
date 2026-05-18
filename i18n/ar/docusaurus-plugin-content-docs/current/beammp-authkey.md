@@ -16,7 +16,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 <InlineVoucher />
 
 ## التحضير
-عشان تنشئ مفتاح المصادقة الخاص فيك، أول شيء نسجل دخول في https://beammp.com/keymaster، وده يحتاج حساب Discord.
+عشان تنشئ مفتاح المصادقة الخاص فيك، أول شيء نسجل دخول في `https://beammp.com/keymaster`، وده يحتاج حساب Discord.
 بعد ما نسجل دخول، نضغط على "Keys" على اليسار، وده بياخدنا لصفحة نظرة عامة على مفاتيح الترخيص:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Zp72q2WR85pxJgq/preview)

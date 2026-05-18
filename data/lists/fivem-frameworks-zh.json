@@ -1,0 +1,38 @@
+[
+  {
+    "title": "ESX",
+    "description": "ESX于2017年由开发者Taerox推出，基于kanersps创建的早期EssentialMode框架。EssentialMode是FiveM的第一个框架之一。ESX迅速成为社区中最受欢迎的角色扮演框架。",
+    "category": "Roleplay",
+    "tags": [
+      "ROLEPLAY"
+    ],
+    "link": "https://github.com/esx-framework/esx_core"
+  },
+  {
+    "title": "QBCore",
+    "category": "Roleplay",
+    "description": "QBCore于2021年由开发者Kakarot推出，相较于ESX，它是一个相对较新的框架。它具有现代化的结构，并得到了一个不断壮大的开发者社区的支持。",
+    "tags": [
+      "ROLEPLAY"
+    ],
+    "link": "https://github.com/qbcore-framework/qb-core"
+  },
+  {
+    "title": "vRP",
+    "category": "Roleplay",
+    "description": "vRP框架是由ImagicTheCat于2017年创建的，是FiveM最早的角色扮演框架之一。尽管它多年来被广泛使用，但现在被认为是过时的。",
+    "tags": [
+      "ROLEPLAY"
+    ],
+    "link": "https://github.com/vRP-framework/vRP"
+  },
+  {
+    "title": "Dunko's vRP",
+    "category": "Roleplay",
+    "description": "Dunko的vRP是在2018年初由Dunko开发的，基于原始的vRP框架。它也是FiveM角色扮演服务器的早期解决方案之一，但现在已经过时。",
+    "tags": [
+      "ROLEPLAY"
+    ],
+    "link": "https://github.com/qbcore-framework/qb-core"
+  }
+]

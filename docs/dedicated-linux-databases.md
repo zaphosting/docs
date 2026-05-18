@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-databases
-title: "Dedicated Server: Installation of Databases"
+title: "Setup Databases on a Linux Server - Deploy and Manage Database Services"
 description: "Explore how to install and set up various databases on Ubuntu and other Linux distros for enhanced performance and security → Learn more now"
 sidebar_label: Install Databases
 services:
+  - vserver
   - dedicated
 ---
 
@@ -14,6 +15,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 This guide provides steps for the installation of various types of databases. For this example, Ubuntu 20.04 is used as the operating system, however, equivalent commands for other Linux distros that we provide on our website are also specified. These commands must be executed via SSH, if you don't know how to connect to your server via SSH, please have a look here: [Initial access (SSH)](vserver-linux-ssh.md).
 
 
+
+## Install Databases with the One Click Apps Installer
+
+You can install **Databases** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **Databases**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **Databases** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
 
 ## Preparation
 

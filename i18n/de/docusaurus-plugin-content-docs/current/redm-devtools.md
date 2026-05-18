@@ -43,7 +43,7 @@ Die Dev Tools erreichst du, indem du die Konsole mit der `F8`-Taste öffnest. Ob
 Siehst du nicht alle Tool-Optionen wie im Screenshot? Dann hast du wahrscheinlich den Kanal nicht korrekt auf Beta gestellt oder den Client nach der Änderung nicht neu gestartet.
 :::
 
-## Fazit
+## Abschluss
 
 Du hast die RedM Dev Tools erfolgreich aktiviert. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-avorion
-title: "Dedicated Server: Avorion Dedicated Server Windows Setup"
-description: "Discover how to set up the Avorion Dedicated Server on your Windows VPS for seamless gameplay hosting → Learn more now"
+title: "Avorion Dedicated Server Windows Setup"
+description: "Discover how to set up the Avorion Dedicated Server on your Windows server for seamless gameplay hosting → Learn more now"
 sidebar_label: Avorion
 services:
+  - vserver
   - dedicated
 ---
 
@@ -12,14 +13,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Do you have a Windows VPS and you want to install the Avorion Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS/Dedicated Server and you want to install the Avorion Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
-<YouTube videoId="x10ssP09qtg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/7Nfiz2kgc9Sxbts/preview" title="How To Setup Avorion Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="x10ssP09qtg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/7Nfiz2kgc9Sxbts/preview" title="How To Setup Avorion Dedicated Server on Windows VPS/Dedicated Server!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 
 ## Preparation
 
-To begin with, connect to your VPS through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS/Dedicated Server through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 Once you have accessed your server, you will need to setup **SteamCMD** in order to be able to download the necessary dedicated server files. SteamCMD is the **command-line (CLI)** version of the Steam client and is the tool which allows you to easily download a range of Steam workshop and dedicated server files. Download [SteamCMD from the official Valve website](https://developer.valvesoftware.com/wiki/SteamCMD) or directly [here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 
@@ -56,7 +57,7 @@ Once successful, head over to the download directory where all of the server fil
 
 ### Port Forwarding your server
 
-In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
+In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the VPS/Dedicated Server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -122,6 +123,6 @@ Now it is time to start your server. Head over to the base directory of your Avo
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the Avorion server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the Avorion server on your VPS/Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
 
 

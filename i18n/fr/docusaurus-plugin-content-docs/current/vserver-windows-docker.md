@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-docker
-title: "VPS : Installer Docker sur Windows"
+title: "Configurer Docker sur un serveur Windows - Exécutez et gérez des conteneurs sur votre infrastructure"
 description: "Découvrez comment déployer et gérer efficacement des applications avec des conteneurs Docker pour une montée en charge et des mises à jour fluides → En savoir plus maintenant"
 sidebar_label: Installer Docker
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -23,17 +24,17 @@ Tu envisages d’héberger ce service toi-même ? On te guide pas à pas pour l�
 
 ## Prérequis
 
-Avant d’installer **Docker**, assure-toi que ton environnement d’hébergement respecte les exigences suivantes pour garantir une installation fluide et des performances optimales.
+Avant d’installer **Docker**, assure-toi que ton environnement d’hébergement répond aux exigences suivantes pour garantir une installation fluide et des performances optimales.
 
 | Matériel   | Minimum      | Recommandation ZAP-Hosting |
 | ---------- | ------------ | -------------------------- |
-| CPU        | 1 vCPU Cœurs | 4 vCPU Cœurs               |
+| CPU        | 1 cœur vCPU  | 4 cœurs vCPU               |
 | RAM        | 4 Go         | 4 Go                       |
 | Espace disque | 10 Go      | 25 Go                      |
 
 ## Installation
 
-Pour installer Docker sur Windows Server, télécharge et lance le script PowerShell `install-docker-ce.ps1`. Il active les fonctionnalités Windows nécessaires aux conteneurs et installe le runtime Docker. Ouvre PowerShell en mode admin et exécute la commande suivante :
+Pour installer Docker sur un serveur Windows, télécharge et exécute le script PowerShell `install-docker-ce.ps1`. Il active les fonctionnalités Windows nécessaires aux conteneurs et installe le runtime Docker. Ouvre PowerShell en mode admin et lance la commande suivante :
 
 ```powershell
 Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/microsoft/Windows-Containers/Main/helpful_tools/Install-DockerCE/install-docker-ce.ps1" -o install-docker-ce.ps1
@@ -44,7 +45,7 @@ Le script active les fonctionnalités Windows liées aux conteneurs, installe Do
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/y26fPWy63FAWJGp/download)
 
-Le système va redémarrer pendant l’installation et devrait continuer automatiquement ensuite. Après le redémarrage, connecte-toi et relance la même commande si le script te le demande pour finaliser l’initialisation du service. Une fois le script terminé, la sortie ressemblera à ça :
+Le système redémarrera pendant l’installation et devrait continuer automatiquement ensuite. Après le redémarrage, connecte-toi et relance la même commande si le script te le demande pour finaliser l’initialisation du service. Une fois le script terminé, la sortie ressemblera à ça :
 
 ```
 Installing Docker... C:\Users\Administrator\DockerDownloads\docker-28.3.3\docker\docker.exe
@@ -62,7 +63,7 @@ Script complete!
 
 ### Démarrer et arrêter Docker
 
-Docker tourne comme un service sous Windows. Après l’installation, il démarre automatiquement. Pour le contrôler manuellement :
+Docker fonctionne comme un service sous Windows. Après l’installation, il démarre automatiquement. Pour le contrôler manuellement :
 
 ```
 Start-Service docker    # Démarrer le service Docker
@@ -97,9 +98,9 @@ docker stats            # CPU/RAM/IO en temps réel
 
 ## Conclusion et ressources supplémentaires
 
-Bravo ! Tu as maintenant installé et configuré Docker avec succès sur ton VPS. On te conseille aussi de jeter un œil aux ressources suivantes, qui pourront t’apporter encore plus d’aide et de conseils pour ta configuration serveur :
+Félicitations ! Tu as maintenant installé et configuré Docker avec succès sur ton VPS/serveur dédié. On te recommande aussi de jeter un œil aux ressources suivantes, qui pourront t’apporter encore plus d’aide et de conseils pour ta configuration serveur :
 
 - [Docker.com](https://Docker.com/) - Site officiel
 - [docs.docker.com](https://docs.docker.com/) - Documentation Docker
 
-Tu as des questions spécifiques qui ne sont pas couvertes ici ? Pour toute demande ou assistance, n’hésite pas à contacter notre équipe support, dispo tous les jours pour t’aider ! 🙂
+Tu as des questions spécifiques qui ne sont pas couvertes ici ? Pour toute demande ou assistance, n’hésite pas à contacter notre support, disponible tous les jours pour t’aider ! 🙂

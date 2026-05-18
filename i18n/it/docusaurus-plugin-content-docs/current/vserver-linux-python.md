@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-python
-title: "VPS: Installazione di Python"
+title: "Configura Python su un Server Linux - Attiva Sviluppo e Automazione"
 description: "Scopri come installare e aggiornare il runtime Python su varie distro Linux per garantire un ambiente sicuro e sempre aggiornato → Scopri di più ora"
 sidebar_label: Installa Python
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -55,7 +56,7 @@ import TabItem from '@theme/TabItem';
 
 ## Installazione
 
-La maggior parte delle distro Linux ha Python preinstallato, ma la versione potrebbe non essere aggiornata o il sistema potrebbe essere stato installato senza alcuni pacchetti. Puoi verificare se Python è installato con (`python3 --version`) e poi eseguire i comandi seguenti per aggiornare o installare il runtime.
+La maggior parte delle distro Linux ha Python già installato, ma la versione potrebbe non essere aggiornata o il sistema potrebbe essere stato installato senza alcuni pacchetti. Puoi controllare se Python è presente con (`python3 --version`) e poi eseguire i comandi seguenti per aggiornare o installare il runtime.
 
 <Tabs>
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
@@ -117,7 +118,7 @@ Eseguendo il comando `python3` si avvia l’interprete Python. Puoi scrivere qua
 Per eseguire file Python `.py`, usa semplicemente il comando `python3 [nomefile].py`, sostituendo `[nomefile]` con il percorso del file che vuoi far partire.
 
 :::tip
-La maggior parte dei programmi che trovi online si avviano con `python3 main.py` perché `main.py` è il punto di partenza standard per molti programmi Python.
+La maggior parte dei programmi che trovi online si avviano con `python3 main.py` perché `main.py` è il punto di partenza più comune per i programmi Python.
 :::
 
 ## Ambienti virtuali
@@ -126,11 +127,11 @@ Quando scrivi un programma Python potresti aver bisogno di installare pacchetti 
 
 ### Creare il venv
 
-Prima di tutto, spostati nella cartella dove vuoi creare il venv con `cd` e poi esegui `python3 -m venv .` che installerà i file necessari nella posizione corrente.
+Prima di tutto, spostati nella cartella dove vuoi creare il venv con `cd` e, una volta pronto, esegui `python3 -m venv .` per installare i file necessari nella posizione corrente.
 
 ### Attivare & disattivare
 
-Per eseguire comandi come `pip install` dentro il venv devi attivarlo con `source /bin/activate`. Ora la console lavorerà solo dentro il venv e gli script avranno accesso solo ai pacchetti installati localmente.
+Per eseguire comandi come `pip install` dentro il venv devi attivarlo con `source /bin/activate`. Ora la tua console lavorerà solo dentro il venv e gli script avranno accesso solo ai pacchetti installati localmente.
 
 Quando hai finito di lavorare nel venv, puoi uscire con il comando `deactivate`.
 

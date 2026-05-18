@@ -38,7 +38,7 @@ Nachdem du die Admins eingetragen hast, kannst du die Konfiguration mit dem „S
 Starte deinen Server jetzt neu, damit alle eingetragenen Steam64IDs ihre Adminrechte erhalten. 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

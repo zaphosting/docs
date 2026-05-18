@@ -1,4 +1,4 @@
----
+﻿---
 id: dedicated-windows-hytale
 title: "Servidor Dedicado: Configuração do Servidor Dedicado Hytale"
 description: "Descubra como configurar o servidor dedicado Hytale no seu Servidor Dedicado Windows para uma gestão de gameplay sem complicações → Saiba mais agora"
@@ -14,9 +14,9 @@ Você tem um Servidor Dedicado e quer hospedar seu próprio servidor de jogos Hy
 
 ## Preparação
 
-Para rodar um servidor de jogos Hytale, seu sistema precisa atender alguns requisitos básicos. O servidor roda no Java 25 e requer pelo menos 4 GB de RAM. As arquiteturas x64 e arm64 são suportadas. O uso real de recursos depende do número de jogadores, distância de visão e atividade no mundo, então recursos adicionais podem ser necessários para servidores maiores.
+Para rodar um servidor de jogos Hytale, seu sistema precisa atender alguns requisitos básicos. O servidor roda em Java 25 e requer pelo menos 4 GB de RAM. As arquiteturas x64 e arm64 são suportadas. O uso real de recursos depende do número de jogadores, distância de visão e atividade no mundo, então recursos adicionais podem ser necessários para servidores maiores.
 
-Antes de continuar, certifique-se de que o Java 25 está instalado no seu sistema Windows. Você pode verificar a instalação abrindo o prompt de comando e executando:
+Antes de continuar, certifique-se de que o Java 25 está instalado no seu sistema Windows. Você pode verificar a instalação abrindo o prompt de comando e rodando:
 
 ```
 java --version
@@ -34,7 +34,7 @@ Comece criando um diretório dedicado para o servidor Hytale. Isso mantém todos
 C:\Hytale
 ```
 
-O servidor precisa de dois componentes principais: o aplicativo do servidor em si e os assets do jogo. Esses arquivos podem ser obtidos usando o downloader via linha de comando do Hytale, que é feito para implantações de servidores e atualizações mais fáceis.
+O servidor precisa de dois componentes principais: o aplicativo do servidor em si e os assets do jogo. Esses arquivos podem ser obtidos usando o downloader via linha de comando do Hytale, que é feito para implantações de servidor e atualizações mais fáceis.
 
 O downloader CLI oferece uma forma estruturada de baixar e atualizar os arquivos do servidor Hytale. Depois de baixar o arquivo do downloader, extraia-o em um diretório temporário. Dentro do arquivo, você encontrará um arquivo QUICKSTART.md que descreve o uso básico da ferramenta.
 
@@ -48,7 +48,7 @@ Execute o downloader pelo prompt de comando e siga as instruções para baixar a
 | `./hytale-downloader -check-update`           | Verificar atualizações do downloader |
 | `./hytale-downloader -download-path game.zip` | Baixar para arquivo específico       |
 | `./hytale-downloader -patchline pre-release`  | Baixar do canal pré-lançamento       |
-| `./hytale-downloader -skip-update-check`      | Pular verificação automática de atualização |
+| `./hytale-downloader -skip-update-check`      | Pular verificação automática de update |
 
 
 
@@ -56,7 +56,7 @@ Execute o downloader pelo prompt de comando e siga as instruções para baixar a
 
 ### Iniciando o servidor
 
-O servidor é iniciado executando o arquivo JAR e especificando o caminho para o arquivo de assets. Ajuste o caminho se seus assets estiverem em outro local. Abra o prompt de comando no diretório do servidor e execute:
+O servidor é iniciado executando o arquivo JAR e especificando o caminho para o arquivo de assets. Ajuste o caminho se seus assets estiverem em outro local. Abra o prompt de comando no diretório do servidor e rode:
 
 ```
 java -jar HytaleServer.jar --assets C:\Hytale\Assets.zip --bind 0.0.0.0:5520
@@ -79,7 +79,7 @@ AUTORIZAÇÃO DO DISPOSITIVO
 ===================================================================
 Visite: https://accounts.hytale.com/device
 Digite o código: ABCD-1234
-Ou visite: https://accounts.hytale.com/device?user_code=ABCD-1234
+Ou acesse: https://accounts.hytale.com/device?user_code=ABCD-1234
 ===================================================================
 Aguardando autorização (expira em 900 segundos)...
 
@@ -94,7 +94,7 @@ Depois de autenticado, seu servidor pode aceitar conexões de jogadores.
 
 ### Configuração do firewall
 
-Por padrão, o servidor escuta na porta UDP 5520 e se conecta a todas as interfaces disponíveis. Você pode mudar o endereço e a porta se precisar. O servidor se comunica via UDP usando QUIC. Certifique-se de que seu firewall permita tráfego UDP de entrada na porta escolhida, usando Iptables ou UFW. Execute o seguinte comando no PowerShell para aplicar essa regra de firewall facilmente:
+Por padrão, o servidor escuta na porta UDP 5520 e se conecta a todas as interfaces disponíveis. Você pode mudar o endereço e a porta se quiser. O servidor se comunica via UDP usando QUIC. Certifique-se de que seu firewall permite tráfego UDP de entrada na porta escolhida, usando Iptables ou UFW. Rode o seguinte comando no PowerShell para aplicar essa regra de firewall facilmente:
 
 ```
 New-NetFirewallRule -DisplayName "Hytale Server" -Direction Inbound -Protocol UDP -LocalPort 5520 -Action Allow
@@ -104,7 +104,7 @@ New-NetFirewallRule -DisplayName "Hytale Server" -Direction Inbound -Protocol UD
 
 ## Notas de desempenho
 
-A distância de visão é um dos fatores mais importantes que influenciam o consumo de memória. Valores maiores aumentam o uso de RAM porque mais dados do mundo precisam estar ativos ao mesmo tempo.
+A distância de visão é um dos fatores mais importantes que influenciam o consumo de memória. Valores maiores aumentam o uso de RAM porque mais dados do mundo precisam ficar ativos ao mesmo tempo.
 
 Para a maioria das configurações, uma distância máxima de visão de 12 chunks (384 blocos) oferece um bom equilíbrio entre desempenho do servidor e experiência de jogo.
 
@@ -114,6 +114,6 @@ Para comparação, servidores de Minecraft usam uma distância padrão de visão
 
 ## Conclusão
 
-Parabéns, agora você tem um servidor funcional de Hytale rodando no seu sistema. A partir daqui, você pode expandir a configuração instalando mods, ajustando configurações do mundo e otimizando parâmetros de desempenho para combinar com sua base de jogadores. Monitorar regularmente o uso de recursos é recomendado para garantir operação estável conforme o servidor cresce.
+Parabéns, agora você tem um servidor funcional de Hytale rodando no seu sistema. A partir daqui, você pode expandir a configuração instalando mods, ajustando as configurações do mundo e otimizando parâmetros de desempenho para sua base de jogadores. Recomendamos monitorar regularmente o uso de recursos para garantir operação estável conforme o servidor cresce.
 
-Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, que está disponível diariamente para te ajudar! 🙂
+Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂

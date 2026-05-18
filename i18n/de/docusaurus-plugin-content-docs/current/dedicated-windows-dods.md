@@ -72,6 +72,6 @@ start srcds.exe -console -game dod -secure +maxplayers 22 +map de_dust +sv_setst
 Im Kommandozeilenfenster solltest du nun Logs sehen, die signalisieren, dass der Start erfolgreich war. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Alternativ kannst du dich direkt verbinden, indem du in der Serverliste unten in der Suchleiste nach `[deine_ip_adresse]:2456` suchst.
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen Day of Defeat: Source Server erfolgreich auf deinem VPS eingerichtet und konfiguriert! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite – zögere nicht, uns zu kontaktieren! 🙂

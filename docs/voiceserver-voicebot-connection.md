@@ -5,6 +5,7 @@ description: "Discover how to connect your voice bot to TeamSpeak and Discord se
 sidebar_label: Link to voice server
 services:
   - voiceserver
+  - voicebot
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

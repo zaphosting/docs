@@ -1,10 +1,10 @@
 ---
 id: voicebot-dashboard
 title: "Voicebot: Panoramica Dashboard"
-description: "Scopri come gestire e ottimizzare il tuo Voicebot in modo efficiente con una panoramica chiara di tutte le funzionalità e opzioni → Scopri di più ora"
+description: "Scopri come gestire e ottimizzare il tuo Voicebot in modo efficiente con una panoramica chiara di tutte le funzioni e opzioni → Scopri di più ora"
 sidebar_label: Dashboard
 services:
-  - Voicebot
+  - voicebot
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
@@ -12,9 +12,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
 
-Sei interessato a un **Voicebot** o ne possiedi già uno, ma ti manca ancora una panoramica completa dell’amministrazione e della reperibilità di tutte le opzioni necessarie? Soprattutto all’inizio, può essere una sfida. Ma niente stress, qui sotto ti diamo una guida dettagliata per l’amministrazione del tuo servizio, così avrai la miglior panoramica possibile.
+Sei interessato a un **Voicebot** o ne possiedi già uno, ma ti manca ancora una panoramica completa dell’amministrazione e della reperibilità di tutte le opzioni necessarie? Soprattutto all’inizio, può essere una sfida. Ma niente panico, qui sotto ti diamo una guida dettagliata per l’amministrazione del tuo servizio, così avrai la miglior panoramica possibile.
 
-Dopo aver letto questa guida, potrai gestire il tuo Voicebot in modo semplice ed efficiente, trovando tutte le opzioni e funzionalità necessarie in modo rapido e intuitivo. Qui riceverai una panoramica strutturata che ti aiuterà passo dopo passo a familiarizzare con l’amministrazione del Voicebot e ad ampliare le tue conoscenze in modo mirato. Così potrai assicurarti che il tuo **Voicebot** sia configurato al meglio per le tue esigenze e sfruttare al massimo tutte le opzioni disponibili.
+Dopo aver letto questa guida, potrai gestire il tuo Voicebot in modo semplice ed efficiente, trovando tutte le opzioni e funzioni necessarie in modo rapido e intuitivo. Qui avrai una panoramica strutturata che ti aiuterà passo dopo passo a familiarizzare con l’amministrazione del Voicebot e ad ampliare le tue conoscenze in modo mirato. Così potrai assicurarti che il tuo **Voicebot** sia configurato al meglio per le tue esigenze e sfruttare al massimo tutte le opzioni disponibili.
 
 <InlineVoucher />
 
@@ -57,7 +57,7 @@ Funzioni avanzate come spostare automaticamente gli utenti o far partire un mess
 Nella sezione **Link Utili** trovi altri link rilevanti per il tuo prodotto.
 
 ### Domande Frequenti
-La sezione **Domande Frequenti** offre una panoramica delle domande più comuni dei nostri clienti. Qui trovi risposte utili e informazioni dettagliate su vari argomenti per aiutarti in modo rapido ed efficace.
+La sezione **Domande Frequenti** ti offre una panoramica delle domande più comuni dei nostri clienti. Qui trovi risposte utili e informazioni dettagliate su vari argomenti per aiutarti in modo rapido ed efficace.
 
 ### Documentazione ZAP-Hosting
 Offriamo una documentazione completa per i nostri prodotti, che funge da knowledge base per le domande e i dubbi più frequenti. Troverai guide e aiuti su diversi temi che ti supporteranno nell’uso e nella gestione del tuo prodotto.

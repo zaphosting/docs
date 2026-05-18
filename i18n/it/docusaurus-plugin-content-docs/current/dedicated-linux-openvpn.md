@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-openvpn
-title: "Dedicated Server: Installazione di OpenVPN"
+title: "Configura OpenVPN su un Server Linux - Crea la tua VPN Sicura"
 description: "Scopri come proteggere la tua connessione internet e accedere a contenuti bloccati usando OpenVPN su server Linux → Scopri di più ora"
 sidebar_label: Installa OpenVPN
 services:
+  - vserver
   - dedicated
 ---
 
@@ -22,7 +23,7 @@ Per farlo, devi creare un nuovo file chiamato **tunscript.sh** nella cartella **
 nano /usr/sbin/tunscript.sh 
 ```
 
-Inserisci poi queste righe:
+Inserisci le seguenti righe:
 ```
 #!/bin/bash
 mkdir /dev/net
@@ -41,7 +42,7 @@ Ora esegui ``crontab -e`` e seleziona l’**editor nano** [1]. Aggiungi questa r
 ``` @reboot /usr/sbin/tunscript.sh || exit 1 ```
 
 Salva con `CTRL+O`, conferma con `Y` e premi `Enter`. Esci con `CTRL+X`.  
-Così lo script partirà automaticamente ad ogni riavvio.
+Così facendo, lo script verrà eseguito automaticamente ad ogni riavvio.
 
 ## Installazione
 
@@ -59,18 +60,18 @@ Ora devi configurare il server DNS. Ti consigliamo di usare Google Public DNS o 
 1.1.1.1 / 1.0.0.1 - Cloudflare DNS
 ```
 
-Infine, devi definire un nome client. Puoi scegliere qualsiasi nome, ad esempio il nome del tuo dispositivo.
+Infine, devi definire un nome per il client. Puoi scegliere qualsiasi nome, ad esempio il nome del tuo dispositivo.
 
 ## Configurazione
 
 ### Aggiungere altri client
 
-Se vuoi creare più connessioni, è utile creare più account. Per aggiungere un altro account, esegui di nuovo:
+Se vuoi creare più connessioni, è utile creare più account. Per aggiungere un altro client, esegui di nuovo:
 ```
 wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 ```
 
-Seleziona `1` e conferma. Ora definisci il nome del client.
+Seleziona `1` e conferma. Ora definisci il nome del nuovo client.
 
 ### Rimuovere client
 
@@ -88,16 +89,16 @@ Se non ti serve più OpenVPN, puoi disinstallarlo così:
 ```
 wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 ```
-Premi `3` e conferma. Conferma ancora una volta e OpenVPN sarà disinstallato.
+Premi `3` e conferma. Conferma ancora una volta e OpenVPN verrà disinstallato.
 
 ## Connessione alla VPN
 
 Per connetterti alla tua VPN, ti consigliamo di usare il **[client OpenVPN](https://openvpn.net/community-downloads/)**. Scaricalo sul dispositivo da cui vuoi connetterti.
 
-Connettiti via SFTP al tuo server per scaricare il file .ovpn creato e poi elimina il file dal server.  
-Una volta installato il client, avvialo. Fai clic destro sull’icona OpenVPN nella taskbar. Clicca su ‘Importa file’ e seleziona il file che hai scaricato, poi clicca su ‘Apri’.  
-Per connetterti, clicca di nuovo sull’icona e seleziona “Connetti”.
+Connettiti via SFTP al tuo server per scaricare il file .ovpn creato e poi cancellalo dal server.  
+Dopo aver installato il client, avvialo. Fai clic destro sull’icona OpenVPN nella taskbar, clicca su 'Import file', seleziona il file scaricato e clicca su 'Open'.  
+Per connetterti, clicca di nuovo sull’icona e seleziona "Connect".
 
 :::info
-Se hai importato più file, devi selezionare il client che vuoi usare e poi cliccare su Connetti
+Se hai importato più file, devi selezionare il client che vuoi usare e poi cliccare su Connect
 :::

@@ -49,6 +49,6 @@ Ersetze `username` durch den tatsächlichen Kontonamen. Gib das neue Passwort ei
 
 
 
-## Fazit
+## Abschluss
 
 Nachdem du die Schritte abgeschlossen hast, solltest du erfolgreich ein neues Passwort für den gewünschten Benutzer gesetzt haben. Du kannst dich jetzt wieder über die Remote-Desktop-Verbindung einloggen. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

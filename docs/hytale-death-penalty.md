@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-death-penalty
 title: "Hytale: Change Death Penalty"
 description: "Discover how death penalties work on your Hytale server → Learn more now"

@@ -57,7 +57,7 @@ Jetzt wird die zusätzliche IP-Adresse über die **Erweiterten TCP/IP-Einstellun
 
 
 
-## Fazit
+## Abschluss
 
 Die IP-Adresse wurde nun erfolgreich konfiguriert und hinzugefügt. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung – melde dich einfach! 🙂
 

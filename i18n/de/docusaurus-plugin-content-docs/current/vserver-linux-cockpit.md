@@ -1,19 +1,24 @@
 ---
 id: vserver-linux-cockpit
-title: "vServer: Installation von Cockpit"
-description: "Entdecke, wie du Linux-Server effizient mit der Weboberfläche von Cockpit verwaltest – perfekt für Einsteiger und Profis → Jetzt mehr erfahren"
+title: "Cockpit auf einem Linux-Server einrichten – Verwalte deinen Server per Webinterface"
+description: "Entdecke, wie du Linux-Server effizient mit dem Cockpit-Webinterface verwaltest – perfekt für Einsteiger und Profis → Jetzt mehr erfahren"
 sidebar_label: Cockpit installieren
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Cockpit ist eine Weboberfläche zur Verwaltung von einem oder mehreren Linux-Servern (Cluster). Von einfachen Log-Ausgaben bis hin zur Verwaltung des RAID bietet Cockpit viele Features.  
-Cockpit eignet sich sowohl für Einsteiger als auch für fortgeschrittene Nutzer, die alles Wichtige schnell im Blick haben und verwalten wollen. Außerdem ist der Zugriff von fast jedem Gerät aus möglich.  
+Cockpit ist ein Webinterface zur Verwaltung von einem oder mehreren Linux-Servern (Cluster). Von einfachen Log-Ausgaben bis hin zur Verwaltung des RAID bietet Cockpit viele Features.  
+Cockpit eignet sich sowohl für Einsteiger als auch für fortgeschrittene Nutzer, die schnell alles Wichtige im Blick haben und verwalten wollen. Außerdem ist der Zugriff von fast jedem Gerät aus möglich.  
 Die Projektseite findest du unter https://cockpit-project.org/. 
+
+## Cockpit mit dem One Click Apps Installer installieren
+
+Du kannst **Cockpit** direkt über unseren **One Click Apps Installer** im VPS-Webinterface installieren. Nach dem ersten Setup der Apps öffnest du den App-Katalog, suchst nach **Cockpit** und startest die Installation mit deinen bevorzugten Projekt-, Umgebung- und Domain-Einstellungen. So bekommst du eine schnelle und benutzerfreundliche Möglichkeit, **Cockpit** ohne manuelle Kommandozeilen-Installation zu deployen und zu verwalten – inklusive integriertem Webmanagement, Support für eigene Domains und SSL-Bereitstellung, wo verfügbar.
 
 :::info
 Diese Anleitung erklärt die Installation für Debian (ab Buster) und Ubuntu (ab Bionic Beaver). Die Installation ist auch auf der Projektseite für Fedora, Red Hat, Fedora CoreOS, CentOS, Clear Linux, Arch Linux und Tumbleweed verfügbar.  
@@ -28,7 +33,7 @@ Zuerst muss der Server aktualisiert werden:
 // Update
 sudo apt update; sudo apt upgrade -y
 ```
-Danach kann die Installation starten:
+Danach kann die Installation starten: 
 ```
 // Cockpit Installation
 sudo apt install cockpit -y

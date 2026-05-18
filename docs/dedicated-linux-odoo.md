@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-odoo
-title: "Dedicated Server: Setup Odoo (Open Source ERP and CRM) on Linux"
+title: "Setup Odoo on a Linux Server - Run Your Own Open Source ERP and CRM"
 description: "Discover how to manage and automate business processes with Odoo’s integrated ERP and CRM platform for streamlined company operations → Learn more now"
 sidebar_label: Install Odoo
 services:
+  - vserver
   - dedicated
 ---
 
@@ -24,6 +25,10 @@ Considering about hosting this service yourself? We’ll walk you through every 
 
 
 
+
+## Install Odoo with the One Click Apps Installer
+
+You can install **Odoo** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **Odoo**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **Odoo** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
 
 ## Prerequisites
 
@@ -66,7 +71,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-A complete walkthrough of the installation process and how to use Docker is available in our [Docker](vserver-linux-docker.md) guide.
+A complete walkthrough of the installation process and how to use Docker is available in our [Docker](dedicated-linux-docker.md) guide.
 
 
 
@@ -380,7 +385,7 @@ This will load the start page of your new installation. For the initial login, a
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Odoo on your Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Odoo on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Odoo.com](https://odoo.com) - Official Website
 - [odoo.com/documentation/18.0/](https://www.odoo.com/documentation/18.0/) - Odoo Documentation

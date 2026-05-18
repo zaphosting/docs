@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-plex
-title: "Dedikerad Server: Installera Plex på Windows"
-description: "Upptäck hur du enkelt hanterar och streamar din personliga media med Plex för smidig åtkomst på alla enheter → Läs mer nu"
+title: "Installera Plex på en Windows Server - Streama ditt personliga mediebibliotek"
+description: "Upptäck hur du enkelt hanterar och streamar ditt personliga media med Plex för smidig åtkomst på alla enheter → Läs mer nu"
 sidebar_label: Installera Plex
 services:
+  - vserver
   - dedicated
 ---
 
@@ -13,13 +14,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Plex är en plattform för att hantera och streama media som filmer, TV-serier, musik och bilder från en central plats. Med Plex Media Server kan du organisera bibliotek, automatiskt berika dem med metadata och streama till olika enheter både i ditt lokala nätverk och över internet. Det gör Plex till en flexibel lösning för att enkelt och smidigt komma åt dina personliga mediesamlingar.
+Plex är en plattform för att hantera och streama medieinnehåll som filmer, TV-serier, musik och foton från en central plats. Med Plex Media Server kan du organisera bibliotek, automatiskt berika dem med metadata och streama till olika enheter både i ditt lokala nätverk och över internet. Det gör Plex till en flexibel lösning för att enkelt och smidigt komma åt dina personliga mediesamlingar.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/68xdESEHimoY9Jp/preview)
 
-Fundera på att hosta tjänsten själv? Vi guidar dig steg för steg hur du installerar och konfigurerar allt, plus vad du behöver ha koll på.
+Fundera på att hosta tjänsten själv? Vi guidar dig steg för steg genom installation och konfiguration, plus allt du behöver ha koll på.
 
+## Installera Plex med One Click Apps Installer
 
+Du kan installera **Plex** direkt via vår **One Click Apps Installer** i VPS-webbgränssnittet. När du är klar med den initiala app-installationen, öppna appkatalogen, sök efter **Plex** och starta deployment med dina valda projekt-, miljö- och domäninställningar. Det ger dig ett snabbt och användarvänligt sätt att köra och hantera **Plex** utan manuell kommandorad, samtidigt som du får fördelarna med integrerad webbaserad hantering, stöd för egna domäner och SSL där det finns tillgängligt.
 
 ## Förutsättningar
 
@@ -31,15 +34,13 @@ Innan du installerar **Plex**, se till att din hostingmiljö uppfyller följande
 | RAM        | 4 GB         | 8 GB                      |
 | Diskutrymme| 25 GB        | 25 GB                     |
 
-Mjukvaran kräver att alla nödvändiga beroenden är installerade och att den körs på ett stöds operativsystem. Säkerställ att din server uppfyller följande innan du fortsätter med installationen:
+Mjukvaran kräver att alla nödvändiga beroenden är installerade och att den körs på ett stödt operativsystem. Säkerställ att din server uppfyller följande innan du fortsätter med installationen:
 
 **Beroenden:** Inga
 
 **Operativsystem:** Windows 10/11, Windows Server 20XX
 
-Se till att alla beroenden är installerade och att rätt OS-version används för att undvika kompatibilitetsproblem under installationen av Plex.
-
-
+Se till att alla beroenden är installerade och att rätt OS-version används för att undvika kompatibilitetsproblem vid installation av Plex.
 
 ## Installation
 
@@ -47,17 +48,17 @@ Den officiella Plex Media-webbplatsen erbjuder den senaste Windows-versionen av 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/d3b4mZsiQ4iqXrL/preview)
 
-Efter nedladdning kör du installationsprogrammet för att sätta upp Plex Media Server. När det är installerat sköts konfigurationen via webbgränssnittet i din webbläsare, där du kan skapa bibliotek och hantera din mediesamling.
+Efter nedladdning kan du köra installationsprogrammet för att sätta upp Plex Media Server. När installationen är klar hanteras konfigurationen via webbgränssnittet i din webbläsare, där du kan skapa bibliotek och hantera din mediesamling.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/5TnmMeRkdLAt2RJ/download)
 
-När installationen är klar öppnas Plex Media Servers webbgränssnitt automatiskt i din standardwebbläsare. Här loggar du in med ett befintligt Plex-konto eller skapar ett nytt om du inte redan har ett.
+När installationen är klar öppnas Plex Media Server automatiskt i din standardwebbläsare. Här loggar du in med ett befintligt Plex-konto eller skapar ett nytt om du inte redan har ett.
 
-Denna inloggning krävs för att koppla servern till ditt personliga konto, vilket möjliggör funktioner som fjärråtkomst, användarhantering och synkronisering mellan enheter. Efter lyckad inloggning är du inne i din egen Plex Media-instans. Där kan du skapa bibliotek för filmer, TV-serier, musik eller bilder, automatiskt hämta metadata och dela innehåll med andra användare i ditt lokala nätverk eller över internet.
+Denna inloggning krävs för att koppla servern till ditt personliga konto, vilket möjliggör funktioner som fjärråtkomst, användarhantering och synkronisering mellan enheter. Efter lyckad inloggning är du inne i din egen Plex Media-instans. Där kan du skapa bibliotek för filmer, TV-serier, musik eller foton, automatiskt hämta metadata och dela innehåll med andra användare i ditt lokala nätverk eller över internet.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/HmQPZGsBqxqPHmy/download)
 
-Efter installationen kan du även nå din Plex Media Server externt genom att öppna webbgränssnittet i en webbläsare via `http://<ip-adress>:32400`. Byt ut `<ip-adress>` mot din servers publika IP.
+Efter installation kan du även nå din Plex Media Server externt genom att öppna webbgränssnittet i en webbläsare via `http://<ip-adress>:32400`. Byt ut `<ip-adress>` mot din servers publika IP.
 
 Port 32400 är standardporten för Plex webbåtkomst och kan behöva tillåtas i din brandvägg eller router om du vill ansluta över internet.
 
@@ -67,9 +68,9 @@ När du når adressen omdirigeras du till Plex inloggningssida där du kan hante
 
 ## Avslutning och fler resurser
 
-Grattis! Du har nu framgångsrikt installerat och konfigurerat Plex på din Dedikerade Server. Vi rekommenderar även att kolla in följande resurser som kan ge dig extra hjälp och tips under din serverkonfiguration:
+Grattis! Du har nu framgångsrikt installerat och konfigurerat Plex på din VPS/Dedikerade Server. Vi rekommenderar också att kolla in följande resurser som kan ge dig extra hjälp och tips under din serverkonfiguration:
 
 - [Plex.com](https://Plex.com/) - Officiell webbplats
 - [support.plex.tv/articles/](https://support.plex.tv/articles/) - Plex Hjälpcenter (Dokumentation)
 
-Har du frågor som inte täcks här? Tveka inte att kontakta vår support, vi finns tillgängliga varje dag för att hjälpa dig! 🙂
+Har du frågor som inte täcks här? Tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂

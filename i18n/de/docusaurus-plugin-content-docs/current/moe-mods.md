@@ -33,7 +33,7 @@ Du suchst noch nach den perfekten Mods für deinen Gameserver? Stöbere durch un
 
 <SearchableItemList items={items} />
 
-## Fazit
+## Abschluss
 
 Mit dem nächsten Server-Neustart werden die Mods automatisch heruntergeladen, installiert und stehen dir sofort zur Verfügung!
 

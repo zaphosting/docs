@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-ts6
-title: "VPS: Teamspeak 6 Server installeren op je Windows VPS"
-description: "Ontdek hoe je de TeamSpeak 6 Server beta installeert en optimaliseert voor soepel hosten en top prestaties → Leer het nu"
-sidebar_label: Teamspeak 6 Server installeren
+title: "TeamSpeak 6 Server op een Windows Server installeren - Zet je eigen voiceplatform op"
+description: "Ontdek hoe je de TeamSpeak 6 Server beta installeert en optimaliseert voor soepele hosting en performance → Lees nu meer"
+sidebar_label: TeamSpeak 6 Server Installeren
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,9 +14,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-In de zomer van 2025 bracht TeamSpeak de **Beta versie** van de **TeamSpeak 6 Server** uit. Ervaar nu zelf de volgende generatie TeamSpeak!
+In de zomer van 2025 bracht TeamSpeak de **Beta versie** van de **TeamSpeak 6 Server** uit. Nu kun je zelf de volgende generatie TeamSpeak ervaren!
 
-Wil je deze service zelf hosten? We nemen je stap voor stap mee in het installatie- en configuratieproces, inclusief alles wat je moet weten.
+Wil je deze service zelf hosten? We nemen je stap voor stap mee in het opzetten en configureren, inclusief alles wat je moet weten.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
@@ -25,27 +26,27 @@ Wil je deze service zelf hosten? We nemen je stap voor stap mee in het installat
 
 ## Vereisten
 
-Voordat je de **Teamspeak 6 Server** installeert, check je of je hostingomgeving aan de volgende eisen voldoet voor een soepele installatie en optimale performance.
+Voordat je de **TeamSpeak 6 Server** installeert, check je of je hostingomgeving aan de volgende eisen voldoet voor een soepele installatie en optimale performance.
 
 | Hardware   | Minimaal    | ZAP-Hosting Aanbeveling   |
 | ---------- | ----------- | ------------------------- |
 | CPU        | 1 vCPU Core | 4 vCPU Cores              |
 | RAM        | 1 GB        | 4 GB                      |
-| Schijfruimte | 1 GB       | 25 GB                     |
+| Schijfruimte | 1 GB      | 25 GB                     |
 
 
 
 ## Voorbereiding
 
-Voordat je de **TeamSpeak 6 Server** installeert, moet je je systeem klaarmaken. Zorg dat je systeem up-to-date is met de nieuwste software en beveiligingsupdates door eerst een systeemupdate uit te voeren.
+Voordat je de **TeamSpeak 6 Server** installeert, moet je je systeem klaarmaken. Zorg dat je systeem draait op de nieuwste software en beveiligingsupdates door eerst een update uit te voeren.
 
-Zo weet je zeker dat je systeem de laatste beveiligingspatches en softwareversies heeft voordat je verder gaat.
+Zo weet je zeker dat je systeem de laatste patches en softwareversies heeft voordat je verder gaat.
 
 
 
 
 ## Installatie
-Nu aan alle eisen is voldaan en de voorbereidingen zijn getroffen, kun je de Teamspeak 6 Server installeren. Download eerst het nieuwste releasebestand `http://teamspeak-server_win64-v6.0.0-beta6.zip/` van GitHub: [TeamSpeak 6 Server (Windows 64-bit)](https://github.com/teamspeak/teamspeak6-server/releases/download/v6.0.0%2Fbeta6/teamspeak-server_win64-v6.0.0-beta6.zip)
+Nu aan alle eisen is voldaan en de voorbereidingen zijn gedaan, kun je de TeamSpeak 6 Server installeren. Download eerst het nieuwste releasebestand `http://teamspeak-server_win64-v6.0.0-beta6.zip/` van GitHub: [TeamSpeak 6 Server (Windows 64-bit)](https://github.com/teamspeak/teamspeak6-server/releases/download/v6.0.0%2Fbeta6/teamspeak-server_win64-v6.0.0-beta6.zip)
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/Ywc6mMTJybbgtF5/preview)
 
@@ -55,7 +56,7 @@ Pak het bestand uit in een map naar keuze. Open **PowerShell** en navigeer naar 
 .\tsserver.exe
 ```
 
-Bij de eerste start verschijnt een venster met de licentieovereenkomst die je moet accepteren. Daarna worden de Server Query Admin Account gegevens en de privilege key getoond. Deze info verschijnt maar één keer, dus sla ze goed op.
+Bij de eerste start verschijnt een venster met de licentieovereenkomst, die je moet accepteren. Daarna worden de Server Query Admin Account gegevens en de privilege key getoond. Deze info verschijnt maar één keer, dus sla ze goed op.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/rsmBkcJiAAinjE6/download)
 
@@ -83,10 +84,10 @@ Als de TeamSpeak 6 Server draait, kun je verbinden met de TeamSpeak 6 Client. Ge
 
 ## Conclusie en meer bronnen
 
-Gefeliciteerd! Je hebt nu succesvol de Teamspeak 6 Server geïnstalleerd en geconfigureerd op je VPS. We raden je ook aan om deze bronnen te checken voor extra hulp en tips tijdens je serverconfiguratie:
+Gefeliciteerd! Je hebt nu succesvol de TeamSpeak 6 Server geïnstalleerd en geconfigureerd op je VPS/Dedicated Server. We raden je ook aan om deze bronnen te checken voor extra hulp en tips tijdens je serverconfiguratie:
 
 - [Officiële Website](https://teamspeak.com/en/) - Info en downloads voor TeamSpeak 6
 - [Community Forum](https://community.teamspeak.com/) - Support en discussies van gebruikers
 - [GitHub Issues](https://github.com/teamspeak/teamspeak6-server/issues) - Bugs melden en openstaande issues volgen
 
-Heb je nog vragen die hier niet beantwoord worden? Neem gerust contact op met onze support, we staan dagelijks voor je klaar om je te helpen! 🙂
+Heb je nog vragen die hier niet beantwoord worden? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂

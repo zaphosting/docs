@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-commands
 title: "Hytale: Kommandolista"
 description: "Översikt över tillgängliga konsol- och in-game-kommandon för Hytale-servrar → Lär dig mer nu"
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Hytale-servrar erbjuder en mängd kommandon som låter admins styra gameplay, spelare, världar och serverinställningar. Dessa kommandon kan köras antingen via live-serverkonsolen eller direkt i spelet, så länge du har rätt behörigheter.
+Hytale-servrar erbjuder en mängd kommandon som låter admins hantera gameplay, spelare, världar och serverinställningar. Dessa kommandon kan köras antingen via live-serverkonsolen eller direkt i spelet, så länge du har rätt behörigheter.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/2yJ6G3AWCDfAHMj/download)
 
@@ -23,13 +23,13 @@ Den här sidan ger en översikt över vanliga och officiellt dokumenterade Hytal
 
 ## Autentisering
 
-Autentiseringskommandon krävs för att auktorisera servern så att den kan ta emot spelarkopplingar och interagera med Hytales online-tjänster.
+Autentiseringskommandon krävs för att auktorisera servern så att den kan ta emot spelarkopplingar och interagera med Hytale online-tjänster.
 
 | Kommando               | Beskrivning                                                  |
 | --------------------- | ------------------------------------------------------------ |
 | `/auth login device`  | Startar autentisering via enhet. Servern visar en URL och en enhetskod som måste bekräftas med ett Hytale-konto. |
 | `/auth login browser` | Startar autentisering via webbläsare. Kräver grafiskt gränssnitt på servern. |
-| `/auth status`        | Visar aktuell autentiseringsstatus för servern.              |
+| `/auth status`        | Visar serverns aktuella autentiseringsstatus.                |
 | `/auth logout`        | Loggar ut servern och tar bort den aktiva autentiseringssessionen. |
 
 
@@ -47,7 +47,7 @@ Dessa kommandon styr adminåtkomst och detaljerad behörighetsfördelning för a
 | `/perm user remove <uuid> <permission>`   | Tar bort specifika behörigheter från användaren.        |
 | `/perm user group list <uuid>`            | Visar alla behörighetsgrupper användaren tillhör.       |
 | `/perm user group add <uuid> <group>`     | Lägger till användaren i angiven behörighetsgrupp.      |
-| `/perm user group remove <uuid> <group>`  | Tar bort användaren från angiven behörighetsgrupp.       |
+| `/perm user group remove <uuid> <group>`  | Tar bort användaren från angiven behörighetsgrupp.      |
 | `/perm group list <group>`                | Listar alla behörigheter som är tilldelade en grupp.    |
 | `/perm group add <group> <permission>`    | Lägger till behörigheter i en grupp.                     |
 | `/perm group remove <group> <permission>` | Tar bort behörigheter från en grupp.                      |
@@ -62,7 +62,7 @@ Whitelist-kommandon begränsar serveråtkomst till godkända spelare.
 | -------------------------------- | ------------------------------------------------ |
 | `/whitelist add <playername>`    | Lägger till angiven spelare i whitelist.         |
 | `/whitelist remove <playername>` | Tar bort angiven spelare från whitelist.          |
-| `/whitelist list`                | Visar alla spelare som för tillfället är på whitelist. |
+| `/whitelist list`                | Visar alla spelare som för närvarande finns i whitelist. |
 | `/whitelist enable`              | Aktiverar whitelist.                              |
 | `/whitelist disable`             | Avaktiverar whitelist.                            |
 | `/whitelist status`              | Visar aktuell status för whitelist.               |
@@ -121,9 +121,9 @@ Verktygskommandon ger hjälp och serverinfo.
 
 ## Avslutning
 
-Hytales kommandosystem ger grymma verktyg för att hantera servrar, spelare och gameplay-beteende. Genom att förstå och använda kommandona kan admins smidigt driva och anpassa sin Hytale-servermiljö.
+Hytales kommandosystem ger kraftfulla verktyg för att hantera servrar, spelare och gameplay-beteende. Genom att förstå och använda de tillgängliga kommandona kan admins effektivt driva och anpassa sin Hytale-servermiljö.
 
-Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vår support, vi finns här för dig varje dag! 🙂
 
 
 

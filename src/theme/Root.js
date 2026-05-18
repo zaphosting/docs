@@ -9,7 +9,7 @@ export default function Root({ children }) {
 
   useEffect(() => {
     const applyMediumZoom = () => {
-      mediumZoom('article img:not(.card_xqyZ img)');
+      mediumZoom('article img:not([data-no-zoom])');
     };
 
     const intervalId = setInterval(() => {

@@ -57,7 +57,7 @@ Jetzt wird die zusätzliche IP-Adresse über die **Erweiterten TCP/IP-Einstellun
 
 
 
-## Fazit
+## Abschluss
 
 Die IP-Adresse wurde nun erfolgreich konfiguriert und hinzugefügt. Den aktuellen Status der IP-Adressen kannst du in der Serververwaltung unter dem Bereich **IP-Adressen** überprüfen. Dort sollte die neu hinzugefügte IP-Adresse als erreichbar angezeigt werden.
 

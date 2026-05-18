@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "title": {
       "en": "What is Hardware Authentication at ZAP-Hosting?",
@@ -12,7 +12,8 @@
       "ja": "ZAP-Hostingのハードウェア認証とは何ですか？",
       "sv": "Vad är hårdvaruautentisering hos ZAP-Hosting?",
       "it": "Che cos’è l’autenticazione hardware su ZAP-Hosting?",
-      "nl": "Wat is hardware-authenticatie bij ZAP-Hosting?"
+      "nl": "Wat is hardware-authenticatie bij ZAP-Hosting?",
+      "zh": "ZAP-Hosting的硬件认证是什么？"
     },
     "content": {
       "en": "Hardware Authentication at ZAP-Hosting uses Passkeys based on modern WebAuthn standards. Instead of relying solely on passwords, authentication is performed using a secure key stored on your device and protected by biometrics or a PIN.",
@@ -26,7 +27,8 @@
       "ja": "ZAP-Hostingのハードウェア認証は、最新のWebAuthn標準に基づくパスキーを使用し、デバイスに保存された安全な鍵で認証を行います。",
       "sv": "Hårdvaruautentisering hos ZAP-Hosting använder Passkeys baserade på moderna WebAuthn-standarder och en säker nyckel lagrad på enheten.",
       "it": "L’autenticazione hardware su ZAP-Hosting utilizza Passkey basate sugli standard WebAuthn moderni e una chiave sicura memorizzata sul dispositivo.",
-      "nl": "Hardware-authenticatie bij ZAP-Hosting maakt gebruik van Passkeys op basis van moderne WebAuthn-standaarden en een veilige sleutel op het apparaat."
+      "nl": "Hardware-authenticatie bij ZAP-Hosting maakt gebruik van Passkeys op basis van moderne WebAuthn-standaarden en een veilige sleutel op het apparaat.",
+      "zh": "ZAP-Hosting 的硬件认证使用基于现代 WebAuthn 标准的密码钥匙。认证不是仅仅依赖密码，而是使用存储在您设备上的安全密钥进行，且该密钥由生物识别或 PIN 保护。"
     }
   },
   {
@@ -42,7 +44,8 @@
       "ja": "ハードウェア認証でもパスワードは必要ですか？",
       "sv": "Behöver jag fortfarande mitt lösenord med hårdvaruautentisering?",
       "it": "Ho ancora bisogno della password con l’autenticazione hardware?",
-      "nl": "Heb ik mijn wachtwoord nog nodig bij hardware-authenticatie?"
+      "nl": "Heb ik mijn wachtwoord nog nodig bij hardware-authenticatie?",
+      "zh": "在使用硬件身份验证时，我还需要我的密码吗？"
     },
     "content": {
       "en": "In most cases, the password is still used as part of the login process. Hardware Authentication adds an additional security layer that must be confirmed before access is granted.",
@@ -56,7 +59,8 @@
       "ja": "多くの場合、パスワードは引き続き使用され、ハードウェア認証が追加のセキュリティ層として機能します。",
       "sv": "I de flesta fall används lösenordet fortfarande och hårdvaruautentisering fungerar som ett extra säkerhetslager.",
       "it": "Nella maggior parte dei casi la password rimane necessaria e l’autenticazione hardware aggiunge un ulteriore livello di sicurezza.",
-      "nl": "In de meeste gevallen blijft het wachtwoord nodig en voegt hardware-authenticatie een extra beveiligingslaag toe."
+      "nl": "In de meeste gevallen blijft het wachtwoord nodig en voegt hardware-authenticatie een extra beveiligingslaag toe.",
+      "zh": "在大多数情况下，密码仍然作为登录过程的一部分。硬件认证增加了一个额外的安全层，必须在授予访问权限之前进行确认。"
     }
   },
   {
@@ -72,7 +76,8 @@
       "ja": "パスキーを保存しているデバイスを失った場合はどうなりますか？",
       "sv": "Vad händer om jag förlorar åtkomst till min Passkey-enhet?",
       "it": "Cosa succede se perdo l’accesso al mio dispositivo Passkey?",
-      "nl": "Wat gebeurt er als ik geen toegang meer heb tot mijn Passkey-apparaat?"
+      "nl": "Wat gebeurt er als ik geen toegang meer heb tot mijn Passkey-apparaat?",
+      "zh": "如果我失去对我的密码钥匙设备的访问权限，会发生什么？"
     },
     "content": {
       "en": "You can remove the affected authenticator from your account using another login method. If no alternative access is available, ZAP-Hosting support can assist with account recovery after verification.",
@@ -86,7 +91,8 @@
       "ja": "別のログイン方法で認証器を削除するか、ZAP-Hostingサポートが本人確認後に復旧を支援します。",
       "sv": "Du kan ta bort den berörda autentiseraren via en annan inloggningsmetod eller kontakta ZAP-Hosting-supporten.",
       "it": "Puoi rimuovere l’autenticatore tramite un altro metodo di accesso oppure contattare il supporto ZAP-Hosting per il recupero.",
-      "nl": "Je kunt de betreffende authenticator verwijderen via een andere inlogmethode of contact opnemen met ZAP-Hosting support."
+      "nl": "Je kunt de betreffende authenticator verwijderen via een andere inlogmethode of contact opnemen met ZAP-Hosting support.",
+      "zh": "您可以使用其他登录方法从您的帐户中移除受影响的身份验证器。如果没有其他访问方式，ZAP-Hosting 支持可以在验证后协助您恢复帐户。"
     }
   },
   {
@@ -102,7 +108,8 @@
       "ja": "なぜハードウェア認証が推奨されているのですか？",
       "sv": "Varför rekommenderas hårdvaruautentisering?",
       "it": "Perché l’autenticazione hardware è consigliata?",
-      "nl": "Waarom wordt hardware-authenticatie aanbevolen?"
+      "nl": "Waarom wordt hardware-authenticatie aanbevolen?",
+      "zh": "为什么推荐硬件认证？"
     },
     "content": {
       "en": "This method significantly improves account security because it is resistant to phishing and credential theft. Since the private key never leaves the device and no reusable secrets are transmitted, the risk of unauthorized access is greatly reduced.",
@@ -116,7 +123,8 @@
       "ja": "この方法はフィッシングや認証情報の盗難に強く、秘密鍵がデバイス外に出ないため、アカウントの安全性が大幅に向上します。",
       "sv": "Denna metod förbättrar kontosäkerheten avsevärt eftersom den är motståndskraftig mot phishing och stulna inloggningsuppgifter.",
       "it": "Questo metodo migliora notevolmente la sicurezza dell’account perché è resistente al phishing e al furto delle credenziali.",
-      "nl": "Deze methode verhoogt de accountbeveiliging aanzienlijk doordat deze bestand is tegen phishing en diefstal van inloggegevens."
+      "nl": "Deze methode verhoogt de accountbeveiliging aanzienlijk doordat deze bestand is tegen phishing en diefstal van inloggegevens.",
+      "zh": "这种方法显著提高了账户安全性，因为它能够抵御网络钓鱼和凭证盗窃。由于私钥从未离开设备，并且没有可重用的秘密被传输，未经授权访问的风险大大降低。"
     }
   },
   {
@@ -132,7 +140,8 @@
       "ja": "ハードウェア認証は後から無効にできますか？",
       "sv": "Kan hårdvaruautentisering inaktiveras senare?",
       "it": "È possibile disattivare l’autenticazione hardware in seguito?",
-      "nl": "Kan hardware-authenticatie later worden uitgeschakeld?"
+      "nl": "Kan hardware-authenticatie later worden uitgeschakeld?",
+      "zh": "硬件认证可以在之后禁用吗？"
     },
     "content": {
       "en": "Yes. Hardware Authentication can be disabled at any time from the security section of your profile settings. Removing a Passkey does not affect other login methods unless you explicitly disable them.",
@@ -146,7 +155,8 @@
       "ja": "はい。プロフィール設定のセキュリティ項目からいつでも無効化できます。パスキーを削除しても他のログイン方法には影響しません。",
       "sv": "Ja. Hårdvaruautentisering kan när som helst inaktiveras via säkerhetsinställningarna.",
       "it": "Sì. L’autenticazione hardware può essere disattivata in qualsiasi momento dalle impostazioni di sicurezza.",
-      "nl": "Ja. Hardware-authenticatie kan op elk moment worden uitgeschakeld via de beveiligingsinstellingen."
+      "nl": "Ja. Hardware-authenticatie kan op elk moment worden uitgeschakeld via de beveiligingsinstellingen.",
+      "zh": "是的。硬件身份验证可以随时在您的个人资料设置的安全部分禁用。移除密码钥匙不会影响其他登录方法，除非您明确禁用它们。"
     }
   }
 ]

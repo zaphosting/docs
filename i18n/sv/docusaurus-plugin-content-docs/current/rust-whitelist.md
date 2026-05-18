@@ -1,7 +1,7 @@
----
+﻿---
 id: rust-whitelist
 title: "Rust: Whitelist"
-description: "Information about how to whitelist your Rust server from ZAP-Hosting → Learn more now"
+description: "Information om hur du whitelistar din Rust-server från ZAP-Hosting → Lär dig mer nu"
 sidebar_label: Whitelist
 services:
   - gameserver-rust
@@ -44,14 +44,14 @@ oxide.show user 76561198000000000
 
 ## Kontrollera att Whitelist Fungerar
 
-Försök ansluta med ett konto som inte har whitelist-behörighet. Pluginet ska neka anslutningen. Anslut sedan med ett konto som du gett `whitelist.allow` för att bekräfta åtkomst.
+Försök ansluta med ett konto som inte har whitelist-behörigheten. Pluginet ska neka anslutningen. Anslut sedan med ett konto som du gett `whitelist.allow` för att bekräfta åtkomst.
 
-Om alla fortfarande kan ansluta, kontrollera att pluginet är laddat och att uMod körs. En serveromstart efter att pluginet laddats upp är det säkraste sättet att garantera att det är aktivt.
+Om alla fortfarande kan ansluta, kontrollera att pluginet är laddat och att uMod körs. En serveromstart efter att pluginet laddats upp är det säkraste sättet att försäkra sig om att det är aktivt.
 
-## Sammanfattning
+## Slutsats
 
 Om alla steg ovan följdes korrekt är din whitelist nu aktiv och du kan styra exakt vem som får gå med på servern. Om åtkomsten fortfarande inte fungerar som förväntat, starta om servern en gång till och dubbelkolla fil- eller kommandoutdata för att bekräfta att ändringen har tillämpats.
 
-Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support – vi finns här för dig varje dag! 🙂
+För fler frågor eller hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 <InlineVoucher />

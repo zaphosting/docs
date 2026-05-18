@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-permissions
 title: "Hytale: Benutzer- und Gruppenrechte verwalten"
 description: "Verwalte Benutzer- und Gruppenrechte auf deinem Hytale Gameserver → Jetzt mehr erfahren"
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Das Verwalten von Rechten auf einem Hytale Gameserver ermöglicht dir, zu steuern, was Spieler dürfen und was nicht. Dazu gehört, verschiedenen vertrauenswürdigen Spielern, Moderatoren und Admins unterschiedliche Zugriffslevel zuzuweisen. Die korrekte Einrichtung der Rechte ist essenziell, um eine ausgewogene und sichere Server-Umgebung zu schaffen, in der alle ohne unerwünschte Exploits oder Missbrauch Spaß haben können.
+Das Verwalten von Rechten auf deinem Hytale Gameserver ermöglicht dir, zu steuern, was Spieler dürfen und was nicht. Dazu gehört, verschiedenen vertrauenswürdigen Spielern, Moderatoren und Admins unterschiedliche Zugriffslevel zuzuweisen. Die korrekte Einrichtung der Rechte ist essenziell, um eine ausgewogene und sichere Server-Umgebung zu schaffen, in der alle ohne unerwünschte Exploits oder Missbrauch Spaß am Spiel haben können.
 
 Die Server-Software von Hytale unterstützt hierarchische Rechteebenen, die bestimmen, welche Befehle und Aktionen jeder Spieler ausführen darf. Diese können je nach Server-Setup über die Live-Konsole oder Konfigurationsdateien verwaltet werden.
 
 :::info Early Access Hinweis
 
-Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Early Access. Da sich das Spiel noch in aktiver Entwicklung befindet, können sich Server-Software, Konfigurationsdateien, Modding-Support und Installationsprozesse weiterhin ändern.
+Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Early Access. Da sich das Spiel noch in aktiver Entwicklung befindet, können sich Server-Software, Konfigurationsdateien, Modding-Support und Installationsabläufe weiterhin ändern.
 
 :::
 
@@ -29,20 +29,20 @@ Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Ear
 
 ## Überblick über die Rechteebenen
 
-Rechte definieren, welche Aktionen ein Spieler auf dem Server ausführen darf. Auf der grundlegendsten Ebene haben normale Spieler nur Standard-Spielrechte, wie sich bewegen, mit der Welt interagieren und chatten. Höhere Rechte-Stufen wie Operator oder Admin gewähren Zugriff auf Server-Befehle, die das Gameplay, andere Spieler, Server-Konfiguration und Moderations-Tools beeinflussen.
+Rechte definieren, welche Aktionen ein Spieler auf dem Server ausführen darf. Auf der grundlegendsten Ebene haben normale Spieler nur Standard-Spielrechte, wie sich bewegen, mit der Welt interagieren und chatten. Höhere Rechteebenen wie Operator oder Admin gewähren Zugriff auf Server-Befehle, die das Gameplay, andere Spieler, Server-Konfiguration und Moderationstools beeinflussen.
 
 Das Rechtesystem besteht aus zwei Hauptkomponenten:
 
-- **Benutzerrechte**, die direkt einem bestimmten Spieler zugewiesen werden
+- **Benutzerrechte**, die direkt auf einen bestimmten Spieler angewendet werden
 - **Gruppenrechte**, die Rechte bündeln und mehreren Spielern gleichzeitig zugewiesen werden können
 
-Jeder Spieler wird intern über eine UUID identifiziert, die für die Rechteverwaltung per Befehl benötigt wird.
+Jeder Spieler wird intern durch eine UUID identifiziert, die für die Rechteverwaltung via Befehle benötigt wird.
 
 
 
 ## Benutzerrechte verwalten
 
-Benutzerrechte erlauben es dir, einem einzelnen Spieler bestimmte Rechte zu geben oder zu entziehen.
+Benutzerrechte erlauben es dir, einem einzelnen Spieler bestimmte Rechte zu vergeben oder zu entziehen.
 
 ### Benutzerrechte anzeigen
 
@@ -114,7 +114,7 @@ Gruppen ermöglichen es, Rechte zentral zu verwalten und für mehrere Benutzer w
 
 ### Gruppenrechte anzeigen
 
-Zeigt alle Rechte an, die einer Gruppe zugewiesen sind. Dieser Befehl gibt einen Überblick über alle Rechte der angegebenen Gruppe.
+Zeigt alle Rechte an, die einer Gruppe zugewiesen sind. Dieser Befehl gibt einen Überblick über alle Rechte, die mit der angegebenen Gruppe verbunden sind.
 
 ```
 /perm group list <group>
@@ -122,7 +122,7 @@ Zeigt alle Rechte an, die einer Gruppe zugewiesen sind. Dieser Befehl gibt einen
 
 
 
-### Rechte zu einer Gruppe hinzufügen
+### Rechte einer Gruppe hinzufügen
 
 Um einer Gruppe ein oder mehrere Rechte hinzuzufügen. Alle Benutzer, die dieser Gruppe zugewiesen sind, erben die neuen Rechte sofort.
 
@@ -134,7 +134,7 @@ Um einer Gruppe ein oder mehrere Rechte hinzuzufügen. Alle Benutzer, die dieser
 
 ### Rechte von einer Gruppe entfernen
 
-Entfernt nur die angegebenen Rechte aus der Gruppe, ohne andere Rechte zu beeinflussen.
+Entfernt nur die angegebenen Rechte von der Gruppe, ohne andere Rechte zu beeinflussen.
 
 ```
 /perm group remove <group> <permissions>
@@ -143,3 +143,4 @@ Entfernt nur die angegebenen Rechte aus der Gruppe, ohne andere Rechte zu beeinf
 
 
 <InlineVoucher />
+

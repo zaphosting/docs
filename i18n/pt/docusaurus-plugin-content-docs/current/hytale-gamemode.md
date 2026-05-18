@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-gamemode
 title: "Hytale: Configuração do Modo de Jogo"
 description: "Descubra como proteger seu servidor de Hytale gerenciando o acesso dos jogadores com recursos de whitelist e proteja sua jogabilidade → Saiba mais agora"
@@ -42,7 +42,7 @@ Valores comuns para o modo de jogo incluem:
 - `Creative` para construção e criação de conteúdo sem restrições
 - `Adventure` para jogabilidade estruturada com progressão e regras de interação definidas
 
-Após alterar o valor do modo de jogo, o servidor deve ser reiniciado para que a nova configuração tenha efeito.
+Após alterar o valor do modo de jogo, o servidor precisa ser reiniciado para que a nova configuração entre em vigor.
 
 
 
@@ -51,7 +51,7 @@ Após alterar o valor do modo de jogo, o servidor deve ser reiniciado para que a
 O modo de jogo pode ser definido diretamente no arquivo de configuração do servidor.  
 Esse método é recomendado quando você quer que o servidor sempre inicie com um modo de jogo específico ou ao preparar uma configuração nova do servidor.
 
-O arquivo de configuração é acessível pelo seu painel de controle de hospedagem ou gerenciador de arquivos. Dentro desse arquivo, há uma configuração que controla o modo de jogo ativo usado quando o servidor inicia. Após modificar esse valor, o servidor deve ser reiniciado para que a mudança tenha efeito.
+O arquivo de configuração é acessível pelo seu painel de controle de hospedagem ou gerenciador de arquivos. Dentro desse arquivo, uma configuração controla o modo de jogo ativo usado quando o servidor inicia. Após modificar esse valor, o servidor deve ser reiniciado para que a mudança tenha efeito.
 
 ```
 "Defaults": {
@@ -67,7 +67,7 @@ Valores comuns para o modo de jogo incluem:
 - `Creative` para construção e criação de conteúdo sem restrições
 - `Adventure` para jogabilidade estruturada com progressão e regras de interação definidas
 
-Após alterar o valor do modo de jogo, o servidor deve ser reiniciado para que a nova configuração tenha efeito.
+Após alterar o valor do modo de jogo, o servidor precisa ser reiniciado para que a nova configuração entre em vigor.
 
 
 

@@ -1,39 +1,31 @@
 ---
 id: csgo-configuration
-title: "CSGO: Server configuration"
-description: "Explore how to configure Counter-Strike servers for various gamemodes and settings to optimize gameplay experience → Learn more now"
+title: "CS:GO: Server configuration"
+description: "Explore how to configure Counter-Strike servers with gamemodes, mapgroups, and GSL tokens for optimized gameplay → Learn more now"
 sidebar_label: Server Configration
 services:
-  - gameserver
+  - gameserver-csgo
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::warning Archived Guide
-This document has been archived. Documents are archived if they are no longer relevant, incorrect or up to date. It has been archived for the following reasons:
-
-Reason: CS:GO is no longer actively offered and is no longer being developed. CS2 is the follow-up to CS:GO. We recommend switching to CS2.
-::::
-
-
-
 ## Introduction
 
-Counter-Strike servers can be configured widely. Basic settings can be configured via the **Server.cfg** Config and via the settings page in the web interface. The advanced configuration is carried out via the gamemode config files such as gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg, etc.
+Counter-Strike servers can be configured widely. Basic settings can be configured via the **server.cfg** config file and via the settings page in the web interface. The advanced configuration is carried out via the gamemode config files such as gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg and so on. 
 
-Under the settings you can choose the gamemode you want to use. The commands of this Config are then accordingly loaded. These can be managed either in the game server administration or manually via FTP under **gXXXXXX/csgo/csgo/cfg/**. 
-
+Under the settings you can choose the gamemode you want to use. The commands of this Config are then accordingly loaded. These can be managed either in the game server administration or manually via FTP under **gXXXXXX/CS:GO/game/csgo/cfg/**. 
 
 <InlineVoucher />
 
 ## Configuration
 
 
+
 ### Configuration via the interface (Settings)
 
-At the settings page you can adjust basic settings for the GSL token, gametype/gamemode, mapgroup, tickrate and more.  
+At the settings page you can adjust basic settings for the GSL token, gametype/gamemode, mapgroup and more.  
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rfHJDH8e4mSQ4Mg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eafHZL86Zr6QyGk/preview)
 
 
 
@@ -51,8 +43,6 @@ There are different gamemodes. In the following you see a list of all available 
 
 - Classic Casual
 - Classic Competitive
-- Arms Race
-- Demolition
 - Deathmatch
 - Wingman
 
@@ -60,7 +50,7 @@ There are different gamemodes. In the following you see a list of all available 
 
 **Mapgroup**
 
-Mapgroups are groups of maps which normally correspond to a certain category. By default there are the **mg_active, mg_armsrace, mg_demolition, mg_allclassic** groups. Optionally you can create your own. This has to be added to the **Gamemodes_server.txt**. The structure of such a mapgroup is easy to build and looks like this:
+Mapgroups are groups of maps which normally correspond to a certain category. By default there are the **mg_active, mg_allclassic** groups. Optionally you can create your own. This has to be added to the **gamemodes_server.txt**. The structure of such a mapgroup is easy to build and looks like this:
 
 ```
 {	 	 	 	 
@@ -80,12 +70,6 @@ Mapgroups are groups of maps which normally correspond to a certain category. By
 
 
 
-**Tickrate**
-
-The set tick rate determines the frequency of the server sending the position of one player to the other players. The higher the value, the better the gaming experience. The following values can be set: 33, 64, 100 and 128 (best value). 
-
-
-
 **Startmap**
 
 The start map is used to determine which map should be loaded during the startup process. It is important that the name of the map is written completely and correctly. The file extension is not necessary. 
@@ -102,7 +86,7 @@ Pingboost is a way to change the feel of the game by various methods to achieve 
 
 In the **server.cfg** you can change the settings for server name, rcon password and server password. 
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RRyRgMzwaQPTR8b/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9k98oi89CeEB3ka/preview)
 
 
 
@@ -467,22 +451,5 @@ This command defines how many flash grenades a player can carry.
 **ammo_grenade_limit_total**
 
 This command defines how many grenades a player can carry in total.
-
-
-
-
-
-### Esport-Ready Configuration (ESL Configs)
-
-If you want to use the server for e-sports purposes, it is worth to upload the configs provided by ESL. You can download them from the official site of the ESL: [Download](https://play.eslgaming.com/download/26251762/)
-
-Configs have to be uploaded to the **cfg** directory and can be executed in the game with the following commands:
-
-```
-rcon_password YourPassword // Login via rcon to execute rcon commands
-rcon exec esl5on5
-```
-
-After that, all ESL command values will be loaded and the game can start!
 
 <InlineVoucher />

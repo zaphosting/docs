@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-fivem
-title: "Dedicated Server: FiveM Dedicated Server Linux Setup (GS/TS3 Interface)"
+title: "FiveM Dedicated Server Linux Setup (GS/TS3 Interface)"
 description: "Discover how to set up and run your own FiveM Dedicated Server with txAdmin for seamless multiplayer gaming → Learn more now"
 sidebar_label: FiveM
 services:
+  - vserver
   - dedicated
 ---
 
@@ -19,7 +20,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Do you own a dedicated server and want to install and operate your own FiveM Dedicated Server service with txAdmin? You've come to the right place! In the following, we will explain all the necessary steps on how to install and configure it and what you need to consider.
 
 :::warning  Operating system selected and installed
-It is assumed that you have already selected and installed an operating system for your dedicated server. If you haven't yet completed this step, you must first follow the steps in the [Initial setup](dedicated-setup.md) guide for dedicated servers.
+It is assumed that you have already selected and installed an operating system for your VPS/Dedicated Server. If you haven't yet completed this step, you must first follow the steps in the [Initial setup](dedicated-setup.md) guide for dedicated servers.
 :::
 
 
@@ -100,7 +101,7 @@ iptables -A OUTPUT -p udp --dport 30120 -j ACCEPT
 
 ## Conclusion
 
-You have successfully installed and configured a FiveM Dedicated Server service on your dedicated server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+You have successfully installed and configured a FiveM Dedicated Server service on your VPS/Dedicated Server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
 
 

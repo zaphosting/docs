@@ -1,7 +1,7 @@
----
+﻿---
 id: hytale-gamemode
 title: "Hytale: Configurazione della Modalità di Gioco"
-description: "Scopri come mettere al sicuro il tuo server Hytale gestendo l'accesso dei giocatori con le whitelist e proteggi il tuo gameplay → Scopri di più ora"
+description: "Scopri come mettere al sicuro il tuo server Hytale gestendo l’accesso dei giocatori con la whitelist e proteggi il tuo gameplay → Scopri di più ora"
 sidebar_label: Modalità di Gioco
 services:
   - gameserver-hytale
@@ -39,7 +39,7 @@ Il valore di `GameMode` determina quale modalità di gioco viene applicata all�
 
 Le modalità di gioco più comuni sono:
 
-- `Creative` per costruzioni e creazioni senza limiti
+- `Creative` per costruzione e creazione di contenuti senza limiti
 - `Adventure` per un gameplay strutturato con progressione e regole di interazione definite
 
 Dopo aver cambiato il valore della modalità di gioco, è necessario riavviare il server perché la nuova impostazione entri in vigore.
@@ -49,9 +49,9 @@ Dopo aver cambiato il valore della modalità di gioco, è necessario riavviare i
 ### File di configurazione
 
 La modalità di gioco può essere definita direttamente nel file di configurazione del server.  
-Questo metodo è consigliato se vuoi che il server parta sempre con una modalità specifica o se stai preparando un setup nuovo.
+Questo metodo è consigliato se vuoi che il server parta sempre con una modalità specifica o se stai preparando un’installazione da zero.
 
-Il file di configurazione è accessibile dal pannello di controllo del tuo hosting o dal file manager. All’interno di questo file c’è un’impostazione che controlla la modalità di gioco attiva all’avvio del server. Dopo aver modificato questo valore, devi riavviare il server per applicare la modifica.
+Il file di configurazione è accessibile tramite il pannello di controllo del tuo hosting o il file manager. All’interno di questo file c’è un’impostazione che controlla la modalità di gioco attiva all’avvio del server. Dopo aver modificato questo valore, devi riavviare il server per applicare la modifica.
 
 ```
 "Defaults": {
@@ -64,7 +64,7 @@ Il valore di `GameMode` determina quale modalità di gioco viene applicata all�
 
 Le modalità di gioco più comuni sono:
 
-- `Creative` per costruzioni e creazioni senza limiti
+- `Creative` per costruzione e creazione di contenuti senza limiti
 - `Adventure` per un gameplay strutturato con progressione e regole di interazione definite
 
 Dopo aver cambiato il valore della modalità di gioco, è necessario riavviare il server perché la nuova impostazione entri in vigore.

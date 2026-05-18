@@ -1,0 +1,50 @@
+{
+  "title": {
+    "message": "Документация ZAP-Hosting",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ZAP-Hosting",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.General": {
+    "message": "Общее",
+    "description": "Navbar item with label General"
+  },
+  "item.label.Gameserver": {
+    "message": "Игровой сервер",
+    "description": "Navbar item with label Gameserver"
+  },
+  "item.label.Dedicated Server": {
+    "message": "Выделенный сервер",
+    "description": "Navbar item with label Dedicated Server"
+  },
+  "item.label.Voicebot & Voiceserver": {
+    "message": "Голосовой бот и сервер",
+    "description": "Navbar item with label Voicebot & Voiceserver"
+  },
+  "item.label.VPS": {
+    "message": "VPS",
+    "description": "Navbar item with label VPS"
+  },
+  "item.label.Domain": {
+    "message": "Домен",
+    "description": "Navbar item with label Domain"
+  },
+  "item.label.Webspace": {
+    "message": "Веб-хостинг",
+    "description": "Navbar item with label Webspace"
+  },
+  "item.label.Software": {
+    "message": "Программы",
+    "description": "Navbar item with label Software"
+  },
+  "item.label.Rent a Server": {
+    "message": "Арендовать сервер",
+    "description": "Navbar item with label Rent a Server"
+  },
+  "item.label.ZAP-Hosting": {
+    "message": "ZAP-Hosting",
+    "description": "Navbar item with label ZAP-Hosting"
+  }
+}

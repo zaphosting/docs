@@ -118,6 +118,6 @@ Unter dem Menüpunkt „Einstellungen“ hast du weitere Optionen, deinen Server
 Standardmäßig ist keine Lizenz auf dem Teamspeak 3 Server installiert. Das bedeutet, du kannst nur einen Teamspeak 3 Server mit bis zu 32 Slots nutzen. Wenn du mehr Slots oder zusätzliche Funktionen für deinen Teamspeak 3 Server möchtest, kannst du eine passende Lizenz direkt bei Teamspeak kaufen.
 :::
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast unser GS/TS3 Interface erfolgreich installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Seite und hilft dir gerne weiter!

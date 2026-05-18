@@ -1,7 +1,7 @@
 ---
 id: webspace-plesk-ssl
-title: "Webspace: SSL-certificaat aanmaken"
-description: "Ontdek hoe je je website beveiligt met SSL-encryptie en HTTPS inschakelt voor veiliger surfen → Leer het nu"
+title: "Webspace: Maak een SSL-certificaat aan in Plesk"
+description: "Leer hoe je je website beveiligt met een SSL-certificaat in Plesk en HTTPS inschakelt voor versleutelde verbindingen."
 sidebar_label: SSL-certificaat aanmaken
 services:
   - webspace
@@ -9,105 +9,77 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Website beveiligen met SSL
 
-:::info
-Er wordt vanuit gegaan dat de domeinnaam al naar het IP-adres van de webspace verwijst.
-:::
+## Introductie
 
-Als een domein wordt aangemaakt in de webspace, is deze in het begin altijd onbeveiligd. Dit zie je in het Plesk-paneel:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/kkJ67Pd733pt95i/preview)
-
-En de melding in de browser bij het openen van het domein:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5iwXSgEb4LrY3xf/preview)
-![](https://screensaver01.zap-hosting.com/index.php/s/mpmK8TAjAsgY3FW/preview)
-
-Met een SSL-certificaat kun je een domein dus beveiligen/encrypten.
+Een SSL-certificaat versleutelt de verbinding tussen jouw website en je bezoekers. Zodra HTTPS is ingeschakeld, maken browsers een veilige verbinding en tonen ze een slotje in de adresbalk. Dit beschermt gevoelige data, verhoogt het vertrouwen en voorkomt dat browsers je website als onveilig markeren.
 
 <InlineVoucher />
 
-## Certificaat aanmaken
+## Je hoofddomein beveiligen
 
-Stap 1️⃣: Dubbelklik op "SSL/TLS-certificaat" om het volgende menu te openen:
+Wanneer een domein voor het eerst wordt aangemaakt in Plesk, is het via HTTP bereikbaar en niet versleuteld. In het Plesk-paneel zie je dat er nog geen certificaat is toegewezen. Open je het domein nu in een browser, dan wordt het meestal als onveilig gemarkeerd:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/g5sr6WC4eawqzoF/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-Je kunt gratis een Let's Encrypt-certificaat aanvragen.
+Om de versleuteling te activeren, open je het domein in je Plesk-paneel en ga je naar **SSL/TLS-certificaten**. Het bijbehorende menu opent dan:
 
-Stap 2️⃣: Vul de gevraagde gegevens in. Om het certificaat aan te vragen, moeten er gegevens ingevuld worden.
+![img](https://screensaver01.zap-hosting.com/index.php/s/8rSr7Jt3DsjDzBY/download)
 
-Je moet een e-mailadres opgeven en aangeven waarvoor het certificaat geldig moet zijn. Meestal is de subdomein "www" ook actief, dus die wordt ook geselecteerd als deze in de DNS van het domein staat.
+Hier kun je een gratis Let's Encrypt-certificaat aanvragen. Tijdens het aanvraagproces moet je een geldig e-mailadres invullen en de domeinnamen selecteren die beveiligd moeten worden. Meestal worden zowel het hoofddomein als de www-subdomein geselecteerd, mits de www-vermelding in je DNS-configuratie staat:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Mwf3CEWsYRwprS3/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/LTFN73ekPjtikwp/preview)
 
-Het certificaat wordt aangevraagd door op "Get it free" te klikken.
+Na het bevestigen van de aanvraag met **Get it free** communiceert Plesk met Let's Encrypt en wordt het certificaat automatisch uitgegeven. Zodra het certificaat succesvol is aangemaakt, moet je HTTPS afdwingen door de permanente redirect van HTTP naar HTTPS te activeren in de hostinginstellingen:
 
-Stap 3️⃣: Het certificaat is nu aangemaakt, dat zie je rechtsboven. Daarnaast moet nu de automatische doorverwijzing van HTTP naar HTTPS worden ingeschakeld, want anders werkt de encryptie niet:
+![img](https://screensaver01.zap-hosting.com/index.php/s/BN7AMzG6MyMKb38/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YBdGQqmtNeWKdxA/preview)
+Na activatie worden alle bezoekers automatisch doorgestuurd naar de versleutelde HTTPS-versie van je website. Je kunt de installatie controleren door je domein met https in de browser te openen.
 
-Als dit gedaan is, is de doorverwijzing actief. Of je nu de pagina opent met http of https in de browser, je wordt altijd doorgestuurd naar https.
 
-Stap 4️⃣: Je kunt nu in de browser checken of het certificaat herkend wordt:
 
-Het slotje moet zichtbaar zijn:
+## Alle subdomeinen beveiligen met een wildcard-certificaat
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DkZoqg9XGgR67EK/preview)
+Gebruik je meerdere subdomeinen of ben je dat van plan, dan is een wildcard-certificaat een efficiëntere oplossing. Hiermee beveilig je het hoofddomein én alle bestaande en toekomstige subdomeinen. Om een wildcard-certificaat aan te vragen, open je opnieuw het menu **SSL/TLS-certificaten**:
 
-De certificaatinfo, die je opent door op het slotje te klikken, moet ook het domein tonen:
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/p5H6RZ25HksHsow/preview)
+Kies de optie om een Let's Encrypt-certificaat te vernieuwen of aan te vragen. Zet de optie aan om het wildcard-domein te beveiligen:
 
-De website is nu goed beveiligd/encrypt.
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZMcdJk9wCzifBmq/preview)
 
-## Certificaten voor subdomeinen
+Na het bevestigen van de aanvraag toont Plesk een blauwe infobox met een DNS TXT-record dat je moet aanmaken:
 
-Dezelfde stappen kun je in theorie ook volgen voor een subdomein. Maar er is ook een makkelijkere manier om alle subdomeinen tegelijk te beveiligen, ongeacht of ze al bestaan of nieuw zijn. Hiervoor gebruik je een "wildcard-certificaat". Hiervoor is een speciale TXT-record nodig in de DNS van het domein. Zodra die er is, kan het SSL-certificaat voor alle subdomeinen worden uitgegeven.
+![img](https://screensaver01.zap-hosting.com/index.php/s/wnbNfKeTMsCdsy9/preview)
 
-Stap 1️⃣: Open opnieuw het SSL/TLS-certificaatmenu.
+Dit TXT-record moet exact zo worden toegevoegd aan de DNS-zone van je domein. Het bevestigt het eigendom van het domein en maakt het voor Let's Encrypt mogelijk om de aanvraag te valideren. Een DNS-entry ziet er ongeveer zo uit:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X4kFeMomqmz3nGp/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/tDtDaERR7twzaMr/preview)
 
-Klik dan linksboven op "Renew Certificate". 
-Nu opent het Let's Encrypt aanvraagvenster:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/eCcFtaJHxW3XWgF/preview)
-
-Selecteer nu "Secure the wildcard domain":
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5STxWaKf3JWGfZe/preview)
-
-De subdomeinen "www" en "webmail" worden automatisch toegevoegd.
-Klik daarna weer op "Get it free".
-
-Stap 2️⃣: Er verschijnt nu een blauw vak met belangrijke info:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/JHag4cd85Lq6gwx/preview)
-
-Er wordt een domeinnaam en een waarde gegeven. Dit moet permanent als TXT-record in de DNS van het domein staan, zodat Let's Encrypt kan verifiëren dat het domein echt is.
-
-Een DNS-record ziet er zo uit:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qPCeWj5dJRFfYFB/preview)
-
-:::info
-Een DNS-record kan tot 24 uur duren voordat het wereldwijd bereikbaar is.
+:::warning DNS-propagatie vertraging
+DNS-propagatie kan tot 24 uur duren voordat het TXT-record wereldwijd beschikbaar is. Tijdens deze periode kan de validatie mislukken omdat sommige DNS-servers nog verouderde info teruggeven. Als dit gebeurt, wacht dan tot het record volledig is doorgevoerd en probeer de verificatie opnieuw.
 :::
 
-Om te checken of de TXT-record al actief is, kun je de "TXT Lookup SuperTool" van mxtoolbox gebruiken: https://mxtoolbox.com/SuperTool.aspx:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CPSSWeQRpTDsagY/preview)
 
-Als de ingevoerde record al zichtbaar is, kun je in het blauwe vak in Plesk op "Reload" klikken. Nu wordt gecontroleerd of de DNS-record aanwezig is. Als dat zo is, verschijnt na een paar seconden "protected" bij "SSL/TLS-holder Certificate" oftewel "Wildcard Certificate":
+Om te checken of het TXT-record correct is doorgevoerd en publiekelijk zichtbaar is, kun je een externe DNS-lookup tool gebruiken zoals de MXToolbox SuperTool:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AwWiJboz3k6iea8/preview)
+https://mxtoolbox.com/SuperTool.aspx
 
-Als je nu een subdomein aanmaakt, is die meteen beveiligd:
+Open de website en kies de optie **TXT Lookup**. Vul de volledige hostnaam in die Plesk aangeeft, meestal in het formaat `_acme-challenge.jouwdomein.com`, en start de lookup. De tool vraagt publieke DNS-servers en toont de momenteel zichtbare TXT-records.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XLHzsgkeLmwJ55m/preview)
+Als de juiste verificatiewaarde precies zo wordt weergegeven als in Plesk, is de DNS-entry succesvol doorgevoerd en kan Let's Encrypt het domeineigendom valideren. Komt er geen resultaat terug of wijkt de waarde af, dan is de DNS-propagatie waarschijnlijk nog bezig. Wacht in dat geval even en herhaal de lookup later totdat de juiste entry wereldwijd zichtbaar is.
 
-De volledige datatransfer naar de site is nu versleuteld, klaar!
+![img](https://screensaver01.zap-hosting.com/index.php/s/iFP5P8SY6oSXQBW/download)
+
+Zodra het record zichtbaar is, ga je terug naar Plesk en start je de validatie opnieuw. Als het lukt, wordt het wildcard-certificaat uitgegeven en als beveiligd weergegeven. Vanaf dat moment worden alle nieuw aangemaakte subdomeinen automatisch beveiligd.
+
+
+
+## Conclusie
+
+Gefeliciteerd! Je website is nu succesvol beveiligd met SSL-encryptie. Alle data die tussen je server en bezoekers wordt verstuurd, is versleuteld, browsers herkennen je domein als betrouwbaar en HTTPS wordt automatisch afgedwongen.
+
+Heb je nog vragen of hulp nodig? Neem dan vooral contact op met onze support, die dagelijks voor je klaarstaat! 🙂
 
 <InlineVoucher />

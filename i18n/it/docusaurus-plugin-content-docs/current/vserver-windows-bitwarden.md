@@ -1,95 +1,96 @@
 ---
 id: vserver-windows-bitwarden
-title: "VPS: Bitwarden auf Windows einrichten"
-description: "Entdecke, wie du Bitwarden sicher selbst hostest, um Passwörter mit Ende-zu-Ende-Verschlüsselung und starken Credential-Features zu managen → Jetzt mehr erfahren"
-sidebar_label: Bitwarden installieren
+title: "Configura Bitwarden su un Server Windows - Proteggi la Gestione delle Tue Password"
+description: "Scopri come auto-ospitare in sicurezza Bitwarden per gestire password con crittografia end-to-end e funzionalità avanzate → Scopri di più ora"
+sidebar_label: Installa Bitwarden
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Einführung
+## Introduzione
 
-Bitwarden ist ein Open-Source-Passwortmanager für Passwörter und Passkeys, der Zero-Knowledge und Ende-zu-Ende-Verschlüsselung nutzt, um deine Daten zu schützen. Du kannst ihn als Cloud-Service nutzen oder selbst hosten – mit Features zum Generieren, Speichern und automatischen Ausfüllen starker Zugangsdaten.
+Bitwarden è un password manager open source per password e passkey che utilizza zero knowledge e crittografia end-to-end per proteggere i dati. Puoi usarlo come servizio cloud o auto-ospitarlo, con funzionalità per generare, salvare e compilare automaticamente credenziali forti.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RwKmstAct5kNQwB/preview)
 
-Willst du den Service selbst hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
+Stai pensando di ospitare questo servizio da solo? Ti guideremo passo passo su come installarlo e configurarlo, con tutto quello che devi sapere.
 
 <InlineVoucher />
 
 
 
-## Voraussetzungen
+## Prerequisiti
 
-Bevor du **Bitwarden** installierst, stelle sicher, dass deine Hosting-Umgebung folgende Anforderungen erfüllt, damit die Installation reibungslos läuft und die Performance top ist.
+Prima di installare **Bitwarden**, assicurati che il tuo ambiente di hosting soddisfi i seguenti requisiti per garantire un’installazione fluida e prestazioni ottimali.
 
-| Hardware   | Minimum      | ZAP-Hosting Empfehlung    |
-| ---------- | ------------ | ------------------------- |
-| CPU        | 1 vCPU Kern  | 4 vCPU Kerne              |
+| Hardware   | Minimo      | Consiglio ZAP-Hosting     |
+| ---------- | ------------ | -------------------------- |
+| CPU        | 1 vCPU Core | 4 vCPU Core               |
 | RAM        | 2 GB         | 4 GB                      |
-| Speicher   | 12 GB        | 25 GB                     |
+| Spazio disco | 12 GB      | 25 GB                     |
 
-Die Software benötigt alle nötigen Abhängigkeiten und muss auf einem unterstützten Betriebssystem laufen. Check also vor der Installation, ob dein Server folgende Anforderungen erfüllt:
+Il software richiede che tutte le dipendenze necessarie siano installate e che giri su un sistema operativo supportato. Assicurati che il tuo server rispetti questi requisiti prima di procedere con l’installazione:
 
-**Abhängigkeiten:** `Docker (Engine 26+ und Compose)`
+**Dipendenze:** `Docker (Engine 26+ e Compose)`
 
-**Betriebssystem:** Neueste Windows Server Version mit Docker 26+ Support
+**Sistema Operativo:** Ultima versione di Windows Server che supporta Docker 26+
 
-Stell sicher, dass alle Abhängigkeiten installiert sind und das richtige OS läuft, um Kompatibilitätsprobleme bei der Bitwarden-Installation zu vermeiden.
-
-
-
-## Vorbereitung
-
-Bevor du mit der **Bitwarden**-Installation startest, solltest du dein System vorbereiten. Dazu gehört, dein Betriebssystem auf den neuesten Stand zu bringen und alle nötigen Abhängigkeiten zu installieren. So sorgst du für eine stabile Umgebung und vermeidest Probleme während oder nach der Installation.
-
-
-### System aktualisieren
-Damit dein System mit den aktuellsten Software- und Sicherheitsupdates läuft, solltest du zuerst alle Updates einspielen. So hast du die neuesten Sicherheitspatches und Softwareversionen am Start, bevor es losgeht.
-
-### Abhängigkeiten installieren
-Nach dem Update kannst du die Abhängigkeiten installieren. Bitwarden läuft in mehreren Docker-Containern, daher muss Docker zuerst installiert sein. Installiere dazu [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) auf deinem Server.
-
-Eine ausführliche Anleitung zur Docker-Installation und Nutzung findest du in unserem [Docker](vserver-windows-docker.md) Guide.
+Verifica che tutte le dipendenze siano installate e che la versione del sistema operativo sia corretta per evitare problemi di compatibilità durante l’installazione di Bitwarden.
 
 
 
-### Benutzer & Verzeichnis anlegen
+## Preparazione
 
-Wir empfehlen, auf deinem Windows Server einen eigenen `bitwarden` Service-Account anzulegen, von dem aus du Bitwarden installierst und betreibst. So bleibt deine Bitwarden-Instanz sauber von anderen Anwendungen getrennt.
+Prima di configurare **Bitwarden**, devi preparare il sistema. Questo include aggiornare il sistema operativo all’ultima versione e installare tutte le dipendenze richieste. Questi passaggi assicurano un ambiente stabile e aiutano a prevenire problemi durante o dopo l’installazione.
 
-Öffne PowerShell als Administrator und erstelle den lokalen Bitwarden-Benutzer mit diesen Befehlen. Nach dem ersten Befehl erscheint ein Passwort-Eingabefenster. Gib dein Wunschpasswort ein und bestätige. Dann den zweiten Befehl ausführen, um die Einrichtung abzuschließen.
+
+### Aggiorna il sistema
+Per assicurarti che il sistema abbia le ultime patch di sicurezza e aggiornamenti software, esegui sempre prima un aggiornamento completo. Così il sistema sarà pronto e sicuro prima di andare avanti.
+
+### Installa le dipendenze
+Una volta completato l’aggiornamento, puoi procedere con l’installazione delle dipendenze. Bitwarden verrà eseguito tramite una serie di container Docker, quindi devi prima installare Docker. Per farlo, installa [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) sul tuo server.
+
+Una guida completa all’installazione e all’uso di Docker è disponibile nella nostra guida [Docker](vserver-windows-docker.md).
+
+
+
+### Crea utente & cartella
+
+Ti consigliamo di configurare il tuo server Windows con un account di servizio dedicato `bitwarden`, da cui installare e far girare Bitwarden. Così la tua istanza Bitwarden sarà isolata dalle altre app sul server.
+
+Apri PowerShell come amministratore. Crea l’utente locale Bitwarden con questi comandi. Dopo il primo comando, ti apparirà una finestra per inserire la password, confermala. Poi esegui il secondo comando per completare.
 
 ```
 PS C:\> $Password = Read-Host -AsSecureString
 New-LocalUser "Bitwarden" -Password $Password -Description "Bitwarden Local Admin"
 ```
 
-Erstelle anschließend einen Bitwarden-Ordner unter `C:\` für den neuen User:
+Poi crea una cartella Bitwarden sotto `C:\` per il nuovo utente:
 
 ```
 PS C:\> mkdir Bitwarden
 ```
 
-In Docker Desktop gehst du zu **Settings → Resources → File Sharing**. Füge den Pfad `C:\Bitwarden` zu den freigegebenen Verzeichnissen hinzu. Klicke auf Apply & Restart, um die Änderungen zu übernehmen.
+In Docker Desktop, vai su **Settings → Resources → File Sharing**. Aggiungi la cartella `C:\Bitwarden` ai percorsi condivisi. Seleziona Applica & Riavvia per confermare.
 
 
 
-### Domain konfigurieren
+### Configura il tuo dominio
 
-Standardmäßig läuft Bitwarden auf dem Host über die Ports 80 (HTTP) und 443 (HTTPS). Richte eine Domain mit DNS-Einträgen ein, die auf deinen Host zeigen, z.B. server.example.com – vor allem, wenn du Bitwarden öffentlich im Internet anbieten willst. Vermeide es, Bitwarden im Hostnamen zu verwenden, um nicht direkt auf die Serverrolle oder Software hinzuweisen.
-
-
+Di default, Bitwarden gira sul server sulle porte 80 (HTTP) e 443 (HTTPS). Configura un dominio con record DNS che puntano al server, tipo server.example.com, soprattutto se lo esponi su internet. Evita di includere “Bitwarden” nel nome host per non svelare troppo sul ruolo o software del server.
 
 
-## Installation
-Wenn alle Voraussetzungen erfüllt und die Vorbereitung abgeschlossen ist, kannst du mit der Bitwarden-Installation starten.
 
-Lade das Bitwarden-Installationsskript auf deinen Server und führe es aus:
+
+## Installazione
+Ora che hai tutto pronto, puoi procedere con l’installazione di Bitwarden.
+
+Scarica lo script di installazione sul server ed eseguilo:
 
 ```
 cd C:\Bitwarden
@@ -97,43 +98,43 @@ Invoke-RestMethod -OutFile bitwarden.ps1 -Uri "https://func.bitwarden.com/api/dl
 .\bitwarden.ps1 -install
 ```
 
-Im Installer gibst du zuerst den Domainnamen deiner Bitwarden-Instanz ein, also den konfigurierten DNS-Eintrag. Dann wählst du, ob Let’s Encrypt ein kostenloses, vertrauenswürdiges SSL-Zertifikat erstellen soll. Falls ja, gibst du eine E-Mail für Ablaufbenachrichtigungen an. Falls nein, folgen Fragen zum Zertifikat.
+Durante l’installazione inserisci il nome dominio della tua istanza Bitwarden, di solito il record DNS configurato. Poi scegli se Let’s Encrypt deve generare un certificato SSL gratuito e affidabile. Se sì, fornisci una mail per le notifiche di scadenza. Se no, ti verranno chieste info sul certificato.
 
-Trage deine Installations-ID und den Installationsschlüssel ein, die du bei [Bitwarden](https://bitwarden.com/host) bekommst. Wähle dann die Region US oder EU – relevant nur, wenn du eine selbst gehostete Instanz mit einem kostenpflichtigen Abo verbindest.
+Inserisci il tuo Installation ID e Installation Key, che prendi da [Bitwarden](https://bitwarden.com/host). Poi scegli la regione US o EU, utile solo se colleghi l’istanza self-hosted a un abbonamento a pagamento.
 
-Wenn du kein Let’s Encrypt nutzt, kannst du ein bestehendes Zertifikat verwenden, indem du die Dateien in `C:\Bitwarden\bwdata\ssl\<deine_domain>` ablegst und angibst, ob es vertrauenswürdig ist. Alternativ kannst du ein selbstsigniertes Zertifikat generieren – das empfehlen wir nur zum Testen. Wenn du kein Zertifikat nutzt, brauchst du einen HTTPS-Proxy vor der Installation, sonst funktionieren Bitwarden-Apps nicht.
+Se non usi Let’s Encrypt puoi usare un certificato esistente mettendo i file in `C:\Bitwarden\bwdata\ssl\<tuo_dominio>` e specificando se è trusted. In alternativa puoi generare un certificato self-signed, consigliato solo per test. Se scegli nessun certificato devi mettere un proxy HTTPS davanti all’installazione, altrimenti Bitwarden non funzionerà.
 
 
 
-## Konfiguration
+## Configurazione
 
-Nach der Installation machst du die Grundkonfiguration über zwei Dateien. Bearbeite zuerst die Umgebungsdatei unter `\bwdata\env\global.override.env`. Trage dort deine SMTP-Server-Daten ein – Host, Port, SSL, Benutzername und Passwort – damit Bitwarden Verifizierungs- und Organisations-Einladungsmails verschicken kann. Wenn du Zugriff auf das System-Admin-Portal brauchst, füge eine Admin-E-Mail zu `adminSettings__admins` hinzu.
+Dopo l’installazione, completa la configurazione base modificando due file. Prima modifica il file ambiente `\bwdata\env\global.override.env`. Qui imposta i dati SMTP del tuo server, tipo host, porta, SSL, username e password, così Bitwarden può inviare mail di verifica e inviti organizzativi. Se ti serve accesso al System Administrator Portal, aggiungi un’email admin in `adminSettings__admins`.
 
 ```
 ...
-globalSettings__mail__smtp__host=<platzhalter>
-globalSettings__mail__smtp__port=<platzhalter>
-globalSettings__mail__smtp__ssl=<platzhalter>
-globalSettings__mail__smtp__username=<platzhalter>
-globalSettings__mail__smtp__password=<platzhalter>
+globalSettings__mail__smtp__host=<placeholder>
+globalSettings__mail__smtp__port=<placeholder>
+globalSettings__mail__smtp__ssl=<placeholder>
+globalSettings__mail__smtp__username=<placeholder>
+globalSettings__mail__smtp__password=<placeholder>
 ...
 adminSettings__admins=
 ...
 ```
 
-Teste die SMTP-Konfiguration. Bei korrekter Einrichtung bekommst du eine Erfolgsmeldung; sonst siehst du Hinweise zu fehlendem OpenSSL oder falschen Werten. Änderungen übernimmst du mit `.\bitwarden.ps1 -start`.
+Verifica la configurazione SMTP. Se è corretta vedrai un messaggio di successo, altrimenti errori su OpenSSL mancante o valori sbagliati. Applica le modifiche con `.\bitwarden.ps1 -start`.
 
-Wenn alles passt, starte Bitwarden mit `.\bitwarden.ps1 -restart`.
+Se serve, riavvia con `.\bitwarden.ps1 -restart`.
 
-Prüfe danach die Installationsparameter in `.\bwdata\config.yml`. Diese Datei steuert die generierten Assets und muss bei speziellen Setups angepasst werden, z.B. wenn du hinter einem Proxy bist oder andere Ports nutzt. Änderungen übernimmst du mit `.\bitwarden.ps1 -rebuild`.
+Poi controlla i parametri di installazione in `.\bwdata\config.yml`. Questo file gestisce le risorse generate e va modificato per ambienti particolari, tipo se usi un proxy o porte alternative. Applica modifiche con `.\bitwarden.ps1 -rebuild`.
 
-Zum Schluss startest du die Instanz mit `.\bitwarden.ps1 -start`. Der erste Start kann dauern, weil Docker die Images lädt. Mit `docker ps` kannst du checken, ob alle Container healthy sind. Dann öffne das Web Vault unter deiner Domain und registriere dich, falls nötig. Für die E-Mail-Verifizierung muss SMTP korrekt konfiguriert sein.
+Infine avvia l’istanza con `.\bitwarden.ps1 -start`. Al primo avvio Docker scaricherà le immagini, ci può volere un po’. Usa `docker ps` per controllare che tutti i container siano sani. Poi apri il web vault al dominio configurato e registrati se serve. La verifica mail funziona solo con SMTP configurato correttamente.
 
-## Fazit & weitere Ressourcen
+## Conclusione e Risorse Utili
 
-Glückwunsch! Du hast Bitwarden erfolgreich auf deinem VPS installiert und konfiguriert. Schau dir auch diese Ressourcen an, die dir bei der Server-Konfiguration weiterhelfen können:
+Complimenti! Hai installato e configurato Bitwarden con successo sul tuo VPS/Server Dedicato. Ti consigliamo anche di dare un’occhiata a queste risorse, che possono aiutarti durante la configurazione del server:
 
-- [bitwarden.com](https://bitwarden.com/) – Offizielle Website
-- https://bitwarden.com/help/ – Bitwarden Help Center (Dokumentation)
+- [bitwarden.com](https://bitwarden.com/) - Sito Ufficiale
+- https://bitwarden.com/help/ - Centro Assistenza Bitwarden (Documentazione)
 
-Hast du noch Fragen, die hier nicht beantwortet werden? Für weitere Hilfe steht dir unser Support-Team täglich zur Verfügung – meld dich einfach! 🙂
+Hai domande specifiche non coperte qui? Per qualsiasi dubbio o supporto, contatta pure il nostro team di assistenza, sempre disponibile ogni giorno per aiutarti! 🙂

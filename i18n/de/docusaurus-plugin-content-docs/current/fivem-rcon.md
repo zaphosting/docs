@@ -70,7 +70,7 @@ Sobald du per RCON verbunden bist, kannst du verschiedene administrative und dia
 
 
 
-## Fazit
+## Abschluss
 
 RCON ist ein essentielles Tool für die Remote-Verwaltung von FiveM Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und schützt den Zugang durch Passwort-Authentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
 

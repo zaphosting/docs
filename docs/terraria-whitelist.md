@@ -1,4 +1,4 @@
----
+﻿---
 id: terraria-whitelist
 title: "Terraria: Whitelist"
 description: "Information about how to whitelist your Terraria server from ZAP-Hosting → Learn more now"

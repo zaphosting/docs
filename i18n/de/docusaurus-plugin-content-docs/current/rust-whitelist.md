@@ -1,4 +1,4 @@
----
+﻿---
 id: rust-whitelist
 title: "Rust: Whitelist"
 description: "Infos, wie du deinen Rust-Server bei ZAP-Hosting auf die Whitelist setzt → Jetzt mehr erfahren"
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Eine Whitelist ist ein Zugriffsmechanismus, der einschränkt, wer auf deinem Server spielen darf. Rust Dedicated Server haben keine eingebaute Whitelist-Funktion, deshalb installieren Hosting-Anbieter meist uMod Oxide und ein Whitelist-Plugin, das Verbindungen blockiert, außer ein Spieler ist explizit erlaubt.
+Eine Whitelist ist ein Zugriffsmechanismus, der einschränkt, wer auf deinen Server joinen darf. Rust Dedicated Server haben keine eingebaute Whitelist-Funktion, deshalb installieren Hosting-Anbieter meist uMod Oxide und ein Whitelist-Plugin, das Verbindungen blockiert, außer ein Spieler ist explizit erlaubt.
 
 <InlineVoucher />
 
@@ -36,7 +36,7 @@ Um den Zugang zu entziehen, entferne die Berechtigung.
 oxide.revoke user 76561198000000000 whitelist.allow
 ```
 
-Um zu checken, welche Berechtigungen ein Nutzer hat, kannst du sie abfragen.
+Um zu prüfen, welche Berechtigungen ein Nutzer hat, kannst du seine Permissions abfragen.
 
 ```text
 oxide.show user 76561198000000000
@@ -44,13 +44,13 @@ oxide.show user 76561198000000000
 
 ## Whitelist-Funktion prüfen
 
-Versuche, dich mit einem Account ohne Whitelist-Berechtigung zu verbinden. Das Plugin sollte die Verbindung ablehnen. Verbinde dich danach mit einem Account, dem du `whitelist.allow` gegeben hast, um den Zugang zu bestätigen.
+Versuche, dich mit einem Account zu verbinden, der keine Whitelist-Berechtigung hat. Das Plugin sollte die Verbindung ablehnen. Verbinde dich danach mit einem Account, dem du `whitelist.allow` gegeben hast, um den Zugang zu bestätigen.
 
-Wenn trotzdem alle joinen können, check, ob das Plugin geladen ist und uMod läuft. Ein Server-Neustart nach dem Hochladen des Plugins ist der sicherste Weg, um sicherzugehen, dass es aktiv ist.
+Wenn trotzdem jeder joinen kann, check, ob das Plugin geladen ist und uMod läuft. Ein Server-Neustart nach dem Hochladen des Plugins ist der sicherste Weg, um sicherzugehen, dass es aktiv ist.
 
-## Fazit
+## Abschluss
 
-Wenn du alle Schritte richtig gemacht hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf deinen Server darf. Falls der Zugang trotzdem nicht wie gewünscht funktioniert, starte den Server nochmal neu und überprüfe die Dateien oder Konsolenausgaben, um sicherzugehen, dass die Änderungen übernommen wurden.
+Wenn du alle Schritte oben befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf den Server darf. Falls der Zugang noch nicht wie gewünscht funktioniert, starte den Server einmal neu und überprüfe die Dateien oder Konsolenausgaben, um sicherzugehen, dass die Änderung übernommen wurde.
 
 Bei weiteren Fragen oder wenn du Hilfe brauchst, melde dich gern bei unserem Support-Team – wir sind täglich für dich da! 🙂
 

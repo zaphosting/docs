@@ -1,4 +1,4 @@
----
+﻿---
 id: dst-whitelist
 title: "Don't Starve Together: Whitelist"
 description: "Info om hur du whitelistar din Don't Starve Together-server från ZAP-Hosting → Lär dig mer nu"
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-En whitelist är en accesslista som begränsar vem som kan gå med på din server. I Don't Starve Together är detta implementerat som en allowlist baserad på Klei-användar-ID:n. Den vanliga setupen är en `whitelist.txt`-fil plus `whitelist_slots` i `cluster.ini`.
+En whitelist är en accesslista som begränsar vem som kan gå med på din server. I Don't Starve Together är detta implementerat som en tillåtelselista baserad på Klei-användar-ID:n. Den vanliga setupen är en `whitelist.txt`-fil plus `whitelist_slots` i `cluster.ini`.
 
 <InlineVoucher />
 
@@ -35,7 +35,7 @@ KU_aaaaaaaa
 KU_bbbbbbbb
 ```
 
-Spara filerna och starta om servern. Allowlistan läses in vid uppstart.
+Spara filerna och starta om servern. Tillåtelselistan läses in vid uppstart.
 
 ## Hantera Whitelistade Spelare
 
@@ -43,16 +43,16 @@ För att lägga till en spelare, lägg till deras KU_-ID i `whitelist.txt`, spar
 
 För att ta bort en spelare, ta bort deras KU_-ID från `whitelist.txt`, spara och starta om.
 
-Se till att antalet ID:n i `whitelist.txt` är minst lika många som `whitelist_slots` för att undvika problem med att gå med när reserverade allowlist-platser överstiger antalet listade användare.
+Se till att antalet ID:n i `whitelist.txt` är minst lika många som `whitelist_slots` för att undvika problem med att gå med när reserverade tillåtelselots överstiger antalet listade användare.
 
 ## Kontrollera Whitelist-funktionen
 
 Efter omstart, försök gå med med ett konto som inte finns i `whitelist.txt`. Om `whitelist_slots` är lika med `max_players` ska anslutningen nekas. Testa sedan att gå med med ett listat KU_-ID för att bekräfta åtkomst.
 
-Om servern fortfarande tillåter olistade spelare, dubbelkolla att du redigerade rätt cluster-mapp och att `[NETWORK]`-sektionen innehåller raden med `whitelist_slots`.
+Om servern fortfarande tillåter spelare som inte finns med, dubbelkolla att du redigerade rätt cluster-mapp och att `[NETWORK]`-sektionen innehåller raden `whitelist_slots`.
 
 ## Slutsats
 
-Om alla steg ovan följdes korrekt är din whitelist nu aktiv och du kan styra exakt vem som får gå med på servern. Om åtkomsten fortfarande inte fungerar som förväntat, starta om servern en gång till och dubbelkolla filerna eller kommandoutdata för att bekräfta att ändringen har trätt i kraft.
+Om alla steg ovan följdes korrekt är din whitelist nu aktiv och du kan styra exakt vilka som får gå med på servern. Om åtkomsten fortfarande inte fungerar som förväntat, starta om servern en gång till och dubbelkolla filerna eller kommandoutgången för att bekräfta att ändringen har trätt i kraft.
 
 <InlineVoucher />

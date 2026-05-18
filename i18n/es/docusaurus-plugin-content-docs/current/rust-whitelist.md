@@ -1,4 +1,4 @@
----
+﻿---
 id: rust-whitelist
 title: "Rust: Lista blanca"
 description: "Información sobre cómo poner en lista blanca tu servidor de Rust en ZAP-Hosting → Aprende más ahora"
@@ -11,18 +11,18 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Una lista blanca es un mecanismo de control de acceso que limita quién puede unirse a tu servidor. Los servidores dedicados de Rust no incluyen una función de lista blanca integrada, por lo que el enfoque común usado por los proveedores de alquiler de servidores es instalar uMod Oxide y un plugin de lista blanca que bloquea las conexiones a menos que un jugador esté explícitamente autorizado.
+Una lista blanca es un mecanismo de control de acceso que limita quién puede unirse a tu servidor. Los servidores dedicados de Rust no incluyen una función de lista blanca integrada, por lo que el enfoque común usado por los proveedores de hosting es instalar uMod Oxide y un plugin de lista blanca que bloquea las conexiones a menos que un jugador esté explícitamente permitido.
 
 <InlineVoucher />
 
 
-## Activar la lista blanca
+## Activar la Lista Blanca
 
 Conéctate a tu servidor vía FTP e instala uMod Oxide si aún no está presente. Después de instalar uMod, sube el archivo del plugin de lista blanca `Whitelist.cs` a la carpeta de plugins, comúnmente `oxide/plugins/Whitelist.cs`.
 
 Una vez que el plugin esté en su lugar, reinicia el servidor o recarga los plugins para que se cargue. El plugin de lista blanca generalmente funciona requiriendo un permiso específico antes de que un jugador pueda conectarse.
 
-## Gestionar jugadores en lista blanca
+## Gestionar Jugadores en la Lista Blanca
 
 Abre la Consola en Vivo en el panel de gestión del servidor de juegos de ZAP-Hosting y otorga el permiso de lista blanca a un jugador usando su SteamID64.
 
@@ -42,7 +42,7 @@ Para verificar qué permisos tiene un usuario, consulta sus permisos.
 oxide.show user 76561198000000000
 ```
 
-## Verificar el funcionamiento de la lista blanca
+## Verificar el Funcionamiento de la Lista Blanca
 
 Intenta conectarte con una cuenta que no tenga el permiso de lista blanca. El plugin debería negar la conexión. Luego conéctate con una cuenta a la que le hayas otorgado `whitelist.allow` para confirmar el acceso.
 

@@ -1,7 +1,7 @@
 ---
 id: webspace-plesk-ssl
-title: "استضافة مواقع: إنشاء شهادة SSL"
-description: "اكتشف كيف تؤمن موقعك الإلكتروني بتشفير SSL وتمكين HTTPS لتصفح أكثر أمانًا → تعلّم المزيد الآن"
+title: "استضافة مواقع: إنشاء شهادة SSL في Plesk"
+description: "تعلم كيف تؤمن موقعك الإلكتروني بشهادة SSL في Plesk وتمكّن HTTPS للاتصالات المشفرة."
 sidebar_label: إنشاء شهادة SSL
 services:
   - webspace
@@ -9,105 +9,77 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## تشفير الموقع الإلكتروني بشهادة SSL
 
-:::info
-يفترض أن النطاق يشير بالفعل إلى عنوان IP الخاص بالاستضافة.
-:::
+## مقدمة
 
-إذا تم إنشاء نطاق في استضافة المواقع، يكون غير مشفر في البداية دائمًا. يمكن رؤية ذلك في لوحة تحكم Plesk:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/kkJ67Pd733pt95i/preview)
-
-والإشعار في المتصفح عند فتح النطاق:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5iwXSgEb4LrY3xf/preview)
-![](https://screensaver01.zap-hosting.com/index.php/s/mpmK8TAjAsgY3FW/preview)
-
-مع شهادة SSL، يمكن حماية/تشفير النطاق بشكل مناسب.
+شهادة SSL تقوم بتشفير الاتصال بين موقعك الإلكتروني وزواره. بمجرد تفعيل HTTPS، تقوم المتصفحات بإنشاء اتصال آمن وتعرض رمز القفل في شريط العنوان. هذا يحمي البيانات الحساسة، يزيد الثقة، ويمنع المتصفحات من اعتبار موقعك غير آمن.
 
 <InlineVoucher />
 
-## إنشاء الشهادة
+## تأمين نطاقك الرئيسي
 
-الخطوة 1️⃣: بالنقر المزدوج على "شهادة SSL/TLS" يفتح القائمة التالية:
+عند إنشاء نطاق لأول مرة في Plesk، يكون الوصول إليه عبر HTTP وغير مشفر. في لوحة Plesk، يمكنك رؤية أنه لم يتم تعيين شهادة بعد. إذا فتحت النطاق في المتصفح في هذه المرحلة، عادةً ما سيتم اعتباره غير آمن:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/g5sr6WC4eawqzoF/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-يمكن طلب شهادة Let's Encrypt مجانًا.
+لتفعيل التشفير، افتح النطاق في لوحة Plesk وانتقل إلى **شهادات SSL/TLS**. ستفتح القائمة المقابلة:
 
-الخطوة 2️⃣: أدخل/املأ المعلومات المطلوبة. لكي يتم طلب الشهادة، يجب تقديم التفاصيل.
+![img](https://screensaver01.zap-hosting.com/index.php/s/8rSr7Jt3DsjDzBY/download)
 
-يجب تحديد بريد إلكتروني والتحقق من صلاحية الشهادة للنطاق. عادةً، يكون لكل نطاق نطاق فرعي "www" نشط، لذلك يتم تحديده أيضًا إذا كان مدرجًا في DNS الخاص بالنطاق.
+من هنا، يمكنك طلب شهادة مجانية من Let's Encrypt. أثناء عملية الطلب، يجب عليك تقديم بريد إلكتروني صالح واختيار أسماء النطاقات التي تريد تأمينها. في معظم الحالات، يتم اختيار كل من النطاق الجذري والنطاق الفرعي www، بشرط وجود إدخال www في إعدادات DNS الخاصة بك:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Mwf3CEWsYRwprS3/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/LTFN73ekPjtikwp/preview)
 
-ثم يتم طلب الشهادة بالنقر على "احصل عليها مجانًا".
+بعد تأكيد الطلب بالنقر على **احصل عليها مجانًا**، يتواصل Plesk مع Let's Encrypt ويصدر الشهادة تلقائيًا. بمجرد إنشاء الشهادة بنجاح، يجب فرض HTTPS عن طريق تفعيل إعادة التوجيه الدائمة من HTTP إلى HTTPS في إعدادات الاستضافة:
 
-الخطوة 3️⃣: تم إنشاء الشهادة الآن، ويمكن رؤية ذلك في الأعلى يمين. بالإضافة إلى ذلك، يجب تفعيل إعادة التوجيه التلقائي من HTTP إلى HTTPS، لأنه بدون ذلك لا يمكن تفعيل التشفير:
+![img](https://screensaver01.zap-hosting.com/index.php/s/BN7AMzG6MyMKb38/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YBdGQqmtNeWKdxA/preview)
+بعد التفعيل، يتم إعادة توجيه جميع الزوار تلقائيًا إلى النسخة المشفرة HTTPS من موقعك. يمكنك التحقق من التثبيت بفتح نطاقك مع https في المتصفح.
 
-بعد تنفيذ ذلك، تصبح إعادة التوجيه مفعلة. سواء فتحت الصفحة بـ http أو https مباشرة في المتصفح، سيتم توجيهك دائمًا إلى https.
 
-الخطوة 4️⃣: الآن يمكنك التحقق في المتصفح ما إذا تم التعرف على الشهادة:
 
-يجب أن يكون القفل موجودًا:
+## تأمين جميع النطاقات الفرعية بشهادة Wildcard
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DkZoqg9XGgR67EK/preview)
+إذا كنت تستخدم أو تخطط لاستخدام عدة نطاقات فرعية، توفر شهادة Wildcard حلًا أكثر كفاءة. فهي تؤمن النطاق الرئيسي وجميع النطاقات الفرعية الحالية والمستقبلية. لطلب شهادة Wildcard، افتح قائمة **شهادات SSL/TLS** مرة أخرى:
 
-معلومات الشهادة، التي يمكن فتحها بالنقر على القفل، يجب أن تعرض النطاق أيضًا:
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/p5H6RZ25HksHsow/preview)
+اختر خيار تجديد أو طلب شهادة Let's Encrypt. فعّل خيار تأمين نطاق Wildcard:
 
-الموقع الآن محمي/مشفر بشكل صحيح.
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZMcdJk9wCzifBmq/preview)
 
-## شهادات للنطاقات الفرعية
+بعد تأكيد الطلب، سيعرض Plesk صندوق معلومات أزرق يحتوي على سجل DNS TXT يجب إنشاؤه:
 
-نفس الخطوات يمكن نظريًا اتباعها لنطاق فرعي. لكن هناك طريقة أسهل لتشفير جميع النطاقات الفرعية دفعة واحدة، سواء كانت موجودة مسبقًا أو جديدة. يمكن استخدام "شهادة Wildcard" لهذا الغرض. يتطلب ذلك إدخال TXT خاص في DNS الخاص بالنطاق. بمجرد توفره، يمكن إصدار شهادة SSL لجميع النطاقات الفرعية.
+![img](https://screensaver01.zap-hosting.com/index.php/s/wnbNfKeTMsCdsy9/preview)
 
-الخطوة 1️⃣: افتح قائمة شهادة SSL/TLS مرة أخرى.
+يجب إضافة سجل TXT هذا إلى منطقة DNS لنطاقك تمامًا كما هو موضح. هذا يؤكد ملكية النطاق ويسمح لـ Let's Encrypt بالتحقق من الطلب. سيكون إدخال DNS مشابهًا للمثال التالي:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X4kFeMomqmz3nGp/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/tDtDaERR7twzaMr/preview)
 
-ثم انقر على "تجديد الشهادة" في الأعلى يسار.
-الآن تفتح نافذة طلب Let's Encrypt:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/eCcFtaJHxW3XWgF/preview)
-
-اختر الآن "تأمين النطاق Wildcard":
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5STxWaKf3JWGfZe/preview)
-
-يتم إضافة النطاق الفرعي "www" و "webmail" تلقائيًا.
-ثم يتم النقر على زر "احصل عليها مجانًا" مرة أخرى.
-
-الخطوة 2️⃣: تظهر الآن مربع أزرق بمعلومات مهمة:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/JHag4cd85Lq6gwx/preview)
-
-يُعطى اسم نطاق وقيمة. يجب أن تكون متوفرة دائمًا كـ TXT في DNS الخاص بالنطاق، هذه هي الطريقة الوحيدة التي يمكن لـ Let's Encrypt من خلالها التأكد من صحة النطاق والتحقق منه.
-
-يجب أن يبدو الإدخال في DNS هكذا:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qPCeWj5dJRFfYFB/preview)
-
-:::info
-قد يستغرق إدخال DNS حتى 24 ساعة ليصبح متاحًا من أي مكان في العالم.
+:::warning تأخير انتشار DNS
+قد يستغرق انتشار DNS حتى 24 ساعة حتى يصبح سجل TXT متاحًا عالميًا. خلال هذه الفترة، قد تفشل عملية التحقق لأن بعض خوادم DNS لا تزال تعيد معلومات قديمة. إذا حدث هذا، انتظر حتى يتم انتشار السجل بالكامل ثم أعد محاولة التحقق.
 :::
 
-للتأكد من أن إدخال TXT نشط بالفعل، يمكن استخدام "أداة البحث عن TXT" من mxtoolbox: https://mxtoolbox.com/SuperTool.aspx:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CPSSWeQRpTDsagY/preview)
 
-إذا تم عرض الإدخال المدخل، يمكن تأكيده في المربع الأزرق في Plesk بالنقر على "إعادة تحميل". الآن يتم التحقق من وجود إدخال DNS، وبما أنه موجود، بعد ثوانٍ قليلة يظهر "محمي" لـ "شهادة SSL/TLS" أو "شهادة Wildcard":
+للتأكد من أن سجل TXT قد تم نشره بشكل صحيح ومتاحة للجميع، يمكنك التحقق منه باستخدام أداة فحص DNS خارجية مثل MXToolbox SuperTool:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AwWiJboz3k6iea8/preview)
+https://mxtoolbox.com/SuperTool.aspx
 
-إذا تم إنشاء نطاق فرعي الآن، فهو محمي بالفعل:
+افتح الموقع واختر خيار **فحص TXT**. أدخل اسم المضيف الكامل الذي قدمه Plesk، عادةً بصيغة `_acme-challenge.yourdomain.com`، وابدأ الفحص. ستستعلم الأداة عن خوادم DNS العامة وتعرض سجلات TXT المرئية حاليًا.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XLHzsgkeLmwJ55m/preview)
+إذا تم عرض قيمة التحقق الصحيحة تمامًا كما هو موضح في Plesk، فهذا يعني أن إدخال DNS قد تم نشره بنجاح ويمكن لـ Let's Encrypt التحقق من ملكية النطاق. إذا لم يتم إرجاع نتيجة أو كانت القيمة مختلفة، فقد يكون انتشار DNS لا يزال جاريًا. في هذه الحالة، انتظر وكرر الفحص بعد فترة حتى يصبح الإدخال الصحيح مرئيًا عالميًا.
 
-الآن يتم تشفير نقل البيانات بالكامل إلى الموقع، وتم الأمر.
+![img](https://screensaver01.zap-hosting.com/index.php/s/iFP5P8SY6oSXQBW/download)
+
+بمجرد ظهور السجل، عد إلى Plesk وابدأ التحقق مرة أخرى. إذا نجح، سيتم إصدار شهادة Wildcard وعرضها كمحمية. من هذه اللحظة فصاعدًا، سيتم تأمين أي نطاق فرعي جديد يتم إنشاؤه تلقائيًا.
+
+
+
+## الخلاصة
+
+مبروك! موقعك الآن محمي بنجاح بتشفير SSL. جميع البيانات المنقولة بين سيرفرك وزوارك مؤمنة، والمتصفحات تعتبر نطاقك موثوقًا، وHTTPS مفعل تلقائيًا.
+
+لأي أسئلة أو مساعدة إضافية، لا تتردد في التواصل مع فريق الدعم الخاص بنا، المتوفر يوميًا لمساعدتك! 🙂
 
 <InlineVoucher />

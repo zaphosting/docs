@@ -106,7 +106,7 @@ Ein TXT-Eintrag wird verwendet, um beliebigen Text hinzuzufügen. Auf manchen Sy
 | zap-hosting.com.  | TXT | v=spf1 -all     | 1440 | 0         |
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deine DNS-Einträge erfolgreich erstellt und konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

@@ -8,8 +8,7 @@ services:
 ---
 
 
-import Card from '@site/src/components/Card/Card';
-import Cards from '@site/src/components/Cards/Cards';
+import Cards, { Card } from '@site/src/components/Cards/Cards';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 

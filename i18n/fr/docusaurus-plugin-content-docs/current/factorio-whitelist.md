@@ -1,4 +1,4 @@
----
+﻿---
 id: factorio-whitelist
 title: "Factorio : Liste blanche"
 description: "Infos sur comment mettre votre serveur Factorio en liste blanche chez ZAP-Hosting → En savoir plus maintenant"
@@ -23,7 +23,7 @@ Ouvre la console Live dans la gestion de ton serveur de jeux ZAP-Hosting et ajou
 /whitelist add PlayerName
 ```
 
-Si ton hébergeur propose une commande explicite pour activer, tu peux aussi la lancer avant d’ajouter des utilisateurs.
+Si ton hébergeur propose une commande explicite d’activation, tu peux aussi la lancer avant d’ajouter des utilisateurs.
 
 ```text
 /whitelist enable
@@ -59,7 +59,7 @@ Si le serveur laisse toujours tout le monde passer, vérifie que les commandes o
 
 ## Conclusion
 
-Si tu as suivi toutes les étapes ci-dessus correctement, ta liste blanche est maintenant active et tu peux contrôler exactement qui est autorisé à rejoindre le serveur. Si l’accès ne fonctionne toujours pas comme prévu, redémarre le serveur une fois et vérifie à nouveau le fichier ou la sortie des commandes pour confirmer que le changement a bien été appliqué.
+Si tu as suivi toutes les étapes ci-dessus, ta liste blanche est maintenant active et tu peux contrôler précisément qui peut rejoindre le serveur. Si l’accès ne fonctionne toujours pas comme prévu, redémarre le serveur une fois et vérifie à nouveau le fichier ou la sortie des commandes pour confirmer que le changement a bien été appliqué.
 
 Pour toute question ou aide, n’hésite pas à contacter notre support, dispo tous les jours pour t’aider ! 🙂
 

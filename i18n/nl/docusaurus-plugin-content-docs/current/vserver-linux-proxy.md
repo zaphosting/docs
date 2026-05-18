@@ -204,7 +204,7 @@ Probeer nu via het proxy domein verbinding te maken met je game server. Als het 
 
 ## SSL Certificaat
 
-Nu je reverse proxy staat, raden we sterk aan om een SSL Certificaat toe te voegen aan je domeinen zodat de site veilig data verstuurt via HTTPS. Check onze [Certbot Installatie](vserver-linux-certbot.md) gids, die het hele proces behandelt van aanvragen tot automatisch vernieuwen van SSL certificaten voor je domein(en).
+Nu je reverse proxy staat, raden we sterk aan om een SSL Certificaat toe te voegen aan je domeinen zodat de site veilig data verstuurt via HTTPS. Check onze [Certbot Installatie](dedicated-linux-certbot.md) gids, die het hele proces behandelt van aanvragen tot automatisch vernieuwen van SSL certificaten voor je domein(en).
 
 ## Conclusie
 

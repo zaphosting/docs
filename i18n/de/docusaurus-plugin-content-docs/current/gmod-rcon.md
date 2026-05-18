@@ -58,7 +58,7 @@ Sobald du per RCON verbunden bist, kannst du verschiedene administrative und dia
 | `say <message>`              | Sendet eine Nachricht an alle Spieler         |
 
 
-## Fazit
+## Abschluss
 
 RCON ist ein essentielles Tool für die Remote-Verwaltung von Garry's Mod Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet durch Passwortschutz eine sichere Zugangskontrolle. Eine korrekte und sichere Konfiguration ist entscheidend, um die Stabilität des Servers zu gewährleisten und unbefugten Zugriff zu verhindern.
 

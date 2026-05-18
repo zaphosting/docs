@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-disable-world-fall-damage
 title: "Hytale：关闭世界跌落伤害"
 description: "了解如何在你的 Hytale 服务器上关闭跌落伤害 → 立即了解更多"
@@ -21,7 +21,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 配置
 
-跌落伤害是通过每个世界的配置文件单独控制的。服务器宇宙中的每个世界都有自己的 `config.json` 文件，里面有一个设置决定是否启用跌落伤害。
+跌落伤害是通过每个世界的配置文件来控制的。服务器宇宙中的每个世界都有自己的 `config.json` 文件，里面有一个设置决定是否启用跌落伤害。
 
 要关闭跌落伤害，打开对应世界文件夹下的 `universe/worlds/<world_name>/config.json`，找到控制跌落伤害的设置，通常是一个布尔值标志，比如 `IsFallDamageEnabled`，将其设置为 `false`：
 
@@ -31,7 +31,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 }
 ```
 
-当该值为 `false` 时，玩家将不会因跌落而受到伤害。如果你想保持开启跌落伤害，则设置为 `true`：
+当该值为 `false` 时，玩家将不会因跌落而受到伤害。如果你想保持开启跌落伤害，则应设置为 `true`：
 
 ```
 {
@@ -45,6 +45,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 总结
 
-通过修改世界配置文件中的跌落伤害标志，你可以完全掌控玩家是否会因跌落受到伤害。如有任何疑问或需要帮助，欢迎随时联系在线客服，我们每天都在这里为你服务！🙂
+通过配置世界的跌落伤害标志，你可以完全掌控玩家是否会因跌落受到伤害。如有任何疑问或需要帮助，欢迎随时联系在线客服，我们每天都在这里为你服务！🙂
 
 <InlineVoucher />

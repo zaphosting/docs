@@ -204,7 +204,7 @@ Une fois le service redémarré, essayez de vous connecter à votre serveur de j
 
 ## Certificat SSL
 
-Avec votre reverse proxy configuré, nous recommandons vivement d’ajouter un certificat SSL à vos domaines utilisés pour garantir que le site transmet les données de manière sécurisée via HTTPS. Consultez notre guide [Installer Certbot](vserver-linux-certbot.md), qui couvre tout le processus de demande et de renouvellement automatique des certificats SSL pour vos domaines.
+Avec votre reverse proxy configuré, nous recommandons vivement d’ajouter un certificat SSL à vos domaines utilisés pour garantir que le site transmet les données de manière sécurisée via HTTPS. Consultez notre guide [Installer Certbot](dedicated-linux-certbot.md), qui couvre tout le processus de demande et de renouvellement automatique des certificats SSL pour vos domaines.
 
 ## Conclusion
 

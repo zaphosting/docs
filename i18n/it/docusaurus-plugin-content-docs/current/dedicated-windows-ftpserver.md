@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-ftpserver
-title: "Dedicated Server: Installazione di FTP"
+title: "Configura FTP su un Server Windows - Ospita un Servizio di Trasferimento File Sicuro"
 description: "Scopri come configurare e gestire un server FTP FileZilla su Windows per trasferimenti file sicuri e controllo accessi utenti → Scopri di più ora"
 sidebar_label: Installa FTP
 services:
+  - vserver
   - dedicated
 ---
 
@@ -21,7 +22,7 @@ Con **FileZilla Server** puoi configurare un server FTP su un sistema operativo 
 
 ### Download
 
-Per configurare un server FTP serve il software giusto. FileZilla Server è una soluzione perfetta per Windows Server. Puoi scaricarlo qui: [FileZilla server](https://filezilla-project.org/download.php?type=server).
+Per configurare un server FTP serve il software giusto. FileZilla Server è una soluzione perfetta per Windows. Puoi scaricarlo qui: [FileZilla server](https://filezilla-project.org/download.php?type=server).
 
 
 
@@ -31,11 +32,11 @@ Dopo aver scaricato il file di setup, eseguilo cliccandoci sopra. Si aprirà que
 
 
 
-Qui puoi scegliere i pacchetti da installare. Di solito va bene lasciare quelli pre-selezionati, quindi clicca su **Next** e scegli la cartella di installazione:
+Qui puoi scegliere i pacchetti da installare. Di solito basta lasciare quelli pre-selezionati, quindi clicca su **Next** e scegli la cartella di installazione:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cN7K9Cte9tXFrF2/preview)
 
-Nel nostro esempio FileZilla Server verrà installato in **C:\Program Files (x86)\FileZilla Server**, ma puoi scegliere il percorso che preferisci. Dopo aver scelto la cartella, devi decidere come installare e avviare il server FTP. Puoi anche impostare la porta e definire una password amministratore.
+Nel nostro esempio FileZilla Server verrà installato in **C:\Program Files (x86)\FileZilla Server**, ma puoi scegliere qualsiasi percorso. Dopo aver scelto la cartella, devi decidere come installare e avviare il server FTP, impostare la porta e definire una password amministratore.
 
 
 
@@ -60,24 +61,24 @@ Nel menu Users clicca su **Add** per aggiungere un nuovo utente:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dbCS5yJfwqry8Dq/preview)
 
-Nel nostro esempio l’utente si chiama **YourUserName**, ma puoi scegliere il nome che vuoi.
+In questo esempio l’username è **YourUserName**, ma puoi scegliere quello che vuoi.
 
 
 
-### Password e permessi
+### Password e Permessi
 
-Ora che l’utente è creato, devi configurare accesso e permessi. Attiva l’utente e imposta la password nella categoria **General** sotto **Credentials**. Ti consigliamo di usare sempre una password per sicurezza. Seleziona **Require a password to log in** e inserisci la password che preferisci.
+Ora che l’utente è creato, devi configurare accesso e permessi. Attiva l’utente e imposta la password nella categoria **General** sotto **Credentials**. Ti consigliamo di usare una password per sicurezza. Seleziona **Require a password to log in** e inserisci la password che preferisci.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/z78wpcFbYEAJYeB/preview)
 
-Per dare i permessi giusti, devi indicare quali cartelle l’utente può raggiungere cliccando su **Add** in mount points. Devi specificare un percorso virtuale e uno reale. Nel nostro esempio abbiamo mappato il disco C sotto \.
+Per dare i permessi giusti, devi indicare quali cartelle l’utente può vedere cliccando su **Add** in mount points. Devi specificare un percorso virtuale e uno reale. Nel nostro esempio abbiamo mappato il disco C sotto \.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iqQrjGByHpkBcJF/preview)
 
 A destra trovi l’opzione **Permissions** per settare i diritti di accesso alla cartella. Se vuoi che l’utente possa leggere e modificare i file, scegli **Read+Write**.
 
 ::: danger
-Per motivi di sicurezza, dai all’utente accesso solo alle cartelle necessarie.
+Per motivi di sicurezza, dai accesso all’utente solo alle cartelle necessarie.
 :::
 
 Applica e conferma le modifiche cliccando su **Apply**.
@@ -86,7 +87,7 @@ Applica e conferma le modifiche cliccando su **Apply**.
 
 ## Eccezioni Firewall di Windows
 
-Per permettere la connessione al server FTP, devi abilitare FileZilla Server nel firewall di Windows. Vai su **Pannello di controllo\Sistema e sicurezza\Windows Defender Firewall** e clicca su **Consenti app o funzionalità tramite Windows Defender Firewall**.  
+Per permettere la connessione al server FTP, devi abilitare FileZilla Server nel firewall di Windows. Vai su **Pannello di controllo\Sistema e sicurezza\Windows Defender Firewall** e clicca su **Consenti app o funzionalità attraverso Windows Defender Firewall**.  
 Nella finestra successiva seleziona l’app da autorizzare:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xHwQzCKokHTn424/preview)
@@ -95,7 +96,7 @@ Nel nostro esempio il percorso è **C:\Program Files (x86)\FileZilla Server\File
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Laz3HFb7GrLBY9w/preview)
 
-Chiudi con **OK** e ora la connessione al tuo server FTP è possibile.
+Chiudi con **OK** e ora la connessione al tuo server FTP è attiva.
 
 
 

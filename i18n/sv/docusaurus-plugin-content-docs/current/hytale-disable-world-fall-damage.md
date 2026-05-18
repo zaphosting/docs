@@ -1,8 +1,8 @@
----
+﻿---
 id: hytale-disable-world-fall-damage
-title: "Hytale: Inaktivera Fallskada i Världen"
-description: "Upptäck hur du inaktiverar fallskada på din Hytale-server → Läs mer nu"
-sidebar_label: Inaktivera Fallskada i Världen
+title: "Hytale: Inaktivera fallskada i världen"
+description: "Ta reda på hur du inaktiverar fallskada på din Hytale-server → Läs mer nu"
+sidebar_label: Inaktivera fallskada i världen
 services:
 - gameserver-hytale
 ---
@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-På en Hytale-server är gravitation och fallskada en del av världens gameplay-mekanik. När fallskada är aktiverat tar spelare skada vid höga fall, medan när det är inaktiverat kan spelare falla fritt utan att ta skada. Att inaktivera fallskada kan vara användbart för kreativa servrar, byggprojekt, testmiljöer eller alla situationer där fallskada inte ska påverka spelupplevelsen. 
+På en Hytale-server är gravitation och fallskada en del av världens gameplay-mekanik. När fallskada är aktiverat tar spelare skada vid höga fall, medan de när det är inaktiverat kan falla fritt utan att ta skada. Att stänga av fallskada kan vara användbart för kreativa servrar, byggprojekt, testmiljöer eller andra scenarion där fallskada inte ska påverka spelupplevelsen. 
 
 <InlineVoucher />
 
@@ -23,7 +23,7 @@ På en Hytale-server är gravitation och fallskada en del av världens gameplay-
 
 Fallskada styrs på varje värld individuellt via världens konfigurationsfil. Varje värld i serverns universum har sin egen `config.json`, och i den här filen finns en inställning som avgör om fallskada ska gälla. 
 
-För att inaktivera fallskada, öppna världens `config.json` som finns i motsvarande världsmapp under `universe/worlds/<world_name>/config.json`. Hitta inställningen som styr fallskada, vanligtvis en boolean-flagga som `IsFallDamageEnabled`, och sätt den till `false`:
+För att inaktivera fallskada, öppna världens `config.json` som finns i motsvarande världsmapp under `universe/worlds/<world_name>/config.json`. Leta upp inställningen som styr fallskada, vanligtvis en boolesk flagga som `IsFallDamageEnabled`, och sätt den till `false`:
 
 ```
 {
@@ -31,7 +31,7 @@ För att inaktivera fallskada, öppna världens `config.json` som finns i motsva
 }
 ```
 
-När värdet är satt till `false` kommer spelare inte längre ta skada från fall. Om fallskada ska vara aktiverat, sätt värdet till `true`:
+När värdet är satt till `false` kommer spelare inte längre ta skada vid fall. Om fallskada ska vara aktiverat, sätt värdet till `true`:
 
 ```
 {

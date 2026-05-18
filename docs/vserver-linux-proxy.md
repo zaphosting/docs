@@ -204,7 +204,7 @@ With the service restarted, you should attempt to connect to your game server vi
 
 ## SSL Certificate
 
-With your chosen reverse proxy now setup, we highly recommend adding an SSL Certificate to your used domains to ensure that the site transmits data securely via HTTPS. Please check out our [Install Certbot](vserver-linux-certbot.md) guide, which covers the entire process of requesting and automatically renewing SSL Certificates for your domain(s).
+With your chosen reverse proxy now setup, we highly recommend adding an SSL Certificate to your used domains to ensure that the site transmits data securely via HTTPS. Please check out our [Install Certbot](dedicated-linux-certbot.md) guide, which covers the entire process of requesting and automatically renewing SSL Certificates for your domain(s).
 
 ## Conclusion
 

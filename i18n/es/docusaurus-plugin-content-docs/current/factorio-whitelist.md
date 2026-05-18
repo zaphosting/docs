@@ -1,4 +1,4 @@
----
+﻿---
 id: factorio-whitelist
 title: "Factorio: Lista blanca"
 description: "Información sobre cómo poner en lista blanca tu servidor de juegos Factorio en ZAP-Hosting → Aprende más ahora"
@@ -23,7 +23,7 @@ Abre la Consola en vivo en la gestión del servidor de juegos de ZAP-Hosting y a
 /whitelist add PlayerName
 ```
 
-Si tu host tiene un comando explícito para activar, también puedes ejecutarlo antes de añadir usuarios.
+Si tu host ofrece un comando explícito para activar, también puedes ejecutarlo antes de añadir usuarios.
 
 ```text
 /whitelist enable
@@ -59,8 +59,8 @@ Si el servidor sigue permitiendo a todos, verifica que los comandos se ejecutaro
 
 ## Conclusión
 
-Si seguiste correctamente todos los pasos anteriores, tu lista blanca ya está activa y puedes controlar exactamente quién puede unirse al servidor. Si el acceso sigue sin funcionar como esperas, reinicia el servidor una vez y revisa el archivo o la salida de comandos para confirmar que el cambio se aplicó.
+Si seguiste correctamente todos los pasos anteriores, tu lista blanca ya está activa y puedes controlar exactamente quién puede unirse al servidor. Si el acceso sigue sin funcionar como esperas, reinicia el servidor una vez y vuelve a revisar el archivo o la salida del comando para confirmar que el cambio se aplicó.
 
-Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
+Para cualquier duda o ayuda, no dudes en contactar con nuestro equipo de soporte, ¡estamos disponibles todos los días para ayudarte! 🙂
 
 <InlineVoucher />

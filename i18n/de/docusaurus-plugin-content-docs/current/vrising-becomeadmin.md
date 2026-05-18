@@ -49,7 +49,7 @@ Hier eine kurze Übersicht der gängigsten Admin-Befehle, die du auf deinem Serv
 | kick [Name/IP/UserID]    | Kickt einen bestimmten Spieler per Name, IP oder UserID |
 | unban [Name/IP/UserID]   | Entbannt einen bestimmten Spieler per Name, IP oder UserID |
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich eingerichtet. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

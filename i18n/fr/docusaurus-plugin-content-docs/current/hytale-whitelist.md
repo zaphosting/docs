@@ -1,7 +1,7 @@
----
+﻿---
 id: hytale-whitelist
 title: "Hytale : Configuration et gestion de la whitelist"
-description: "Découvrez comment sécuriser votre serveur de jeux Hytale en gérant l'accès des joueurs avec les fonctionnalités de whitelist et protégez votre expérience de jeu → En savoir plus maintenant"
+description: "Découvrez comment sécuriser votre serveur de jeux Hytale en gérant l’accès des joueurs avec les fonctionnalités de whitelist et protégez votre expérience de jeu → En savoir plus maintenant"
 sidebar_label: Whitelist
 services:
   - gameserver-hytale
@@ -11,11 +11,11 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-La whitelist est une fonctionnalité de sécurité et de contrôle d'accès qui vous permet de limiter qui peut rejoindre votre serveur de jeux Hytale. Lorsqu'elle est activée, seuls les joueurs explicitement listés dans la whitelist sont autorisés à se connecter. C’est particulièrement utile pour les serveurs privés, les serveurs communautaires, les environnements de développement ou les phases de test où l’accès doit être restreint aux joueurs de confiance uniquement.
+La whitelist est une fonctionnalité de sécurité et de contrôle d’accès qui vous permet de limiter qui peut rejoindre votre serveur de jeux Hytale. Lorsqu’elle est activée, seuls les joueurs explicitement listés dans la whitelist sont autorisés à se connecter. C’est particulièrement utile pour les serveurs privés, les serveurs communautaires, les environnements de développement ou les phases de test où l’accès doit être restreint aux joueurs de confiance uniquement.
 
 :::info Avis Early Access
 
-Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Access. Comme le jeu est encore en phase de développement actif, les logiciels serveur, fichiers de configuration, support du modding et processus d’installation peuvent continuer à évoluer avec le temps.
+Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Access. Comme le jeu est encore en phase de développement active, les logiciels serveur, fichiers de configuration, support du modding et processus d’installation peuvent continuer à évoluer avec le temps.
 
 :::
 
@@ -27,7 +27,7 @@ Hytale est sorti le 13 janvier 2026 et est actuellement disponible en Early Acce
 
 ## Activer la whitelist
 
-La whitelist peut être activée soit via la console du serveur, soit directement en jeu. Assurez-vous d’avoir les permissions nécessaires, comme les droits d’opérateur, avant d’exécuter ces commandes.
+La whitelist peut être activée soit via la console du serveur, soit directement en jeu. Assurez-vous d’avoir les permissions requises, comme les droits d’opérateur, avant d’exécuter ces commandes.
 
 Pour activer la whitelist, lancez la commande suivante :
 
@@ -55,7 +55,7 @@ Si vous souhaitez permettre à tous les joueurs de rejoindre à nouveau le serve
 /whitelist disable
 ```
 
-Après la désactivation, le serveur ne restreindra plus l’accès selon la whitelist et tous les joueurs pourront se connecter.
+Après désactivation, le serveur ne restreindra plus l’accès selon la whitelist et tous les joueurs pourront se connecter.
 
 
 
@@ -67,7 +67,7 @@ La whitelist peut être gérée dynamiquement pendant que le serveur tourne. Les
 
 ### Ajouter un joueur à la whitelist
 
-Pour donner accès à un joueur spécifique, ajoutez-le à la whitelist avec :
+Pour autoriser un joueur spécifique à accéder au serveur, ajoutez-le à la whitelist avec :
 
 ```
 /whitelist add <playername>
@@ -103,19 +103,19 @@ Cette commande affiche la liste complète des noms des joueurs whitelistés.
 
 ### Vider la whitelist
 
-Si vous souhaitez supprimer tous les joueurs de la whitelist en une fois, vous pouvez la vider complètement :
+Si vous souhaitez supprimer tous les joueurs de la whitelist d’un coup, vous pouvez la vider entièrement :
 
 ```
 /whitelist clear
 ```
 
-Cela supprimera toutes les entrées existantes de la whitelist sans pour autant la désactiver.
+Cela supprimera toutes les entrées existantes de la whitelist sans désactiver la whitelist elle-même.
 
 
 
 ## Gérer la whitelist via fichier
 
-En plus des commandes, la whitelist peut aussi être gérée directement via un fichier de configuration. Cette méthode est pratique pour des modifications en masse ou pour préparer une whitelist avant de démarrer le serveur. Le fichier concerné s’appelle `whitelist.json` et se trouve dans le répertoire du serveur.
+En plus des commandes, la whitelist peut aussi être gérée directement via un fichier de configuration. Cette méthode est pratique pour des modifications en masse ou pour préparer une whitelist avant de démarrer le serveur. Le fichier responsable de cette configuration s’appelle `whitelist.json` et se trouve dans le répertoire du serveur.
 
 ````
 {

@@ -37,7 +37,7 @@ Wir empfehlen dir, einen Blick in die folgenden Anleitungen zu werfen, um weiter
 - [Gameserver-Weiterleitung](domain-gameserver-srv-link.md)
 - [Teamspeak 3-Weiterleitung](domain-teamspeak-redirect.md)
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die DNS-Einstellungen deiner Domain erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

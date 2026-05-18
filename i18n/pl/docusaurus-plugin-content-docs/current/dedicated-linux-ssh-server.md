@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-ssh-server
-title: "Serwer dedykowany: Instalacja SSH"
-description: "Dowiedz się, jak bezpiecznie zainstalować i zarządzać serwerem SSH na Linux VPS, aby zapewnić bezpieczny dostęp zdalny i lepszą ochronę serwera → Sprawdź teraz"
+title: "Konfiguracja SSH na serwerze Linux - Włącz bezpieczny zdalny dostęp do serwera"
+description: "Dowiedz się, jak bezpiecznie zainstalować i zarządzać serwerem SSH na Linuxie, aby zapewnić bezpieczny zdalny dostęp i lepszą ochronę serwera → Sprawdź teraz"
 sidebar_label: Instalacja SSH
 services:
+  - vserver
   - dedicated
 ---
 
@@ -13,7 +14,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Secure Shell (SSH) to bezpieczny protokół, który umożliwia szyfrowany i bezpieczny dostęp do systemów zdalnych. Zapewnia poufność i integralność danych przesyłanych przez sieć.
 
-W tym poradniku dowiesz się, jak zainstalować lub ponownie zainstalować serwer SSH dla różnych dystrybucji Linux, które oferujemy na naszych VPS. Większość dystrybucji Linux dostępnych na naszych VPS jest domyślnie wyposażona w serwer SSH, co oznacza, że możesz nim łatwo zarządzać przez webowy panel produktu. Zobacz, jak to zrobić, w naszym poradniku: [Pierwszy dostęp (SSH)](vserver-linux-ssh.md)
+W tym poradniku dowiesz się, jak zainstalować lub ponownie zainstalować serwer SSH dla różnych dystrybucji Linuxa, które oferujemy na naszych VPS/serwerach dedykowanych. Większość dystrybucji Linux dostępnych na naszych VPS/serwerach dedykowanych ma domyślnie zainstalowany serwer SSH, co pozwala na łatwe zarządzanie nim przez panel administracyjny produktu. Możesz zobaczyć, jak to zrobić, korzystając z naszego poradnika: [Pierwszy dostęp (SSH)](vserver-linux-ssh.md)
 
 Jeśli chcesz dowiedzieć się więcej o zwiększaniu bezpieczeństwa swojego serwera, gorąco polecamy nasz poradnik [Wskazówki bezpieczeństwa](vserver-linux-security-tips.md), który przedstawia różne narzędzia i usługi pomagające jeszcze lepiej zabezpieczyć serwer.
 
@@ -44,12 +45,12 @@ Następnie zainstaluj serwer SSH poleceniem:
 yum install openssh-server
 ```
 
-Po zakończeniu instalacji uruchom usługę serwera SSH:
+Po zakończeniu instalacji uruchom usługę serwera SSH poleceniem:
 ```
 systemctl start sshd
 ```
 
-Ustaw automatyczne uruchamianie usługi przy starcie systemu:
+Upewnij się, że usługa będzie się automatycznie uruchamiać przy starcie systemu, wykonując:
 ```
 systemctl enable sshd
 ```
@@ -59,7 +60,7 @@ systemctl enable sshd
 Aby włączyć logowanie root, musisz edytować plik konfiguracyjny openssh. W tym poradniku użyjemy edytora "nano".
 
 :::info
-Jeśli "nano" nie jest zainstalowane, zainstaluj je poleceniem: `yum install nano`
+Jeśli "nano" nie jest zainstalowane, najpierw je zainstaluj poleceniem: `yum install nano`
 :::
 
 Otwórz plik konfiguracyjny poleceniem:
@@ -67,7 +68,7 @@ Otwórz plik konfiguracyjny poleceniem:
 nano /etc/ssh/sshd_config 
 ```
 
-Za pomocą strzałek znajdź linię:
+Za pomocą klawiszy strzałek znajdź linię:
 ```
 #PermitRootLogin prohibit-password
 ```
@@ -99,12 +100,12 @@ Następnie zainstaluj serwer SSH poleceniem:
 apt install openssh-server
 ```
 
-Po zakończeniu instalacji uruchom usługę serwera SSH:
+Po zakończeniu instalacji uruchom usługę serwera SSH poleceniem:
 ```
 systemctl start sshd
 ```
 
-Ustaw automatyczne uruchamianie usługi przy starcie systemu:
+Upewnij się, że usługa będzie się automatycznie uruchamiać przy starcie systemu, wykonując:
 ```
 systemctl enable sshd
 ```
@@ -122,7 +123,7 @@ Otwórz plik konfiguracyjny poleceniem:
 nano /etc/ssh/sshd_config 
 ```
 
-Za pomocą strzałek znajdź linię:
+Za pomocą klawiszy strzałek znajdź linię:
 ```
 #PermitRootLogin prohibit-password
 ```
@@ -154,12 +155,12 @@ Następnie zainstaluj serwer SSH poleceniem:
 apt install openssh-server
 ```
 
-Po zakończeniu instalacji uruchom usługę serwera SSH:
+Po zakończeniu instalacji uruchom usługę serwera SSH poleceniem:
 ```
 systemctl start sshd
 ```
 
-Ustaw automatyczne uruchamianie usługi przy starcie systemu:
+Upewnij się, że usługa będzie się automatycznie uruchamiać przy starcie systemu, wykonując:
 ```
 systemctl enable sshd
 ```
@@ -177,7 +178,7 @@ Otwórz plik konfiguracyjny poleceniem:
 nano /etc/ssh/sshd_config 
 ```
 
-Za pomocą strzałek znajdź linię:
+Za pomocą klawiszy strzałek znajdź linię:
 ```
 #PermitRootLogin prohibit-password
 ```
@@ -209,12 +210,12 @@ Następnie zainstaluj serwer SSH poleceniem:
 dnf install openssh-server
 ```
 
-Po zakończeniu instalacji uruchom usługę serwera SSH:
+Po zakończeniu instalacji uruchom usługę serwera SSH poleceniem:
 ```
 systemctl start sshd
 ```
 
-Ustaw automatyczne uruchamianie usługi przy starcie systemu:
+Upewnij się, że usługa będzie się automatycznie uruchamiać przy starcie systemu, wykonując:
 ```
 systemctl enable sshd
 ```
@@ -232,7 +233,7 @@ Otwórz plik konfiguracyjny poleceniem:
 sudo nano /etc/ssh/sshd_config 
 ```
 
-Za pomocą strzałek znajdź linię:
+Za pomocą klawiszy strzałek znajdź linię:
 ```
 #PermitRootLogin prohibit-password
 ```
@@ -249,4 +250,4 @@ systemctl restart sshd
 </TabItem>
 </Tabs>
 
-Teraz pomyślnie zainstalowałeś usługę SSH na swoim serwerze i możesz łączyć się z nim przez SSH.
+Serwer SSH został pomyślnie zainstalowany na Twoim serwerze i możesz teraz łączyć się z nim zdalnie przez SSH.

@@ -53,7 +53,7 @@ Es gibt verschiedene Dienste, die die Zuverlässigkeit deines E-Mail-Verkehrs te
 
 Für den Test sendest du eine E-Mail an die von diesen Diensten bereitgestellte Adresse. Sie analysieren alle relevanten Informationen, und du kannst die Ergebnisse anschließend auf deren Website einsehen. Diese Tools sind besonders wertvoll, um sicherzustellen, dass deine E-Mails korrekt konfiguriert sind, die Zustellbarkeit verbessert wird und häufige Probleme vermieden werden, die dazu führen könnten, dass deine E-Mails als Spam markiert werden.
 
-## Fazit
+## Abschluss
 
 Wenn du alle Empfehlungen befolgt und erfolgreich umgesetzt hast, solltest du jetzt deutlich besser aufgestellt sein, was die Sicherheit und Zuverlässigkeit deiner E-Mail-Zustellung angeht. Deine E-Mails haben nicht nur eine höhere Wahrscheinlichkeit, zugestellt zu werden, sondern sind auch vor unbefugtem Zugriff und Missbrauch geschützt.
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 Op onze Enterprise Dedicated Servers gebruiken we de managementinterface iLO, hiermee heb je onbeperkte volledige controle over je server.  
-De functies omvatten server starten/stoppen/herstarten, managementconsole via Java of HTML5, en het mounten van bootmedia (ISO’s).  
+De functies omvatten server starten/stoppen/herstarten, een managementconsole via Java of HTML5, en het mounten van bootmedia (ISO’s).  
 Pas de instellingen zorgvuldig aan, want verkeerde wijzigingen kunnen grote problemen veroorzaken.
 
 ## iLO toegang
@@ -21,7 +21,7 @@ Klik simpelweg op "Activate iLO" om iLO te activeren.
 
 Let op: het kan een paar seconden duren voordat je iLO volledig beschikbaar is.  
 Als het systeem is opgestart en de managementinterface toegankelijk is, zie je de inloggegevens.  
-Klik op het weergegeven IP-adres om iLO te openen en log in met de inloggegevens.
+Klik op het getoonde IP-adres om iLO te openen en log in met de inloggegevens.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/MJeEW2LLrjxsAGN/preview)
 
@@ -32,8 +32,8 @@ Hier vind je veel belangrijke info:
 
 ### Overzicht
 * **System Health**  
-Moet meestal groen zijn. Bij elke serverstart controleert de hardware zichzelf; als er problemen zijn, meldt het systeem die direct.  
-Mogelijke statussen: groen (OK), geel (Degraded) en rood (Critical). Soms wordt je SSD als degraded weergegeven, meestal is dat geen probleem.  
+Moet meestal groen zijn. Bij elke serverstart checkt de hardware zichzelf; als er problemen zijn, meldt het systeem die direct.  
+Mogelijke statussen: groen (OK), geel (Degraded) en rood (Critical). Soms wordt je SSD als degraded weergegeven, meestal geen probleem.  
 Je kunt natuurlijk support inschakelen, dan checken wij of er actie nodig is. Bij rood ("Critical") moet support direct geïnformeerd worden.  
 De eerste stap om het probleem op te lossen is altijd een volledige reboot van de server.
 
@@ -47,7 +47,7 @@ Toont de status van je server, bijvoorbeeld "ON" betekent dat je server draait.
 * **Integrated Remote Console**  
 Hier kun je visueel je server bekijken en commando’s uitvoeren.  
 De remote consoles verschillen op twee punten:  
-HTML5 start direct in je browser en vereist geen extra software.  
+HTML5 start direct in je webbrowser, zonder extra software.  
 Java Web Start gebruikt Java om de managementconsole te openen.  
 Eventuele beveiligingswaarschuwingen kun je veilig wegklikken.  
 Hoe je stap voor stap met een remote console verbindt, lees je in de gedetailleerde handleiding.
@@ -64,15 +64,15 @@ Als er hardwareproblemen zijn, worden die hier getoond.
 
 ### Virtual Media
 Je eigen bootmedia (ISO’s) toevoegen doe je via het submenu "Connect CD/DVD-ROM".  
-De bootvolgorde is standaard zo ingesteld dat een geregistreerde ISO altijd als eerste wordt geboot.  
+De bootvolgorde is zo ingesteld dat standaard altijd eerst een geregistreerde ISO wordt geboot.  
 De volgorde kun je aanpassen in het menu "Boot Order".
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/6ezDgt2dsCMwEam/preview)
 
 Bij "Scripted Media URL" vul je de volledige link in van de ISO die je wilt mounten, bijvoorbeeld: http://mijndomein.com/bootimage.iso  
-Je link moet direct naar de ISO wijzen en eindigen op .iso.  
+Je link moet direct naar de ISO verwijzen en eindigen op .iso.  
 Klik daarna op "Insert Media" en herstart je server via "Power Management".  
-De server laadt nu je ingevoegde ISO.
+De server laadt nu de door jou ingevoegde ISO.
 
 ### Power Management
 In dit menu regel je alles rondom het starten & stoppen van je ZAP Dedicated Server.
@@ -80,12 +80,12 @@ In dit menu regel je alles rondom het starten & stoppen van je ZAP Dedicated Ser
 ![](https://screensaver01.zap-hosting.com/index.php/s/NHW8iafC3zjcsJG/preview)
 
 * **Graceful Power Off**  
-Schakelt je server netjes uit, hetzelfde effect als één keer op de aan/uit-knop van je laptop/computer drukken.  
+Sluit je server netjes af, hetzelfde effect als één keer de aan/uit-knop van je laptop/computer indrukken.  
 Alle applicaties worden correct afgesloten en de server gaat gecontroleerd uit.  
 Dit kan afhankelijk van de applicaties even duren.
 
 * **Force Power Off**  
-Als je server direct uit moet zonder wachten, kies je deze optie. Dit is hetzelfde als de stekker eruit trekken.  
+Als je server direct uit moet zonder wachten, gebruik je deze optie. Dit is hetzelfde als de stekker eruit trekken.  
 Het systeem gaat meteen uit, zonder vertraging.
 
 * **Force System Reset**  
@@ -98,7 +98,7 @@ Toont het gemiddelde stroomverbruik van je systeem; hoe hoger het verbruik, hoe 
 Toont de netwerkconfiguratie van je iLO. Let op: deze instellingen hebben niks te maken met de netwerkconfiguratie van je server zelf.
 
 :::info
-Om je server in te stellen of als netwerktoegang niet werkt, kun je altijd direct op je server meekijken.
+Om je server in te stellen of als netwerktoegang niet werkt, kun je altijd direct naar je server kijken.
 :::
 
 ## Remote Consoles (Display)
@@ -106,8 +106,8 @@ iLO biedt standaard twee soorten remote consoles:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cozRqRt9KLTMCkd/preview)
 
-### De HTML5 Console
-Met één klik ben je al op je server, je hebt geen extra software nodig en het start direct in je browser.  
+### De HTML5 Console {#the-html5-console}
+Met één klik ben je al op je server, je hebt geen extra software nodig en het wordt direct in je webbrowser gestart.  
 Hij biedt veel handige tools:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/G8DjtHYnJosiQBy/preview)
@@ -121,7 +121,7 @@ Hij biedt veel handige tools:
 Als je server een grafische interface (GUI) heeft, kun je je muis normaal gebruiken en wordt je toetsenbordinvoer ook doorgegeven.
 
 ### De Java Console
-Voor de Java Console moet Java geïnstalleerd zijn (te downloaden via java.com).  
+Voor de Java Console moet je Java geïnstalleerd hebben. (Download via java.com)  
 :::info
 Beveiligingsmeldingen kun je negeren.
 :::
@@ -135,12 +135,12 @@ We accepteren het risico en bevestigen met "Run".
 
 Nu opent de Java console.  
 :::info
-De applicatie zet vaak het toetsenbordlayout op "EN".
+De applicatie zet vaak het toetsenbord op "EN".
 :::
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kAp5rddEDjdLNwi/preview)
 
-* 1 - power management instellingen (start, stop, reboot) van de server  
+* 1 - Power management instellingen (start, stop, reboot) van de server  
 * 2 - ISO’s toevoegen > URL CD/DVD-ROM  
 * 3 - Verzenden van toetscombinaties (bijv. CTRL + ALT + DEL)  
 * 4 - System Health  
@@ -152,19 +152,19 @@ Als je server een grafische interface (GUI) heeft, kun je je muis normaal gebrui
 
 * Server blijft hangen in POST (Power on Self Test) en boot niet meer.  
 Verbind met een remote console en check waar de server precies blijft hangen. Worden er fouten getoond?  
-Zet de server uit via Power Management (Force Power Off) voor een paar seconden en start hem dan weer op (Momentary Press).  
-Boot hij nog steeds niet? Neem contact op met support.
+Schakel de server uit via Power Management (Force Power Off) voor een paar seconden en start hem dan weer op (Momentary Press).  
+Boot de server nog steeds niet? Neem contact op met support.
 
 * ISO wordt niet geladen.  
-Check of de link naar je ISO echt klopt. De makkelijkste test is de link in je browser plakken; als er een download start, is alles goed.  
+Check of de link naar je ISO echt klopt. Test dit door de link in je browser te plakken; als er een download start, is alles goed.  
 Zorg dat de link correct is ingevuld bij Virtual Media en dat de server opnieuw is gestart. Kijk ook naar de bootvolgorde en of de CD/DVD-drive bovenaan staat.
 
 * Mijn server doet lang over het opstarten.  
-Enterprise hardware doet er soms lang over om op te starten, dat is normaal. Het kan 10-15 minuten duren.
+Enterprise hardware kan wat langer doen over booten, dat is normaal. Het kan 10-15 minuten duren.
 
 * Ik kan iLO niet meer openen.  
 Check of iLO ingeschakeld is in je serverdashboard. De managementinterface schakelt uit veiligheidsoverwegingen automatisch uit na een tijdje.  
-Je kunt iLO natuurlijk uit- en weer inschakelen (wacht minimaal 5 minuten na activeren).
+Je kunt iLO natuurlijk uit- en weer inschakelen. (Wacht minimaal 5 minuten na activeren)
 
 ## Conclusie
 

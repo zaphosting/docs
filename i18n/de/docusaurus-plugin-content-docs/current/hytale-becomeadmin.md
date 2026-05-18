@@ -1,6 +1,6 @@
----
+﻿---
 id: hytale-becomeadmin
-title: "Hytale: Admin (Operator) auf deinem Server werden"
+title: "Hytale: Werde Admin (Operator) auf deinem Server"
 description: "Entdecke, wie du Administratorrechte vergibst, um volle Kontrolle über deinen Server zu haben und Spiel-Funktionen effektiv zu managen → Jetzt mehr erfahren"
 sidebar_label: Admin werden
 services:
@@ -48,6 +48,6 @@ Nach dem Entfernen hat der Spieler wieder Standardrechte und kann keine Admin-Be
 
 
 
-## Fazit
+## Abschluss
 
 Admin auf einem Hytale-Server zu werden, indem du Operator-Rechte vergibst, ist ein zentraler Teil der Serververwaltung. So können vertrauenswürdige Spieler bei Moderation und administrativen Aufgaben unterstützen. Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

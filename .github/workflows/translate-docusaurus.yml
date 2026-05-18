@@ -1,0 +1,121 @@
+name: Translate Docusaurus Documentation
+
+on:
+  pull_request_target:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  translate-docs:
+    if: github.event.label.name == 'TRANSLATE DOCUSAURUS'
+    timeout-minutes: 1440
+    runs-on: self-hosted
+    steps:
+      - name: Checkout PR code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch master branch for diff
+        run: git fetch origin master
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ${{ github.workspace }}
+
+      - name: Translation process
+        working-directory: ${{ github.workspace }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TRANSLATION_PROMPT: ${{ secrets.TRANSLATION_PROMPT }}
+          TRANSLATION_GLOSSARY: ${{ secrets.TRANSLATION_GLOSSARY }}
+        run: node translate.js
+
+      - name: Commit translations
+        id: commit
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
+          git add -A i18n/
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-translate docs"
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No translation changes to commit"
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push to PR branch (same-repo)
+        if: steps.commit.outputs.has_changes == 'true' && github.event.pull_request.head.repo.full_name == github.repository
+        run: git push origin HEAD:refs/heads/${{ github.head_ref }}
+
+      - name: Push translation branch (fork PR)
+        if: steps.commit.outputs.has_changes == 'true' && github.event.pull_request.head.repo.full_name != github.repository
+        run: git push origin HEAD:refs/heads/translations/pr-${{ github.event.pull_request.number }} --force
+
+      - name: Create or update translation PR (fork PR)
+        if: steps.commit.outputs.has_changes == 'true' && github.event.pull_request.head.repo.full_name != github.repository
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = context.payload.pull_request.number;
+            const prTitle = context.payload.pull_request.title;
+            const branch = `translations/pr-${prNumber}`;
+            const baseBranch = context.payload.pull_request.base.ref;
+
+            const { data: existingPRs } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              head: `${context.repo.owner}:${branch}`,
+              state: 'open'
+            });
+
+            if (existingPRs.length === 0) {
+              const { data: newPR } = await github.rest.pulls.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `Auto-translate: ${prTitle} (#${prNumber})`,
+                body: `Automated translations for #${prNumber}.\n\nMerge this PR **after** #${prNumber} has been merged.`,
+                head: branch,
+                base: baseBranch
+              });
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: `Translations have been generated and are available in #${newPR.number}.\nPlease merge the translation PR after this PR is merged.`
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: `Translations have been updated in #${existingPRs[0].number}.`
+              });
+            }
+
+      - name: Remove label
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            try {
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                name: 'TRANSLATE DOCUSAURUS'
+              });
+            } catch (error) {
+              core.warning(`Could not remove label: ${error.message}`);
+            }

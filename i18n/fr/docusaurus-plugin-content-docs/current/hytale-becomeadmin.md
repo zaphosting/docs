@@ -1,6 +1,6 @@
----
+﻿---
 id: hytale-becomeadmin
-title: "Hytale : Deviens admin (opérateur) sur ton serveur"
+title: "Hytale : Deviens Admin (Opérateur) sur ton serveur"
 description: "Découvre comment attribuer les permissions d’administrateur pour un contrôle total du serveur et gérer efficacement les fonctions du jeu → En savoir plus maintenant"
 sidebar_label: Devenir admin
 services:
@@ -28,7 +28,7 @@ Hytale est sorti le 13 janvier 2026 et est actuellement en Early Access. Comme l
 
 
 
-Les admins sur un serveur Hytale obtiennent le statut d’opérateur, ce qui leur donne des permissions de commande élevées. Cela peut se faire via la **console serveur** ou les **commandes en jeu** par un opérateur déjà existant. Pour donner les permissions opérateur à un joueur, entre la commande suivante dans la console serveur ou en jeu avec les droits suffisants :
+Les admins sur un serveur Hytale obtiennent le statut d’opérateur, ce qui leur donne des permissions de commande élevées. Cela peut se faire via la **console serveur** ou les **commandes en jeu** par un opérateur déjà existant. Pour donner les permissions d’opérateur à un joueur, entre la commande suivante dans la console serveur ou en jeu avec les droits suffisants :
 
 ```
 /op add <playername>
@@ -38,7 +38,7 @@ Les admins sur un serveur Hytale obtiennent le statut d’opérateur, ce qui leu
 
 ## Retrait des permissions
 
-Si un joueur n’a plus besoin d’accès admin ou ne doit plus avoir de permissions élevées, son statut opérateur peut être retiré à tout moment :
+Si un joueur n’a plus besoin d’accès admin ou ne doit plus avoir de permissions élevées, son statut d’opérateur peut être retiré à tout moment :
 
 ```
 /op remove <playername>
@@ -50,4 +50,4 @@ Une fois retiré, le joueur revient aux permissions standards et ne pourra plus 
 
 ## Conclusion
 
-Devenir admin sur un serveur Hytale via les permissions opérateur est essentiel pour la gestion du serveur, permettant aux joueurs de confiance d’aider à la modération et aux tâches administratives. Pour toute question ou aide, n’hésite pas à contacter notre support, disponible tous les jours pour t’assister ! 🙂
+Devenir admin sur un serveur Hytale via les permissions d’opérateur est essentiel pour la gestion du serveur, permettant aux joueurs de confiance d’aider à la modération et aux tâches administratives. Pour toute question ou aide, n’hésite pas à contacter notre support, disponible tous les jours pour t’assister ! 🙂

@@ -1,4 +1,4 @@
----
+﻿---
 id: domain-domain-vs-subdomain
 title: "Domain: Domain vs Subdomain"
 description: "Discover how to simplify connecting to your TeamSpeak 3 server using custom domains or subdomains for easy access → Learn more now"

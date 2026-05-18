@@ -1,4 +1,4 @@
----
+﻿---
 id: projectzomboid-whitelist
 title: "Project Zomboid: Whitelist"
 description: "Information about how to whitelist your Project Zomboid server from ZAP-Hosting → Learn more now"

@@ -1,4 +1,4 @@
----
+﻿---
 id: projectzomboid-whitelist
 title: "Project Zomboid: Lista blanca"
 description: "Información sobre cómo poner en lista blanca tu servidor de juegos Project Zomboid en ZAP-Hosting → Aprende más ahora"
@@ -40,7 +40,7 @@ Para quitar el acceso a un usuario, elimínalo de la lista blanca con el comando
 /removeuserfromwhitelist "username"
 ```
 
-Si antes permitías el registro abierto y quieres convertir las cuentas conectadas actualmente en entradas de la lista blanca, usa el comando que añade todos los usuarios conectados a la lista blanca.
+Si antes permitías el registro abierto y quieres convertir las cuentas ya conectadas en entradas de la lista blanca, usa el comando que añade todos los usuarios conectados actualmente a la lista blanca.
 
 ```text
 /addalltowhitelist
@@ -48,7 +48,7 @@ Si antes permitías el registro abierto y quieres convertir las cuentas conectad
 
 ## Verificar el Funcionamiento de la Lista Blanca
 
-Después de activar `Open=false`, un usuario nuevo que no haya sido añadido con `/adduser` no debería poder unirse. Prueba con una cuenta en lista blanca para confirmar el acceso.
+Después de activar `Open=false`, un usuario nuevo que no esté añadido con `/adduser` no debería poder unirse. Prueba con una cuenta en lista blanca para confirmar el acceso.
 
 Si usuarios no listados aún pueden unirse, confirma que editaste el archivo activo `<ServerName>.ini` y reiniciaste el servidor.
 

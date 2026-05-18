@@ -152,7 +152,7 @@ Wenn du möchtest, dass der Service beim Systemstart nicht mehr automatisch star
 sudo systemctl disable [your_service]
 ```
 
-## Fazit
+## Abschluss
 
 Du hast jetzt erfolgreich einen Service für deinen Dedicated Gameserver eingerichtet. Der Server startet nun automatisch beim Hochfahren des Servers.
 

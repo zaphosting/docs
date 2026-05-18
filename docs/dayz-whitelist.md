@@ -1,4 +1,4 @@
----
+﻿---
 id: dayz-whitelist
 title: "DayZ: Whitelist"
 description: "Information about how to whitelist your DayZ server from ZAP-Hosting → Learn more now"

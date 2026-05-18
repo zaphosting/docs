@@ -1,4 +1,4 @@
----
+﻿---
 id: dayz-whitelist
 title: "DayZ: Whitelist"
 description: "Info su come mettere in whitelist il tuo server DayZ con ZAP-Hosting → Scopri di più ora"
@@ -35,7 +35,7 @@ Salva tutto e riavvia il server per applicare la whitelist.
 
 ## Gestire i Giocatori in Whitelist
 
-Per aggiungere un giocatore, inserisci il suo SteamID64 in `whitelist.txt`, salva e riavvia il server. Per rimuoverlo, cancella la sua riga da `whitelist.txt`, salva e riavvia.
+Per aggiungere un giocatore, aggiungi il suo SteamID64 in `whitelist.txt`, salva e riavvia il server. Per rimuoverlo, cancella la sua riga da `whitelist.txt`, salva e riavvia.
 
 Mantieni il file pulito con un ID per riga. I commenti non sono sempre supportati, quindi evita testo extra sulla stessa riga a meno che tu non abbia confermato che il server li accetta.
 
@@ -47,8 +47,8 @@ Se i giocatori in whitelist non riescono a entrare, controlla di aver usato Stea
 
 ## Conclusione
 
-Se hai seguito tutto alla lettera, la tua whitelist è attiva e puoi controllare chi può entrare nel server. Se l’accesso non funziona ancora come previsto, riavvia il server un’altra volta e ricontrolla il file o i log per confermare che la modifica sia stata applicata.
+Se hai seguito tutto alla lettera, la tua whitelist è attiva e puoi controllare chi può entrare nel server. Se l’accesso non funziona ancora come previsto, riavvia il server un’altra volta e ricontrolla il file o l’output dei comandi per confermare che la modifica sia stata applicata.
 
-Per qualsiasi domanda o aiuto, non esitare a contattare il nostro supporto, disponibile ogni giorno per darti una mano! 🙂
+Per altre domande o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
 
 <InlineVoucher />

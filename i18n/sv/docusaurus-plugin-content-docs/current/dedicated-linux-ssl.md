@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-ssl
-title: "Dedikerad Server: Skapa SSL-certifikat (Let's Encrypt) för Linux-server"
+title: "Installera Let's Encrypt SSL på en Linux-server – Säkra din dedikerade server med HTTPS"
 description: "Upptäck hur du säkrar din webbplats med gratis SSL-certifikat med Certbot och Let's Encrypt för säker dataöverföring → Läs mer nu"
 sidebar_label: Installera SSL-certifikat (Let's Encrypt)
 services:
@@ -13,7 +13,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-SSL-certifikat är en självklarhet på internet och ser till att data kan skickas säkert mellan klient och server. I den här guiden går vi igenom hur du sätter upp det open-source-verktyget [**Certbot**](https://certbot.eff.org/) för att begära gratis SSL-certifikat från den ideella certifikatutfärdaren **Let's Encrypt**.
+SSL-certifikat är en självklarhet på internet och ser till att data kan skickas säkert mellan klient och server. I den här guiden går vi igenom hur du sätter upp det open-source-verktyget [**Certbot**](https://certbot.eff.org/) för att hämta gratis SSL-certifikat från den ideella certifikatutfärdaren **Let's Encrypt**.
+
+
 
 ## Förberedelser
 
@@ -23,7 +25,7 @@ Certbot har även extra plugins som gör det enkelt att "one-click" installera e
 
 ## Installation
 
-Börja med att installera det open-source-paketet [**Certbot**](https://certbot.eff.org/) som du kommer använda för att begära gratis SSL-certifikat från **Let's Encrypt**.
+Börja med att installera det open-source-paketet [**Certbot**](https://certbot.eff.org/) som du kommer använda för att hämta gratis SSL-certifikat från **Let's Encrypt**.
 
 ```
 sudo apt install certbot
@@ -33,8 +35,8 @@ När Certbot är installerat kan du börja begära certifikat för dina domäner
 
 Vi rekommenderar starkt att använda standardmetoden **HTTP-01** eftersom den tillåter automatisk förnyelse. Om du stöter på problem kan du istället prova **DNS-01**-metoden, som är manuell och inte stödjer automatisk förnyelse eftersom den verifierar via en **TXT** DNS-post.
 
-:::tip Använd Webbserver-Plugins
-Om du kör en webbserver som Nginx, Apache eller en egen lösning, rekommenderar vi att du hoppar till avsnittet **Webbserver-Plugins** nedan. Där visar vi hur du använder Certbots plugins för att enkelt installera certifikat med "one-click" och utan att behöva stänga ner webbservern.
+:::tip Använd webbserver-plugins
+Om du kör en webbserver som Nginx, Apache eller din egen, rekommenderar vi att du kollar in avsnittet **Web Server Plugins** nedan. Där visar vi hur du använder Certbots plugins för att få en smidig "one-click"-installation och begära certifikat utan att behöva stänga ner webbservern.
 :::
 
 ### HTTP-01-utmaning
@@ -54,7 +56,7 @@ certbot certonly --standalone -d [din_domän]
 certbot certonly --standalone
 ```
 
-När kommandot körs kan du behöva gå igenom en första interaktiv setup där du anger en e-postadress för certifikatskommunikation, eventuellt anmäler dig till en mailinglista och accepterar villkoren.
+När kommandot körs kan du behöva följa en första interaktiv setup där du anger en e-postadress för certifikatskommunikation, eventuellt går med i en mailinglista och accepterar villkoren.
 
 Certbot genererar nu en ACME-utmaning och hostar den via den temporära webbservern. Let's Encrypts servrar försöker sedan hämta den från din server och om det lyckas skapas certifikaten och sparas i `/etc/letsencrypt/live/[din_domän]`.
 
@@ -81,25 +83,25 @@ certbot certonly --preferred-challenges dns-01 -d [din_domän] --manual -m [din_
 certbot certonly --preferred-challenges dns-01
 ```
 
-När kommandot körs kan du behöva gå igenom en första interaktiv setup där du anger en e-postadress för certifikatskommunikation, eventuellt anmäler dig till en mailinglista och accepterar villkoren.
+När kommandot körs kan du behöva följa en första interaktiv setup där du anger en e-postadress för certifikatskommunikation, eventuellt går med i en mailinglista och accepterar villkoren.
 
-Certbot ger dig nu instruktioner för att skapa en **TXT** DNS-post med ett specifikt värde. Målet är oftast `_acme-challenge.` följt av din domän (i det här exemplet `_acme-challenge.zapdocs.example.com`) och värdet du ska sätta får du i konsolen.
+Certbot ger dig nu instruktioner för att skapa en **TXT** DNS-post med ett specifikt värde som du måste använda. Målet är oftast `_acme-challenge.` följt av din domän (i det här exemplet `_acme-challenge.zapdocs.example.com`) och värdet visas i konsolen.
 
-När du skapat posten trycker du på enter för att fortsätta. Om allt är korrekt och har propagerat skapas certifikaten och sparas i `/etc/letsencrypt/live/[din_domän]`.
+När du har skapat posten trycker du på enter för att fortsätta. Om allt är korrekt och DNS-posten har hunnit spridas skapas certifikaten och sparas i `/etc/letsencrypt/live/[din_domän]`.
 
 :::note
-Ha tålamod då DNS-ändringar kan ta lite tid att sprida sig. Det brukar gå på några minuter, men ibland kan det ta längre.
+Ha tålamod då DNS-ändringar kan ta lite tid att spridas. Det brukar gå på några minuter, men i sällsynta fall kan det ta längre tid.
 :::
 
 Du kan nu använda SSL-certifikaten var du än behöver genom att ange den lokala sökvägen till certifikaten.
 
-## Webbserver-Plugins
+## Webbserver-plugins
 
-Certbot har flera extra webbserver-plugins som gör det ännu enklare att hantera certifikat eftersom de automatiskt ändrar relevanta serverblock åt dig. För att använda ett plugin lägger du bara till rätt parameter i ditt `certbot`-kommando.
+Certbot har flera olika webbserver-plugins som gör det ännu enklare att hantera certifikat eftersom de automatiskt ändrar relevanta serverblock åt dig. För att använda ett plugin lägger du bara till rätt parameter i ditt `certbot`-kommando.
 
-Båda metoderna använder **HTTP-01**-utmaningen och fungerar i princip likadant. När ett plugin används söker Certbot efter serverblocket som innehåller den begärda domänen som `server_name`. När det hittas genererar Certbot en ACME-utmaning och lägger till en temporär `location /.well-known/acme-challenge/...` i serverblockets konfiguration.
+Båda metoderna använder **HTTP-01**-utmaningen och fungerar i princip likadant. När ett plugin används söker Certbot först efter det serverblock som innehåller den begärda domänen som `server_name`. När det hittas genererar Certbot en ACME-utmaning och lägger till ett temporärt `location /.well-known/acme-challenge/...`-block i serverblockets konfiguration.
 
-Let's Encrypts servrar försöker sedan hämta detta från din server och vid lyckad verifiering genereras certifikatet och serverblockets konfiguration för vald webbserver ändras automatiskt för att använda HTTPS (port 443) och lägga till sökvägar till det nya certifikatet.
+Let's Encrypts servrar försöker sedan hämta detta från din server och om det lyckas genereras certifikatet och serverblockets konfiguration för vald webbserver ändras automatiskt för att använda HTTPS (port 443) och lägga till sökvägar till det nya certifikatet.
 
 <Tabs>
 <TabItem value="nginx" label="Nginx" default>
@@ -112,7 +114,7 @@ Innan du använder pluginet, se till att det är installerat.
 sudo apt install python3-certbot-nginx
 ```
 
-För att använda Nginx-pluginet lägger du till parametern `--nginx` i kommandot så här:
+För att använda Nginx-pluginet ska du lägga till parametern `--nginx` i ditt kommando, så här:
 
 ```
 # För root-domäner
@@ -126,7 +128,7 @@ certbot --nginx
 ```
 
 :::tip
-Vill du stänga av automatisk "one-click" justering av serverblock från Certbot kan du lägga till `certonly` i kommandot, t.ex. `certbot certonly`.
+Vill du stänga av automatisk "one-click" serverblock-justering från Certbot kan du lägga till `certonly` i kommandot, t.ex. `certbot certonly`.
 :::
 
 </TabItem>
@@ -141,7 +143,7 @@ Innan du använder pluginet, se till att det är installerat.
 sudo apt install python3-certbot-apache
 ```
 
-För att använda Apache-pluginet lägger du till parametern `--apache` i kommandot så här:
+För att använda Apache-pluginet ska du lägga till parametern `--apache` i ditt kommando, så här:
 
 ```
 # För root-domäner
@@ -155,7 +157,7 @@ certbot --apache
 ```
 
 :::tip
-Vill du stänga av automatisk "one-click" justering av serverblock från Certbot kan du lägga till `certonly` i kommandot, t.ex. `certbot certonly`.
+Vill du stänga av automatisk "one-click" serverblock-justering från Certbot kan du lägga till `certonly` i kommandot, t.ex. `certbot certonly`.
 :::
 
 </TabItem>
@@ -164,9 +166,9 @@ Vill du stänga av automatisk "one-click" justering av serverblock från Certbot
 
 ### Webroot-plugin
 
-Om du kör en egen lokal webbserver som inte är en traditionell mjukvara kan du använda webroot-metoden för att använda din egen webbserver utan att behöva stänga ner den.
+Om du kör din egen lokala webbserver som inte använder traditionell mjukvara kan du vilja använda webroot-metoden för att använda din egen webbserver utan att behöva stoppa den.
 
-För att använda Webroot-pluginet lägger du till parametern `--webroot` i kommandot. Du måste också ange `-w [din_webbserver_sökväg]` (kort för `--webroot-path`), vilket är sökvägen till din webbservers toppkatalog.
+För att använda Webroot-pluginet ska du lägga till parametern `--webroot` i ditt kommando. Du måste också ange `-w [din_webbserver_sökväg]` (kort för `--webroot-path`), vilket är sökvägen till din webbservers toppkatalog.
 
 ```
 # För root-domäner
@@ -180,7 +182,7 @@ certbot --webroot -w [din_webbserver_sökväg]
 ```
 
 :::tip
-En vanlig webroot-plats är `/var/www/html`. Du kan även använda detta för webbservrar som Nginx eller Apache om du vill använda webbservern utan att Certbot automatiskt ändrar serverblocken som de inbyggda pluginen gör.
+En av de vanligaste webroot-platserna är `/var/www/html`. Du kan även använda detta för webbservrar som Nginx eller Apache om du vill använda webbservern utan att Certbot automatiskt ändrar serverblocken som de inbyggda pluginen gör.
 :::
 
 </TabItem>
@@ -188,30 +190,30 @@ En vanlig webroot-plats är `/var/www/html`. Du kan även använda detta för we
 
 ## Automatisk förnyelse
 
-I de flesta fall sätter Certbot automatiskt upp förnyelse av certifikat via cronjob och/eller systemd-timer. Du kan testa detta med följande kommando som använder `--dry-run` för att simulera processen.
+I de flesta fall ska Certbot automatiskt sätta upp förnyelse av certifikat åt dig via cronjob och/eller systemd-timer. Du kan kontrollera detta genom att köra följande kommando som testar processen med `--dry-run`.
 
 ```
 certbot renew --dry-run
 ```
 
 :::tip
-Som sagt tidigare stödjer inte **DNS-01**-metoden automatisk förnyelse via Certbot om du inte har egen infrastruktur för det. Därför rekommenderar vi att använda **HTTP-01**-metoden.
+Som nämnt tidigare stödjer inte **DNS-01**-metoden automatisk förnyelse via Certbot om du inte sätter upp egen infrastruktur för det. Därför rekommenderar vi att använda **HTTP-01**-metoden.
 :::
 
-Om allt är som det ska ska detta lyckas. Vill du se eller ändra inställningar för automatisk förnyelse hittar du kommandot i någon av följande platser: `/etc/crontab/`, `/etc/cron.*/*` eller via `systemctl list-timers`.
+Detta bör lyckas om allt är som det ska. Vill du se eller ändra den automatiska förnyelsen hittar du kommandot i någon av följande platser: `/etc/crontab/`, `/etc/cron.*/*` eller via `systemctl list-timers`.
 
 ### Manuell cronjob-setup
 
-Om automatisk förnyelse av någon anledning inte är satt upp kan du lägga till det själv via cronjob. Öppna crontab med `crontab -e`. Om det är första gången kan du bli ombedd att välja en editor. Välj första alternativet, som brukar vara `/bin/nano`.
+Om automatisk förnyelse av någon anledning inte är satt upp kan du lägga till det själv via cronjob. Öppna crontab-menyn med `crontab -e`. Om det är första gången kan du bli ombedd att välja en editor. Välj första alternativet, som bör vara `/bin/nano`.
 
-När filen är öppen i nano lägger du till följande rad för att köra förnyelsen varje dag kl 06:00 lokal tid.
+När filen är öppen i nano, lägg till följande rad för att köra förnyelsen varje dag kl 06:00 lokal tid.
 
 ```
 0 6 * * * certbot renew
 ```
 
-Spara filen och avsluta nano med `CTRL + X`, tryck `Y` för att bekräfta och sedan `ENTER`.
+Spara filen och avsluta nano med `CTRL + X`, följt av `Y` för att bekräfta och sen `ENTER`.
 
 ## Avslutning
 
-Du har nu framgångsrikt satt upp Certbot för dina domäner via flera metoder, inklusive standalone, webroot eller via plugins, och ger din webbplats säker dataöverföring via HTTPS. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig! 🙂
+Du har nu framgångsrikt satt upp Certbot för dina domäner via flera metoder, inklusive standalone, webroot eller via plugins, och gett din webbplats säker dataöverföring via HTTPS. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig! 🙂

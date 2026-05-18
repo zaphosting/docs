@@ -1,4 +1,4 @@
----
+﻿---
 id: domain-domain-vs-subdomain
 title: "Dominio: Dominio vs Subdominio"
 description: "Descubre cómo simplificar la conexión a tu servidor de TeamSpeak 3 usando dominios personalizados o subdominios para un acceso fácil → Aprende más ahora"

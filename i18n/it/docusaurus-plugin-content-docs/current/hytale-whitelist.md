@@ -1,7 +1,7 @@
----
+﻿---
 id: hytale-whitelist
 title: "Hytale: Configurazione e Gestione della Whitelist"
-description: "Scopri come proteggere il tuo server Hytale gestendo l’accesso dei giocatori con le funzionalità di whitelist e proteggi il tuo gameplay → Scopri di più ora"
+description: "Scopri come proteggere il tuo server Hytale gestendo l'accesso dei giocatori con le funzionalità di whitelist e proteggi il tuo gameplay → Scopri di più ora"
 sidebar_label: Whitelist
 services:
   - gameserver-hytale
@@ -55,7 +55,7 @@ Se vuoi permettere a tutti i giocatori di entrare di nuovo nel server, puoi disa
 /whitelist disable
 ```
 
-Dopo aver disattivato la whitelist, il server non limiterà più l’accesso basandosi sulla whitelist e tutti potranno connettersi.
+Dopo aver disattivato la whitelist, il server non limiterà più l’accesso in base alla whitelist e tutti potranno connettersi.
 
 
 
@@ -67,10 +67,10 @@ La whitelist può essere gestita dinamicamente mentre il server è attivo. Puoi 
 
 ### Aggiungere un giocatore alla whitelist
 
-Per dare accesso a un giocatore specifico, aggiungilo alla whitelist con:
+Per concedere l’accesso a un giocatore specifico, aggiungilo alla whitelist con:
 
 ```
-/whitelist add <playername>
+/whitelist add <nomegiocatore>
 ```
 
 Il giocatore specificato potrà subito entrare nel server, a patto che la whitelist sia attiva.
@@ -82,7 +82,7 @@ Il giocatore specificato potrà subito entrare nel server, a patto che la whitel
 Per revocare l’accesso a un giocatore, rimuovilo dalla whitelist:
 
 ```
-/whitelist remove <playername>
+/whitelist remove <nomegiocatore>
 ```
 
 Una volta rimosso, il giocatore non potrà più entrare finché la whitelist rimane attiva.
@@ -115,7 +115,7 @@ Questo cancellerà tutte le voci esistenti nella whitelist ma non disattiverà l
 
 ## Gestire la whitelist tramite file
 
-Oltre ai comandi, la whitelist può essere gestita direttamente tramite un file di configurazione. Questo metodo è utile per modifiche di massa o per preparare la whitelist prima di avviare il server. Il file responsabile si chiama `whitelist.json` ed è nella cartella del server.
+Oltre ai comandi, la whitelist può essere gestita anche direttamente tramite un file di configurazione. Questo metodo è utile per modifiche di massa o per preparare la whitelist prima di avviare il server. Il file responsabile si chiama `whitelist.json` ed è nella directory del server.
 
 ````
 {
@@ -131,6 +131,6 @@ Oltre ai comandi, la whitelist può essere gestita direttamente tramite un file 
 
 ## Conclusione
 
-Complimenti, hai configurato con successo la whitelist per il tuo server Hytale. Ora il tuo server è riservato solo ai giocatori approvati, aiutandoti a mantenere controllo, privacy e un ambiente multiplayer più sicuro.
+Complimenti, hai configurato con successo la whitelist per il tuo server Hytale. Ora il tuo server è riservato solo ai giocatori approvati, aiutandoti a mantenere il controllo, la privacy e un ambiente multiplayer più sicuro.
 
 Per qualsiasi domanda o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂

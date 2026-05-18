@@ -1,7 +1,7 @@
----
+﻿---
 id: hytale-whitelist
 title: "Hytale: Whitelist-inställning och hantering"
-description: "Upptäck hur du säkrar din Hytale-server genom att hantera spelartillgång med whitelist-funktioner och skydda ditt gameplay → Läs mer nu"
+description: "Upptäck hur du säkrar din Hytale-server genom att hantera spelartillgång med whitelist-funktioner och skydda ditt gameplay → Lär dig mer nu"
 sidebar_label: Whitelist
 services:
   - gameserver-hytale
@@ -11,9 +11,9 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
-Whitelist är en säkerhets- och åtkomstkontrollfunktion som låter dig begränsa vem som kan ansluta till din Hytale-server. När den är aktiverad får endast spelare som uttryckligen finns med på whitelist ansluta. Detta är särskilt användbart för privata servrar, community-servrar, utvecklingsmiljöer eller testfaser där åtkomsten ska begränsas till betrodda spelare.
+Whitelist är en säkerhets- och åtkomstkontrollfunktion som låter dig begränsa vem som kan ansluta till din Hytale-server. När den är aktiverad får endast spelare som uttryckligen finns med på whitelist ansluta. Detta är extra användbart för privata servrar, community-servrar, utvecklingsmiljöer eller testfaser där tillgången ska vara begränsad till betrodda spelare.
 
-:::info Tidig Access-Info
+:::info Tidig Access-Notis
 
 Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serverprogramvara, konfigurationsfiler, moddsupport och installationsflöden fortsätta att förändras över tid.
 
@@ -43,7 +43,7 @@ När whitelist är aktiverad kommer alla spelare som inte finns på listan nekas
 /whitelist status
 ```
 
-Detta kommando visar whitelistens aktuella status och hjälper dig att bekräfta att inställningen har tillämpats korrekt.
+Detta kommando visar det aktuella läget för whitelist och hjälper dig att bekräfta att inställningen har tillämpats korrekt.
 
 
 
@@ -61,13 +61,13 @@ När whitelist är avstängd kommer servern inte längre begränsa åtkomsten ba
 
 ## Hantera whitelist
 
-Whitelist kan hanteras dynamiskt medan servern är igång. Spelare kan läggas till eller tas bort när som helst utan att behöva starta om servern, genom att använda kommandon.
+Whitelist kan hanteras dynamiskt medan servern körs. Spelare kan läggas till eller tas bort när som helst utan att behöva starta om servern, genom att använda kommandon.
 
 
 
 ### Lägg till spelare i whitelist
 
-För att ge en specifik spelare åtkomst till servern, lägg till hen i whitelist med:
+För att ge en specifik spelare åtkomst till servern, lägg till dem i whitelist med:
 
 ```
 /whitelist add <playername>
@@ -79,7 +79,7 @@ Den angivna spelaren får omedelbart tillåtelse att ansluta till servern, föru
 
 ### Ta bort spelare från whitelist
 
-För att ta bort en spelares åtkomst, ta bort hen från whitelist:
+För att ta bort en spelares åtkomst, ta bort dem från whitelist:
 
 ```
 /whitelist remove <playername>
@@ -103,19 +103,19 @@ Detta kommando visar hela listan med spelarnamn som finns på whitelist.
 
 ### Rensa whitelist
 
-Om du vill ta bort alla spelare från whitelist på en gång kan du rensa hela listan:
+Om du vill ta bort alla spelare från whitelist på en gång kan du rensa den helt:
 
 ```
 /whitelist clear
 ```
 
-Detta tar bort alla befintliga whitelist-uppgifter men stänger inte av whitelist-funktionen.
+Detta tar bort alla befintliga whitelist-poster men inaktiverar inte whitelist i sig.
 
 
 
 ## Hantera whitelist via fil
 
-Utöver kommandon kan whitelist också hanteras direkt via en konfigurationsfil. Denna metod är användbar för större ändringar eller när du förbereder whitelist innan servern startas. Filen som styr denna inställning heter `whitelist.json` och finns i servermappen.
+Förutom kommandon kan whitelist också hanteras direkt via en konfigurationsfil. Denna metod är smidig för större ändringar eller när du vill förbereda en whitelist innan servern startas. Filen som styr detta heter `whitelist.json` och finns i servermappen.
 
 ````
 {
@@ -131,6 +131,6 @@ Utöver kommandon kan whitelist också hanteras direkt via en konfigurationsfil.
 
 ## Avslutning
 
-Grattis, du har nu framgångsrikt satt upp whitelist för din Hytale-server. Din server är nu begränsad till godkända spelare, vilket hjälper dig att behålla kontroll, integritet och en säkrare multiplayer-miljö.
+Grattis, du har nu framgångsrikt satt upp whitelist för din Hytale-server. Din server är nu begränsad till godkända spelare, vilket hjälper dig att behålla kontroll, integritet och en tryggare multiplayer-miljö.
 
 Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂

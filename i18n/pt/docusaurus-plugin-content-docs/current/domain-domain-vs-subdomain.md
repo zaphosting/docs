@@ -1,7 +1,7 @@
----
+﻿---
 id: domain-domain-vs-subdomain
 title: "Domínio: Domínio vs Subdomínio"
-description: "Descubra como simplificar o acesso ao seu servidor TeamSpeak 3 usando domínios personalizados ou subdomínios para facilitar o acesso → Saiba mais agora"
+description: "Descubra como simplificar a conexão ao seu servidor TeamSpeak 3 usando domínios personalizados ou subdomínios para acesso fácil → Saiba mais agora"
 sidebar_label: Domínio vs Subdomínio
 services:
   - domain
@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Ao configurar serviços online como sites, servidores de jogos ou painéis, os termos **domínio** e **subdomínio** são frequentemente usados de forma intercambiável. Embora estejam intimamente relacionados, eles têm propósitos diferentes e são indicados para casos de uso distintos.
 
-Entender a diferença entre um domínio e um subdomínio ajuda você a escolher a estrutura certa para seu projeto e evitar complexidades desnecessárias na configuração mais para frente.
+Entender a diferença entre um domínio e um subdomínio ajuda você a escolher a estrutura certa para seu projeto e evitar complexidades desnecessárias na configuração mais tarde.
 
 <InlineVoucher />
 
@@ -23,14 +23,14 @@ Entender a diferença entre um domínio e um subdomínio ajuda você a escolher 
 
 ## O que é um domínio
 
-Um domínio é o endereço principal e único que identifica um serviço ou projeto na internet. Ele representa o nível mais alto de nomeação dentro de um domínio de topo e normalmente é registrado através de um registrador de domínios. Por exemplo, no endereço:
+Um domínio é o endereço principal e único que identifica um serviço ou projeto na internet. Ele representa o nível mais alto de nomeação dentro de um domínio de topo e geralmente é registrado através de um registrador de domínios. Por exemplo, no endereço:
 
 ```
 server.example.com
 panel.example.com
 ```
 
-Nesses casos, `server` e `panel` são subdomínios de `example.com`. Subdomínios são usados para separar serviços, ambientes ou aplicações, mantendo-os logicamente conectados ao domínio principal.
+Nesses casos, `server` e `panel` são subdomínios de `example.com`. Subdomínios são usados frequentemente para separar serviços, ambientes ou aplicações, mantendo-os logicamente conectados ao domínio principal.
 
 
 

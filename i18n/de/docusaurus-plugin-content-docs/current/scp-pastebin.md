@@ -49,7 +49,7 @@ Sobald das Pastebin erstellt wurde, muss die Pastebin ID in den Server-Konfigura
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch! Sobald du das Pastebin erfolgreich erstellt und in den Servereinstellungen hinterlegt hast, sollte die Serverbeschreibung beim nächsten Neustart angezeigt werden. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

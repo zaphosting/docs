@@ -1,28 +1,29 @@
 ---
 id: dedicated-linux-hytale
-title: "Servidor Dedicado: Configuração do Servidor Dedicado Hytale"
-description: "Descubra como configurar o servidor dedicado Hytale no seu Servidor Dedicado Linux para uma gestão de gameplay sem complicações → Saiba mais agora"
+title: "Configuração do Servidor Dedicado Hytale"
+description: "Descubra como configurar o servidor dedicado Hytale no seu servidor dedicado Linux para uma gestão de gameplay sem complicações → Saiba mais agora"
 sidebar_label: Hytale
 services:
+  - vserver
   - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introdução
-Você tem um Servidor Dedicado Linux e quer instalar o Hytale nele? Você está no lugar certo. Neste guia, vamos explicar o passo a passo para instalar esse serviço no seu servidor Linux.
+Você tem um VPS/servidor dedicado Linux e quer instalar o Hytale nele? Você está no lugar certo. Neste guia, vamos explicar passo a passo como instalar esse serviço no seu servidor Linux.
 
 ## Preparação
 
-Para rodar um servidor de jogos Hytale, seu sistema precisa atender a alguns requisitos básicos. O servidor roda com Java 25 e requer pelo menos 4 GB de RAM. As arquiteturas x64 e arm64 são suportadas. O uso real de recursos depende do número de jogadores, distância de visão e atividade no mundo, então recursos adicionais podem ser necessários para servidores maiores.
+Para rodar um servidor de jogos Hytale, seu sistema precisa atender alguns requisitos básicos. O servidor roda com Java 25 e requer pelo menos 4 GB de RAM. Suportamos tanto arquiteturas x64 quanto arm64. O uso real de recursos depende do número de jogadores, distância de visão e atividade no mundo, então recursos extras podem ser necessários para servidores maiores.
 
-Antes de continuar, certifique-se de que o Java 25 está instalado no seu sistema. Você pode verificar a instalação com:
+Antes de continuar, certifique-se que o Java 25 está instalado no seu sistema. Você pode verificar a instalação com:
 
 ```
 java --version
 ```
 
-Se o Java ainda não estiver instalado no seu sistema, siga nosso guia dedicado [Instalar Java](vserver-linux-java) para servidores Linux. Esse guia explica como instalar e configurar o Java corretamente no seu ambiente.
+Se o Java ainda não estiver instalado no seu sistema, siga nosso guia dedicado [Instalar Java](dedicated-linux-java) para servidores Linux. Esse guia explica como instalar e configurar o Java corretamente no seu ambiente.
 
 
 
@@ -36,11 +37,11 @@ sudo chown -R $(whoami):$(whoami) /opt/hytale
 cd /opt/hytale
 ```
 
-O servidor precisa de dois componentes principais: o aplicativo do servidor em si e os assets do jogo. Esses arquivos podem ser obtidos usando o downloader de linha de comando do Hytale, que é feito para implantações de servidor e atualizações mais fáceis.
+O servidor precisa de dois componentes principais: o aplicativo do servidor em si e os assets do jogo. Esses arquivos podem ser obtidos usando o downloader via linha de comando do Hytale, que é feito para implantações de servidor e atualizações mais fáceis.
 
 O downloader CLI oferece uma forma estruturada de baixar e atualizar os arquivos do servidor Hytale. Depois de baixar o arquivo do downloader, extraia-o em um diretório temporário. Dentro do arquivo, você encontrará um arquivo QUICKSTART.md que descreve o uso básico da ferramenta.
 
-Execute o downloader pelo terminal e siga as instruções para baixar a versão mais recente do servidor. Quando o processo terminar, copie os arquivos do servidor baixados e o arquivo de assets para o seu diretório do servidor. Após essa etapa, o diretório deve conter o arquivo JAR do servidor e um arquivo de assets como o Assets.zip.
+Execute o downloader pelo terminal e siga as instruções para baixar a versão mais recente do servidor. Quando o processo terminar, copie os arquivos do servidor baixados e o arquivo dos assets para o diretório do seu servidor. Depois dessa etapa, o diretório deve conter o arquivo JAR do servidor e um arquivo de assets como o Assets.zip.
 
 | **Comando**                                   | **Descrição**                       |
 | :-------------------------------------------- | :------------------------------------ |
@@ -92,11 +93,9 @@ Aguardando autorização (expira em 900 segundos)...
 
 Depois de autenticado, seu servidor pode aceitar conexões de jogadores.
 
-
-
 ### Configuração do firewall
 
-Por padrão, o servidor escuta na porta UDP 5520 e se conecta a todas as interfaces disponíveis. Você pode mudar o endereço e a porta se precisar. O servidor se comunica via UDP usando QUIC. Garanta que seu firewall permita tráfego UDP de entrada na porta escolhida, usando Iptables ou UFW.
+Por padrão, o servidor escuta na porta UDP 5520 e se conecta a todas as interfaces disponíveis. Você pode mudar o endereço e a porta se quiser. O servidor se comunica via UDP usando QUIC. Certifique-se que seu firewall permite tráfego UDP de entrada na porta escolhida, usando Iptables ou UFW.
 
 ```
 sudo iptables -A INPUT -p udp --dport 5520 -j ACCEPT
@@ -111,12 +110,12 @@ A distância de visão é um dos fatores mais importantes que influenciam o cons
 
 Para a maioria das configurações, uma distância máxima de visão de 12 chunks (384 blocos) oferece um bom equilíbrio entre desempenho do servidor e experiência de jogo.
 
-Para comparação, servidores Minecraft usam uma distância padrão de visão de 10 chunks (160 blocos). O padrão do Hytale de 384 blocos é aproximadamente equivalente a 24 chunks de Minecraft, o que explica os requisitos maiores de memória. Esse valor deve ser ajustado com base no número esperado de jogadores e nos recursos disponíveis do sistema.
+Para comparação, servidores Minecraft usam uma distância padrão de visão de 10 chunks (160 blocos). O padrão do Hytale de 384 blocos é aproximadamente equivalente a 24 chunks de Minecraft, o que explica os requisitos maiores de memória. Esse valor deve ser ajustado conforme o número esperado de jogadores e os recursos disponíveis no sistema.
 
 
 
 ## Conclusão
 
-Parabéns, agora você tem um servidor Hytale funcional rodando no seu sistema. A partir daqui, você pode expandir a configuração instalando mods, ajustando as configurações do mundo e otimizando parâmetros de desempenho para sua base de jogadores. Recomendamos monitorar regularmente o uso de recursos para garantir operação estável conforme o servidor cresce.
+Parabéns, agora você tem um servidor Hytale funcional rodando no seu sistema. A partir daqui, você pode expandir a configuração instalando mods, ajustando configurações do mundo e otimizando parâmetros de desempenho para sua base de jogadores. Recomendamos monitorar regularmente o uso de recursos para garantir operação estável conforme o servidor cresce.
 
 Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂

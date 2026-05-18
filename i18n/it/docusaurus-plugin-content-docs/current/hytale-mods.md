@@ -1,8 +1,8 @@
 ---
 id: hytale-mods
-title: "Hytale: Installa Mod"
-description: "Scopri come gestire e ottimizzare al meglio il tuo server Hytale per prestazioni top e massimo controllo → Scopri di più ora"
-sidebar_label: Installa Mod
+title: "Hytale: Mods installieren"
+description: "Entdecke, wie du deinen Hytale-Server effizient verwaltest und optimierst für beste Performance und volle Kontrolle → Jetzt mehr erfahren"
+sidebar_label: Mods installieren
 services:
   - gameserver-hytale
 ---
@@ -13,29 +13,37 @@ import SearchableItemList from '@site/src/components/SearchableItemList/Searchab
 import items from '@site/data/lists/hytale-mods.json';
 
 
-## Introduzione
+## Einführung
 
-I mod trasformano il tuo server Hytale in qualcosa di veramente tuo. Possono aggiungere nuove meccaniche, espandere sistemi esistenti, introdurre sfide fresche e creare modi completamente nuovi di giocare, da piccoli miglioramenti alla qualità della vita a rivoluzioni totali del gameplay.
+Mods machen deinen Hytale-Server zu etwas ganz Eigenem. Sie können neue Mechaniken hinzufügen, bestehende Systeme erweitern, frische Herausforderungen bringen und komplett neue Spielweisen ermöglichen – von kleinen Quality-of-Life-Verbesserungen bis hin zu kompletten Gameplay-Overhauls.
 
-Che tu voglia una progressione più veloce, elementi survival più profondi, più opzioni di costruzione, eventi personalizzati o regole uniche per il server, i mod ti danno gli strumenti per modellare l’esperienza e rendere il tuo mondo unico.
+Egal ob du schnellere Progression, tiefere Survival-Elemente, mehr Bauoptionen, individuelle Events oder einzigartige Server-Regeln willst – Mods geben dir die Tools, um das Erlebnis zu formen und deine Welt einzigartig zu machen.
 
-:::info Avviso Early Access
+:::info Early Access Hinweis
 
-Hytale è uscito il 13 gennaio 2026 ed è attualmente in Early Access. Siccome il gioco è ancora in fase di sviluppo attivo, il software del server, i file di configurazione, il supporto ai mod e i processi di installazione potrebbero continuare a cambiare nel tempo.
+Hytale wurde am 13. Januar 2026 veröffentlicht und befindet sich aktuell im Early Access. Da das Spiel noch aktiv weiterentwickelt wird, können sich Server-Software, Konfigurationsdateien, Mod-Support und Installationsprozesse weiterhin ändern.
 
 :::
 
 <InlineVoucher />
 
-## Installa Mod
+## Mods installieren
 
-I mod si installano aggiungendoli direttamente ai file del server. Parti scaricando i mod desiderati in formato `.zip` o `.jar` da fonti affidabili come CurseForge.
+Mods kannst du installieren, indem du sie direkt in deine Server-Dateien hochlädst. Lade die gewünschten Mods im `.zip` oder `.jar` Format von vertrauenswürdigen Quellen wie CurseForge herunter. Verbinde dich dann mit deinem Server via  und öffne das Verzeichnis `mods/` im Server-Root.
 
-Una volta scaricati, connettiti al tuo server e apri la cartella `mods/` nella root del server. Carica i file dei mod in questa cartella senza estrarli o modificarli. Quando tutti i mod sono al loro posto, riavvia il server così vengono caricati e attivati.
+Lade die Mod-Dateien in diesen Ordner hoch, ohne sie zu entpacken oder zu verändern. Sobald alle Mods drin sind, starte den Server neu, damit sie geladen und aktiviert werden.
 
-## Mod Popolari
+Alternativ kannst du die vereinfachte One-Click-Installation nutzen, die du im Gameserver-Management unter dem Menüpunkt **CurseForge Mods** findest.
 
-Ancora alla ricerca dei mod perfetti per il tuo server? Dai un’occhiata alla nostra lista selezionata dei mod più popolari e consigliati per migliorare il gameplay e dare al tuo server quel tocco finale che merita. Lasciati ispirare e trova esattamente le aggiunte che fanno al caso tuo.
+![img](https://screensaver01.zap-hosting.com/index.php/s/oEXfKk67arGExsS/download)
+
+Dort kannst du nach verfügbaren Mods suchen, sie auswählen und mit nur einem Klick direkt installieren. So sparst du dir das manuelle Herunterladen und Hochladen, denn die ausgewählten Mods werden automatisch im richtigen Verzeichnis auf deinem Server abgelegt.
+
+Nach der Installation über **CurseForge Mods** solltest du den Server neu starten, damit alle Mods korrekt geladen und aktiviert werden.
+
+## Beliebte Mods
+
+Du suchst noch die perfekten Mods für deinen Server? Stöbere durch unsere sorgfältig zusammengestellte Liste der beliebtesten und am meisten empfohlenen Mods, um dein Gameplay zu verbessern und deinem Server den letzten Schliff zu geben. Lass dich inspirieren und finde genau die Addons, die zu deinem Projekt passen.
 
 <SearchableItemList items={items} />
 

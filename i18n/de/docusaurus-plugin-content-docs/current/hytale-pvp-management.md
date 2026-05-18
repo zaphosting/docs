@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-pvp-management
 title: "Hytale: PvP Management"
 description: "Verwalte und konfiguriere den Spieler-gegen-Spieler-Kampf (PvP) auf deinem Hytale Gameserver → Jetzt mehr erfahren"
@@ -24,7 +24,7 @@ Das PvP-Verhalten wird pro Welt definiert und über die Konfigurationsdatei des 
 /gXXXXXXX/hytale/universe/worlds/default/config.json
 ```
 
-Diese Einstellung bestimmt, wie der Server mit Schaden zwischen Spielern umgeht und ob PvP in der aktiven Welt erlaubt ist. Änderungen an den PvP-Einstellungen gelten global für die betroffene Welt und erfordern einen Serverneustart, damit sie wirksam werden.
+Diese Einstellung bestimmt, wie der Server mit Spieler-gegen-Spieler-Schaden umgeht und ob PvP in der aktiven Welt erlaubt ist. Änderungen an den PvP-Einstellungen gelten global für die betroffene Welt und erfordern einen Serverneustart, damit sie wirksam werden.
 
 Das folgende Beispiel zeigt eine Konfiguration, bei der PvP für eine Welt deaktiviert ist:
 
@@ -34,7 +34,7 @@ Das folgende Beispiel zeigt eine Konfiguration, bei der PvP für eine Welt deakt
 }
 ```
 
-Mit dieser Einstellung können Spieler sich in dieser Welt nicht mehr gegenseitig Schaden zufügen, wodurch effektiv eine PvE-orientierte Umgebung entsteht.
+Mit dieser Einstellung können Spieler sich in dieser Welt nicht mehr gegenseitig Schaden zufügen, wodurch effektiv eine PvE-fokussierte Umgebung entsteht.
 
 Um PvP zu aktivieren und den Kampf zwischen Spielern zu erlauben, kann die Konfiguration wie folgt gesetzt werden:
 
@@ -44,8 +44,8 @@ Um PvP zu aktivieren und den Kampf zwischen Spielern zu erlauben, kann die Konfi
 }
 ```
 
-## Fazit
+## Abschluss
 
-Sobald die Einstellungen vorgenommen sind, hast du eine klare Übersicht darüber, wie PvP verwaltet wird, und kannst die Konfiguration einfach anpassen, um kooperatives Gameplay, kompetitive Umgebungen oder eine Mischung aus beidem zu unterstützen. Für weitere Fragen oder Hilfe steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
+Sobald die Einstellungen vorgenommen sind, hast du eine klare Übersicht darüber, wie PvP verwaltet wird, und kannst die Konfiguration einfach anpassen, um kooperatives Gameplay, kompetitive Umgebungen oder eine Kombination aus beidem zu unterstützen. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

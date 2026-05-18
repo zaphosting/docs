@@ -1,4 +1,4 @@
----
+﻿---
 id: dedicated-windows-hytale
 title: "Dedikerad Server: Hytale Dedikerad Server Setup"
 description: "Upptäck hur du sätter upp en Hytale Dedikerad server på din Windows Dedikerade Server för smidig spelhantering → Läs mer nu"
@@ -22,7 +22,7 @@ Innan du fortsätter, se till att Java 25 är installerat på ditt Windows-syste
 java --version
 ```
 
-Om Java inte är installerat än, följ vår dedikerade Installera Java-guide för Windows-servrar. Den förklarar hur du installerar och konfigurerar Java korrekt i din miljö.
+Om Java inte är installerat på din server än, följ vår dedikerade Installera Java-guide för Windows-servrar. Den förklarar hur du installerar och konfigurerar Java korrekt i din miljö.
 
 
 
@@ -34,20 +34,20 @@ Börja med att skapa en dedikerad mapp för Hytale-servern. Det håller alla ser
 C:\Hytale
 ```
 
-Servern kräver två huvudkomponenter: själva serverapplikationen och spelassets. Dessa filer hämtas via Hytales kommandorads-downloader, som är gjord för serverdistributioner och enklare uppdateringar.
+Servern kräver två huvudkomponenter: själva serverapplikationen och spelresurserna. Dessa filer hämtas via Hytales kommandorads-downloader, som är framtagen för serverdistributioner och enklare uppdateringar.
 
-CLI-downloadern ger ett strukturerat sätt att ladda ner och uppdatera Hytale-serverfilerna. Efter att ha laddat ner arkivet, packa upp det i en temporär mapp. Inuti arkivet hittar du en QUICKSTART.md-fil som beskriver grundläggande användning av verktyget.
+CLI-downloadern ger ett strukturerat sätt att ladda ner och uppdatera Hytale-serverfilerna. Efter att du laddat ner arkivet för downloadern, packa upp det i en temporär mapp. Inuti arkivet hittar du en QUICKSTART.md-fil som beskriver grundläggande användning av verktyget.
 
-Kör downloadern från kommandoraden och följ instruktionerna för att ladda ner senaste serverversionen. När processen är klar, kopiera de nedladdade serverfilerna och assets-arkivet till din servermapp. Efter detta steg ska mappen innehålla serverns JAR-fil och ett assets-arkiv som Assets.zip.
+Kör downloadern från kommandoraden och följ instruktionerna för att ladda ner senaste serverversionen. När processen är klar, kopiera de nedladdade serverfilerna och resursarkivet till din servermapp. Efter detta steg ska mappen innehålla serverns JAR-fil och ett resursarkiv som Assets.zip.
 
 | **Kommando**                                   | **Beskrivning**                       |
 | :-------------------------------------------- | :------------------------------------ |
 | `./hytale-downloader`                         | Ladda ner senaste releasen            |
 | `./hytale-downloader -print-version`          | Visa spelversion utan nedladdning     |
-| `./hytale-downloader -version`                | Visa hytale-downloader version         |
+| `./hytale-downloader -version`                | Visa version av hytale-downloader     |
 | `./hytale-downloader -check-update`           | Kolla efter uppdateringar för downloader |
-| `./hytale-downloader -download-path game.zip` | Ladda ner till specifik fil            |
-| `./hytale-downloader -patchline pre-release`  | Ladda ner från pre-release-kanal       |
+| `./hytale-downloader -download-path game.zip` | Ladda ner till specifik fil           |
+| `./hytale-downloader -patchline pre-release`  | Ladda ner från pre-release-kanal      |
 | `./hytale-downloader -skip-update-check`      | Hoppa över automatisk uppdateringskontroll |
 
 
@@ -56,7 +56,7 @@ Kör downloadern från kommandoraden och följ instruktionerna för att ladda ne
 
 ### Starta servern
 
-Servern startas genom att köra JAR-filen och ange sökvägen till assets-arkivet. Anpassa sökvägen om dina assets ligger på en annan plats. Öppna kommandoprompten i servermappen och kör:
+Servern startas genom att köra JAR-filen och ange sökvägen till resursarkivet. Anpassa sökvägen om dina resurser ligger på en annan plats. Öppna kommandoprompten i servermappen och kör:
 
 ```
 java -jar HytaleServer.jar --assets C:\Hytale\Assets.zip --bind 0.0.0.0:5520
@@ -94,7 +94,7 @@ När autentiseringen är klar kan din server ta emot spelarkopplingar.
 
 ### Brandväggskonfiguration
 
-Som standard lyssnar servern på UDP-port 5520 och binder till alla tillgängliga nätverksgränssnitt. Du kan ändra adress och port vid behov. Servern kommunicerar över UDP med QUIC-protokollet. Se till att din brandvägg tillåter inkommande UDP-trafik på vald port, antingen via Iptables eller UFW. Kör följande kommando i PowerShell för att enkelt lägga till denna brandväggsregel:
+Som standard lyssnar servern på UDP-port 5520 och binder till alla tillgängliga nätverksgränssnitt. Du kan ändra adress och port vid behov. Servern kommunicerar via UDP med QUIC-protokollet. Se till att din brandvägg tillåter inkommande UDP-trafik på vald port, antingen via Iptables eller UFW. Kör följande kommando i PowerShell för att enkelt lägga till denna brandväggsregel:
 
 ```
 New-NetFirewallRule -DisplayName "Hytale Server" -Direction Inbound -Protocol UDP -LocalPort 5520 -Action Allow
@@ -108,12 +108,12 @@ Renderingsavstånd är en av de viktigaste faktorerna som påverkar minnesanvän
 
 För de flesta setup är ett max renderingsavstånd på 12 chunks (384 block) en bra balans mellan serverprestanda och spelupplevelse.
 
-Som jämförelse använder Minecraft-servrar standard 10 chunks (160 block). Hytales standard på 384 block motsvarar ungefär 24 Minecraft-chunks, vilket förklarar de högre minneskraven. Detta värde bör justeras efter förväntat antal spelare och tillgängliga resurser.
+Som jämförelse använder Minecraft-servrar standard 10 chunks (160 block). Hytales standard på 384 block motsvarar ungefär 24 Minecraft-chunks, vilket förklarar de högre minneskraven. Detta värde bör justeras efter förväntat antal spelare och tillgängliga systemresurser.
 
 
 
 ## Slutsats
 
-Grattis, du har nu en fungerande Hytale-server igång på ditt system. Härifrån kan du bygga vidare genom att installera mods, justera världens inställningar och finjustera prestanda för att passa din spelarskara. Vi rekommenderar att du regelbundet övervakar resursanvändningen för att säkerställa stabil drift när servern växer.
+Grattis, du har nu en fungerande Hytale-server igång på ditt system. Härifrån kan du bygga vidare genom att installera mods, justera världens inställningar och finjustera prestanda för att passa din spelarbas. Vi rekommenderar regelbunden övervakning av resursanvändningen för att säkerställa stabil drift när servern växer.
 
-Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+Har du frågor eller behöver hjälp? Tveka inte att kontakta vårt supportteam, som finns tillgängligt varje dag för att hjälpa dig! 🙂

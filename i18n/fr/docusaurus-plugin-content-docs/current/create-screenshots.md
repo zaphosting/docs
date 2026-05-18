@@ -5,60 +5,49 @@ description: "Apprends à capturer et partager des captures d’écran en toute 
 sidebar_label: Créer des captures d’écran
 ---
 
+## Introduction
+
+Créer et partager des captures d’écran aide à améliorer la communication avec le support en fournissant des infos visuelles claires. Ce guide t’explique comment faire des captures d’écran sur ton ordinateur et les uploader directement dans tes tickets de support.
+
 ## Créer des captures d’écran
 
-Parfois, il est nécessaire d’envoyer des captures d’écran au support.  
-Pour que cela soit possible, la ou les captures doivent être partagées via un lien.  
-Ce lien peut pointer vers un cloud perso ou vers un « web uploader », aussi appelé outils web de capture d’écran.  
+Le meilleur workflow pour partager des captures d’écran en toute sécurité, c’est de les créer localement sur ton appareil puis de les uploader directement dans ton ticket de support via glisser-déposer. Comme ça, tes captures restent privées et sont partagées en toute sécurité sans passer par des liens externes.
 
-Si ton cloud perso ou l’outil web ne propose pas de fonction pour créer une capture directement, tu peux généralement la faire sur ton PC avec des outils simples.  
-Sous Windows, il suffit d’utiliser l’outil « Outil Capture d’écran ». Avec cet outil, tu peux sauvegarder la capture localement, puis la téléverser.  
-Sous Linux, l’outil souvent déjà installé « Captures d’écran » ou d’autres comme « FlameShot » peuvent être utilisés pour créer des captures locales, qui pourront ensuite être téléversées.
 
-Voici une petite description des 2 outils de capture d’écran les plus populaires et gratuits sur le marché :
 
-:::info
-Il n’est pas recommandé de partager publiquement des données privées ou sensibles. Si des données apparaissent sur la capture, il faut les rendre illisibles ou les remplacer par des données exemples.
+### Windows : Outil Capture d’écran
+
+Windows intègre l’*Outil Capture d’écran* qui te permet de capturer une zone précise, une fenêtre ou tout l’écran, puis de sauvegarder l’image localement.
+
+1. Ouvre l’**Outil Capture d’écran** en le cherchant dans le menu Démarrer.
+2. Clique sur **Nouveau** pour commencer une capture.
+3. Sélectionne la zone que tu veux capturer.
+4. Sauvegarde la capture dans un emplacement pratique sur ton PC.
+5. Upload directement le fichier de la capture sauvegardée dans ton ticket de support en le glissant-déposant dans l’interface du ticket.
+
+### Linux : Outil Capture d’écran ou FlameShot
+
+La plupart des distributions Linux ont un outil *Capture d’écran* par défaut. Sinon, des outils tiers comme *FlameShot* offrent des fonctionnalités avancées.
+
+1. Ouvre l’outil Capture d’écran ou FlameShot.
+2. Sélectionne la zone ou la fenêtre à capturer.
+3. Sauvegarde la capture localement.
+4. Upload directement le fichier de la capture sauvegardée dans ton ticket de support via glisser-déposer.
+
+## Uploader les captures d’écran au support
+
+Après avoir sauvegardé ta capture localement, ouvre ton ticket de support dans le panneau ZAP-Hosting ou sur le portail support.
+
+- Glisse-dépose le fichier de la capture dans la zone de message du ticket.
+- Attends la fin de l’upload.
+- Envoie le ticket avec la capture jointe.
+
+Cette méthode évite de partager des liens externes et garde tes données en sécurité.
+
+:::info Partage sécurisé des captures d’écran
+Évite de partager tes captures d’écran publiquement ou via des services d’upload tiers. Si ta capture contient des infos sensibles ou privées, pense à flouter ou masquer ces parties avant de l’uploader.
 :::
 
+## Conclusion
 
-### Imgur
-
-Imgur propose un uploader pour ses propres fichiers comme des images/vidéos.  
-Une fois le téléversement terminé, un lien est généré.  
-Ce lien peut ensuite être partagé avec d’autres.
-
-Important : Comme il n’y a pas de fonction capture d’écran intégrée, il faut faire la capture avant pour pouvoir la téléverser ensuite (voir plus haut dans « Créer des captures d’écran »).
-
-[Site Imgur](https://imgur.com/upload)
-
-Option de téléversement :
-
-![](https://screensaver01.zap-hosting.com/index.php/s/4sCEeKkyGEm3EXd/preview)
-
-Après avoir téléversé la capture, il est encore possible de faire de petites modifications.
-
-Ensuite, la capture peut être postée en tant que Post à la Communauté (sera listé publiquement) ou en mode Caché (ne sera pas listé publiquement).
-
-Une fois fait, le lien à partager s’affiche :
-
-![](https://screensaver01.zap-hosting.com/index.php/s/dJCpsKtka9rHX6T/preview)
-
-### Lightshot
-
-Lightshot ne propose pas de téléversement direct pour les images/captures. Le téléversement se fait uniquement via le client dédié.  
-Le client est téléchargeable directement depuis le site et offre aussi quelques outils pour annoter/montrer quelque chose sur la capture ou la rendre illisible.
-
-Télécharge le client [Télécharger](https://app.prntscr.com/en/)  
-Important : Il n’y a pas de version Linux proposée.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/iGEccwZZDXqLGKp/preview)
-
-Après le téléchargement, le client peut être installé.  
-Par défaut, tu peux ensuite créer une capture ou sélectionner une zone avec la touche « Impr. écran ».
-
-Après avoir sélectionné la zone, la capture peut encore être modifiée.
-
-Une fois l’édition terminée, si besoin, la capture peut être téléversée en cliquant sur le bouton « Cloud ».
-
-Après le téléversement, le lien peut être copié et partagé avec d’autres.
+Bravo, tu as réussi à créer et uploader des captures d’écran localement pour le support. Pour toute question ou aide, n’hésite pas à contacter notre équipe support, dispo tous les jours pour t’aider ! 🙂

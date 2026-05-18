@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-webserver
-title: "Servidor Dedicado: Instalação do servidor web Nginx e Apache"
-description: "Descubra como configurar e instalar os servidores web Nginx ou Apache para hospedar seu site de forma eficiente → Saiba mais agora"
+title: "Configurar Nginx e Apache em um Servidor Linux - Monte Ambientes Poderosos para seu Servidor de Jogos"
+description: "Descubra como configurar e instalar servidores web Nginx ou Apache para hospedar seu site de forma eficiente → Saiba mais agora"
 sidebar_label: Instalar servidor web
 services:
+  - vserver
   - dedicated
 ---
 
@@ -17,9 +18,9 @@ Nginx e Apache são serviços web populares usados para entregar páginas web ao
 
 ## Preparação
 
-Antes de começar a instalação do servidor web, é necessário garantir que o sistema esteja atualizado. Para isso, conecte-se ao servidor via SSH. Se você não sabe o que é SSH e como usar, confira o seguinte guia: [Acesso inicial (SSH)](vserver-linux-ssh.md).
+Antes de começar a instalação do servidor web, é necessário garantir que o sistema esteja atualizado. Para isso, conecte-se ao servidor via SSH. Se você não sabe o que é SSH ou como usar, confira este guia: [Acesso inicial (SSH)](vserver-linux-ssh.md).
 
-Uma vez conectado, você pode atualizar o sistema com o comando correspondente ao seu sistema operacional:
+Uma vez conectado, atualize o sistema com o comando correspondente ao seu sistema operacional:
 
 ```
 // Debian
@@ -42,7 +43,7 @@ sudo dnf upgrade --refresh
 
 ## Instalação
 
-Com a preparação concluída, agora você pode iniciar a instalação do servidor web. Dependendo do sistema operacional e do servidor web, execute os seguintes comandos:
+Com a preparação concluída, agora você pode iniciar a instalação do servidor web. Dependendo do sistema operacional e do servidor web, execute os comandos abaixo:
 
 
 
@@ -65,7 +66,7 @@ sudo zypper install httpd
 sudo dnf install httpd
 ```
 
-Após instalar o servidor web, você pode enviar os arquivos do seu site. Conecte-se ao seu servidor via FTP/SFTP, navegue até o seguinte diretório e faça o upload dos arquivos.
+Após instalar o servidor web, você pode enviar os arquivos do seu site. Conecte-se ao seu servidor via FTP/SFTP, navegue até o diretório abaixo e faça o upload dos arquivos.
 
 ```
 /var/www/html/
@@ -92,7 +93,7 @@ sudo zypper install nginx
 sudo dnf install nginx
 ```
 
-Depois de instalar o servidor web, envie os arquivos do seu site. Conecte-se ao servidor via FTP/SFTP, navegue até o diretório abaixo e faça o upload dos arquivos.
+Depois de instalar o servidor web, envie os arquivos do seu site. Conecte-se via FTP/SFTP, navegue até o diretório abaixo e faça o upload.
 
 ```
 /usr/share/nginx/html
@@ -102,7 +103,7 @@ Depois de instalar o servidor web, envie os arquivos do seu site. Conecte-se ao 
 
 ## Verificação da Versão
 
-Após a instalação, você pode usar os comandos `apache2 -v` (Apache) e `nginx -v` (Nginx) para verificar se a instalação foi bem-sucedida. A saída deve ser parecida com o exemplo abaixo:
+Após a instalação, use os comandos `apache2 -v` (Apache) e `nginx -v` (Nginx) para conferir se a instalação foi bem-sucedida. A saída deve ser parecida com esta:
 
 
 
@@ -124,4 +125,4 @@ nginx version: nginx/1.2.3
 ...
 ```
 
-Se algum dos dois casos acima aparecer, o servidor web foi instalado com sucesso.
+Se aparecer algo parecido com isso, seu servidor web foi instalado com sucesso.

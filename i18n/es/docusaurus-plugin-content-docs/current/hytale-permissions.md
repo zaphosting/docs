@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-permissions
 title: "Hytale: Gestión de Permisos para Usuarios y Grupos"
 description: "Gestiona los permisos de usuarios y grupos en tu servidor de Hytale → Aprende más ahora"
@@ -29,7 +29,7 @@ Hytale se lanzó el 13 de enero de 2026 y actualmente está disponible en Acceso
 
 ## Resumen de niveles de permiso
 
-Los permisos definen qué acciones puede realizar un jugador en el servidor. En el nivel más básico, los jugadores normales solo tienen permisos estándar de juego, como moverse, interactuar con el mundo y chatear. Los niveles de permiso más altos, como operador o administrador, otorgan acceso a comandos del servidor que afectan la jugabilidad, otros jugadores, la configuración del servidor y las herramientas de moderación.
+Los permisos definen qué acciones puede realizar un jugador en el servidor. En el nivel más básico, los jugadores normales solo tienen permisos estándar de juego, como moverse, interactuar con el mundo y chatear. Los niveles de permiso más altos, como operador o administrador, otorgan acceso a comandos del servidor que afectan la jugabilidad, a otros jugadores, a la configuración del servidor y a herramientas de moderación.
 
 El sistema de permisos consta de dos componentes principales:
 
@@ -42,7 +42,7 @@ Cada jugador se identifica internamente por un UUID, que es necesario para gesti
 
 ## Gestión de permisos de usuario
 
-Los permisos de usuario te permiten otorgar o revocar permisos específicos a un solo jugador.
+Los permisos de usuario te permiten otorgar o revocar permisos específicos para un solo jugador.
 
 ### Ver permisos de usuario
 
@@ -143,3 +143,4 @@ Esto elimina solo los permisos especificados del grupo sin afectar a los demás 
 
 
 <InlineVoucher />
+

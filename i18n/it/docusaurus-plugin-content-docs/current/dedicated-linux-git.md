@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-git
-title: "Server Dedicato: Configura Git su Linux"
-description: "Scopri come installare e configurare Git per un controllo versione efficiente e una collaborazione fluida nei tuoi progetti → Scopri di più ora"
+title: "Configura Git su un Server Linux - Attiva il Controllo Versioni per i Tuoi Progetti"
+description: "Scopri come installare e configurare Git per un controllo versioni efficiente e una collaborazione fluida nei tuoi progetti → Scopri di più ora"
 sidebar_label: Installa Git
 services:
+  - vserver
   - dedicated
 ---
 
@@ -19,18 +20,22 @@ Stai pensando di ospitare questo servizio da solo? Ti guideremo passo passo su c
 
 
 
+## Installa Git con il One Click Apps Installer
+
+Puoi installare **Git** direttamente tramite il nostro **One Click Apps Installer** nell’interfaccia web del VPS. Dopo aver completato la configurazione iniziale delle app, apri il catalogo app, cerca **Git** e avvia il deployment con le impostazioni di progetto, ambiente e dominio che preferisci. Questo ti offre un modo rapido e user-friendly per installare e gestire **Git** senza dover usare la riga di comando manualmente, beneficiando comunque della gestione web integrata, supporto per domini personalizzati e provisioning SSL dove disponibile.
+
 ## Preparazione
 
-Prima di configurare **Git**, devi preparare il tuo sistema. Questo include aggiornare il sistema operativo all’ultima versione disponibile. Questi passaggi garantiscono un ambiente stabile e aiutano a prevenire problemi durante o dopo l’installazione.
+Prima di configurare **Git**, devi preparare il sistema. Questo include aggiornare il sistema operativo all’ultima versione. Questi passaggi garantiscono un ambiente stabile e aiutano a prevenire problemi durante o dopo l’installazione.
 
 
 ### Aggiorna il Sistema
-Per assicurarti che il sistema abbia le ultime migliorie software e patch di sicurezza, esegui sempre prima un aggiornamento completo. Usa questo comando:
+Per assicurarti che il sistema abbia le ultime patch di sicurezza e aggiornamenti software, esegui sempre prima un aggiornamento completo. Usa questo comando:
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-Così il tuo sistema sarà aggiornato con le ultime patch di sicurezza e versioni software prima di procedere.
+Così il sistema sarà aggiornato con le ultime versioni e patch di sicurezza prima di procedere.
 
 
 
@@ -42,9 +47,9 @@ Ora che hai completato le preparazioni, puoi procedere con l’installazione di 
 sudo apt install git-all -y
 ```
 
-Quando l’installazione è terminata, verifica che Git funzioni correttamente aprendo il terminale o prompt dei comandi. Digita `git --version` e premi Invio.
+Quando l’installazione è terminata, verifica che Git funzioni correttamente aprendo un terminale o prompt dei comandi. Digita `git --version` e premi Invio.
 
-Se l’installazione è andata a buon fine, Git ti restituirà la versione installata. Se ricevi un errore o nessun output, significa che Git non è stato installato correttamente o il comando non è nel path di sistema.
+Se l’installazione è andata a buon fine, Git ti restituirà la versione installata. Se ricevi un errore o nessun output, probabilmente Git non è stato installato correttamente o il comando non è nel path di sistema.
 
 ```
 git --version
@@ -66,7 +71,7 @@ git config --global user.email "doe@e-mail.com"
 
 ## Conclusione e Risorse Utili
 
-Complimenti! Hai installato e configurato Git con successo sul tuo Server Dedicato. Ti consigliamo anche di dare un’occhiata a queste risorse, che possono offrirti ulteriore supporto e guida durante la configurazione del server:
+Complimenti! Hai installato e configurato Git con successo sul tuo VPS/Server Dedicato. Ti consigliamo anche di dare un’occhiata a queste risorse, che possono offrirti ulteriore supporto e guida durante la configurazione del server:
 
 - [git-scm.com](https://git-scm.com/) - Sito Ufficiale
 - [git-scm.com/doc](https://git-scm.com/doc) Documentazione Git

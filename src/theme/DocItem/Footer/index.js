@@ -2,7 +2,7 @@
 import React from 'react';
 import Footer from '@theme-original/DocItem/Footer';
 import { useDoc } from '@docusaurus/plugin-content-docs/client';
-import GitHubContributors from './GitHubContributors';
+import ContentContributors from './ContentContributors';
 import GitUrlParse from 'git-url-parse';
 
 const FooterWrapper = (props) => {
@@ -19,7 +19,7 @@ const FooterWrapper = (props) => {
 
   return (
       <>
-        <GitHubContributors repo={name} owner={owner} filePath={filepath} additionalContributors={additionalContributors}/>
+        <ContentContributors repo={name} owner={owner} filePath={filepath} additionalContributors={additionalContributors}/>
         <Footer {...props} />
       </>
   );

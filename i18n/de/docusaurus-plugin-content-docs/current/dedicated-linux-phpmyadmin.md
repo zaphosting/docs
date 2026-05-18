@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-phpmyadmin
-title: "Dedicated Server: Installation von phpMyAdmin"
-description: "Entdecke, wie du MySQL- und MariaDB-Datenbanken einfach mit der Weboberfläche von phpMyAdmin verwaltest – für effiziente Datenbankadministration → Jetzt mehr erfahren"
+title: "phpMyAdmin auf einem Linux Server einrichten – Verwalte deine Datenbanken über die Weboberfläche"
+description: "Entdecke, wie du MySQL- und MariaDB-Datenbanken ganz easy mit der Weboberfläche von phpMyAdmin verwaltest – für effiziente Datenbankverwaltung → Jetzt mehr erfahren"
 sidebar_label: phpMyAdmin installieren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,20 +12,24 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-phpMyAdmin ist ein kostenloses, webbasiertes Tool zur Verwaltung von MySQL- und MariaDB-Datenbanken. Es bietet eine benutzerfreundliche Oberfläche, mit der du Datenbanken erstellen, bearbeiten, verwalten und löschen kannst – ganz ohne manuelles Eingeben von SQL-Befehlen.
+phpMyAdmin ist ein kostenloses, webbasiertes Tool zur Verwaltung von MySQL- und MariaDB-Datenbanken. Es bietet eine benutzerfreundliche Oberfläche, mit der du Datenbanken erstellen, bearbeiten, verwalten und löschen kannst – ganz ohne manuelles Eintippen von SQL-Befehlen.
 
 
+
+## phpMyAdmin mit dem One Click Apps Installer installieren
+
+Du kannst **phpMyAdmin** direkt über unseren **One Click Apps Installer** im VPS Webinterface installieren. Nach dem ersten Setup der Apps öffnest du den App-Katalog, suchst nach **phpMyAdmin** und startest die Installation mit deinen bevorzugten Projekt-, Umgebung- und Domain-Einstellungen. So bekommst du eine schnelle und einfache Möglichkeit, **phpMyAdmin** zu deployen und zu verwalten – ganz ohne manuelle Kommandozeilen-Installation, aber mit integriertem Web-Management, Support für eigene Domains und SSL, wo verfügbar.
 
 ## Vorbereitung
 
-Bevor du mit der Installation startest, stelle sicher, dass dein System auf dem neuesten Stand ist. Ausstehende Updates und Upgrades kannst du wie folgt durchführen:
+Bevor du mit der Installation startest, solltest du sicherstellen, dass dein System auf dem neuesten Stand ist. Ausstehende Updates und Upgrades kannst du so durchführen:
 
 ```
 sudo apt update -y
 sudo apt upgrade -y
 ```
 
-Außerdem musst du sicherstellen, dass PHP bereits auf deinem System installiert ist. Das ist essenziell für die Nutzung von phpMyAdmin. Wie du PHP installierst, erfährst du in unserer [PHP installieren](dedicated-linux-php.md) Anleitung.
+Außerdem musst du sicherstellen, dass PHP bereits auf deinem System installiert ist. PHP ist essentiell für die Nutzung von phpMyAdmin. Wie du PHP installierst, erfährst du in unserer [PHP installieren](vserver-linux-php.md) Anleitung.
 
 :::warning Fehlende PHP-Pakete
 Wenn die notwendigen PHP-Pakete fehlen, können die PHP-Dateien von phpMyAdmin nicht korrekt verarbeitet und dargestellt werden. 
@@ -32,16 +37,16 @@ Wenn die notwendigen PHP-Pakete fehlen, können die PHP-Dateien von phpMyAdmin n
 
 ## Installation
 
-Wenn die Vorbereitung abgeschlossen ist, kann die Installation der phpMyAdmin-Oberfläche starten. Öffne dazu zuerst das Installationsverzeichnis, in dem phpMyAdmin installiert werden soll.
+Wenn die Vorbereitung abgeschlossen ist, kann die Installation der phpMyAdmin-Oberfläche starten. Öffne dazu zuerst das Verzeichnis, in dem phpMyAdmin installiert werden soll.
 
-Wechsle mit dem Befehl `cd /usr/share` in das entsprechende Verzeichnis. Lade dann die neueste phpMyAdmin-Version mit `wget` in das Installationsverzeichnis herunter:
+Wechsle mit dem Befehl `cd /usr/share` in das entsprechende Verzeichnis. Lade dann die aktuellste phpMyAdmin-Version mit `wget` in das Installationsverzeichnis:
 
 ```
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
 ```
 
 :::warning
-Falls der Befehl `wget` nicht gefunden wird, kannst du das Tool mit `sudo apt install wget -y` nachinstallieren. 
+Falls der Befehl `wget` nicht gefunden wird, kannst du ihn mit `sudo apt install wget -y` nachinstallieren. 
 :::
 
 Sobald der Download abgeschlossen ist, kannst du die ZIP-Datei mit folgendem Befehl entpacken:
@@ -50,7 +55,7 @@ Sobald der Download abgeschlossen ist, kannst du die ZIP-Datei mit folgendem Bef
 unzip phpmyadmin.zip
 ```
 :::warning
-Falls der Befehl `unzip` nicht gefunden wird, kannst du das Tool mit `sudo apt install unzip -y` nachinstallieren. 
+Falls der Befehl `unzip` nicht gefunden wird, kannst du ihn mit `sudo apt install unzip -y` nachinstallieren. 
 :::
 
 Das entpackte Archiv kannst du jetzt in einen einfacheren Namen umbenennen, die ZIP-Datei löschen und die nötigen Berechtigungen setzen:
@@ -88,9 +93,9 @@ Alias /phpmyadmin /usr/share/phpmyadmin
 </Directory>
 ```
 
-Nachdem du die Apache2-phpMyAdmin-Konfiguration mit dem Inhalt gefüllt hast, speichere und schließe die Datei mit `CTRL+X`, bestätige mit `Y` und drücke `Enter`.
+Speichere die Datei mit `CTRL+X`, bestätige mit `Y` und drücke `Enter`.
 
-Die neu erstellte Konfigurationsdatei muss nun aktiviert und geladen werden. Führe dazu folgende Befehle aus:
+Die neue Virtual Host-Konfiguration muss jetzt aktiviert und geladen werden. Führe dazu folgende Befehle aus:
 
 ```
 a2enconf phpmyadmin
@@ -99,7 +104,7 @@ systemctl reload apache2
 
 ### Erstellen des benötigten temporären Verzeichnisses
 
-Damit phpMyAdmin richtig funktioniert, muss ein temporäres Verzeichnis erstellt und die erforderlichen Berechtigungen gesetzt werden. Das machst du mit diesen Befehlen:
+Damit phpMyAdmin richtig funktioniert, muss ein temporäres Verzeichnis erstellt und die passenden Berechtigungen gesetzt werden. Das machst du so:
 
 ```
 mkdir /usr/share/phpmyadmin/tmp/
@@ -108,4 +113,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Fazit
 
-Glückwunsch, du hast phpMyAdmin erfolgreich installiert und konfiguriert! Du kannst die Weboberfläche jetzt über die IP-Adresse und den Pfad deines Servers erreichen (http://IP-Adresse/phpmyadmin). Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
+Glückwunsch, du hast phpMyAdmin erfolgreich installiert und konfiguriert! Du kannst die Weboberfläche jetzt über die IP-Adresse und den Pfad deines Servers erreichen (`http://IP-Adresse/phpmyadmin`). Bei Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

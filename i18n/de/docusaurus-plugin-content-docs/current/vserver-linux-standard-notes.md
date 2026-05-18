@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-standard-notes
-title: "vServer: Standard Notes auf Linux einrichten"
-description: "Entdecke, wie du deine Notizen mit Standard Notes sicher über Geräte synchronisierst und schützt – jetzt selbst hosten → Erfahre mehr"
+title: "Standard Notes auf einem Linux-Server einrichten – Baue dein privates Notizsystem"
+description: "Entdecke, wie du deine Notizen sicher über Geräte hinweg synchronisierst und schützt – mit Standard Notes Self-Hosting → Jetzt mehr erfahren"
 sidebar_label: Standard Notes installieren
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -17,7 +18,7 @@ Standard Notes ist eine Open-Source-Notiz-App, die deine Daten mit geprüfter En
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/b6ZpyKJGny5qAon/preview)
 
-Willst du diesen Service selbst hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
+Du denkst darüber nach, diesen Service selbst zu hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
 
 <InlineVoucher />
 
@@ -33,19 +34,19 @@ Bevor du **Standard Notes** installierst, stelle sicher, dass deine Hosting-Umge
 | RAM        | 2 GB         | 4 GB                      |
 | Speicher   | 5 GB         | 25 GB                     |
 
-Die Software benötigt, dass alle erforderlichen Abhängigkeiten installiert sind und auf einem unterstützten Betriebssystem läuft. Vergewissere dich, dass dein Server folgende Anforderungen erfüllt, bevor du mit der Installation startest:
+Die Software benötigt, dass alle notwendigen Abhängigkeiten installiert sind und auf einem unterstützten Betriebssystem läuft. Vergewissere dich, dass dein Server folgende Anforderungen erfüllt, bevor du mit der Installation startest:
 
 **Abhängigkeiten:** `Docker (Engine 26+ und Compose)`
 
 **Betriebssystem:** Neueste Version von Ubuntu/Debian mit Docker 26+ Support
 
-Stelle sicher, dass alle Abhängigkeiten installiert sind und das richtige Betriebssystem verwendet wird, um Kompatibilitätsprobleme bei der Installation von Standard Notes zu vermeiden.
+Stelle sicher, dass alle Abhängigkeiten installiert sind und die richtige Betriebssystemversion verwendet wird, um Kompatibilitätsprobleme bei der Installation von Standard Notes zu vermeiden.
 
 
 
 ## Vorbereitung
 
-Bevor du **Standard Notes** einrichtest, solltest du dein System vorbereiten. Dazu gehört, dein Betriebssystem auf den neuesten Stand zu bringen und alle benötigten Abhängigkeiten zu installieren. Diese Vorbereitung sorgt für eine stabile Umgebung und hilft, Probleme während oder nach der Installation zu vermeiden.
+Bevor du **Standard Notes** einrichtest, musst du dein System vorbereiten. Dazu gehört, dein Betriebssystem auf den neuesten Stand zu bringen und alle erforderlichen Abhängigkeiten zu installieren. Diese Vorbereitung sorgt für eine stabile Umgebung und hilft, Probleme während oder nach der Installation zu vermeiden.
 
 
 ### System aktualisieren
@@ -57,46 +58,46 @@ sudo apt update && sudo apt upgrade -y
 So stellst du sicher, dass dein System vor der Installation die neuesten Sicherheitspatches und Softwareversionen hat.
 
 ### Abhängigkeiten installieren
-Nach dem Update kannst du mit der Installation der Abhängigkeiten weitermachen. Standard Notes wird auf deinem Server über mehrere Docker-Container betrieben. Docker muss also zuerst installiert werden. Führe dazu folgende Befehle aus:
+Nachdem das Update abgeschlossen ist, kannst du mit der Installation der Abhängigkeiten starten. Standard Notes wird auf deinem Server über mehrere Docker-Container betrieben. Dafür muss Docker zuerst installiert sein. Führe dazu folgende Befehle aus:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Eine ausführliche Anleitung zur Docker-Installation und Nutzung findest du in unserer [Docker](vserver-linux-docker.md) Anleitung.
+Eine ausführliche Anleitung zur Installation und Nutzung von Docker findest du in unserer [Docker](dedicated-linux-docker.md) Anleitung.
 
 
 
 
 ## Installation
-Wenn alle Voraussetzungen erfüllt und die Vorbereitungen abgeschlossen sind, kannst du mit der Installation von Standard Notes starten.
+Nachdem alle Voraussetzungen erfüllt und die Vorbereitungen abgeschlossen sind, kannst du mit der Installation von Standard Notes starten.
 
 
 
-Erstelle zuerst einen Ordner, der alle Konfigurations- und Setup-Dateien enthält. Dieser Ordner dient als Arbeitsverzeichnis für die Installation.
+Erstelle zuerst einen Ordner, der alle Konfigurations- und Setup-Dateien enthält. Dieser Ordner dient als dein Arbeitsverzeichnis für die Installation.
 
 ```
 mkdir standardnotes
 cd standardnotes
 ```
 
-Erstelle nun eine `.env`-Datei in deinem Arbeitsverzeichnis und fülle sie mit den Standardwerten aus der Beispielkonfiguration des Projekts:
+Erstelle als Nächstes eine `.env`-Datei in deinem Arbeitsverzeichnis und fülle sie mit den Standardwerten aus der Beispielkonfiguration des Projekts:
 
 ```
 touch .env
 curl https://raw.githubusercontent.com/standardnotes/server/main/.env.sample > .env
 ```
 
-Diese Datei enthält nur die minimal erforderlichen Variablen für eine funktionierende Installation. Die vollständige Liste der aktuell verwendeten Variablen findest du hier: [docker-entrypoint.sh](https://github.com/standardnotes/server/blob/main/docker/docker-entrypoint.sh)
+Diese Datei enthält nur die minimal erforderlichen Variablen für eine funktionale Einrichtung. Die vollständige Liste der aktuell verwendeten Variablen findest du hier: [docker-entrypoint.sh](https://github.com/standardnotes/server/blob/main/docker/docker-entrypoint.sh)
 
-Öffne die `.env`-Datei und stelle sicher, dass alle Schlüssel im KEYS-Bereich korrekt gesetzt sind. Generiere für jede benötigte Umgebungsvariable einen zufälligen Wert mit:
+Öffne die `.env`-Datei und stelle sicher, dass alle Schlüssel im KEYS-Bereich korrekt gesetzt sind. Generiere für jede benötigte Umgebungsvariable zufällige Werte mit:
 
 ```
 openssl rand -hex 32
 ```
 
-Füge diese Werte in deine `.env`-Datei ein. Standard Notes benötigt außerdem ein Bootstrap-Skript für LocalStack. Lade es in dein Arbeitsverzeichnis herunter und mache es ausführbar:
+Füge diese Werte in deine `.env`-Datei ein. Standard Notes benötigt ein Bootstrap-Skript für LocalStack. Lade es in dein Arbeitsverzeichnis herunter und mache es ausführbar:
 
 ```shell
 curl https://raw.githubusercontent.com/standardnotes/server/main/docker/localstack_bootstrap.sh > localstack_bootstrap.sh
@@ -119,9 +120,9 @@ docker compose pull && docker compose up -d
 
 ## Konfiguration
 
-Die Standardkonfiguration in der bereitgestellten `docker-compose.yml` kannst du an deine individuellen Anforderungen anpassen. Ein wichtiger Bereich ist der `server`-Service, wo du die Port-Zuordnungen in der `ports`-Eigenschaft ändern kannst. So legst du fest, über welche Host-Ports die Anwendung erreichbar sein soll – das hilft, Konflikte mit anderen Diensten zu vermeiden oder dein Netzwerksetup anzupassen.
+Die Standardkonfiguration in der bereitgestellten `docker-compose.yml`-Datei kannst du an deine individuellen Anforderungen anpassen. Ein wichtiger Bereich ist der `server`-Service, wo du die Port-Zuordnungen in der `ports`-Eigenschaft ändern kannst. So legst du fest, über welche Host-Ports die Anwendung erreichbar sein soll – das hilft, Konflikte mit anderen Diensten zu vermeiden oder dein Netzwerksetup anzupassen.
 
-Die Absicherung der Datenbank ist ein weiterer wichtiger Schritt. Ersetze die Standardpasswörter durch starke, zufällig generierte Strings. Ein sicheres Passwort kannst du so erstellen:
+Die Absicherung der Datenbank ist ein weiterer wichtiger Schritt. Standardpasswörter solltest du durch starke, zufällig generierte Strings ersetzen. Ein sicheres Passwort kannst du so erstellen:
 
 ```
 openssl rand -hex 12  
@@ -129,7 +130,7 @@ openssl rand -hex 12
 
 Füge den generierten Wert als `DB_PASSWORD` in die `.env`-Datei ein. Der gleiche Wert muss auch für `MYSQL_ROOT_PASSWORD` und `MYSQL_PASSWORD` in der `docker-compose.yml` gesetzt werden, damit die Container synchron bleiben.
 
-Diese Anpassungen sorgen dafür, dass deine Installation nicht nur funktioniert, sondern auch sicher und auf deine Umgebung zugeschnitten ist.
+Diese Konfigurationsänderungen sorgen dafür, dass deine Installation nicht nur funktioniert, sondern auch sicher und auf deine Umgebung zugeschnitten ist.
 
 
 
@@ -139,7 +140,7 @@ Diese Anpassungen sorgen dafür, dass deine Installation nicht nur funktioniert,
 
 Um dein Konto in Standard Notes einzurichten, klicke unten rechts in der App auf das Avatar-Symbol. Wähle im erscheinenden Menü „Konto erstellen“, um ein neues Benutzerprofil anzulegen. Gib eine gültige E-Mail-Adresse und ein sicheres Passwort ein.
 
-Bevor du den Vorgang abschließt, öffne den Bereich „Erweiterte Optionen“. Unter „Sync Server“ wähle die Option „Benutzerdefiniert“ und gib die IP-Adresse und den Port deines eigenen Servers im Format IP:Port ein. So werden deine Notizen nicht über den Standard-Standard Notes-Dienst synchronisiert, sondern über deinen selbst gehosteten Server.
+Bevor du den Vorgang abschließt, öffne den Bereich „Erweiterte Optionen“. Unter „Sync Server“ wähle die Option „Benutzerdefiniert“ und gib die IP-Adresse und den Port deines eigenen Servers im Format IP:Port ein. So werden deine Notizen nicht über den Standard-Standard Notes-Service synchronisiert, sondern über deinen selbst gehosteten Server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tpsFzSQEokP9xit/download)
 
@@ -147,11 +148,11 @@ Bevor du den Vorgang abschließt, öffne den Bereich „Erweiterte Optionen“. 
 
 
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
-Glückwunsch! Du hast Standard Notes erfolgreich auf deinem VPS installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der Serverkonfiguration weiterhelfen können:
+Glückwunsch! Du hast Standard Notes erfolgreich auf deinem VPS/Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der Server-Konfiguration weiterhelfen können:
 
 - [Standardnotes.com](https://standardnotes.com/) – Offizielle Webseite
 - [Standardnotes.com/help](https://standardnotes.com/help) – Standard Notes Hilfe-Center (Dokumentation)
 
-Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich gern bei uns! 🙂
+Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich einfach bei uns! 🙂

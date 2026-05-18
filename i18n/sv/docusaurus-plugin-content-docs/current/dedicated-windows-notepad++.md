@@ -1,7 +1,7 @@
 ---
 id: dedicated-windows-notepad++
-title: "Dedikerad Server: Installera Notepad++ på Windows"
-description: "Upptäck hur du optimerar din kodningsworkflow med Notepad++ för snabb, anpassningsbar och lättviktig textredigering → Lär dig mer nu"
+title: "Installera Notepad++ på en Windows Server – Använd en kraftfull kod- och texteditor"
+description: "Upptäck hur du optimerar din kodningsworkflow med Notepad++ för snabb, anpassningsbar och lättviktig textredigering → Läs mer nu"
 sidebar_label: Installera Notepad++
 services:
 - dedicated
@@ -13,62 +13,49 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Notepad++ är en gratis och öppen källkods-text- och kodeditor för Windows. Den stödjer syntaxmarkering, kodfällning och flikredigering för många programmerings- och skriptspråk, och är mycket anpassningsbar via plugins. Känd för sin snabba prestanda och låga resursanvändning är Notepad++ ett populärt val för utvecklare och användare som vill ha ett kraftfullt men ändå lättviktigt redigeringsverktyg.
+Notepad++ är en gratis och öppen källkods-text- och kodredigerare för Windows. Den stödjer syntaxmarkering, kodfällning och flikbaserad redigering för många programmerings- och skriptspråk, och är mycket anpassningsbar via plugins. Känd för sin snabba prestanda och låga resursanvändning är Notepad++ ett populärt val för utvecklare och användare som vill ha ett kraftfullt men ändå lättviktigt redigeringsverktyg.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jMMDejqDfWDCfrr/preview)
 
-Fundera på att hosta den här tjänsten själv? Vi guidar dig steg för steg genom installation och konfiguration, samt allt du behöver ha koll på.
-
-
-
-
-
-
+Fundera på att hosta den här tjänsten själv? Vi guidar dig steg för steg hur du installerar och konfigurerar den, plus allt du behöver ha koll på.
 
 ## Förutsättningar
 
-Innan du installerar **Notepad++**, se till att din hostingmiljö uppfyller följande krav för att garantera en smidig installation och optimal prestanda.
+Innan du installerar **Notepad++**, se till att din hostingmiljö uppfyller följande krav för en smidig installation och optimal prestanda.
 
-| Hårdvara | Minimum | ZAP-Hosting Rekommendation |
+| Hårdvara | Minimum | ZAP-Hostings Rekommendation |
 | ---------- | ------------ | -------------------------- |
 | CPU | 1 vCPU-kärna | 4 vCPU-kärnor |
 | RAM | 2 GB | 4 GB |
 | Diskutrymme | 25 MB | 25 GB |
 
-
-
-
 ## Installation
-Nu när alla krav är uppfyllda och förberedelserna klara kan du gå vidare med installationen av Notepad++-applikationen. Ladda ner programmet från den officiella sidan: https://notepad-plus-plus.org/downloads/
 
-Kör Notepad++ Setup och följ stegen som visas:
+Nu när alla krav är uppfyllda och förberedelserna klara kan du köra igång med installationen av Notepad++. Ladda ner applikationen från den officiella sidan: https://notepad-plus-plus.org/downloads/
+
+Starta Notepad++ Setup och följ stegen som visas:
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/5ksLwSePniTPZFQ/preview)
 
-
-
 ## Konfiguration
 
-Notepad++ har ett brett utbud av anpassningsmöjligheter som du hittar under *Settings > Preferences*. Här kan du skräddarsy editorn efter just din workflow:
+Notepad++ har massor av anpassningsmöjligheter under *Settings > Preferences*. Här kan du skräddarsy editorn efter just din workflow:
 
-- **General**: Styr startbeteende, som att ladda om tidigare öppnade filer, sätta standardspråk eller definiera hur flikar ska fungera.  
-- **Editor Settings**: Justera typsnitt och storlek, flikbredd, radnummer, automatisk indentering eller om mellanslag och flikmarkeringar ska visas.  
-- **Color Schemes & Syntax**: Använd “Style Configurator” för att byta tema och anpassa syntaxmarkering för varje språk som stöds.  
-- **File Handling**: Ställ in automatiskt omladdning av filer vid ändringar, hantering av stora filer eller kodningspreferenser som UTF-8.  
+- **General**: Styr startbeteende, som att ladda tidigare öppna filer, sätta standardspråk eller definiera hur flikar ska fungera.  
+- **Editor Settings**: Justera typsnitt och storlek, tabb-bredd, radnummer, automatisk indentering eller om mellanslag och tabbmarkeringar ska visas.  
+- **Color Schemes & Syntax**: Använd “Style Configurator” för att byta tema och anpassa syntaxmarkering för varje språk.  
+- **File Handling**: Ställ in automatisk omladdning av filer vid ändringar, hantering av stora filer eller kodningspreferenser som UTF-8.  
 - **Security & Backup**: Aktivera automatisk backup eller sessionsåterställning för att undvika dataförlust.  
-- **Plugins**: Installera och hantera tillägg via Plugin Manager för att lägga till funktioner som FTP-stöd eller avancerad formatering.  
+- **Plugins**: Installera och hantera tillägg via Plugin Manager för att lägga till funktioner som FTP-stöd eller avancerad formatering.
 
-Dessa inställningar gör Notepad++ väldigt flexibel, oavsett om du bara skriver enkel text eller utvecklar fullskaliga program.
+Dessa inställningar gör Notepad++ superflexibelt, oavsett om du bara skriver text eller utvecklar fullskaliga program.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/X8og5qnFkBTRcmA/preview)
 
-
-
-
 ## Avslutning och fler resurser
 
-Grattis! Du har nu framgångsrikt installerat och konfigurerat Notepad++ på din Dedikerade Server. Vi rekommenderar också att du kollar in följande resurser som kan ge dig extra hjälp och vägledning under din serverkonfiguration:
+Grattis! Du har nu installerat och konfigurerat Notepad++ på din Dedicated Server. Vi rekommenderar också att du kikar på följande resurser som kan ge dig extra hjälp och tips under din serverkonfiguration:
 
-- [notepad-plus-plus.org/](https://notepad-plus-plus.org/) - Officiell webbplats
+- [notepad-plus-plus.org/](https://notepad-plus-plus.org/) – Officiell webbplats
 
-Har du specifika frågor som inte täcks här? För fler frågor eller support, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+Har du frågor som inte täcks här? Tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂

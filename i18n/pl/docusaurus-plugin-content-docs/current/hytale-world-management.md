@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-world-management
 title: "Hytale: Zarządzanie Światami"
 description: "Dowiedz się, jak zabezpieczyć swój serwer Hytale, zarządzając dostępem graczy za pomocą funkcji whitelist i chronić swoją rozgrywkę → Sprawdź teraz"
@@ -12,26 +12,24 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Zarządzanie światami na serwerze Hytale polega na kontrolowaniu trwałego środowiska gry, w którym gracze eksplorują, budują i wchodzą w interakcje. Świat składa się ze wszystkich danych terenu, struktur, postępów graczy oraz ustawień definiujących wspólne doświadczenie. Możliwość tworzenia, zmieniania nazwy, resetowania lub organizowania światów to kluczowy element utrzymania serwera zarówno dla prywatnych, jak i publicznych społeczności.
+Zarządzanie światami na serwerze Hytale polega na kontrolowaniu trwałego środowiska gry, w którym gracze eksplorują, budują i wchodzą w interakcje. Świat obejmuje wszystkie dane terenu, budowle, postępy graczy oraz ustawienia definiujące wspólne doświadczenie. Możliwość tworzenia, zmieniania nazwy, resetowania czy organizowania światów to kluczowa część utrzymania serwera zarówno dla prywatnych, jak i publicznych społeczności.
 
 :::info Informacja o Wczesnym Dostępie
 
-Hytale zostało wydane 13 stycznia 2026 i jest obecnie dostępne we Wczesnym Dostępie. Ponieważ gra jest nadal w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się z czasem zmieniać.
+Hytale został wydany 13 stycznia 2026 i jest obecnie dostępny we Wczesnym Dostępie. Ponieważ gra jest nadal w aktywnej fazie rozwoju, oprogramowanie serwera, pliki konfiguracyjne, wsparcie modów oraz procesy instalacji mogą się z czasem zmieniać.
 
 :::
 
 ## Tworzenie nowego świata
 
-Stworzenie nowego świata daje Twojemu serwerowi świeże środowisko do generowania terenu, struktur i postępów w rozgrywce od zera. Korzystając z konsoli na żywo, światy można tworzyć lub przełączać, wydając odpowiednie komendy związane ze światem.  
+Stworzenie nowego świata daje Twojemu serwerowi świeże środowisko do generowania terenu, budowli i postępów w rozgrywce od podstaw. Korzystając z konsoli na żywo, światy można tworzyć lub przełączać, wydając odpowiednie komendy związane ze światem.  
 Gdy podasz nazwę nowego świata, serwer załaduje istniejący świat o tej nazwie lub wygeneruje nowy, jeśli nie znajdzie pasujących danych.
 
 ```
 /world create <worldname>
 ```
 
-Ta komenda tworzy nowy świat o nazwie `<worldname>`. Jeśli nie ma istniejących danych świata o tej nazwie, serwer wygeneruje świeże środowisko świata.
-
-
+Ta komenda tworzy nowy świat o nazwie `<worldname>`. Jeśli nie ma istniejących danych dla tej nazwy, serwer wygeneruje świeże środowisko świata.
 
 ## Ustawienie świata jako domyślnego
 
@@ -45,19 +43,15 @@ Korzystając z konsoli na żywo, domyślny świat można zmienić bez ręcznej e
 
 Ta komenda ustawia świat o nazwie `mainworld` jako domyślny. Po restarcie serwera ten świat zostanie automatycznie załadowany.
 
+## Usunięcie istniejącego świata
 
-
-## Usuwanie istniejącego świata
-
-Oprócz tworzenia i ładowania światów, konsola na żywo pozwala także usuwać istniejące światy z serwera. Jest to przydatne, gdy przestarzałe, nieużywane lub testowe światy nie są już potrzebne. Usunięcie świata powoduje skasowanie powiązanych z nim danych ze serwera. Ta operacja jest trwała i nie można jej cofnąć, chyba że istnieje kopia zapasowa.
+Oprócz tworzenia i ładowania światów, konsola na żywo pozwala też usuwać istniejące światy z serwera. Jest to przydatne, gdy przestarzałe, nieużywane lub testowe światy nie są już potrzebne. Usunięcie świata powoduje skasowanie powiązanych z nim danych ze serwera. Ta operacja jest nieodwracalna, chyba że posiadasz kopię zapasową.
 
 ```
 /world remove <worldname>
 ```
 
 Ta komenda usuwa świat o nazwie `worldname` z serwera. Jeśli świat jest aktualnie aktywny, musi zostać najpierw wyładowany, inaczej serwer może odrzucić komendę w zależności od implementacji.
-
-
 
 ## Podsumowanie
 

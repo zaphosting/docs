@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-disable-world-fall-damage
 title: "Hytale: Disable World Fall Damage"
 description: "Discover how to disable fall damage on your Hytale server → Learn more now"

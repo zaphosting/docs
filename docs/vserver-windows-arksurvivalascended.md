@@ -1,23 +1,24 @@
 ---
 id: vserver-windows-arksurvivalascended
-title: "VPS: ARK Survival Ascended Dedicated Server Windows Setup"
-description: "Discover how to set up an ARK: Survival Ascended Dedicated Server on a Windows VPS for smooth gameplay and server control → Learn more now"
+title: "ARK Survival Ascended Dedicated Server Windows Setup"
+description: "Discover how to set up an ARK: Survival Ascended Dedicated Server on a Windows server for smooth gameplay and server control → Learn more now"
 sidebar_label: ARK Survival Ascended
 services:
   - vserver
+  - dedicated
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
-Do you have a Windows VPS and you want to install the ARK: Survival Ascended Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
-<YouTube videoId="NvaXYjLSCn8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/Sa76nDiSmQKx7x2/preview" title="ARK: Survival Ascended Dedicated Server Setup on Windows VPS" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+Do you have a Windows VPS/Dedicated Server and you want to install the ARK: Survival Ascended Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+<YouTube videoId="NvaXYjLSCn8" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/Sa76nDiSmQKx7x2/preview" title="ARK: Survival Ascended Dedicated Server Setup on Windows VPS/Dedicated Server" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 <InlineVoucher />
 
 ## Preparation
 
-To begin with, connect to your VPS through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS/Dedicated Server through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 Once you have accessed your server, you will need to setup **SteamCMD** in order to be able to download the necessary dedicated server files. SteamCMD is the **command-line (CLI)** version of the Steam client and is the tool which allows you to easily download a range of Steam workshop and dedicated server files. Download [SteamCMD from the official Valve website](https://developer.valvesoftware.com/wiki/SteamCMD) or directly [here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 
@@ -57,7 +58,7 @@ Once the download has been completed successfully, navigate to the directory whe
 ../steamapps/common/Ark Survival Ascended Dedicated Server/ShooterGame/Binaries/Win64
 ```
 
-In this subdirectory, you will have to create your startup file which is needed in order to launch the dedicated server. Create a file with the name: `start-ark.bat`. You can create a text document first and then rename it to the `.bat` extension afterwards.
+In this subdirectory, you will have to create your startup file which is needed in order to launch the VPS/Dedicated Server. Create a file with the name: `start-ark.bat`. You can create a text document first and then rename it to the `.bat` extension afterwards.
 
 :::info
 Ensure that you have the "Display file extensions" option enabled in your File Explorer so that the correct file extension is being used.
@@ -83,7 +84,7 @@ Your server will now be accessible locally through `127.0.0.1:7777` once you run
 
 ### Port Forwarding your server
 
-In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
+In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the VPS/Dedicated Server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -168,18 +169,18 @@ If before 18 November 2023 server owners installed the r2m02.cer certificate fil
 
 ## Starting & Connecting to your server
 
-Now it is time to start your server. However, in order for the server to start successfully, you will have to install [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) to your Windows VPS.
+Now it is time to start your server. However, in order for the server to start successfully, you will have to install [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) to your Windows VPS/Dedicated Server.
 
 :::info
-You must install [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) onto your Windows VPS before attempting to start the server if you do not have it yet, as it is a dependency. Your server may not start if you do not have this installed.
+You must install [Microsoft Visual C++ 2015 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) onto your Windows VPS/Dedicated Server before attempting to start the server if you do not have it yet, as it is a dependency. Your server may not start if you do not have this installed.
 :::
 
-Once you have this installed on your VPS, you can proceed towards starting the server by executing the **start-ark.bat** file you created previously.
+Once you have this installed on your VPS/Dedicated Server, you can proceed towards starting the server by executing the **start-ark.bat** file you created previously.
 
 This will open the server's console in a command prompt and begin the startup process. If everthing occurs as expected, your server will be visible in the server list. Alternatively, you will be able to connect directly by opening the console in-game and running `open [your_ip_address]:7777`.
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured the ARK-Survival-Ascended server on your VPS! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
+Congratulations, you have successfully installed and configured the ARK-Survival-Ascended server on your VPS/Dedicated Server! If you have any further questions or problems, please contact our support team, who are available to help you every day! 
 
 <InlineVoucher />

@@ -9,43 +9,35 @@ W ZAP-Hosting cenimy naszą niesamowitą społeczność z całego świata — od
 
 ## Co oferuje nasza społeczność
 
-Jesteśmy obecni na wielu popularnych platformach, takich jak Discord, Reddit, X i wiele innych... właściwie jesteśmy chyba wszędzie! Nasza społeczność jest naprawdę szeroko rozproszona! ⚡
+Jesteśmy obecni na wielu popularnych platformach, takich jak Discord, Reddit, X i wiele innych... właściwie to jesteśmy chyba wszędzie! Nasza obecność w społecznościach jest naprawdę szeroka! ⚡
 
-### Eventy & Konkursy
+### Eventy i konkursy
 
-Regularnie organizujemy eventy i konkursy na wielu naszych kanałach społecznościowych. Zazwyczaj co dwa tygodnie prowadzimy livestreamy oraz częste eventy w grach, gdzie gramy razem z naszą społecznością, a także konkursy, które nie ograniczają się tylko do gier! Na przykład nasz ostatni konkurs na banner dla Discorda czy Minecraft Parkour Challenge... nasze konkursy to zawsze świetna zabawa, a do tego rozdajemy fajne gratisy dla naszej społeczności! 🏆
+Regularnie organizujemy eventy i konkursy na wielu naszych kanałach społecznościowych. Zazwyczaj co dwa tygodnie prowadzimy livestreamy oraz częste eventy gamingowe, podczas których gramy razem z naszą społecznością, a także konkursy, które nie ograniczają się tylko do gier! Na przykład nasz ostatni konkurs na banner dla Discorda czy Minecraft Parkour Challenge... nasze konkursy to zawsze świetna zabawa z dodatkową dawką darmowych nagród dla naszej społeczności! 🏆
 
-Nasze livestreamy odbywają się na [Twitch](https://twitch.tv/zaphosting) i [YouTube](https://youtube.com/zaphosting), a konkursy w grach zazwyczaj na naszym [Discordzie Społeczności ZAP-Hosting](https://discord.gg/invite/zaphosting). 🎥
+Nasze livestreamy odbywają się na [Twitch](https://twitch.tv/zaphosting) i [YouTube](https://youtube.com/zaphosting), a konkursy gamingowe zazwyczaj na naszym [Discordzie Społeczności ZAP-Hosting](https://discord.gg/invite/zaphosting). 🎥
 
-Zarówno eventy, jak i konkursy zawsze obfitują w gratisy, takie jak kasa do twojej skarbonki, darmowe produkty, a przede wszystkim... mnóstwo dobrej zabawy z nami i społecznością! 🪙
+Zarówno eventy, jak i konkursy zawsze obfitują w darmowe bonusy, takie jak kasa do twojej skarbonki, darmowe produkty oraz oczywiście... mnóstwo dobrej zabawy z nami i społecznością! 🪙
 
 Mamy nadzieję zobaczyć Cię na jednym z naszych eventów lub konkursów w przyszłości! ⚔️
 
-### Program Współpracy
-
-Prowadzimy oficjalny program współpracy dla naszych poradników (tak, tych właśnie, które czytasz), w którym płacimy za pisanie poradników! 📰
-
-Program współpracy jest otwarty dla każdego, kto chce podzielić się swoją **wiedzą** i **doświadczeniem** ze społecznością! Aktywnie szukamy zaangażowanych autorów, którzy mają **mocne umiejętności techniczne** i są **znający się** na danej dziedzinie. Najważniejsze, że szukamy osób, które są oddane i chętne do współpracy z naszym Zespołem Dokumentacji ZAP-Hosting, by poprawiać i dopracowywać treści przed publikacją. ✏️🗣️
-
-Zainteresowany? **Współpracuj teraz. Zyskaj nagrody.** Sprawdź sekcję [Wprowadzenie](contribution-introduction.md) w naszej dokumentacji, aby dowiedzieć się więcej! 🚀
-
 ### Giveawaye
 
-Chcesz zgarnąć super gratisy i nagrody? 🎁
+Chcesz zgarnąć fajne darmowe rzeczy i nagrody? 🎁
 
-Przez cały rok organizujemy mnóstwo giveawayów, w tym nasze słynne kody Zappy Monday, gdzie **każdego poniedziałku** wrzucamy kod na naszych socialach, który daje darmową kasę do twojej skarbonki! 🪙
+Przez cały rok organizujemy masę giveawayów, w tym nasze słynne kody Zappy Monday, gdzie **każdego poniedziałku** wrzucamy kod na naszych socialach, który daje darmową kasę do twojej skarbonki! 🪙
 
-Dodatkowo często organizujemy świetne giveaway’e na naszych platformach społecznościowych, takich jak Instagram, X, Facebook i inne, gdzie możesz wygrać różne nagrody. Na przykład w jednym z ostatnich giveaway’ów rozlosowaliśmy **Lifetime VPS** dla szczęśliwego zwycięzcy z naszej społeczności. 💪
+Dodatkowo często organizujemy świetne giveaway’e na naszych platformach społecznościowych, takich jak Instagram, X, Facebook i inne, gdzie możesz wygrać różne nagrody. Na przykład w naszym ostatnim giveaway’u rozlosowaliśmy **dożywotni VPS** dla szczęśliwego zwycięzcy ze społeczności. 💪
 
-Brzmi super? To jeszcze nie wszystko! 🎉
+Brzmi super? To to jeszcze nie wszystko! 🎉
 
-Jesteśmy też dumni, że codziennie... tak, codziennie... organizujemy giveaway’e z nagrodą **10 €** do skarbonki zwycięzcy na naszym [Discordzie Społeczności ZAP-Hosting](https://discord.gg/invite/zaphosting), aby docenić naszych najbardziej aktywnych członków. Dodatkowo nasi Discord Nitro boosterzy dostają cotygodniowy ekstra giveaway jako podziękowanie! 🫢
+Codziennie — tak, dobrze słyszysz... **codziennie** — organizujemy giveaway’e z nagrodą **10 €** do skarbonki zwycięzcy na naszym [Discordzie Społeczności ZAP-Hosting](https://discord.gg/invite/zaphosting), żeby podziękować naszym najbardziej aktywnym członkom. Dodatkowo boosterzy Discord Nitro dostają cotygodniowy ekstra giveaway jako podziękowanie! 🫢
 
-Wiem, że to brzmi świetnie i mamy nadzieję zobaczyć Cię na naszych giveaway’ach! ✨
+Wiem, że to brzmi mega, i mamy nadzieję zobaczyć Cię na naszych giveaway’ach! ✨
 
-### Nasze Social Media
+### Nasze social media
 
-Jak już wiesz, jesteśmy dostępni na wielu platformach społecznościowych. Poniżej znajdziesz łatwo dostępną listę wszystkich miejsc, gdzie możesz nas znaleźć! Obserwuj, subskrybuj i dołącz do naszych kanałów i społeczności, aby być na bieżąco z najnowszymi newsami od ZAP. 📫
+Jak już wiesz, jesteśmy obecni na wielu platformach społecznościowych. Poniżej znajdziesz łatwo dostępne listy wszystkich miejsc, gdzie możesz nas znaleźć! Obserwuj, subskrybuj i dołącz do naszych kanałów i społeczności, żeby być na bieżąco z najnowszymi newsami od ZAP. 📫
 
 #### Komunikatory
 - [Facebook](https://facebook.com/zaphosting)
@@ -72,8 +64,8 @@ Jak już wiesz, jesteśmy dostępni na wielu platformach społecznościowych. Po
 Zawsze możesz skontaktować się z nami bezpośrednio na oficjalnych kanałach, jeśli masz pytania lub problemy z usługami ZAP-Hosting. Możesz to zrobić przez naszą stronę, [kontaktując się z obsługą klienta](https://zap-hosting.com/en/customer/support/) przez system ticketów lub czat na żywo. 👥
 
 Oto kilka przydatnych linków związanych z supportem:
-- [Status systemu & przerwy](https://zap-hosting.com/status)
-- [Dokumentacja & poradniki](https://zap-hosting.com/guides/)
+- [Status systemu i przerwy](https://zap-hosting.com/status)
+- [Dokumentacja i poradniki](https://zap-hosting.com/guides/)
 - [Zgłoś oficjalne wsparcie](https://zap-hosting.com/en/customer/support/)
 - [Regulamin](https://zap-hosting.com/en/terms/)
 - [Polityka prywatności](https://zap-hosting.com/en/privacy-policy/)

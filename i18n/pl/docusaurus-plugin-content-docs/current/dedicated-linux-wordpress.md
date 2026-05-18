@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-wordpress
-title: "Serwer dedykowany: Instalacja WordPress"
+title: "Konfiguracja WordPress na serwerze Linux - Uruchom swoją własną stronę lub blog"
 description: "Dowiedz się, jak zainstalować WordPress na serwerze Linux z użyciem stosu LAMP, aby efektywnie tworzyć i zarządzać swoją stroną → Sprawdź teraz"
 sidebar_label: Instalacja WordPress
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,18 +12,22 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-WordPress to popularny system zarządzania treścią stron internetowych, używany do zarządzania i publikowania witryn. W dzisiejszych czasach WordPress rozwinął się w różne inne obszary, takie jak mailing, fora, sklepy i wiele więcej. Wspiera to prężna społeczność, która stworzyła silny ekosystem wtyczek oraz szablonów, dzięki którym każdy użytkownik może łatwo skonfigurować niemal wszystko. W tym poradniku omówimy proces instalacji CMS WordPress na serwerze Linux.
+WordPress to popularny system zarządzania treścią stron internetowych, wykorzystywany do tworzenia i publikowania witryn. W dzisiejszych czasach WordPress rozwinął się również w inne obszary, takie jak mailing, fora, sklepy i wiele więcej. Wspiera go prężna społeczność, która stworzyła rozbudowany ekosystem wtyczek oraz szablonów, dzięki którym każdy użytkownik może łatwo skonfigurować niemal wszystko. W tym poradniku pokażemy, jak zainstalować CMS WordPress na serwerze Linux.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/r26L7xASWY3d5Z5/preview)
 
 
+
+## Instalacja WordPress za pomocą One Click Apps Installer
+
+WordPress możesz zainstalować bezpośrednio przez nasz **One Click Apps Installer** w panelu VPS. Po zakończeniu wstępnej konfiguracji aplikacji, otwórz katalog aplikacji, wyszukaj **WordPress** i rozpocznij wdrożenie, wybierając preferowany projekt, środowisko i ustawienia domeny. To szybki i wygodny sposób na uruchomienie i zarządzanie WordPressem bez ręcznej konfiguracji w terminalu, a jednocześnie z korzyściami takimi jak zarządzanie przez panel webowy, wsparcie dla własnej domeny i automatyczne wystawianie certyfikatów SSL tam, gdzie to możliwe.
 
 ## Przygotowanie
 
 Zacznij od połączenia się z serwerem przez SSH. Jeśli nie wiesz jak to zrobić, zerknij na nasz [poradnik Pierwszy dostęp (SSH)](dedicated-linux-ssh.md).
 
 :::info
-W tym poradniku używamy dystrybucji Ubuntu, z Apache jako serwerem www, MySQL jako bazą danych oraz PHP jako główną zależnością. To znany stos LAMP: Linux, Apache, MySQL i PHP.
+W tym poradniku używamy dystrybucji Ubuntu, serwera Apache jako serwera WWW, MySQL jako bazy danych oraz PHP jako głównej zależności. To tzw. stos LAMP: Linux, Apache, MySQL i PHP.
 :::
 
 Po zalogowaniu się, zacznij od aktualizacji pakietów:
@@ -30,7 +35,7 @@ Po zalogowaniu się, zacznij od aktualizacji pakietów:
 sudo apt update
 ```
 
-Następnie zainstaluj wszystkie niezbędne zależności. Skopiuj poniższe polecenie i wklej, aby zainstalować wszystko naraz. Bądź cierpliwy, instalacja może chwilę potrwać.
+Następnie zainstaluj wszystkie niezbędne zależności. Skopiuj poniższe polecenie i wklej je, aby zainstalować wszystko naraz. Bądź cierpliwy, instalacja może chwilę potrwać.
 ```
 sudo apt install apache2 \
                  ghostscript \
@@ -48,11 +53,11 @@ sudo apt install apache2 \
                  php-zip
 ```
 
-Po instalacji zależności, wykonaj kilka małych, zalecanych kroków konfiguracyjnych, aby upewnić się, że wszystkie kluczowe elementy stosu LAMP działają poprawnie.
+Po instalacji zależności, wykonaj kilka zalecanych kroków konfiguracyjnych, aby upewnić się, że wszystkie kluczowe komponenty stosu LAMP działają poprawnie.
 
 ### Apache & zapora sieciowa
 
-Na początek musisz skonfigurować zaporę sieciową, aby serwer Apache mógł komunikować się z internetem i działał poprawnie. Ważne jest, aby odpowiednie reguły zapory umożliwiały dostęp do serwera www z internetu.
+Na początek musisz skonfigurować zaporę sieciową, aby serwer Apache mógł komunikować się z internetem i działał poprawnie. Ważne jest, aby odpowiednie reguły zapory umożliwiały dostęp do serwera WWW z internetu.
 
 W tym przykładzie użyjemy **zapory UFW**, ponieważ Apache ma zarejestrowaną aplikację dla niej. Jeśli korzystasz z innej zapory, upewnij się, że port 80 (HTTP) jest otwarty. Więcej o zaporach w Linux znajdziesz w naszym [poradniku Zarządzanie zaporą](vserver-linux-firewall.md).
 
@@ -66,7 +71,7 @@ sudo ufw enable
 ```
 
 :::caution
-Upewnij się, że masz regułę dla SSH, jeśli używasz zapory UFW! W przeciwnym razie **stracisz** możliwość połączenia się przez SSH, jeśli zerwie się obecna sesja!
+Pamiętaj, aby mieć regułę dla SSH, jeśli używasz zapory UFW! Bez niej **nie** połączysz się ponownie przez SSH, jeśli stracisz aktualną sesję!
 :::
 
 Teraz dodaj regułę dla Apache i sprawdź, czy reguły są aktywne.
@@ -79,14 +84,14 @@ sudo ufw status
 ```
 
 :::tip
-Możesz zobaczyć dostępne profile, wpisując `ufw app list`. W przykładzie powyżej `Apache Full` oznacza, że reguły dla HTTP (port 80) i HTTPS (port 443) zostaną utworzone.
+Listę dostępnych profili aplikacji zobaczysz poleceniem `ufw app list`. W przykładzie `Apache Full` oznacza, że otwierane są porty HTTP (80) i HTTPS (443).
 :::
 
-Powinieneś zobaczyć reguły `Apache` i `Apache (v6)` z akcją `ALLOW`, co potwierdza, że zapora jest gotowa. Powinieneś też zobaczyć inne wcześniej skonfigurowane reguły, w tym dla SSH.
+Powinieneś zobaczyć reguły `Apache` i `Apache (v6)` z akcją `ALLOW`, co potwierdza, że zapora jest gotowa. Powinieneś też zobaczyć inne wcześniej dodane reguły, w tym dla SSH.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o8NDBppnTwHdSgf/preview)
 
-Po otwarciu zapory dla Apache, sprawdź, czy Apache działa poprawnie. W przeglądarce wpisz adres IP serwera: `http://[twoj_adres_ip]`
+Po otwarciu zapory dla Apache, sprawdź, czy serwer działa. W przeglądarce wpisz adres IP serwera: `http://[twoj_adres_ip]`
 
 Jeśli działa, zobaczysz domyślną stronę powitalną. Jeśli nie, sprawdź status usługi poleceniem: `systemctl status apache2`
 
@@ -94,21 +99,21 @@ Jeśli działa, zobaczysz domyślną stronę powitalną. Jeśli nie, sprawdź st
 
 ### Konfiguracja MySQL
 
-Kolejnym krokiem jest pierwsza konfiguracja MySQL. Zalecamy uruchomienie skryptu zabezpieczającego, który zwiększy bezpieczeństwo Twojej instancji MySQL. To opcjonalne, ale bardzo polecane. Uruchom go poleceniem: `sudo mysql_secure_installation`.
+Kolejnym krokiem jest pierwsza konfiguracja MySQL. Zalecamy uruchomienie skryptu zabezpieczającego, który poprawi bezpieczeństwo Twojej instancji MySQL. To opcjonalne, ale bardzo polecane. Uruchom go poleceniem `sudo mysql_secure_installation`.
 
-Przejdziesz przez interaktywną konfigurację. Najpierw zostaniesz zapytany o walidację haseł. Polecamy wybrać `Y`, aby wymusić silne hasła, a następnie poziom `MEDIUM` (1) lub `STRONG` (2).
+Przejdziesz przez interaktywną konfigurację. Najpierw zostaniesz zapytany o walidację haseł. Zalecamy wybrać `Y`, aby wymusić silne hasła, a następnie poziom `MEDIUM` (1) lub `STRONG` (2).
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
 
-Następnie zostaniesz zapytany o usunięcie użytkownika `anonymous` i zablokowanie zdalnego logowania root. Zalecamy potwierdzić `Y` dla obu opcji ze względów bezpieczeństwa. Dzięki temu testowy użytkownik zostanie usunięty, a konto root będzie dostępne tylko lokalnie przez SSH, co zmniejsza ryzyko.
+Następnie zostaniesz zapytany o usunięcie użytkownika `anonymous` i zablokowanie zdalnego logowania root. Dla bezpieczeństwa zdecydowanie polecamy potwierdzić `Y`. Dzięki temu testowy użytkownik zostanie usunięty, a konto root będzie dostępne tylko lokalnie przez SSH, co zmniejsza ryzyko.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-Na koniec zostaniesz zapytany o usunięcie bazy `test` i przeładowanie tabel uprawnień. Również zalecamy potwierdzić `Y`, bo baza testowa nie jest potrzebna, a przeładowanie tabel jest konieczne, by zmiany zaczęły działać.
+Na koniec zostaniesz zapytany o usunięcie bazy `test` i przeładowanie tabel uprawnień. Również potwierdź `Y`, bo baza testowa nie jest potrzebna, a przeładowanie tabel jest konieczne, by zmiany zaczęły działać.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
-Sprawdź teraz, czy MySQL działa, próbując się zalogować: `sudo mysql -u root`. Jeśli się uda, zobaczysz powitalną wiadomość. Wyjdź poleceniem `quit`.
+Sprawdź, czy MySQL działa, próbując się zalogować: `sudo mysql -u root`. Jeśli się uda, zobaczysz powitalny komunikat. Wyjdź poleceniem `quit`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/gFKBAZyaFiHgrCz/preview)
 
@@ -132,17 +137,19 @@ Teraz w przeglądarce wpisz adres:
 http://[twoj_adres_ip]/info.php
 ```
 
+Powinna pojawić się strona z informacjami o PHP, co potwierdzi, że działa poprawnie.
+
 ![](https://screensaver01.zap-hosting.com/index.php/s/bSg3nHaKRatBxFR/preview)
 
-Jeśli zobaczysz stronę z informacjami o PHP, wszystko działa. Teraz możesz przejść do instalacji WordPress.
+Po przetestowaniu i potwierdzeniu działania kluczowych komponentów stosu LAMP, możesz przejść do instalacji WordPressa.
 
 ## Instalacja
 
-Instalację WordPress podzielimy na trzy etapy: przygotowanie bazy MySQL, instalacja WordPress oraz konfiguracja przez kreatora instalacji.
+Instalację WordPress można podzielić na trzy etapy: przygotowanie bazy danych MySQL, instalacja WordPress oraz konfiguracja przez kreatora instalacji.
 
 ### Baza danych MySQL
 
-Na początek musisz utworzyć nową bazę MySQL. To ważne, bo te dane wykorzystasz później w kreatorze WordPress. Polecamy skorzystać z naszych przykładów.
+Na początek musisz utworzyć nową bazę danych MySQL. To ważne, bo podczas konfiguracji WordPressa będziesz potrzebować tych danych. Polecamy skorzystać z naszych przykładów.
 
 Skopiuj poniższe polecenia, aby utworzyć bazę, tabele i użytkownika.
 ```
@@ -153,8 +160,8 @@ sudo mysql -u root
 CREATE DATABASE wordpress;
 
 # Utwórz dedykowanego użytkownika wordpress
-# Zamień [your_password] na swoje hasło
-CREATE USER wordpress@localhost IDENTIFIED BY '[your_password]';
+# Zamień [twoje_haslo] na własne hasło
+CREATE USER wordpress@localhost IDENTIFIED BY '[twoje_haslo]';
 
 # Nadaj uprawnienia użytkownikowi (wklej jako jedno polecenie)
 GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
@@ -169,19 +176,19 @@ Po utworzeniu bazy i użytkownika wyjdź poleceniem `quit`. Teraz możesz przej�
 
 ### Instalacja WordPress
 
-Do instalacji polecamy pobrać najnowszą wersję bezpośrednio z **wordpress.org**, a nie korzystać z pakietu APT, co jest zalecane przez WordPress, by uniknąć problemów.
+Do instalacji WordPressa polecamy pobrać oficjalną wersję z **wordpress.org**, a nie korzystać z pakietu APT, co jest rekomendowane przez sam WordPress, by uniknąć problemów.
 
-Pobierz najnowszy plik do katalogu tymczasowego:
+Pobierz najnowszą wersję do katalogu tymczasowego:
 ```
 cd /tmp && wget https://wordpress.org/latest.tar.gz
 ```
 
-Rozpakuj archiwum, co utworzy folder `wordpress` z potrzebnymi plikami.
+Rozpakuj archiwum, co utworzy folder `wordpress` z wszystkimi plikami.
 ```
 tar -xvf latest.tar.gz
 ```
 
-Skopiuj folder do katalogu Apache `/var/www/html/`, aby udostępnić go przez www. Wykonaj poniższe polecenia, które skopiują folder, utworzą katalog `uploads` i ustawią odpowiednie uprawnienia dla grupy `www-data`.
+Skopiuj folder do katalogu Apache `/var/www/html/`, aby udostępnić go przez WWW. Wykonaj poniższe polecenia, które skopiują folder, utworzą katalog `uploads` i ustawią odpowiednie uprawnienia, aby grupa `www-data` miała dostęp.
 ```
 # Skopiuj folder wordpress i zmień właściciela
 cp -R wordpress /var/www/html/
@@ -195,42 +202,42 @@ chmod -R 755 /var/www/html/wordpress/
 chown -R www-data:www-data /var/www/html/wordpress/wp-content/uploads/
 ```
 
-WordPress jest teraz zainstalowany. Wejdź w przeglądarce na: `http://[twoj_adres_ip]/wordpress`
+Po tym WordPress powinien być zainstalowany. Wejdź w przeglądarce na adres: `http://[twoj_adres_ip]/wordpress`
 
-### Kreator instalacji
+### Kreator konfiguracji
 
-W kreatorze instalacji wybierz język.
+W kreatorze konfiguracji możesz teraz ustawić WordPress, co jest ostatnim krokiem instalacji. Najpierw wybierz język.
 
-Następnie skonfiguruj ustawienia bazy danych. Dane, które przygotowałeś wcześniej w MySQL, wpisz tutaj. Jeśli korzystałeś z naszych przykładów, wypełnij pola tak, zamieniając `[your_password]` na swoje hasło.
+Następnie skonfiguruj ustawienia bazy danych. Przygotowałeś je wcześniej w MySQL, więc użyj tych samych danych. Jeśli korzystałeś z naszych przykładów, wypełnij pola tak, zamieniając `[twoje_haslo]` na swoje hasło.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/4ZmA43WMjf2bBxB/preview)
 
-Po tym kroku uruchom instalację.
+Po tym kroku zostaniesz poproszony o uruchomienie instalacji. To ostatnia część procesu.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7kfjz8p2cCzoD8S/preview)
 
-Na kolejnej stronie podaj tytuł strony, adres e-mail, nazwę użytkownika i hasło dla konta root WordPress, którym będziesz logować się do panelu. Możesz też ustawić widoczność strony dla wyszukiwarek — czy chcesz, aby Twoja strona była indeksowana, czy nie.
+Na kolejnej stronie wpisz tytuł strony, adres e-mail oraz nazwę użytkownika i hasło dla konta administratora WordPressa, którym będziesz logować się do panelu. Możesz też zdecydować o widoczności strony dla wyszukiwarek — czy ma być indeksowana, czy nie.
 
 :::tip
 Wybierz silne hasło i zapisz dane logowania, żeby nie stracić dostępu do panelu WordPress!
 :::
 
-Gdy wszystko gotowe, kliknij **Zainstaluj WordPress**.
+Gdy wszystko gotowe, kliknij **Zainstaluj WordPress**, aby zakończyć instalację.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/BZwxEpQAs3sKcc7/preview)
 
-Po instalacji zostaniesz przekierowany na stronę sukcesu, a następnie do strony logowania. Zaloguj się tam swoimi danymi, aby po raz pierwszy wejść do panelu WordPress!
+Zostaniesz przekierowany na stronę sukcesu, a następnie do strony logowania. Zaloguj się używając swoich danych, aby po raz pierwszy wejść do panelu WordPress!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/qEGcRQFWBcLDosj/preview)
 
-I tak oto, po poprawnym logowaniu, znajdziesz się w panelu WordPress z kompletną instalacją.
+I tak, po poprawnym logowaniu, znajdziesz się w panelu WordPress z kompletną instalacją.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/r26L7xASWY3d5Z5/preview)
 
 ## Podsumowanie
 
-Gratulacje, udało Ci się zainstalować i skonfigurować WordPress! Kolejnym krokiem **gorąco polecamy** podpięcie domeny oraz **certyfikatu SSL**, aby zapewnić bezpieczne przesyłanie danych i wygodniejszy dostęp do panelu WordPress. Zerknij na nasz [poradnik Certbot](dedicated-linux-certbot.md) z naciskiem na **wtyczkę Apache** i przejdź interaktywną konfigurację, aby szybko i łatwo ustawić certyfikat dla wybranej domeny.
+Gratulacje, udało Ci się zainstalować i skonfigurować WordPress! Kolejnym krokiem **gorąco polecamy** podpięcie domeny i certyfikatu **SSL**, aby zapewnić bezpieczne przesyłanie danych i ułatwić dostęp do panelu WordPress. Zerknij na nasz [poradnik Certbot](dedicated-linux-certbot.md) ze szczególnym uwzględnieniem **wtyczki Apache** i wykonaj interaktywną konfigurację, aby szybko i łatwo wystawić certyfikat dla swojej domeny.
 
-Na przyszłość polecamy też zapoznać się z naszymi poradnikami o [wtyczkach WordPress](webspace-wordpress-plugins.md) oraz [Elementorze dla WordPress](webspace-wordpress-elementor.md), które pokazują, jak instalować wtyczki i korzystać z popularnego, przyjaznego kreatora stron Elementor.
+Na przyszłość polecamy też zapoznać się z naszymi poradnikami o [wtyczkach WordPress](webspace-wordpress-plugins.md) oraz [Elementorze dla WordPress](webspace-wordpress-elementor.md), które pokażą Ci, jak instalować wtyczki i korzystać z popularnego, przyjaznego kreatora stron Elementor.
 
 Jeśli masz pytania lub potrzebujesz pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂

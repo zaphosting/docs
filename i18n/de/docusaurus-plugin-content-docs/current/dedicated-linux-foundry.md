@@ -63,7 +63,7 @@ xvfb-run wine /home/steam/Foundry-Server/FoundryDedicatedServer.exe
 
 Im Terminal solltest du nun Logs sehen, die anzeigen, dass der Server erfolgreich gestartet wurde. Wenn alles läuft wie erwartet, erscheint dein Server in der Serverliste. Alternativ kannst du dich direkt verbinden, indem du in der unteren Suchleiste der Serverliste `[deine_ip_adresse]:3724` eingibst.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den Foundry Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Linux Service Setup](dedicated-linux-create-gameservice.md) Anleitung. Dort erfährst du, wie du deinen neuen Dedicated Gameserver als Service einrichtest. Das bringt viele Vorteile wie automatischen Serverstart beim Booten, automatische Updates, einfache Verwaltung und Zugriff auf Logs und vieles mehr!
 

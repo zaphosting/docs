@@ -71,7 +71,7 @@ Um die Remote Admin Konsole im Spiel zu öffnen, drücke nach dem Einloggen auf 
 :::
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter! 🙂
 

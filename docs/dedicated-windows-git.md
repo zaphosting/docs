@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-git
-title: "Dedicated Server: Setup Git on Windows"
+title: "Setup Git on a Windows Server - Enable Version Control for Your Projects"
 description: "Discover how to set up and configure Git for efficient version control and seamless collaboration in your projects → Learn more now"
 sidebar_label: Install Git
 services:
+  - vserver
   - dedicated
 ---
 
@@ -20,6 +21,10 @@ Considering about hosting this service yourself? We’ll walk you through every 
 
 
 
+
+## Install Git with the One Click Apps Installer
+
+You can install **Git** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **Git**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **Git** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
 
 ## Preparation
 

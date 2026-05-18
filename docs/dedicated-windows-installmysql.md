@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-installmysql
-title: "Dedicated Server: Installation of MySQL"
+title: "Setup MySQL on a Windows Server - Deploy and Manage Reliable Databases"
 description: "Learn how to set up and secure your own MySQL database server on a Windows Dedicated Server for reliable data management → Learn more now"
 sidebar_label: Install MySQL
 services:
+  - vserver
   - dedicated
 ---
 

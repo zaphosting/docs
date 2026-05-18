@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-world-management
 title: "Hytale: Worlds Management"
 description: "Discover how to secure your Hytale server by managing player access with whitelist features and protect your gameplay → Learn more now"

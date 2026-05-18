@@ -105,7 +105,7 @@ Sind alle Felder ausgefüllt, klicke auf **WordPress installieren**. Die Install
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast WordPress auf deinem Webspace installiert. Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

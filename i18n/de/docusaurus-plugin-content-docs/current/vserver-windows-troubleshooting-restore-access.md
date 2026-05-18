@@ -79,6 +79,6 @@ shutdown -r -t 0
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du den Prozess abgeschlossen hast, solltest du erfolgreich ein neues Passwort für den Administrator-User gesetzt haben. Damit kannst du dich jetzt wieder über die Remote-Desktop-Verbindung einloggen. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

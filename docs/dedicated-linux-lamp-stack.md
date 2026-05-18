@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-lamp-stack
-title: "Dedicated Server: Setup LAMP stack - Linux, Apache, MySQL, PHP"
+title: "Setup a LAMP Stack on a Linux Server - Power Classic PHP Applications"
 description: "Discover how to set up a LAMP stack for hosting dynamic PHP websites on Linux servers efficiently → Learn more now"
 sidebar_label: Web LAMP stack
 services:
@@ -346,7 +346,7 @@ You should now be able to access the website via the domain (using `http`/port 8
 
 ## Conclusion
 
-Congratulations, you have successfully installed and setup the LAMP stack! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely to your websites. Please view our [Certbot guide](vserver-linux-certbot.md) with a focus on the **Apache Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
+Congratulations, you have successfully installed and setup the LAMP stack! As the next step, we **highly recommend** setting up a domain and **SSL certificate** to ensure that data is transmitted securely to your websites. Please view our [Certbot guide](dedicated-linux-certbot.md) with a focus on the **Apache Plugin** and follow the interactive setup to quickly and easily setup a certificate for your chosen domain.
 
 For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 

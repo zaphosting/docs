@@ -25,7 +25,7 @@ Moderator=ExampleID1
 Moderator=ExampleID2
 ```
 
-## Fazit
+## Abschluss
 
 Sobald die Angaben korrekt eingetragen und der Server neu gestartet wurde, hat der angegebene Spieler vollen Admin-Zugriff im Spiel. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

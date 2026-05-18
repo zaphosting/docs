@@ -21,14 +21,6 @@ Both our events and competitions are always filled with freebies such as money f
 
 We hope to see you at one of our events or competitions in the future! ⚔️
 
-### Contribution Program
-
-We run an official contribution program for our guides (yes these very docs that you are reading), where we pay for you to write guides! 📰
-
-The contribution program is accessible to anyone who wants to share their **knowledge** and **experience** with the community! We actively look for dedicated writers who have **strong technical skills** and are **knowledgeable** in the respective field. Most importantly, we look for writers who are dedicated and are happy in collaborating with our ZAP-Hosting Docs Team to improve and revise their content prior to publishing. ✏️🗣️
-
-Interested? **Contribute now. Get rewarded.** Head over to the [Introduction](contribution-introduction.md) section of our documentation to learn more! 🚀
-
 ### Giveaways
 
 Want to win some awesome freebies and prizes? 🎁

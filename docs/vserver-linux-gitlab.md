@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-gitlab
-title: "VPS: Install GitLab on Linux"
+title: "Setup GitLab on a Linux Server - Host Your Own DevOps Platform"
 description: "Discover how to efficiently set up GitLab on Linux to streamline DevOps workflows and enhance team collaboration → Learn more now"
 sidebar_label: Install GitLab
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -16,6 +17,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 GitLab is a comprehensive DevOps platform that enables teams to collaborate on code, automate workflows, and manage the full software development lifecycle efficiently. In this guide, the installation of GitLab on a Linux server will be explained.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ZWMPsLzrXZjnqEE/preview)
+
+## Install GitLab with the One Click Apps Installer
+
+You can install **GitLab** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **GitLab**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **GitLab** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
 
 <InlineVoucher />
 

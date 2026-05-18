@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-permissions
 title: "Hytale: Hantera användar- och gruppbehörigheter"
 description: "Hantera användar- och gruppbehörigheter på din Hytale-server → Lär dig mer nu"
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Att hantera behörigheter på en Hytale-server låter dig kontrollera vad spelare kan och inte kan göra. Det inkluderar att ge olika nivåer av åtkomst till betrodda spelare, moderatorer och administratörer. Att sätta upp behörigheter rätt är avgörande för att hålla en balanserad och säker servermiljö där spelare kan njuta av spelet utan oönskade exploits eller missbruk.
+Att hantera behörigheter på en Hytale-server låter dig styra vad spelare kan och inte kan göra. Det inkluderar att ge olika nivåer av åtkomst till pålitliga spelare, moderatorer och administratörer. Att sätta upp behörigheter rätt är superviktigt för att hålla en balanserad och säker servermiljö där spelarna kan njuta av spelet utan oönskade fusk eller missbruk.
 
 Hytales serverprogramvara stödjer hierarkiska behörighetsnivåer som bestämmer vilka kommandon och åtgärder varje spelare kan utföra. Dessa kan hanteras via live-konsolen eller genom konfigurationsinställningar beroende på din serversetup.
 
-:::info Early Access Notice
+:::info Tidig Access-info
 
-Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serverprogramvara, konfigurationsfiler, moddstöd och installationsflöden fortsätta att förändras över tid.
+Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serverprogramvara, konfigurationsfiler, moddstöd och installationsflöden fortsätta att ändras över tid.
 
 :::
 
@@ -46,7 +46,7 @@ Användarbehörigheter låter dig ge eller ta bort specifika behörigheter för 
 
 ### Visa användarbehörigheter
 
-För att visa alla behörigheter som är direkt tilldelade en användare. Det här kommandot visar varje behörighet som för närvarande gäller för den angivna användaren.
+För att visa alla behörigheter som är direkt tilldelade en användare. Det här kommandot visar varje behörighet som just nu gäller för den angivna användaren.
 
 ```
 /perm user list <uuid>
@@ -66,7 +66,7 @@ För att ge en eller flera behörigheter direkt till en användare. De angivna b
 
 ### Ta bort behörigheter från en användare
 
-För att ta bort behörigheter från en användare. Detta tar bara bort de angivna behörigheterna och lämnar alla andra behörigheter oförändrade.
+För att ta bort behörigheter från en användare. Detta tar bara bort de angivna behörigheterna och lämnar alla andra oförändrade.
 
 ```
 /perm user remove <uuid> <permissions>
@@ -90,7 +90,7 @@ Det här kommandot visar vilka behörighetsgrupper användaren för närvarande 
 
 ### Lägg till en användare i en grupp
 
-För att tilldela en användare till en behörighetsgrupp. När användaren lagts till ärver hen alla behörigheter som definieras för den gruppen.
+För att tilldela en användare till en behörighetsgrupp. När användaren är tillagd ärver hen alla behörigheter som definieras för den gruppen.
 
 ```
 /perm user group add <uuid> <group>
@@ -143,4 +143,3 @@ Detta tar bara bort de angivna behörigheterna från gruppen utan att påverka a
 
 
 <InlineVoucher />
-

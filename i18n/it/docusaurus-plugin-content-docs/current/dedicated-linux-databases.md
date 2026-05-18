@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-databases
-title: "Dedicated Server: Installazione di Database"
-description: "Scopri come installare e configurare vari database su Ubuntu e altre distro Linux per prestazioni e sicurezza migliorate → Scopri di più ora"
+title: "Configura Database su un Server Linux - Deploy e Gestione dei Servizi Database"
+description: "Scopri come installare e configurare vari database su Ubuntu e altre distro Linux per performance e sicurezza migliorate → Scopri di più ora"
 sidebar_label: Installa Database
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,11 +12,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
 
-Questa guida ti mostra i passaggi per installare diversi tipi di database. Per questo esempio, utilizziamo Ubuntu 20.04 come sistema operativo, ma sono indicati anche i comandi equivalenti per altre distro Linux che offriamo sul nostro sito. Questi comandi vanno eseguiti via SSH; se non sai come connetterti al tuo server via SSH, dai un’occhiata qui: [Accesso iniziale (SSH)](vserver-linux-ssh.md).
+Questa guida ti mostra i passaggi per installare diversi tipi di database. Per questo esempio, usiamo Ubuntu 20.04 come sistema operativo, ma sono indicati anche i comandi equivalenti per altre distro Linux che offriamo sul nostro sito. Questi comandi vanno eseguiti via SSH; se non sai come connetterti al tuo server via SSH, dai un’occhiata qui: [Accesso iniziale (SSH)](vserver-linux-ssh.md).
+
+## Installa Database con il One Click Apps Installer
+
+Puoi installare **Database** direttamente tramite il nostro **One Click Apps Installer** nell’interfaccia web del VPS. Dopo aver completato la configurazione iniziale delle app, apri il catalogo app, cerca **Database** e avvia il deploy con le impostazioni di progetto, ambiente e dominio che preferisci. È un modo veloce e user-friendly per deployare e gestire **Database** senza dover usare la linea di comando manualmente, godendo comunque di gestione web integrata, supporto per domini personalizzati e provisioning SSL dove disponibile.
 
 ## Preparazione
 
-Prima di iniziare con l’installazione di un database, è fondamentale assicurarsi che il sistema sia aggiornato. Per farlo, aggiorna i pacchetti tramite il package manager del tuo sistema con il comando corrispondente:
+Prima di iniziare l’installazione di un database, assicurati che il sistema sia aggiornato. Per farlo, aggiorna i pacchetti dal package manager del sistema con il comando corrispondente al tuo OS:
 
 ```
 // Ubuntu & Debian
@@ -31,9 +36,9 @@ sudo zypper up
 sudo dnf upgrade --refresh
 ```
 
-## Tipi di database
+## Tipi di Database
 
-A seconda del database che vuoi installare, segui la guida corrispondente:
+A seconda del servizio database che vuoi installare, segui la guida corrispondente:
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -43,9 +48,9 @@ import TabItem from '@theme/TabItem';
 
 ## Cos’è MariaDB?
 
-MariaDB è un sistema di gestione di database relazionali open-source, originariamente fork di MySQL. Garantisce prestazioni migliori, sicurezza e sviluppo continuo. Offre motori di archiviazione migliorati e un’architettura completamente compatibile con MySQL. Ti consigliamo MariaDB rispetto a MySQL.
+MariaDB è un sistema di gestione database relazionale open-source, originariamente fork di MySQL. Garantisce performance migliorate, sicurezza e sviluppo continuo. Offre motori di archiviazione avanzati e un’architettura completamente compatibile con MySQL. Ti consigliamo MariaDB rispetto a MySQL.
 
-## Installazione di MariaDB
+## Installazione MariaDB
 
 Prima di tutto, assicurati di installare l’ultima versione di MariaDB. Alcuni sistemi operativi più vecchi come Debian 9 o Ubuntu 18.04 non includono di default l’ultima versione nel package manager, quindi eseguendo questo comando ti assicuri di prendere la versione più aggiornata.
 
@@ -53,13 +58,13 @@ Prima di tutto, assicurati di installare l’ultima versione di MariaDB. Alcuni 
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 ```
 
-Dopo aver aggiunto il repo, aggiorna la cache del package manager come spiegato nella sezione preparazione.
+Dopo aver aggiunto il repo, aggiorna la cache del package manager seguendo i passaggi della sezione preparazione.
 
 :::info
 L’installazione del repo MariaDB (passo sopra) può essere tranquillamente saltata su sistemi moderni come Ubuntu 22.04 o Debian 11.
 :::
 
-Una volta configurato il repo, puoi installare MariaDB con il pacchetto `mariadb-server`. Esegui il comando corrispondente al tuo sistema operativo:
+Una volta completato il setup del repo, puoi installare MariaDB con il pacchetto `mariadb-server`. Esegui il comando corrispondente al tuo sistema operativo:
 
 ```
 // Ubuntu & Debian
@@ -75,7 +80,7 @@ sudo zypper install mariadb
 sudo dnf install mariadb-server
 ```
 
-## Configurazione di MariaDB
+## Configurazione MariaDB
 
 Terminata l’installazione, avvia la configurazione del server con:
 
@@ -83,7 +88,7 @@ Terminata l’installazione, avvia la configurazione del server con:
 mysql_secure_installation
 ```
 
-Ora puoi configurare il tuo server MariaDB (MySQL) seguendo le istruzioni e impostando una password. Alla prima richiesta puoi saltare premendo **Invio**.
+Ora puoi configurare il tuo server MariaDB (MySQL) seguendo le istruzioni e impostando una password per il server. Alla prima richiesta puoi saltare premendo **Invio**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sYDegXcMZwCoZzJ/preview)
 
@@ -91,25 +96,25 @@ Ora puoi configurare il tuo server MariaDB (MySQL) seguendo le istruzioni e impo
 L’utente root è l’utente principale del tuo server MariaDB (MySQL)!
 :::
 
-Ti verrà chiesto se vuoi impostare una password per root, conferma con **y**. Poi digita la nuova password.
+Ti verrà chiesto se vuoi impostare una password per l’utente root, conferma con **y** per sì. Poi digita la nuova password per root.
 
 :::note
-Mentre digiti la password non la vedrai, è normale. Assicurati di usare una password sicura e conservala in un posto sicuro.
+Mentre digiti la password non la vedrai, è normale e la password sarà comunque salvata. Usa una password sicura per root e conservala in un posto sicuro.
 :::
 
-Successivamente ti chiederà se vuoi rimuovere gli utenti anonimi: fallo sempre per motivi di sicurezza, conferma con **y**.
+Ti verrà chiesto se vuoi rimuovere gli utenti anonimi dal server: fallo sempre per motivi di sicurezza, conferma con **y**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9rnHy9dJmezjemq/preview)
 
-Poi ti chiederà se l’utente root può connettersi da remoto: per sicurezza disattiva questa opzione confermando con **y**.
+Poi decidi se l’utente root può connettersi da remoto: per sicurezza disattiva questa opzione confermando con **y**:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cEozmgcXDBgaRwY/preview)
 
-Puoi anche rimuovere il database di test fornito da MariaDB (MySQL) confermando con **y**, non serve e si può eliminare.
+Puoi anche confermare di rimuovere il database di test fornito da MariaDB (MySQL) con **y**, non serve e si può eliminare:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGHT3tm78dNBTRo/preview)
 
-Alla fine ti chiederà di aggiornare i permessi del database: conferma con **y** per attivare la password impostata.
+Alla fine ti verrà chiesto se vuoi aggiornare i permessi del database: conferma con **y** per attivare la password impostata per root:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kGNDZkRS4QrpEfF/preview)
 
@@ -122,11 +127,11 @@ Il tuo server MariaDB (MySQL) è ora pronto all’uso!
 
 ## Cos’è Redis?
 
-Redis è un archivio di strutture dati in-memory, usato principalmente per memorizzare dati con struttura chiave-valore, ma supporta anche liste, JSON e altro. È famoso per la sua velocità, rispondendo alle query in millisecondi.
+Redis è un data store in-memory, usato principalmente per memorizzare dati con struttura chiave-valore, ma supporta anche formati come liste, JSON e altro. È noto per la sua velocità, rispondendo alle query in millisecondi.
 
-## Installazione di Redis
+## Installazione Redis
 
-Prima di tutto, devi aggiungere un repo per installare Redis. Questo passo non serve per tutte le distro Linux, solo per quelle elencate qui sotto. Esegui il comando corrispondente al tuo sistema operativo e versione:
+Prima di tutto, devi aggiungere un repo che ci permette di installare Redis. Questo passo non serve per tutte le distro Linux, solo per quelle elencate qui sotto. Esegui il comando corrispondente al tuo sistema operativo e versione:
 
 ```
 // Ubuntu (qualsiasi versione) e Debian (solo Debian 10)
@@ -140,13 +145,13 @@ sudo yum install epel-release
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-Dopo aver aggiunto il repo, aggiorna la cache del package manager come spiegato nella sezione preparazione.
+Dopo aver aggiunto il repo, aggiorna la cache del package manager come indicato nella sezione preparazione.
 
 :::info
 Se il tuo sistema operativo non è nella lista sopra, puoi saltare questo passo.
 :::
 
-Dopo aver aggiunto il repo, installa il pacchetto Redis Server con il comando adatto al tuo sistema:
+Dopo aver aggiunto il repo, installa il pacchetto Redis Server con il comando adatto al tuo OS:
 
 ```
 // Ubuntu e Debian
@@ -166,7 +171,7 @@ Dopo l’installazione, il tuo server Redis è pronto! Di default gira su 127.0.
 
 :::caution 
 Per utenti Debian/Ubuntu:
-Ricordati di abilitare il servizio `redis-server` dopo l’installazione per farlo partire automaticamente all’avvio del server. Usa questo comando:
+Ricorda di abilitare il servizio `redis-server` dopo l’installazione per farlo partire automaticamente al boot del server. Usa questo comando:
 ```
 sudo systemctl enable --now redis-server
 ```
@@ -177,11 +182,11 @@ sudo systemctl enable --now redis-server
 <TabItem value="mongodb" label="MongoDB">
 
 ## Cos’è MongoDB?
-MongoDB è un database NoSQL orientato ai documenti, progettato per scalabilità e agilità degli sviluppatori. Memorizza dati in formato BSON simile a JSON, permettendo di archiviare tipi di dati diversi. Supporta indici per ridurre i tempi di risposta ed è caratterizzato dall’assenza di uno schema predefinito come MySQL o SQLite, offrendo flessibilità e velocità.
+MongoDB è un database NoSQL orientato ai documenti, progettato per scalabilità e agilità degli sviluppatori. Memorizza dati in formato BSON simile a JSON, permettendo di archiviare tipi di dati diversi. Supporta l’uso di indici per ridurre i tempi di risposta ed è caratterizzato dall’assenza di uno schema predefinito come MySQL o SQLite, offrendo agilità e flessibilità.
 
-## Installazione di MongoDB
+## Installazione MongoDB
 
-Seleziona il tuo sistema operativo dalle tab qui sotto per vedere la guida specifica.
+Seleziona il tuo sistema operativo dalle tab qui sotto per vedere la guida corrispondente.
 
 <Tabs>
 <TabItem value="mongodb-ubuntu-debian" label="Ubuntu & Debian">
@@ -196,19 +201,19 @@ curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
    --dearmor
 ```
 
-Poi aggiungi la sorgente MongoDB alla lista sorgenti del tuo sistema:
+Poi aggiungi la sorgente MongoDB alla lista sorgenti del tuo sistema con:
 
 ```
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/$(lsb_release -si | awk '{print tolower($0)}') $(lsb_release -sc)/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 ```
 
-Ora aggiorna i repository con `sudo apt update` e installa MongoDB con:
+Ora aggiorna i repository con `sudo apt update` e infine installa MongoDB con:
 
 ```
 sudo apt install mongodb-org
 ```
 
-La tua installazione di MongoDB dovrebbe essere pronta!
+La tua installazione MongoDB dovrebbe essere pronta!
 
 </TabItem>
 <TabItem value="mongodb-centos-fedora" label="CentOS & Fedora">
@@ -217,7 +222,7 @@ La tua installazione di MongoDB dovrebbe essere pronta!
 
 Prima devi configurare il repo MongoDB per sistemi Red Hat.
 
-Crea un file chiamato `/etc/yum.repos.d/mongodb-org-6.0.repo` e incolla dentro questo contenuto:
+Crea un file `/etc/yum.repos.d/mongodb-org-6.0.repo` e incolla dentro questo contenuto:
 
 ```
 [mongodb-org-6.0]
@@ -228,7 +233,7 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Ora puoi installare MongoDB. Il comando varia leggermente tra CentOS e Fedora, usa quello giusto:
+Ora puoi installare MongoDB. Il comando differisce leggermente tra CentOS e Fedora, usa quello giusto:
 
 ```
 // CentOS
@@ -245,19 +250,19 @@ La tua installazione MongoDB è pronta, molto più semplice rispetto ad altre di
 
 ### Installazione su OpenSUSE
 
-Per prima cosa importa la chiave pubblica MongoDB:
+Per prima cosa importa la chiave pubblica MongoDB con:
 
 ```
 sudo rpm --import https://www.mongodb.org/static/pgp/server-6.0.asc
 ```
 
-Poi aggiungi il repo MongoDB con:
+Poi aggiungi il repository MongoDB con:
 
 ```
 sudo zypper addrepo --gpgcheck "https://repo.mongodb.org/zypper/suse/15/mongodb-org/6.0/x86_64/" mongodb
 ```
 
-Infine installa MongoDB con:
+Infine installa l’ultima versione MongoDB con:
 
 ```
 sudo zypper -n install mongodb-org

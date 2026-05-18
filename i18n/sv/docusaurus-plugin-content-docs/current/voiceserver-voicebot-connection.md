@@ -5,6 +5,7 @@ description: "Upptäck hur du kopplar din voicebot till TeamSpeak och Discord-se
 sidebar_label: Koppla till voiceserver
 services:
   - voiceserver
+  - voicebot
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -15,7 +16,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Vill du koppla din Voicebot till din TeamSpeak-server men vet inte riktigt hur du ska göra? Ingen fara, här förklarar vi steg för steg hur du gör!
+Vill du koppla din Voicebot till din TeamSpeak-server men vet inte riktigt hur du gör? Ingen fara, här förklarar vi steg för steg hur du gör!
 
 
 
@@ -43,7 +44,7 @@ Fyll i **Discord Bot Token** och **Discord Bot Client ID**. Då kopplar voicebot
 
 ## Så får du din Discord Bot Token och Client ID
 
-Eftersom din Discord-server inte har en direkt IP-adress eller port, krävs några förberedande steg innan du kan använda din bot på en Discord-server.
+Eftersom din Discord-server inte har en direkt IP-adress eller port, finns det några steg att förbereda innan du kan använda din bot på en Discord-server.
 
 
 ### Skapa en Discord-applikation
@@ -61,12 +62,12 @@ Skapa applikationen genom att klicka på **Create**. Skriv ner applikations-ID:t
 
 ### Konfigurera bot och hämta token
 
-När du skapar applikationen skapas automatiskt en bot. Du kan enkelt få token genom att klicka på **Reset Token**. Spara token någonstans säkert:
+När du skapar applikationen skapas automatiskt en bot. Du får enkelt tag på token genom att klicka på **Reset Token**. Spara token på ett säkert ställe:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/5ypmywwPJxRAFax/preview)
 
 :::caution
-Dela aldrig din bot-token med någon! Den är som en hemlig nyckel och om den kommer i orätta händer kan det skapa säkerhetsproblem och störa din bot.
+Dela aldrig din bot-token med någon! Den är som en hemlig nyckel och om den läcker kan din bot bli hackad eller orsaka säkerhetsproblem.
 :::
 
 Scrolla ner på samma sida och aktivera **Presence Intent**, **Server Members Intent** och **Message Content Intent**, spara sedan ändringarna:
@@ -76,7 +77,7 @@ Scrolla ner på samma sida och aktivera **Presence Intent**, **Server Members In
 
 ### Bjud in boten till din Discord
 
-För att bjuda in boten, klistra in den tidigare antecknade client ID i länken nedan på rätt plats, öppna länken i din webbläsare och lägg till boten på din Discord-server. Det ska se ut ungefär så här:
+För att bjuda in boten, klistra in det tidigare noterade client ID:t i länken nedan på rätt plats, öppna länken i din webbläsare och lägg till boten i din Discord-server. Det ska se ut ungefär så här:
 ```
 https://discordapp.com/oauth2/authorize?&client_id=1364549558197026816&scope=bot&permissions=0
 ```
@@ -86,7 +87,7 @@ https://discordapp.com/oauth2/authorize?&client_id=1364549558197026816&scope=bot
 
 ### Konfigurera botens panel
 
-Fyll i den tidigare antecknade token och client ID i fälten i ZAP-Hostings kontrollpanel och klicka på **Spara** längst ner:
+Fyll i det sparade token och client ID i fälten i ZAP-Hostings kontrollpanel och klicka på **Spara** längst ner:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/9Y79xx2FzGm73zW/preview)
 
@@ -95,6 +96,6 @@ Starta sedan boten. Den bör koppla upp sig mot din Discord-server inom cirka 10
 
 ## Sammanfattning
 
-Voiceboten är en riktigt användbar och rolig produkt för många. Du kan använda den på både TeamSpeak och Discord. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig! 🙂
+Voiceboten är en riktigt användbar och rolig produkt för många. Du kan använda den på både Teamspeak och Discord. Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support som finns tillgänglig varje dag för att hjälpa dig! 🙂
 
 <InlineVoucher />

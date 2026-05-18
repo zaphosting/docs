@@ -108,7 +108,7 @@ Hier findest du eine Übersicht der gängigen Befehle, die du als Admin ausführ
 | /admin [Wert]                 | Steam-ID(s) der Administrator(en) des Servers                 |
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

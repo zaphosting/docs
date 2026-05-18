@@ -1,64 +1,51 @@
 ---
 id: create-screenshots
 title: Como e com qual ferramenta criar screenshots
-description: "Aprenda a capturar e compartilhar screenshots de forma segura usando ferramentas populares para melhorar a comunicação com o suporte → Saiba mais agora"
+description: "Aprenda a capturar e compartilhar screenshots com segurança usando ferramentas populares para melhorar a comunicação com o suporte → Saiba mais agora"
 sidebar_label: Criar Screenshots
 ---
 
-## Criar screenshots
+## Introdução
 
-Em alguns casos, é necessário enviar screenshots para o suporte.  
-Para que isso seja possível, o(s) screenshot(s) deve(m) ser compartilhado(s) via link.  
-Esse link pode ser um link para uma nuvem própria ou para um "web uploader", também chamado de ferramentas web para screenshots.
+Criar e compartilhar screenshots ajuda a melhorar a comunicação com o suporte, fornecendo informações visuais claras. Este guia explica como criar screenshots no seu computador e enviá-las diretamente para os tickets de suporte.
 
-Se sua nuvem própria ou a ferramenta web para screenshots não oferecer uma função para criar um screenshot diretamente, geralmente ele pode ser criado no PC com ferramentas simples.  
-No Windows, basta usar a ferramenta "Snipping Tool". Com essa ferramenta, um screenshot pode ser salvo localmente e depois enviado.  
-No Linux, a ferramenta geralmente já instalada "Screenshots" ou outras como "FlameShot" podem ser usadas para criar screenshots locais, que depois podem ser enviados.
+## Criando Screenshots
 
-Abaixo, vamos dar uma descrição rápida das 2 ferramentas de screenshot mais populares e gratuitas disponíveis no mercado:
+O melhor fluxo para compartilhar screenshots com segurança é criá-las localmente no seu dispositivo e enviá-las diretamente para o seu ticket de suporte via arrastar e soltar. Essa abordagem garante que as screenshots permaneçam privadas e sejam compartilhadas de forma segura, sem depender de links externos.
 
-:::info
-Não é recomendado compartilhar dados privados ou sensíveis publicamente. Se dados estiverem visíveis no screenshot, eles devem ser tornados irreconhecíveis ou substituídos por dados de exemplo.
+### Windows: Snipping Tool
+
+O Windows inclui a ferramenta nativa *Snipping Tool*, que permite capturar uma área específica, janela ou a tela inteira e salvar a imagem localmente.
+
+1. Abra o **Snipping Tool** buscando por ela no menu Iniciar.
+2. Clique em **Novo** para iniciar uma captura.
+3. Selecione a área que deseja capturar.
+4. Salve a screenshot em um local conveniente no seu computador.
+5. Envie o arquivo salvo diretamente para o seu ticket de suporte arrastando e soltando na interface do ticket.
+
+### Linux: Ferramenta de Screenshot ou FlameShot
+
+A maioria das distribuições Linux já vem com uma ferramenta padrão de *Screenshot*. Alternativamente, ferramentas de terceiros como o *FlameShot* oferecem recursos avançados.
+
+1. Abra a ferramenta de Screenshot ou o FlameShot.
+2. Selecione a área ou janela para capturar.
+3. Salve a screenshot localmente.
+4. Envie o arquivo salvo diretamente para o seu ticket de suporte usando arrastar e soltar.
+
+## Enviando Screenshots para o Suporte
+
+Depois de salvar a screenshot localmente, abra seu ticket de suporte no painel da ZAP-Hosting ou no portal de suporte.
+
+- Arraste e solte o arquivo da screenshot na área de mensagem do ticket.
+- Aguarde o upload ser concluído.
+- Envie o ticket com a screenshot anexada.
+
+Esse método evita o compartilhamento de links externos e mantém seus dados seguros.
+
+:::info Compartilhamento Seguro de Screenshots
+Evite compartilhar screenshots publicamente ou via serviços de upload de terceiros. Se sua screenshot contiver informações sensíveis ou privadas, certifique-se de borrar ou ocultar antes de enviar.
 :::
 
+## Conclusão
 
-### Imgur
-
-O Imgur oferece um uploader para arquivos próprios como imagens/vídeos.  
-Após o upload, um link é criado.  
-Esse link pode ser compartilhado com outras pessoas.
-
-Importante: Como não há função de screenshot lá, o screenshot deve ser feito antes para que possa ser enviado depois (veja acima em "Criar screenshots").
-
-[Site do Imgur](https://imgur.com/upload)
-
-Opção de Upload:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/4sCEeKkyGEm3EXd/preview)
-
-Depois que o screenshot for enviado, pequenas edições ainda podem ser feitas.
-
-Depois disso, o screenshot pode ser postado como Post na Comunidade (ficará listado publicamente) ou como Oculto (não ficará listado publicamente).
-
-Quando isso for feito, o link para compartilhamento será exibido:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/dJCpsKtka9rHX6T/preview)
-
-### Lightshot
-
-O Lightshot não oferece upload direto para imagens/screenshots. O upload só pode ser feito via cliente próprio.  
-O cliente pode ser baixado diretamente do site e oferece algumas ferramentas para marcar/destacar algo no screenshot ou torná-lo irreconhecível.
-
-Baixe o cliente [Download](https://app.prntscr.com/en/)  
-Importante: Não há versão para Linux.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/iGEccwZZDXqLGKp/preview)
-
-Após o download, o cliente pode ser instalado.  
-Depois, por padrão, um screenshot pode ser criado ou uma área pode ser selecionada com o botão "Print".
-
-Depois que a área for selecionada, o screenshot ainda pode ser editado.
-
-Quando a edição estiver pronta, se quiser, o screenshot pode ser enviado clicando na "Nuvem".
-
-Após o upload, o link pode ser copiado e compartilhado com outras pessoas.
+Parabéns, você criou e enviou screenshots localmente para o suporte com sucesso. Para dúvidas ou ajuda, não hesite em contatar nossa equipe de suporte, disponível diariamente para te ajudar! 🙂

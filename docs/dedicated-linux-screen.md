@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-screen
-title: "Dedicated Server: Installation of Screen"
+title: "Setup Screen on a Linux Server - Manage Persistent Terminal Sessions"
 description: "Discover how to manage multiple terminal sessions on Linux with Screen for improved productivity and session persistence → Learn more now"
 sidebar_label: Install Screen
 services:
+  - vserver
   - dedicated
 ---
 

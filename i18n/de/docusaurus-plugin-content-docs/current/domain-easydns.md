@@ -33,7 +33,7 @@ Im Beispiel aus dem Screenshot ist die Domain mit einem Gameserver verknüpft, d
 Bitte beachte, dass Änderungen an der DNS-Konfiguration bis zu **24 Stunden** benötigen können, bis sie global wirksam sind. Die Weiterleitung steht erst danach zur Verfügung.
 :::
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deine Domain erfolgreich mit einem deiner Services verknüpft. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

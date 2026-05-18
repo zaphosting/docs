@@ -17,7 +17,7 @@ VPSや専用サーバーを持っていて、そこにゲームサーバーを�
 
 ## 準備
 
-No More Room In HellサーバーのセットアップにはSteamCMDが必要だよ。SteamCMDは**Steamクライアントのコマンドライン版**。このツールを使えば、人気Steamゲームの専用サーバーアプリをサクッと簡単にダウンロードできるんだ。SteamCMDは公式Valve開発者サイトでゲットできるよ：https://developer.valvesoftware.com/wiki/SteamCMD。
+No More Room In HellサーバーのセットアップにはSteamCMDが必要だよ。SteamCMDは**Steamクライアントのコマンドライン版**。このツールを使えば、人気Steamゲームの専用サーバーアプリをサクッと簡単にダウンロードできるんだ。SteamCMDは公式Valve開発者サイトでゲットできるよ：`https://developer.valvesoftware.com/wiki/SteamCMD`。
 
 ダウンロードが終わったら、**steamcmd.zip**ファイルが手に入るから、まずはこれを解凍しよう。別フォルダを作ってそこに解凍するのがおすすめ。解凍後に**steamcmd.exe**が見えるはず。これを実行して、インストールが完了するまで待とう。
 

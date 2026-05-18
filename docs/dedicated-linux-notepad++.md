@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-notepad++
-title: "Dedicated Server: Setup Notepad++ on Linux"
+title: "Setup Notepad++ on a Linux Server - Use Your Preferred Editor via Wine"
 description: "Discover how to set up and optimize Notepad++ on Linux for powerful, lightweight code editing and enhanced developer productivity → Learn more now"
 sidebar_label: Install Notepad++
 services:

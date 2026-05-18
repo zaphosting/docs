@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-obtain-uuid
 title: "Hytale: Jak zdobyć UUID"
 description: "Dowiedz się, jak znaleźć lub zdobyć UUID gracza do konfiguracji serwera i uprawnień → Sprawdź teraz"
@@ -32,7 +32,7 @@ UUID gracza można zdobyć bezpośrednio w grze, korzystając z wbudowanej komen
 Będąc zalogowanym z odpowiednimi uprawnieniami, otwórz czat w grze i wykonaj komendę wyszukiwania UUID dla wybranego gracza:
 
 ```
-/whoami <nazwa_gracza>
+/whoami <playername>
 ```
 
 Po wykonaniu komendy serwer odpowie bezpośrednio na czacie, podając UUID powiązany z określonym graczem. Zwrócony UUID jednoznacznie identyfikuje tego gracza i można go skopiować do zarządzania uprawnieniami, przypisywania grup, wpisów na whitelistę lub innych operacji po stronie serwera.

@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-plausible
-title: "VPS: Setup Plausible on OS"
+title: "Setup Plausible Analytics on a Linux Server - Run Privacy Focused Web Analytics"
 description: "Discover how to set up a privacy-focused web analytics platform for clear insights and fast performance → Learn more now"
 sidebar_label: Install Plausible
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -72,7 +73,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-A complete walkthrough of the installation process and how to use Docker is available in our [Docker](vserver-linux-docker.md) guide.
+A complete walkthrough of the installation process and how to use Docker is available in our [Docker](dedicated-linux-docker.md) guide.
 
 
 
@@ -144,7 +145,7 @@ If you already got a Google Cloud account with an OAuth client, you can simply p
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Plausible on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Plausible on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Plausible.io](https://Plausible.io/) - Official Website
 - [github.com/Plausible/analytics](https://github.com/Plausible/analytics) - Announcements, Discussions, Issue report

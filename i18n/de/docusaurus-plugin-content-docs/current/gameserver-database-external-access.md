@@ -49,7 +49,7 @@ Der **Verbindungsname** dient nur zur Übersicht deiner Datenbanken und kann fre
 Danach öffnet sich die Datenbank mit allen vorhandenen Tabellen. Dort kannst du deine Datenbank jetzt ähnlich wie bei phpMyAdmin per Klick oder mit SQL-Befehlen bearbeiten und verwalten.
 ![](https://screensaver01.zap-hosting.com/index.php/s/FxDrm2K3f7YwLqS/preview)
 
-## Fazit
+## Abschluss
 
 Du hast erfolgreich eine Verbindung zu deiner Datenbank hergestellt und kannst sie jetzt verwalten. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂 
 

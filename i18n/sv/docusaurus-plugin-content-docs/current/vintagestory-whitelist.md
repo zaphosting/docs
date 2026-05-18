@@ -1,4 +1,4 @@
----
+﻿---
 id: vintagestory-whitelist
 title: "Vintage Story: Whitelist"
 description: "Information about how to whitelist your Vintage Story server from ZAP-Hosting → Learn more now"
@@ -42,16 +42,16 @@ För att ta bort åtkomst, stäng av whitelist för den spelaren.
 
 Om du vill kolla serverns nuvarande inställning igen, skriv ut serverkonfigurationen eller kör whitelistmode-kommandot utan att ändra andra värden och bekräfta att det fortfarande är satt till 1.
 
-## Kontrollera att Whitelist Fungerar
+## Verifiera Whitelist-funktionen
 
 Försök ansluta med en spelare som inte finns på whitelist. Anslutningen ska nekas. Testa sedan med en spelare som du satt `whitelist on` för.
 
-Om alla fortfarande kan ansluta, dubbelkolla att `whitelistmode` är satt till 1 och att du körde kommandona på rätt server.
+Om alla fortfarande kan gå med, dubbelkolla att `whitelistmode` är satt till 1 och att du körde kommandona på rätt server.
 
-## Sammanfattning
+## Slutsats
 
-Om du följt alla steg ovan korrekt är din whitelist nu aktiv och du kan styra exakt vilka som får gå med på servern. Om åtkomsten fortfarande inte fungerar som den ska, starta om servern en gång till och kontrollera filen eller kommandoutdata för att bekräfta att ändringen har tillämpats.
+Om du följt alla steg ovan korrekt är din whitelist nu aktiv och du kan styra exakt vilka som får gå med på servern. Om åtkomsten fortfarande inte fungerar som förväntat, starta om servern en gång till och kontrollera filen eller kommandoutdata för att bekräfta att ändringen har tillämpats.
 
-Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂
+Har du fler frågor eller behöver hjälp, tveka inte att kontakta vår support – vi finns här för dig varje dag! 🙂
 
 <InlineVoucher />

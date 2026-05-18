@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-git
-title: "Dedicated Server: Setup Git on Linux"
+title: "Setup Git on a Linux Server - Enable Version Control for Your Projects"
 description: "Discover how to set up and configure Git for efficient version control and seamless collaboration in your projects → Learn more now"
 sidebar_label: Install Git
 services:
+  - vserver
   - dedicated
 ---
 
@@ -20,6 +21,10 @@ Considering about hosting this service yourself? We’ll walk you through every 
 
 
 
+
+## Install Git with the One Click Apps Installer
+
+You can install **Git** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **Git**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **Git** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
 
 ## Preparation
 
@@ -68,7 +73,7 @@ git config --global user.email "doe@e-mail.com"
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Git on your Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Git on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [git-scm.com](https://git-scm.com/) - Official Website
 - [git-scm.com/doc](https://git-scm.com/doc) Git Documentation

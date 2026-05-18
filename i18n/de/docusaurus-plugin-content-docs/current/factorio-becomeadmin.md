@@ -60,7 +60,7 @@ Die Spieler mit den Namen **PlayerName1, PlayerName2, PlayerName3** haben nun di
 Weitere verfügbare Befehle findest du im offiziellen [Factorio Wiki](https://wiki.factorio.com/Console).
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast die Administratorrechte erfolgreich konfiguriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-joplin
-title: "VPS: Setup Joplin on Linux"
+title: "Setup Joplin Server on a Linux Server - Host Your Own Secure Notes Platform"
 description: "Discover how to organize and sync encrypted Markdown notes across devices with Joplin for secure, flexible note-taking → Learn more now"
 sidebar_label: Install Joplin
 services:
-- vserver
+  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -18,6 +19,10 @@ Joplin is an open-source note-taking and to-do application that enables organizi
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qfo8k2RXWPFqi3g/preview)
 
 Considering about hosting this service yourself? We’ll walk you through every step on how to set it up and configure it, along with everything you need to keep in mind.
+
+## Install Joplin with the One Click Apps Installer
+
+You can install **Joplin** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **Joplin**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **Joplin** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
 
 :::danger Linux with Desktop Variant required
 This application can only be installed and used on a Linux system with a graphical user interface; in this example, Ubuntu Desktop 25.04 is used as the reference.
@@ -118,7 +123,7 @@ With these core settings, Joplin is ready for use in a variety of scenarios, suc
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Joplin on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Joplin on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [Joplinapp.org](https://joplin.org/) - Official Website
 - [Joplinapp.org/help/](https://joplinapp.org/help/) - Joplin Help Center

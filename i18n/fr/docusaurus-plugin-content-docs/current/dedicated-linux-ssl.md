@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-ssl
-title: "Serveur dédié : Créer un certificat SSL (Let's Encrypt) pour serveur Linux"
+title: "Configurer le SSL Let's Encrypt sur un serveur Linux - Sécurisez votre serveur dédié avec HTTPS"
 description: "Découvrez comment sécuriser votre site web avec des certificats SSL gratuits grâce à Certbot et Let's Encrypt pour une transmission de données sécurisée → En savoir plus maintenant"
 sidebar_label: Installer un certificat SSL (Let's Encrypt)
 services:
@@ -19,29 +19,29 @@ Les certificats SSL sont des éléments essentiels d’internet, garantissant qu
 
 Pour utiliser Certbot, vous aurez besoin d’un serveur Linux et d’un **domaine** que vous possédez. Vous devez avoir accès aux paramètres DNS du domaine et vous **devez** créer un enregistrement DNS `A` pointant vers l’adresse IP de votre __serveur Linux__ pour chaque domaine racine ou sous-domaine que vous souhaitez utiliser.
 
-Certbot propose aussi des plugins supplémentaires qui vous permettent d’installer un certificat en "un clic" pour un domaine, compatible avec plusieurs serveurs web comme Nginx ou Apache. Nous recommandons d’utiliser Nginx, car c’est un serveur web open-source très performant et populaire. Consultez notre [guide proxy inverse Linux](dedicated-linux-proxy.md) pour vous aider à le configurer.
+Certbot propose aussi des plugins supplémentaires qui vous permettent d’installer un certificat en "un clic" pour un domaine, compatibles avec plusieurs serveurs web comme Nginx ou Apache. Nous recommandons d’utiliser Nginx, car c’est un serveur web open-source très performant et populaire. Consultez notre [guide proxy inverse Linux](dedicated-linux-proxy.md) pour vous aider à le configurer.
 
 ## Installation
 
-Commencez par installer le paquet open-source [**Certbot**](https://certbot.eff.org/), que vous utiliserez pour demander des certificats SSL gratuits auprès de **Let's Encrypt**.
+Commencez par installer le paquet open-source [**Certbot**](https://certbot.eff.org/) que vous utiliserez pour demander des certificats SSL gratuits auprès de **Let's Encrypt**.
 
 ```
 sudo apt install certbot
 ```
 
-Avec Certbot installé, vous pouvez maintenant demander des certificats pour votre(s) domaine(s). Let's Encrypt et Certbot proposent plusieurs défis ACME pour vérifier la propriété du domaine.
+Une fois Certbot installé, vous pouvez demander des certificats pour votre(s) domaine(s). Let's Encrypt et Certbot proposent plusieurs défis ACME pour vérifier la propriété du domaine.
 
 Nous recommandons vivement d’utiliser la méthode par défaut **HTTP-01** car elle permet un renouvellement automatique. Cependant, si vous rencontrez des problèmes, vous pouvez essayer la méthode **DNS-01** en alternative, qui est manuelle et ne supporte pas le renouvellement automatique car elle repose sur la vérification via un enregistrement DNS **TXT**.
 
-:::tip Utilise les plugins pour serveurs web
-Pour ceux qui utilisent un serveur web comme Nginx, Apache ou leur propre serveur, on vous conseille de passer à la section **Plugins pour serveurs web** ci-dessous, qui montre comment utiliser les plugins Certbot pour ces serveurs afin d’avoir une installation "un clic" et de demander des certificats sans devoir arrêter le serveur web.
+:::tip Utilisez les plugins pour serveurs web  
+Pour les utilisateurs d’un serveur web comme Nginx, Apache ou un serveur web personnalisé, nous recommandons de passer à la section **Plugins pour serveurs web** ci-dessous qui montre comment utiliser les plugins Certbot pour ces serveurs afin de bénéficier d’une installation "un clic" et de demander des certificats sans arrêter le serveur web.  
 :::
 
 ### Défi HTTP-01
 
-Avec Certbot installé, vous pouvez maintenant demander des certificats pour votre(s) domaine(s). Dans cet exemple, nous utiliserons le mode standalone, ce qui signifie que Certbot va lancer un serveur web temporaire pour effectuer les actions nécessaires. Cela implique que vous devez ouvrir le port 80 dans vos règles de pare-feu et ne pas avoir d’autres serveurs web ou services utilisant ce port, afin que le serveur temporaire puisse démarrer et permettre la récupération du défi (d’où le `HTTP` dans le nom du défi).
+Avec Certbot installé, vous pouvez maintenant demander des certificats pour votre(s) domaine(s). Dans cet exemple, nous utiliserons le mode standalone, ce qui signifie que Certbot lancera un serveur web temporaire pour effectuer les actions nécessaires. Cela implique que vous devez ouvrir le port 80 dans vos règles de pare-feu et ne pas avoir de serveur web ou service déjà actif sur ce port pour permettre au serveur temporaire de démarrer et que le défi soit récupéré (d’où le `HTTP` dans le nom du défi).
 
-Dans la commande suivante, vous utiliserez le paramètre `--standalone` pour indiquer à Certbot que vous souhaitez utiliser l’option du serveur web temporaire.
+Dans la commande suivante, vous utiliserez le paramètre `--standalone` pour indiquer à Certbot que vous souhaitez utiliser l’option serveur temporaire.
 
 ```
 # Pour les domaines racines
@@ -50,23 +50,23 @@ certbot certonly --standalone -d [votre_domaine_racine] -d www.[votre_domaine_ra
 # Pour les sous-domaines
 certbot certonly --standalone -d [votre_domaine]
 
-# Installation interactive
+# Configuration interactive
 certbot certonly --standalone
 ```
 
-Une fois la commande lancée, il se peut que vous deviez suivre une configuration interactive la première fois, qui vous demandera une adresse email pour la communication liée au certificat, une inscription optionnelle à une liste de diffusion, puis l’acceptation des conditions générales.
+Une fois la commande lancée, il se peut que vous deviez suivre une configuration interactive initiale qui vous demandera une adresse email pour la communication liée au certificat, suivie d’une liste de diffusion optionnelle et des conditions générales que vous devrez accepter.
 
-Certbot va alors générer un défi ACME et l’héberger via le serveur web temporaire. Les serveurs de Let's Encrypt tenteront de récupérer ce défi depuis votre serveur et, en cas de succès, les certificats seront créés et sauvegardés dans le chemin `/etc/letsencrypt/live/[votre_domaine]`.
+Certbot générera alors un défi ACME et l’hébergera via le serveur web temporaire. Les serveurs de Let's Encrypt tenteront de récupérer ce défi depuis votre serveur et, en cas de succès, les certificats seront créés et sauvegardés dans le chemin `/etc/letsencrypt/live/[votre_domaine]`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/7oGcQotKaowaDzM/preview)
 
-Vous pouvez maintenant utiliser les certificats SSL où vous le souhaitez simplement en fournissant le chemin local vers les certificats.
+Vous pouvez désormais utiliser les certificats SSL où vous le souhaitez simplement en fournissant le chemin local vers les certificats.
 
 ### Enregistrement DNS TXT
 
-Si vous avez des difficultés à vérifier votre domaine via la méthode **HTTP-01**, vous pouvez essayer la méthode **DNS-01** qui consiste à créer un enregistrement DNS **TXT** avec une valeur fournie par Let's Encrypt.
+Si vous rencontrez des difficultés pour vérifier votre domaine via la méthode **HTTP-01**, vous pouvez essayer la méthode **DNS-01** qui consiste à créer un enregistrement DNS **TXT** avec une valeur fournie par Let's Encrypt.
 
-Comme mentionné plus haut, cette méthode ne supporte **pas** le renouvellement automatique à moins que vous ne mettiez en place votre propre infrastructure pour gérer cela. Il est donc fortement recommandé d’utiliser la méthode **HTTP-01** quand c’est possible.
+Comme mentionné précédemment, cette méthode ne supporte **pas** le renouvellement automatique à moins que vous ne mettiez en place votre propre infrastructure pour gérer cela. Il est donc fortement recommandé d’utiliser la méthode **HTTP-01** quand c’est possible.
 
 Dans la commande suivante, vous utiliserez le paramètre `--preferred-challenges` pour indiquer à Certbot que vous souhaitez utiliser la méthode `DNS-01`.
 
@@ -77,29 +77,29 @@ certbot certonly --preferred-challenges dns-01 -d [votre_domaine_racine] -d www.
 # Pour les sous-domaines
 certbot certonly --preferred-challenges dns-01 -d [votre_domaine] --manual -m [votre_email]
 
-# Installation interactive
+# Configuration interactive
 certbot certonly --preferred-challenges dns-01
 ```
 
-Une fois la commande lancée, vous devrez suivre une configuration interactive la première fois, qui vous demandera une adresse email pour la communication liée au certificat, une inscription optionnelle à une liste de diffusion, puis l’acceptation des conditions générales.
+Une fois la commande lancée, vous devrez suivre une configuration interactive initiale qui vous demandera une adresse email pour la communication liée au certificat, suivie d’une liste de diffusion optionnelle et des conditions générales que vous devrez accepter.
 
-Certbot vous fournira alors les instructions pour créer un enregistrement DNS **TXT** avec une valeur spécifique à utiliser. La cible sera généralement `_acme-challenge.` préfixé à votre domaine (dans cet exemple, ce serait `_acme-challenge.zapdocs.example.com`) et la valeur à définir sera affichée dans la console.
+Certbot vous fournira alors les instructions pour créer un enregistrement DNS **TXT** avec une valeur spécifique à utiliser. La cible sera généralement `_acme-challenge.` préfixé à votre domaine (dans cet exemple, ce serait `_acme-challenge.zapdocs.example.com`) et la valeur à définir sera indiquée dans la console.
 
 Une fois l’enregistrement créé, appuyez sur Entrée pour continuer. Si tout est correct et propagé, les certificats seront créés et sauvegardés dans le chemin `/etc/letsencrypt/live/[votre_domaine]`.
 
 :::note
-Soyez patient, car les modifications des enregistrements DNS peuvent prendre un certain temps à se propager. Cela se produit généralement en quelques minutes, mais dans de rares cas, cela peut prendre plus longtemps.
+Soyez patient, car les modifications des enregistrements DNS peuvent prendre un certain temps à se propager. Cela se produit généralement en quelques minutes, mais dans de rares cas, cela peut prendre plus longtemps.  
 :::
 
-Vous pouvez maintenant utiliser les certificats SSL où vous le souhaitez simplement en fournissant le chemin local vers les certificats.
+Vous pouvez désormais utiliser les certificats SSL où vous le souhaitez simplement en fournissant le chemin local vers les certificats.
 
 ## Plugins pour serveurs web
 
-Certbot propose plusieurs plugins pour serveurs web qui rendent la gestion des certificats encore plus simple, car ils modifient automatiquement les blocs serveur concernés. Pour utiliser un plugin, il suffit d’ajouter le paramètre correspondant à votre commande `certbot`.
+Certbot propose plusieurs plugins supplémentaires pour serveurs web qui facilitent encore plus la gestion des certificats, car ils modifient automatiquement les blocs serveur concernés. Pour utiliser un plugin, il suffit d’ajouter le paramètre correspondant à votre commande `certbot`.
 
-Ces méthodes utilisent toutes la validation **HTTP-01** et fonctionnent de manière similaire. Quand un plugin est utilisé, Certbot recherche d’abord le bloc serveur correspondant qui inclut le domaine demandé dans le paramètre `server_name`. Une fois trouvé, Certbot génère un défi ACME et ajoute un bloc temporaire `location /.well-known/acme-challenge/...` dans la configuration du serveur.
+Ces méthodes utilisent toutes la validation **HTTP-01** et fonctionnent de manière similaire. Lorsqu’un plugin est utilisé, Certbot recherche d’abord le bloc serveur correspondant qui inclut le domaine demandé dans le paramètre `server_name`. Une fois trouvé, Certbot génère un défi ACME et ajoute un bloc temporaire `location /.well-known/acme-challenge/...` dans la configuration du serveur.
 
-Les serveurs de Let's Encrypt tenteront alors de récupérer ce défi depuis votre serveur et, en cas de succès, votre certificat sera généré. La configuration du bloc serveur sera automatiquement modifiée pour passer en HTTPS (port 443) et pour pointer vers les nouveaux certificats.
+Les serveurs de Let's Encrypt tenteront alors de récupérer ce défi depuis votre serveur et, en cas de succès, votre certificat sera généré. La configuration du bloc serveur pour le serveur web sélectionné sera automatiquement modifiée pour passer en HTTPS (port 443) et pour pointer vers les nouveaux certificats générés.
 
 <Tabs>
 <TabItem value="nginx" label="Nginx" default>
@@ -112,7 +112,7 @@ Avant d’utiliser le plugin, assurez-vous qu’il est installé.
 sudo apt install python3-certbot-nginx
 ```
 
-Pour utiliser le plugin Nginx, ajoutez le paramètre `--nginx` dans votre commande comme suit.
+Pour utiliser le plugin Nginx, ajoutez le paramètre `--nginx` à votre commande comme suit.
 
 ```
 # Pour les domaines racines
@@ -121,12 +121,12 @@ certbot --nginx -d [votre_domaine_racine] -d www.[votre_domaine_racine]
 # Pour les sous-domaines
 certbot --nginx -d [votre_domaine]
 
-# Installation interactive
+# Configuration interactive
 certbot --nginx
 ```
 
 :::tip
-Si vous souhaitez désactiver les modifications automatiques du bloc serveur par Certbot, vous pouvez ajouter le paramètre `certonly` dans la commande, par exemple `certbot certonly`.
+Si vous souhaitez désactiver les modifications automatiques "un clic" des blocs serveur par Certbot, vous pouvez ajouter le paramètre `certonly` dans la commande, par exemple `certbot certonly`.  
 :::
 
 </TabItem>
@@ -141,7 +141,7 @@ Avant d’utiliser le plugin, assurez-vous qu’il est installé.
 sudo apt install python3-certbot-apache
 ```
 
-Pour utiliser le plugin Apache, ajoutez le paramètre `--apache` dans votre commande comme suit.
+Pour utiliser le plugin Apache, ajoutez le paramètre `--apache` à votre commande comme suit.
 
 ```
 # Pour les domaines racines
@@ -150,12 +150,12 @@ certbot --apache -d [votre_domaine_racine] -d www.[votre_domaine_racine]
 # Pour les sous-domaines
 certbot --apache -d [votre_domaine]
 
-# Installation interactive
+# Configuration interactive
 certbot --apache
 ```
 
 :::tip
-Si vous souhaitez désactiver les modifications automatiques du bloc serveur par Certbot, vous pouvez ajouter le paramètre `certonly` dans la commande, par exemple `certbot certonly`.
+Si vous souhaitez désactiver les modifications automatiques "un clic" des blocs serveur par Certbot, vous pouvez ajouter le paramètre `certonly` dans la commande, par exemple `certbot certonly`.  
 :::
 
 </TabItem>
@@ -164,23 +164,23 @@ Si vous souhaitez désactiver les modifications automatiques du bloc serveur par
 
 ### Plugin Webroot
 
-Si vous utilisez votre propre serveur web local qui n’utilise pas de logiciel traditionnel, vous pouvez préférer la méthode webroot pour utiliser votre serveur sans devoir l’arrêter.
+Si vous utilisez votre propre serveur web local qui n’utilise pas de logiciel traditionnel, vous pouvez préférer la méthode webroot pour utiliser votre serveur web sans avoir à l’arrêter.
 
-Pour utiliser le plugin Webroot, ajoutez le paramètre `--webroot` dans votre commande. Vous devez aussi inclure `-w [chemin_serveur_web]` (abréviation de `--webroot-path`), qui est le chemin vers le répertoire racine de votre serveur web.
+Pour utiliser le plugin Webroot, ajoutez le paramètre `--webroot` à votre commande comme suit. Vous devez aussi inclure `-w [chemin_vers_votre_serveur_web]` (abréviation de `--webroot-path`), qui est le chemin vers le répertoire racine de votre serveur web.
 
 ```
 # Pour les domaines racines
-certbot --webroot -w [chemin_serveur_web] -d [votre_domaine_racine] -d www.[votre_domaine_racine]
+certbot --webroot -w [chemin_vers_votre_serveur_web] -d [votre_domaine_racine] -d www.[votre_domaine_racine]
 
 # Pour les sous-domaines
-certbot --webroot -w [chemin_serveur_web] -d [votre_domaine]
+certbot --webroot -w [chemin_vers_votre_serveur_web] -d [votre_domaine]
 
-# Installation interactive
-certbot --webroot -w [chemin_serveur_web]
+# Configuration interactive
+certbot --webroot -w [chemin_vers_votre_serveur_web]
 ```
 
 :::tip
-Un des chemins webroot les plus courants est `/var/www/html`. Vous pouvez aussi utiliser cette méthode pour des serveurs comme Nginx ou Apache si vous souhaitez utiliser le serveur sans que Certbot modifie automatiquement les blocs serveur comme le font les plugins natifs.
+L’un des emplacements webroot les plus courants est `/var/www/html`. Vous pouvez aussi utiliser cette méthode pour des serveurs web comme Nginx ou Apache si vous souhaitez utiliser le serveur web sans que Certbot modifie automatiquement les blocs serveur comme le font les plugins natifs.  
 :::
 
 </TabItem>
@@ -195,10 +195,10 @@ certbot renew --dry-run
 ```
 
 :::tip
-Comme mentionné plus haut, la méthode **DNS-01** ne supporte pas le renouvellement automatique via Certbot, sauf si vous mettez en place votre propre infrastructure pour gérer cela. Il est donc fortement recommandé d’utiliser la méthode **HTTP-01**.
+Comme mentionné précédemment, la méthode **DNS-01** ne supporte pas le renouvellement automatique via Certbot, sauf si vous mettez en place votre propre infrastructure pour gérer cela. Il est donc fortement recommandé d’utiliser la méthode **HTTP-01**.  
 :::
 
-Cette commande doit réussir si tout est en ordre. Si vous souhaitez voir ou modifier le renouvellement automatique, la commande se trouve dans l’un des emplacements suivants : `/etc/crontab/`, `/etc/cron.*/*` ou via `systemctl list-timers`.
+Cette commande devrait réussir si tout est en ordre. Si vous souhaitez consulter ou modifier le renouvellement automatique, la commande se trouve dans l’un des emplacements suivants : `/etc/crontab/`, `/etc/cron.*/*` ou via `systemctl list-timers`.
 
 ### Configuration manuelle du cronjob
 
@@ -214,4 +214,4 @@ Enregistrez le fichier et quittez nano avec `CTRL + X`, puis `Y` pour confirmer 
 
 ## Conclusion
 
-Vous avez configuré avec succès Certbot pour votre(s) domaine(s) via plusieurs méthodes, que ce soit standalone, webroot ou via un des plugins, offrant à votre site une transmission de données sécurisée via HTTPS. Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂
+Vous avez configuré avec succès Certbot pour votre(s) domaine(s) via plusieurs méthodes, y compris standalone, webroot ou via un des plugins, offrant à votre site une transmission de données sécurisée via HTTPS. Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂

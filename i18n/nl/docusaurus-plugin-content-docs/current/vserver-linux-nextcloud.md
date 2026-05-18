@@ -1,21 +1,26 @@
 ---
 id: vserver-linux-nextcloud
-title: "VPS: Nextcloud Installatie"
+title: "Nextcloud installeren op een Linux Server - Bouw je eigen Private Cloud Storage"
 description: "Ontdek hoe je een high-performance Nextcloud server op Linux opzet voor optimale cloud hosting → Leer het nu"
-sidebar_label: Nextcloud Installeren
+sidebar_label: Nextcloud installeren
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Nextcloud is een open source cloudoplossing en een fork van Owncloud, opgericht in 2016 door de voormalige Owncloud-oprichter Frank Kalitschek.
+Nextcloud is een open source cloudoplossing en een fork van Owncloud, opgericht in 2016 door de voormalige Owncloud oprichter Frank Kalitschek.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kCndbKaFAaktERk/preview)
 
 Voor optimale performance, stabiliteit en functionaliteit wordt de volgende setup aanbevolen voor het hosten van een Nextcloud server. De Nextcloud server is niet compatibel met Windows en MacOS. Tenminste niet zonder extra virtualisatie of vergelijkbare workarounds.
+
+## Nextcloud installeren met de One Click Apps Installer
+
+Je kunt **Nextcloud** direct installeren via onze **One Click Apps Installer** in de VPS webinterface. Na het voltooien van de initiële app setup, open je de appcatalogus, zoek je op **Nextcloud** en start je de deployment met je gewenste project-, omgeving- en domeininstellingen. Dit geeft je een snelle en gebruiksvriendelijke manier om **Nextcloud** te deployen en beheren zonder handmatige command line setup, terwijl je toch profiteert van geïntegreerd webbeheer, custom domeinondersteuning en SSL provisioning waar beschikbaar.
 
 <InlineVoucher />
 
@@ -30,18 +35,18 @@ De volgende vereisten worden aanbevolen door de ontwikkelaars en zijn gebaseerd 
 | CPU           | 2x 1 GHz               | 4x 2+ GHz                   |
 | RAM           | 512 MB                 | 4+ GB                      |
 | Opslag        | 10 GB                  | 50+ GB                     |
-| Bandbreedte   | 100 mbit/s (up & down) | 500mbit/s (up & down) Aanbevolen als meerdere gebruikers de cloud gaan gebruiken |
+| Bandbreedte   | 100 mbit/s (up & down) | 500 mbit/s (up & down) Aanbevolen als meerdere gebruikers de cloud gaan gebruiken |
 
 #### Software
 
 | Platform         | Opties                                                      |
 | ---------------- | ------------------------------------------------------------ |
-| Besturingssysteem| Ubuntu (14.04, 16.04, 18.04), Debian(8,9,10), CentOS 6.5/7   |
-| Database         | MySQL of MariaDB 5.5+ (aanbevolen), SQLite (alleen aanbevolen voor testen en minimale installaties) |
+| Besturingssysteem| Ubuntu (14.04, 16.04, 18.04), Debian (8,9,10), CentOS 6.5/7  |
+| Database         | MySQL of MariaDB 5.5+ (aanbevolen), SQLite (alleen voor testen en minimale setups) |
 | Webserver        | Apache 2.4 met `mod_php` of `php-fpm` (aanbevolen)           |
 | PHP              | 5.6, 7.0 (aanbevolen), 7.1 (aanbevolen), 7.2                 |
 
-Je moet verbinding maken via een SSH-client om de cloud op een Linux-server te installeren. Als je niet zeker weet hoe je SSH gebruikt, hier is een gids: [Eerste toegang (SSH)](vserver-linux-ssh.md)
+Je moet verbinding maken via een SSH client om de cloud op een Linux server te installeren. Als je niet zeker weet hoe je SSH gebruikt, bekijk dan deze gids: [Initial access (SSH)](vserver-linux-ssh.md)
 
 Zodra de verbinding staat, kun je de benodigde pakketten installeren die nodig zijn voor de daadwerkelijke Nextcloud installatie. Dit omvat het installeren van een webserver en PHP.
 
@@ -436,7 +441,7 @@ Als deze stap klaar is, is het tijd om het installatiescript te draaien. Toegang
 **http://domain.tld/nextcloud/** 
 :::
 
-Het installatiescherm verschijnt, waarin een root gebruiker wordt aangemaakt en databasegegevens worden ingevuld:
+Het installatiescript verschijnt, waarin een root gebruiker wordt aangemaakt en databasegegevens worden ingevuld:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/79kgamkS36Dgi9x/preview)
 
@@ -446,15 +451,15 @@ Het installatiescherm verschijnt, waarin een root gebruiker wordt aangemaakt en 
 
 ## Beveiliging en veiligheid
 
-**Setup Waarschuwingen**
+**Setup waarschuwingen**
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/nat3Fekj6MRP8Nw/preview)
 
 
 
-**Data Directory**
+**Data map**
 
-Het wordt sterk aanbevolen om de data directory buiten de web root directory te plaatsen (dus buiten /var/www). De makkelijkste manier is dit direct bij een nieuwe installatie te doen. De directory kan tijdens de setup worden gedefinieerd. De directory moet echter eerst aangemaakt worden en de juiste permissies krijgen. De data kan bijvoorbeeld opgeslagen worden in een map genaamd Cloud in de home directory.
+Het wordt sterk aanbevolen om de data map buiten de web root directory te plaatsen (dus buiten /var/www). De makkelijkste manier is dit direct bij een nieuwe installatie te doen. De map kan tijdens de setup worden gedefinieerd. De map moet echter eerst aangemaakt worden en de juiste permissies krijgen. De data kan bijvoorbeeld opgeslagen worden in een map genaamd Cloud in de home directory.
 
 
 ```
@@ -466,7 +471,7 @@ chown -R www-data:www-data /home/cloud/
 
 **HTTPS via SSL certificaat (Let's Encrypt)** 
 
-Een goede cloud oplossing moet alleen via een SSL verbinding bereikbaar zijn. Zonder SSL encryptie worden data en info in plain text verstuurd. Deze info kan makkelijk en snel onderschept en gelezen worden zonder encryptie.
+Een goede cloud oplossing moet alleen via een SSL verbinding bereikbaar zijn. Zonder SSL encryptie worden data en informatie in plain text verstuurd. Deze info kan makkelijk en snel onderschept en gelezen worden zonder encryptie.
 
 ```
 <IfModule mod_ssl.c>
@@ -503,7 +508,7 @@ SSLCertificateKeyFile /etc/letsencrypt/live/domain.tld/privkey.pem
 
 
 
-Daarnaast moet al het HTTP verkeer permanent doorgestuurd worden naar HTTPS met statuscode 301. Dit kan met Apache via een configuratie zoals de volgende Apache VirtualHosts configuratie:
+Daarnaast moet al het HTTP verkeer doorgestuurd worden naar HTTPS met een permanente redirect (statuscode 301). Dit kan met Apache via een configuratie zoals de volgende Apache VirtualHosts configuratie:
 
 ```
 <VirtualHost *:80>
@@ -515,19 +520,19 @@ Daarnaast moet al het HTTP verkeer permanent doorgestuurd worden naar HTTPS met 
 
 ## Nextcloud beheren
 
-Toegang tot Nextcloud kan via de browser, maar ook via smartphone en computer met de app. De downloadlinks vind je hier: https://nextcloud.com/install/#install-clients
+Toegang tot Nextcloud kan via de browser, maar ook via smartphone en computer met de app. Download links vind je hier: https://nextcloud.com/install/#install-clients
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/aw6qpNE7TkwQeaP/preview)
 
-Onder instellingen kun je ook na de setup nog wat opties aanpassen en belangrijke info bekijken zoals logs, activiteiten. Dit omvat extra beveiligingsopties (two-factor authenticatie, encryptie, ...), design instellingen (logo, kleur, slogan, header), toegangsinstellingen en nog veel meer.
+Onder instellingen kun je ook na de setup nog opties aanpassen en belangrijke info bekijken zoals logs en activiteiten. Dit omvat extra beveiligingsinstellingen (two-factor authentication, encryptie, ...), design instellingen (logo, kleur, slogan, header), toegangsinstellingen en meer.
 
 **Apps**
 
-Daarnaast is het mogelijk om extra apps te installeren naast de standaard apps. Je vindt ze via het menu-item **Apps**.
+Daarnaast is het mogelijk om extra apps te installeren naast de standaard apps. Je vindt deze onder het menu-item **Apps**.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/wKERd24E25668kt/preview)
 
-Met zulke **Apps** kun je Nextcloud nog verder personaliseren naar jouw wensen.
+Met zulke **Apps** kun je Nextcloud verder personaliseren naar jouw wensen.
 
 
 ## Conclusie

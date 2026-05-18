@@ -1,6 +1,6 @@
 ---
 id: dedicated-linux-notepad++
-title: "Dedicated Server: Notepad++ auf Linux einrichten"
+title: "Notepad++ auf einem Linux-Server einrichten – Nutze deinen Lieblingseditor via Wine"
 description: "Entdecke, wie du Notepad++ auf Linux installierst und optimierst für leistungsstarkes, leichtgewichtiges Coden und mehr Entwickler-Produktivität → Jetzt mehr erfahren"
 sidebar_label: Notepad++ installieren
 services:
@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Notepad++ ist ein kostenloser und Open-Source Text- und Quellcode-Editor für Windows. Er unterstützt Syntax-Highlighting, Code-Faltung und Tabbed Editing für viele Programmier- und Skriptsprachen und ist durch Plugins stark anpassbar. Bekannt für seine schnelle Performance und geringen Ressourcenverbrauch, ist Notepad++ eine beliebte Wahl für Entwickler und Nutzer, die ein mächtiges, aber leichtgewichtiges Tool zum Editieren suchen.
+Notepad++ ist ein kostenloser und Open-Source Text- und Quellcode-Editor für Windows. Er unterstützt Syntax-Highlighting, Code-Folding und Tabbed Editing für viele Programmier- und Skriptsprachen und ist durch Plugins stark anpassbar. Bekannt für seine schnelle Performance und geringen Ressourcenverbrauch, ist Notepad++ eine beliebte Wahl für Entwickler und Nutzer, die ein mächtiges, aber leichtgewichtiges Tool zum Editieren suchen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jMMDejqDfWDCfrr/preview)
 
-Du überlegst, diesen Service selbst zu hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
+Willst du diesen Service selbst hosten? Wir führen dich Schritt für Schritt durch die Einrichtung und Konfiguration und zeigen dir alles, was du beachten musst.
 
 :::danger Linux mit Desktop-Variante erforderlich
 Diese Anwendung kann nur auf einem Linux-System mit grafischer Benutzeroberfläche installiert und genutzt werden; in diesem Beispiel wird Ubuntu Desktop 25.04 als Referenz verwendet.
@@ -38,13 +38,13 @@ Bevor du **Notepad++** installierst, stelle sicher, dass deine Hosting-Umgebung 
 | RAM | 2 GB | 4 GB |
 | Speicherplatz | 25 MB | 25 GB |
 
-Die Software benötigt, dass alle nötigen Abhängigkeiten installiert sind und auf einem unterstützten Betriebssystem läuft. Vergewissere dich, dass dein Server folgende Anforderungen erfüllt, bevor du mit der Installation startest:
+Die Software benötigt, dass alle notwendigen Abhängigkeiten installiert sind und auf einem unterstützten Betriebssystem läuft. Vergewissere dich, dass dein Server folgende Voraussetzungen erfüllt, bevor du mit der Installation startest:
 
 **Abhängigkeiten:** `Snap`
 
 **Betriebssystem:** Linux mit Desktop-Support
 
-Stelle sicher, dass alle Abhängigkeiten installiert sind und die richtige Betriebssystem-Version verwendet wird, um Kompatibilitätsprobleme bei der Installation von Notepad++ zu vermeiden.
+Stelle sicher, dass alle Abhängigkeiten installiert sind und die richtige Betriebssystemversion verwendet wird, um Kompatibilitätsprobleme bei der Installation von Notepad++ zu vermeiden.
 
 
 
@@ -59,10 +59,10 @@ Damit dein System mit den aktuellsten Software- und Sicherheitsupdates läuft, s
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-So stellst du sicher, dass dein System vor der Installation die neuesten Sicherheitspatches und Softwareversionen hat.
+So stellst du sicher, dass dein System die neuesten Sicherheitspatches und Softwareversionen hat, bevor du weitermachst.
 
 ### Abhängigkeiten installieren
-Sobald das Update abgeschlossen ist, kannst du mit der Installation der Abhängigkeiten fortfahren.
+Nachdem das Update abgeschlossen ist, kannst du mit der Installation der Abhängigkeiten weitermachen.
 
 #### Snap
 Notepad++ benötigt, dass Snap zuerst installiert ist. Führe dazu folgenden Befehl aus: 
@@ -74,7 +74,7 @@ sudo apt install snapd
 
 
 ## Installation
-Nachdem alle Voraussetzungen erfüllt und Vorbereitungen abgeschlossen sind, kannst du mit der Installation von Notepad++ starten. Führe dazu folgenden Befehl aus:
+Jetzt, wo alle Voraussetzungen erfüllt und die Vorbereitungen abgeschlossen sind, kannst du mit der Installation von Notepad++ starten. Führe dazu folgenden Befehl aus:
 
 ```
 sudo snap install notepad-plus-plus
@@ -91,23 +91,26 @@ Notepad++ wird über das offizielle Installationsskript heruntergeladen und inst
 Notepad++ bietet eine Vielzahl an Anpassungsmöglichkeiten, die du unter *Einstellungen > Einstellungen* findest. Damit kannst du den Editor perfekt auf deinen Workflow zuschneiden:
 
 - **Allgemein**: Steuer das Startverhalten, z.B. ob zuletzt geöffnete Dateien wieder geladen werden, eine Standardsprache gesetzt wird oder wie Tabs sich verhalten.  
-- **Editor-Einstellungen**: Passe Schriftart und -größe, Tab-Breite, Zeilennummerierung, automatische Einrückung oder die Anzeige von Leerzeichen und Tabulatoren an.  
+- **Editor-Einstellungen**: Passe Schriftart und -größe, Tab-Breite, Zeilennummerierung, Auto-Einrückung oder die Anzeige von Leerzeichen und Tabulatoren an.  
 - **Farbschemata & Syntax**: Nutze den „Style Configurator“, um zwischen Themes zu wechseln und Syntax-Highlighting für jede unterstützte Sprache zu individualisieren.  
-- **Dateiverwaltung**: Konfiguriere Optionen wie automatisches Neuladen bei Änderungen, Verhalten bei großen Dateien oder bevorzugte Kodierungen wie UTF-8.  
+- **Dateiverwaltung**: Konfiguriere Optionen wie automatisches Neuladen bei Dateiänderungen, Verhalten bei großen Dateien oder bevorzugte Kodierungen wie UTF-8.  
 - **Sicherheit & Backup**: Aktiviere automatische Backups oder Sitzungswiederherstellung, um Datenverlust zu vermeiden.  
-- **Plugins**: Installiere und verwalte Erweiterungen über den Plugin-Manager, z.B. für FTP-Support oder erweitertes Formatieren.  
+- **Plugins**: Installiere und verwalte Erweiterungen über den Plugin Manager, um Funktionen wie FTP-Support oder erweitertes Formatieren hinzuzufügen.  
 
-Diese Einstellungen machen Notepad++ extrem flexibel – egal ob für simples Text-Editing oder umfangreiche Softwareentwicklung.
+Diese Einstellungen machen Notepad++ extrem flexibel, egal ob du nur einfache Texte schreibst oder komplexe Software entwickelst.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/X8og5qnFkBTRcmA/preview)
 
 
 
 
-## Fazit und weitere Ressourcen
+## Abschluss und weitere Ressourcen
 
-Glückwunsch! Du hast Notepad++ jetzt erfolgreich auf deinem Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der Server-Konfiguration weiterhelfen können:
+Glückwunsch! Du hast Notepad++ erfolgreich auf deinem Dedicated Server installiert und konfiguriert. Wir empfehlen dir außerdem, einen Blick auf die folgenden Ressourcen zu werfen, die dir bei der weiteren Server-Konfiguration helfen können:
 
 - [notepad-plus-plus.org/](https://notepad-plus-plus.org/) – Offizielle Webseite
 
 Du hast spezielle Fragen, die hier nicht beantwortet wurden? Für weitere Fragen oder Support steht dir unser Team täglich zur Verfügung – melde dich einfach bei uns! 🙂
+
+
+

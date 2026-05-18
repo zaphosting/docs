@@ -63,7 +63,7 @@ Option 1 und 2 haben dir nicht geholfen oder sind nicht ganz verständlich? Kein
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du einem oder mehreren der Lösungsansätze gefolgt bist, solltest du das Problem erfolgreich gelöst und die Funktionalität deines Servers wiederhergestellt haben. Für weitere Fragen oder Unterstützung steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 

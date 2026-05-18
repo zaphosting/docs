@@ -79,7 +79,7 @@ Du suchst noch die perfekten Mods für deinen Server? Stöbere durch unsere sorg
 
 <SearchableItemList items={items} />
 
-## Fazit
+## Abschluss
 
 Du hast erfolgreich Mods auf deinem Satisfactory Gameserver mit dem Satisfactory Mod Manager installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 

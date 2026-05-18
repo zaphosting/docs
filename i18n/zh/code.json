@@ -1,0 +1,2056 @@
+{
+  "service.vserver.title": {
+    "message": "VPS",
+    "description": "Product name for the gameserver product"
+  },
+  "service.vserver.path": {
+    "message": "{marketingSite}/{language}/vps-虚拟专用服务器/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated.title": {
+    "message": "专用服务器",
+    "description": "Product name for the dedicated server product"
+  },
+  "service.dedicated.path": {
+    "message": "{marketingSite}/{language}/专用服务器托管/",
+    "description": "URL path for the dedicated server product"
+  },
+  "service.domain.title": {
+    "message": "域名",
+    "description": "Product name for the domain product"
+  },
+  "service.domain.path": {
+    "message": "{marketingSite}/{language}/域名检查/",
+    "description": "URL path for the domain product"
+  },
+  "service.webspace.title": {
+    "message": "网络空间",
+    "description": "Product name for the webspace product"
+  },
+  "service.webspace.path": {
+    "message": "{marketingSite}/{language}/租用网络空间/",
+    "description": "URL path for the webspace product"
+  },
+  "service.voiceserver.title": {
+    "message": "语音服务器",
+    "description": "Product name for the voiceserver product"
+  },
+  "service.voiceserver.path": {
+    "message": "{marketingSite}/{language}/teamspeak-3-游戏服务器-托管/",
+    "description": "URL path for the voiceserver product"
+  },
+  "service.voicebot.title": {
+    "message": "语音机器人",
+    "description": "Product name for the voicebot product"
+  },
+  "service.voicebot.path": {
+    "message": "{marketingSite}/{language}/teamspeak-3-server-hosting/",
+    "description": "URL path for the voicebot product"
+  },
+  "service.storage.title": {
+    "message": "高级存储",
+    "description": "Product name for the storage product"
+  },
+  "service.storage.path": {
+    "message": "{marketingSite}/{language}/shop/product/premium-storage/",
+    "description": "URL path for the storage product"
+  },
+  "service.fivemupvotes.title": {
+    "message": "Discord 机器人",
+    "description": "Product name for the storage product"
+  },
+  "service.fivemupvotes.path": {
+    "message": "{marketingSite}/{language}/shop/product/cloud-游戏服务器/discord-bot/",
+    "description": "URL path for the storage product"
+  },
+  "service.fivemupvotesburst.title": {
+    "message": "FiveM 投票 BURST",
+    "description": "Product name for the storage product"
+  },
+  "service.gameserver.title": {
+    "message": "云游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver.path": {
+    "message": "{marketingSite}/{language}/游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-7d2d.title": {
+    "message": "7 Days to Die 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-7d2d.path": {
+    "message": "{marketingSite}/{language}/7-days-to-die-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-abioticfactor.title": {
+    "message": "非生物因素游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-abioticfactor.path": {
+    "message": "{marketingSite}/{language}/游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-afterinfection.title": {
+    "message": "Afterinfection 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-afterinfection.path": {
+    "message": "{marketingSite}/{language}/afterinfection-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-amongus.title": {
+    "message": "Among Us 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-amongus.path": {
+    "message": "{marketingSite}/{language}/among-us-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-animalia-survival.title": {
+    "message": "Animalia 生存 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-animalia-survival.path": {
+    "message": "{marketingSite}/{language}/动物生存游戏服务器托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-argo.title": {
+    "message": "阿尔戈游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-argo.path": {
+    "message": "{marketingSite}/{language}/argo-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ark.title": {
+    "message": "ARK: Survival Evolved 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ark.path": {
+    "message": "{marketingSite}/{language}/ark-survival-evolved-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-arma3.title": {
+    "message": "Arma 3 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-arma3.path": {
+    "message": "{marketingSite}/{language}/arma-3-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-arma-reforger.title": {
+    "message": "Arma Reforger 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-arma-reforger.path": {
+    "message": "{marketingSite}/{language}/arma-reforger-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-assettocorsa.title": {
+    "message": "Assetto Corsa 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-assettocorsa.path": {
+    "message": "{marketingSite}/{language}/assetto-corsa-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-assetto-competizione.title": {
+    "message": "Assetto Corsa Competizione 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-assetto-competizione.path": {
+    "message": "{marketingSite}/{language}/assetto-corsa-competizione-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-astrocolony.title": {
+    "message": "Astro Colony 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-astrocolony.path": {
+    "message": "{marketingSite}/{language}/astro-colony-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-astroneer.title": {
+    "message": "ASTRONEER 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-astroneer.path": {
+    "message": "{marketingSite}/{language}/astroneer-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-avorion.title": {
+    "message": "Avorion 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-avorion.path": {
+    "message": "{marketingSite}/{language}/avorion-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ats.title": {
+    "message": "美国卡车模拟器 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ats.path": {
+    "message": "{marketingSite}/{language}/美国卡车模拟器-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-bananashooter.title": {
+    "message": "香蕉射手游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-bananashooter.path": {
+    "message": "{marketingSite}/{language}/香蕉射手-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-barotrauma.title": {
+    "message": "Barotrauma 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-barotrauma.path": {
+    "message": "{marketingSite}/{language}/barotrauma-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-battalion1944.title": {
+    "message": "Battalion 1944 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-battalion1944.path": {
+    "message": "{marketingSite}/{language}/battalion-1944-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-battlegrounds3.title": {
+    "message": "战场 III 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-battlegrounds3.path": {
+    "message": "{marketingSite}/{language}/battle-grounds-iii-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-beammp.title": {
+    "message": "BeamMP 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-beammp.path": {
+    "message": "{marketingSite}/{language}/beammp-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-bob.title": {
+    "message": "百慕大野兽 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-bob.path": {
+    "message": "{marketingSite}/{language}/beasts-of-bermuda-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-beyondthewire.title": {
+    "message": "超越战线 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-beyondthewire.path": {
+    "message": "{marketingSite}/{language}/beyond-the-wire-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-brokeprotocol.title": {
+    "message": "Broke Protocol 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-brokeprotocol.path": {
+    "message": "{marketingSite}/{language}/broke-protocol-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-citadel-forgedwithfire.title": {
+    "message": "城堡：火焰锻造 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-citadel-forgedwithfire.path": {
+    "message": "{marketingSite}/{language}/citadel-forged-with-fire-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-colonysurvival.title": {
+    "message": "殖民地生存 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-colonysurvival.path": {
+    "message": "{marketingSite}/{language}/colony-survival-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-conan.title": {
+    "message": "《康纳的流亡》游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-conan.path": {
+    "message": "{marketingSite}/{language}/conan-exiles-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-contagion.title": {
+    "message": "传染病 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-contagion.path": {
+    "message": "{marketingSite}/{language}/contagion-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-corekeeper.title": {
+    "message": "Core Keeper 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-corekeeper.path": {
+    "message": "{marketingSite}/{language}/core-keeper-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-craftopia.title": {
+    "message": "Craftopia 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-craftopia.path": {
+    "message": "{marketingSite}/{language}/craftopia-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-cryofall.title": {
+    "message": "Cryofall 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-cryofall.path": {
+    "message": "{marketingSite}/{language}/cryofall-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-cs16.title": {
+    "message": "反恐精英 1.6 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-cs16.path": {
+    "message": "{marketingSite}/{language}/反恐精英1.6游戏服务器托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-cs2.title": {
+    "message": "反恐精英 2 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-cs2.path": {
+    "message": "{marketingSite}/{language}/反恐精英2-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-css.title": {
+    "message": "反恐精英：源 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-css.path": {
+    "message": "{marketingSite}/{language}/css-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-dayofinfamy.title": {
+    "message": "屈辱之日 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-dayofinfamy.path": {
+    "message": "{marketingSite}/{language}/日之耻-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-dayz.title": {
+    "message": "DayZ 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-dayz.path": {
+    "message": "{marketingSite}/{language}/dayz-standalone-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ddracenetwork.title": {
+    "message": "DDraceNetwork 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ddracenetwork.path": {
+    "message": "{marketingSite}/{language}/ddracenetwork-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-deadlock.title": {
+    "message": "死锁游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-deadlock.path": {
+    "message": "{marketingSite}/{language}/死锁-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-deadpoly.title": {
+    "message": "DeadPoly 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-deadpoly.path": {
+    "message": "{marketingSite}/{language}/deadpoly-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-dods.title": {
+    "message": "反击之日：源游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-dods.path": {
+    "message": "{marketingSite}/{language}/日落之战：源服务器托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-dst.title": {
+    "message": "饥荒联机版 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-dst.path": {
+    "message": "{marketingSite}/{language}/饥荒联机版-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-eco.title": {
+    "message": "ECO 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-eco.path": {
+    "message": "{marketingSite}/{language}/eco-global-survival-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-empyrion.title": {
+    "message": "Empyrion 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-empyrion.path": {
+    "message": "{marketingSite}/{language}/empyrion-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-enshrouded.title": {
+    "message": "Enshrouded 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-enshrouded.path": {
+    "message": "{marketingSite}/{language}/enveloping-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ets2.title": {
+    "message": "欧洲卡车模拟器 2 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ets2.path": {
+    "message": "{marketingSite}/{language}/euro-truck-simulator-2-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-factorio.title": {
+    "message": "Factorio 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-factorio.path": {
+    "message": "{marketingSite}/{language}/factorio-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-fivem.title": {
+    "message": "FiveM 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-fivem.path": {
+    "message": "{marketingSite}/{language}/fivem-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-foundry.title": {
+    "message": "Foundry 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-foundry.path": {
+    "message": "{marketingSite}/{language}/游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-gmod.title": {
+    "message": "Garry's Mod 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-gmod.path": {
+    "message": "{marketingSite}/{language}/garrys-mod-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-groundbranch.title": {
+    "message": "Ground Branch 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-groundbranch.path": {
+    "message": "{marketingSite}/{language}/ground-branch-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hl1.title": {
+    "message": "半条命 1 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hl1.path": {
+    "message": "{marketingSite}/{language}/半条命1-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hl2.title": {
+    "message": "半条命 2 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hl2.path": {
+    "message": "{marketingSite}/{language}/半条命2-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-holdfast.title": {
+    "message": "Holdfast: Nations At War 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-holdfast.path": {
+    "message": "{marketingSite}/{language}/holdfast-nations-at-war-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-humanitz.title": {
+    "message": "HumanitZ 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-humanitz.path": {
+    "message": "{marketingSite}/{language}/humanitz-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hurtworld.title": {
+    "message": "Hurtworld 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hurtworld.path": {
+    "message": "{marketingSite}/{language}/hurtworld-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-hytale.title": {
+    "message": "Hytale 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-hytale.path": {
+    "message": "{marketingSite}/{language}/hytale-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-icarus.title": {
+    "message": "伊卡洛斯游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-icarus.path": {
+    "message": "{marketingSite}/{language}/icarus-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-insurgency.title": {
+    "message": "叛乱：沙暴 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-insurgency.path": {
+    "message": "{marketingSite}/{language}/insurgency-sandstorm-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ironarmada.title": {
+    "message": "铁甲舰队游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ironarmada.path": {
+    "message": "{marketingSite}/{language}/铁舰队-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-jol.title": {
+    "message": "生命之旅 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-jol.path": {
+    "message": "{marketingSite}/{language}/生命之旅-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-killingfloor2.title": {
+    "message": "Killing Floor 2 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-killingfloor2.path": {
+    "message": "{marketingSite}/{language}/killing-floor-2-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-lastoasis.title": {
+    "message": "最后绿洲游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-lastoasis.path": {
+    "message": "{marketingSite}/{language}/last-oasis-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-leap.title": {
+    "message": "Leap 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-leap.path": {
+    "message": "{marketingSite}/{language}/leap-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-l4d2.title": {
+    "message": "Left 4 Dead 2 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-l4d2.path": {
+    "message": "{marketingSite}/{language}/左4死2-服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-longvinter.title": {
+    "message": "Longvinter 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-longvinter.path": {
+    "message": "{marketingSite}/{language}/longvinter-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-minecraft.title": {
+    "message": "Minecraft 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-minecraft.path": {
+    "message": "{marketingSite}/{language}/minecraft-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-minetest.title": {
+    "message": "Minetest 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-minetest.path": {
+    "message": "{marketingSite}/{language}/minetest-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-miscreated.title": {
+    "message": "Miscreated 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-miscreated.path": {
+    "message": "{marketingSite}/{language}/miscreated-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-motortown.title": {
+    "message": "摩托城：掌控方向的游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-motortown.path": {
+    "message": "{marketingSite}/{language}/motor-town-behind-the-wheel-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-mountandblade.title": {
+    "message": "骑马与砍杀 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-mountandblade.path": {
+    "message": "{marketingSite}/{language}/骑马与砍杀-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-mta.title": {
+    "message": "多重盗车游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-mta.path": {
+    "message": "{marketingSite}/{language}/mta-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-moe.title": {
+    "message": "帝国神话 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-moe.path": {
+    "message": "{marketingSite}/{language}/myth-of-empires-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-necesse.title": {
+    "message": "Necesse 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-necesse.path": {
+    "message": "{marketingSite}/{language}/游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nstp.title": {
+    "message": "永不分裂派对 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nstp.path": {
+    "message": "{marketingSite}/{language}/never-split-the-party-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nienix.title": {
+    "message": "Nienix 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nienix.path": {
+    "message": "{marketingSite}/{language}/nienix-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nightingale.title": {
+    "message": "夜莺游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nightingale.path": {
+    "message": "{marketingSite}/{language}/nightingale-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-nmrih.title": {
+    "message": "地狱无处容身 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-nmrih.path": {
+    "message": "{marketingSite}/{language}/no-more-room-in-hell-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-noonesurvived.title": {
+    "message": "无人幸存 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-noonesurvived.path": {
+    "message": "{marketingSite}/{language}/无人幸存-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ohol.title": {
+    "message": "一小时一生 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ohol.path": {
+    "message": "{marketingSite}/{language}/one-hour-one-life-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-openmp.title": {
+    "message": "Open.mp 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-openmp.path": {
+    "message": "{marketingSite}/{language}/开放MP服务器托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-openttd.title": {
+    "message": "OpenTTD 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-openttd.path": {
+    "message": "{marketingSite}/{language}/openttd-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ohd.title": {
+    "message": "操作：Harsh Doorstop 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ohd.path": {
+    "message": "{marketingSite}/{language}/operation-harsh-doorstop-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-ootow.title": {
+    "message": "旧西部亡命徒游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-ootow.path": {
+    "message": "{marketingSite}/{language}/老西部亡命徒-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-palworld.title": {
+    "message": "Palworld 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-palworld.path": {
+    "message": "{marketingSite}/{language}/palworld-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-pathoftitans.title": {
+    "message": "泰坦之路 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-pathoftitans.path": {
+    "message": "{marketingSite}/{language}/path-of-titans-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-pixark.title": {
+    "message": "PixARK 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-pixark.path": {
+    "message": "{marketingSite}/{language}/pixark-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-portalknights.title": {
+    "message": "Portal Knights 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-portalknights.path": {
+    "message": "{marketingSite}/{language}/portal-knights-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-projectzomboid.title": {
+    "message": "Project Zomboid 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-projectzomboid.path": {
+    "message": "{marketingSite}/{language}/project-zomboid-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-redm.title": {
+    "message": "RedM 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-redm.path": {
+    "message": "{marketingSite}/{language}/redm-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-reignofkings.title": {
+    "message": "国王的统治 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-reignofkings.path": {
+    "message": "{marketingSite}/{language}/reign-of-kings-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-renown.title": {
+    "message": "声望游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-renown.path": {
+    "message": "{marketingSite}/{language}/游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-rimworldtogether.title": {
+    "message": "RimWorld Together 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-rimworldtogether.path": {
+    "message": "{marketingSite}/{language}/rimworld-together-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-risingstorm2.title": {
+    "message": "Rising Storm 2 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-risingstorm2.path": {
+    "message": "{marketingSite}/{language}/rising-storm-2-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-risingworld.title": {
+    "message": "Rising World 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-risingworld.path": {
+    "message": "{marketingSite}/{language}/rising-world-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-riskofrain2.title": {
+    "message": "风险雨 2 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-riskofrain2.path": {
+    "message": "{marketingSite}/{language}/risk-of-rain-2-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-rust.title": {
+    "message": "Rust 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-rust.path": {
+    "message": "{marketingSite}/{language}/rust-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-sanctuaryisland.title": {
+    "message": "圣所岛游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-sanctuaryisland.path": {
+    "message": "{marketingSite}/{language}/sanctuary-island-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-satisfactory.title": {
+    "message": "Satisfactory 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-satisfactory.path": {
+    "message": "{marketingSite}/{language}/satisfactory-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scp5k.title": {
+    "message": "SCP: 5K 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scp5k.path": {
+    "message": "{marketingSite}/{language}/scp-5k-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scp-containmentbreach.title": {
+    "message": "SCP: Containment Breach 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scp-containmentbreach.path": {
+    "message": "{marketingSite}/{language}/scp- containment-breach-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scp-escapetogether.title": {
+    "message": "SCP: Escape Together 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scp-escapetogether.path": {
+    "message": "{marketingSite}/{language}/scp-escape-together-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scp.title": {
+    "message": "SCP: Secret Laboratory 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scp.path": {
+    "message": "{marketingSite}/{language}/scp-secret-laboratory-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-scum.title": {
+    "message": "SCUM 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-scum.path": {
+    "message": "{marketingSite}/{language}/scum-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-skyrim-together-reborn.title": {
+    "message": "Skyrim Together Reborn 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-skyrim-together-reborn.path": {
+    "message": "{marketingSite}/{language}/skyrim-together-reborn-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-soldat.title": {
+    "message": "Soldat 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-soldat.path": {
+    "message": "{marketingSite}/{language}/soldat-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-sonsoftheforest.title": {
+    "message": "森林之子 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-sonsoftheforest.path": {
+    "message": "{marketingSite}/{language}/森林之子-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-soulmask.title": {
+    "message": "Soulmask 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-soulmask.path": {
+    "message": "{marketingSite}/{language}/soulmask-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-spaceengineers.title": {
+    "message": "太空工程师游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-spaceengineers.path": {
+    "message": "{marketingSite}/{language}/空间工程师-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-squad.title": {
+    "message": "Squad 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-squad.path": {
+    "message": "{marketingSite}/{language}/游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starbound.title": {
+    "message": "星界边境 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starbound.path": {
+    "message": "{marketingSite}/{language}/starbound-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starmade.title": {
+    "message": "Starmade 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starmade.path": {
+    "message": "{marketingSite}/{language}/starmade-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-staxel.title": {
+    "message": "Staxel 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-staxel.path": {
+    "message": "{marketingSite}/{language}/staxel-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-stormworks.title": {
+    "message": "Stormworks 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-stormworks.path": {
+    "message": "{marketingSite}/{language}/stormworks-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-subsistence.title": {
+    "message": "生存游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-subsistence.path": {
+    "message": "{marketingSite}/{language}/生存游戏服务器托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-sunkenland.title": {
+    "message": "沉没之地游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-sunkenland.path": {
+    "message": "{marketingSite}/{language}/sunkenland-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-tf2.title": {
+    "message": "Team Fortress 2 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-tf2.path": {
+    "message": "{marketingSite}/{language}/team-fortress-2-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-teeworlds.title": {
+    "message": "Teeworlds 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-teeworlds.path": {
+    "message": "{marketingSite}/{language}/teeworlds-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-terraria.title": {
+    "message": "Terraria 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-terraria.path": {
+    "message": "{marketingSite}/{language}/terraria-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-terratech-worlds.title": {
+    "message": "Terratech Worlds 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-terratech-worlds.path": {
+    "message": "{marketingSite}/{language}/terratech-worlds-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-thebus.title": {
+    "message": "公交游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-thebus.path": {
+    "message": "{marketingSite}/{language}/the-bus-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-thefront.title": {
+    "message": "前线游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-thefront.path": {
+    "message": "{marketingSite}/{language}/游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-theisle.title": {
+    "message": "The Isle 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-theisle.path": {
+    "message": "{marketingSite}/{language}/the-isle-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-lotr-rtm.title": {
+    "message": "指环王：RTM 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-lotr-rtm.path": {
+    "message": "{marketingSite}/{language}/lotr-return-to-moria-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-unturned.title": {
+    "message": "Unturned 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-unturned.path": {
+    "message": "{marketingSite}/{language}/unturned-3-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-vrising.title": {
+    "message": "V Rising 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-vrising.path": {
+    "message": "{marketingSite}/{language}/v-rising-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-valheim.title": {
+    "message": "Valheim 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-valheim.path": {
+    "message": "{marketingSite}/{language}/valheim-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-vein.title": {
+    "message": "Vein 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-vein.path": {
+    "message": "{marketingSite}/{language}/游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-veloren.title": {
+    "message": "Veloren 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-veloren.path": {
+    "message": "{marketingSite}/{language}/veloren-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-vintagestory.title": {
+    "message": "复古故事游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-vintagestory.path": {
+    "message": "{marketingSite}/{language}/vintage-story-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-voyagers-of-nera.title": {
+    "message": "Nera探险者游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-voyagers-of-nera.path": {
+    "message": "{marketingSite}/{language}/voyagers-of-nera-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-wreckfest.title": {
+    "message": "Wreckfest 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-wreckfest.path": {
+    "message": "{marketingSite}/{language}/wreckfest-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-wreckfest2.title": {
+    "message": "Wreckfest 2 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-wreckfest2.path": {
+    "message": "{marketingSite}/{language}/wreckfest-2-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-wurmunlimited.title": {
+    "message": "Wurm Unlimited 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-wurmunlimited.path": {
+    "message": "{marketingSite}/{language}/wurm-unlimited-游戏服务器-托管/",
+    "description": "URL path for the gameserver product"
+  },
+  "accordion.search.placeholder": {
+    "message": "搜索...",
+    "description": "Placeholder text in the accordion search field"
+  },
+  "accordion.counter": {
+    "message": "显示的内容为 {shown} 个，总共 {total} 个。",
+    "description": "Amount of displayed vs. filtered accordion items"
+  },
+  "accordion.showMore": {
+    "message": "显示更多",
+    "description": "Button to display additional accordion items"
+  },
+  "inlinevoucher.title": {
+    "message": "{voucherValue} {voucherType} HOSTING DISCOUNT 🏷️"
+  },
+  "inlinevoucher.title.generic": {
+    "message": "主机折扣 🏷️"
+  },
+  "inlinevoucher.description.with-products": {
+    "message": "抓住机会，今天就开始您自己的项目！使用本指南中产品的折扣码来节省费用。😉"
+  },
+  "inlinevoucher.description.rental-note": {
+    "message": "此折扣码可用于以下租赁产品："
+  },
+  "inlinevoucher.list-title.with-products": {
+    "message": "此优惠码可用于以下产品的租赁："
+  },
+  "inlinevoucher.description.without-products": {
+    "message": "Ready for your next awesome project 😉"
+  },
+  "inlinevoucher.list-title.without-products": {
+    "message": "为什么你应该试试我们？"
+  },
+  "inlinevoucher.list-reasons.first": {
+    "message": "DDoS防护"
+  },
+  "inlinevoucher.list-reasons.second": {
+    "message": "几分钟内在线"
+  },
+  "inlinevoucher.list-reasons.third": {
+    "message": "自定义网页界面"
+  },
+  "inlinevoucher.your-voucher": {
+    "message": "你的代码"
+  },
+  "inlinevoucher.code-label": {
+    "message": "代码:"
+  },
+  "inlinevoucher.cta": {
+    "message": "立即订购"
+  },
+  "inlinevoucher.select-product": {
+    "message": "选择产品："
+  },
+  "inlinevoucher.coupon-description": {
+    "message": "复制代码并在结账时使用，或使用下方的订购按钮。"
+  },
+  "inlinevoucher.auto-apply": {
+    "message": "使用订购按钮后，优惠券将自动应用。"
+  },
+  "voucherbox.cta": {
+    "message": "租用服务器"
+  },
+  "voucherbox.auto-apply": {
+    "message": "使用\"立即订购\"按钮后，优惠券将自动应用。"
+  },
+  "voucher.redeem": {
+    "message": "兑换"
+  },
+  "searchableItemList.all": {
+    "message": "All"
+  },
+  "searchableItemList.uncategorized": {
+    "message": "未分类"
+  },
+  "searchableItemList.searchPlaceholder": {
+    "message": "搜索..."
+  },
+  "searchableItemList.showLess": {
+    "message": "显示更少"
+  },
+  "searchableItemList.showMore": {
+    "message": "显示更多"
+  },
+  "searchableItemList.openWebsite": {
+    "message": "打开网站"
+  },
+  "searchableItemList.counter": {
+    "message": "显示 {shown} 条，共 {total} 条记录。"
+  },
+  "searchableItemList.showMoreBtn": {
+    "message": "显示更多"
+  },
+  "voucherbutton.success": {
+    "message": "耶耶耶！"
+  },
+  "servicelist.introduction": {
+    "message": "本指南的理想产品"
+  },
+  "servicelist.note": {
+    "message": "立即开始 — 订购合适的产品，按照本指南一步一步操作。"
+  },
+  "footer.cookieSettings": {
+    "message": "Cookie 设置"
+  },
+  "voucherbox.title": {
+    "message": "主机折扣"
+  },
+  "contributors.title": {
+    "message": "指南贡献者"
+  },
+  "contributors.description": {
+    "message": "Become a part of the ZAP-Hosting Community today! Join our {contributionLink} to share your knowledge and expertise by producing high-quality guides & creative content whilst earning valuable rewards up to 130€. Begin today and make a difference! 🙂"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "页面已崩溃。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回到顶部",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "历史博文",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "历史博文",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "博文列表分页导航",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "较新的博文",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "较旧的博文",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "博文分页导航",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "较新一篇",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "较旧一篇",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "查看所有标签",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "系统模式",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "浅色模式",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "暗黑模式",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "切换浅色/暗黑模式（当前为{mode}）",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "页面路径",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} 个项目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文件选项卡",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一页",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一页",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} 篇文档带有标签",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged}「{tagName}」",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版尚未发行的文档。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版的文档，现已不再积极维护。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新的文档请参阅 {latestVersionLink} ({versionLabel})。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "编辑此页",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}的直接链接",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "于 {date} ",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "由 {user} ",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最后{byUser}{atDate}更新",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "找不到页面",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "选择版本",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "标签：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "警告",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危险",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "信息",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "备注",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "提示",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "注意",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近博文导航",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "展开侧边栏分类 '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "折叠侧边栏分类 '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(在新标签页中打开)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主导航",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.NotFound.p1": {
+    "message": "我们找不到您要找的页面。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "请联系原始链接来源网站的所有者，并告知他们链接已损坏。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "选择语言",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "本页总览",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "阅读需 {readingTime} 分钟",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "阅读更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "阅读 {title} 的全文",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "复制",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "复制成功",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "复制代码到剪贴板",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切换自动换行",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主页面",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文档侧边栏",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "关闭导航栏",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 回到主菜单",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切换导航栏",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "展开下拉菜单",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "收起下拉菜单",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} 篇博文",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} 含有标签「{tagName}」",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "作者",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "查看所有作者",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "该作者尚未撰写任何文章。",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "未列出页",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "此页面未列出。搜索引擎不会对其索引，只有拥有直接链接的用户才能访问。",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "草稿页",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "此页面是草稿，仅在开发环境中可见，不会包含在正式版本中。",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重试",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳到主要内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "标签",
+    "description": "The title of the tag list page"
+  },
+  "dropdown.vps.gettingStarted": {
+    "message": "入门"
+  },
+  "dropdown.vps.introduction": {
+    "message": "介绍"
+  },
+  "dropdown.vps.dashboard": {
+    "message": "仪表板"
+  },
+  "dropdown.vps.software": {
+    "message": "软件"
+  },
+  "dropdown.vps.linux": {
+    "message": "Linux"
+  },
+  "dropdown.vps.windows": {
+    "message": "Windows"
+  },
+  "dropdown.vps.general": {
+    "message": "通用"
+  },
+  "dropdown.vps.services": {
+    "message": "服务"
+  },
+  "dropdown.vps.gameServers": {
+    "message": "游戏服务器"
+  },
+  "dropdown.gameserver.gettingStarted": {
+    "message": "入门"
+  },
+  "dropdown.gameserver.introduction": {
+    "message": "介绍"
+  },
+  "dropdown.gameserver.ftpAccess": {
+    "message": "FTP访问"
+  },
+  "dropdown.gameserver.backups": {
+    "message": "备份"
+  },
+  "dropdown.gameserver.popularGames": {
+    "message": "热门游戏"
+  },
+  "dropdown.gameserver.allGames": {
+    "message": "所有游戏 (A-Z)"
+  },
+  "dropdown.gameserver.scheduledTasks": {
+    "message": "计划任务"
+  },
+  "dropdown.gameserver.databases": {
+    "message": "数据库"
+  },
+  "dropdown.gameserver.more": {
+    "message": "更多..."
+  },
+  "dropdown.vps.vncConsole": {
+    "message": "VNC控制台"
+  },
+  "dropdown.vps.more": {
+    "message": "更多..."
+  },
+  "dropdown.dedicated.gettingStarted": {
+    "message": "入门"
+  },
+  "dropdown.dedicated.introduction": {
+    "message": "介绍"
+  },
+  "dropdown.dedicated.dashboard": {
+    "message": "仪表板"
+  },
+  "dropdown.dedicated.ilo": {
+    "message": "iLO"
+  },
+  "dropdown.dedicated.more": {
+    "message": "更多..."
+  },
+  "dropdown.dedicated.linux": {
+    "message": "Linux"
+  },
+  "dropdown.dedicated.windows": {
+    "message": "Windows"
+  },
+  "dropdown.dedicated.general": {
+    "message": "通用"
+  },
+  "dropdown.dedicated.services": {
+    "message": "服务"
+  },
+  "dropdown.dedicated.gameServers": {
+    "message": "游戏服务器"
+  },
+  "dropdown.dedicated.software": {
+    "message": "软件"
+  },
+  "dropdown.vps.gettingStartedDesc": {
+    "message": "启动您的虚拟专用服务器。仪表板访问、服务器重置、VNC、备份和故障排除。"
+  },
+  "dropdown.vps.linuxDesc": {
+    "message": "SSH、服务、游戏服务器等。管理基于Linux的VPS指南。"
+  },
+  "dropdown.vps.windowsDesc": {
+    "message": "远程桌面、服务、游戏服务器和故障排除。Windows VPS的一切。"
+  },
+  "dropdown.gameserver.gettingStartedDesc": {
+    "message": "了解如何设置、管理和优化您的游戏服务器。从备份和FTP访问到数据库和变现。"
+  },
+  "dropdown.gameserver.popularGamesDesc": {
+    "message": "查找最受欢迎游戏的设置指南。选择您的游戏，快速启动服务器。"
+  },
+  "dropdown.dedicated.gettingStartedDesc": {
+    "message": "逐步设置您的专用服务器。从初始设置和iLO/IPMI到RAID配置和自定义ISO。"
+  },
+  "dropdown.dedicated.linuxDesc": {
+    "message": "完全root访问、服务、游戏服务器和操作系统管理。Linux专用服务器指南。"
+  },
+  "dropdown.dedicated.windowsDesc": {
+    "message": "远程桌面、服务、游戏服务器和操作系统管理。Windows专用服务器指南。"
+  },
+  "dropdown.dedicated.initialSetup": {
+    "message": "初始设置"
+  },
+  "dropdown.dedicated.ipmi": {
+    "message": "IPMI"
+  },
+  "dropdown.dedicated.ownIso": {
+    "message": "自定义ISO"
+  },
+  "dropdown.dedicated.configureRaid": {
+    "message": "配置RAID"
+  },
+  "dropdown.dedicated.serverReset": {
+    "message": "重置服务器"
+  },
+  "dropdown.vps.serverReset": {
+    "message": "重置服务器"
+  },
+  "dropdown.vps.systemRescue": {
+    "message": "系统救援（备份）"
+  },
+  "dropdown.vps.vpsComparison": {
+    "message": "VPS/专用服务器对比"
+  },
+  "dropdown.vps.ballooning": {
+    "message": "Ballooning"
+  },
+  "dropdown.vps.troubleshooting": {
+    "message": "故障排除"
+  },
+  "dropdown.gameserver.switchGame": {
+    "message": "切换游戏"
+  },
+  "dropdown.gameserver.upDowngrade": {
+    "message": "升级/降级"
+  },
+  "dropdown.gameserver.serverCrash": {
+    "message": "服务器崩溃 - 怎么办？"
+  },
+  "dropdown.gameserver.tebex": {
+    "message": "Tebex变现"
+  },
+  "dropdown.rent.gameHosting": {
+    "message": "游戏托管"
+  },
+  "dropdown.rent.gameHostingDesc": {
+    "message": "为您最喜欢的游戏租用游戏服务器。即时设置、DDoS防护和更多功能！"
+  },
+  "dropdown.rent.teamspeak": {
+    "message": "TeamSpeak 3 服务器"
+  },
+  "dropdown.rent.musicbot": {
+    "message": "Discord 音乐机器人"
+  },
+  "dropdown.rent.serverHosting": {
+    "message": "服务器托管"
+  },
+  "dropdown.rent.serverHostingDesc": {
+    "message": "具有完全root访问权限的虚拟和专用服务器。适用于任何项目的可扩展资源。"
+  },
+  "dropdown.rent.vps": {
+    "message": "VPS（虚拟服务器）"
+  },
+  "dropdown.rent.dedicated": {
+    "message": "专用服务器"
+  },
+  "dropdown.rent.domain": {
+    "message": "域名"
+  },
+  "dropdown.rent.webspace": {
+    "message": "网站空间"
+  },
+  "service.vserver-service-openclaw.title": {
+    "message": "VPS for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.vserver-service-openclaw.path": {
+    "message": "{marketingSite}/{language}/vps-hosting/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-openclaw.title": {
+    "message": "Dedicated Server for OpenClaw",
+    "description": "Product name for the OpenClaw product"
+  },
+  "service.gameserver-echoes-of-elysium.title": {
+    "message": "Echoes of Elysium Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-echoes-of-elysium.path": {
+    "message": "{marketingSite}/{language}/echoes-of-elysium-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-starrupture.title": {
+    "message": "StarRupture Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-starrupture.path": {
+    "message": "{marketingSite}/{language}/starrupture-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "dropdown.software.linuxServices": {
+    "message": "Linux - 服务"
+  },
+  "dropdown.software.linuxServicesDesc": {
+    "message": "在Linux上安装和配置自托管服务。OpenClaw、Bitwarden等。"
+  },
+  "dropdown.software.windowsServices": {
+    "message": "Windows - 服务"
+  },
+  "dropdown.software.windowsServicesDesc": {
+    "message": "在Windows上安装和配置自托管服务。Docker、Plex等。"
+  },
+  "dropdown.software.bitwarden": {
+    "message": "Bitwarden"
+  },
+  "dropdown.software.nextcloud": {
+    "message": "Nextcloud"
+  },
+  "dropdown.software.plex": {
+    "message": "Plex"
+  },
+  "dropdown.software.jitsi": {
+    "message": "Jitsi Meet"
+  },
+  "dropdown.software.openvpn": {
+    "message": "OpenVPN"
+  },
+  "dropdown.software.wordpress": {
+    "message": "WordPress"
+  },
+  "dropdown.software.docker": {
+    "message": "Docker"
+  },
+  "dropdown.software.plesk": {
+    "message": "Plesk"
+  },
+  "dropdown.software.ftpServer": {
+    "message": "FTP 服务器"
+  },
+  "dropdown.software.teamspeak": {
+    "message": "TeamSpeak"
+  },
+  "dropdown.software.mysql": {
+    "message": "MySQL"
+  },
+  "dropdown.software.linuxDedicatedGames": {
+    "message": "Linux - 专用游戏"
+  },
+  "dropdown.software.linuxDedicatedGamesDesc": {
+    "message": "在您的Linux机器上运行最受欢迎的专用游戏服务器。"
+  },
+  "dropdown.software.windowsDedicatedGames": {
+    "message": "Windows - 专用游戏"
+  },
+  "dropdown.software.windowsDedicatedGamesDesc": {
+    "message": "在您的Windows机器上运行最受欢迎的专用游戏服务器。"
+  },
+  "dropdown.software.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.software.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.software.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.software.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.software.cs2": {
+    "message": "CS2"
+  },
+  "dropdown.software.arkSa": {
+    "message": "Ark: SA"
+  },
+  "dropdown.software.allServices": {
+    "message": "所有服务"
+  },
+  "dropdown.software.allDedicatedGames": {
+    "message": "所有专用游戏"
+  },
+  "dropdown.rent.voiceHosting": {
+    "message": "语音托管"
+  },
+  "dropdown.rent.voiceHostingDesc": {
+    "message": "TeamSpeak服务器、音乐机器人和Discord机器人托管。保持社区连接。"
+  },
+  "dropdown.rent.webHosting": {
+    "message": "网页托管"
+  },
+  "dropdown.rent.webHostingDesc": {
+    "message": "注册域名并托管您的网站。可靠的网页空间，易于管理。"
+  },
+  "dropdown.rent.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.rent.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.rent.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.rent.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.rent.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.rent.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.rent.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.rent.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.rent.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.rent.discordBot": {
+    "message": "Discord Bot 服务器"
+  },
+  "dropdown.rent.lifetime": {
+    "message": "Lifetime"
+  },
+  "dropdown.rent.lifetimeDesc": {
+    "message": "喜欢ZAP-Hosting？一次付款，无需订阅，长期规划！"
+  },
+  "dropdown.rent.lifetimeGameserver": {
+    "message": "Lifetime Gameserver"
+  },
+  "dropdown.rent.lifetimeDedicated": {
+    "message": "Lifetime Dedicated Server"
+  },
+  "dropdown.rent.lifetimeVps": {
+    "message": "Lifetime VPS"
+  },
+  "dropdown.rent.lifetimeTeamspeak": {
+    "message": "Lifetime TeamSpeak 3"
+  },
+  "dropdown.rent.lifetimeWebspace": {
+    "message": "Lifetime Webspace"
+  },
+  "localeDropdown.title": {
+    "message": "语言"
+  },
+  "localeDropdown.description": {
+    "message": "选择你的首选语言。"
+  },
+  "contributors.cta.title": {
+    "message": "成为ZAP-Hosting贡献者！"
+  },
+  "contributors.cta.description": {
+    "message": "加入我们的{contributionLink}，与社区分享您的专业知识！创作内容并获得奖励。您的知识帮助了成千上万的用户。今天就开始贡献吧！"
+  },
+  "contributors.timeline.step1.title": {
+    "message": "建议"
+  },
+  "contributors.timeline.step1.description": {
+    "message": "通过GitHub建议表单分享您的指南想法。"
+  },
+  "contributors.timeline.step2.title": {
+    "message": "审批"
+  },
+  "contributors.timeline.step2.description": {
+    "message": "在几天内收到对您建议的反馈和批准"
+  },
+  "contributors.timeline.step3.title": {
+    "message": "创作内容"
+  },
+  "contributors.timeline.step3.description": {
+    "message": "按照我们的指导方针创作高质量内容"
+  },
+  "contributors.timeline.step4.title": {
+    "message": "获得奖励"
+  },
+  "contributors.timeline.step4.description": {
+    "message": "为您批准的贡献获得报酬。赚取高达130欧元！"
+  },
+  "contributors.document.title": {
+    "message": "此内容的贡献者"
+  },
+  "dropdown.gameserver.badgeMostPopular": {
+    "message": "最受欢迎"
+  },
+  "dropdown.gameserver.badgePopular": {
+    "message": "热门"
+  },
+  "dropdown.gameserver.badgeTrending": {
+    "message": "热门趋势"
+  },
+  "dropdown.gameserver.fivem": {
+    "message": "FiveM"
+  },
+  "dropdown.gameserver.minecraft": {
+    "message": "Minecraft"
+  },
+  "dropdown.gameserver.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.gameserver.scp": {
+    "message": "SCP: Secret Laboratory"
+  },
+  "dropdown.gameserver.valheim": {
+    "message": "Valheim"
+  },
+  "dropdown.gameserver.ark": {
+    "message": "Ark: Survival Evolved"
+  },
+  "dropdown.gameserver.palworld": {
+    "message": "Palworld"
+  },
+  "dropdown.gameserver.enshrouded": {
+    "message": "Enshrouded"
+  },
+  "dropdown.gameserver.scum": {
+    "message": "SCUM"
+  },
+  "dropdown.vps.ownIso": {
+    "message": "挂载ISO文件"
+  },
+  "dropdown.dedicated.operating-systems-linux": {
+    "message": "操作系统"
+  },
+  "dropdown.dedicated.operating-systems-windows": {
+    "message": "操作系统"
+  },
+  "dropdown.dedicated.troubleshooting": {
+    "message": "故障排除"
+  },
+  "dropdown.rent.badgeMostPopular": {
+    "message": "最受欢迎"
+  },
+  "dropdown.rent.badgePopular": {
+    "message": "热门"
+  },
+  "dropdown.rent.badgeTrending": {
+    "message": "热门趋势"
+  },
+  "dropdown.rent.more": {
+    "message": "探索我们的100+游戏"
+  },
+  "dropdown.software.openclaw": {
+    "message": "OpenClaw"
+  },
+  "dropdown.software.badgeTrending": {
+    "message": "🔥Trending"
+  },
+  "dropdown.software.hytale": {
+    "message": "Hytale"
+  },
+  "dropdown.software.vrising": {
+    "message": "V-Rising"
+  },
+  "service.price.from": {
+    "message": "起步价"
+  },
+  "inlineservicelink.cta": {
+    "message": "立即订购"
+  },
+  "inlineservicelink.cta.title": {
+    "message": "立即订购"
+  }
+}

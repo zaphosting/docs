@@ -72,6 +72,6 @@ Jetzt geht’s ans Eingemachte: Starte deinen Server. Wechsle ins Hauptspielverz
 Im Kommandozeilenfenster solltest du nun Logs sehen, die signalisieren, dass der Start erfolgreich war. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Alternativ kannst du dich direkt verbinden, indem du in der unteren Suchleiste der Serverliste nach `[deine_ip_adresse]:2456` suchst.
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen Counter-Strike 2 Server erfolgreich auf deinem VPS eingerichtet und konfiguriert! Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite – zögere nicht, uns zu kontaktieren! 🙂

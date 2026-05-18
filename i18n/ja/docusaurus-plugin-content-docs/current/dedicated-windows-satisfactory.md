@@ -19,7 +19,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## 準備
 
-Satisfactoryサーバーのセットアップには SteamCMD が必要だよ。SteamCMD は **Steamクライアントのコマンドライン版**。このツールを使えば、人気のSteamゲームの専用サーバーアプリを素早く簡単にダウンロードできる。SteamCMDは公式Valve開発者サイトで入手可能：https://developer.valvesoftware.com/wiki/SteamCMD。
+Satisfactoryサーバーのセットアップには SteamCMD が必要だよ。SteamCMD は **Steamクライアントのコマンドライン版**。このツールを使えば、人気のSteamゲームの専用サーバーアプリを素早く簡単にダウンロードできる。SteamCMDは公式Valve開発者サイトで入手可能：`https://developer.valvesoftware.com/wiki/SteamCMD`。
 
 ダウンロード後は、**steamcmd.zip** ファイルが手に入るから、まずはこれを解凍しよう。別フォルダを作ってそこに解凍するのがおすすめ。解凍後に **steamcmd.exe** が見えるはず。これを実行して、インストールが完了するまで待とう。
 

@@ -1,4 +1,4 @@
----
+﻿---
 id: dedicated-windows-hytale
 title: "Serveur dédié : Configuration du serveur dédié Hytale"
 description: "Découvrez comment configurer le serveur dédié Hytale sur votre serveur dédié Windows pour une gestion de jeu fluide → En savoir plus maintenant"
@@ -14,7 +14,7 @@ Vous avez un serveur dédié et vous voulez héberger votre propre serveur Hytal
 
 ## Préparation
 
-Pour faire tourner un serveur Hytale, votre système doit répondre à quelques exigences de base. Le serveur fonctionne avec Java 25 et nécessite au minimum 4 Go de RAM. Les architectures x64 et arm64 sont toutes deux supportées. La consommation réelle dépend du nombre de joueurs, de la distance de vue et de l’activité dans le monde, donc des ressources supplémentaires peuvent être nécessaires pour les serveurs plus gros.
+Pour faire tourner un serveur Hytale, votre système doit répondre à quelques exigences de base. Le serveur fonctionne avec Java 25 et nécessite au minimum 4 Go de RAM. Les architectures x64 et arm64 sont supportées. La consommation réelle dépend du nombre de joueurs, de la distance de vue et de l’activité dans le monde, donc des ressources supplémentaires peuvent être nécessaires pour les serveurs plus gros.
 
 Avant de continuer, assurez-vous que Java 25 est installé sur votre système Windows. Vous pouvez vérifier l’installation en ouvrant une invite de commandes et en lançant :
 
@@ -28,24 +28,24 @@ Si Java n’est pas encore installé sur votre système, suivez notre guide déd
 
 ## Installation
 
-Commencez par créer un dossier dédié pour le serveur Hytale. Ça permet de garder tous les fichiers du serveur bien organisés au même endroit. Par exemple :
+Commencez par créer un dossier dédié pour le serveur Hytale. Cela permet de garder tous les fichiers du serveur bien organisés au même endroit. Par exemple :
 
 ```
 C:\Hytale
 ```
 
-Le serveur nécessite deux composants principaux : l’application serveur elle-même et les assets du jeu. Ces fichiers peuvent être obtenus via le téléchargeur en ligne de commande Hytale, conçu pour les déploiements serveurs et les mises à jour simplifiées.
+Le serveur nécessite deux composants principaux : l’application serveur elle-même et les assets du jeu. Ces fichiers peuvent être obtenus en utilisant le téléchargeur en ligne de commande Hytale, conçu pour les déploiements serveurs et les mises à jour simplifiées.
 
 Le téléchargeur CLI offre une méthode structurée pour télécharger et mettre à jour les fichiers du serveur Hytale. Après avoir téléchargé l’archive du téléchargeur, extrayez-la dans un dossier temporaire. Dans l’archive, vous trouverez un fichier QUICKSTART.md qui décrit l’utilisation basique de l’outil.
 
-Lancez le téléchargeur depuis la ligne de commande et suivez les instructions pour télécharger la dernière version du serveur. Une fois terminé, copiez les fichiers serveur téléchargés ainsi que l’archive des assets dans votre dossier serveur. Après cette étape, le dossier doit contenir le fichier JAR du serveur et une archive d’assets comme Assets.zip.
+Lancez le téléchargeur depuis la ligne de commande et suivez les instructions pour télécharger la dernière version du serveur. Une fois le processus terminé, copiez les fichiers serveur téléchargés ainsi que l’archive des assets dans votre dossier serveur. Après cette étape, le dossier doit contenir le fichier JAR du serveur et une archive d’assets comme Assets.zip.
 
 | **Commande**                                   | **Description**                       |
 | :-------------------------------------------- | :------------------------------------ |
 | `./hytale-downloader`                         | Télécharger la dernière version       |
 | `./hytale-downloader -print-version`          | Afficher la version du jeu sans télécharger |
-| `./hytale-downloader -version`                | Afficher la version du hytale-downloader |
-| `./hytale-downloader -check-update`           | Vérifier les mises à jour du hytale-downloader |
+| `./hytale-downloader -version`                | Afficher la version du téléchargeur Hytale |
+| `./hytale-downloader -check-update`           | Vérifier les mises à jour du téléchargeur |
 | `./hytale-downloader -download-path game.zip` | Télécharger dans un fichier spécifique |
 | `./hytale-downloader -patchline pre-release`  | Télécharger depuis le canal pré-release |
 | `./hytale-downloader -skip-update-check`      | Ignorer la vérification automatique des mises à jour |
@@ -104,16 +104,16 @@ New-NetFirewallRule -DisplayName "Hytale Server" -Direction Inbound -Protocol UD
 
 ## Notes sur les performances
 
-La distance de vue est l’un des facteurs les plus importants qui influencent la consommation mémoire. Des valeurs plus élevées augmentent l’utilisation de la RAM car plus de données du monde doivent rester actives en même temps.
+La distance de vue est l’un des facteurs les plus importants qui influencent la consommation mémoire. Des valeurs plus élevées augmentent l’utilisation de la RAM car plus de données du monde doivent rester actives simultanément.
 
 Pour la plupart des configurations, une distance de vue maximale de 12 chunks (384 blocs) offre un bon équilibre entre performance serveur et expérience de jeu.
 
-Pour comparer, les serveurs Minecraft utilisent une distance de vue par défaut de 10 chunks (160 blocs). La valeur par défaut de Hytale de 384 blocs équivaut à peu près à 24 chunks Minecraft, ce qui explique les besoins mémoire plus élevés. Cette valeur doit être ajustée selon le nombre de joueurs attendu et les ressources système disponibles.
+Pour comparaison, les serveurs Minecraft utilisent une distance de vue par défaut de 10 chunks (160 blocs). La valeur par défaut de Hytale de 384 blocs équivaut à environ 24 chunks Minecraft, ce qui explique les besoins mémoire plus élevés. Cette valeur doit être ajustée selon le nombre de joueurs attendu et les ressources système disponibles.
 
 
 
 ## Conclusion
 
-Félicitations, vous avez maintenant un serveur Hytale fonctionnel sur votre système. À partir de là, vous pouvez étendre la configuration en installant des mods, en ajustant les paramètres du monde et en optimisant les performances pour correspondre à votre communauté de joueurs. Il est recommandé de surveiller régulièrement l’utilisation des ressources pour garantir une stabilité optimale à mesure que le serveur grandit.
+Félicitations, vous avez maintenant un serveur Hytale fonctionnel sur votre système. À partir de là, vous pouvez étendre la configuration en installant des mods, en ajustant les paramètres du monde et en optimisant les performances pour votre communauté de joueurs. Il est recommandé de surveiller régulièrement l’utilisation des ressources pour garantir une stabilité optimale à mesure que le serveur grandit.
 
 Pour toute question ou assistance, n’hésitez pas à contacter notre équipe support, disponible tous les jours pour vous aider ! 🙂

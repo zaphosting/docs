@@ -1,6 +1,6 @@
 ---
 id: dedicated-windows-notepad++
-title: "Dedicated Server: Setup Notepad++ on Windows"
+title: "Setup Notepad++ on a Windows Server - Use a Powerful Code and Text Editor"
 description: "Discover how to optimize your coding workflow with Notepad++ for fast, customizable, and lightweight text editing → Learn more now"
 sidebar_label: Install Notepad++
 services:

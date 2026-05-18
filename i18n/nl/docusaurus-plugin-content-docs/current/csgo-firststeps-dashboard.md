@@ -1,66 +1,56 @@
 ---
 id: csgo-firststeps-dashboard
-title: "Counter-Strike Global Offensive: Dashboard Overzicht"
-description: "Ontdek hoe je jouw Counter-Strike: Global Offensive server efficiënt beheert en optimaliseert voor de beste prestaties en controle → Leer het nu"
+title: "CS:GO: Dashboard Overzicht"
+description: "Ontdek hoe je jouw CS:GO-server efficiënt beheert met een duidelijk overzicht van alle functies en opties → Leer het nu"
 sidebar_label: Dashboard
 services:
-  - gameserver
+  - gameserver-csgo
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::warning Gearchiveerde Gids
-Dit document is gearchiveerd. Documenten worden gearchiveerd als ze niet meer relevant, onjuist of verouderd zijn. Het is om de volgende redenen gearchiveerd:
-
-Reden: CS:GO wordt niet langer actief aangeboden en wordt niet meer ontwikkeld. CS2 is de opvolger van CS:GO. We raden aan over te stappen naar CS2.
-::::
-
 ## Introductie
 
-Je bent geïnteresseerd in een **Counter-Strike: Global Offensive server** of hebt er al één, maar mist nog een duidelijk overzicht van het beheer en het vinden van alle benodigde opties? Vooral in het begin kan dat best een uitdaging zijn. Geen zorgen, hieronder geven we je een uitgebreide introductie in het beheer van jouw service, zodat je het beste overzicht krijgt.
+Je bent geïnteresseerd in een **CS:GO-server** of hebt er al één, maar mist nog een duidelijk overzicht van het beheer en het vinden van alle benodigde opties? Vooral in het begin kan dat best een uitdaging zijn. Geen zorgen, hieronder geven we je een uitgebreide introductie in het beheer van jouw service, zodat je het beste overzicht krijgt.
 
-Na het doorlopen van deze gids kun je jouw server makkelijk en efficiënt beheren en vind je alle benodigde opties en functies snel en eenvoudig. Hier krijg je een gestructureerd overzicht dat je stap voor stap helpt om vertrouwd te raken met het serverbeheer en je kennis gericht uit te breiden. Zo zorg je ervoor dat jouw **Counter-Strike: Global Offensive server** optimaal is afgestemd op jouw wensen en haal je het maximale uit de beschikbare opties.
+Na het doorlopen van deze gids kun je jouw server makkelijk en efficiënt beheren en vind je alle benodigde opties en functies snel en eenvoudig. Hier krijg je een gestructureerd overzicht dat je stap voor stap helpt om vertrouwd te raken met het serverbeheer en je kennis gericht uit te breiden. Zo zorg je ervoor dat jouw **CS:GO-server** perfect aansluit op jouw wensen en haal je het maximale uit de beschikbare opties.
 
-<YouTube videoId="nl88g8RI_cA" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/QPb8FoyCaAXXa5B/preview" title="CS:GO server in slechts ÉÉN MINUUT opzetten!" description="Snap je het beter als je dingen in actie ziet? Wij hebben je gedekt! Duik in onze video die alles voor je uitlegt. Of je nu haast hebt of gewoon liever info op de meest toffe manier opneemt!"/>
+<YouTube videoId="As1pYgGCXdY" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/L2TCgpKKan5M4Hg/preview" title="CS:GO-server in slechts ÉÉN MINUUT instellen!" description="Snap je het beter als je dingen in actie ziet? Wij fixen het! Duik in onze video die alles voor je uitlegt. Of je nu haast hebt of gewoon liever op de meest toffe manier info opneemt!"/>
 
 <InlineVoucher />
 
 ## Productbeheer
 
-In het onderdeel **Productbeheer** vind je alle benodigde pagina’s om jouw server te beheren. De opties voor het beheren van je server worden hieronder uitgebreid beschreven. 
+In het onderdeel **Productbeheer** vind je alle benodigde pagina’s om jouw server te beheren. Hieronder staan de opties voor het beheren van je server in detail beschreven.
 
 
 
 ### Dashboard
 
-Het **Dashboard** van je server is het kloppende hart van het beheer. Hier worden alle basis- en essentiële informatie over jouw service overzichtelijk weergegeven. Denk aan info over de locatie, status, IP: Poort, gebruikt geheugen, lopend spel, servernaam, map en het aantal beschikbare slots. Ook het gebruik van CPU, geheugen en RAM wordt getoond.
+Het **Dashboard** van je server is het kloppende hart van het beheer. Hier worden alle basis- en essentiële info over jouw service overzichtelijk weergegeven. Denk aan gegevens over de locatie, status, IP: Poort, gebruikt geheugen, lopend spel, servernaam, map en het aantal beschikbare slots. Ook de belasting van CPU, geheugen en RAM wordt getoond.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/WdqSnnxYH6Yz29N/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/WbKNiSijp3HEsmJ/preview)
 
-In het dashboard kun je ook je service starten, stoppen of herstarten, zodat je volledige controle hebt over de werking. Daarnaast heb je toegang tot de live console om realtime info over de serverstatus te krijgen en direct actie te ondernemen indien nodig.
-
-
-
+In het dashboard kun je je service starten, stoppen of herstarten, zodat je volledige controle hebt over de werking. Daarnaast heb je toegang tot de live console voor realtime info over de status van de server en kun je direct actie ondernemen als dat nodig is.
 
 
 
 ### Statistieken
 
-Onder **Statistieken** krijg je een uitgebreid overzicht van de belasting van je server. Hier vind je info over verschillende aspecten zoals de bezetting van de slots, CPU en geheugen. Je kunt deze data bekijken voor verschillende periodes, bijvoorbeeld de laatste **60 minuten, 24 uur, 3 dagen, 7 dagen** of **30 dagen.**
+Onder **Statistieken** krijg je een uitgebreid overzicht van de belasting van je server. Je vindt hier info over verschillende aspecten zoals de bezetting van de slots, CPU en het geheugen. Je kunt deze data bekijken voor verschillende periodes, bijvoorbeeld de laatste **60 minuten, 24 uur, 3 dagen, 7 dagen** of **30 dagen.**
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/N8jcmdqqG2Xt4Bk/preview)
 
-Dankzij deze info krijg je goed inzicht in het gebruik van je server. Deze statistieken zijn ook handig om mogelijke prestatieproblemen te herkennen en de oorzaak te achterhalen. Zo kun je bijvoorbeeld terugzien wanneer de belasting is gestegen en of dit verband houdt met bepaalde gebeurtenissen of wijzigingen. Dit is vooral belangrijk bij plotselinge problemen, zodat je gericht kunt troubleshooten en systematisch mogelijke oorzaken kunt analyseren.
+Dankzij deze info krijg je goed inzicht in het gebruik van je server. Deze statistieken zijn ook handig om mogelijke performanceproblemen te herkennen en de oorzaak te achterhalen. Zo kun je bijvoorbeeld terugzien wanneer de belasting is gestegen en of dat verband houdt met bepaalde gebeurtenissen of wijzigingen. Dit is vooral belangrijk bij plotselinge problemen, zodat je gericht kunt troubleshooten en systematisch mogelijke oorzaken kunt analyseren.
 
 
 
 ### DDoS Manager
 
+Bekijk eerdere DDoS-aanvallen om bedreigingen en patronen beter in te schatten. Schakel notificaties in voor lopende DDoS-aanvallen op jouw server, zodat je snel kunt reageren als er iets gebeurt.
 
-Bekijk eerdere DDoS-aanvallen om bedreigingen en patronen beter in te schatten. Schakel notificaties in voor lopende DDoS-aanvallen op jouw server, zodat je snel kunt reageren bij een incident.
-
-Afhankelijk van de serverlocatie en de beschikbare DDoS-bescherming kun je ook actieve aanvallen realtime monitoren. Dit omvat gedetailleerde verkeersinzichten, waarbij zowel legitiem verkeer als het door mitigatiesystemen geblokkeerde verkeer wordt getoond. Deze transparantie helpt je te begrijpen hoe de bescherming werkt en stelt je in staat potentiële risico’s vroeg te signaleren.
+Afhankelijk van de serverlocatie en de aanwezige DDoS-bescherming kun je ook actieve aanvallen realtime monitoren. Dit omvat gedetailleerde verkeersinzichten, waarbij zowel legitiem verkeer als het door mitigatiesystemen geblokkeerde verkeer wordt getoond. Deze transparantie helpt je te begrijpen hoe de bescherming werkt en stelt je in staat potentiële risico’s vroegtijdig te signaleren.
 
 :::info Geen toegang tot DDoS Manager?
 Het gebruik van de DDoS Manager vereist een dedicated IP-adres of de extra optie "DDoS Manager Overzicht". Als deze onderdelen niet in je huidige pakket zitten, kun je ze altijd toevoegen door je service te upgraden.
@@ -68,42 +58,38 @@ Het gebruik van de DDoS Manager vereist een dedicated IP-adres of de extra optie
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ScCCCY52CMLgfyE/preview)
 
-
-
-
-
 :::warning
-Het gebruik van de DDoS Manager is alleen mogelijk als je een eigen IP-adres of de optie "DDoS Manager Overzicht" als extra optie hebt geboekt. Ontbreken deze onderdelen in je huidige pakket, dan kun je ze altijd toevoegen via een upgrade.
+De DDoS Manager is alleen te gebruiken als je een eigen IP-adres hebt of de optie "DDoS Manager Overzicht" als extra optie hebt geboekt. Ontbreken deze onderdelen in je pakket, dan kun je ze altijd toevoegen via een upgrade.
 :::
 
 
 
 ### Tebex Shop
 
-Met Tebex kun je van je game server cash maken door virtuele goederen en ranks voor echt geld te verkopen. Het is een krachtig en betrouwbaar tool, speciaal ontworpen voor game server admins die hun spelers een betere game-ervaring willen bieden.
+Met Tebex kun je van je game server cash maken door virtuele goederen en ranks voor echt geld te verkopen. Het is een krachtig en betrouwbaar platform, speciaal ontworpen voor game server admins die hun spelers een betere game-ervaring willen bieden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/TbwafKd3Kmq4WrS/preview)
 
-Tebex is makkelijk in gebruik en biedt talloze functies om je winkel te personaliseren en te optimaliseren. Je kunt je winkel lay-out aanpassen, betaalopties toevoegen en zelfs marketingcampagnes starten om meer spelers te bereiken.
+Tebex is makkelijk in gebruik en biedt talloze functies om je shop te personaliseren en te optimaliseren. Je kunt de layout aanpassen, betaalopties toevoegen en zelfs marketingcampagnes starten om meer spelers te bereiken.
 
-Klik op de afbeelding om je eigen game server winkel met Tebex te maken. De setup is snel en simpel, zodat je snel je virtuele goederen kunt verkopen.
+Klik op de afbeelding om je eigen game server shop met Tebex te maken. De setup is snel en simpel, zodat je direct aan de slag kunt met het verkopen van je virtuele items.
 
 
 
 ### Logbestanden
 
-Heb je een technisch probleem en weet je niet waar het door komt? Een eerste mogelijke oplossing is om de **Logbestanden** te checken. Deze bestanden bevatten veel info over de server, zoals actuele gebeurtenissen, hints of foutmeldingen.
+Heb je een technisch probleem en weet je niet waar het door komt? Een eerste stap is het checken van de **logbestanden**. Deze bestanden bevatten veel info over de server, zoals actuele gebeurtenissen, hints of foutmeldingen.
 
-Foutmeldingen kunnen vooral helpen om de oorzaak van een probleem te achterhalen en beter te begrijpen. Vaak kunnen problemen worden opgespoord en opgelost door gericht naar de logbestanden te kijken.
+Foutmeldingen zijn vooral handig om de oorzaak van een probleem te achterhalen en beter te begrijpen. Vaak kun je problemen opsporen en oplossen door gericht in de logbestanden te duiken.
 
 :::warning
-Helpen de gevonden info niet of snap je het niet? Geen stress! We zijn dagelijks bereikbaar via support. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan en leg je probleem uit. We kijken er zo snel mogelijk naar en helpen je het probleem op te lossen! :)
+Snap je de info niet of helpt het niet? Geen stress! We zijn dagelijks bereikbaar via support. Maak gewoon een **[Ticket](https://zap-hosting.com/en/customer/support/)** aan en leg je probleem uit. We kijken er zo snel mogelijk naar en helpen je het op te lossen! :)
 :::
 
 
-### Event log
+### Gebeurtenislog
 
-De **Event Log** geeft je een compleet overzicht van alle activiteiten rondom het serverbeheer. Hier kun je altijd terugzien wanneer een server is gestart, gestopt of gecrasht, en wanneer updates, backups of nieuwe installaties zijn uitgevoerd.
+De **Gebeurtenislog** geeft je een compleet overzicht van alle activiteiten rondom het serverbeheer. Hier zie je wanneer een server gestart, gestopt of gecrasht is, en wanneer updates, backups of nieuwe installaties zijn uitgevoerd.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xNzsaMbW5BS5KJC/preview)
 
@@ -111,17 +97,17 @@ De **Event Log** geeft je een compleet overzicht van alle activiteiten rondom he
 
 ### Live Console
 
-De **Live Console** geeft je een realtime overzicht van alle actuele gebeurtenissen op je server. Hier zie je info over de activiteiten van spelers, maar ook foutmeldingen en systeemberichten. Dit overzicht helpt je om een compleet beeld te krijgen van wat er op je server gebeurt en om problemen vroegtijdig te signaleren.
+De **Live Console** geeft je een realtime overzicht van alle actuele gebeurtenissen op je server. Je ziet hier info over spelersactiviteiten, foutmeldingen en systeemberichten. Dit overzicht helpt je om een compleet beeld te krijgen van wat er op je server gebeurt en om problemen vroegtijdig te signaleren.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/J9SsmSrPXnG7P9w/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/Hm8pE6RDacB4fMM/preview)
 
-Naast het monitoren van gebeurtenissen kun je ook direct commando’s naar de server sturen via de **Live Console**. Dit is handig om instellingen aan te passen, acties uit te voeren of snel te reageren op problemen.
+Naast het monitoren van events kun je ook direct commando’s naar de server sturen via de **Live Console**. Handig om instellingen aan te passen, acties uit te voeren of snel te reageren op problemen.
 
 
 
 ### Serviceonderbrekingen
 
-Was je server tijdelijk offline en weet je niet waarom? Kijken in de event log en logbestanden gaf ook geen info? Het kan zijn dat de oorzaak niet bij jouw server ligt, maar bij het host-systeem waarop je server draait.
+Was je server tijdelijk offline en weet je niet waarom? Ook in de gebeurtenislog en logbestanden niks gevonden? Het kan zijn dat het probleem niet bij jouw server ligt, maar bij het host-systeem waarop jouw server draait.
 
 Als ons monitoringsysteem een algemene storing detecteert, worden onze techneuten automatisch geïnformeerd en pakken ze het probleem zo snel mogelijk aan.
 
@@ -136,27 +122,31 @@ In dit onderdeel vind je een overzicht van de storingsgeschiedenis van het host-
 
 
 
-
-
 ## Instellingen
 
-In het onderdeel **Instellingen** vind je alle pagina’s die nodig zijn om je server te configureren. De beschikbare opties voor het instellen van je server worden hieronder uitgebreid beschreven.
+In het onderdeel **Instellingen** vind je alle pagina’s die nodig zijn om je server te configureren. Hieronder staan de beschikbare opties voor het instellen van je server in detail beschreven.
 
 
 
 ### Instellingen
 
-Onder Instellingen vind je een overzicht van de meest gebruikte opties voor je server. Deze worden ook kort uitgelegd. Het gebruik van de instellingenpagina is vooral aan te raden voor beginners in serverbeheer.
+Onder instellingen vind je een overzicht van de meest gebruikte configuratie-opties voor je server, inclusief een korte uitleg. Deze pagina is vooral aan te raden voor beginners in serverbeheer.
 
-Als je al wat zekerder bent en preciezere aanpassingen wilt maken, raden we aan om de Config Editor te gebruiken. Meer info hierover vind je in de categorie **Configs**.
+![](https://screensaver01.zap-hosting.com/index.php/s/oBMaLkTGrZ8rdLJ/preview)
+
+Hier kun je bijvoorbeeld de volgende aanpassingen doen:
+
+- Basisinstellingen: Servernaam, Gamemode, Startmap
+
+Ben je wat zekerder en wil je preciezere aanpassingen doen? Gebruik dan de Config Editor. Meer info hierover vind je in de categorie **Configs**.
 
 
 
 ### Configs
 
-De config-bestanden editor laat je de configuratiebestanden direct via de website bewerken, op de klassieke manier zonder vereenvoudigde weergave. Hiermee kun je de instellingen van je server helemaal naar eigen wens aanpassen.
+De config-bestanden editor laat je de configuratiebestanden direct via de website bewerken, zonder de vereenvoudigde weergave. Hiermee kun je de instellingen van je server helemaal naar wens aanpassen.
 
-Met de editor heb je directe toegang tot alle opties en kun je ze precies instellen. Dit is vooral handig voor gevorderde gebruikers die volledige controle willen over hun serverinstellingen en precies weten wat ze willen aanpassen.
+Met de editor heb je directe toegang tot alle opties en kun je deze precies instellen. Dit is vooral handig voor gevorderde gebruikers die volledige controle willen en precies weten wat ze willen veranderen.
 
 :::warning
 Merk je dat sommige wijzigingen deels worden overschreven? Houd er rekening mee dat bepaalde opties worden overgenomen van de instellingenpagina. Wil je deze direct in de config aanpassen, schakel dan eerst de betreffende opties uit op de instellingenpagina.
@@ -173,69 +163,51 @@ Onder **Games** kun je altijd de game-variant van je bestaande game wijzigen of 
 
 ### Versies
 
-Onder **Versies** kun je de huidige versie van je game server bekijken en beheren. Hier kun je altijd updaten naar de nieuwste versie of automatische updates inschakelen, zodat je server altijd up-to-date blijft.
+Onder **Versies** kun je de huidige versie van je game server bekijken en beheren. Je kunt hier altijd updaten naar de nieuwste versie of automatische updates inschakelen, zodat je server altijd up-to-date is.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/LMZg8pZEBiGnBd9/preview)
 
-Daarnaast kun je ook e-mailnotificaties voor automatische updates aanzetten, zodat je altijd op de hoogte blijft van updates.
-
-
-
-### Plugins
-
-Voor deze game bieden we de mogelijkheid om bekende en populaire resources/plugins met één klik te installeren onder **Plugins**. In het overzicht vind je een selectie van beschikbare content die je met de install-knop toevoegt. Na een serverherstart worden deze resources/plugins geïnstalleerd, geactiveerd en beschikbaar.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/DoL7miMAmj83CDr/preview)
-
-Met deze functie breid je snel en makkelijk de content van je game server uit, zonder zelf aanpassingen te hoeven doen. Dit bespaart tijd en verkleint de kans op fouten of compatibiliteitsproblemen.
+Daarnaast kun je ook e-mailnotificaties inschakelen voor automatische updates, zodat je altijd op de hoogte blijft.
 
 
 
-### Steam Workshop
+### Geplande taken
 
-Ben je op zoek naar nieuwe content om je game-ervaring te verbeteren? De Steam Workshop biedt een grote selectie mods en maps voor diverse games. Om een collectie mods of maps te gebruiken, voer je simpelweg de Steam Workshop Collection ID in. Daarna moet je je server herstarten zodat de nieuwe content wordt geladen. Vervolgens kun je de nieuwe content op je server gebruiken en meer variatie en fun toevoegen.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/AaL9sQeye5gKzWQ/preview)
-
-
-
-### Geplande Taken
-
-Maak geplande taken die automatisch op bepaalde tijden draaien om processen op je server te automatiseren. Je kunt instellen of een taak één keer moet draaien of herhaald moet worden. Ondersteunde taken zijn onder andere starten, stoppen of herstarten van services, herstarten van de server als die online is, backups maken of eigen commando’s uitvoeren.
+Maak geplande taken die automatisch op ingestelde tijden draaien om processen op je server te automatiseren. Je kunt instellen of een taak één keer moet draaien of herhaald moet worden. Ondersteunde taken zijn onder andere starten, stoppen of herstarten van services, herstarten van de server als die online is, backups maken of eigen commando’s uitvoeren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview)
 
 ### Herstartplanner
 
-Wil je serverherstarts plannen op specifieke tijden? Met de Herstartplanner stel je automatische herstarts van je game server in. Hiermee kun je herstarts op vaste tijden of met regelmatige tussenpozen instellen.
+Wil je serverherstarts op vaste tijden plannen? Met de Herstartplanner stel je automatische herstarts in op specifieke tijden of met regelmatige tussenpozen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
 ### DNS-instellingen
-Met de ZAP DNS-instellingen maak je makkelijk te onthouden adressen voor je service. Je kunt een subdomein van één van onze domeinen gebruiken of een DNS-entry aanmaken op je eigen domeinen, zodat je een adres hebt dat beter bij jou past.
+Met de ZAP DNS-instellingen maak je makkelijk te onthouden adressen voor je service. Je kunt een subdomein van onze domeinen gebruiken of een DNS-entry aanmaken op je eigen domeinen, zodat het adres beter bij jou past.
 ![](https://screensaver01.zap-hosting.com/index.php/s/tM5FGTHRSbZA5rN/preview)
 
 ## Tools
 
-In het onderdeel **Tools** van je navigatiepaneel vind je verschillende sub-items die je helpen bij het beheren van je server. Dit zijn onder andere **FTP Browser**, **Databases** en **Backups**. Hieronder krijg je een uitgebreide introductie van deze gebieden.
+In het onderdeel **Tools** in je navigatiepaneel vind je verschillende subitems die je helpen bij het beheren van je server. Dit zijn onder andere **FTP Browser**, **Databases** en **Backups**. Hieronder krijg je een uitgebreide introductie van deze onderdelen.
 
 
 
 ### FTP-Browser
 
-Met de **FTP Browser** krijg je alle info die je nodig hebt om verbinding te maken met de FTP-toegang. De FTP-toegang geeft je directe toegang tot de bestanden van je game server. We raden aan een extern FTP-programma te gebruiken zoals **FileZilla** of **WinSCP** voor optimaal gebruik. Als je niet bekend bent met FTP, kan de [Toegang via FTP](gameserver-ftpaccess.md) gids je helpen.
+Met de **FTP Browser** krijg je alle info die je nodig hebt om verbinding te maken met de FTP-toegang. FTP geeft je directe toegang tot de bestanden van je game server. We raden aan een externe FTP-client te gebruiken zoals **Filezilla** of **WinSCP** voor optimaal gebruik. Ben je niet bekend met FTP? Kijk dan eens in de [Toegang via FTP](gameserver-ftpaccess.md) gids.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 
-**FileZilla:** FileZilla is waarschijnlijk de eenvoudigste en bekendste FTP-client. Gewoon installeren, starten en in de bovenste balk je inloggegevens invullen die je op deze pagina iets hoger vindt. Met een snelle klik op "Verbinden" ben je direct op de server ingelogd en kun je bestanden beheren.
+**FileZilla:** FileZilla is waarschijnlijk de makkelijkste en bekendste FTP-client. Gewoon installeren, starten en bovenin je inloggegevens invullen die je op deze pagina iets hoger vindt. Met een snelle klik op "Verbinden" ben je direct op de server en kun je bestanden beheren.
 
-**WinSCP:** WinSCP is eigenlijk bedoeld voor SCP en SFTP (de versleutelde varianten van FTP), maar kan ook prima met gewoon FTP omgaan. Het programma is wat uitgebreider dan FileZilla en meer geschikt voor gevorderde gebruikers.
+**WinSCP:** WinSCP is eigenlijk bedoeld voor SCP en SFTP (de versleutelde varianten van FTP), maar kan ook prima met gewoon FTP overweg. Het programma is wat uitgebreider dan FileZilla en meer geschikt voor gevorderde gebruikers.
 
 
 
 ### Databases
 
-Naast onze game server producten bieden we ook 10 inbegrepen databases aan. Deze databases zijn nodig als data in een database opgeslagen moet worden. Onder **Databases** kun je een database aanmaken en de inloggegevens bekijken. Je kunt ook de backup-optie activeren en bestaande database-backups importeren.
+Naast onze game server producten bieden we ook 10 inbegrepen databases aan. Deze zijn nodig als data in een database opgeslagen moet worden. Onder **Databases** kun je een database aanmaken en de inloggegevens bekijken. Je kunt ook de backup-optie activeren en bestaande database-backups importeren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WFLwCbZSQfYjrmD/preview)
 
@@ -243,27 +215,29 @@ Naast onze game server producten bieden we ook 10 inbegrepen databases aan. Deze
 
 ### Backups
 
-Onder **Backups** kun je handmatige en automatische backups maken van je server en de bijbehorende database. Zo kun je makkelijker je data herstellen bij problemen of dataverlies.
+Onder **Backups** kun je handmatige en automatische backups maken van je server en bijbehorende database. Zo herstel je makkelijk je data bij problemen of dataverlies.
 
-In de instellingen kun je aangeven of backups automatisch gemaakt moeten worden en of dit dagelijks of wekelijks moet gebeuren. Ook kun je instellen of de oudste backups verwijderd mogen worden als de opslagruimte beperkt raakt.
+In de instellingen bepaal je of backups automatisch gemaakt worden en of dat dagelijks of wekelijks moet gebeuren. Ook kun je instellen of de oudste backups verwijderd mogen worden als de opslagruimte vol raakt.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
 
-We bieden standaard 10 GB opslagruimte voor backups aan op de opslagserver voor onze game server producten. Heb je meer ruimte nodig, dan kun je dit tegen betaling upgraden. Zo zorg je dat je altijd genoeg ruimte hebt voor je backups en ook oudere backups kunt bewaren.
+We bieden standaard 10 GB opslagruimte voor backups aan op de opslagserver bij onze game server producten. Heb je meer ruimte nodig? Dat kun je tegen betaling upgraden. Zo heb je altijd genoeg plek voor je backups en kun je ook oudere backups bewaren.
+
+
 
 ## Verdere Links
-In het onderdeel **Verdere Links** vind je extra links die relevant zijn voor jouw product. 
+In het onderdeel **Verdere Links** vind je extra links die relevant zijn voor jouw product.
 
 ### Veelgestelde Vragen
-De sectie **Veelgestelde Vragen** geeft een overzicht van de meest gestelde vragen van onze klanten. Hier vind je handige antwoorden en uitgebreide info over diverse onderwerpen om je snel en efficiënt te helpen.
+De sectie **Veelgestelde Vragen** geeft een overzicht van de meest gestelde vragen van onze klanten. Hier vind je handige antwoorden en uitgebreide info over diverse onderwerpen, zodat je snel en efficiënt geholpen wordt.
 
 ### ZAP-Hosting Documentatie
-We bieden uitgebreide documentatie voor onze producten, die dient als kennisbank voor de meest gestelde vragen en onderwerpen. Hier vind je diverse gidsen en hulp over verschillende thema’s die je ondersteunen bij het gebruik en beheer van je product.
+We bieden uitgebreide documentatie voor onze producten, die fungeert als kennisbank voor de meest voorkomende vragen en onderwerpen. Hier vind je diverse handleidingen en hulp over verschillende thema’s die je ondersteunen bij het gebruik en beheer van je product.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 
 ### Nieuws
-De sectie **Nieuws** geeft je een compleet overzicht van alle aankondigingen en updates rondom jouw service. Hier vind je belangrijke info over zaken zoals:
+De sectie **Nieuws** geeft je een compleet overzicht van alle aankondigingen en updates rondom jouw service. Hier vind je belangrijke info over onder andere:
 
 - Wijzigingen aan de service, bijvoorbeeld door updates of nieuwe features
 - Aankondigingen over onderhoud of technische problemen

@@ -153,5 +153,5 @@ Die Netzwerkkonfiguration wird automatisch per DHCP übernommen, weitere Änderu
 Wenn du weitere Fragen oder Probleme hast, hilft dir unser Support gerne weiter!
 :::
 
-## Fazit
+## Abschluss
 Glückwunsch, du hast Windows Server 2022 erfolgreich auf deinem Dedicated Server installiert. Für weitere Fragen oder Unterstützung steht dir unser Support-Team täglich zur Verfügung! 🙂

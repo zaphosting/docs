@@ -17,7 +17,7 @@ VPSや専用サーバーを持っていて、そこにゲームサーバーを�
 
 ## 準備
 
-Team Fortress 2サーバーのセットアップにはSteamCMDが必要だよ。SteamCMDは**Steamクライアントのコマンドライン版**。このツールを使えば、人気Steamゲームの専用サーバーアプリをサクッとダウンロードできる。SteamCMDは公式Valve開発者サイトで手に入るよ：https://developer.valvesoftware.com/wiki/SteamCMD。
+Team Fortress 2サーバーのセットアップにはSteamCMDが必要だよ。SteamCMDは**Steamクライアントのコマンドライン版**。このツールを使えば、人気Steamゲームの専用サーバーアプリをサクッとダウンロードできる。SteamCMDは公式Valve開発者サイトで手に入るよ：`https://developer.valvesoftware.com/wiki/SteamCMD`。
 
 ダウンロード後は、**steamcmd.zip**ファイルが入っているから、まずはこれを解凍しよう。別フォルダを作ってそこに解凍するのがおすすめ。解凍後に**steamcmd.exe**が見えるはず。これを実行して、インストールが完了するまで待とう。
 

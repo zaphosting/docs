@@ -43,7 +43,7 @@ Wird die Domain während der Kulanzzeit nicht verlängert, kann sie in die Lösc
 
 Wenn die Löschfrist endet ohne Verlängerung, geht die Domain in den Status „Löschvorgang ausstehend“. Ab hier kann die Domain nicht mehr zurückgeholt werden. Nach der Löschung wird die Domain wieder für alle zur Registrierung frei.
 
-## Fazit
+## Abschluss
 
 Der Domain-Lebenszyklus beschreibt den kompletten Weg einer Domain von Verfügbarkeit bis zur Löschung. Wenn du Fragen hast oder Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

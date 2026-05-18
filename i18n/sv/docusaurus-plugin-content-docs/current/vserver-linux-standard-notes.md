@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-standard-notes
-title: "VPS: Installera Standard Notes på Linux"
-description: "Upptäck hur du säkert synkar och skyddar dina anteckningar över enheter med Standard Notes självhostning → Lär dig mer nu"
+title: "Installera Standard Notes på en Linux-server – Bygg ditt privata anteckningssystem"
+description: "Upptäck hur du säkert synkar och skyddar dina anteckningar över enheter med Standard Notes självhosting → Lär dig mer nu"
 sidebar_label: Installera Standard Notes
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,11 +14,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Standard Notes är en öppen källkods-app för anteckningar som skyddar dina data med granskad end-to-end-kryptering. Endast du har kontroll över dekrypteringsnycklarna. Den synkar dina krypterade anteckningar och filer sömlöst över obegränsat antal enheter, håller dem tillgängliga offline och skyddar aktivt ditt innehåll från extern åtkomst.
+Standard Notes är en open-source anteckningsapp som skyddar dina data med granskad end-to-end-kryptering. Endast du har kontroll över dekrypteringsnycklarna. Den synkar dina krypterade anteckningar och filer sömlöst över obegränsat antal enheter, håller dem tillgängliga offline och skyddar aktivt ditt innehåll från extern åtkomst.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/b6ZpyKJGny5qAon/preview)
 
-Fundera på att hosta den här tjänsten själv? Vi guidar dig genom varje steg för hur du sätter upp och konfigurerar den, tillsammans med allt du behöver ha koll på.
+Fundera på att hosta den här tjänsten själv? Vi guidar dig steg för steg hur du installerar och konfigurerar den, plus allt du behöver ha koll på.
 
 <InlineVoucher />
 
@@ -25,46 +26,46 @@ Fundera på att hosta den här tjänsten själv? Vi guidar dig genom varje steg 
 
 ## Förutsättningar
 
-Innan du installerar **Standard Notes**, se till att din hostingmiljö uppfyller följande krav för att garantera en smidig installation och optimal prestanda.
+Innan du installerar **Standard Notes**, se till att din hostingmiljö uppfyller följande krav för en smidig installation och optimal prestanda.
 
 | Hårdvara  | Minimum     | ZAP-Hosting Rekommendation |
 | --------- | ----------- | -------------------------- |
-| CPU       | 1 vCPU-kärna| 4 vCPU-kärnor              |
-| RAM       | 2 GB        | 4 GB                       |
-| Diskutrymme | 5 GB      | 25 GB                      |
+| CPU       | 1 vCPU-kärna | 4 vCPU-kärnor             |
+| RAM       | 2 GB        | 4 GB                      |
+| Diskutrymme | 5 GB       | 25 GB                     |
 
-Mjukvaran kräver att alla nödvändiga beroenden är installerade och att den körs på ett stödt operativsystem. Säkerställ att din server uppfyller följande krav innan du fortsätter med installationen:
+Mjukvaran kräver att alla nödvändiga beroenden är installerade och att den körs på ett stöds operativsystem. Säkerställ att din server uppfyller följande innan du fortsätter med installationen:
 
 **Beroenden:** `Docker (Engine 26+ och Compose)`
 
 **Operativsystem:** Senaste versionen av Ubuntu/Debian som stödjer Docker 26+
 
-Se till att alla beroenden är installerade och att rätt operativsystemsversion används för att undvika kompatibilitetsproblem under installationen av Standard Notes.
+Se till att alla beroenden är installerade och att rätt OS-version används för att undvika kompatibilitetsproblem under installationen av Standard Notes.
 
 
 
 ## Förberedelser
 
-Innan du sätter upp **Standard Notes** behöver du förbereda ditt system. Det inkluderar att uppdatera operativsystemet till senaste versionen och installera alla nödvändiga beroenden. Dessa förberedelser säkerställer en stabil miljö och hjälper till att undvika problem under eller efter installationen.
+Innan du sätter upp **Standard Notes** behöver du förbereda ditt system. Det innebär att uppdatera operativsystemet till senaste versionen och installera alla nödvändiga beroenden. Dessa förberedelser garanterar en stabil miljö och hjälper till att undvika problem under eller efter installationen.
 
 
 ### Uppdatera systemet
-För att säkerställa att ditt system kör den senaste mjukvaran och säkerhetsförbättringarna bör du alltid börja med att uppdatera systemet. Kör följande kommando:
+För att säkerställa att ditt system kör den senaste mjukvaran och säkerhetsuppdateringarna bör du alltid börja med att uppdatera systemet. Kör följande kommando:
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-Detta ser till att ditt system har de senaste säkerhetspatcharna och mjukvaruversionerna innan du fortsätter.
+Detta ser till att ditt system har de senaste säkerhetspatcharna och mjukvaruversionerna innan du går vidare.
 
 ### Installera beroenden
-När uppdateringen är klar kan du fortsätta med installationen av beroenden. Standard Notes kommer att köras på din maskin via flera Docker-containrar. Det kräver att Docker är installerat först. Kör följande kommando:
+När uppdateringen är klar kan du fortsätta med installationen av beroenden. Standard Notes körs i flera Docker-containrar, så Docker måste installeras först. Kör följande kommando:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-En komplett genomgång av installationsprocessen och hur du använder Docker finns i vår [Docker](vserver-linux-docker.md)-guide.
+En komplett guide för installation och användning av Docker finns i vår [Docker](dedicated-linux-docker.md)-guide.
 
 
 
@@ -87,9 +88,9 @@ touch .env
 curl https://raw.githubusercontent.com/standardnotes/server/main/.env.sample > .env
 ```
 
-Denna fil innehåller bara de minimala variabler som krävs för en fungerande setup. Den kompletta listan över variabler som används finns här: [docker-entrypoint.sh](https://github.com/standardnotes/server/blob/main/docker/docker-entrypoint.sh)
+Denna fil innehåller bara de minimala variabler som krävs för en fungerande setup. Den fullständiga listan över variabler som används hittar du här: [docker-entrypoint.sh](https://github.com/standardnotes/server/blob/main/docker/docker-entrypoint.sh)
 
-Öppna `.env`-filen och se till att alla nycklar i KEYS-sektionen är korrekt satta. Generera slumpmässiga värden för varje nödvändig miljövariabel med:
+Öppna `.env`-filen och se till att alla nycklar i KEYS-sektionen är korrekt satta. Generera slumpmässiga värden för varje miljövariabel med:
 
 ```
 openssl rand -hex 32
@@ -118,9 +119,9 @@ docker compose pull && docker compose up -d
 
 ## Konfiguration
 
-Standardkonfigurationen i den medföljande `docker-compose.yml`-filen kan anpassas efter dina specifika behov. En viktig del är `server`-tjänsten, där du kan justera portmappningarna i `ports`-egenskapen. Det låter dig välja vilka portar på hosten appen ska vara tillgänglig på, vilket hjälper dig undvika konflikter med andra tjänster eller anpassa nätverksinställningarna efter dina önskemål.
+Standardinställningarna i den medföljande `docker-compose.yml`-filen kan anpassas efter dina behov. En viktig del är `server`-tjänsten där du kan justera portmappningarna i `ports`-egenskapen. Det låter dig välja vilka portar på värddatorn appen ska vara tillgänglig på, vilket hjälper dig undvika konflikter med andra tjänster eller anpassa till ditt nätverk.
 
-Att säkra databasen är också ett kritiskt steg. Standardlösenord bör bytas ut mot starka, slumpmässigt genererade strängar. Du kan skapa ett säkert lösenord med:
+Att säkra databasen är också viktigt. Byt ut standardlösenord mot starka, slumpgenererade strängar. Du kan skapa ett säkert lösenord med:
 
 ```
 openssl rand -hex 12  
@@ -128,17 +129,17 @@ openssl rand -hex 12
 
 Lägg till det genererade värdet i `.env`-filen som `DB_PASSWORD`. Samma värde måste även sättas för `MYSQL_ROOT_PASSWORD` och `MYSQL_PASSWORD` i `docker-compose.yml` för att hålla containrarna synkade.
 
-Dessa konfigurationsändringar ser till att din installation inte bara fungerar utan också är säker och anpassad efter din miljö.
+Dessa ändringar gör att din installation inte bara fungerar utan också är säker och anpassad efter din miljö.
 
 
 
 
 
-## Ansluta till Sync Server
+## Anslut till Sync Server
 
 För att skapa ditt konto i Standard Notes, klicka på avatar-ikonen längst ner till höger i appen. I menyn som dyker upp, välj “Create Account” för att börja skapa en ny användarprofil. Ange en giltig e-postadress och ett säkert lösenord.
 
-Innan du slutför processen, öppna sektionen “Advanced Options”. Under “Sync Server”, välj “Custom” och ange IP-adressen och porten till din egen server i formatet IP:Port. Detta säkerställer att dina anteckningar inte synkas via Standard Notes standardtjänst utan istället med din självhostade server.
+Innan du slutför, öppna “Advanced Options”. Under “Sync Server” väljer du “Custom” och anger IP-adressen och porten till din egen server i formatet IP:Port. Detta säkerställer att dina anteckningar inte synkas via Standard Notes standardtjänst utan via din egen självhostade server.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/tpsFzSQEokP9xit/download)
 
@@ -148,9 +149,9 @@ Innan du slutför processen, öppna sektionen “Advanced Options”. Under “S
 
 ## Avslutning och fler resurser
 
-Grattis! Du har nu framgångsrikt installerat och konfigurerat Standard Notes på din VPS. Vi rekommenderar också att du kollar in följande resurser som kan ge dig extra hjälp och vägledning under din serverkonfiguration:
+Grattis! Du har nu framgångsrikt installerat och konfigurerat Standard Notes på din VPS/Dedikerade server. Vi rekommenderar även att du kikar på följande resurser som kan ge dig extra hjälp och vägledning under din serverkonfiguration:
 
-- [Standardnotes.com](https://standardnotes.com/) - Officiell webbplats
-- [Standardnotes.com/help](https://standardnotes.com/help) - Standard Notes Hjälpcenter (Dokumentation)
+- [Standardnotes.com](https://standardnotes.com/) – Officiell webbplats
+- [Standardnotes.com/help](https://standardnotes.com/help) – Standard Notes Hjälpcenter (Dokumentation)
 
-Har du specifika frågor som inte täcks här? För fler frågor eller support, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+Har du frågor som inte täcks här? Tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂

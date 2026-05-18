@@ -1,7 +1,7 @@
 ---
 id: dedicated-linux-notepad++
-title: "Dedikerad Server: Installera Notepad++ på Linux"
-description: "Upptäck hur du installerar och optimerar Notepad++ på Linux för kraftfull, lättviktig kodredigering och ökad utvecklarproduktivitet → Lär dig mer nu"
+title: "Installera Notepad++ på en Linux-server – Använd din favoritredigerare via Wine"
+description: "Upptäck hur du sätter upp och optimerar Notepad++ på Linux för kraftfull, lättviktig kodredigering och ökad utvecklarproduktivitet → Läs mer nu"
 sidebar_label: Installera Notepad++
 services:
 - dedicated
@@ -13,11 +13,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Notepad++ är en gratis och öppen källkods-text- och kodredigerare för Windows. Den stödjer syntaxmarkering, kodfällning och flikbaserad redigering för många programmerings- och skriptspråk, och är mycket anpassningsbar via plugins. Känd för sin snabba prestanda och låga resursförbrukning är Notepad++ fortfarande ett populärt val för utvecklare och användare som vill ha ett kraftfullt men lättviktigt redigeringsverktyg.
+Notepad++ är en gratis och öppen källkods-text- och kodredigerare för Windows. Den stödjer syntaxmarkering, kodfällning och flikbaserad redigering för många programmerings- och skriptspråk, och är mycket anpassningsbar via plugins. Känd för sin snabba prestanda och låga resursanvändning är Notepad++ fortfarande ett populärt val för utvecklare och användare som vill ha ett kraftfullt men lättviktigt redigeringsverktyg.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jMMDejqDfWDCfrr/preview)
 
-Fundera på att hosta den här tjänsten själv? Vi guidar dig steg för steg hur du installerar och konfigurerar den, plus allt du behöver ha koll på.
+Fundera på att hosta den här tjänsten själv? Vi guidar dig steg för steg genom installation och konfiguration, samt allt du behöver ha koll på.
 
 :::danger Linux med Desktop-variant krävs
 Den här applikationen kan endast installeras och användas på ett Linux-system med grafiskt användargränssnitt; i det här exemplet används Ubuntu Desktop 25.04 som referens.
@@ -38,7 +38,7 @@ Innan du installerar **Notepad++**, se till att din hostingmiljö uppfyller föl
 | RAM | 2 GB | 4 GB |
 | Diskutrymme | 25 MB | 25 GB |
 
-Mjukvaran kräver att alla nödvändiga beroenden är installerade och att den körs på ett stöds operativsystem. Säkerställ att din server uppfyller följande krav innan du fortsätter med installationen:
+Mjukvaran kräver att alla nödvändiga beroenden är installerade och att den körs på ett stödt operativsystem. Säkerställ att din server uppfyller följande krav innan du fortsätter med installationen:
 
 **Beroenden:** `Snap`
 
@@ -54,7 +54,7 @@ Innan du sätter upp **Notepad++** behöver du förbereda ditt system. Det inneb
 
 
 ### Uppdatera systemet
-För att säkerställa att ditt system kör den senaste mjukvaran och säkerhetsuppdateringarna bör du alltid börja med att uppdatera systemet. Kör följande kommando:
+För att säkerställa att ditt system kör den senaste mjukvaran och säkerhetsförbättringarna bör du alltid börja med att uppdatera systemet. Kör följande kommando:
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -75,13 +75,13 @@ sudo apt install snapd
 
 
 ## Installation
-Nu när alla krav är uppfyllda och förberedelserna klara kan du installera Notepad++-applikationen. Kör följande kommando:
+Nu när alla krav är uppfyllda och förberedelserna klara kan du fortsätta med installationen av Notepad++-appen. Kör följande kommando:
 
 ```
 sudo snap install notepad-plus-plus
 ```
 
-Notepad++ laddas ner och installeras via den officiella installationsskriptet. Låt processen köra klart, sedan kan du starta appen direkt.
+Notepad++ laddas ner och installeras via den officiella installationsskriptet. Låt processen köra klart, och när den är klar kan du starta appen direkt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ca9Z8D37wCSrDbf/preview)
 
@@ -89,16 +89,16 @@ Notepad++ laddas ner och installeras via den officiella installationsskriptet. L
 
 ## Konfiguration
 
-Notepad++ har massor av anpassningsmöjligheter som du hittar under *Settings > Preferences*. Här kan du skräddarsy editorn efter just ditt arbetsflöde:
+Notepad++ har en mängd anpassningsmöjligheter som du hittar under *Settings > Preferences*. Här kan du skräddarsy redigeraren efter just ditt arbetsflöde:
 
 - **General**: Styr startbeteende, som att ladda om tidigare öppnade filer, sätta standardspråk eller definiera hur flikar beter sig.  
-- **Editor Settings**: Justera typsnitt och storlek, flikbredd, radnummer, automatisk indentering eller om mellanslag och flikmarkeringar ska visas.  
+- **Editor Settings**: Justera typsnitt och storlek, flikbredd, radnumrering, automatisk indentering eller om mellanslag och flikmarkörer ska visas.  
 - **Color Schemes & Syntax**: Använd “Style Configurator” för att byta tema och anpassa syntaxmarkering för varje språk som stöds.  
-- **File Handling**: Ställ in automatisk omladdning av filer vid ändringar, hantering av stora filer eller kodningspreferenser som UTF-8.  
+- **File Handling**: Konfigurera alternativ som automatisk omladdning av filer vid ändringar, hantering av stora filer eller kodningsinställningar som UTF-8.  
 - **Security & Backup**: Aktivera automatisk backup eller sessionsåterställning för att undvika dataförlust.  
 - **Plugins**: Installera och hantera tillägg via Plugin Manager för att lägga till funktioner som FTP-stöd eller avancerad formatering.  
 
-Dessa inställningar gör Notepad++ superflexibelt, oavsett om du bara skriver text eller utvecklar fullfjädrad mjukvara.
+Dessa inställningar gör Notepad++ väldigt flexibel, oavsett om du bara skriver enkel text eller utvecklar fullskaliga program.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/X8og5qnFkBTRcmA/preview)
 
@@ -107,8 +107,11 @@ Dessa inställningar gör Notepad++ superflexibelt, oavsett om du bara skriver t
 
 ## Avslutning och fler resurser
 
-Grattis! Du har nu framgångsrikt installerat och konfigurerat Notepad++ på din Dedikerade Server. Vi rekommenderar också att du kikar på följande resurser som kan ge dig extra hjälp och tips under din serverkonfiguration:
+Grattis! Du har nu framgångsrikt installerat och konfigurerat Notepad++ på din Dedicated Server. Vi rekommenderar också att du kollar in följande resurser som kan ge dig extra hjälp och vägledning under din serverkonfiguration:
 
-- [notepad-plus-plus.org/](https://notepad-plus-plus.org/) - Officiell webbplats
+- [notepad-plus-plus.org/](https://notepad-plus-plus.org/) – Officiell webbplats
 
-Har du specifika frågor som inte täcks här? Tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂
+Har du specifika frågor som inte täcks här? För fler frågor eller support, tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
+
+
+

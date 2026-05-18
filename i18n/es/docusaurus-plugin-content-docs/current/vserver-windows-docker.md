@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-docker
-title: "VPS: Configura Docker en Windows"
-description: "Descubre cómo desplegar y gestionar aplicaciones de forma eficiente con contenedores Docker para escalado y actualizaciones sin complicaciones → Aprende más ahora"
+title: "Configura Docker en un Servidor Windows - Ejecuta y Gestiona Contenedores en Tu Infraestructura"
+description: "Descubre cómo desplegar y gestionar aplicaciones eficientemente con contenedores Docker para escalado y actualizaciones sin interrupciones → Aprende más ahora"
 sidebar_label: Instalar Docker
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -15,17 +16,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Docker es una plataforma abierta para desarrollar, distribuir y ejecutar aplicaciones dentro de contenedores. Un contenedor empaqueta una aplicación con todas sus dependencias en una unidad estandarizada que puede ejecutarse de forma fiable en diferentes entornos.
 
-Este enfoque elimina problemas causados por diferencias entre sistemas de desarrollo, pruebas y producción. Con Docker, las aplicaciones se pueden desplegar rápido, escalar eficientemente y actualizar sin tiempos de inactividad.
+Este enfoque elimina problemas causados por diferencias entre sistemas de desarrollo, pruebas y producción. Con Docker, las aplicaciones pueden desplegarse rápidamente, escalarse eficientemente y actualizarse sin tiempo de inactividad.
 
-¿Estás pensando en alojar este servicio tú mismo? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que debes tener en cuenta.
+¿Estás pensando en alojar este servicio tú mismo? Te guiaremos paso a paso sobre cómo configurarlo y ajustarlo, junto con todo lo que necesitas tener en cuenta.
 
 <InlineVoucher />
 
+## Requisitos Previos
 
-
-## Requisitos previos
-
-Antes de instalar **Docker**, asegúrate de que tu entorno de hosting cumple con los siguientes requisitos para garantizar una instalación sin problemas y un rendimiento óptimo.
+Antes de instalar **Docker**, asegúrate de que tu entorno de hosting cumple con los siguientes requisitos para garantizar una instalación fluida y un rendimiento óptimo.
 
 | Hardware   | Mínimo      | Recomendación ZAP-Hosting |
 | ---------- | ------------ | -------------------------- |
@@ -33,22 +32,20 @@ Antes de instalar **Docker**, asegúrate de que tu entorno de hosting cumple con
 | RAM        | 4 GB         | 4 GB                       |
 | Espacio en disco | 10 GB        | 25 GB                      |
 
-
-
 ## Instalación
 
-Para configurar Docker en Windows Server, descarga y ejecuta el script de PowerShell `install-docker-ce.ps1`. Este habilita las características del sistema operativo necesarias para contenedores e instala el runtime de Docker. Abre PowerShell como administrador y ejecuta el siguiente comando:
+Para configurar Docker en Windows Server, descarga y ejecuta el script de PowerShell `install-docker-ce.ps1`. Este habilita las características del SO necesarias para contenedores e instala el runtime de Docker. Abre PowerShell como administrador y ejecuta el siguiente comando:
 
 ```powershell
 Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/microsoft/Windows-Containers/Main/helpful_tools/Install-DockerCE/install-docker-ce.ps1" -o install-docker-ce.ps1
 .\install-docker-ce.ps1
 ```
 
-El script activa las funciones relacionadas con contenedores en Windows, instala Docker Engine y la CLI de Docker, y registra el servicio Docker para que arranque automáticamente.
+El script habilita las características relacionadas con contenedores en Windows, instala Docker Engine y la CLI de Docker, y registra el servicio Docker para que se inicie automáticamente.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/y26fPWy63FAWJGp/download)
 
-El sistema se reiniciará durante la instalación y debería continuar automáticamente después. Tras el reinicio, inicia sesión y ejecuta el mismo comando de nuevo si el script te lo indica para que el servicio complete su inicialización. Cuando el script termine, la salida se verá así:
+El sistema se reiniciará durante la instalación y debería continuar automáticamente después. Tras el reinicio, inicia sesión y ejecuta el mismo comando nuevamente si el script te lo indica para que el servicio complete su inicialización. Una vez finalizado el script, la salida se verá así:
 
 ```
 Installing Docker... C:\Users\Administrator\DockerDownloads\docker-28.3.3\docker\docker.exe
@@ -62,8 +59,6 @@ REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 Script complete!
 ```
 
-
-
 ## Configuración
 
 ### Iniciar y detener Docker
@@ -76,8 +71,6 @@ Stop-Service docker     # Detener el servicio Docker
 Restart-Service docker  # Reiniciar el servicio Docker
 ```
 
-
-
 ### Iniciar y detener contenedores
 
 Inicia un contenedor con `docker run`. Ejemplo: servidor web IIS mapeando el puerto 80 del contenedor al puerto 8080 del host:
@@ -85,8 +78,6 @@ Inicia un contenedor con `docker run`. Ejemplo: servidor web IIS mapeando el pue
 ```
 docker run -d --name web -p 8080:80 mcr.microsoft.com/windows/servercore/iis:windowsservercore-ltsc2022
 ```
-
-
 
 ### Comprobar estado del contenedor
 
@@ -99,22 +90,17 @@ docker inspect web   # Información detallada
 docker logs web      # Logs del contenedor
 ```
 
-
-
 #### Recursos y estado
 
 ```
 docker stats            # Uso en vivo de CPU/RAM/IO
 ```
 
+## Conclusión y más Recursos
 
+¡Felicidades! Ahora has instalado y configurado Docker exitosamente en tu VPS/servidor dedicado. También te recomendamos echar un vistazo a los siguientes recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
 
+- [Docker.com](https://Docker.com/) - Sitio Oficial
+- [docs.docker.com](https://docs.docker.com/) - Documentación de Docker
 
-## Conclusión y más recursos
-
-¡Felicidades! Ya has instalado y configurado Docker en tu VPS con éxito. También te recomendamos echar un vistazo a estos recursos, que pueden ofrecerte ayuda y guía adicional durante la configuración de tu servidor:
-
-- [Docker.com](https://Docker.com/) - Sitio oficial
-- [docs.docker.com](https://docs.docker.com/) - Documentación oficial de Docker
-
-¿Tienes preguntas específicas que no se abordan aquí? Para más dudas o asistencia, no dudes en contactar con nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
+¿Tienes preguntas específicas que no se abordan aquí? Para más dudas o asistencia, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂

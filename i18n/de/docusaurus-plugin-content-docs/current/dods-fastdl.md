@@ -62,7 +62,7 @@ sv_allowupload 0
 
 Achte darauf, dass die FastDL-URL genau mit der Struktur auf deinem Webspace übereinstimmt. Nach dem Speichern startest du deinen Gameserver neu, damit die Einstellungen wirksam werden.
 
-## Fazit
+## Abschluss
 
 FastDL lässt sich mit deinem eigenen ZAP-Webspace schnell und zuverlässig einrichten. So kannst du benutzerdefinierte Inhalte schnell und effizient ausliefern und das Spielerlebnis auf deinem Day of Defeat: Source Gameserver verbessern.
 

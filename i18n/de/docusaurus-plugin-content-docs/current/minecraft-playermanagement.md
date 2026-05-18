@@ -36,5 +36,5 @@ In der Bannliste kannst du Spieler hinzufügen, die nicht mehr auf deinem Server
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aspGsM28fimDR3a/preview)
 
-## Fazit
+## Abschluss
 Glückwunsch, du hast deine Spieler erfolgreich über die Spielerverwaltung konfiguriert und nutzt sie jetzt, um sie zu managen. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-python
-title: 'Dedicated Server: Installation von Python'
-description: "Lerne, wie du die Python-Laufzeit auf Windows-Servern installierst und einrichtest, um deine Python-Programme effizient auszuführen → Jetzt mehr erfahren"
+title: 'Python auf einem Windows Server einrichten – Entwicklung und Automatisierung starten'
+description: "Lerne, wie du die Python-Laufzeit auf Windows Servern installierst und einrichtest, um deine Python-Programme effizient auszuführen → Jetzt mehr erfahren"
 sidebar_label: Python installieren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Diese Anleitung zeigt dir, wie du die Python-Laufzeit auf Windows installierst. Die untenstehenden Schritte müssen per RDP ausgeführt werden. Falls du nicht weißt, wie du dich per RDP mit deinem Server verbindest, schau dir bitte unsere [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung an.
+Diese Anleitung zeigt dir, wie du die Python-Laufzeit auf Windows installierst. Die folgenden Schritte müssen per RDP ausgeführt werden. Falls du nicht weißt, wie du dich per RDP mit deinem Server verbindest, schau dir bitte unsere [Erstzugang (RDP)](vserver-windows-userdp.md) Anleitung an.
 
 ## Installation
 
@@ -48,32 +49,32 @@ Wenn du den Befehl `python` in der Eingabeaufforderung oder PowerShell eingibst,
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/DskKi5Ac28ERY38/preview)
 
-### Ausführen von .py-Dateien
+### .py Dateien ausführen
 
-Um `.py` Python-Dateien auszuführen, kannst du einfach den Befehl `python3 [Dateiname].py` verwenden, wobei du `[Dateiname]` durch den Pfad zur gewünschten Datei ersetzt. Das funktioniert ebenfalls über die Eingabeaufforderung oder PowerShell.
+Um `.py` Python-Dateien auszuführen, kannst du einfach den Befehl `python3 [Dateiname].py` verwenden, wobei du `[Dateiname]` durch den Pfad zur gewünschten Datei ersetzt. Das machst du ebenfalls in der Eingabeaufforderung oder PowerShell.
 
 :::tip
-Die meisten Programme, die du online findest, kannst du mit `python3 main.py` starten, da `main.py` der übliche Einstiegspunkt der meisten Python-Programme ist.
+Die meisten Programme, die du online findest, kannst du mit `python3 main.py` starten, da `main.py` oft der Einstiegspunkt der meisten Python-Programme ist.
 :::
 
 Du kannst Python (.py) Dateien auch einfach durch Doppelklick öffnen oder per Rechtsklick direkt über Windows mit Python starten.
 
 ## Virtuelle Umgebungen
 
-Beim Programmieren in Python brauchst du oft externe Pakete, die du mit pip installierst. Diese kannst du global installieren, sodass alle `.py`-Skripte darauf zugreifen können, oder du erstellst eine virtuelle Umgebung (venv).
+Beim Programmieren mit Python brauchst du oft externe Pakete, die du mit pip installierst. Diese kannst du global installieren, sodass alle `.py` Skripte darauf zugreifen können, oder du erstellst eine virtuelle Umgebung (venv).
 
 ### venv erstellen
 
-Navigiere zuerst mit dem Datei-Explorer in den Ordner, in dem du deine venv einrichten möchtest. Dort führst du dann `python -m venv .` aus, um die nötigen Dateien am aktuellen Ort zu installieren.
+Navigiere zuerst im Datei-Explorer in den Ordner, in dem du deine venv einrichten möchtest. Dort führst du dann `python -m venv .` aus, um die nötigen Dateien am aktuellen Ort zu installieren.
 
 ### Aktivieren & Deaktivieren
 
-Um Befehle wie `pip install` innerhalb deiner venv auszuführen, musst du sie aktivieren mit `.\Scripts\activate`. Ab jetzt läuft deine Konsole nur noch innerhalb der venv und Skripte haben nur Zugriff auf lokal installierte Pakete.
+Um Befehle wie `pip install` innerhalb deiner venv auszuführen, musst du sie aktivieren mit `.\Scripts\activate`. Ab jetzt läuft deine Konsole nur noch innerhalb der venv und Skripte greifen nur auf lokal installierte Pakete zu.
 
 Wenn du fertig bist, kannst du die venv mit dem Befehl `deactivate` wieder verlassen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Ws5BosJzJ78s7Y9/preview)
 
-## Fazit
+## Abschluss
 
-Glückwunsch, du hast Python erfolgreich installiert! Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung. 🙂
+Glückwunsch, du hast Python erfolgreich installiert! Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂

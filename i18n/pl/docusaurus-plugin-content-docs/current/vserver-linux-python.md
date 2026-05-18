@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-python
-title: "VPS: Instalacja Pythona"
-description: "Dowiedz się, jak zainstalować i zaktualizować środowisko uruchomieniowe Pythona na różnych dystrybucjach Linuxa, aby zapewnić bezpieczne i aktualne środowisko → Sprawdź teraz"
+title: "Konfiguracja Pythona na serwerze Linux - Włącz rozwój i automatyzację"
+description: "Dowiedz się, jak zainstalować i zaktualizować środowisko uruchomieniowe Pythona na różnych dystrybucjach Linux, aby zapewnić bezpieczne i aktualne środowisko → Sprawdź teraz"
 sidebar_label: Instalacja Pythona
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -55,7 +56,7 @@ import TabItem from '@theme/TabItem';
 
 ## Instalacja
 
-Większość dystrybucji Linuxa ma Pythona preinstalowanego, ale wersja może być nieaktualna lub system mógł zostać zainstalowany bez niektórych pakietów. Możesz sprawdzić, czy Python jest zainstalowany (`python3 --version`) i wykonać poniższe polecenia, aby zaktualizować lub zainstalować środowisko uruchomieniowe.
+Większość dystrybucji Linux ma Pythona preinstalowanego, ale wersja może być nieaktualna lub system mógł zostać zainstalowany bez niektórych pakietów. Możesz sprawdzić, czy Python jest zainstalowany (`python3 --version`) i wykonać poniższe polecenia, aby zaktualizować lub zainstalować środowisko uruchomieniowe.
 
 <Tabs>
 <TabItem value="ubuntu-debian" label="Ubuntu & Debian" default>
@@ -110,7 +111,7 @@ Teraz, gdy masz Pythona zainstalowanego na serwerze, możesz zacząć uruchamia�
 
 ### Tryb interpretera
 
-Polecenie `python3` uruchomi interpreter Pythona. Możesz pisać dowolny poprawny kod Pythona po prefiksie `>>>`, a zostanie on wykonany po naciśnięciu `Enter`. Interpreter zamkniesz, wpisując `exit()` w konsoli.
+Uruchomienie polecenia `python3` odpali interpreter Pythona. Możesz pisać dowolny poprawny kod Pythona po prefiksie `>>>`, a zostanie on wykonany po naciśnięciu `Enter`. Interpreter zamkniesz poleceniem `exit()`.
 
 ### Uruchamianie plików .py
 
@@ -122,20 +123,20 @@ Większość programów dostępnych online uruchomisz poleceniem `python3 main.p
 
 ## Wirtualne środowiska
 
-Pisząc programy w Pythonie, możesz potrzebować zainstalować zewnętrzne pakiety przez pip. Można je zainstalować globalnie, dostępne dla wszystkich skryptów `.py`, albo utworzyć wirtualne środowisko (venv).
+Pisząc program w Pythonie, możesz potrzebować zainstalować zewnętrzne pakiety przez pip. Można je zainstalować globalnie, dostępne dla wszystkich skryptów `.py`, albo stworzyć wirtualne środowisko (venv).
 
 ### Tworzenie venv
 
-Najpierw przejdź do folderu, w którym chcesz ustawić venv, używając `cd`, a następnie uruchom `python3 -m venv .`, co zainstaluje potrzebne pliki w bieżącej lokalizacji.
+Najpierw przejdź do folderu, w którym chcesz ustawić venv, używając `cd`, a potem uruchom `python3 -m venv .`, co zainstaluje potrzebne pliki w bieżącej lokalizacji.
 
 ### Aktywacja i dezaktywacja
 
-Aby uruchamiać polecenia takie jak `pip install` wewnątrz venv, musisz go aktywować poleceniem `source /bin/activate`. Teraz konsola będzie działać tylko w ramach venv, a skrypty będą miały dostęp tylko do lokalnie zainstalowanych pakietów.
+Aby uruchamiać polecenia typu `pip install` w venv, musisz go aktywować poleceniem `source /bin/activate`. Teraz konsola działa tylko w venv, a skrypty mają dostęp tylko do lokalnie zainstalowanych pakietów.
 
-Po skończonej pracy w venv możesz wyjść, wpisując `deactivate`.
+Po skończeniu pracy w venv wyjdź poleceniem `deactivate`.
 
 ## Podsumowanie
 
-Gratulacje, udało Ci się zainstalować i skonfigurować Pythona! Jeśli masz pytania lub problemy, skontaktuj się z naszym supportem, który jest dostępny, by pomóc Ci codziennie!
+Gratulacje, udało Ci się zainstalować i skonfigurować Pythona! Jeśli masz pytania lub problemy, skontaktuj się z naszym supportem, który jest do Twojej dyspozycji codziennie!
 
 <InlineVoucher />

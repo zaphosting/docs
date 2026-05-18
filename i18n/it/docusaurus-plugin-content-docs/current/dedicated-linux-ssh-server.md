@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-ssh-server
-title: "Dedicated Server: Installazione di SSH"
-description: "Scopri come installare e gestire in modo sicuro i server SSH su Linux VPS per garantire un accesso remoto sicuro e una protezione avanzata del server → Scopri di più ora"
+title: "Configura SSH su un Server Linux - Attiva l’Accesso Remoto Sicuro"
+description: "Scopri come installare e gestire in sicurezza il server SSH su Linux per garantire un accesso remoto protetto e una maggiore sicurezza del server → Scopri di più ora"
 sidebar_label: Installa SSH
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,11 +12,11 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduzione
 
-Secure Shell (SSH) è un protocollo sicuro che permette un accesso remoto criptato e protetto ai sistemi. Garantisce la riservatezza e l'integrità dei dati trasmessi attraverso le reti.
+Secure Shell (SSH) è un protocollo sicuro che permette un accesso criptato e protetto ai sistemi remoti. Garantisce la riservatezza e l’integrità dei dati trasmessi attraverso le reti.
 
-In questa guida scoprirai come installare o reinstallare il server SSH per diverse distribuzioni Linux che offriamo attualmente sui nostri VPS. La maggior parte delle distro Linux disponibili sui nostri VPS ha già un server SSH preinstallato, quindi puoi gestirlo facilmente tramite l’interfaccia web del prodotto. Puoi vedere come fare nella nostra guida: [Accesso iniziale (SSH)](vserver-linux-ssh.md)
+In questa guida vedrai come installare o reinstallare il server SSH per diverse distribuzioni Linux che offriamo attualmente sui nostri server VPS/Dedicati. La maggior parte delle distro Linux offerte sui nostri server VPS/Dedicati ha già un server SSH preinstallato, quindi puoi gestirlo facilmente tramite l’interfaccia web del prodotto. Puoi vedere come fare nella nostra guida: [Accesso iniziale (SSH)](vserver-linux-ssh.md)
 
-Se vuoi migliorare la sicurezza del tuo server, ti consigliamo di dare un’occhiata alla nostra guida [Consigli di Sicurezza](vserver-linux-security-tips.md), che presenta vari strumenti e servizi per proteggere ancora di più il tuo server.
+Se vuoi migliorare ulteriormente la sicurezza del tuo server, ti consigliamo di dare un’occhiata alla nostra guida [Consigli di Sicurezza](vserver-linux-security-tips.md), che presenta vari strumenti e servizi per proteggere al meglio il tuo server.
 
 
 
@@ -39,17 +40,17 @@ Prima di installare il server SSH, assicurati che il sistema sia aggiornato. Ese
 yum update
 ```
 
-Ora procedi con l’installazione del server SSH usando questo comando:
+Ora procedi con l’installazione del server SSH usando il comando:
 ```
 yum install openssh-server
 ```
 
-Una volta terminata l’installazione, avvia il servizio SSH con il comando:
+Una volta completata l’installazione, avvia il servizio SSH con il comando:
 ```
 systemctl start sshd
 ```
 
-Assicurati di abilitare il servizio per l’avvio automatico all’accensione del sistema con:
+Assicurati di abilitare l’avvio automatico del servizio all’accensione del sistema con:
 ```
 systemctl enable sshd
 ```
@@ -59,7 +60,7 @@ systemctl enable sshd
 Per abilitare il login root, devi modificare il file di configurazione di openssh. In questa guida useremo "nano" come editor.
 
 :::info
-Se "nano" non è già installato, devi installarlo prima. Usa questo comando: `yum install nano`
+Se "nano" non è installato, devi prima installarlo con il comando: `yum install nano`
 :::
 
 Apri il file di configurazione con:
@@ -94,17 +95,17 @@ Prima di installare il server SSH, assicurati che il sistema sia aggiornato. Ese
 apt update
 ```
 
-Ora procedi con l’installazione del server SSH usando questo comando:
+Ora procedi con l’installazione del server SSH usando il comando:
 ```
 apt install openssh-server
 ```
 
-Una volta terminata l’installazione, avvia il servizio SSH con il comando:
+Una volta completata l’installazione, avvia il servizio SSH con il comando:
 ```
 systemctl start sshd
 ```
 
-Assicurati di abilitare il servizio per l’avvio automatico all’accensione del sistema con:
+Assicurati di abilitare l’avvio automatico del servizio all’accensione del sistema con:
 ```
 systemctl enable sshd
 ```
@@ -114,7 +115,7 @@ systemctl enable sshd
 Per abilitare il login root, devi modificare il file di configurazione di openssh. In questa guida useremo "nano" come editor.
 
 :::info
-Se non hai già "nano" installato, devi installarlo. Usa questo comando: `apt install nano`
+Se non hai ancora "nano" installato, devi installarlo con il comando: `apt install nano`
 :::
 
 Apri il file di configurazione con:
@@ -149,17 +150,17 @@ Prima di installare il server SSH, assicurati che il sistema sia aggiornato. Ese
 apt update
 ```
 
-Ora procedi con l’installazione del server SSH usando questo comando:
+Ora procedi con l’installazione del server SSH usando il comando:
 ```
 apt install openssh-server
 ```
 
-Una volta terminata l’installazione, avvia il servizio SSH con il comando:
+Una volta completata l’installazione, avvia il servizio SSH con il comando:
 ```
 systemctl start sshd
 ```
 
-Assicurati di abilitare il servizio per l’avvio automatico all’accensione del sistema con:
+Assicurati di abilitare l’avvio automatico del servizio all’accensione del sistema con:
 ```
 systemctl enable sshd
 ```
@@ -169,7 +170,7 @@ systemctl enable sshd
 Per abilitare il login root, devi modificare il file di configurazione di openssh. In questa guida useremo "nano" come editor.
 
 :::info
-Se non hai già "nano" installato, devi installarlo. Usa questo comando: `apt install nano`
+Se non hai ancora "nano" installato, devi installarlo con il comando: `apt install nano`
 :::
 
 Apri il file di configurazione con:
@@ -204,17 +205,17 @@ Prima di installare il server SSH, assicurati che il sistema sia aggiornato. Ese
 dnf update
 ```
 
-Ora procedi con l’installazione del server SSH usando questo comando:
+Ora procedi con l’installazione del server SSH usando il comando:
 ```
 dnf install openssh-server
 ```
 
-Una volta terminata l’installazione, avvia il servizio SSH con il comando:
+Una volta completata l’installazione, avvia il servizio SSH con il comando:
 ```
 systemctl start sshd
 ```
 
-Assicurati di abilitare il servizio per l’avvio automatico all’accensione del sistema con:
+Assicurati di abilitare l’avvio automatico del servizio all’accensione del sistema con:
 ```
 systemctl enable sshd
 ```
@@ -224,7 +225,7 @@ systemctl enable sshd
 Per abilitare il login root, devi modificare il file di configurazione di openssh. In questa guida useremo "nano" come editor.
 
 :::info
-Se non hai già "nano" installato, devi installarlo. Usa questo comando: `dnf install nano`
+Se non hai ancora "nano" installato, devi installarlo con il comando: `dnf install nano`
 :::
 
 Apri il file di configurazione con:
@@ -249,4 +250,4 @@ systemctl restart sshd
 </TabItem>
 </Tabs>
 
-Hai appena installato con successo il servizio SSH sul tuo server e ora puoi accedere tramite SSH.
+Hai appena installato con successo il servizio SSH sul tuo server e ora puoi accedere al tuo server tramite SSH.

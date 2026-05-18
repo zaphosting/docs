@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-commands
 title: "Hytale: Lista de Comandos"
 description: "Visão geral dos comandos disponíveis no console e no jogo para servidores Hytale → Saiba mais agora"
@@ -30,7 +30,7 @@ Comandos de autenticação são necessários para autorizar o servidor a aceitar
 | `/auth login device`  | Inicia o fluxo de autenticação via dispositivo. O servidor gera uma URL e um código de dispositivo que devem ser confirmados usando uma conta Hytale. |
 | `/auth login browser` | Inicia o fluxo de autenticação via navegador. Requer ambiente gráfico no servidor. |
 | `/auth status`        | Exibe o status atual da autenticação do servidor.           |
-| `/auth logout`        | Desloga o servidor e remove a sessão de autenticação ativa. |
+| `/auth logout`        | Desloga o servidor e remove a sessão ativa de autenticação. |
 
 
 
@@ -54,7 +54,7 @@ Esses comandos controlam o acesso administrativo e a atribuição detalhada de p
 
 
 
-## Lista Branca (Whitelist)
+## Lista de Permissão (Whitelist)
 
 Comandos de whitelist restringem o acesso ao servidor apenas para jogadores aprovados.
 
@@ -79,7 +79,7 @@ Comandos de mundo controlam a criação, carregamento, descarregamento e exclus�
 | `/world load <name>`       | Carrega um mundo existente e o torna ativo.       |
 | `/world unload <name>`     | Descarrega um mundo sem apagar seus dados.         |
 | `/world remove <name>`     | Apaga um mundo e todos os dados associados.           |
-| `/world setdefault <name>` | Define o mundo padrão que carrega na inicialização do servidor. |
+| `/world setdefault <name>` | Define o mundo padrão que carrega ao iniciar o servidor. |
 
 
 
@@ -107,7 +107,7 @@ Comandos usados para gerenciar posições e visibilidade dos jogadores.
 
 
 
-## Utilitários e Ajuda
+## Utilitários e ajuda
 
 Comandos utilitários fornecem ajuda e informações do servidor.
 
@@ -121,9 +121,9 @@ Comandos utilitários fornecem ajuda e informações do servidor.
 
 ## Conclusão
 
-O sistema de comandos do Hytale oferece ferramentas poderosas para gerenciar servidores, jogadores e o comportamento do gameplay. Entendendo e usando os comandos disponíveis, administradores podem operar e personalizar seu ambiente de servidor Hytale com eficiência.
+O sistema de comandos do Hytale oferece ferramentas poderosas para gerenciar servidores, jogadores e o comportamento do gameplay. Entendendo e usando os comandos disponíveis, administradores podem operar e personalizar seu ambiente de servidor Hytale de forma eficiente.
 
-Para dúvidas ou ajuda, não hesite em contatar nosso time de suporte, disponível diariamente para te ajudar! 🙂
+Para dúvidas ou suporte, não hesite em contatar nossa equipe de suporte, disponível diariamente para te ajudar! 🙂
 
 
 

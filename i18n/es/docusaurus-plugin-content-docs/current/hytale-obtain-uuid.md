@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-obtain-uuid
 title: "Hytale: Obtener UUID"
 description: "Descubre cómo encontrar u obtener el UUID de un jugador para usarlo en la configuración y permisos del servidor → Aprende más ahora"
@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-Cada jugador en un servidor de Hytale es identificado internamente por un UUID, también conocido como Identificador Único Universal. Este identificador es permanente y no cambia, incluso si el jugador cambia su nombre de usuario más adelante.
+Cada jugador en un servidor de Hytale está identificado internamente por un UUID, también conocido como Identificador Único Universal. Este identificador es permanente y no cambia, incluso si el jugador cambia su nombre de usuario más adelante.
 
 Los UUID son necesarios para varias tareas administrativas como gestionar permisos, asignar grupos o referenciar jugadores en comandos y archivos de configuración del servidor.
 
@@ -45,7 +45,7 @@ Después de ejecutar el comando, el servidor responde directamente en el chat co
 
 ## Conclusión
 
-Obtener el UUID de un jugador es un paso esencial en tareas avanzadas de gestión de servidores en un servidor de Hytale. Para más preguntas o ayuda, no dudes en contactar con nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
+Obtener el UUID de un jugador es un paso esencial en tareas avanzadas de gestión en un servidor de Hytale. Para más preguntas o ayuda, no dudes en contactar con nuestro equipo de soporte, ¡disponible a diario para echarte una mano! 🙂
 
 
 <InlineVoucher />

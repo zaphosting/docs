@@ -65,7 +65,7 @@ Du kannst die Datei nach Belieben anpassen. Wenn du bereit bist, starte den Serv
 
 Im Terminal solltest du jetzt Logs sehen, die anzeigen, dass der Server hochfährt. Beachte, dass der erste Start etwas länger dauern kann, da alles eingerichtet wird. Sobald alles fertig ist, erscheint die Meldung `Server startup complete.` in der Konsole. Du kannst dich jetzt direkt über den Ingame-Serverbrowser mit deinem Server verbinden, indem du die Server-IP und den Port (Standard: 27000) eingibst.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen Avorion Server erfolgreich auf deinem VPS installiert und konfiguriert! Als nächsten Schritt empfehlen wir dir unsere [Linux Service Setup](dedicated-linux-create-gameservice.md) Anleitung. Damit richtest du deinen Dedicated Server als Service ein – mit Vorteilen wie automatischem Start beim Booten, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und vieles mehr!
 

@@ -69,7 +69,7 @@ Zum Schluss drückst du unten auf der Seite den Button **Importieren**, um den I
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iyobgkNtQpnNjoH/preview)
 
-## Fazit
+## Abschluss
 
 Das Importieren einer SQL-Datei für deinen FiveM Gameserver ist notwendig, um viele Ressourcen problemlos nutzen zu können. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

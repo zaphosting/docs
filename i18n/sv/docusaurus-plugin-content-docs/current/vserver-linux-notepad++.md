@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-notepad++
-title: "VPS: Installera Notepad++ på Linux"
-description: "Lär dig hur du installerar och optimerar Notepad++ på Linux för effektiv, lättviktig kodredigering och utveckling → Läs mer nu"
+title: "Installera Notepad++ på en Linux-server – Använd din favoritredigerare via Wine"
+description: "Upptäck hur du installerar och optimerar Notepad++ på Linux för effektiv, lättviktig kodredigering och utveckling → Läs mer nu"
 sidebar_label: Installera Notepad++
 services:
-- vserver
+  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,14 +14,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-Notepad++ är en gratis och öppen källkod text- och kodeditor för Windows. Den stödjer syntaxmarkering, kodfällning och flikbaserad redigering för många programmerings- och skriptspråk, och är mycket anpassningsbar via plugins. Känd för sin snabba prestanda och låga resursanvändning är Notepad++ fortfarande ett populärt val för utvecklare och användare som vill ha ett kraftfullt men lättviktigt redigeringsverktyg.
+Notepad++ är en gratis och öppen källkods-text- och kodeditor för Windows. Den stödjer syntaxmarkering, kodfällning och flikredigering för många programmerings- och skriptspråk, och är mycket anpassningsbar via plugins. Känd för sin snabba prestanda och låga resursanvändning är Notepad++ fortfarande ett populärt val för utvecklare och användare som vill ha ett kraftfullt men lättviktigt redigeringsverktyg.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/jMMDejqDfWDCfrr/preview)
 
 Fundera på att hosta den här tjänsten själv? Vi guidar dig steg för steg hur du installerar och konfigurerar den, samt allt du behöver ha koll på.
 
 :::danger Linux med Desktop-variant krävs
-Den här applikationen kan endast installeras och användas på ett Linux-system med grafiskt användargränssnitt; i det här exemplet används Ubuntu Desktop 25.04 som referens.
+Den här applikationen kan endast installeras och användas på ett Linux-system med grafiskt användargränssnitt; i detta exempel används Ubuntu Desktop 25.04 som referens.
 
 :::
 
@@ -32,7 +33,7 @@ Den här applikationen kan endast installeras och användas på ett Linux-system
 
 Innan du installerar **Notepad++**, se till att din hostingmiljö uppfyller följande krav för att garantera en smidig installation och optimal prestanda.
 
-| Hårdvara | Minimum | ZAP-Hosting Rekommenderar |
+| Hårdvara | Minimum | ZAP-Hostings rekommendation |
 | ---------- | ------------ | -------------------------- |
 | CPU | 1 vCPU-kärna | 4 vCPU-kärnor |
 | RAM | 2 GB | 4 GB |
@@ -75,13 +76,13 @@ sudo apt install snapd
 
 
 ## Installation
-Nu när alla krav är uppfyllda och förberedelserna klara kan du installera Notepad++-appen. Kör följande kommando:
+Nu när alla krav är uppfyllda och förberedelserna klara kan du fortsätta med installationen av Notepad++-applikationen. Kör följande kommando:
 
 ```
 sudo snap install notepad-plus-plus
 ```
 
-Notepad++ laddas ner och installeras via den officiella installationsskriptet. Låt processen köra klart, och när den är klar kan du starta appen direkt.
+Notepad++ laddas ner och installeras med den officiella installationsskriptet. Låt processen köra klart, sedan kan du starta applikationen direkt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ca9Z8D37wCSrDbf/preview)
 
@@ -98,7 +99,7 @@ Notepad++ har ett brett utbud av anpassningsmöjligheter som du hittar under *Se
 - **Security & Backup**: Aktivera automatisk backup eller sessionsåterställning för att undvika dataförlust.  
 - **Plugins**: Installera och hantera tillägg via Plugin Manager för att lägga till funktioner som FTP-stöd eller avancerad formatering.  
 
-Dessa inställningar gör Notepad++ väldigt flexibel, oavsett om du bara skriver enkel text eller jobbar med fullskalig mjukvaruutveckling.
+Dessa inställningar gör Notepad++ väldigt flexibel, oavsett om du använder den för enkel textredigering eller fullskalig mjukvaruutveckling.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/X8og5qnFkBTRcmA/preview)
 
@@ -107,7 +108,7 @@ Dessa inställningar gör Notepad++ väldigt flexibel, oavsett om du bara skrive
 
 ## Avslutning och fler resurser
 
-Grattis! Du har nu framgångsrikt installerat och konfigurerat Notepad++ på din VPS. Vi rekommenderar också att du kikar på följande resurser som kan ge dig extra hjälp och vägledning under din serverkonfiguration:
+Grattis! Du har nu framgångsrikt installerat och konfigurerat Notepad++ på din VPS/Dedikerade server. Vi rekommenderar även att du kikar på följande resurser som kan ge dig extra hjälp och vägledning under din serverkonfiguration:
 
 - [notepad-plus-plus.org/](https://notepad-plus-plus.org/) - Officiell webbplats
 

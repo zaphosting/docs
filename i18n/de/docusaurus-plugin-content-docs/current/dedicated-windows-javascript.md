@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-javascript
-title: 'Dedicated Server: Installation von JavaScript'
+title: "JavaScript Runtime auf einem Windows Server einrichten – Moderne Webanwendungen ausführen"
 description: "Entdecke, wie du Node.js, Deno und Bun auf Windows installierst und einrichtest, um JavaScript effizient auszuführen → Jetzt mehr erfahren"
 sidebar_label: JavaScript installieren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -17,7 +18,7 @@ Diese Anleitung zeigt dir, wie du Node.js, Deno und Bun auf Windows installierst
 
 ## Installation
 
-Zuerst musst du entscheiden, welche JavaScript-Laufzeitumgebung du installieren möchtest. Es gibt viele Online-Ressourcen, die jede davon ausführlich beschreiben. Aber du kannst auch diese Anleitung lesen, da sie grundlegende Befehle und Codebeispiele enthält. Wir empfehlen Node.js, da es eine der am weitesten verbreiteten und beliebtesten Optionen ist.
+Zuerst musst du entscheiden, welche JavaScript Runtime du installieren möchtest. Es gibt viele Online-Ressourcen, die jede ausführlich beschreiben. Aber du kannst auch diese Anleitung lesen, da sie grundlegende Befehle und Codebeispiele enthält. Wir empfehlen Node.js, da es eine der am weitesten verbreiteten und beliebtesten Optionen ist.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -28,7 +29,7 @@ import TabItem from '@theme/TabItem';
 ## Node.js Runtime installieren
 
 ### Schritt 1: Dateien herunterladen
-Öffne deinen bevorzugten Browser (ich nutze für diese Anleitung Chrome) und gehe auf [https://Node.js.org/en](https://Node.js.org/en)
+Öffne deinen Lieblingsbrowser (ich nutze für diese Anleitung Chrome) und gehe auf [https://Node.js.org/en](https://Node.js.org/en)
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FXEML6xiCedS7Nq/preview)
 
@@ -37,7 +38,7 @@ Klicke jetzt auf den Button `Download Node.js (LTS)` und warte, bis der Download
 ![](https://screensaver01.zap-hosting.com/index.php/s/EwjMejMYykPCQRQ/preview)
 
 :::tip
-Es wird generell empfohlen, die neueste Long Term Support (LTS) Version zu verwenden.
+Es wird generell empfohlen, die neueste Long Term Support (LTS) Version zu installieren.
 :::
 
 ### Schritt 2: Node.js installieren
@@ -70,25 +71,25 @@ Nach Abschluss klickst du einfach auf `Fertigstellen` und kannst Node.js auf dei
 
 ### Node.js auf die neueste Version aktualisieren
 
-Mit `node -v` kannst du die installierte Node.js-Version anzeigen lassen. Von Zeit zu Zeit solltest du prüfen, ob du die neueste LTS-Version nutzt. Um Node.js zu aktualisieren, folge einfach nochmal dem Abschnitt dieser [JavaScript Installation](dedicated-windows-javascript.md) Anleitung.
+Mit `node -v` kannst du die installierte Node.js Version anzeigen lassen. Von Zeit zu Zeit solltest du prüfen, ob du die neueste LTS Version nutzt. Um Node.js zu aktualisieren, folge einfach nochmal dem Abschnitt dieser [JavaScript Installation](dedicated-windows-javascript.md) Anleitung.
 
-### Node.js & npm starten
+### Node.js & npm nutzen
 
-npm ist der offizielle Paketmanager von Node.js. Damit installierst du alle Pakete aus dem Internet.
+npm ist der offizielle Paketmanager von Node.js. Damit installierst du Pakete aus dem Internet.
 
 :::tip
-Alle npm-Pakete findest du auf der [offiziellen Webseite](https://www.npmjs.com/).
+Alle npm Pakete findest du auf der [offiziellen Webseite](https://www.npmjs.com/).
 :::
 
 ### Neues Projekt erstellen
 
-Jedes Mal, wenn du ein neues Node.js-Projekt starten willst, musst du einen neuen Ordner dafür anlegen, den du im Datei-Explorer öffnest. Öffne dann die Eingabeaufforderung oder PowerShell in diesem Ordner und führe den Befehl `npm init` aus, um die Einrichtung zu starten. Dabei wirst du nach einigen Basisinfos gefragt, um eine `package.json` Datei zu erstellen. Diese ist die "Config"-Datei für Node.js.
+Jedes Mal, wenn du ein neues Node.js Projekt starten willst, musst du einen neuen Ordner dafür anlegen, den Command Prompt oder PowerShell darin öffnen und den Befehl `npm init` ausführen, um die Einrichtung zu starten. Dabei wirst du nach ein paar Basisinfos gefragt, um eine `package.json` Datei zu erstellen. Diese ist die "Config" für Node.js.
 
 :::tip
-Unter Windows kannst du im Datei-Explorer einmal auf den aktuellen Pfad klicken, `cmd` eintippen und mit Enter bestätigen. So öffnet sich die Eingabeaufforderung direkt im aktuellen Verzeichnis – super praktisch!
+Unter Windows kannst du im Datei-Explorer einmal auf den aktuellen Pfad klicken, `cmd` eintippen und Enter drücken, um die Eingabeaufforderung direkt im aktuellen Verzeichnis zu öffnen – super praktisch.
 :::
 
-Nach der Initialisierung kannst du eine neue Datei namens `index.js` erstellen und deinen Code darin schreiben. Als Beispiel erstellen wir einen einfachen HTTP-Server auf dem Standardport 80, der beim Zugriff über localhost eine Testnachricht zurückgibt. So sieht der Code aus:
+Nach der Initialisierung kannst du eine neue Datei namens `index.js` erstellen und Code hineinschreiben. Als Beispiel erstellen wir einen einfachen HTTP-Server auf dem Standardport 80, der beim Zugriff über localhost eine Testnachricht zurückgibt. So sieht der Code aus:
 
 ```js
 const http = require('http')
@@ -101,7 +102,7 @@ const server = http.createServer((req, res) => {
 server.listen(80)
 ```
 
-Jetzt kannst du den Code mit dem Befehl `node .` ausführen und das Ergebnis im Browser unter `localhost:80` anschauen.
+Jetzt kannst du den Code mit `node .` ausführen und das Ergebnis im Browser unter `localhost:80` ansehen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kWRi9agrzkWc4rw/preview)
 
@@ -115,21 +116,21 @@ Externe Pakete von npm installierst du mit `npm install [paket-name]`.
 
 ## Deno Runtime installieren
 
-Deno installierst du ganz einfach, indem du in einer PowerShell-Instanz den Befehl `irm https://deno.land/install.ps1 | iex` eingibst. Suche in der Windows-Suche nach `PowerShell`, öffne die Konsole als Administrator und führe den Befehl aus. Folge den Anweisungen, die eventuell angezeigt werden.
+Deno installierst du ganz easy, indem du in einer PowerShell den Befehl `irm https://deno.land/install.ps1 | iex` eingibst. Such in der Windows-Suche nach `PowerShell`, öffne sie als Administrator und führe den Befehl aus. Folge den Anweisungen, die dir angezeigt werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/jTdDo6c2Kx42o8B/preview)
 
 :::tip
-Um die aktuell installierte Version zu prüfen, kannst du `deno --version` ausführen.
+Mit `deno --version` kannst du die aktuell installierte Version prüfen.
 :::
 
 ### Deno auf die neueste Version aktualisieren
 
-Deno aktualisierst du ganz einfach mit dem Befehl `deno upgrade`.
+Deno aktualisierst du einfach mit `deno upgrade`.
 
-### Deno starten
+### Deno ausführen
 
-Um Deno zu starten, erstellst du eine neue Datei `index.ts` und schreibst etwas Code hinein. Als Beispiel bauen wir einen einfachen HTTP-Server auf Port 80, der beim Zugriff über localhost eine Testnachricht zurückgibt. So sieht der Code aus:
+Um Deno zu starten, erstellst du eine neue Datei `index.ts` und schreibst etwas Code hinein. Als Beispiel bauen wir einen einfachen HTTP-Server auf Port 80, der beim Zugriff über localhost eine Testnachricht zurückgibt:
 
 ```js
 Deno.serve({ port: 80 }, (_req: Request) => {
@@ -137,7 +138,7 @@ Deno.serve({ port: 80 }, (_req: Request) => {
 })
 ```
 
-Jetzt kannst du den Code mit `deno run --allow-net index.ts` ausführen und das Ergebnis im Browser unter `localhost:80` ansehen.
+Starte den Code mit `deno run --allow-net index.ts` und öffne `localhost:80` im Browser, um das Ergebnis zu sehen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/rswYFXWM9D5grpS/preview)
 
@@ -151,17 +152,17 @@ Deno wurde mit Fokus auf Sicherheit entwickelt und benötigt deshalb bestimmte B
 
 ## Bun Runtime installieren
 
-Bun bietet ebenfalls eine einfache Ein-Befehl-Installation, gibt dir aber auch die Möglichkeit, es via npm zu installieren, falls du schon Node.js benutzt hast.
+Bun bietet ebenfalls eine super einfache Ein-Kommando-Installation, erlaubt aber auch die Installation via npm, falls du schon Node.js benutzt hast.
 
 <Tabs>
-<TabItem value="command" label="Befehl" default>
+<TabItem value="command" label="Kommando" default>
 
-Führe in PowerShell den Befehl `irm bun.sh/install.ps1|iex` aus, um Bun auf deinem Server zu installieren.
+Gib in PowerShell `irm bun.sh/install.ps1|iex` ein, um Bun auf deinem Server zu installieren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/65oooTQRGQPW8DS/preview)
 
 :::info
-Falls auf dem Server einige benötigte Dateien fehlen, informiert dich Bun darüber und gibt dir Links zum Download, wenn du versuchst, den Installer auszuführen.
+Falls auf dem Server einige benötigte Dateien fehlen, informiert dich Bun darüber und gibt dir Links zum Download.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/kZsc5DF3BAiQ2fF/preview)
 :::
@@ -169,22 +170,22 @@ Falls auf dem Server einige benötigte Dateien fehlen, informiert dich Bun darü
 </TabItem>
 <TabItem value="npm" label="npm">
 
-Wenn du npm bereits installiert hast, kannst du Bun mit `npm install -g bun` installieren.
+Wenn du npm schon installiert hast, kannst du auch `npm install -g bun` ausführen, um Bun zu installieren.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cejbBAQdHxkrm2A/preview)
 
 </TabItem>
 </Tabs>
 
-### Bun starten
+### Bun ausführen
 
-Bun wurde entwickelt, um schneller als andere JavaScript-Engines zu sein und hat eine ähnliche Struktur wie Node.js. Öffne ein leeres Verzeichnis und führe in der Eingabeaufforderung `bun init` aus.
+Bun wurde entwickelt, um schneller als andere JavaScript-Engines zu sein und hat eine ähnliche Struktur wie Node.js. Öffne ein leeres Verzeichnis und führe im Command Prompt `bun init` aus.
 
 :::note
 Je nach gewählter Sprache (JS oder TS) erstellt Bun eine Konfigurationsdatei (jsconfig.json oder tsconfig.json).
 :::
 
-Um Bun zu starten, erstellst du eine neue Datei `index.ts` und schreibst etwas Code hinein. Als Beispiel bauen wir einen einfachen HTTP-Server auf Port 80, der beim Zugriff über localhost eine Testnachricht zurückgibt. So sieht der Code aus:
+Um Bun zu starten, erstellst du eine neue Datei `index.ts` und schreibst Code hinein. Als Beispiel bauen wir einen einfachen HTTP-Server auf Port 80, der beim Zugriff über localhost eine Testnachricht zurückgibt:
 
 ```js
 const server = Bun.serve({
@@ -195,16 +196,13 @@ const server = Bun.serve({
 })
 ```
 
-Jetzt kannst du den Code mit `bun index.ts` ausführen und das Ergebnis im Browser unter `localhost:80` ansehen.
+Starte den Code mit `bun index.ts` und öffne `localhost:80` im Browser, um das Ergebnis zu sehen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/oTco7F65bZbSGP9/preview)
 
 </TabItem>
 </Tabs>
 
-## Fazit
+## Abschluss
 
-Glückwunsch, du hast JavaScript erfolgreich installiert! Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung. 🙂
-
-
-
+Glückwunsch, du hast JavaScript erfolgreich installiert! Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung – meld dich einfach! 🙂

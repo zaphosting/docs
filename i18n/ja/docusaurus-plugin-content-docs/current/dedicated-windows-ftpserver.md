@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-ftpserver
-title: "専用サーバー: FTPのインストール"
-description: "WindowsでFileZilla FTPサーバーをセットアップして、安全なファイル転送とユーザーアクセス管理を実現する方法をチェック → 今すぐ詳しく見る"
+title: "WindowsサーバーでFTPをセットアップ - 安全なファイル転送サービスをホストしよう"
+description: "WindowsでFileZilla FTPサーバーをセットアップ＆管理して、安全なファイル転送とユーザーアクセス制御を実現 → 今すぐチェック"
 sidebar_label: FTPのインストール
 services:
+  - vserver
   - dedicated
 ---
 
@@ -11,9 +12,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## はじめに
 
-**FTP（ファイル転送プロトコル）**は、TCP/IPネットワーク上でファイルを転送するためのネットワークプロトコルです。システム間でファイルを簡単に交換できるように開発されました。
+**FTP（ファイル転送プロトコル）**は、TCP/IPネットワーク上でファイルを転送するためのネットワークプロトコルです。システム間でのファイル交換を簡単にするために開発されました。
 
-**FileZilla Server**を使えば、Windows OS上にFTPサーバーを簡単に構築できます。FileZilla Serverはインストールと設定が簡単で、ユーザーアカウントの作成、アクセス権の管理、ファイル転送など多彩な機能を備えています。
+**FileZilla Server**を使えば、Windows OS上にFTPサーバーを簡単に構築できます。FileZilla Serverはインストールや設定がシンプルで、ユーザーアカウントの作成、アクセス権の管理、ファイル転送など多彩な機能を備えています。
 
 
 
@@ -21,7 +22,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ### ダウンロード
 
-FTPサーバーを構築するには対応するソフトウェアが必要です。WindowsサーバーOS向けの選択肢としてFileZilla Serverソフトウェアがあります。こちらからダウンロード可能です: [FileZilla server](https://filezilla-project.org/download.php?type=server).
+FTPサーバーをセットアップするには対応するソフトウェアが必要です。WindowsサーバーOS向けの選択肢としてFileZilla Serverがあります。こちらからダウンロード可能です: [FileZilla server](https://filezilla-project.org/download.php?type=server).
 
 
 
@@ -31,19 +32,19 @@ FTPサーバーを構築するには対応するソフトウェアが必要で�
 
 
 
-ここでインストールするパッケージを選択できますが、デフォルトのままで問題ないので、そのまま**Next**をクリックし、インストール先を選択します:
+ここでインストールするパッケージを選べますが、デフォルトのままで問題ないので、そのまま**Next**をクリックし、インストール先を選択します:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/cN7K9Cte9tXFrF2/preview)
 
-この例ではFileZilla Serverを**C:\Program Files (x86)\FileZilla Server**にインストールしますが、好きなパスを選んでもOKです。パスを選んだら、FTPサーバーのインストールと起動方法を指定し、ポート番号を決めて管理者パスワードを設定します。
+この例ではFileZilla Serverを**C:\Program Files (x86)\FileZilla Server**にインストールしますが、好きなパスを選んでもOK。パスを決めたら、FTPサーバーの起動方法やポート番号、管理者パスワードの設定を行います。
 
 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/WopFXcW3teFAyJK/preview)
 
-その後も**Next**をクリックし、最後に**Install**を押してインストールを開始。FileZilla FTPサーバーの管理画面が開きます。**Connect to FileZilla FTP Server**ボタンをクリックしましょう。
+続けて**Next**をクリックし、最後に**Install**を押してインストール開始。FileZilla FTPサーバーの管理画面が開きます。**Connect to FileZilla FTP Server**ボタンをクリック。
 
-ホスト、ポート、パスワードの入力画面が出るので、ホストとポートはそのままにして、FTPサーバーで設定した管理者パスワードを入力。**Ok**を押して接続します。
+ホスト、ポート、パスワードの入力画面が出るので、ホストとポートはそのままにして、先ほど設定した管理者パスワードを入力。**Ok**を押して接続します。
 
 
 
@@ -52,32 +53,32 @@ FTPサーバーを構築するには対応するソフトウェアが必要で�
 ### ユーザー作成
 
 FTPでサーバーに接続するにはユーザーを作成する必要があります。  
-上部メニューの**Server**をクリックし、次に**Configure**を選択。
+上部メニューの**Server**をクリックし、続けて**Configure**を選択。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/C5WLC8Lp8CjTjQg/preview)
 
-続いてUsersメニューで**Add**をクリックして新しいユーザーを追加します:
+次にUsersメニューから**Add**をクリックして新しいユーザーを追加します:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/dbCS5yJfwqry8Dq/preview)
 
-この例ではユーザー名を**YourUserName**にしていますが、もちろん好きな名前でOKです。
+この例ではユーザー名を**YourUserName**にしていますが、好きな名前でOKです。
 
 
 
 ### パスワードと権限設定
 
-ユーザーを作成したら、アクセス権とパスワードを設定します。ユーザーを選択し、**General**カテゴリの**Credentials**でパスワード設定を行います。セキュリティのためパスワードは必須です。**Require a password to log in**を選び、希望のパスワードを入力しましょう。
+ユーザーを作成したら、アクセス権限を設定します。ユーザーを有効化し、**General**カテゴリの**Credentials**でパスワード設定を行います。セキュリティのためパスワードは必須推奨。**Require a password to log in**を選び、希望のパスワードを入力しましょう。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/z78wpcFbYEAJYeB/preview)
 
-ユーザーに適切な権限を与えるため、アクセス可能なディレクトリを**Add**でマウントポイントに追加します。仮想パスと実際のパスを指定します。例ではCドライブを\に割り当てています。
+ユーザーに適切な権限を与えるため、アクセス可能なディレクトリを**Add**でマウントポイントに追加します。仮想パスと実際のパスを指定。例ではCドライブを\に割り当てています。
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/iqQrjGByHpkBcJF/preview)
 
-右側の**Permissions**で指定したパスへのアクセス権を設定可能。データの読み書きを行いたい場合は**Read+Write**にするのがおすすめです。
+右側の**Permissions**で指定したパスへのアクセス権を設定可能。読み書き両方したいなら**Read+Write**がおすすめ。
 
 ::: danger
-セキュリティのため、ユーザーには必要なフォルダのみアクセス権を与えましょう。
+セキュリティのため、ユーザーには必要なフォルダだけアクセス権を与えるようにしましょう。
 :::
 
 設定が終わったら**Apply**をクリックして変更を保存します。
@@ -89,7 +90,7 @@ FTPでサーバーに接続するにはユーザーを作成する必要があ�
 FTPサーバーへの接続を許可するため、WindowsファイアウォールでFileZilla Serverの通信を許可する必要があります。  
 **コントロールパネル\システムとセキュリティ\Windows Defender ファイアウォール**を開き、**Windows Defender ファイアウォールでアプリまたは機能を許可する**をクリック。
 
-次の画面で許可するアプリケーションを選択します:
+次の画面で許可するアプリを選択します:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/xHwQzCKokHTn424/preview)
 
@@ -103,5 +104,4 @@ FTPサーバーへの接続を許可するため、Windowsファイアウォー�
 
 ## まとめ
 
-おめでとうございます！FTPサーバーのインストールが無事完了しました。  
-もし質問やサポートが必要な場合は、いつでもお気軽にサポートチームまでお問い合わせくださいね！🙂
+おめでとうございます！FTPサーバーのインストールが無事完了しました。もし質問やサポートが必要な場合は、いつでもお気軽にサポートチームにお問い合わせくださいね。毎日対応しています！🙂

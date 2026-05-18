@@ -204,7 +204,7 @@ Com o serviço reiniciado, tente conectar ao seu servidor de jogos via domínio 
 
 ## Certificado SSL
 
-Com seu reverse proxy configurado, recomendamos fortemente adicionar um Certificado SSL aos seus domínios usados para garantir que o site transmita dados de forma segura via HTTPS. Confira nosso guia [Instalar Certbot](vserver-linux-certbot.md), que cobre todo o processo de solicitação e renovação automática de Certificados SSL para seu(s) domínio(s).
+Com seu reverse proxy configurado, recomendamos fortemente adicionar um Certificado SSL aos seus domínios usados para garantir que o site transmita dados de forma segura via HTTPS. Confira nosso guia [Instalar Certbot](dedicated-linux-certbot.md), que cobre todo o processo de solicitação e renovação automática de Certificados SSL para seu(s) domínio(s).
 
 ## Conclusão
 

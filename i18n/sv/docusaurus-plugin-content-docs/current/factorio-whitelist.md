@@ -1,4 +1,4 @@
----
+﻿---
 id: factorio-whitelist
 title: "Factorio: Whitelist"
 description: "Info om hur du whitelistar din Factorio-server från ZAP-Hosting → Lär dig mer nu"
@@ -23,7 +23,7 @@ En whitelist är en accesslista som begränsar serveråtkomst till godkända Fac
 /whitelist add PlayerName
 ```
 
-Om din host har ett explicit kommando för att aktivera whitelist kan du även köra det innan du lägger till användare.
+Om din host har ett explicit kommando för att aktivera whitelist kan du också köra det innan du lägger till användare.
 
 ```text
 /whitelist enable
@@ -53,7 +53,7 @@ För att visa den aktuella whitelistan, använd get-kommandot.
 
 ## Kontrollera att Whitelist Fungerar
 
-Efter att ha lagt till minst en spelare, testa att ansluta med ett konto som inte finns med på listan. Anslutningen ska nekas. Testa sedan att ansluta med ett whitelistat konto för att bekräfta att det funkar.
+Efter att ha lagt till minst en spelare, testa att ansluta med ett konto som inte finns med på listan. Anslutningen ska nekas. Logga sedan in med ett whitelistat konto för att bekräfta att det funkar.
 
 Om servern fortfarande tillåter alla, dubbelkolla att kommandona kördes på rätt server och starta om en gång för att säkerställa att whitelist-filen laddas vid uppstart.
 

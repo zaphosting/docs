@@ -34,7 +34,7 @@ So erkennst du zum Beispiel auch, welche Ressourcen viel Zeit fressen. Ressource
 
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast erfolgreich ein FiveM-Profil erstellt, mit dem du mögliche Probleme identifizieren kannst. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

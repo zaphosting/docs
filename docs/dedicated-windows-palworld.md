@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-palworld
-title: "Dedicated Server: Palworld Dedicated Server Windows Setup"
-description: "Discover how to set up a Palworld Dedicated Server on your Windows VPS or server quickly and efficiently → Learn more now"
+title: "Palworld Dedicated Server Windows Setup"
+description: "Discover how to set up a Palworld Dedicated Server on your Windows server or server quickly and efficiently → Learn more now"
 sidebar_label: Palworld
 services:
+  - vserver
   - dedicated
 ---
 
@@ -12,15 +13,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Do you have a Windows VPS or dedicated server and you want to install the Palworld Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
+Do you have a Windows VPS/Dedicated Server and you want to install the Palworld Dedicated server service on it? You are in the right place. In this guide, we will explain the step by step process of installing this service on your server.
 
-<YouTube videoId="thn0wDE5LDg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/pt4oNY8tPJdKf44/preview" title="How To Setup Palworld Dedicated Server on Windows VPS!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
+<YouTube videoId="thn0wDE5LDg" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/pt4oNY8tPJdKf44/preview" title="How To Setup Palworld Dedicated Server on Windows VPS/Dedicated Server!" description="Feel like you understand better when you see things in action? We’ve got you! Dive into our video that breaks it all down for you. Whether you're in a rush or just prefer to soak up information in the most engaging way possible!"/>
 
 
 
 ## Preparation
 
-To begin with, connect to your VPS through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
+To begin with, connect to your VPS/Dedicated Server through Remote Desktop (RDP). Use our [Initial Access (RDP)](vserver-windows-userdp.md) guide if you need help doing this.
 
 Once you have accessed your server, you will need to setup **SteamCMD** in order to be able to download the necessary dedicated server files. SteamCMD is the **command-line (CLI)** version of the Steam client and is the tool which allows you to easily download a range of Steam workshop and dedicated server files. Download [SteamCMD from the official Valve website](https://developer.valvesoftware.com/wiki/SteamCMD) or directly [here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 
@@ -57,7 +58,7 @@ Once successful, head over to the download directory where all of the server fil
 
 ### Port Forwarding your server
 
-In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the dedicated server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
+In order to ensure that your server is accessible to the public, you must alter port forwarding rules for the ports that the VPS/Dedicated Server process is using. You can do this either through Powershell commands directly which is easier, or regularly through the Windows Defender Firewall page.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -139,7 +140,7 @@ OptionSettings=(AllowConnectPlatform=Xbox)
 Save the file and the next time you launch the server it will be in Xbox mode.
 
 :::info
-On Xbox consoles, you cannot connect directly via the IP Address therefore if you plan to play on Xbox consoles, you will have to make your dedicated server public.
+On Xbox consoles, you cannot connect directly via the IP Address therefore if you plan to play on Xbox consoles, you will have to make your VPS/Dedicated Server public.
 
 You can do this by creating a new `StartServer.bat` file in the root directory and populating it with: `PalServer.exe -publiclobby`. The special `-publiclobby` start up flag enables Community Server mode making it accessible in the server list.
 

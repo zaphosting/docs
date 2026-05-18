@@ -57,7 +57,7 @@ Sobald du per RCON verbunden bist, kannst du verschiedene administrative und dia
 | `exec <datei.cfg>`          | Führt eine Konfigurationsdatei aus             |
 | `say <nachricht>`           | Sendet eine Nachricht an alle Spieler          |
 
-## Fazit
+## Abschluss
 
 RCON ist ein essentielles Tool für die Remote-Administration von No More Room In Hell Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und bietet durch Passwortschutz eine sichere Zugangskontrolle. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
 

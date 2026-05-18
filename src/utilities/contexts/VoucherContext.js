@@ -7,8 +7,13 @@ const VOUCHERS = {
         type: '%',
     },
     dedicated: {
-        code: 'docs-10',
-        value: '10',
+        code: '',
+        value: '0',
+        type: '%',
+    },
+    'dedicated-service-openclaw': {
+        code: '',
+        value: '0',
         type: '%',
     },
     domain: {
@@ -18,6 +23,9 @@ const VOUCHERS = {
     },
 };
 
+/**
+ * Returns a single voucher for the given services (legacy).
+ */
 export function getVoucherForServices(vouchers, services = []) {
     if (vouchers && vouchers.code && !vouchers.default) {
         return vouchers;
@@ -40,11 +48,55 @@ export function getVoucherForServices(vouchers, services = []) {
     return VOUCHERS.default;
 }
 
+/**
+ * Returns the voucher for a single service key.
+ * Falls back to default if no specific mapping exists.
+ */
+export function getVoucherForService(vouchers, serviceKey) {
+    if (vouchers && typeof vouchers === 'object') {
+        if (vouchers[serviceKey]) {
+            return vouchers[serviceKey];
+        }
+        if (vouchers.default) {
+            return vouchers.default;
+        }
+    }
+    return VOUCHERS.default;
+}
+
+/**
+ * Groups services by their voucher code.
+ * Returns an array of { voucher, services[] } objects.
+ * Filters out services with 0% discount.
+ */
+export function groupServicesByVoucher(vouchers, serviceKeys = []) {
+    const groups = {};
+
+    for (const key of serviceKeys) {
+        const voucher = getVoucherForService(vouchers, key);
+        if (!voucher || voucher.value === '0' || !voucher.code) {
+            continue;
+        }
+        const groupKey = voucher.code;
+        if (!groups[groupKey]) {
+            groups[groupKey] = { voucher, serviceKeys: [] };
+        }
+        groups[groupKey].serviceKeys.push(key);
+    }
+
+    // Sort by discount value descending (highest first)
+    return Object.values(groups).sort((a, b) =>
+        parseInt(b.voucher.value) - parseInt(a.voucher.value)
+    );
+}
+
 export const VoucherContext = createContext({
     loading: false,
     found: false,
     vouchers: {},
     getVoucherForServices: getVoucherForServices,
+    getVoucherForService: getVoucherForService,
+    groupServicesByVoucher: groupServicesByVoucher,
 });
 
 export const VoucherProvider = props => {
@@ -75,6 +127,8 @@ export const VoucherProvider = props => {
             found: found,
             vouchers: vouchers,
             getVoucherForServices: (services) => getVoucherForServices(vouchers, services),
+            getVoucherForService: (serviceKey) => getVoucherForService(vouchers, serviceKey),
+            groupServicesByVoucher: (serviceKeys) => groupServicesByVoucher(vouchers, serviceKeys),
         }}>
             { props.children }
         </VoucherContext.Provider>

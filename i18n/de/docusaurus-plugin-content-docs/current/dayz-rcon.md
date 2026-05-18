@@ -62,7 +62,7 @@ Nach der Verbindung via RCON kannst du verschiedene administrative und diagnosti
 
 
 
-## Fazit
+## Abschluss
 
 RCON ist ein essentielles Tool für die Fernverwaltung von DayZ Gameservern. Es ermöglicht schnellen und direkten Zugriff auf administrative Funktionen und schützt den Zugang durch Passwort-Authentifizierung. Eine korrekte und sichere Konfiguration ist entscheidend, um die Serverstabilität zu gewährleisten und unbefugten Zugriff zu verhindern.
 

@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-ts6
-title: "VPS: Teamspeak 6 Server installeren op je Linux VPS"
+title: "TeamSpeak 6 Server op een Linux Server Installeren - Zet Je Eigen Voice Platform Op"
 description: "Ontdek hoe je de TeamSpeak 6 Server installeert en optimaliseert voor betrouwbare hosting en performance → Leer het nu"
-sidebar_label: Teamspeak 6 Server installeren
+sidebar_label: Installeer Teamspeak 6 Server
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,9 +14,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-In de zomer van 2025 bracht TeamSpeak de **Beta versie** van de **TeamSpeak 6 Server** uit. Nu kun je de volgende generatie TeamSpeak zelf ervaren!
+In de zomer van 2025 bracht TeamSpeak de **Beta versie** van de **TeamSpeak 6 Server** uit. Ervaar nu zelf de volgende generatie van TeamSpeak!
 
-Overweeg je om deze service zelf te hosten? We nemen je stap voor stap mee in het installatie- en configuratieproces, inclusief alles wat je moet weten.
+Wil je deze service zelf hosten? We nemen je stap voor stap mee in het installatie- en configuratieproces, inclusief alles wat je moet weten.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/4J6HJjQdRddjGFK/preview)
 
@@ -27,21 +28,21 @@ Overweeg je om deze service zelf te hosten? We nemen je stap voor stap mee in he
 
 Voordat je de **Teamspeak 6 Server** installeert, zorg je dat je hostingomgeving aan de volgende eisen voldoet voor een soepele installatie en optimale performance.
 
-| Hardware   | Minimaal    | ZAP-Hosting Aanbeveling   |
-| ---------- | ----------- | ------------------------- |
-| CPU        | 1 vCPU Core | 4 vCPU Cores              |
-| RAM        | 1 GB        | 4 GB                      |
-| Schijfruimte | 1 GB      | 25 GB                     |
+| Hardware   | Minimum      | ZAP-Hosting Aanbeveling  |
+| ---------- | ------------ | ------------------------ |
+| CPU        | 1 vCPU Core  | 4 vCPU Cores             |
+| RAM        | 1 GB         | 4 GB                     |
+| Schijfruimte | 1 GB       | 25 GB                    |
 
 
 
 ## Voorbereiding
 
-Voordat je de **TeamSpeak 6 Server** installeert, moet je je systeem klaarmaken. Dit betekent dat je je besturingssysteem bijwerkt naar de nieuwste versie en alle benodigde dependencies installeert. Deze voorbereidingen zorgen voor een stabiele omgeving en voorkomen problemen tijdens of na de installatie.
+Voordat je de **TeamSpeak 6 Server** installeert, moet je je systeem klaarmaken. Dit betekent dat je je besturingssysteem bijwerkt naar de nieuwste versie en alle benodigde dependencies installeert. Zo zorg je voor een stabiele omgeving en voorkom je problemen tijdens of na de installatie.
 
 
-### Systeem updaten
-Om zeker te zijn dat je systeem draait met de nieuwste software en beveiligingsupdates, voer je eerst altijd een systeemupdate uit. Gebruik hiervoor het volgende commando:
+### Systeem bijwerken
+Om zeker te zijn dat je systeem draait met de nieuwste software en beveiligingsupdates, voer je eerst een systeemupdate uit. Gebruik hiervoor het volgende commando:
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -49,7 +50,7 @@ sudo apt update && sudo apt upgrade -y
 Dit zorgt ervoor dat je systeem de laatste beveiligingspatches en softwareversies heeft voordat je verder gaat.
 
 ### Dependencies installeren
-Als de update klaar is, kun je de dependencies installeren. Voor een snelle, makkelijke en aanbevolen installatie raden we Docker aan. Hiervoor moet je eerst de Docker Engine installeren:
+Als de update klaar is, kun je de dependencies installeren. Voor een snelle, makkelijke en aanbevolen installatie raden we Docker aan. Installeer daarvoor eerst de Docker Engine:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -60,7 +61,7 @@ sh get-docker.sh
 
 
 ## Installatie
-Nu aan alle vereisten is voldaan en de voorbereidingen zijn afgerond, kun je de Teamspeak 6 Server installeren.
+Nu aan alle vereisten is voldaan en de voorbereidingen zijn getroffen, kun je de Teamspeak 6 Server applicatie installeren.
 
 De volgende stap is het aanmaken van het Docker Compose bestand `docker-compose.yml` voor de TeamSpeak 6 Server. Je kunt elke map kiezen, maar in dit voorbeeld maken we het bestand aan onder `/opt/containers/ts6/`. Hiervoor gebruiken we het officiële TeamSpeak Compose bestand:
 
@@ -83,7 +84,7 @@ volumes:
   teamspeak-data:
 ```
 
-Ga naar de map waar het bestand moet komen en maak het bestand aan. Gebruik hiervoor het commando `nano docker-compose.yml` en plak de inhoud erin.
+Navigeer naar de map waar het bestand moet komen en maak het bestand aan. Gebruik hiervoor het commando `nano docker-compose.yml` en plak de inhoud erin.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/yBZTKL8MYgLiJEt/download)
 
@@ -97,7 +98,7 @@ De Docker container voor de TeamSpeak 6 Server start nu. Standaard draait hij no
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/7nNwWkEdG84yx4y/download)
 
-Bewaar deze info goed, want je ziet het niet meer bij volgende starts. Stop daarna de container weer met `CTRL+C`.
+Bewaar deze gegevens goed, want ze worden bij volgende starts niet meer getoond. Stop daarna de container weer met `CTRL+C`.
 
 
 
@@ -117,7 +118,7 @@ environment:
 
 ## Server beheer
 
-Om de TeamSpeak 6 Server op de achtergrond te laten draaien, start je de container met dit commando:
+Om de TeamSpeak 6 Server op de achtergrond te laten draaien, start je de container met:
 
 ```
 docker compose -f /opt/containers/ts6/docker-compose.yml up -d
@@ -139,12 +140,12 @@ Als de TeamSpeak 6 Server draait, kun je verbinden met de TeamSpeak 6 Client. Ge
 
 
 
-## Conclusie en extra bronnen
+## Conclusie en meer bronnen
 
-Gefeliciteerd! Je hebt nu succesvol de Teamspeak 6 Server geïnstalleerd en geconfigureerd op je VPS. We raden je ook aan om deze bronnen te checken, die je extra hulp en tips kunnen geven tijdens het configureren van je server:
+Gefeliciteerd! Je hebt nu succesvol de Teamspeak 6 Server geïnstalleerd en geconfigureerd op je VPS/Dedicated Server. We raden je ook aan om de volgende bronnen te bekijken, die je extra hulp en tips kunnen geven tijdens het configureren van je server:
 
 - [Officiële Website](https://teamspeak.com/en/) - Info en downloads voor TeamSpeak 6
 - [Community Forum](https://community.teamspeak.com/) - Support en discussies van gebruikers
-- [GitHub Issues](https://github.com/teamspeak/teamspeak6-server/issues) - Bugs melden en open issues volgen
+- [GitHub Issues](https://github.com/teamspeak/teamspeak6-server/issues) - Bugs melden en openstaande issues volgen
 
-Heb je nog vragen die hier niet beantwoord worden? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂
+Heb je specifieke vragen die hier niet behandeld worden? Neem gerust contact op met onze support, die dagelijks voor je klaarstaat! 🙂

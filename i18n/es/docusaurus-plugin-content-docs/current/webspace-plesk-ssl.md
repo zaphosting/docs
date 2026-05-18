@@ -1,7 +1,7 @@
 ---
 id: webspace-plesk-ssl
-title: "Hosting web: Crear certificado SSL"
-description: "Descubre cómo asegurar tu sitio web con cifrado SSL y activar HTTPS para una navegación más segura → Aprende más ahora"
+title: "Hosting web: Crear un certificado SSL en Plesk"
+description: "Aprende cómo asegurar tu sitio web con un certificado SSL en Plesk y habilitar HTTPS para conexiones cifradas."
 sidebar_label: Crear certificado SSL
 services:
   - webspace
@@ -9,105 +9,77 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Cifra tu sitio web con SSL
 
-:::info
-Se asume que el dominio ya apunta a la dirección IP del hosting web.
-:::
+## Introducción
 
-Cuando se crea un dominio en el hosting web, siempre está sin cifrar al principio. Esto se puede ver en el panel Plesk:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/kkJ67Pd733pt95i/preview)
-
-Y la notificación en el navegador al abrir el dominio:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5iwXSgEb4LrY3xf/preview)
-![](https://screensaver01.zap-hosting.com/index.php/s/mpmK8TAjAsgY3FW/preview)
-
-Con un certificado SSL, un dominio puede protegerse/cifrarse adecuadamente.
+Un certificado SSL cifra la conexión entre tu sitio web y sus visitantes. Una vez que HTTPS está habilitado, los navegadores establecen una conexión segura y muestran un icono de candado en la barra de direcciones. Esto protege datos sensibles, aumenta la confianza y evita que los navegadores marquen tu sitio como inseguro.
 
 <InlineVoucher />
 
-## Creación del certificado
+## Asegurando tu dominio principal
 
-Paso 1️⃣: Con doble clic en "Certificado SSL/TLS" se abre el siguiente menú:
+Cuando un dominio se crea por primera vez en Plesk, es accesible vía HTTP y no está cifrado. En el panel de Plesk, puedes ver que aún no se ha asignado ningún certificado. Si abres el dominio en un navegador en esta etapa, normalmente aparecerá marcado como no seguro:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/g5sr6WC4eawqzoF/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-Se puede solicitar un certificado Let's Encrypt gratis.
+Para activar el cifrado, abre el dominio en tu panel de Plesk y navega a **Certificados SSL/TLS**. Se abrirá el menú correspondiente:
 
-Paso 2️⃣: Introduce/rellena la información requerida. Para solicitar el certificado, hay que proporcionar datos.
+![img](https://screensaver01.zap-hosting.com/index.php/s/8rSr7Jt3DsjDzBY/download)
 
-Se debe especificar una dirección de correo y marcar para qué debe ser válido el certificado. Normalmente, cada dominio tiene activo el subdominio "www", por eso también se selecciona si está configurado en el DNS del dominio.
+Desde aquí, puedes solicitar un certificado gratuito de Let's Encrypt. Durante el proceso de solicitud, debes proporcionar una dirección de correo válida y seleccionar los nombres de dominio que deseas asegurar. En la mayoría de los casos, se seleccionan tanto el dominio raíz como el subdominio www, siempre que la entrada www exista en tu configuración DNS:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Mwf3CEWsYRwprS3/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/LTFN73ekPjtikwp/preview)
 
-Luego se solicita el certificado haciendo clic en "Obtener gratis".
+Después de confirmar la solicitud haciendo clic en **Obtener gratis**, Plesk se comunica con Let's Encrypt y emite el certificado automáticamente. Una vez que el certificado se ha creado con éxito, se debe forzar HTTPS activando la redirección permanente de HTTP a HTTPS en la configuración del hosting:
 
-Paso 3️⃣: El certificado ya está creado, se ve arriba a la derecha. Además, ahora debe activarse el redireccionamiento automático de HTTP a HTTPS, porque si no, no se establece el cifrado:
+![img](https://screensaver01.zap-hosting.com/index.php/s/BN7AMzG6MyMKb38/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YBdGQqmtNeWKdxA/preview)
+Tras la activación, todos los visitantes serán redirigidos automáticamente a la versión cifrada HTTPS de tu sitio web. Puedes verificar la instalación abriendo tu dominio con https en el navegador.
 
-Si se hace esto, el redireccionamiento está activo. No importa si abres la página con http o https directamente en el navegador, siempre te llevará a https.
 
-Paso 4️⃣: Ahora puedes comprobar en el navegador si el certificado ha sido reconocido:
 
-Debe aparecer el candado:
+## Asegurando todos los subdominios con un certificado comodín
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DkZoqg9XGgR67EK/preview)
+Si usas o planeas usar varios subdominios, un certificado comodín es una solución más eficiente. Asegura el dominio principal así como todos los subdominios existentes y futuros. Para solicitar un certificado comodín, abre nuevamente el menú **Certificados SSL/TLS**:
 
-La info del certificado, que se abre haciendo clic en el candado, también debería mostrar el dominio:
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/p5H6RZ25HksHsow/preview)
+Selecciona la opción para renovar o solicitar un certificado de Let's Encrypt. Activa la opción para asegurar el dominio comodín:
 
-La web ya está protegida/cifrada correctamente.
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZMcdJk9wCzifBmq/preview)
 
-## Certificados para subdominios
+Después de confirmar la solicitud, Plesk mostrará un cuadro de información azul con un registro DNS TXT que debe ser creado:
 
-Teóricamente, los mismos pasos se pueden seguir para un subdominio. Pero hay una forma más fácil de cifrar todos los subdominios a la vez, sin importar si ya existen o son nuevos. Se puede usar un "certificado comodín" (wildcard). Para esto se necesita una entrada TXT especial en el DNS del dominio. Una vez disponible, puede emitir un certificado SSL para todos los subdominios.
+![img](https://screensaver01.zap-hosting.com/index.php/s/wnbNfKeTMsCdsy9/preview)
 
-Paso 1️⃣: Se vuelve a abrir el menú de certificado SSL/TLS.
+Este registro TXT debe añadirse a la zona DNS de tu dominio exactamente como se indica. Confirma la propiedad del dominio y permite que Let's Encrypt valide la solicitud. Una entrada DNS se verá similar al siguiente ejemplo:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X4kFeMomqmz3nGp/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/tDtDaERR7twzaMr/preview)
 
-Luego haz clic en "Renovar certificado" arriba a la izquierda.  
-Ahora se abre la ventana de solicitud de Let's Encrypt:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/eCcFtaJHxW3XWgF/preview)
-
-Selecciona "Asegurar el dominio comodín":
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5STxWaKf3JWGfZe/preview)
-
-Los subdominios "www" y "webmail" se añaden automáticamente.  
-Después se vuelve a hacer clic en "Obtener gratis".
-
-Paso 2️⃣: Aparece un recuadro azul con información importante:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/JHag4cd85Lq6gwx/preview)
-
-Ahí se indica un nombre de dominio y un valor. Esto debe estar disponible permanentemente como un TXT en el DNS del dominio, es la única forma en que Let's Encrypt puede verificar que el dominio es legítimo.
-
-Una entrada en el DNS debería verse así:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qPCeWj5dJRFfYFB/preview)
-
-:::info
-Una entrada DNS puede tardar hasta 24 horas en estar accesible desde cualquier parte del mundo.
+:::warning Retraso en la propagación DNS
+La propagación DNS puede tardar hasta 24 horas hasta que el registro TXT sea accesible globalmente. Durante este tiempo, la validación puede fallar porque algunos servidores DNS aún devuelven información desactualizada. Si esto ocurre, espera hasta que el registro se haya propagado completamente y luego vuelve a intentar la verificación.
 :::
 
-Para asegurarte de que la entrada TXT ya está activa, puedes usar la "TXT Lookup SuperTool" de mxtoolbox: https://mxtoolbox.com/SuperTool.aspx:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CPSSWeQRpTDsagY/preview)
 
-Si la entrada aparece, puedes confirmarlo en el recuadro azul en Plesk haciendo clic en "Recargar". Ahora se comprueba si la entrada DNS está presente, y si es así, tras unos segundos aparecerá "protegido" para el "Certificado SSL/TLS" aka "Certificado comodín":
+Para asegurarte de que el registro TXT se ha propagado correctamente y es accesible públicamente, puedes verificarlo usando una herramienta externa de consulta DNS como MXToolbox SuperTool:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AwWiJboz3k6iea8/preview)
+https://mxtoolbox.com/SuperTool.aspx
 
-Si ahora se crea un subdominio, ya estará protegido:
+Abre la web y selecciona la opción **TXT Lookup**. Introduce el nombre de host completo proporcionado por Plesk, normalmente en el formato `_acme-challenge.tudominio.com`, y comienza la consulta. La herramienta consultará servidores DNS públicos y mostrará los registros TXT visibles actualmente.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XLHzsgkeLmwJ55m/preview)
+Si el valor de verificación correcto aparece exactamente como se muestra en Plesk, la entrada DNS se ha propagado con éxito y Let's Encrypt puede validar la propiedad del dominio. Si no se devuelve ningún resultado o el valor es diferente, la propagación DNS puede estar aún en proceso. En ese caso, espera y repite la consulta después de un tiempo hasta que la entrada correcta sea visible mundialmente.
 
-Ahora toda la transferencia de datos está cifrada, listo.
+![img](https://screensaver01.zap-hosting.com/index.php/s/iFP5P8SY6oSXQBW/download)
+
+Una vez que el registro sea visible, vuelve a Plesk y vuelve a iniciar la validación. Si tiene éxito, el certificado comodín será emitido y mostrado como protegido. A partir de ese momento, cualquier subdominio nuevo creado se asegurará automáticamente.
+
+
+
+## Conclusión
+
+¡Felicidades! Tu sitio web ahora está protegido con cifrado SSL. Todos los datos transmitidos entre tu servidor y los visitantes están seguros, los navegadores reconocen tu dominio como confiable y HTTPS se aplica automáticamente.
+
+Para más preguntas o ayuda, no dudes en contactar a nuestro equipo de soporte, ¡disponible todos los días para ayudarte! 🙂
 
 <InlineVoucher />

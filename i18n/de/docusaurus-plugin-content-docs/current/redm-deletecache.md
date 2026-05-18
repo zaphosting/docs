@@ -48,7 +48,7 @@ Starte danach deinen RedM Gameserver neu, damit die Änderungen wirksam werden. 
 
 
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, hast du erfolgreich den Cache deines Servers geleert. Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 

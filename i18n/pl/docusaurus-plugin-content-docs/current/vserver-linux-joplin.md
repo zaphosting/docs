@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-joplin
-title: "VPS: Instalacja Joplin na Linuxie"
-description: "Dowiedz się, jak organizować i synchronizować zaszyfrowane notatki Markdown na różnych urządzeniach z Joplin – bezpieczne i elastyczne notowanie → Sprawdź teraz"
+title: "Konfiguracja serwera Joplin na Linuxie - Hostuj własną bezpieczną platformę do notatek"
+description: "Dowiedz się, jak organizować i synchronizować zaszyfrowane notatki Markdown na różnych urządzeniach z Joplin — bezpieczne i elastyczne notowanie → Sprawdź teraz"
 sidebar_label: Instalacja Joplin
 services:
-- vserver
+  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,14 +14,18 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Wprowadzenie
 
-Joplin to open-source’owa aplikacja do robienia notatek i list zadań, która pozwala organizować notatki oparte na Markdown w przeszukiwalne zeszyty i synchronizować je między urządzeniami. Oferuje szyfrowanie end-to-end, web clipper oraz synchronizację cross-platformową. Idealna dla użytkowników ceniących prywatność, elastyczność i pełną kontrolę nad swoimi danymi!
+Joplin to open-source’owa aplikacja do tworzenia notatek i list zadań, która pozwala organizować notatki oparte na Markdown w przeszukiwalne zeszyty i synchronizować je między urządzeniami. Oferuje end-to-end encryption, web clipper oraz synchronizację cross-platformową. Idealna dla użytkowników ceniących prywatność, elastyczność i pełną kontrolę nad swoimi danymi!
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/qfo8k2RXWPFqi3g/preview)
 
-Myślisz o samodzielnym hostingu tej usługi? Przeprowadzimy Cię krok po kroku przez instalację i konfigurację oraz podpowiemy, na co zwrócić uwagę.
+Myślisz o samodzielnym hostingu tej usługi? Przeprowadzimy Cię przez każdy krok konfiguracji i ustawień oraz podpowiemy, na co zwrócić uwagę.
+
+## Instalacja Joplin przez One Click Apps Installer
+
+Możesz zainstalować **Joplin** bezpośrednio przez nasz **One Click Apps Installer** w panelu VPS. Po zakończeniu wstępnej konfiguracji aplikacji, otwórz katalog aplikacji, wyszukaj **Joplin** i rozpocznij wdrożenie, wybierając swój projekt, środowisko i ustawienia domeny. To szybki i wygodny sposób na uruchomienie i zarządzanie **Joplin** bez ręcznej konfiguracji w terminalu, a jednocześnie z korzyściami takimi jak zarządzanie przez web, wsparcie dla własnej domeny i automatyczne SSL tam, gdzie to możliwe.
 
 :::danger Wymagany Linux z wersją Desktop
-Ta aplikacja może być zainstalowana i używana tylko na systemie Linux z graficznym interfejsem użytkownika; w tym przykładzie jako odniesienie użyto Ubuntu Desktop 25.04.
+Ta aplikacja może być zainstalowana i używana tylko na systemie Linux z graficznym interfejsem użytkownika; w tym przykładzie jako wzór użyto Ubuntu Desktop 25.04.
 
 :::
 
@@ -50,22 +55,22 @@ Sprawdź, czy wszystkie zależności są zainstalowane, a system operacyjny jest
 
 ## Przygotowanie
 
-Przed konfiguracją **Joplin** musisz przygotować swój system. Obejmuje to aktualizację systemu operacyjnego do najnowszej wersji oraz instalację wszystkich wymaganych zależności. Te przygotowania zapewnią stabilne środowisko i pomogą uniknąć problemów podczas lub po instalacji.
+Przed konfiguracją **Joplin** musisz przygotować swój system. Obejmuje to aktualizację systemu operacyjnego do najnowszej wersji oraz instalację wszystkich wymaganych zależności. Te kroki zapewnią stabilne środowisko i pomogą uniknąć problemów podczas lub po instalacji.
 
 
 ### Aktualizacja systemu
-Aby mieć pewność, że Twój system działa na najnowszym oprogramowaniu i z poprawkami bezpieczeństwa, zawsze najpierw wykonaj aktualizację systemu. W tym celu uruchom poniższe polecenie:
+Aby mieć pewność, że Twój system działa na najnowszym oprogramowaniu i z poprawkami bezpieczeństwa, zawsze zacznij od aktualizacji systemu. Wykonaj polecenie:
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-To zapewni, że Twój system ma najnowsze poprawki bezpieczeństwa i wersje oprogramowania przed dalszymi krokami.
+To zapewni, że system ma najnowsze łatki bezpieczeństwa i wersje oprogramowania przed dalszą instalacją.
 
 ### Instalacja zależności
 Po zakończeniu aktualizacji możesz przejść do instalacji zależności.
 
 #### Libfuse2
-Oprogramowanie Joplin wymaga najpierw zainstalowania Libfuse2. Wykonaj to polecenie: 
+Joplin wymaga zainstalowania Libfuse2. Wykonaj polecenie: 
 ```
 sudo apt install -y libfuse2
 ```
@@ -74,13 +79,13 @@ sudo apt install -y libfuse2
 
 
 ## Instalacja
-Gdy wszystkie wymagania są spełnione, a przygotowania zakończone, możesz przystąpić do instalacji aplikacji Joplin. Wykonaj poniższe polecenie:
+Gdy spełnisz wszystkie wymagania i przygotujesz system, możesz przejść do instalacji Joplin. Wykonaj polecenie:
 
 ```
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 ```
 
-Joplin zostanie pobrany i zainstalowany za pomocą oficjalnego skryptu instalacyjnego. Po prostu pozwól procesowi się zakończyć, a następnie możesz od razu uruchomić aplikację.
+Joplin zostanie pobrany i zainstalowany za pomocą oficjalnego skryptu instalacyjnego. Po prostu poczekaj na zakończenie procesu, a potem możesz od razu uruchomić aplikację.
 
 
 
@@ -90,22 +95,22 @@ Joplin zostanie pobrany i zainstalowany za pomocą oficjalnego skryptu instalacy
 
 ## Konfiguracja
 
-Po instalacji Joplin powinieneś skonfigurować podstawowe ustawienia, aby dostosować aplikację do swojego stylu pracy. Konfiguracja jest dostępna w menu *Ustawienia*.
+Po instalacji Joplin powinieneś skonfigurować podstawowe ustawienia, aby dopasować aplikację do swojego stylu pracy. Konfiguracja jest dostępna w menu *Ustawienia*.
 
 **Synchronizacja**
-Joplin obsługuje wiele celów synchronizacji, takich jak Nextcloud, Dropbox, OneDrive czy WebDAV. Wybierz swojego preferowanego dostawcę w sekcji „Synchronizacja” i wpisz swoje dane logowania. Dzięki temu Twoje notatki będą aktualizowane na wszystkich urządzeniach.
+Joplin obsługuje wiele celów synchronizacji, takich jak Nextcloud, Dropbox, OneDrive czy WebDAV. Wybierz swojego dostawcę w sekcji „Synchronizacja” i wpisz dane logowania. Dzięki temu Twoje notatki będą aktualizowane na wszystkich urządzeniach.
 
 **Szyfrowanie**
-Aby zabezpieczyć zsynchronizowane notatki, włącz szyfrowanie end-to-end w ustawieniach „Szyfrowanie”. Zostanie wygenerowany klucz, który musisz skonfigurować na wszystkich urządzeniach korzystających z notatek.
+Aby zabezpieczyć zsynchronizowane notatki, włącz end-to-end encryption w ustawieniach „Szyfrowanie”. Zostanie wygenerowany klucz, który musisz skonfigurować na wszystkich urządzeniach korzystających z notatek.
 
 **Edytor i wygląd**
-Joplin używa Markdown do notatek. W ustawieniach „Edytor” możesz ustawić, czy podgląd ma być wyświetlany automatycznie oraz dostosować czcionkę i jej rozmiar.
+Joplin korzysta z Markdown do notatek. W ustawieniach „Edytor” możesz ustawić, czy podgląd ma być wyświetlany automatycznie oraz dostosować czcionkę i jej rozmiar.
 
 **Wtyczki i rozszerzenia**
 Wbudowany menedżer wtyczek pozwala instalować dodatkowe funkcje, takie jak wsparcie dla diagramów, integracja kalendarza czy zaawansowane zarządzanie tagami.
 
 **Web Clipper**
-Opcjonalnie włącz rozszerzenie przeglądarki „Joplin Web Clipper”, aby zapisywać całe strony internetowe lub zaznaczenia bezpośrednio jako notatki.
+Opcjonalnie włącz rozszerzenie przeglądarki „Joplin Web Clipper”, aby zapisywać całe strony internetowe lub wybrane fragmenty bezpośrednio jako notatki.
 
 Dzięki tym podstawowym ustawieniom Joplin jest gotowy do użycia w różnych scenariuszach, takich jak zarządzanie zadaniami, dokumentacja projektów czy osobiste bazy wiedzy.
 
@@ -116,14 +121,14 @@ Dzięki tym podstawowym ustawieniom Joplin jest gotowy do użycia w różnych sc
 
 
 
-## Podsumowanie i dodatkowe zasoby
+## Podsumowanie i dodatkowe materiały
 
-Gratulacje! Właśnie pomyślnie zainstalowałeś i skonfigurowałeś Joplin na swoim VPS. Polecamy też zapoznać się z poniższymi zasobami, które mogą dostarczyć dodatkowej pomocy i wskazówek podczas konfiguracji serwera:
+Gratulacje! Właśnie zainstalowałeś i skonfigurowałeś Joplin na swoim VPS/serwerze dedykowanym. Polecamy też zapoznać się z poniższymi materiałami, które mogą pomóc i wesprzeć Cię podczas konfiguracji serwera:
 
 - [Joplinapp.org](https://joplin.org/) - Oficjalna strona
 - [Joplinapp.org/help/](https://joplinapp.org/help/) - Centrum pomocy Joplin
 
-Masz pytania, które nie zostały tu poruszone? Jeśli potrzebujesz dalszej pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
+Masz pytania, które nie zostały tu poruszone? Jeśli potrzebujesz dalszej pomocy, śmiało kontaktuj się z naszym supportem, który jest dostępny codziennie, by Ci pomóc! 🙂
 
 
 

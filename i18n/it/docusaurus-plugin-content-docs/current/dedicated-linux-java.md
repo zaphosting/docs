@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-java
-title: "Dedicated Server: Installazione di Java"
-description: "Scopri come installare Java su vari sistemi Linux per far girare le tue applicazioni Java senza intoppi e assicurarti che l’ambiente sia configurato correttamente → Scopri di più ora"
+title: "Configura Java su un Server Linux - Esegui Applicazioni e Servizi Basati su Java"
+description: "Scopri come installare Java su vari sistemi Linux per far girare le tue applicazioni Java senza intoppi e assicurarti che l'ambiente sia configurato al meglio → Scopri di più ora"
 sidebar_label: Installa Java
 services:
+  - vserver
   - dedicated
 ---
 
@@ -12,8 +13,6 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introduzione
 
 Java è un linguaggio di programmazione super popolare usato in tutto il mondo per tantissimi programmi e servizi. Per far girare questi programmi basati su Java, è fondamentale che Java sia installato sul sistema. Qui sotto ti spieghiamo come installare Java sul tuo sistema per i sistemi operativi Linux che offriamo.
-
-
 
 ## Preparazione
 
@@ -38,11 +37,9 @@ sudo zypper up
 sudo dnf upgrade --refresh
 ```
 
-
-
 ## Installazione
 
-Finita la preparazione, puoi finalmente partire con l’installazione di Java. A seconda del sistema operativo, esegui questi comandi:
+Finita la preparazione, puoi partire con l’installazione di Java. A seconda del sistema operativo, esegui questi comandi:
 
 **Debian**
 
@@ -68,9 +65,7 @@ sudo yum install java-11-openjdk
 sudo dnf install java-11-openjdk
 ```
 
-
-
-## Controllo versione
+## Controllo Versione
 
 Puoi verificare se l’installazione è andata a buon fine con il comando **java --version**. L’output dovrebbe essere simile a questo:
 

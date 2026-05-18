@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-obtain-uuid
 title: "Hytale: Obtain UUID"
 description: "Discover how to find or obtain a player’s UUID for use in server configuration and permissions → Learn more now"

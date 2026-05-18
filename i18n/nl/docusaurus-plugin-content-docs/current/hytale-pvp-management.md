@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-pvp-management
 title: "Hytale: PvP Beheer"
 description: "Beheer en configureer player versus player gevechten (PvP) op je Hytale server → Leer er nu meer over"
@@ -46,6 +46,6 @@ Om PvP in te schakelen en speler-tegen-speler gevechten toe te staan, kan de con
 
 ## Conclusie
 
-Als dit eenmaal is ingesteld, heb je een duidelijk overzicht van hoe PvP wordt beheerd en kun je de configuratie makkelijk aanpassen om coöperatief spelen, competitieve omgevingen of een mix van beide te ondersteunen. Heb je nog vragen of hulp nodig? Neem dan vooral contact op met onze support, die dagelijks voor je klaarstaat! 🙂
+Als dit eenmaal is ingesteld, heb je een duidelijk overzicht van hoe PvP wordt beheerd en kun je de configuratie eenvoudig aanpassen om coöperatief spelen, competitieve omgevingen of een mix van beide te ondersteunen. Voor vragen of hulp kun je altijd contact opnemen met onze support, die dagelijks voor je klaarstaat! 🙂
 
 <InlineVoucher />

@@ -56,7 +56,7 @@ Stöbere durch unsere sorgfältig zusammengestellte Liste der beliebtesten und a
 <SearchableItemList items={items} />
 
 
-## Fazit
+## Abschluss
 
 Wenn du alle Schritte befolgt hast, solltest du dein Plugin erfolgreich installiert haben. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Seite! 🙂
 

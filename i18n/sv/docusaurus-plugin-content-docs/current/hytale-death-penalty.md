@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-death-penalty
 title: "Hytale: Ändra Dödsstraff"
 description: "Upptäck hur dödsstraff fungerar på din Hytale-server → Läs mer nu"
@@ -17,7 +17,7 @@ På en Hytale-server bestämmer **dödsstraffet** hur spelare påverkas när de 
 
 :::info Early Access-meddelande
 
-Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serverprogramvara, konfigurationsfiler, moddstöd och installationsflöden fortsätta att förändras över tid.
+Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom spelet fortfarande är under aktiv utveckling kan serverprogramvara, konfigurationsfiler, moddstöd och installationsflöden fortsätta att ändras över tid.
 
 :::
 
@@ -25,7 +25,7 @@ Hytale släpptes den 13 januari 2026 och finns just nu i Early Access. Eftersom 
 
 
 ## Tillgängliga inställningar för dödsstraff
-Dödsstraffsinställningarna styr hur spelarens död påverkar inventariets innehåll och föremålens hållbarhet. Dessa alternativ låter dig bestämma om föremål ska behållas, delvis förloras eller helt tappas, samt hur mycket slitaget på föremålen ökar vid döden.
+Dödsstraffets inställningar styr hur spelarens död påverkar inventariets innehåll och föremålens hållbarhet. Dessa alternativ låter dig bestämma om föremål behålls, delvis förloras eller helt tappas, samt hur mycket slitage föremålen får vid döden.
 
 Följande konfigurationsalternativ finns:
 
@@ -35,7 +35,7 @@ Följande konfigurationsalternativ finns:
 
 - `None` – Spelare behåller hela sitt inventarium efter döden  
 - `All` – Alla föremål tappas vid döden  
-- `Configured` – Föremålsförlust styrs av procentbaserade inställningar
+- `Configured` – Föremålsförlust bestäms av procentbaserade inställningar
 
 **ItemsAmountLossPercentage**  
  Detta värde används endast när `ItemsLossMode` är satt till `Configured`.  
@@ -53,15 +53,15 @@ Noggrann justering säkerställer en balanserad upplevelse som matchar serverns 
 
 ## Konfigurera dödsstraff
 
-Dödsstraffsinställningarna finns i din servers huvudfil `config.json`. Dessa värden läses in när servern startar och gäller globalt för alla spelare.
+Inställningarna för dödsstraff finns i din servers huvudfil `config.json`. Dessa värden läses in när servern startar och gäller globalt för alla spelare.
 
-I konfigurationsfilen är dödsrelaterade inställningar en del av gameplay-konfigurationen. För att lägga till eller ändra dödsstraffet, hitta följande rad i `config.json`:
+I konfigurationsfilen är dödsrelaterade inställningar en del av gameplay-konfigurationen. För att lägga till eller ändra dödsstraffet, leta upp följande rad i `config.json`:
 
 ```
 "GameplayConfig": "Default",
 ```
 
-Denna rad definierar den aktiva gameplay-konfigurationsprofilen. Dödsstraffskonfigurationen placeras direkt under denna rad som ett nytt block. När du hittat den, lägg till dödsstraffsblocket för att definiera hur respawn och föremålsförlust hanteras:
+Denna rad definierar den aktiva gameplay-konfigurationsprofilen. Dödsstraffets konfiguration placeras direkt under denna rad som ett nytt block. När du hittat den, lägg till döds-konfigurationsblocket för att definiera hur respawn och föremålsförlust hanteras:
 
 ```
 "Death": {
@@ -104,7 +104,7 @@ För en mer straffande upplevelse där alla föremål tappas vid döden kan konf
 ```
 
 Efter att ha ändrat `config.json` måste servern startas om för att ändringarna ska träda i kraft.  
-Det rekommenderas att verifiera beteendet i spelet efter omstart för att säkerställa att dödsstraffet matchar önskad svårighetsgrad.
+Vi rekommenderar att du testar beteendet i spelet efter omstart för att säkerställa att dödsstraffet matchar den önskade svårighetsgraden.
 
 
 

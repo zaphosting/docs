@@ -27,7 +27,7 @@ Während der Neuinstallation kannst du wählen, ob du auch die Datenbank zurück
 Falls sich noch wichtige Daten auf dem Server befinden, solltest du unbedingt vorher ein Backup machen, bevor sie verloren gehen.
 :::
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast den Server erfolgreich durch eine Neuinstallation zurückgesetzt. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

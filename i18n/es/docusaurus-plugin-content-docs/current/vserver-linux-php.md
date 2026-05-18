@@ -1,17 +1,18 @@
 ---
 id: vserver-linux-php
-title: 'VPS: Instalación de PHP'
-description: "Aprende cómo instalar PHP en tu servidor Linux para desarrollo web y optimiza tu configuración para Apache o uso independiente → Aprende más ahora"
+title: 'Configura PHP en un Servidor Linux - Potencia Aplicaciones Web Dinámicas'
+description: "Aprende cómo instalar PHP en tu servidor Linux para desarrollo web y optimiza tu configuración para Apache o uso independiente → Descubre más ahora"
 sidebar_label: Instalar PHP
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introducción
 
-PHP es un lenguaje de programación de propósito general muy popular, con un uso importante en el desarrollo web. En esta guía, cubrimos el proceso para instalar PHP en tu servidor.
+PHP es un lenguaje de programación de propósito general muy popular, con un uso destacado en el desarrollo web. En esta guía, cubrimos el proceso para instalar PHP en tu servidor.
 
 <InlineVoucher />
 
@@ -19,7 +20,7 @@ PHP es un lenguaje de programación de propósito general muy popular, con un us
 
 Comienza conectándote a tu servidor vía SSH. Si no sabes cómo hacerlo, echa un vistazo a nuestra [guía de acceso inicial (SSH)](vserver-linux-ssh.md).
 
-Una vez conectado, se recomienda ejecutar el comando de actualización correspondiente a tu sistema operativo para mantener tu servidor seguro y actualizado con las últimas funciones.
+Una vez conectado, es recomendable ejecutar el comando de actualización correspondiente a tu sistema operativo para mantener tu servidor seguro y actualizado con las últimas funciones.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -57,11 +58,11 @@ import TabItem from '@theme/TabItem';
 
 ## Instalación
 
-Hay dos formas principales de instalar PHP en tu servidor Linux: como independiente o como paquete adicional para Apache. Si usas tu propio servidor web que no sea Apache o para tareas generales, recomendamos usar el método independiente. Para uso con el servidor web Apache, usa el método Apache para instalar PHP como paquete extra.
+Hay dos formas principales de instalar PHP en tu servidor Linux: como servicio independiente o como paquete adicional para Apache. Si usas tu propio servidor web que no sea Apache o para tareas generales, recomendamos el método independiente. Para uso con el servidor web Apache, usa el método Apache para instalar PHP como paquete extra.
 
 ## Independiente
 
-Usa el siguiente comando para instalar la última versión de PHP. Si quieres instalar versiones específicas, puedes usar la opción `-y` seguida de la versión.
+Usa el siguiente comando para instalar la versión más reciente de PHP. Si quieres instalar versiones específicas, puedes usar el flag `-y` seguido de la versión.
 ```
 # Última versión
 sudo apt install php
@@ -70,7 +71,7 @@ sudo apt install php
 sudo apt -y install php[version]
 ```
 
-Verifica que la instalación fue exitosa con el comando `php -v`. Ya instalaste PHP en tu servidor. Te recomendamos leer la sección **Extensiones PHP** para asegurarte de instalar las extensiones que puedas necesitar.
+Verifica que la instalación fue exitosa con el comando `php -v`. Ya instalaste PHP en tu servidor. Recomendamos leer la sección **Extensiones PHP** para asegurarte de instalar las extensiones que puedas necesitar.
 
 ## Usando Apache
 
@@ -84,24 +85,24 @@ Una vez instalado, asegúrate de crear las reglas adecuadas en el firewall para 
 sudo ufw allow in "Apache"
 ```
 
-Tu servidor ahora debería ser accesible. Puedes probarlo entrando `http://[tu_ip_servidor]` en un navegador.
+Tu servidor ahora debería ser accesible. Puedes probarlo ingresando `http://[tu_ip_del_servidor]` en un navegador web.
 
-Con Apache listo, puedes instalar el paquete PHP para Apache con el siguiente comando.
+Con Apache listo, puedes instalar el paquete PHP para Apache usando el siguiente comando.
 ```
 sudo apt install php libapache2-mod-php
 ```
 
-Verifica que la instalación fue exitosa con el comando `php -v`. Ya instalaste PHP junto a tu servidor web Apache. Te recomendamos leer la sección **Extensiones PHP** para asegurarte de instalar las extensiones que puedas necesitar.
+Verifica que la instalación fue exitosa con el comando `php -v`. Ya instalaste PHP junto a tu servidor web Apache. Recomendamos leer la sección **Extensiones PHP** para asegurarte de instalar las extensiones que puedas necesitar.
 
 ## Extensiones PHP
 
-PHP viene con una amplia selección de extensiones opcionales que puedes instalar para ampliar su funcionalidad. Para ver una lista de extensiones disponibles, ejecuta el siguiente comando, que mostrará los resultados de la búsqueda en la consola usando `less`.
+PHP viene con una amplia selección de extensiones opcionales que puedes instalar para ampliar su funcionalidad. Para ver una lista de extensiones disponibles, ejecuta el siguiente comando, que mostrará los resultados de la búsqueda en la consola usando el comando `less`.
 
 ```
 apt search php- | less
 ```
 
-Usa las flechas para desplazarte y presiona `Q` para salir. Para instalar un paquete de extensión, simplemente usa el comando apt install como sigue. Puedes ingresar varias extensiones separadas por espacio para acelerar la instalación.
+Usa las flechas para desplazarte y presiona `Q` cuando quieras salir. Para instalar un paquete de extensión, simplemente usa el comando apt install como sigue. Puedes ingresar varias extensiones separadas por espacios para acelerar la instalación.
 
 ```
 sudo apt install [php_extension] [...]

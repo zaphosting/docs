@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-nodejs
-title: "Dedicated Server: Node.js installeren op Windows"
-description: "Ontdek hoe je Node.js instelt voor schaalbare, real-time applicaties met een gestroomlijnde omgeving → Leer het nu"
+title: "Node.js installeren op een Windows Server - Run moderne JavaScript-apps"
+description: "Ontdek hoe je Node.js instelt voor schaalbare, realtime applicaties met een gestroomlijnde omgeving → Leer het nu"
 sidebar_label: Node.js installeren
 services:
+  - vserver
   - dedicated
 ---
 
@@ -13,31 +14,31 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introductie
 
-Node.js is een cross-platform, open-source JavaScript runtime-omgeving die JavaScript-code buiten de browser uitvoert, bijvoorbeeld op servers of in command-line tools. Gebouwd op de V8-engine ondersteunt het asynchrone, event-driven I/O, wat het super efficiënt maakt voor het bouwen van schaalbare netwerk- en real-time applicaties.
+Node.js is een cross-platform, open-source JavaScript runtime-omgeving die JavaScript-code buiten de browser uitvoert, bijvoorbeeld op servers of in command-line tools. Gebouwd op de V8-engine ondersteunt het asynchrone, event-driven I/O, wat het super efficiënt maakt voor het bouwen van schaalbare netwerk- en realtime applicaties.
 
-Het “JavaScript overal” paradigma maakt het mogelijk voor developers om één taal te gebruiken voor zowel backend als frontend development.  
+Het “JavaScript overal” principe maakt het mogelijk voor developers om één taal te gebruiken voor zowel backend als frontend development.  
 
 ## Voorbereiding
 
 Voordat je **Node.js** installeert, moet je je systeem klaarmaken. Dit betekent dat je je besturingssysteem bijwerkt naar de nieuwste versie en alle benodigde dependencies installeert. Deze voorbereidingen zorgen voor een stabiele omgeving en helpen problemen tijdens of na de installatie te voorkomen.
 
 ### Systeem updaten
-Om zeker te weten dat je systeem draait met de nieuwste software en beveiligingsupdates, voer je altijd eerst een systeemupdate uit. Gebruik hiervoor het volgende commando:
+Zorg dat je systeem draait met de nieuwste software- en beveiligingsupdates door eerst een systeemupdate uit te voeren. Gebruik hiervoor het volgende commando:
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-Zo zorg je dat je systeem de laatste beveiligingspatches en softwareversies heeft voordat je verder gaat.
+Dit zorgt ervoor dat je systeem de laatste beveiligingspatches en softwareversies heeft voordat je verder gaat.
 
 ### Dependencies installeren
-Als de update klaar is, kun je de dependencies installeren. Node.js wordt op je machine gedraaid via verschillende Docker containers. Daarom moet Docker eerst geïnstalleerd zijn. Gebruik hiervoor het volgende commando:
+Als de update klaar is, kun je de dependencies installeren. Node.js wordt op je machine gedraaid via een reeks Docker-containers. Daarom moet Docker eerst geïnstalleerd zijn. Gebruik hiervoor het volgende commando:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-Een complete walkthrough van het installatieproces en hoe je Docker gebruikt, vind je in onze [Docker](vserver-windows-docker.md) gids.
+Een volledige walkthrough van het installatieproces en hoe je Docker gebruikt vind je in onze [Docker](vserver-windows-docker.md) gids.
 
 ## Installatie
 
@@ -55,11 +56,11 @@ Daarna kun je een container starten op basis van deze image en een shell sessie 
 docker run -it --rm --entrypoint sh node:22-alpine
 ```
 
-Binnen de container check je de geïnstalleerde Node.js versie met `node -v`, dit zou `v22.19.0` moeten tonen. Je kunt ook de npm versie checken met `npm -v`, wat `10.9.3` zou moeten zijn. Dit bevestigt dat de image de juiste versies van Node.js en npm bevat, klaar voor direct gebruik.
+Binnen de container controleer je de geïnstalleerde Node.js versie met `node -v`, dit zou `v22.19.0` moeten tonen. Je kunt ook de npm versie checken met `npm -v`, wat `10.9.3` zou moeten zijn. Dit bevestigt dat de image de juiste versies van Node.js en npm bevat, klaar voor direct gebruik.
 
 ## Configuratie
 
-Na het starten van de Node.js container is het aan te raden om essentiële Node.js instellingen binnen de omgeving zelf te configureren. Een veelgebruikte aanpak is het definiëren van environment variables, bijvoorbeeld:
+Na het starten van de Node.js container is het aan te raden om essentiële Node.js instellingen binnen de omgeving te configureren. Een veelgebruikte aanpak is het definiëren van environment variables, bijvoorbeeld:
 
 ```
 export NODE_ENV=production
@@ -75,13 +76,13 @@ npm init -y
 
 Dit genereert een `package.json` bestand, waarin dependencies, scripts en metadata voor je project worden gedefinieerd. Dit is het centrale configuratiebestand voor elke Node.js app.
 
-Dependencies installeer je met `npm install <package>`, terwijl development dependencies je toevoegt met `npm install <package> --save-dev`. De `scripts` sectie in `package.json` laat je custom commands definiëren, zoals `npm start` of `npm run build`, om het uitvoeren en beheren van je project makkelijker te maken.
+Dependencies installeer je met `npm install <package>`, terwijl development dependencies worden toegevoegd met `npm install <package> --save-dev`. De `scripts` sectie in `package.json` laat je custom commands definiëren, zoals `npm start` of `npm run build`, om het uitvoeren en beheren van je project makkelijker te maken.
 
 Voor geavanceerdere setups kun je Node.js aanpassen met `.npmrc` of `.nvmrc` bestanden, waarmee je private registries, caching opties of een specifieke Node.js versie kunt afdwingen. Zo zorg je dat je apps consistent draaien in verschillende omgevingen.
 
 ## Conclusie en meer bronnen
 
-Gefeliciteerd! Je hebt nu succesvol Node.js geïnstalleerd en geconfigureerd op je Dedicated Server. We raden je ook aan om de volgende bronnen te checken, die je extra hulp en tips kunnen geven tijdens je serverconfiguratie:
+Gefeliciteerd! Je hebt nu succesvol Node.js geïnstalleerd en geconfigureerd op je VPS/Dedicated Server. We raden je ook aan om de volgende bronnen te checken, die je extra hulp en tips kunnen geven tijdens je serverconfiguratie:
 
 - [Node.js.com](https://Node.js.com/) - Officiële website
 - https://Node.js.com/help/ - Node.js Help Center (Documentatie)

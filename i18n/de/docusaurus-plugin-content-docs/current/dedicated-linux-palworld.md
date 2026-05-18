@@ -62,7 +62,7 @@ Jetzt geht’s ans Eingemachte: Starte deinen Server, indem du ins Hauptspielver
 
 Im Terminal solltest du jetzt Logs sehen, inklusive einer Spielversion, was bedeutet, dass der Start erfolgreich war. Wenn alles glatt läuft, erscheint dein Server in der Serverliste. Alternativ kannst du dich direkt verbinden, indem du in der Serverliste unten in der Suchleiste `[deine_ip_adresse]:8211` eingibst.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast deinen Palworld Server erfolgreich auf deinem Dedicated Server installiert und konfiguriert! Als nächstes empfehlen wir dir, unsere [Linux Service Einrichtung](dedicated-linux-create-gameservice.md) Anleitung anzuschauen. Damit richtest du deinen neuen Dedicated Gameserver als Service ein – mit Vorteilen wie automatischem Serverstart beim Booten, automatischen Updates, einfacher Verwaltung und Zugriff auf Logs und vieles mehr!
 

@@ -1,7 +1,7 @@
 ---
 id: webspace-plesk-ssl
-title: "Webbplatsutrymme: Skapa SSL-certifikat"
-description: "Upptäck hur du säkrar din webbplats med SSL-kryptering och aktiverar HTTPS för säkrare surfning → Lär dig mer nu"
+title: "Webspace: Skapa ett SSL-certifikat i Plesk"
+description: "Lär dig hur du säkrar din webbplats med ett SSL-certifikat i Plesk och aktiverar HTTPS för krypterade anslutningar."
 sidebar_label: Skapa SSL-certifikat
 services:
   - webspace
@@ -9,105 +9,77 @@ services:
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-## Kryptera webbplats med SSL
 
-:::info
-Det förutsätts att domänen redan pekar på IP-adressen för webbplatsutrymmet.
-:::
+## Introduktion
 
-När en domän skapas i webbplatsutrymmet är den alltid okrypterad från början. Det syns i Plesk-panelen:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/kkJ67Pd733pt95i/preview)
-
-Och notifikationen i webbläsaren när domänen öppnas:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5iwXSgEb4LrY3xf/preview)
-![](https://screensaver01.zap-hosting.com/index.php/s/mpmK8TAjAsgY3FW/preview)
-
-Med ett SSL-certifikat kan en domän skyddas/krypteras på rätt sätt.
+Ett SSL-certifikat krypterar anslutningen mellan din webbplats och dess besökare. När HTTPS är aktiverat upprättar webbläsare en säker anslutning och visar en hänglåsikon i adressfältet. Detta skyddar känslig data, ökar förtroendet och förhindrar att webbläsare markerar din webbplats som osäker.
 
 <InlineVoucher />
 
-## Skapa certifikatet
+## Säkerställ din huvuddoman
 
-Steg 1️⃣: Dubbelklicka på "SSL/TLS Certificate" så öppnas följande meny:
+När en domän skapas i Plesk är den tillgänglig via HTTP och inte krypterad. I Plesk-panelen ser du att inget certifikat är tilldelat än. Om du öppnar domänen i en webbläsare vid detta tillfälle markeras den oftast som osäker:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/g5sr6WC4eawqzoF/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-Ett Let's Encrypt-certifikat kan begäras helt gratis.
+För att aktivera kryptering, öppna domänen i din Plesk-panel och gå till **SSL/TLS-certifikat**. Motsvarande meny öppnas:
 
-Steg 2️⃣: Fyll i den efterfrågade informationen. För att certifikatet ska kunna begäras måste detaljer anges.
+![img](https://screensaver01.zap-hosting.com/index.php/s/8rSr7Jt3DsjDzBY/download)
 
-En mailadress måste anges och det måste kryssas för vad certifikatet ska gälla för. Som regel har varje domän även subdomänen "www" aktiv, därför väljs den också om den finns inlagd i domänens DNS.
+Härifrån kan du begära ett gratis Let's Encrypt-certifikat. Under förfrågningsprocessen måste du ange en giltig e-postadress och välja vilka domännamn som ska säkras. I de flesta fall väljs både rot-domänen och www-subdomänen, förutsatt att www-posten finns i din DNS-konfiguration:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/Mwf3CEWsYRwprS3/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/LTFN73ekPjtikwp/preview)
 
-Certifikatet begärs sedan genom att klicka på "Get it free".
+Efter att ha bekräftat förfrågan genom att klicka på **Get it free**, kommunicerar Plesk med Let's Encrypt och utfärdar certifikatet automatiskt. När certifikatet har skapats framgångsrikt bör HTTPS tvingas genom att aktivera permanent omdirigering från HTTP till HTTPS i hosting-inställningarna:
 
-Steg 3️⃣: Certifikatet är nu skapat, det syns uppe till höger. Dessutom måste automatisk omdirigering från HTTP till HTTPS aktiveras, annars kan inte kryptering upprättas:
+![img](https://screensaver01.zap-hosting.com/index.php/s/BN7AMzG6MyMKb38/preview)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/YBdGQqmtNeWKdxA/preview)
+Efter aktivering omdirigeras alla besökare automatiskt till den krypterade HTTPS-versionen av din webbplats. Du kan verifiera installationen genom att öppna din domän med https i webbläsaren.
 
-När detta är gjort är omdirigeringen aktiv. Oavsett om du öppnar sidan med http eller https direkt i webbläsaren så dirigeras du alltid till https.
 
-Steg 4️⃣: Nu kan du kolla i webbläsaren om certifikatet känns igen:
 
-Låset måste synas:
+## Säkerställ alla subdomäner med ett wildcard-certifikat
 
-![](https://screensaver01.zap-hosting.com/index.php/s/DkZoqg9XGgR67EK/preview)
+Om du använder eller planerar flera subdomäner är ett wildcard-certifikat en smidigare lösning. Det säkrar huvuddomanen samt alla befintliga och framtida subdomäner. För att begära ett wildcard-certifikat, öppna menyn **SSL/TLS-certifikat** igen:
 
-Certifikatsinformationen, som öppnas genom att klicka på låset, bör också visa domänen:
+![img](https://screensaver01.zap-hosting.com/index.php/s/jGW9QLHwYLFNxgq/download)
 
-![](https://screensaver01.zap-hosting.com/index.php/s/p5H6RZ25HksHsow/preview)
+Välj alternativet för att förnya eller begära ett Let's Encrypt-certifikat. Aktivera alternativet för att säkra wildcard-domänen:
 
-Webbplatsen är nu korrekt skyddad/krypterad.
+![img](https://screensaver01.zap-hosting.com/index.php/s/ZMcdJk9wCzifBmq/preview)
 
-## Certifikat för subdomäner
+Efter att ha bekräftat förfrågan visar Plesk en blå informationsruta med en DNS TXT-post som måste skapas:
 
-Samma steg kan i teorin följas för en subdomän. Men det finns också ett enklare sätt att kryptera alla subdomäner samtidigt, oavsett om de redan finns eller är nya. Ett "wildcard-certifikat" kan användas för detta. Det kräver en speciell TXT-post i domänens DNS. Så fort den finns kan ett SSL-certifikat utfärdas för alla subdomäner.
+![img](https://screensaver01.zap-hosting.com/index.php/s/wnbNfKeTMsCdsy9/preview)
 
-Steg 1️⃣: Menyn för SSL/TLS-certifikat öppnas igen.
+Denna TXT-post måste läggas till i DNS-zonen för din domän exakt som angivet. Den bekräftar domänägarskap och gör det möjligt för Let's Encrypt att validera förfrågan. En DNS-post ser ut ungefär så här:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/X4kFeMomqmz3nGp/preview)
+![img](https://screensaver01.zap-hosting.com/index.php/s/tDtDaERR7twzaMr/preview)
 
-Klicka sedan på "Renew Certificate" uppe till vänster. 
-Nu öppnas Let's Encrypt-begäran:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/eCcFtaJHxW3XWgF/preview)
-
-Välj nu "Secure the wildcard domain":
-
-![](https://screensaver01.zap-hosting.com/index.php/s/5STxWaKf3JWGfZe/preview)
-
-Subdomänerna "www" och "webmail" läggs till automatiskt.
-Knappen "Get it free" klickas på igen.
-
-Steg 2️⃣: En blå ruta med viktig info dyker upp:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/JHag4cd85Lq6gwx/preview)
-
-Där står ett domännamn och ett värde. Detta måste finnas permanent som en TXT-post i domänens DNS, det är enda sättet för Let's Encrypt att säkerställa att domänen är äkta och kan verifieras.
-
-En DNS-post ska se ut så här:
-
-![](https://screensaver01.zap-hosting.com/index.php/s/qPCeWj5dJRFfYFB/preview)
-
-:::info
-En DNS-post kan ta upp till 24 timmar innan den är tillgänglig överallt i världen.
+:::warning DNS-propagation kan ta tid
+DNS-propagation kan ta upp till 24 timmar innan TXT-posten är globalt tillgänglig. Under denna tid kan valideringen misslyckas eftersom vissa DNS-servrar fortfarande returnerar gammal information. Om detta händer, vänta tills posten har spridits helt och försök sedan verifieringen igen.
 :::
 
-För att kolla att TXT-posten redan är aktiv kan "TXT Lookup SuperTool" från mxtoolbox användas: https://mxtoolbox.com/SuperTool.aspx:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/CPSSWeQRpTDsagY/preview)
 
-Om posten visas kan du bekräfta i den blå rutan i Plesk genom att klicka på "Reload". Nu kontrolleras om DNS-posten finns, och när den gör det visas efter några sekunder "protected" för "SSL/TLS-holder Certificate" aka "Wildcard Certificate":
+För att säkerställa att TXT-posten har spridits korrekt och är offentligt tillgänglig kan du verifiera den med ett externt DNS-uppslagsverktyg som MXToolbox SuperTool:
 
-![](https://screensaver01.zap-hosting.com/index.php/s/AwWiJboz3k6iea8/preview)
+https://mxtoolbox.com/SuperTool.aspx
 
-Om en subdomän skapas nu är den redan skyddad:
+Öppna sidan och välj alternativet **TXT Lookup**. Ange det fullständiga värdnamnet som Plesk gav, vanligtvis i formatet `_acme-challenge.dindoman.se`, och starta uppslaget. Verktyget frågar offentliga DNS-servrar och visar de TXT-poster som är synliga just nu.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/XLHzsgkeLmwJ55m/preview)
+Om rätt verifieringsvärde visas exakt som i Plesk har DNS-posten spridits framgångsrikt och Let's Encrypt kan validera domänägarskapet. Om inget resultat visas eller värdet skiljer sig kan DNS-propagationen fortfarande pågå. I så fall, vänta och upprepa uppslaget efter en stund tills rätt post syns globalt.
 
-Nu är hela datatrafiken till sidan krypterad, klart.
+![img](https://screensaver01.zap-hosting.com/index.php/s/iFP5P8SY6oSXQBW/download)
+
+När posten är synlig, gå tillbaka till Plesk och trigga valideringen igen. Om det lyckas utfärdas wildcard-certifikatet och visas som skyddat. Från och med nu kommer alla nya subdomäner automatiskt att säkras.
+
+
+
+## Slutsats
+
+Grattis! Din webbplats är nu framgångsrikt skyddad med SSL-kryptering. All data som skickas mellan din server och besökare är säkrad, webbläsare känner igen din domän som betrodd och HTTPS tvingas automatiskt.
+
+Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂
 
 <InlineVoucher />

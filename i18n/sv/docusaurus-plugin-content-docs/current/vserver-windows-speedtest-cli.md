@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-speedtest-cli
-title: "VPS: Installera Speedtest CLI på Windows"
-description: "Upptäck hur du effektivt hanterar källkod och samarbetar med Speedtest CLI för smidig versionshantering i modern utveckling → Lär dig mer nu"
+title: "Installera Speedtest CLI på en Windows Server - Håll koll på ditt nätverk"
+description: "Upptäck hur du effektivt hanterar källkod och samarbetar med Speedtest CLI för smidig versionshantering i modern utveckling → Läs mer nu"
 sidebar_label: Installera Speedtest CLI
 services:
   - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -23,19 +24,19 @@ Fundera på att hosta den här tjänsten själv? Vi guidar dig steg för steg hu
 
 ## Förberedelser
 
-Innan du sätter upp **Speedtest CLI** behöver du förbereda ditt system. Det innebär att uppdatera operativsystemet till senaste versionen. Dessa förberedelser säkerställer en stabil miljö och hjälper till att undvika problem under eller efter installationen.
+Innan du installerar **Speedtest CLI** behöver du förbereda ditt system. Det innebär att uppdatera operativsystemet till senaste versionen. Dessa förberedelser säkerställer en stabil miljö och hjälper till att undvika problem under eller efter installationen.
 
 
 ### Uppdatera systemet
-För att se till att ditt system kör den senaste mjukvaran och säkerhetsförbättringarna bör du alltid börja med att uppdatera systemet. Det garanterar att du har de senaste säkerhetspatcharna och mjukvaruversionerna innan du går vidare.
+För att vara säker på att ditt system kör den senaste mjukvaran och säkerhetsuppdateringarna bör du alltid börja med att uppdatera systemet. Det garanterar att du har de senaste säkerhetspatcharna och mjukvaruversionerna innan du går vidare.
 
 
 
 ## Installation
 
-Nu när förberedelserna är klara kan du fortsätta med installationen av Speedtest CLI-appen. Ladda ner Speedtest CLI för Windows (x64) här: https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-win64.zip
+Nu när förberedelserna är klara kan du installera Speedtest CLI-appen. Ladda ner Speedtest CLI för Windows (x64) här: https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-win64.zip
 
-Kör sedan installationsfilen och följ stegen som visas.
+Kör sedan installationsfilen och följ instruktionerna.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/XXERYCa3eKjYmxS/download)
 
@@ -43,25 +44,25 @@ Kör sedan installationsfilen och följ stegen som visas.
 
 ## Konfiguration
 
-speedtest-cli använder inte en traditionell konfigurationsfil men kan anpassas med kommandoradsalternativ och miljövariabler. Det gör att du kan skräddarsy den för konsekvent och automatiserad användning:
+speedtest-cli använder inte en traditionell konfigurationsfil men kan anpassas via kommandoradsalternativ och miljövariabler. Det gör att du kan skräddarsy den för konsekvent och automatiserad användning:
 
 - `--server <ID>`: Välj en specifik server via dess ID för mer konsekventa och jämförbara testresultat.  
 - `--bytes`: Visa hastigheter i byte per sekund istället för bitar.  
-- `--simple`: Visa endast ping, nedladdning och uppladdning i ett kompakt format.  
+- `--simple`: Visa bara ping, nedladdning och uppladdning i ett kompakt format.  
 - `--json` eller `--csv`: Perfekt för automation och loggning, då resultaten sparas i maskinläsbart format.  
 - Proxy-stöd: Ställ in miljövariabler som `http_proxy` eller `https_proxy` för att köra speedtest-cli bakom en proxy.  
 
-För upprepad användning med samma inställningar är det smidigt att skapa ett shell-alias eller ett litet wrapper-script. Då kan du snabbt köra speedtest-cli med enhetligt output.
+Om du kör samma alternativ ofta är det smidigt att skapa en shell-alias eller ett litet wrapper-script. Då kan du snabbt köra speedtest-cli med enhetligt output.
 
 
 
 ## Avslutning och fler resurser
 
-Grattis! Du har nu installerat och konfigurerat Speedtest CLI på din vServer. Vi rekommenderar också att du kikar på följande resurser som kan ge dig extra hjälp och vägledning under din serverkonfiguration:
+Grattis! Du har nu installerat och konfigurerat Speedtest CLI på din vServer. Vi rekommenderar också att du kollar in följande resurser som kan ge dig extra hjälp och tips under din serverkonfiguration:
 
-- [Speedtest.net/apps/cli](https://www.speedtest.net/apps/cli) - Officiell webbplats
+- [Speedtest.net/apps/cli](https://www.speedtest.net/apps/cli) - Officiell hemsida
 
-Har du frågor som inte täcks här? Tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂
+Har du frågor som inte täcks här? Tveka inte att kontakta vår support, vi finns tillgängliga varje dag för att hjälpa dig! 🙂
 
 
 

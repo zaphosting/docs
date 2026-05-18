@@ -53,7 +53,7 @@ Beim Aufbau einer neuen Remote Desktop-Verbindung muss der Port explizit angegeb
 203.0.113.10:3390
 ```
 
-## Fazit
+## Abschluss
 
 Das Ändern des Windows RDP-Ports verringert die Angriffsfläche gegenüber automatisierten Scans und unautorisierten Verbindungsversuchen. Der Prozess umfasst das Aktualisieren der Windows-Registry, das Freigeben des neuen Ports in der Firewall und das Neustarten des Systems oder der Dienste.
 

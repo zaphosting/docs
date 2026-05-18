@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-lemp-stack
-title: "VPS: Sätt upp LEMP-stack - Linux, Nginx, MySQL, PHP"
-description: "Upptäck hur du sätter upp en LEMP-stack för att hosta dynamiska PHP-webbplatser på Linux VPS-servrar → Lär dig mer nu"
-sidebar_label: Web LEMP-stack
+title: "Sätt upp en LEMP Stack på en Linux-server - Distribuera högpresterande webbapplikationer"
+description: "Upptäck hur du sätter upp en LEMP stack för att hosta dynamiska PHP-webbplatser på Linux VPS-servrar → Lär dig mer nu"
+sidebar_label: Web LEMP stack
 services:
   - vserver
 ---
@@ -13,13 +13,13 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
 
-**LEMP**-stacken är en populär samling öppen källkod-programvara som sätts upp tillsammans för att möjliggöra enkel hosting av dynamiska webbplatser, med särskilt fokus på PHP-webbplatser och appar. Akronymen står för: **L**inux som operativsystem, "**E**ngine x" (nginx) som webbserver, **M**ySQL som databas och slutligen **P**HP för bearbetning. I den här guiden går vi igenom processen för att sätta upp en LEMP-stack på en Linux VPS, med en detaljerad genomgång och exempel på att sätta upp en att-göra-lista-webbplats.
+**LEMP** stacken är en populär samling öppen källkodsprogram som sätts upp tillsammans för att möjliggöra enkel hosting av dynamiska webbplatser, med särskilt fokus på PHP-webbplatser och appar. Akronymen står för: **L**inux som OS (operativsystem), "**E**ngine x" (nginx) som webbserver, **M**ySQL som databas och slutligen **P**HP för bearbetning. I den här guiden går vi igenom processen att sätta upp en LEMP stack på en Linux VPS, med en detaljerad genomgång och exempel på att sätta upp en att-göra-lista-webbplats.
 
 <InlineVoucher />
 
 ## Förberedelser
 
-Börja med att ansluta till din server via SSH. Om du inte vet hur man gör detta, ta en titt på vår [Initial access (SSH)](vserver-linux-ssh.md)-guide.
+Börja med att ansluta till din server via SSH. Om du inte vet hur man gör detta, ta en titt på vår [Initial access (SSH)](vserver-linux-ssh.md) guide.
 
 I den här guiden använder vi Ubuntu som Linux-distribution. Instruktionerna är desamma för Debian och bör vara liknande för andra distributioner, men syntaxen för kommandon kan skilja sig något. Se till att du har ett OS installerat och är ansluten till servern via SSH.
 
@@ -40,7 +40,7 @@ sudo dnf upgrade --refresh
 
 ## Installation
 
-Installationen kan enkelt delas upp i varje kärnberoende i LEMP, med start från Nginx webbserver, följt av MySQL-databasen och slutligen PHP. Under installationen kommer vi att sätta upp en testwebbplats som är skriven i PHP och som kommer att använda MySQL-databasen. Varje webbförfrågan kommer sedan att bearbetas och serveras via Nginx webbserver.
+Installationen kan enkelt delas upp i varje kärnberoende i LEMP, med start från Nginx webbserver, följt av MySQL-databasen och slutligen PHP. Under installationen sätter vi upp en testwebbplats som är skriven i PHP och kommer att använda MySQL-databasen. Varje webbförfrågan kommer sedan att bearbetas och levereras via Nginx webbserver.
 
 ### Sätta upp Nginx
 
@@ -51,7 +51,7 @@ sudo apt install nginx
 
 När den är installerad bör du säkerställa att lämpliga brandväggsregler skapas för att webbservern ska vara tillgänglig från internet. I det här exemplet använder vi **UFW Firewall** eftersom Nginx har en registrerad applikation för detta.
 
-Om du använder en annan brandvägg, se till att tillåta port 80 (HTTP) genom brandväggen. Du kan lära dig mer om brandväggar i Linux via vår [Manage Firewall](vserver-linux-firewall.md)-guide.
+Om du använder en annan brandvägg, se till att port 80 (HTTP) är tillåten genom brandväggen. Du kan lära dig mer om brandväggar i Linux via vår [Hantera brandvägg](vserver-linux-firewall.md) guide.
 
 Se till att UFW-brandväggen är aktiverad och att en regel för SSH också är skapad.
 ```
@@ -83,7 +83,7 @@ Du bör se `Nginx` och `Nginx (v6)` regler med `ALLOW`-åtgärder, vilket bekrä
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/A36rfRzL3gFGq9x/preview)
 
-Med brandväggen öppen för Nginx bör du nu säkerställa att Nginx fungerar. Du kan göra detta genom att försöka nå din IP-adress i en webbläsare, så här: `http://[din_ipadress]`
+När brandväggen är öppen för Nginx bör du nu säkerställa att Nginx fungerar. Du kan göra detta genom att försöka nå din IP-adress i en webbläsare, så här: `http://[din_ipadress]`
 
 Om det fungerar bör du se en standard välkomstsida. Om inte, kontrollera statusen för tjänsten med följande kommando: `systemctl status nginx`
 
@@ -106,7 +106,7 @@ Nästa steg är att ta bort `anonymous`-användaren och förhindra root-inloggni
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-Slutligen blir du tillfrågad om att ta bort `test`-databasen och ladda om privilegietabellerna. Återigen rekommenderar vi att acceptera med `Y` eftersom testtabellen inte behövs och du behöver ladda om privilegietabellen för att ändringarna ska träda i kraft.
+Slutligen kommer du att bli tillfrågad om att ta bort `test`-databasen och ladda om privilegietabellerna. Även här rekommenderar vi att acceptera med `Y` eftersom testtabellen inte behövs och du behöver ladda om privilegietabellen för att ändringarna ska träda i kraft.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
@@ -114,9 +114,9 @@ Kontrollera nu om MySQL-databasen körs genom att försöka logga in med följan
 
 ### Sätta upp PHP
 
-Den sista LEMP-komponenten är PHP och för nginx krävs det att man använder ett externt program som heter `php-fpm` (PHP fastCGI process manager). Nginx konfigureras då för att skicka förfrågningar till `php-fpm` innan svaren skickas vidare när serverblock används.
+Det sista LEMP-beroendet är PHP och för nginx krävs det att man använder ett externt program som heter `php-fpm` (PHP fastCGI process manager). Nginx konfigureras då för att skicka förfrågningar till `php-fpm` innan svaren levereras senare när serverblock används.
 
-Följande kommando installerar den senaste versionen av php-fpm tillsammans med ett PHP-plugin för MySQL, för att Nginx ska kunna arbeta med PHP och för att PHP ska kunna använda MySQL.
+Följande kommando installerar den senaste versionen av php-fpm tillsammans med ett PHP-plugin för MySQL, för att låta Nginx fungera med PHP och för att PHP ska kunna använda MySQL.
 ```
 sudo apt install php-fpm php-mysql
 ```
@@ -138,11 +138,11 @@ sudo apt install [php_extension] [...]
 
 ### Skapa testwebbplats
 
-När installationen av varje LEMP-komponent är klar skapar vi nu en testwebbplats för att visa hur LEMP-stacken fungerar tillsammans för att skapa en grym dynamisk webbplatslösning. Detta är helt valfritt, men det är bra för att förstå hur du kan använda dessa verktyg för att sätta upp dina egna webbplatser.
+När installationen av varje LEMP-beroende är klar, skapar vi nu en testwebbplats för att visa hur LEMP stacken fungerar tillsammans för att skapa en grym dynamisk webbplatslösning. Detta är helt valfritt, men det är användbart för att förstå hur du kan använda dessa verktyg för att sätta upp dina egna webbplatser.
 
-I det här exemplet skapar vi en liten att-göra-lista-webbplats via PHP som hämtar och returnerar att-göra-poster. Dessa lagras i en MySQL-databastabell och serveras via Nginx.
+I det här exemplet skapar vi en liten att-göra-lista-webbplats via PHP som hämtar och returnerar att-göra-poster. Dessa lagras i en MySQL-databastabell och levereras via Nginx.
 
-Vi kommer också att använda ett testdomännamn `zapdocs.example.com` genomgående, eftersom du i en verklig situation troligen använder en domän. Du **måste** sätta upp en `A`-typ DNS-post för domänen som pekar på IP-adressen till din server. Om du behöver hjälp med detta, kolla in vår [Domain Records](domain-records.md)-guide.
+Vi kommer också att använda ett testdomännamn `zapdocs.example.com` genomgående, eftersom du i en verklig situation troligtvis använder en domän. Du **måste** sätta upp en `A`-typ DNS-post för domänen som pekar på IP-adressen till din server. Om du behöver hjälp med detta, kolla in vår [Domänposter](domain-records.md) guide.
 
 :::note
 Du kan välja att inte använda en domän och ersätta alla förekomster av `[your_domain]` med ett vanligt namn. Då når du webbplatsen via IP-adressen. Observera dock att när du skapar serverblock-filen senare bör du ta bort `server_name`-parametern.
@@ -150,9 +150,9 @@ Du kan välja att inte använda en domän och ersätta alla förekomster av `[yo
 
 #### Sätta upp Nginx
 
-Vanligtvis lagras alla webbplatsfiler och data under `/var/www`-katalogen på webbservrar. Som standard kommer Nginx ofta med en `html`-katalog som innehåller en standard-sida. För att hålla allt organiserat, särskilt när du hostar många webbplatser på en och samma Nginx-instans, rekommenderar vi att varje webbplats får en egen katalog eller mapp.
+Vanligtvis lagras alla webbplatsfiler och data under `/var/www`-katalogen på webbservrar. Som standard kommer Nginx oftast med en `html`-katalog som innehåller en standard-sida. För att hålla allt organiserat, särskilt när du hostar många webbplatser på en och samma Nginx-instans, rekommenderar vi att varje webbplats får en egen katalog eller mapp.
 
-Du kan enkelt skapa en ny mapp i `/var/www/[your_domain]` för varje webbplatsdomän. I det här exemplet blir det `/var/www/zapdocs.example.com`.
+Du kan enkelt skapa en ny mapp i `/var/www/[your_domain]`-katalogen för varje webbplatsdomän. I det här exemplet blir det `/var/www/zapdocs.example.com`.
 ```
 sudo mkdir /var/www/[your_domain]
 ```
@@ -189,10 +189,10 @@ server {
 :::important PHP Version
 Det är viktigt att ändra `[your_phpversion]` till den aktuella PHP-versionen som är installerad. För att kolla detta, kör `php -v` som bör visa en version, till exempel: `PHP 8.3.6 (cli) (built: Mar 19 2025 10:08:38) (NTS)`.
 
-I det här exemplet skulle du använda `8.3` som huvudversion, så raden blir: `fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;`
+I det här exemplet sätter du `8.3` som huvudversion, så raden blir: `fastcgi_pass unix:/var/run/php/php8.3-fpm.sock;`
 :::
 
-Den här nya serverblock-filen hanterar port 80 (HTTP) förfrågningar och kollar om förfrågan matchar `server_name` som anges, i det här fallet din domän. Den pekar också på att mappen `/var/www/[your_domain]` som du skapade tidigare ska användas för att servera filer.
+Den här nya serverblock-filen hanterar port 80 (HTTP) förfrågningar och kollar om förfrågan matchar `server_name` som specificerats, i det här fallet din domän. Den pekar också på att mappen `/var/www/[your_domain]` som du skapade tidigare ska användas för att leverera filer.
 
 Spara filen och avsluta nano med `CTRL + X`, följt av `Y` för att bekräfta och slutligen `ENTER`.
 
@@ -211,7 +211,7 @@ Slutligen startar du om Nginx för att den nya virtuella hosten ska börja gäll
 
 #### Skapa webbplats
 
-Nu när du har konfigurerat Nginx via det nya serverblocket och dokumentmappen är det dags att skapa själva webbplatsen som ska serveras. För tillfället är mappen tom och inget kommer att serveras. Vi skapar en liten att-göra-webbplats som nämnts tidigare för denna domän.
+Nu när du har konfigurerat Nginx via det nya serverblocket och dokumentmappen är det dags att skapa själva webbplatsen som ska levereras. För tillfället är mappen tom och inget kommer att visas. Vi skapar en liten att-göra-webbplats som nämnts tidigare för denna domän.
 
 ##### Förbereda databasen
 
@@ -247,7 +247,7 @@ INSERT INTO todoitems (name, is_completed) VALUES ('Have a great day!', 0);
 
 Slutligen skapar vi en dedikerad `todo`-användare som ska användas specifikt för den här webbplatsen.
 ```
-# Skapa dedikerad användare
+# Skapa en dedikerad användare
 # Byt ut [your_password] mot ditt eget lösenord
 CREATE USER todo@localhost IDENTIFIED BY '[your_password]';
 
@@ -260,22 +260,22 @@ TO todo@localhost;
 FLUSH PRIVILEGES;
 ```
 
-När databasen är förberedd och användaren klar kan du lämna MySQL-terminalen med kommandot `quit` när du är redo.
+När databasen är förberedd och användaren klar kan du avsluta MySQL-terminalen med kommandot `quit` när du är redo.
 
-##### PHP-webbplatsfiler
+##### PHP webbplatsfiler
 
-Den sista delen i exemplet är att sätta upp själva PHP-webbplatsfilen för att-göra-sidan. Detta görs genom en ny `index.php`-fil i `/var/www/[your_domain]`-katalogen som du skapade tidigare. Öppna nano-editorn för att skapa filen där.
+Den sista delen i det här exemplet är att sätta upp själva PHP-webbplatsfilen för att-göra-sidan. Detta görs via en ny `index.php`-fil i `/var/www/[your_domain]`-katalogen som du skapade tidigare. Öppna nano-editorn för att skapa filen där.
 ```
 sudo nano /var/www/[your_domain]/index.php
 ```
 
-Nedan har vi förberett en enkel kodsnutt som du kan klistra in i nano-editorn för en grundläggande att-göra-sida som returnerar poster som lagras i databasen. Den första PHP-delen etablerar en MySQL-anslutning till din databas.
+Nedan har vi förberett en enkel kodsnutt som du kan klistra in i nano-editorn för en grundläggande att-göra-sida som returnerar poster som lagras i databasen. Den första PHP-sektionen etablerar en MySQL-anslutning till din databas.
 
 :::important
 Du måste ändra fältet `[your_password]` till det lösenord du satte för `todo`-användaren tidigare.
 :::
 
-Den efterföljande HTML-delen innehåller huvudsidan som skapar en oordnad lista och loopar igenom varje resultat.
+Den efterföljande HTML-sektionen innehåller huvudsidan som skapar en oordnad lista och loopar igenom varje resultat.
 
 ```
 <?php
@@ -348,16 +348,16 @@ När du har klistrat in detta i nano-editorn, spara filen och avsluta nano med `
 
 #### Testa webbplatsen
 
-Du har nu framgångsrikt följt guiden och satt upp en test-att-göra-webbplats som använder alla delar av LEMP-stacken!
+Du har nu framgångsrikt följt guiden och satt upp en test-att-göra-webbplats som använder alla delar av LEMP stacken!
 
 Du bör nu kunna nå webbplatsen via domänen (med `http`/port 80) som du definierade tidigare i serverblock-filen, i det här exemplet `zapdocs.example.com`. Slutresultatet bör se ut ungefär så här:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
-## Avslutning
+## Slutsats
 
-Grattis, du har framgångsrikt installerat och satt upp LEMP-stacken! Nästa steg är att vi **starkt rekommenderar** att du sätter upp en domän och ett **SSL-certifikat** för att säkerställa att data skickas säkert till dina webbplatser. Kolla in vår [Certbot-guide](vserver-linux-certbot.md) med fokus på **Nginx-pluginet** och följ den interaktiva setupen för att snabbt och enkelt sätta upp ett certifikat för din valda domän.
+Grattis, du har framgångsrikt installerat och satt upp LEMP stacken! Nästa steg är att vi **starkt rekommenderar** att du sätter upp en domän och ett **SSL-certifikat** för att säkerställa att data skickas säkert till dina webbplatser. Kolla in vår [Certbot-guide](dedicated-linux-certbot.md) med fokus på **Nginx-plugin** och följ den interaktiva setupen för att snabbt och enkelt sätta upp ett certifikat för din valda domän.
 
-För fler frågor eller hjälp, tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂
+För fler frågor eller hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt dagligen för att hjälpa dig! 🙂
 
 <InlineVoucher />

@@ -45,7 +45,7 @@ set steam_webApiKey "YOUR_KEY_HERE"
 
 
 
-## Fazit
+## Abschluss
 
 Starte deinen Server anschließend neu. Dein Steam Web API Key wird beim nächsten vollständigen Start deines Servers geladen. Du hast erfolgreich einen Steam Web API Key in deinen RedM Gameserver integriert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 

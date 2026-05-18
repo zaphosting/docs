@@ -151,7 +151,7 @@ const SearchableItemList = ({ items = [] }) => {
 
       {filteredItems.length > visibleCount && (
         <button
-          className="button button--primary button--block"
+          className={styles.showMoreButton}
           onClick={() => setVisibleCount((v) => v + 3)}
         >
           <Translate id="searchableItemList.showMoreBtn">Show more</Translate>

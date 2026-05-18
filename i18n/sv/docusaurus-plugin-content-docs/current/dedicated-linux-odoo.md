@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-odoo
-title: "Dedikerad Server: Installera Odoo (Open Source ERP och CRM) på Linux"
-description: "Upptäck hur du hanterar och automatiserar affärsprocesser med Odoos integrerade ERP- och CRM-plattform för smidigare företagsdrift → Läs mer nu"
+title: "Installera Odoo på en Linux-server - Kör ditt eget open source ERP och CRM"
+description: "Upptäck hur du kan hantera och automatisera affärsprocesser med Odoos integrerade ERP- och CRM-plattform för smidigare företagsdrift → Läs mer nu"
 sidebar_label: Installera Odoo
 services:
+  - vserver
   - dedicated
 ---
 
@@ -19,25 +20,29 @@ Med sina flexibla tillägg kan Odoo anpassas efter specifika behov och erbjuder 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/3nwfLeK2c9kTiCp/preview)
 
-Fundera på att hosta tjänsten själv? Vi guidar dig steg för steg genom installation och konfiguration, samt allt du behöver ha koll på.
+Fundera på att hosta tjänsten själv? Vi guidar dig steg för steg genom installation och konfiguration, plus allt du behöver ha koll på.
 
 
+
+## Installera Odoo med One Click Apps Installer
+
+Du kan installera **Odoo** direkt via vår **One Click Apps Installer** i VPS-webbgränssnittet. Efter att ha slutfört den initiala app-installationen, öppna appkatalogen, sök efter **Odoo** och starta distributionen med dina valda projekt-, miljö- och domäninställningar. Det ger dig ett snabbt och användarvänligt sätt att köra och hantera **Odoo** utan manuell kommandorad, samtidigt som du får fördelarna med integrerad webbhantering, stöd för egna domäner och SSL där det finns tillgängligt.
 
 ## Förutsättningar
 
 Innan du installerar **Odoo**, se till att din hostingmiljö uppfyller följande krav för en smidig installation och optimal prestanda.
 
-| Hårdvara  | Minimikrav  | Rekommenderat |
+| Hårdvara  | Minsta      | Rekommenderat |
 | --------- | ----------- | ------------- |
 | CPU       | 1 vCPU-kärna | 4 vCPU-kärnor |
 | RAM       | 1 GB        | 4 GB          |
 | Diskutrymme | 15 GB      | 25 GB         |
 
-Mjukvaran kräver att alla nödvändiga beroenden är installerade och att den körs på ett stöds operativsystem. Säkerställ att din server uppfyller följande innan du fortsätter med installationen:
+Mjukvaran kräver att alla nödvändiga beroenden är installerade och att den körs på ett stöds operativsystem. Säkerställ att din server uppfyller följande innan du fortsätter:
 
 **Beroenden:** `Docker`
 
-**Operativsystem:** Senaste versionen av Ubuntu/Debian som stödjer Docker 26+
+**Operativsystem:** Senaste versionen av Ubuntu/Debian med stöd för Docker 26+
 
 Se till att alla beroenden är installerade och att rätt OS-version används för att undvika kompatibilitetsproblem vid installation av Odoo.
 
@@ -45,7 +50,7 @@ Se till att alla beroenden är installerade och att rätt OS-version används f�
 
 ## Förberedelser
 
-Innan du sätter upp **Odoo** behöver du förbereda systemet. Det innebär att uppdatera operativsystemet till senaste versionen och installera alla nödvändiga beroenden. Dessa förberedelser säkerställer en stabil miljö och minskar risken för problem under eller efter installationen.
+Innan du sätter upp **Odoo** behöver du förbereda systemet. Det innebär att uppdatera operativsystemet till senaste versionen och installera alla nödvändiga beroenden. Dessa steg säkerställer en stabil miljö och minskar risken för problem under eller efter installationen.
 
 
 ### Uppdatera systemet
@@ -57,20 +62,20 @@ sudo apt update && sudo apt upgrade -y
 Detta ser till att systemet har de senaste säkerhetspatcharna och mjukvaruversionerna innan du går vidare.
 
 ### Installera beroenden
-När uppdateringen är klar kan du installera beroenden. Odoo kommer att köras i Docker-containrar, så Docker måste installeras först. Kör följande kommandon:
+När uppdateringen är klar kan du installera beroenden. Odoo kommer att köras i Docker-containrar, så Docker måste installeras först. Kör följande kommando:
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-En komplett guide för installation och användning av Docker finns i vår [Docker](vserver-linux-docker.md)-guide.
+En komplett guide för installation och användning av Docker finns i vår [Docker](dedicated-linux-docker.md)-guide.
 
 
 
 ### Konfigurera din domän
 
-Som standard kör Odoo på servern via portarna 80 (HTTP) och 443 (HTTPS). Sätt upp en domän med DNS-poster som pekar till servern. Om domänen hanteras av oss kan du enkelt göra detta via [EasyDNS](domain-easydns.md).
+Som standard kör Odoo på servern via portarna 80 (HTTP) och 443 (HTTPS). Sätt upp en domän med DNS-poster som pekar till din server. Om domänen hanteras av oss kan du enkelt göra detta via [EasyDNS](domain-easydns.md).
 
 
 
@@ -78,16 +83,16 @@ Som standard kör Odoo på servern via portarna 80 (HTTP) och 443 (HTTPS). Sätt
 ## Installation
 När alla krav är uppfyllda och förberedelserna klara kan du fortsätta med installationen av Odoo.
 
-När du jobbar med flera Docker-projekt är det smart att ha en tydlig mappstruktur för att hålla projekten isolerade. En vanlig metod är att skapa en *docker*-mapp i användarens hemkatalog, med en egen undermapp för varje domän. På så sätt kan flera projekt hostas på samma server utan konfigurationskonflikter.
+När du jobbar med flera Docker-projekt är det smart att ha en tydlig mappstruktur för att hålla projekten isolerade. Ett vanligt sätt är att skapa en *docker*-mapp i användarens hemkatalog, med en egen undermapp för varje domän. Då kan flera projekt hostas på samma server utan konfigurationskrockar.
 
-Exempel för att förbereda strukturen för domänen `example.com`:
+Till exempel, för att förbereda strukturen för domänen `example.com`:
 
 ```
 mkdir -p /docker/example.com
 cd /docker/example.com
 ```
 
-Inom projektmappen rekommenderas att skapa undermappar som mountas som volymer i containrarna. Dessa volymer gör att data kan delas mellan tjänster eller sparas permanent. Ett viktigt exempel är den delade webrooten som både nginx och certbot behöver för att skapa och förnya SSL-certifikat. En lämplig struktur kan skapas så här:
+Inom projektmappen rekommenderas att skapa undermappar som mountas som volymer i containrarna. Dessa volymer gör att data kan delas mellan tjänster eller sparas kvar. Ett viktigt exempel är den delade webrooten som både nginx och certbot behöver för att skapa och förnya SSL-certifikat. En lämplig struktur skapas så här:
 
 ```
 mkdir -p nginx/{conf,ssl,inc} config addons
@@ -100,7 +105,7 @@ Det ger dedikerade mappar för nginx-konfiguration, SSL-certifikat, inkluderings
 
 ### Skapa Docker Compose
 
-I din docker-projektmapp skapar du filen compose.yml med `nano compose.yml`. Klistra in följande kod:
+I din docker-projektmapp, skapa filen compose.yml med `nano compose.yml`. Klistra in följande kod:
 
 ```
 services:
@@ -156,7 +161,7 @@ volumes:
 
 ### Brandvägg
 
-För att nginx och certbot ska fungera måste TCP-portarna 80 (HTTP) och 443 (HTTPS) tillåtas genom brandväggen. Dessa portar är viktiga eftersom certbot använder port 80 för HTTP-validering och port 443 krävs för krypterad HTTPS-trafik. Om UFW (Uncomplicated Firewall) är aktiverat kan du lägga till reglerna med:
+För att nginx och certbot ska fungera måste TCP-portarna 80 (HTTP) och 443 (HTTPS) vara öppna i brandväggen. Dessa portar är viktiga eftersom certbot använder port 80 för HTTP-validering och port 443 för krypterad HTTPS-trafik. Om UFW (Uncomplicated Firewall) är aktiverat kan du lägga till reglerna med:
 
 ```
 sudo ufw allow http
@@ -169,7 +174,7 @@ Kontrollera sedan med `sudo ufw status` att portarna är öppna. Se till att ing
 
 ### Nginx-konfiguration
 
-Börja med att skapa en konfigurationsfil för din domän i `nginx/conf`. Skapa en fil med domännamnet, t.ex. `nano nginx/conf/example.com.conf`, och lägg in följande grundläggande direktiv, byt ut `example.com` mot din domän:
+Börja med att skapa en konfigurationsfil för din domän i `nginx/conf`. Skapa en ny fil med domännamnet, t.ex. `nano nginx/conf/example.com.conf`, och lägg in följande grundläggande direktiv, byt ut `example.com` mot din domän:
 
 ```
 server {
@@ -188,24 +193,24 @@ server {
 
 Denna konfiguration låter certbot slutföra ACME-utmaningen och utfärda giltiga SSL-certifikat. Den ser också till att all HTTP-trafik omdirigeras till HTTPS.
 
-När filen sparats startar du de nödvändiga containrarna: databasen, Odoo och nginx:
+När filen är sparad startar du de nödvändiga containrarna: databasen, Odoo och nginx:
 
 ```
 sudo docker compose up -d db odoo nginx
 ```
 
-Containrarna körs i bakgrunden och nginx använder redan den nya konfigurationen, vilket gör att certbot kan skapa certifikat i nästa steg.
+Containrarna körs i bakgrunden och nginx använder redan den nya konfigurationen, vilket gör att certbot kan generera certifikat i nästa steg.
 
 
-### Skapa SSL-certifikat
+### Generera SSL-certifikat
 
-Kör kommandot nedan för att skapa SSL-certifikat med certbot. Byt ut `example.com` mot din domän och `user@mail.com` mot din giltiga e-postadress.
+Kör kommandot nedan för att skapa SSL-certifikat med certbot. Ange din egen domän efter `-d` och byt ut `user@mail.com` mot din giltiga e-postadress.
 
 ```
 sudo docker compose run --rm certbot certonly --webroot --webroot-path=/var/www/certbot -d example.com --email user@mail.com --agree-tos --no-eff-email
 ```
 
-Skapa sedan en dedikerad DH-parameterfil för att stärka säkerheten vid nyckelutbytet:
+Generera sedan en dedikerad DH-parameterfil för att stärka säkerheten vid nyckelutbytet:
 
 ```
 openssl dhparam -out nginx/ssl/dhparam.pem 2048
@@ -233,9 +238,9 @@ resolver 1.1.1.1 1.0.0.1 valid=300s;
 
 ### Nginx-konfiguration
 
-Redigera nginx-konfigurationsfilen du skapade tidigare och ersätt innehållet med följande för att säkerställa att din sida endast serveras över HTTPS.
+Redigera nginx-konfigurationsfilen du skapade tidigare och ersätt innehållet med följande för att säkerställa att din sida bara serveras över HTTPS.
 
-Kom ihåg att byta ut `example.com` mot din riktiga domän i `server_name` och ange korrekta sökvägar till certifikatfilerna i `ssl_certificate` och `ssl_certificate_key`.
+Kom ihåg att byta ut `example.com` mot din riktiga domän i `server_name` och ange rätt sökvägar till certifikatfilerna i `ssl_certificate` och `ssl_certificate_key`.
 
 ```bash
 server {
@@ -316,7 +321,7 @@ server {
     listen 80;
     server_name example.com;
 
-    # Tillåter Certbot att nå challenge-URL:en
+    # Detta tillåter Certbot att nå challenge-URL:en
     location /.well-known/acme-challenge/ {
         root /var/www/certbot;
     }
@@ -335,7 +340,7 @@ När du sparat ändringarna i nginx-konfigurationen måste du ladda om inställn
 sudo docker compose restart nginx
 ```
 
-Omstarten ser till att nginx laddar den uppdaterade konfigurationen och börjar direkt servera med nya inställningar. Håll koll på eventuella felmeddelanden under omstarten. Om problem uppstår kan du kolla loggarna med `sudo docker compose logs nginx` för felsökning. När containern kör utan fel, testa din webbplats för att bekräfta att HTTPS fungerar och sidan serveras som den ska.
+Omstarten ser till att nginx laddar den uppdaterade konfigurationen och börjar direkt servera med de nya inställningarna. Håll utkik efter felmeddelanden under omstarten. Om problem uppstår kan du kolla loggarna med `sudo docker compose logs nginx` för felsökning. När containern kör utan fel, testa din webbplats för att bekräfta att HTTPS fungerar och sidan serveras som den ska.
 
 
 
@@ -343,7 +348,7 @@ Omstarten ser till att nginx laddar den uppdaterade konfigurationen och börjar 
 
 För att lägga till egna inställningar kan du skapa en dedikerad konfigurationsfil för Odoo. Skapa en ny fil på `config/odoo.conf` och lägg in önskade alternativ.
 
-I filen kan du definiera flera användbara parametrar: `list_db = False` döljer databasvalet på inloggningssidan, `proxy_mode = True` talar om för Odoo att den körs bakom en reverse proxy, och om du vill använda egna addons kan du avkommentera raden `addons_path` och peka den till addons-mappen du skapade tidigare. Exempel:
+I den här filen kan du definiera flera användbara parametrar: `list_db = False` döljer databasvalet på inloggningssidan, `proxy_mode = True` talar om för Odoo att den körs bakom en reverse proxy, och om du vill använda egna addons kan du avkommentera raden `addons_path` och peka på addons-mappen du skapade tidigare. Exempel:
 
 ```
 [options]
@@ -356,7 +361,7 @@ proxy_mode = True
 
 ### Ta bort -i base-flaggan
 
-Flaggan `-i base` måste tas bort från `compose.yml`-filen, annars skapas databasen om varje gång du startar om Odoo-containern. För att ta bort den, öppna compose-filen med `nano compose.yml` och ändra kommandot till:
+`-i base`-flaggan måste tas bort från `compose.yml`-filen, annars återskapas databasen varje gång du startar om Odoo-containern. Öppna compose-filen med `nano compose.yml` och ändra kommandot till:
 
 ```
 command: odoo -d odoo_db --db_user=odoo --db_password=odoo --db_host=db
@@ -364,7 +369,7 @@ command: odoo -d odoo_db --db_user=odoo --db_password=odoo --db_host=db
 
 
 
-## Åtkomst till webbplatsen
+## Kom åt webbplatsen
 
 När installation och konfiguration är klar och alla tjänster körs kan du säkert nå din webbplats genom att skriva in din domän i webbläsarens adressfält.
 
@@ -378,9 +383,12 @@ Detta laddar startsidan för din nya installation. För första inloggningen fin
 
 ## Avslutning och fler resurser
 
-Grattis! Du har nu installerat och konfigurerat Odoo på din dedikerade server. Vi rekommenderar också att du kollar in följande resurser som kan ge dig extra hjälp och tips under serverkonfigurationen:
+Grattis! Du har nu installerat och konfigurerat Odoo på din VPS/Dedikerade server. Vi rekommenderar också att kolla in följande resurser som kan ge dig extra hjälp och tips under serverkonfigurationen:
 
 - [Odoo.com](https://odoo.com) - Officiell webbplats
-- [odoo.com/documentation/18.0/](https://www.odoo.com/documentation/18.0/) - Odoo-dokumentation
+- [odoo.com/documentation/18.0/](https://www.odoo.com/documentation/18.0/) - Odoos dokumentation
 
-Har du frågor som inte täcks här? Tveka inte att kontakta vår support, som finns tillgänglig varje dag för att hjälpa dig! 🙂
+Har du frågor som inte täcks här? Tveka inte att kontakta vår support, vi finns tillgängliga varje dag för att hjälpa dig! 🙂
+
+
+

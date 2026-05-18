@@ -1,10 +1,11 @@
 ---
 id: vserver-linux-cockpit
-title: "VPS: Installation of Cockpit "
+title: "Setup Cockpit on a Linux Server - Manage Your Server via Web Interface"
 description: "Discover how to manage Linux servers efficiently with Cockpit’s web interface for beginners and experts alike → Learn more now"
 sidebar_label: Install Cockpit
 services:
   - vserver
+  - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
@@ -14,6 +15,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 Cockpit is a web interface to manage one or more Linux servers (cluster). From simple log outputs to managing the raid, Cockpit offers many features. 
 Cockpit is suitable for beginners but also for advanced users who want to see/manage everything important in a short time. In addition, it can be accessed from almost any device.
 The project website can be reached at https://cockpit-project.org/. 
+
+## Install Cockpit with the One Click Apps Installer
+
+You can install **Cockpit** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **Cockpit**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **Cockpit** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
 
 :::info
 This guide explains the installation for Debian (from Buster)/ for Ubuntu (from Bionic Beaver). The installation is also available on the project page for fedora, Red Hat, fedora CoreOS, CentOS, Clear Linux, archlinux and Tumbleweed.   

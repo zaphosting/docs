@@ -66,7 +66,7 @@ Du suchst noch nach den perfekten Mods für deinen Gameserver? Stöbere durch un
 
 <SearchableItemList items={items} />
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast erfolgreich Mods auf deinem Factorio Gameserver installiert. Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite – zögere nicht, uns zu kontaktieren! 🙂
 

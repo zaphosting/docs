@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-phpmyadmin
-title: "Serveur dédié : Installation de phpMyAdmin"
-description: "Découvrez comment gérer facilement vos bases de données MySQL et MariaDB grâce à l’interface web de phpMyAdmin pour une administration efficace → En savoir plus maintenant"
+title: "Configurer phpMyAdmin sur un serveur Linux - Gérez vos bases de données via une interface web"
+description: "Découvrez comment gérer facilement vos bases de données MySQL et MariaDB avec l’interface web de phpMyAdmin pour une administration efficace → En savoir plus maintenant"
 sidebar_label: Installer phpMyAdmin
 services:
+  - vserver
   - dedicated
 ---
 
@@ -15,6 +16,10 @@ phpMyAdmin est un outil gratuit basé sur le web pour gérer les bases de donné
 
 
 
+## Installer phpMyAdmin avec le One Click Apps Installer
+
+Tu peux installer **phpMyAdmin** directement via notre **One Click Apps Installer** dans l’interface web de ton VPS. Après avoir terminé la configuration initiale des apps, ouvre le catalogue d’applications, cherche **phpMyAdmin**, et lance le déploiement avec ton projet, environnement et paramètres de domaine préférés. C’est une manière rapide et simple de déployer et gérer **phpMyAdmin** sans passer par la ligne de commande, tout en profitant d’une gestion web intégrée, du support de domaine personnalisé, et de la mise en place SSL quand c’est dispo.
+
 ## Préparation
 
 Avant de commencer l’installation, assure-toi que ton système est à jour. Les mises à jour et upgrades en attente peuvent être effectuées comme suit :
@@ -24,7 +29,7 @@ sudo apt update -y
 sudo apt upgrade -y
 ```
 
-Tu dois aussi vérifier que PHP est déjà installé sur ton système. C’est indispensable pour utiliser phpMyAdmin. Pour savoir comment installer PHP, jette un œil à notre [guide Installer PHP](dedicated-linux-php.md).
+Tu dois aussi vérifier que PHP est déjà installé sur ton système. C’est indispensable pour utiliser phpMyAdmin. Pour savoir comment installer PHP, jette un œil à notre [guide Installer PHP](vserver-linux-php.md).
 
 :::warning Paquets PHP manquants
 Si les paquets PHP nécessaires manquent, les fichiers PHP de phpMyAdmin ne pourront pas être traités et affichés correctement. 
@@ -53,7 +58,7 @@ unzip phpmyadmin.zip
 Si le service `unzip` n’est pas trouvé, il peut être installé avec la commande `sudo apt install unzip -y`. 
 :::
 
-L’archive décompressée peut maintenant être renommée avec un nom plus simple, le fichier ZIP supprimé et les permissions nécessaires définies :
+L’archive décompressée peut maintenant être renommée avec un nom plus simple, le fichier ZIP supprimé, et les permissions nécessaires appliquées :
 
 ```
 mv phpMyAdmin-*-all-languages phpmyadmin
@@ -64,10 +69,10 @@ rm phpmyadmin.zip; chmod -R 0755 phpmyadmin
 
 ### Fichier de configuration du serveur web
 
-Il faut maintenant ajouter phpMyAdmin à la configuration du serveur web. Pour cela, utilise `nano /etc/apache2/conf-available/phpmyadmin.conf` pour créer un nouveau fichier de configuration Virtual Host et remplis-le avec ce contenu :
+Maintenant, phpMyAdmin doit être ajouté à la configuration du serveur web. Pour cela, utilise `nano /etc/apache2/conf-available/phpmyadmin.conf` pour créer un nouveau fichier de configuration Virtual Host et remplis-le avec ce contenu :
 
 ```
-# Configuration Apache de phpMyAdmin
+# Configuration Apache pour phpMyAdmin
 
 Alias /phpmyadmin /usr/share/phpmyadmin
 
@@ -76,7 +81,7 @@ Alias /phpmyadmin /usr/share/phpmyadmin
     DirectoryIndex index.php
 </Directory>
 
-# Interdire l’accès web pour des raisons de sécurité aux dossiers qui n’en ont pas besoin
+# Interdire l’accès web pour des raisons de sécurité aux répertoires qui n’en ont pas besoin
 <Directory /usr/share/phpmyadmin/templates>
     Require all denied
 </Directory>
@@ -108,4 +113,4 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Conclusion
 
-Félicitations, tu as installé et configuré phpMyAdmin avec succès. Tu peux accéder à l’interface web via l’adresse IP et le chemin de ton serveur (http://Adresse-IP/phpmyadmin). Pour toute question ou aide, n’hésite pas à contacter notre équipe support, disponible tous les jours pour t’assister ! 🙂
+Félicitations, tu as installé et configuré phpMyAdmin avec succès. Tu peux accéder à l’interface web en utilisant l’adresse IP et le chemin de ton serveur (`http://Adresse-IP/phpmyadmin`). Pour toute question ou aide, n’hésite pas à contacter notre équipe support, dispo tous les jours pour t’aider ! 🙂

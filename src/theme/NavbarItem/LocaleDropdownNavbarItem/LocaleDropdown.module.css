@@ -1,0 +1,228 @@
+/* ===================================================================
+   LocaleDropdown styles – matches CustomDropdown design
+   =================================================================== */
+
+/* --- Desktop: container & trigger ---------------------------------- */
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.trigger {
+  display: flex !important;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  background: none;
+  font: inherit;
+  font-weight: var(--ifm-font-weight-semibold)
+}
+
+.arrow {
+  transition: transform 0.25s ease;
+  margin-top: 1px;
+  flex-shrink: 0;
+}
+
+.arrowOpen {
+  transform: rotate(180deg);
+}
+
+/* --- Desktop: dropdown panel --------------------------------------- */
+
+.panel {
+  position: fixed;
+  top: var(--ifm-navbar-height);
+  left: 0;
+  right: 0;
+  background: var(--ifm-background-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 12px 40px -4px rgba(0, 0, 0, 0.1);
+  z-index: 400;
+
+  /* Slide-down via clip-path */
+  clip-path: inset(0 0 100% 0);
+  pointer-events: none;
+  visibility: hidden;
+  transition:
+    clip-path 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 0s linear 0.3s;
+}
+
+.panelOpen {
+  clip-path: inset(0 0 0 0);
+  pointer-events: auto;
+  visibility: visible;
+  transition:
+    clip-path 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 0s linear 0s;
+}
+
+.panelInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 48px;
+  animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Section header & description ---------------------------------- */
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.sectionIcon {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ifm-color-primary);
+}
+
+.sectionIcon svg {
+  width: 17px;
+  height: 17px;
+}
+
+.sectionTitle {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ifm-font-color-base);
+}
+
+.sectionDescription {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--ifm-color-gray-600);
+  margin-bottom: 12px;
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+/* --- Grid of locale cards ------------------------------------------ */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  justify-items: stretch;
+  text-align: left;
+}
+
+/* --- Card ---------------------------------------------------------- */
+
+.card {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  padding: 9px 14px !important;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  color: inherit;
+  text-decoration: none !important;
+  transition:
+    border-color 0.15s ease,
+    color 0.15s ease,
+    background-color 0.15s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+  text-decoration: none !important;
+  background-color: rgba(13, 135, 78, 0.05);
+}
+
+[data-theme='dark'] .card {
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+[data-theme='dark'] .card:hover {
+  border-color: var(--ifm-color-primary);
+  background-color: rgba(24, 232, 136, 0.06);
+}
+
+.cardActive {
+  border-color: var(--ifm-color-primary);
+  background-color: rgba(13, 135, 78, 0.05);
+}
+
+[data-theme='dark'] .cardActive {
+  border-color: var(--ifm-color-primary);
+  background-color: rgba(24, 232, 136, 0.06);
+}
+
+.cardName {
+  font-size: 0.84rem;
+  font-weight: 500;
+  white-space: nowrap;
+  line-height: 1.2;
+  text-align: left;
+}
+
+/* --- Flags --------------------------------------------------------- */
+
+.flag {
+  width: 20px;
+  height: 15px;
+  object-fit: cover;
+  border-radius: 2px;
+  margin-right: 8px;
+  margin-left: 0 !important;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.flagTrigger {
+  width: 20px;
+  height: 15px;
+  object-fit: cover;
+  border-radius: 2px;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.flagSmall {
+  width: 20px;
+  height: 15px;
+  object-fit: cover;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* --- Responsive ---------------------------------------------------- */
+
+@media (max-width: 1100px) {
+  .panelInner {
+    padding: 20px 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 996px) {
+  .container {
+    display: none;
+  }
+}

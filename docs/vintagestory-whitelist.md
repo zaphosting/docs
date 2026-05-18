@@ -1,4 +1,4 @@
----
+﻿---
 id: vintagestory-whitelist
 title: "Vintage Story: Whitelist"
 description: "Information about how to whitelist your Vintage Story server from ZAP-Hosting → Learn more now"

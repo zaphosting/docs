@@ -119,7 +119,7 @@ Wie du Ports unter Windows freigibst, erfährst du in unserer Anleitung [Port Fo
 
 Nach der Portfreigabe ist der Server öffentlich erreichbar, sofern er gestartet wurde.
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast V-Rising erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Seite und hilft dir gerne weiter!
 

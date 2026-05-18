@@ -85,7 +85,7 @@ Dieser Schritt kann ausschließen, ob die Probleme durch den zusätzlichen Conte
 
 </details>
 
-## Fazit
+## Abschluss
 
 Diese Schritte sollten dir helfen, das Problem zu lösen. Falls nicht, zögere nicht, unseren Support zu kontaktieren – der steht dir täglich mit Rat und Tat zur Seite! 🙂
 

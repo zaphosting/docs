@@ -1,8 +1,8 @@
 ---
 id: vserver-linux-lamp-stack
-title: "vServer: LAMP-Stack einrichten - Linux, Apache, MySQL, PHP"
-description: "Entdecke, wie du einen LAMP-Stack für das effiziente Hosting dynamischer PHP-Websites auf deinem Linux VPS einrichtest → Jetzt mehr erfahren"
-sidebar_label: Web LAMP-Stack
+title: "LAMP Stack auf Linux Server einrichten – Klassische PHP-Anwendungen betreiben"
+description: "Entdecke, wie du eine LAMP-Stack für das Hosting dynamischer PHP-Websites auf Linux VPS effizient einrichtest → Jetzt mehr erfahren"
+sidebar_label: Web LAMP Stack
 services:
   - vserver
 ---
@@ -13,17 +13,17 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Der **LAMP**-Stack ist eine beliebte Auswahl an Open-Source-Software, die zusammen eingerichtet wird, um einfaches Hosting dynamischer Websites zu ermöglichen – mit besonderem Fokus auf PHP-Websites und -Apps. Das Akronym steht für: **L**inux als Betriebssystem, **A**pache als Webserver, **M**ySQL als Datenbank und zuletzt **P**HP für die Verarbeitung. In dieser Anleitung zeigen wir dir, wie du einen LAMP-Stack auf einem Linux VPS einrichtest, inklusive einer detaillierten Schritt-für-Schritt-Erklärung und einem Beispiel für eine To-Do-Listen-Website.
+Der **LAMP** Stack ist eine beliebte Auswahl an Open-Source-Software, die zusammen eingerichtet wird, um einfaches Hosting dynamischer Websites zu ermöglichen – mit besonderem Fokus auf PHP-Websites und -Apps. Das Akronym steht für: **L**inux als Betriebssystem, **A**pache als Webserver, **M**ySQL als Datenbank und zuletzt **P**HP für die Verarbeitung. In dieser Anleitung zeigen wir dir, wie du einen LAMP Stack auf einem Linux VPS einrichtest, inklusive einer detaillierten Schritt-für-Schritt-Erklärung und einem Beispiel für eine To-Do-Listen-Website.
 
 <InlineVoucher />
 
 ## Vorbereitung
 
-Verbinde dich zuerst per SSH mit deinem Server. Falls du nicht weißt, wie das geht, schau dir bitte unsere [Erstzugang (SSH)](vserver-linux-ssh.md) Anleitung an.
+Verbinde dich zuerst per SSH mit deinem Server. Falls du nicht weißt, wie das geht, schau dir unsere [Erstzugang (SSH)](vserver-linux-ssh.md) Anleitung an.
 
-In dieser Anleitung verwenden wir Ubuntu als Linux-Distribution. Die Befehle sind identisch für Debian und sollten bei anderen Distributionen ähnlich sein, wobei sich die Syntax der Befehle leicht unterscheiden kann. Stelle sicher, dass ein Betriebssystem installiert ist und du per SSH verbunden bist.
+In dieser Anleitung verwenden wir Ubuntu als Linux-Distribution. Die Befehle sind bei Debian identisch und bei anderen Distributionen ähnlich, können sich aber in der Syntax leicht unterscheiden. Stelle sicher, dass ein Betriebssystem installiert ist und du per SSH verbunden bist.
 
-Wie immer solltest du vor der Installation alle Pakete mit folgendem Befehl auf den neuesten Stand bringen:
+Wie immer solltest du vor der Installation alle Pakete mit folgendem Befehl aktualisieren:
 ```
 // Ubuntu & Debian
 sudo apt update
@@ -40,7 +40,7 @@ sudo dnf upgrade --refresh
 
 ## Installation
 
-Die Installation lässt sich einfach in die Kernkomponenten des LAMP-Stacks aufteilen: Zuerst der Apache-Webserver, dann die MySQL-Datenbank und zuletzt PHP. Während der Installation richten wir eine Test-Website ein, die in PHP geschrieben ist und auf die MySQL-Datenbank zugreift. Jede Webanfrage wird anschließend über Apache verarbeitet und ausgeliefert.
+Die Installation lässt sich gut in die einzelnen Kernkomponenten des LAMP Stacks aufteilen: zuerst der Apache Webserver, dann die MySQL Datenbank und zuletzt PHP. Während der Installation richten wir eine Test-Website ein, die in PHP geschrieben ist und auf die MySQL-Datenbank zugreift. Jede Webanfrage wird anschließend über Apache verarbeitet und ausgeliefert.
 
 ### Apache einrichten
 
@@ -49,11 +49,11 @@ Apache ist der Webserver, der eingehende Webanfragen verarbeitet und Antworten a
 sudo apt install apache2
 ```
 
-Nach der Installation solltest du sicherstellen, dass die passenden Firewall-Regeln erstellt werden, damit der Webserver aus dem Internet erreichbar ist. In diesem Beispiel nutzen wir die **UFW Firewall**, da Apache dafür eine registrierte Anwendung hat.
+Nach der Installation solltest du sicherstellen, dass die passenden Firewall-Regeln gesetzt sind, damit der Webserver aus dem Internet erreichbar ist. In diesem Beispiel nutzen wir die **UFW Firewall**, da Apache dafür eine registrierte Anwendung hat.
 
 Wenn du eine andere Firewall nutzt, stelle sicher, dass Port 80 (HTTP) freigegeben ist. Mehr Infos zu Firewalls unter Linux findest du in unserer [Firewall verwalten](vserver-linux-firewall.md) Anleitung.
 
-Stelle sicher, dass die UFW-Firewall aktiviert ist und eine Regel für SSH existiert:
+Aktiviere die UFW Firewall und erstelle eine Regel für SSH:
 ```
 # Regel für SSH erstellen
 sudo ufw allow OpenSSH
@@ -63,35 +63,35 @@ sudo ufw enable
 ```
 
 :::caution
-Achte darauf, dass du eine Regel für SSH eingerichtet hast, wenn du UFW nutzt! Ohne diese kannst du dich **nicht mehr per SSH** mit deinem Server verbinden, falls die Verbindung abbricht!
+Achte darauf, dass du eine SSH-Regel in der UFW Firewall hast! Ohne diese kannst du dich nach dem Aktivieren der Firewall nicht mehr per SSH verbinden, falls du die aktuelle Session verlierst!
 :::
 
-Erstelle nun die Regel für Apache und überprüfe anschließend, ob die Regeln vorhanden sind:
+Erstelle nun die Regel für Apache und überprüfe die Regeln:
 ```
 # Regel für Apache erstellen
 sudo ufw allow in "Apache Full"
 
-# UFW-Firewall-Regeln anzeigen
+# UFW Firewall Status prüfen
 sudo ufw status
 ```
 
 :::tip
-Du kannst dir verfügbare Profile mit `ufw app list` anzeigen lassen. Im Beispiel oben sorgt `Apache Full` dafür, dass sowohl HTTP (Port 80) als auch HTTPS (Port 443) freigegeben werden.
+Mit `ufw app list` kannst du dir anzeigen lassen, welche Profile verfügbar sind. `Apache Full` bedeutet, dass sowohl HTTP (Port 80) als auch HTTPS (Port 443) freigegeben werden.
 :::
 
-Du solltest `Apache` und `Apache (v6)` mit der Aktion `ALLOW` sehen, was bestätigt, dass die Firewall bereit ist. Außerdem siehst du weitere Regeln, die du vorher eingerichtet hast, inklusive der SSH-Regel.
+Du solltest `Apache` und `Apache (v6)` mit `ALLOW` sehen, was bestätigt, dass die Firewall richtig konfiguriert ist. Weitere Regeln, wie die für SSH, sollten ebenfalls angezeigt werden.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/o8NDBppnTwHdSgf/preview)
 
-Nachdem die Firewall für Apache geöffnet ist, solltest du testen, ob Apache funktioniert. Öffne dazu im Browser die IP-Adresse deines Servers: `http://[deine_ip_adresse]`
+Mit der geöffneten Firewall für Apache kannst du jetzt testen, ob Apache funktioniert. Öffne im Browser die IP-Adresse deines Servers: `http://[deine_ip_adresse]`
 
-Wenn alles läuft, siehst du eine Standard-Willkommensseite. Falls nicht, prüfe den Status des Dienstes mit: `systemctl status apache2`
+Wenn alles läuft, solltest du eine Standard-Willkommensseite sehen. Falls nicht, prüfe den Status mit: `systemctl status apache2`
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/irmnDDNi436HH4c/preview)
 
 ### MySQL einrichten
 
-Jetzt installierst und richtest du einen MySQL-Server ein, der als Datenbank dient, um Daten relational zu speichern. Installiere ihn mit:
+Jetzt installierst du MySQL, das als Datenbank dient, um Daten relational zu speichern. Installiere es mit:
 ```
 sudo apt install mysql-server
 ```
@@ -105,40 +105,43 @@ Das Skript führt dich interaktiv durch die Einrichtung. Zuerst wirst du nach de
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/YF6N3iPaDWD4sgX/preview)
 
-Anschließend wirst du gefragt, ob der `anonymous` Benutzer entfernt und der Root-Login von außen deaktiviert werden soll. Wir empfehlen beides mit `Y` zu bestätigen, um die Sicherheit zu erhöhen. So wird der Testbenutzer entfernt und der Root-User kann nur lokal per SSH genutzt werden.
+Anschließend wirst du gefragt, ob der anonyme Benutzer entfernt und der Root-Login von außen deaktiviert werden soll. Wir empfehlen beides mit `Y` zu bestätigen, um die Sicherheit zu erhöhen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ka6GKkojRPRycZB/preview)
 
-Zum Schluss wirst du gefragt, ob die `test` Datenbank gelöscht und die Berechtigungstabellen neu geladen werden sollen. Auch hier empfehlen wir `Y`, da die Testdatenbank nicht benötigt wird und die Privilegientabellen für Änderungen neu geladen werden müssen.
+Zum Schluss wirst du gefragt, ob die Test-Datenbank entfernt und die Berechtigungstabellen neu geladen werden sollen. Auch hier empfehlen wir `Y`.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/42cYTkPaEfo3Jbq/preview)
 
-Prüfe nun, ob MySQL läuft, indem du dich anmeldest:
+Prüfe, ob MySQL läuft, indem du dich anmeldest:
 ```
 sudo mysql -u root
 ```
-Wenn du eine Willkommensnachricht siehst, hat alles geklappt. Verlasse die MySQL-Konsole mit `quit`.
+Wenn du eine Willkommensmeldung siehst, hat alles geklappt. Mit `quit` verlässt du die MySQL-Konsole.
 
 ### PHP einrichten
 
-Die letzte LAMP-Komponente ist PHP, was einfach zu installieren ist. Der folgende Befehl installiert PHP zusammen mit einem Apache-Modul und MySQL-Unterstützung, damit Apache PHP ausführen und PHP mit MySQL kommunizieren kann:
+Die letzte LAMP-Komponente ist PHP. Die Installation ist einfach:
 ```
 sudo apt install php libapache2-mod-php php-mysql
 ```
 
-Prüfe, ob PHP korrekt installiert wurde, indem du die Version abfragst:
+Prüfe die Installation mit:
 ```
 php -v
 ```
+Wenn eine Versionsnummer angezeigt wird, funktioniert PHP korrekt.
 
 :::tip PHP-Erweiterungen
-Für spezielle Anwendungsfälle brauchst du vielleicht zusätzliche PHP-Erweiterungen. Eine Liste kannst du dir mit `apt search php- | less` anzeigen lassen.
-
-Mit den Pfeiltasten scrollen und mit `Q` beenden. Um eine Erweiterung zu installieren, nutze:
+Für spezielle Anwendungsfälle brauchst du vielleicht zusätzliche PHP-Erweiterungen. Eine Liste findest du mit:
 ```
-sudo apt install [php_erweiterung] [...]
+apt search php- | less
 ```
-Du kannst mehrere Erweiterungen gleichzeitig installieren, indem du sie mit Leerzeichen trennst.
+Mit den Pfeiltasten scrollen, mit `Q` beenden. Zum Installieren einer Erweiterung:
+```
+sudo apt install [php_extension] [...]
+```
+Du kannst mehrere Erweiterungen gleichzeitig installieren, getrennt durch Leerzeichen.
 :::
 
 Wir empfehlen, die Verzeichnisindex-Reihenfolge so anzupassen, dass `index.php` vor `.html` geladen wird. Öffne die Datei:
@@ -146,43 +149,41 @@ Wir empfehlen, die Verzeichnisindex-Reihenfolge so anzupassen, dass `index.php` 
 sudo nano /etc/apache2/mods-enabled/dir.conf
 ```
 
-Im Nano-Editor entferne `index.php` aus der Liste und setze es an den Anfang, so:
+Verschiebe `index.php` an den Anfang der Liste:
 ```
 DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 ```
 
-Speichere mit `CTRL + X`, bestätige mit `Y` und drücke `ENTER`. Starte Apache neu, damit die Änderung wirksam wird:
+Speichere mit `CTRL + X`, bestätige mit `Y` und drücke `ENTER`. Starte Apache neu:
 ```
 sudo systemctl restart apache2
 ```
 
 ### Test-Website erstellen
 
-Nachdem alle LAMP-Komponenten installiert sind, erstellen wir eine Test-Website, um zu zeigen, wie der Stack zusammenarbeitet. Das ist optional, aber hilfreich, um zu verstehen, wie du deine eigenen Websites einrichten kannst.
+Nachdem alle LAMP-Komponenten installiert sind, erstellen wir eine Test-Website, um zu zeigen, wie alles zusammenarbeitet. Das ist optional, aber hilfreich, um zu verstehen, wie du deine eigenen Websites aufbauen kannst.
 
-In diesem Beispiel bauen wir eine kleine To-Do-Liste in PHP, die Einträge aus einer MySQL-Datenbank abruft und anzeigt. Die Website wird über Apache ausgeliefert.
-
-Wir verwenden als Beispiel-Domain `zapdocs.example.com`. In der Praxis solltest du eine Domain nutzen und einen `A`-DNS-Eintrag anlegen, der auf die IP deines Servers zeigt. Hilfe dazu findest du in unserer [Domain-Einträge](domain-records.md) Anleitung.
+Wir erstellen eine kleine To-Do-Liste in PHP, die Einträge aus einer MySQL-Datenbank abruft und anzeigt. Als Beispiel-Domain verwenden wir `zapdocs.example.com`. Du **musst** einen `A`-DNS-Eintrag für die Domain anlegen, der auf die IP-Adresse deines Servers zeigt. Hilfe dazu findest du in unserer [Domain-Einträge](domain-records.md) Anleitung.
 
 :::note
-Du kannst auch ohne Domain arbeiten und `[your_domain]` durch einen beliebigen Namen ersetzen. Dann erreichst du die Website über die IP-Adresse. In diesem Fall solltest du aber die `ServerName`-Zeile in der virtuellen Host-Datei entfernen.
+Du kannst auch ohne Domain arbeiten und `[your_domain]` durch einen beliebigen Namen ersetzen. Dann greifst du über die IP-Adresse zu. In diesem Fall solltest du aber die `ServerName`-Zeile in der virtuellen Host-Datei entfernen.
 :::
 
 #### Apache konfigurieren
 
-Webserver speichern alle Website-Dateien normalerweise im Verzeichnis `/var/www`. Standardmäßig gibt es dort oft einen `html`-Ordner mit einer Standardseite. Um mehrere Websites sauber zu organisieren, empfehlen wir, für jede Website einen eigenen Ordner anzulegen.
+Websites liegen normalerweise im Verzeichnis `/var/www`. Standardmäßig gibt es dort ein `html`-Verzeichnis mit einer Standardseite. Für mehrere Websites empfehlen wir, für jede Domain ein eigenes Verzeichnis anzulegen.
 
-Erstelle also für deine Domain einen Ordner:
+Erstelle ein Verzeichnis für deine Domain:
 ```
 sudo mkdir /var/www/[your_domain]
 ```
 
-Erstelle nun eine neue Apache Virtual Host-Konfigurationsdatei im Verzeichnis `sites-available`:
+Erstelle eine neue virtuelle Host-Konfigurationsdatei:
 ```
 sudo nano /etc/apache2/sites-available/[your_domain].conf
 ```
 
-Füge folgende Vorlage ein und ersetze `[your_domain]` durch deine Domain:
+Füge diese Vorlage ein und ersetze `[your_domain]` durch deine Domain:
 ```
 <VirtualHost *:80>
     ServerName [your_domain]
@@ -194,42 +195,40 @@ Füge folgende Vorlage ein und ersetze `[your_domain]` durch deine Domain:
 </VirtualHost>
 ```
 
-Diese Datei sorgt dafür, dass Anfragen auf Port 80 für deine Domain an den entsprechenden Ordner weitergeleitet werden.
-
-Speichere mit `CTRL + X`, bestätige mit `Y` und drücke `ENTER`. Prüfe die Konfiguration auf Syntaxfehler:
+Speichere und beende mit `CTRL + X`, `Y` und `ENTER`. Prüfe die Syntax:
 ```
 sudo apache2ctl configtest
 ```
 
-Aktiviere den neuen Virtual Host:
+Aktiviere den neuen virtuellen Host:
 ```
 sudo a2ensite [your_domain]
 ```
 
 :::note Keine Domain genutzt
-Wenn du keine Domain nutzt, entferne oder kommentiere die `ServerName`-Zeile (mit `#`) und deaktiviere den Standard-Virtual-Host:
+Wenn du keine Domain nutzt, entferne oder kommentiere die `ServerName`-Zeile (mit `#`) und deaktiviere den Standard-Host:
 ```
 sudo a2dissite 000-default
 ```
 :::
 
-Starte Apache neu, damit die Änderungen wirksam werden:
+Starte Apache neu:
 ```
 sudo systemctl restart apache2
 ```
 
 #### Website erstellen
 
-Jetzt erstellst du die eigentliche Website. Der Ordner ist aktuell leer, also wird noch nichts angezeigt. Wir bauen eine kleine To-Do-Liste für deine Domain.
+Das Verzeichnis ist aktuell leer, also erstellen wir jetzt die To-Do-Website.
 
 ##### Datenbank vorbereiten
 
-Logge dich in MySQL ein:
+Melde dich bei MySQL an:
 ```
 sudo mysql -u root
 ```
 
-Erstelle eine neue Datenbank `todowebsite` und eine Tabelle `todoitems`:
+Erstelle eine neue Datenbank und Tabelle:
 ```
 # Datenbank erstellen
 CREATE DATABASE todowebsite;
@@ -254,13 +253,13 @@ INSERT INTO todoitems (name, is_completed) VALUES ('Join ZAP-Hosting Discord', 0
 INSERT INTO todoitems (name, is_completed) VALUES ('Have a great day!', 0);
 ```
 
-Erstelle einen dedizierten Benutzer `todo` für die Website:
+Erstelle einen dedizierten Benutzer für die Website:
 ```
 # Benutzer erstellen
 # Ersetze [your_password] durch dein Passwort
 CREATE USER todo@localhost IDENTIFIED BY '[your_password]';
 
-# Rechte vergeben (alles in einer Zeile kopieren)
+# Rechte vergeben (als ein Befehl kopieren)
 GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
 ON todowebsite.*
 TO todo@localhost;
@@ -271,14 +270,14 @@ FLUSH PRIVILEGES;
 
 Verlasse die MySQL-Konsole mit `quit`.
 
-##### PHP-Website-Dateien
+##### PHP Website-Dateien
 
-Erstelle die PHP-Datei für die To-Do-Liste:
+Erstelle die PHP-Datei für die To-Do-Seite:
 ```
 sudo nano /var/www/[your_domain]/index.php
 ```
 
-Füge folgenden Code ein. Er verbindet sich mit der Datenbank, holt die To-Do-Einträge und zeigt sie an.
+Füge folgenden Code ein. Er verbindet sich mit der Datenbank und zeigt die To-Do-Einträge an.
 
 :::important
 Ersetze `[your_password]` mit dem Passwort, das du für den `todo`-Benutzer vergeben hast.
@@ -292,7 +291,7 @@ $username = "todo";
 $password = "[your_password]";
 $dbname = "todowebsite";
 
-// Verbindung herstellen
+// Verbindung erstellen
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Verbindung prüfen, bei Fehler abbrechen
@@ -327,7 +326,7 @@ $result = $conn->query($sql);
 
                   // Status anzeigen
                   if ($entry["is_completed"]) {
-                      echo " <strong>(Abgeschlossen)</strong>";
+                      echo " <strong>(Erledigt)</strong>";
                   } else {
                       echo " <strong>(Offen)</strong>";
                   }
@@ -351,20 +350,20 @@ $conn->close();
 ?>
 ```
 
-Speichere mit `CTRL + X`, bestätige mit `Y` und drücke `ENTER`.
+Speichere und beende mit `CTRL + X`, `Y` und `ENTER`.
 
 #### Website testen
 
 Du hast erfolgreich eine Test-To-Do-Website eingerichtet, die alle LAMP-Komponenten nutzt!
 
-Du solltest die Website jetzt über die Domain (Port 80 / http) erreichen können, die du im Virtual Host definiert hast, z.B. `zapdocs.example.com`. So sollte das Ergebnis aussehen:
+Greife jetzt über die Domain (HTTP/Port 80) zu, die du im virtuellen Host definiert hast, z.B. `zapdocs.example.com`. Das Ergebnis sollte so aussehen:
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/NgK2n8xN3wZPLeP/preview)
 
-## Fazit
+## Abschluss
 
-Glückwunsch, du hast den LAMP-Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir **dringend**, eine Domain und ein **SSL-Zertifikat** einzurichten, damit deine Website sicher über HTTPS erreichbar ist. Schau dir dazu unsere [Certbot-Anleitung](vserver-linux-certbot.md) mit Fokus auf das **Apache Plugin** an und folge der interaktiven Einrichtung, um schnell und einfach ein Zertifikat für deine Domain zu bekommen.
+Glückwunsch, du hast den LAMP Stack erfolgreich installiert und eingerichtet! Als nächsten Schritt empfehlen wir **dringend**, eine Domain und ein **SSL-Zertifikat** einzurichten, damit deine Website sicher erreichbar ist. Schau dir dazu unsere [Certbot Anleitung](dedicated-linux-certbot.md) mit Fokus auf das **Apache Plugin** an und folge der interaktiven Einrichtung, um schnell ein Zertifikat für deine Domain zu bekommen.
 
-Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
+Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
 
 <InlineVoucher />

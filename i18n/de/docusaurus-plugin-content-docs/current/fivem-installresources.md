@@ -67,7 +67,7 @@ Du suchst noch nach den perfekten Resources für deinen Server? Stöbere durch u
 <SearchableItemList items={items} />
 
 
-## Fazit
+## Abschluss
 Zum Schluss kannst du deinen Server neu starten. Die installierte Resource sollte beim nächsten vollständigen Start deines Servers geladen werden. Du hast erfolgreich eine Resource in deinen FiveM Gameserver installiert. Bei weiteren Fragen oder wenn du Hilfe brauchst, steht dir unser Support-Team täglich zur Verfügung! 🙂
 
 <InlineVoucher />

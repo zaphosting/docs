@@ -1,4 +1,4 @@
----
+﻿---
 id: hytale-commands
 title: "Hytale: Lista Komend"
 description: "Przegląd dostępnych komend konsolowych i w grze dla serwerów Hytale → Sprawdź teraz"
@@ -23,7 +23,7 @@ Ta strona zawiera przegląd najczęściej używanych i oficjalnie udokumentowany
 
 ## Autoryzacja
 
-Komendy autoryzacyjne są potrzebne, aby upoważnić serwer do przyjmowania połączeń od graczy oraz interakcji z usługami online Hytale.
+Komendy autoryzacyjne są potrzebne, aby upoważnić serwer do akceptowania połączeń graczy oraz interakcji z usługami online Hytale.
 
 | Komenda               | Opis                                                  |
 | --------------------- | ----------------------------------------------------- |
@@ -34,38 +34,38 @@ Komendy autoryzacyjne są potrzebne, aby upoważnić serwer do przyjmowania poł
 
 
 
-## Gracze i uprawnienia
+## Gracze i Uprawnienia
 
 Te komendy kontrolują dostęp administracyjny oraz precyzyjne przypisywanie uprawnień dla użytkowników i grup.
 
-| Komenda                                   | Opis                                             |
+| Komenda                                   | Opis                                                      |
 | ----- | - |
-| `/op add <PlayerName>`                    | Nadaje wybranemu graczowi uprawnienia operatora. |
-| `/op remove <PlayerName>`                 | Odbiera uprawnienia operatora wybranemu graczowi. |
+| `/op add <PlayerName>`                    | Nadaje graczowi uprawnienia operatora.                    |
+| `/op remove <PlayerName>`                 | Odbiera graczowi uprawnienia operatora.                   |
 | `/perm user list <uuid>`                  | Wyświetla wszystkie uprawnienia przypisane bezpośrednio użytkownikowi. |
 | `/perm user add <uuid> <permission>`      | Przypisuje jedno lub więcej uprawnień bezpośrednio użytkownikowi. |
-| `/perm user remove <uuid> <permission>`   | Usuwa konkretne uprawnienia od użytkownika.     |
+| `/perm user remove <uuid> <permission>`   | Usuwa konkretne uprawnienia od użytkownika.               |
 | `/perm user group list <uuid>`            | Pokazuje wszystkie grupy uprawnień, do których należy użytkownik. |
-| `/perm user group add <uuid> <group>`     | Dodaje użytkownika do wskazanej grupy uprawnień. |
-| `/perm user group remove <uuid> <group>`  | Usuwa użytkownika z wybranej grupy uprawnień.   |
-| `/perm group list <group>`                | Wyświetla wszystkie uprawnienia przypisane grupie. |
-| `/perm group add <group> <permission>`    | Dodaje uprawnienia do grupy.                     |
-| `/perm group remove <group> <permission>` | Usuwa uprawnienia z grupy.                        |
+| `/perm user group add <uuid> <group>`     | Dodaje użytkownika do wskazanej grupy uprawnień.          |
+| `/perm user group remove <uuid> <group>`  | Usuwa użytkownika z wskazanej grupy uprawnień.             |
+| `/perm group list <group>`                | Wyświetla wszystkie uprawnienia przypisane grupie.        |
+| `/perm group add <group> <permission>`    | Dodaje uprawnienia do grupy.                               |
+| `/perm group remove <group> <permission>` | Usuwa uprawnienia z grupy.                                 |
 
 
 
-## Whitelist
+## Biała lista
 
-Komendy whitelist ograniczają dostęp do serwera tylko dla zatwierdzonych graczy.
+Komendy białej listy ograniczają dostęp do serwera tylko dla zatwierdzonych graczy.
 
-| Komenda                          | Opis                                            |
-| -------------------------------- | ------------------------------------------------ |
-| `/whitelist add <playername>`    | Dodaje wskazanego gracza do whitelisty.          |
-| `/whitelist remove <playername>` | Usuwa wskazanego gracza z whitelisty.            |
-| `/whitelist list`                | Wyświetla wszystkich aktualnie na whitelistcie.  |
-| `/whitelist enable`              | Włącza wymuszanie whitelisty.                     |
-| `/whitelist disable`             | Wyłącza whitelistę.                               |
-| `/whitelist status`              | Pokazuje aktualny status whitelisty.              |
+| Komenda                          | Opis                                              |
+| -------------------------------- | ------------------------------------------------- |
+| `/whitelist add <playername>`    | Dodaje wskazanego gracza do białej listy.         |
+| `/whitelist remove <playername>` | Usuwa wskazanego gracza z białej listy.           |
+| `/whitelist list`                | Wyświetla wszystkich aktualnie na białej liście.  |
+| `/whitelist enable`              | Włącza wymuszanie białej listy.                    |
+| `/whitelist disable`             | Wyłącza białą listę.                               |
+| `/whitelist status`              | Pokazuje aktualny status białej listy.             |
 
 
 
@@ -73,12 +73,12 @@ Komendy whitelist ograniczają dostęp do serwera tylko dla zatwierdzonych gracz
 
 Komendy świata kontrolują tworzenie, ładowanie, rozładowywanie i usuwanie światów.
 
-| Komenda                    | Opis                                              |
+| Komenda                    | Opis                                                  |
 | -- | -- |
-| `/world create <name>`     | Tworzy nowy świat o podanej nazwie.               |
-| `/world load <name>`       | Ładuje istniejący świat i aktywuje go.             |
-| `/world unload <name>`     | Rozładowuje świat bez usuwania danych.             |
-| `/world remove <name>`     | Usuwa świat wraz ze wszystkimi powiązanymi danymi. |
+| `/world create <name>`     | Tworzy nowy świat o podanej nazwie.                   |
+| `/world load <name>`       | Ładuje istniejący świat i aktywuje go.                |
+| `/world unload <name>`     | Rozładowuje świat bez usuwania jego danych.           |
+| `/world remove <name>`     | Usuwa świat wraz ze wszystkimi powiązanymi danymi.    |
 | `/world setdefault <name>` | Ustawia domyślny świat, który ładuje się przy starcie serwera. |
 
 
@@ -87,23 +87,23 @@ Komendy świata kontrolują tworzenie, ładowanie, rozładowywanie i usuwanie ś
 
 Te komendy bezpośrednio wpływają na zasady rozgrywki i zachowanie świata.
 
-| Komenda                    | Opis                                            |
-| -------------------------- | ------------------------------------------------ |
-| `/list`                    | Wyświetla wszystkich aktualnie połączonych graczy. |
-| `/tp <player> <target>`    | Teleportuje jednego gracza do innego gracza.     |
-| `/tp <player> <x> <y> <z>` | Teleportuje gracza do konkretnych współrzędnych. |
+| Komenda                    | Opis                                                  |
+| -------------------------- | ----------------------------------------------------- |
+| `/list`                    | Wyświetla wszystkich aktualnie połączonych graczy.    |
+| `/tp <player> <target>`    | Teleportuje jednego gracza do innego gracza.          |
+| `/tp <player> <x> <y> <z>` | Teleportuje gracza do konkretnych współrzędnych.      |
 
 
 
 ## Teleportacja i pozycjonowanie
 
-Komendy służące do zarządzania pozycją graczy i ich widocznością.
+Komendy służące do zarządzania pozycjami graczy i ich widocznością.
 
-| Komenda                    | Opis                                            |
+| Komenda                    | Opis                                                  |
 | -- | - |
-| `/list`                    | Wyświetla wszystkich aktualnie połączonych graczy. |
-| `/tp <player> <target>`    | Teleportuje jednego gracza do innego gracza.     |
-| `/tp <player> <x> <y> <z>` | Teleportuje gracza do konkretnych współrzędnych. |
+| `/list`                    | Wyświetla wszystkich aktualnie połączonych graczy.    |
+| `/tp <player> <target>`    | Teleportuje jednego gracza do innego gracza.          |
+| `/tp <player> <x> <y> <z>` | Teleportuje gracza do konkretnych współrzędnych.      |
 
 
 
@@ -111,19 +111,19 @@ Komendy służące do zarządzania pozycją graczy i ich widocznością.
 
 Komendy narzędziowe dostarczają pomocy i informacji o serwerze.
 
-| Komenda           | Opis                                              |
+| Komenda           | Opis                                                  |
 | ----- | ---- |
-| `/help`           | Wyświetla listę dostępnych komend.                 |
-| `/help <command>` | Pokazuje szczegółową pomoc dla konkretnej komendy. |
+| `/help`           | Wyświetla listę dostępnych komend.                    |
+| `/help <command>` | Pokazuje szczegółową pomoc dla konkretnej komendy.    |
 | `/status`         | Pokazuje aktualny status serwera i informacje o działaniu. |
 
 
 
 ## Podsumowanie
 
-System komend Hytale daje potężne narzędzia do zarządzania serwerami, graczami i zachowaniem rozgrywki. Dzięki znajomości i wykorzystaniu dostępnych komend, administratorzy mogą efektywnie prowadzić i dostosowywać swoje środowisko serwera Hytale.
+System komend Hytale daje potężne narzędzia do zarządzania serwerami, graczami i zachowaniem rozgrywki. Dzięki znajomości i wykorzystaniu dostępnych komend, administratorzy mogą efektywnie obsługiwać i dostosowywać swoje środowisko serwera Hytale.
 
-W razie dalszych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
+W razie dodatkowych pytań lub potrzeby pomocy, śmiało kontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie, by Ci pomóc! 🙂
 
 
 

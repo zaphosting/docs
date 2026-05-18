@@ -1,16 +1,17 @@
 ---
 id: dedicated-linux-hytale
-title: "Dedikerad Server: Hytale Dedikerad Server Setup"
-description: "Upptäck hur du sätter upp Hytale Dedicated-servern på din Linux Dedikerade Server för smidig spelhantering → Läs mer nu"
+title: "Hytale Dedicated Server Setup"
+description: "Discover how to set up the Hytale Dedicated server on your Linux Dedicated Server for seamless gameplay management → Learn more now"
 sidebar_label: Hytale
 services:
+  - vserver
   - dedicated
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduktion
-Har du en Linux Dedikerad Server och vill installera Hytale på den? Då har du kommit rätt. I den här guiden går vi igenom steg för steg hur du installerar tjänsten på din Linux-server.
+Har du en Linux VPS/Dedikerad Server och vill installera Hytale på den? Då har du kommit rätt. I den här guiden går vi igenom steg för steg hur du installerar tjänsten på din Linux-server.
 
 ## Förberedelser
 
@@ -22,7 +23,7 @@ Innan du fortsätter, se till att Java 25 är installerat på ditt system. Du ka
 java --version
 ```
 
-Om Java inte är installerat än, följ vår dedikerade [Installera Java](vserver-linux-java)-guide för Linux-servrar. Den förklarar hur du installerar och konfigurerar Java korrekt i din miljö.
+Om Java inte är installerat än, följ vår dedikerade [Install Java](dedicated-linux-java)-guide för Linux-servrar. Den förklarar hur du installerar och konfigurerar Java korrekt i din miljö.
 
 
 
@@ -36,18 +37,18 @@ sudo chown -R $(whoami):$(whoami) /opt/hytale
 cd /opt/hytale
 ```
 
-Servern kräver två huvudkomponenter: själva serverapplikationen och spelassets. Dessa filer hämtas via Hytales kommandorads-downloader, som är gjord för serverinstallationer och enklare uppdateringar.
+Servern kräver två huvudkomponenter: själva serverapplikationen och spelresurserna. Dessa filer hämtas via Hytales kommandorads-downloader, som är framtagen för serverinstallationer och enklare uppdateringar.
 
-CLI-downloadern ger ett strukturerat sätt att ladda ner och uppdatera Hytale-serverfilerna. Efter att ha laddat ner arkivet, packa upp det i en temporär mapp. Inuti arkivet hittar du en QUICKSTART.md-fil som beskriver grundläggande användning av verktyget.
+CLI-downloadern ger ett strukturerat sätt att ladda ner och uppdatera Hytale-serverfilerna. Efter att ha laddat ner arkivet, packa upp det i en temporär mapp. Inuti arkivet finns en QUICKSTART.md-fil som beskriver grundläggande användning av verktyget.
 
-Kör downloadern från kommandoraden och följ instruktionerna för att ladda ner senaste serverversionen. När processen är klar, kopiera de nedladdade serverfilerna och assets-arkivet till din servermapp. Efter detta steg ska mappen innehålla serverns JAR-fil och ett assets-arkiv som Assets.zip.
+Kör downloadern från kommandoraden och följ instruktionerna för att ladda ner senaste serverversionen. När processen är klar, kopiera de nedladdade serverfilerna och resursarkivet till din servermapp. Efter detta steg ska mappen innehålla serverns JAR-fil och ett resursarkiv som Assets.zip.
 
 | **Kommando**                                   | **Beskrivning**                       |
 | :-------------------------------------------- | :------------------------------------ |
-| `./hytale-downloader`                         | Ladda ner senaste releasen            |
+| `./hytale-downloader`                         | Ladda ner senaste versionen           |
 | `./hytale-downloader -print-version`          | Visa spelversion utan nedladdning     |
 | `./hytale-downloader -version`                | Visa version av hytale-downloader     |
-| `./hytale-downloader -check-update`           | Kolla efter uppdateringar för downloader |
+| `./hytale-downloader -check-update`           | Kontrollera uppdateringar för downloader |
 | `./hytale-downloader -download-path game.zip` | Ladda ner till specifik fil           |
 | `./hytale-downloader -patchline pre-release`  | Ladda ner från pre-release-kanal      |
 | `./hytale-downloader -skip-update-check`      | Hoppa över automatisk uppdateringskontroll |
@@ -58,7 +59,7 @@ Kör downloadern från kommandoraden och följ instruktionerna för att ladda ne
 
 ### Starta servern
 
-Servern startas genom att köra JAR-filen och ange sökvägen till assets-arkivet. Anpassa sökvägen om dina assets ligger på en annan plats.
+Servern startas genom att köra JAR-filen och ange sökvägen till resursarkivet. Anpassa sökvägen om dina resurser ligger på en annan plats.
 
 ```
 java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
@@ -66,7 +67,7 @@ java -jar HytaleServer.jar --assets /opt/hytale/Assets.zip --bind 0.0.0.0:5520
 
 ### Autentisering
 
-Vid första uppstart måste servern autentiseras innan spelare kan ansluta. Detta görs direkt via serverkonsolen med en enhetsbaserad inloggningsprocess. Följ instruktionerna i konsolen för att slutföra autentiseringen.
+Vid första uppstart måste servern autentiseras innan spelare kan ansluta. Detta görs direkt via serverkonsolen med en enhetsbaserad inloggningsprocess. Följ instruktionerna som visas i konsolen för att slutföra autentiseringen.
 
 ```
 /auth login device
@@ -77,7 +78,7 @@ Utdata ser ut så här:
 ```
 > /auth login device
 ===================================================================
-ENHETSAUTORISERING
+DEVICE AUTHORIZATION
 ===================================================================
 Besök: https://accounts.hytale.com/device
 Ange kod: ABCD-1234
@@ -92,8 +93,6 @@ Väntar på auktorisering (går ut om 900 sekunder)...
 
 När autentiseringen är klar kan din server ta emot spelarkopplingar.
 
-
-
 ### Brandväggskonfiguration
 
 Som standard lyssnar servern på UDP-port 5520 och binder till alla tillgängliga nätverksgränssnitt. Du kan ändra adress och port vid behov. Servern kommunicerar över UDP med QUIC-protokollet. Se till att din brandvägg tillåter inkommande UDP-trafik på vald port, antingen via Iptables eller UFW.
@@ -107,7 +106,7 @@ sudo ufw allow 5520/udp
 
 ## Prestandanoter
 
-Renderingsavstånd är en av de viktigaste faktorerna som påverkar minnesanvändningen. Högre värden ökar RAM-användningen eftersom mer världdata måste hållas aktiv samtidigt.
+Renderingsavstånd är en av de viktigaste faktorerna som påverkar minnesanvändningen. Högre värden ökar RAM-användningen eftersom mer världdata måste vara aktiv samtidigt.
 
 För de flesta setup är ett max renderingsavstånd på 12 chunks (384 block) en bra balans mellan serverprestanda och spelupplevelse.
 
@@ -117,6 +116,6 @@ Som jämförelse använder Minecraft-servrar standard 10 chunks (160 block). Hyt
 
 ## Slutsats
 
-Grattis, du har nu en fungerande Hytale-server igång på ditt system. Härifrån kan du bygga vidare genom att installera mods, justera världens inställningar och finjustera prestanda för att passa din spelarbas. Vi rekommenderar att du regelbundet övervakar resursanvändningen för att säkerställa stabil drift när servern växer.
+Grattis, du har nu en fungerande Hytale-server på ditt system. Härifrån kan du bygga vidare genom att installera mods, justera världens inställningar och finjustera prestanda för din spelarbas. Vi rekommenderar att du regelbundet övervakar resursanvändningen för att säkerställa stabil drift när servern växer.
 
 Har du fler frågor eller behöver hjälp? Tveka inte att kontakta vårt supportteam som finns tillgängligt varje dag för att hjälpa dig! 🙂

@@ -204,7 +204,7 @@ När tjänsten är omstartad, testa att ansluta till din spelserver via proxy-do
 
 ## SSL-certifikat
 
-När din reverse proxy är uppe och rullar rekommenderar vi starkt att du lägger till ett SSL-certifikat på dina domäner för att säkerställa att trafiken skickas säkert via HTTPS. Kolla in vår guide för [Install Certbot](vserver-linux-certbot.md) som går igenom hela processen för att begära och automatiskt förnya SSL-certifikat för dina domäner.
+När din reverse proxy är uppe och rullar rekommenderar vi starkt att du lägger till ett SSL-certifikat på dina domäner för att säkerställa att trafiken skickas säkert via HTTPS. Kolla in vår guide för [Install Certbot](dedicated-linux-certbot.md) som går igenom hela processen för att begära och automatiskt förnya SSL-certifikat för dina domäner.
 
 ## Avslutning
 

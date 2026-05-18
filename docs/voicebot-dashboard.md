@@ -4,7 +4,7 @@ title: "Voicebot: Dashboard Overview"
 description: "Discover how to efficiently manage and optimize your Voicebot with a clear overview of all features and options → Learn more now"
 sidebar_label: Dashboard
 services:
-  - Voicebot
+  - voicebot
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';

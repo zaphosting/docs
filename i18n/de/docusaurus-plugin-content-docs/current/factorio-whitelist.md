@@ -1,4 +1,4 @@
----
+﻿---
 id: factorio-whitelist
 title: "Factorio: Whitelist"
 description: "Infos, wie du deinen Factorio-Server bei ZAP-Hosting auf die Whitelist setzt → Jetzt mehr erfahren"
@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Eine Whitelist ist eine Zugangsliste, die den Serverzugang nur auf freigegebene Factorio-Accounts beschränkt. Bei den meisten gemieteten Servern wird die Whitelist aktiviert, sobald mindestens ein Spieler hinzugefügt wurde. Sie wird in einer `server-whitelist.json` Datei gespeichert.
+Eine Whitelist ist eine Zugangsliste, die den Serverzugang auf freigegebene Factorio-Accounts beschränkt. Bei den meisten gehosteten Servern wird die Whitelist aktiviert, sobald mindestens ein Spieler hinzugefügt wurde, und sie wird in einer `server-whitelist.json` Datei gespeichert.
 
 <InlineVoucher />
 
@@ -23,17 +23,17 @@ Eine Whitelist ist eine Zugangsliste, die den Serverzugang nur auf freigegebene 
 /whitelist add PlayerName
 ```
 
-Falls dein Host einen expliziten Befehl zum Aktivieren anbietet, kannst du diesen auch vor dem Hinzufügen der Nutzer ausführen.
+Falls dein Host einen expliziten Aktivierungsbefehl anbietet, kannst du diesen auch vor dem Hinzufügen der Nutzer ausführen.
 
 ```text
 /whitelist enable
 ```
 
-Ein Neustart ist normalerweise nicht nötig, damit die Änderung wirksam wird. Ein einmaliger Neustart nach der Ersteinrichtung stellt aber sicher, dass die Whitelist-Datei geschrieben und beim Start geladen wird.
+Ein Neustart ist normalerweise nicht nötig, damit die Änderung wirksam wird, aber ein einmaliger Neustart nach der Ersteinrichtung stellt sicher, dass die Whitelist-Datei geschrieben und beim Start geladen wird.
 
 ## Whitelist-Spieler verwalten
 
-Um weitere Spieler hinzuzufügen, führe den Add-Befehl mit deren Factorio-Namen erneut aus.
+Um weitere Spieler hinzuzufügen, führe den Add-Befehl mit deren Factorio-Benutzernamen erneut aus.
 
 ```text
 /whitelist add AnotherPlayer
@@ -51,16 +51,16 @@ Um die aktuelle Whitelist anzuzeigen, verwende den Get-Befehl.
 /whitelist get
 ```
 
-## Whitelist-Funktion überprüfen
+## Whitelist-Funktion prüfen
 
-Nachdem du mindestens einen Spieler hinzugefügt hast, versuche dich mit einem nicht gelisteten Account zu verbinden. Die Verbindung sollte abgelehnt werden. Verbinde dich danach mit einem whitelisted Account, um zu bestätigen, dass es funktioniert.
+Nachdem mindestens ein Spieler hinzugefügt wurde, versuche mit einem nicht gelisteten Account beizutreten. Die Verbindung sollte abgelehnt werden. Dann verbinde dich mit einem whitelisted Account, um zu bestätigen, dass es funktioniert.
 
-Wenn der Server trotzdem alle reinlässt, überprüfe, ob die Befehle auf dem richtigen Server ausgeführt wurden und starte den Server einmal neu, um sicherzugehen, dass die Whitelist-Datei beim Start geladen wird.
+Wenn der Server trotzdem alle reinlässt, überprüfe, ob die Befehle auf dem richtigen Server ausgeführt wurden, und starte den Server einmal neu, um sicherzugehen, dass die Whitelist-Datei beim Start geladen wird.
 
-## Fazit
+## Abschluss
 
-Wenn du alle Schritte oben korrekt befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf den Server darf. Falls der Zugang trotzdem nicht wie erwartet funktioniert, starte den Server einmal neu und prüfe die Datei oder die Befehlsausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
+Wenn du alle Schritte oben korrekt befolgt hast, ist deine Whitelist jetzt aktiv und du kannst genau steuern, wer auf den Server darf. Falls der Zugang trotzdem nicht wie erwartet funktioniert, starte den Server einmal neu und überprüfe die Datei oder die Befehlsausgabe, um sicherzugehen, dass die Änderung übernommen wurde.
 
-Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
+Bei weiteren Fragen oder Problemen steht dir unser Support-Team täglich zur Verfügung – zögere nicht, uns zu kontaktieren! 🙂
 
 <InlineVoucher />

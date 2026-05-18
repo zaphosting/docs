@@ -86,7 +86,7 @@ Die eigentliche Einrichtung ist damit schon abgeschlossen. Weitere Konfiguration
 Am Ende der Einrichtung kannst du den Server jetzt starten, indem du die zuvor erstellte **start_headless_server.bat** Datei ausführst. Dadurch öffnet sich die Server-Konsole und der Server-Startvorgang beginnt. Wenn alles wie erwartet läuft, sollte der Server nach erfolgreichem Start in der Serverliste sichtbar sein.
 
 
-## Fazit
+## Abschluss
 
 Glückwunsch, du hast Valheim erfolgreich auf deinem VPS installiert und konfiguriert! Falls du noch Fragen oder Probleme hast, steht dir unser Support-Team täglich zur Verfügung und hilft dir gerne weiter!
 

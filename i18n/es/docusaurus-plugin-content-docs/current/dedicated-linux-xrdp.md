@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-xrdp
-title: "Servidor Dedicado: Instalación de xRDP (Escritorio Remoto)"
-description: "Descubre cómo configurar el acceso de escritorio remoto en servidores Ubuntu y Debian para una gestión y control más fácil → Aprende más ahora"
+title: "Configura xRDP en un Servidor Linux - Activa el Acceso a Escritorio Remoto"
+description: "Descubre cómo configurar el acceso a escritorio remoto en servidores Ubuntu y Debian para una gestión y control más fácil → Aprende más ahora"
 sidebar_label: Instalar xRDP
 services:
+  - vserver
   - dedicated
 ---
 
@@ -12,10 +13,10 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ## Introducción
 
 En Linux, normalmente hay una consola SSH por defecto para gestionar el servidor. En algunos casos puede ser más fácil usar una conexión de escritorio remoto, similar a Windows.  
-Es posible hacer una post-instalación para la mayoría de las distribuciones Linux. En esta guía se explica para Ubuntu y Debian.
+Es posible hacer una post-instalación para la mayoría de las distros Linux. En esta guía se explica para Ubuntu y Debian. 
 
 :::info
-Importante: Se debe usar al menos Ubuntu 18.04.X LTS (Bionic Beaver) o Debian 10 (Buster) como sistema operativo. Se recomiendan versiones más recientes.
+Importante: Se debe usar al menos Ubuntu 18.04.X LTS (Bionic Beaver) o Debian 10 (Buster) como sistema operativo. Se recomiendan versiones más recientes. 
 :::
 
 ## Instalando xRDP
@@ -66,17 +67,17 @@ sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 sudo adduser xrdp ssl-cert; sudo systemctl restart xrdp
 ```
 
-Al terminar la configuración, puedes conectarte con los datos root o del usuario correspondiente del servidor vía Escritorio Remoto.  
+Al terminar la configuración, puedes conectarte como root o con los datos del usuario respectivo del servidor vía Escritorio Remoto.  
 El puerto por defecto es: 3389
 
-## Conexión
+## Conexión 
 
 La conexión se puede hacer con cualquier herramienta RDP, conectando con IP:PUERTO.  
-Al conectar te pedirá los datos de acceso:
+Al conectar te pedirá los datos de acceso: 
 
 ![xrdp2](https://screensaver01.zap-hosting.com/index.php/s/btRPMG73cT6ysyL/preview)
 
-Después de iniciar sesión correctamente verás el escritorio.  
+Después de iniciar sesión con éxito verás el escritorio.  
 Con Ubuntu se ve un poco diferente que con Debian:
 
 Ubuntu: 

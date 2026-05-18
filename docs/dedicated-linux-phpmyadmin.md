@@ -1,9 +1,10 @@
 ---
 id: dedicated-linux-phpmyadmin
-title: "Dedicated Server: Installation of phpMyAdmin"
+title: "Setup phpMyAdmin on a Linux Server - Manage Your Databases via Web Interface"
 description: "Discover how to manage MySQL and MariaDB databases easily with phpMyAdmin’s web interface for efficient database administration → Learn more now"
 sidebar_label: Install phpMyAdmin
 services:
+  - vserver
   - dedicated
 ---
 
@@ -15,6 +16,10 @@ phpMyAdmin is a free, web-based tool for managing MySQL and MariaDB databases. I
 
 
 
+## Install phpMyAdmin with the One Click Apps Installer
+
+You can install **phpMyAdmin** directly through our **One Click Apps Installer** in the VPS web interface. After completing the initial apps setup, open the app catalogue, search for **phpMyAdmin**, and start the deployment with your preferred project, environment, and domain settings. This gives you a fast and user-friendly way to deploy and manage **phpMyAdmin** without a manual command line setup, while still benefiting from integrated web-based management, custom domain support, and SSL provisioning where available.
+
 ## Preparation
 
 Before starting the installation, make sure that the system is up to date. Pending updates and upgrades can be carried out as follows:
@@ -24,7 +29,7 @@ sudo apt update -y
 sudo apt upgrade -y
 ```
 
-You must also ensure that you already have PHP installed on your system. This is essential for the use of phpMyAdmin. To find out how to install PHP, please have a look at our [Install PHP](dedicated-linux-php.md) guide.
+You must also ensure that you already have PHP installed on your system. This is essential for the use of phpMyAdmin. To find out how to install PHP, please have a look at our [Install PHP](vserver-linux-php.md) guide.
 
 :::warning Missing PHP packages
 Wenn die notwendigen PHP Pakete fehlen, dann können die PHP-Dateien von phpMyAdmin nicht korrekt vearbeitet und dargestellt werden. 
@@ -108,6 +113,6 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 
 ## Conclusion
 
-Congratulations, you have successfully installed and configured phpMyAdmin. You can access the web interface using the IP address and the path of your server (http://IP-Address/phpmyadmin).  For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
+Congratulations, you have successfully installed and configured phpMyAdmin. You can access the web interface using the IP address and the path of your server (`http://IP-Address/phpmyadmin`).  For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
 
 

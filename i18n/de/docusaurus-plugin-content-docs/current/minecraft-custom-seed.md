@@ -35,7 +35,7 @@ Am einfachsten geht das, indem du den `level-name` in den **Einstellungen** auf 
 
 Wenn du wissen möchtest, wie du eine bestehende Welt neu erstellen kannst, schau dir unsere [Welt neu erstellen](minecraft-worlds.md) Anleitung mit detaillierten Schritten an. Zum Schluss startest du deinen Server wieder. Minecraft generiert jetzt eine neue Welt mit deinem eigenen Seed.
 
-## Fazit
+## Abschluss
 
 Mit diesen Schritten hast du erfolgreich einen neuen Seed für deine neue Welt eingestellt. Starte deinen Server neu, erkunde deine frisch generierte Welt und genieße dein ganz eigenes Minecraft-Abenteuer. Bei Fragen oder Problemen steht dir unser Support-Team täglich zur Seite! 🙂
 

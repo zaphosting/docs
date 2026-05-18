@@ -1,45 +1,37 @@
 ---
 id: csgo-configuration
-title: "CSGO: Serverkonfiguration"
-description: "Utforska hur du konfigurerar Counter-Strike-servrar för olika spellägen och inställningar för att optimera spelupplevelsen → Lär dig mer nu"
+title: "CS:GO: Serverkonfiguration"
+description: "Utforska hur du konfigurerar Counter-Strike-servrar med gamemodes, mapgroups och GSL-tokens för optimerad gameplay → Lär dig mer nu"
 sidebar_label: Serverkonfiguration
 services:
-  - gameserver
+  - gameserver-csgo
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-:::warning Arkiverad guide
-Det här dokumentet har arkiverats. Dokument arkiveras när de inte längre är relevanta, felaktiga eller uppdaterade. Det har arkiverats av följande skäl:
-
-Orsak: CS:GO erbjuds inte längre aktivt och utvecklas inte längre. CS2 är uppföljaren till CS:GO. Vi rekommenderar att du byter till CS2.
-::::
-
-
-
 ## Introduktion
 
-Counter-Strike-servrar kan konfigureras på många sätt. Grundläggande inställningar kan justeras via **Server.cfg**-filen och via inställningssidan i webbgränssnittet. Avancerad konfiguration görs via gamemode-konfigfiler som gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg, gamemode_demolition.cfg med flera.
+Counter-Strike-servrar kan konfigureras på många sätt. Grundläggande inställningar kan justeras via **server.cfg**-konfigurationsfilen och via inställningssidan i webbgränssnittet. Avancerad konfiguration görs via gamemode-konfigurationsfiler som gamemode_competitive.cfg, gamemode_custom.cfg, gamemode_casual.cfg, gamemode_cooperative.cfg och så vidare.
 
-Under inställningarna kan du välja vilket spelläge du vill använda. Kommandona i denna konfig laddas då automatiskt. Dessa kan hanteras antingen via spelserveradministrationen eller manuellt via FTP under **gXXXXXX/csgo/csgo/cfg/**. 
-
+Under inställningarna kan du välja vilken gamemode du vill använda. Kommandona i denna konfig laddas då automatiskt. Dessa kan hanteras antingen via spelserveradministrationen eller manuellt via FTP under **gXXXXXX/CS:GO/game/csgo/cfg/**.
 
 <InlineVoucher />
 
 ## Konfiguration
 
 
+
 ### Konfiguration via gränssnittet (Inställningar)
 
-På inställningssidan kan du justera grundläggande inställningar för GSL-token, gametype/gamemode, mapgroup, tickrate och mer.  
+På inställningssidan kan du justera grundläggande inställningar för GSL-token, gametype/gamemode, mapgroup och mer.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/rfHJDH8e4mSQ4Mg/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/eafHZL86Zr6QyGk/preview)
 
 
 
 **GSL Token**
 
-Gameserver Login Tokens (GSLTs) är en säkerhetsåtgärd som Steam har infört. För att köra spelservrar för vissa Steam-spel (främst Source-spel) måste du generera en token. Mer detaljerad info hittar du här:
+Gameserver Login Tokens (GSLTs) är en säkerhetsåtgärd som Steam har implementerat. För att köra gameservrar för vissa Steam-spel (främst Source-spel) måste du generera en token. Mer detaljerad info hittar du här:
 
 [GSL-Token](source-gsltoken.md)
 
@@ -47,12 +39,10 @@ Gameserver Login Tokens (GSLTs) är en säkerhetsåtgärd som Steam har infört.
 
 **Gametype**
 
-Det finns olika spellägen. Här är en lista över alla tillgängliga alternativ:
+Det finns olika gamemodes. Här är en lista över alla tillgängliga alternativ:
 
 - Classic Casual
 - Classic Competitive
-- Arms Race
-- Demolition
 - Deathmatch
 - Wingman
 
@@ -60,7 +50,7 @@ Det finns olika spellägen. Här är en lista över alla tillgängliga alternati
 
 **Mapgroup**
 
-Mapgroups är grupper av kartor som normalt hör till en viss kategori. Som standard finns grupperna **mg_active, mg_armsrace, mg_demolition, mg_allclassic**. Du kan även skapa egna. Dessa måste läggas till i **Gamemodes_server.txt**. Strukturen för en sådan mapgroup är enkel och ser ut så här:
+Mapgroups är grupper av kartor som normalt hör till en viss kategori. Som standard finns grupperna **mg_active, mg_allclassic**. Du kan även skapa egna. Dessa måste läggas till i **gamemodes_server.txt**. Strukturen för en sådan mapgroup är enkel och ser ut så här:
 
 ```
 {	 	 	 	 
@@ -80,15 +70,9 @@ Mapgroups är grupper av kartor som normalt hör till en viss kategori. Som stan
 
 
 
-**Tickrate**
-
-Den inställda tickraten bestämmer hur ofta servern skickar en spelares position till de andra spelarna. Ju högre värde, desto bättre spelupplevelse. Följande värden kan ställas in: 33, 64, 100 och 128 (bäst värde). 
-
-
-
 **Startmap**
 
-Startkartan bestämmer vilken karta som ska laddas vid uppstart. Det är viktigt att kartnamnet skrivs helt och korrekt. Filändelsen behövs inte. 
+Startmappen bestämmer vilken karta som ska laddas vid uppstart. Det är viktigt att kartnamnet skrivs helt och korrekt. Filändelsen behövs inte.
 
 
 
@@ -100,15 +84,15 @@ Pingboost är ett sätt att ändra känslan i spelet genom olika metoder för at
 
 ### Konfiguration via server.cfg
 
-I **server.cfg** kan du ändra inställningar för servernamn, rcon-lösenord och serverlösenord. 
+I **server.cfg** kan du ändra inställningar för servernamn, rcon-lösenord och serverlösenord.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/RRyRgMzwaQPTR8b/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/9k98oi89CeEB3ka/preview)
 
 
 
 **hostname**
 
-Hostname definierar serverns namn. Namnet visas i serverlistan och på poängtavlan.
+Hostname definierar serverns namn. Namnet visas i serverlistan och på resultattavlan.
 
 
 
@@ -125,7 +109,7 @@ rcon kommando // Exempel: rcon changelevel de_dust2
 
 **sv_password**
 
-Vill du använda din server privat eller bara ge vissa personer tillgång kan du sätta ett serverlösenord. Du blir då ombedd att ange lösenordet när du ansluter till servern.
+Vill du ha din server privat eller bara ge vissa personer tillgång kan du sätta ett serverlösenord. Du blir då ombedd att ange lösenordet när du ansluter till servern.
 
 
 
@@ -137,9 +121,9 @@ Vissa kommandon är skyddade och kan bara användas om fusk är aktiverat. Komma
 
 
 
-### Spelläge-specifik konfiguration
+### Gamemode-specifik konfiguration
 
-Som nämnts i början kan du definiera vilket spelläge/gametype du vill använda i gränssnittet på inställningssidan. Därefter justerar du dina inställningar och ändrar motsvarande konfigfil. I gamemode-konfigarna kan du göra detaljerade ändringar av gameplay, botbeteende med mera.
+Som nämnts i början kan du definiera vilken gamemode/gametype du vill använda i gränssnittet på inställningssidan. Därefter justerar du dina inställningar och modifierar motsvarande konfigurationsfil. I gamemode-konfigarna kan du göra detaljerade ändringar av gameplay, botbeteende osv.
 
 
 
@@ -148,12 +132,12 @@ Som nämnts i början kan du definiera vilket spelläge/gametype du vill använd
 
 
 **bot_chatter**
-Detta kommando bestämmer vad botarna får säga i spelet. Det kan ställas in på off, radio, minimal eller normal.
+Detta kommando bestämmer vad bots får säga i spelet. Kan sättas till off, radio, minimal eller normal.
 
 
 
 **bot_difficulty**
-Detta kommando bestämmer hur svåra botarna är. Följande värden kan ställas in:  
+Detta kommando bestämmer hur svåra bots är. Följande värden kan sättas:
 
 - 0 - lätt
 - 1 - normal
@@ -168,7 +152,7 @@ Detta kommando bestämmer max antal bots på servern. Standardvärdet är 10.
 
 
 **bot_quota_mode**
-Detta kommando bestämmer läget som styr antalet bots. Alternativen är: normal, fill och match. Normal är standardbeteende. Fill fyller servern med så många bots som "bot_quota" är satt till. Match fyller spelplatser. Om t.ex. 3 spelare är anslutna och 10 bots är satt, används bara 7 bots.
+Detta kommando bestämmer läget som styr antalet bots. Alternativen är: normal, fill och match. Normal är normalt beteende. Fill fyller servern med så många bots som är satt i "bot_quota". Match fyller spelplatser. Om t.ex. 3 spelare är anslutna och 10 bots är satt, används bara 7 bots.
 
 
 
@@ -176,7 +160,7 @@ Detta kommando bestämmer läget som styr antalet bots. Alternativen är: normal
 #### Pengakommandon
 
 **cash_player_bomb_defused**
-Detta kommando bestämmer hur mycket pengar en spelare får för att desarmera en bomb. Du kan inte ge mer än maxbeloppet som går att få på servern.
+Detta kommando bestämmer hur mycket pengar en spelare får för att desarmera en bomb. Du kan inte ge mer än maxbeloppet som kan fås på servern.
 
 
 
@@ -201,7 +185,7 @@ Detta kommando bestämmer hur mycket pengar som tjänas eller förloras för att
 
 
 **cash_player_killed_enemy_factor**
-Detta kommando bestämmer hur mycket pengar som tjänas för att döda en fiende med ett av huvudvapnen (standardpistoler, primära gevär som AK/M4 etc.).
+Detta kommando bestämmer hur mycket pengar som tjänas för att döda en fiende med ett av huvudvapnen (standardpistoler, primära gevär som AK/M4 osv).
 
 
 
@@ -221,22 +205,22 @@ Detta kommando bestämmer hur mycket pengar som tjänas eller förloras för att
 
 
 **cash_team_elimination_bomb_map**
-Detta kommando bestämmer hur mycket pengar varje lagmedlem får om alla 5 fiender på en bombdesarmeringskarta som Mirage eller Dust II dödas.
+Detta kommando bestämmer hur mycket pengar varje lagmedlem tjänar om alla 5 fiender på en bombdesarmeringskarta som Mirage eller Dust II dödas.
 
 
 
 **cash_team_elimination_hostage_map_t**
-Detta kommando bestämmer hur mycket pengar varje terrorist får för att vinna en runda på en gisslankarta genom elimination.
+Detta kommando bestämmer hur mycket pengar varje terrorist tjänar för att vinna en runda på en gisslankarta genom elimination.
 
 
 
 **cash_team_elimination_hostage_map_ct**
-Detta kommando bestämmer hur mycket pengar varje lagmedlem på CT-sidan får om de eliminerar alla 5 terrorister på en gisslankarta.
+Detta kommando bestämmer hur mycket pengar varje lagmedlem på CT-sidan tjänar om de eliminerar alla 5 terrorister på en gisslankarta.
 
 
 
 **cash_team_hostage_alive**
-Detta kommando bestämmer hur mycket pengar som tjänas eller förloras om en gisslan överlever rundan. 
+Detta kommando bestämmer hur mycket pengar som tjänas eller förloras om en gisslan överlever rundan.
 
 
 
@@ -251,42 +235,42 @@ Detta kommando bestämmer startpengarna ett lag får för att förlora en runda.
 
 
 **cash_team_loser_bonus_consecutive_rounds**
-Detta kommando bestämmer hur mycket pengar som ska öka vid en förlustsvit. Om värdet är $500 (standard) betyder det att varje efterföljande förlorad runda ger laget $500 mer än föregående. Detta gäller upp till 5 raka förluster.
+Detta kommando bestämmer hur mycket pengar som ska ökas vid en förlustsvit. Om värdet är $500 (standard) betyder det att varje efterföljande förlorad runda ger laget $500 mer än föregående. Gäller upp till 5 raka förluster.
 
 
 
 **cash_team_planted_bomb_but_defused**
-Detta kommando bestämmer hur mycket pengar Terrorist-laget får för att ha planterat en bomb som slutligen desarmeras. Detta **adderas ovanpå förlustbonusen**. Standardvärdet är $800.
+Detta kommando bestämmer hur mycket pengar Terrorist-laget tjänar för att ha planterat en bomb som slutligen desarmeras. Detta **adderas ovanpå förlustbonusen**. Standardvärdet är $800.
 
 
 
 **cash_team_rescued_hostage**
-Detta kommando bestämmer hur mycket pengar **hela laget** får när en spelare räddar en gisslan.
+Detta kommando bestämmer hur mycket pengar **hela laget** tjänar när en spelare räddar en gisslan.
 
 
 
 **cash_team_terrorist_win_bomb**
-Detta kommando bestämmer hur mycket pengar varje spelare på Terrorist-laget får när de vinner en runda genom att bomben exploderar.
+Detta kommando bestämmer hur mycket pengar varje spelare på Terrorist-laget vinner när de vinner en runda genom att bomben exploderar.
 
 
 
 **cash_team_win_by_defusing_bomb**
-Detta kommando bestämmer hur mycket pengar CT-laget får för att vinna en runda genom att desarmera bomben.
+Detta kommando bestämmer hur mycket pengar CT-laget tjänar för att vinna en runda genom att desarmera bomben.
 
 
 
 **cash_team_win_by_hostage_rescue**
-Detta fusk-kommando bestämmer hur mycket pengar lagmedlemmar får när de vinner en runda genom att rädda en gisslan.
+Detta fusk-kommando bestämmer hur mycket pengar lagmedlemmar vinner när de vinner en runda genom att rädda en gisslan.
 
 
 
 **cash_team_win_by_time_running_out_hostage**
-Detta kommando bestämmer hur mycket pengar laget som vaktar gisslan får om de vinner rundan genom att förhindra att gisslan räddas inom tidsgränsen.
+Detta kommando bestämmer hur mycket pengar laget som vaktar gisslan vinner om de vinner rundan genom att inte låta några gisslan räddas inom tidsgränsen.
 
 
 
 **cash_team_win_by_time_running_out_bomb**
-Detta kommando bestämmer hur mycket pengar CT-spelarna får för att vinna en runda när tiden går ut. Det betyder att terroristerna inte har planterat bomben eller eliminerat alla CT-spelare inom tiden.
+Detta kommando bestämmer hur mycket pengar CT-spelarna tjänar genom att vinna en runda när tiden går ut. Det betyder att terroristerna inte har planterat en bomb eller eliminerat alla CT-spelare inom tiden.
 
 
 
@@ -295,22 +279,22 @@ Detta kommando bestämmer hur mycket pengar CT-spelarna får för att vinna en r
 
 
 **mp_afterroundmoney**
-Detta kommando bestämmer hur mycket pengar varje spelare i varje lag får i slutet av en runda, oavsett vinst eller förlust. Standardvärdet är 0 (vinst/förlustbonus ställs med annat kommando).
+Detta kommando bestämmer hur mycket pengar varje spelare i varje lag får i slutet av en runda, oavsett vinst eller förlust. Standardvärdet är 0 (vinst/förlustbonus sätts med annat kommando).
 
 
 
 **mp_buytime**
-Detta kommando bestämmer hur lång tid (i sekunder) spelare har på sig att köpa utrustning efter rundstart. 
+Detta kommando bestämmer tiden (i sekunder) som spelare har på sig att köpa utrustning efter rundstart.
 
 
 
 **mp_buy_anywhere**
-Detta kommando bestämmer om spelare kan öppna köpmenyn utanför köpzonen. Kom ihåg att köptiden fortfarande gäller. 
+Detta kommando bestämmer om spelare kan öppna köpmenyn utanför köpzonen. Köp-tiden gäller fortfarande.
 
 
 
 **mp_death_drop_defuser**
-Detta kommando bestämmer om defuse-kit släpps vid död eller inte. 
+Detta kommando bestämmer om defuse-kit släpps vid död eller inte.
 
 
 
@@ -318,12 +302,12 @@ Detta kommando bestämmer om defuse-kit släpps vid död eller inte.
 Detta kommando bestämmer vilken granat (om någon) som släpps när en spelare dör:
 
 - Värde: 0 - Släpp inga granater vid död
-- Värde: 1 - Släpp den bästa och mest värdefulla granaten vid död
+- Värde: 1 - Släpp den mest värdefulla granaten vid död
 
 
 
 **mp_death_drop_gun**
-Detta kommando bestämmer vilket vapen som ska släppas när en spelare dör. Standardinställningen är 1 (det bästa). Välj ett av följande:
+Detta kommando bestämmer vilket vapen som ska släppas när en spelare dör. Standard är 1 (det bästa). Välj ett av följande:
 
 - Värde: 0 - Släpp inga vapen vid död
 - Värde: 1 - Släpp det bästa vapnet vid död
@@ -340,7 +324,7 @@ Detta kommando bestämmer om spelare ska få defuser gratis i början av rundan 
 
 
 
-**mp_force_pick_time** 
+**mp_force_pick_time**
 
 Detta kommando bestämmer hur många sekunder en spelare har på sig att välja lag. Efter tiden väljs lag automatiskt. Standard är 15 sekunder.
 
@@ -348,7 +332,7 @@ Detta kommando bestämmer hur många sekunder en spelare har på sig att välja 
 
 **mp_forcecamera**
 
-Detta kommando bestämmer vilka spelare döda kan titta på. Se argument för scopes:
+Detta kommando bestämmer vilka spelare döda kan titta på (vem de kan spectata). Se argument för scopes:
 
 - Värde: 0 - Döda kan titta på alla spelare
 - Värde: 1 - Döda kan titta på sina lagkamrater
@@ -367,25 +351,25 @@ Detta kommando bestämmer om spelare får gratis rustning och hjälm i början a
 
 **mp_freezetime**
 
-Detta kommando bestämmer hur länge spelare fryses i början av varje runda. Denna frystid ger tid att köpa utrustning och diskutera taktik. Standard är 15 sekunder.
+Detta kommando bestämmer hur länge spelare fryses i början av varje runda. Denna tid ger chans att köpa utrustning och diskutera taktik. Standard är 15 sekunder.
 
 
 
 **mp_friendlyfire**
 
-Detta kommando bestämmer om vänskjuts är på eller av. När vänskjuts är på kan spelare skada sina lagkamrater. Standardinställningen beror på spelläge. I competitive är vänskjuts på, men inte i casual.
+Detta kommando bestämmer om friendly fire är på eller av. När det är på kan spelare skada sina lagkamrater. Standard beror på gamemode. I competitive är friendly fire på, i casual är det av.
 
 
 
 **mp_win_panel_display_time**
 
-Detta kommando bestämmer hur länge (i sekunder) poängtavlan visas mellan rundor. Standard är 3 sekunder.
+Detta kommando bestämmer hur länge (i sekunder) resultattavlan visas mellan rundor. Standard är 3 sekunder.
 
 
 
 **mp_respawn_immunitytime**
 
-Detta kommando bestämmer hur många sekunder spelare är immuna efter respawn. Används i Deathmatch-läget.
+Detta kommando bestämmer hur många sekunder spelare är immuna efter respawn. Används i Deathmatch.
 
 
 
@@ -409,7 +393,7 @@ Detta kommando bestämmer max antal rundor servern spelar.
 
 **mp_roundtime**
 
-Detta kommando bestämmer max antal minuter en runda varar innan den vinns/förloras. Om rundan avbryts efter denna tid vinner CT-laget. Sekunder anges i decimal, t.ex. 1.92 = 1m55s.
+Detta kommando bestämmer max antal minuter en runda varar innan den vinns/förloras. Om rundan avbryts efter denna tid vinner CT. Sekunder anges i decimal, t.ex. 1.92 = 1m55s.
 
 
 
@@ -417,8 +401,8 @@ Detta kommando bestämmer max antal minuter en runda varar innan den vinns/förl
 
 Detta kommando bestämmer om du kan kollidera med lagkamrater:
 
-- Värde: 0 - Kollision avstängd
-- Värde: 1 - Kollision på
+- Värde: 0 - Kollisionsavstängt
+- Värde: 1 - Kollisionspå
 
 
 
@@ -430,19 +414,19 @@ Detta kommando bestämmer hur mycket pengar en spelare får i början av en halv
 
 **mp_timelimit**
 
-Detta kommando bestämmer max speltid i minuter. Standard är avstängt (0).
+Detta kommando bestämmer max speltid i minuter. Standard är av (0).
 
 
 
 **mp_warmuptime**
 
-Detta kommando bestämmer hur lång uppvärmningstiden är innan spelet startar. Tiden anges i sekunder.
+Detta kommando bestämmer hur länge uppvärmningen varar innan spelet startar. Tiden anges i sekunder.
 
 
 
 **sv_allow_votes**
 
-Detta kommando bestämmer om röstning (t.ex. timeout-röstning) är tillåten:
+Detta kommando bestämmer om röstning (t.ex. timeout-röstning) är tillåtet:
 
 - Värde: 0 - Av
 - Värde: 1 - På
@@ -451,10 +435,10 @@ Detta kommando bestämmer om röstning (t.ex. timeout-röstning) är tillåten:
 
 **sv_infinite_ammo**
 
-Detta kommando bestämmer om spelare får oändligt med ammunition:
+Detta kommando bestämmer om spelare får oändligt med ammo:
 
-- Värde: 1 - Oändlig ammunition som kan skjutas utan omladdning.
-- Värde: 2 - Oändligt antal magasin, men magasinet måste laddas om när det är tomt.
+- Värde: 1 - Oändligt ammo som kan skjutas utan omladdning.
+- Värde: 2 - Oändligt antal magasin, men måste ladda om när tomt.
 
 
 
@@ -467,22 +451,5 @@ Detta kommando bestämmer hur många flashbangs en spelare kan bära.
 **ammo_grenade_limit_total**
 
 Detta kommando bestämmer hur många granater en spelare kan bära totalt.
-
-
-
-
-
-### Esport-Ready Konfiguration (ESL Configs)
-
-Vill du använda servern för e-sport är det värt att ladda upp konfigurationerna från ESL. Du kan ladda ner dem från ESL:s officiella sida: [Download](https://play.eslgaming.com/download/26251762/)
-
-Konfigfilerna ska laddas upp till **cfg**-mappen och kan köras i spelet med följande kommandon:
-
-```
-rcon_password DittLösenord // Logga in via rcon för att köra rcon-kommandon
-rcon exec esl5on5
-```
-
-Då laddas alla ESL-kommandovärden och spelet kan starta!
 
 <InlineVoucher />

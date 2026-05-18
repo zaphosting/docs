@@ -1,10 +1,11 @@
 ---
 id: vserver-windows-notepad++
-title: "VPS: Setup Notepad++ on Windows"
+title: "Setup Notepad++ on a Windows Server - Use a Powerful Code and Text Editor"
 description: "Discover how to use Notepad++ for efficient coding with customizable features and fast performance → Learn more now"
 sidebar_label: Install Notepad++
 services:
-- vserver
+  - vserver
+  - dedicated
 ---
 
 import Tabs from '@theme/Tabs';
@@ -67,7 +68,7 @@ These preferences make Notepad++ highly adaptable, whether used for simple text 
 
 ## Conclusion and more Resources
 
-Congratulations! You have now successfully installed and configured Notepad++ on your VPS. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
+Congratulations! You have now successfully installed and configured Notepad++ on your VPS/Dedicated Server. We also recommend taking a look at the following resources, which could provide you with additional help and guidance during your server configuration process
 
 - [notepad-plus-plus.org/](https://notepad-plus-plus.org/) - Official Website
 
