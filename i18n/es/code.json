@@ -2045,12 +2045,69 @@
     "message": "V-Rising"
   },
   "service.price.from": {
-    "message": "desde"
+    "message": "desde",
+    "description": "Price prefix before amount, e.g. \"from 3.90€\""
   },
   "inlineservicelink.cta": {
     "message": "Pedir ahora"
   },
   "inlineservicelink.cta.title": {
     "message": "Pedir ahora"
+  },
+  "service.vserver-service-coolify.title": {
+    "message": "VPS for Coolify",
+    "description": "Product name for the Coolify product"
+  },
+  "service.vserver-service-coolify.path": {
+    "message": "{marketingSite}/{language}/vps-for-coolify/",
+    "description": "URL path for the VPS product"
+  },
+  "service.vserver-service-n8n.title": {
+    "message": "VPS for n8n",
+    "description": "Product name for the n8n product"
+  },
+  "service.vserver-service-n8n.path": {
+    "message": "{marketingSite}/{language}/vps-for-n8n/",
+    "description": "URL path for the VPS product"
+  },
+  "service.dedicated-service-coolify.title": {
+    "message": "Dedicated Server for Coolify",
+    "description": "Product name for the Coolify product"
+  },
+  "service.dedicated-service-coolify.path": {
+    "message": "{marketingSite}/{language}/dedicated-server-for-coolify/",
+    "description": "URL path for the dedicated server product"
+  },
+  "service.dedicated-service-n8n.title": {
+    "message": "Dedicated Server for n8n",
+    "description": "Product name for the n8n product"
+  },
+  "service.gameserver-over-the-top-wwi.title": {
+    "message": "Over The Top: WWI Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-over-the-top-wwi.path": {
+    "message": "{marketingSite}/{language}/over-the-top-wwi-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "service.gameserver-windrose.title": {
+    "message": "Windrose Gameserver",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-windrose.path": {
+    "message": "{marketingSite}/{language}/windrose-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
+  "cards.counter": {
+    "message": "{shown} out of {total} contents are displayed",
+    "description": "Amount of displayed vs. total card items"
+  },
+  "cards.showMore": {
+    "message": "Show more",
+    "description": "Button to display additional cards"
+  },
+  "accordion.noResults": {
+    "message": "No matching questions found.",
+    "description": "Message when no FAQ results are found"
   }
 }

@@ -4337,6 +4337,30 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Subnautica 2",
+      key: "gameserver-subnautica-2",
+      items: [
+        {
+          type: "category",
+          label: "First Steps",
+          key: "gameserver-first-steps-subnautica-2",
+          items: [
+            "subnautica-2-dashboard",
+            "subnautica-2-connect-to-server",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-subnautica-2",
+          items: [
+            "subnautica-2-common-issues",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Subsistence",
       key: "gameserver-subsistence",
       items: [
