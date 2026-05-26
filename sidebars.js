@@ -4354,6 +4354,14 @@ const sidebars = {
           label: "Troubleshooting",
           key: "gameserver-troubleshooting-subnautica-2",
           items: [
+            "subnautica-2-mods",
+          ]
+        },
+        {
+          type: "category",
+          label: "Troubleshooting",
+          key: "gameserver-troubleshooting-subnautica-2",
+          items: [
             "subnautica-2-common-issues",
           ]
         },

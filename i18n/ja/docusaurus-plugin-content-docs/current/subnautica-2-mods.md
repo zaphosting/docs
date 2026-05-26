@@ -2,7 +2,7 @@
 id: subnautica-2-mods
 title: "Subnautica 2: Modsのインストール"
 description: "Subnautica 2のゲームサーバーにLuaまたはC++のModsを正しいフォルダに追加して、自動的に起動時に読み込む方法を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Subnautica 2: Modsのインストール
+sidebar_label: "Modsのインストール"
 services:
  - gameserver-subnautica-2
 ---

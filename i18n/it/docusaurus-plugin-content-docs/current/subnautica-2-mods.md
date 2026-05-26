@@ -2,7 +2,7 @@
 id: subnautica-2-mods
 title: "Subnautica 2: Installare Mod"
 description: "Scopri come installare mod di Subnautica 2 sul tuo gameserver aggiungendo mod Lua o C++ nella cartella corretta, così il tuo server Subnautica le caricherà automaticamente all'avvio. -> Scopri di più ora"
-sidebar_label: Subnautica 2: Installare Mod
+sidebar_label: "Installare Mod"
 services:
  - gameserver-subnautica-2
 ---

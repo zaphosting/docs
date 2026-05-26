@@ -2,7 +2,7 @@
 id: subnautica-2-mods
 title: "Subnautica 2: تثبيت المودات"
 description: "تعلم كيفية تثبيت مودات Subnautica 2 على سيرفر الألعاب الخاص بك عن طريق إضافة مودات Lua أو C++ إلى المجلد الصحيح، ليقوم سيرفر Subnautica بتحميلها تلقائيًا عند بدء التشغيل. -> تعلّم المزيد الآن"
-sidebar_label: Subnautica 2: تثبيت المودات
+sidebar_label: "تثبيت المودات"
 services:
  - gameserver-subnautica-2
 ---

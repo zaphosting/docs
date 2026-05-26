@@ -2,7 +2,7 @@
 id: subnautica-2-mods
 title: "Subnautica 2: Instalacja Modów"
 description: "Dowiedz się, jak zainstalować mody do Subnautica 2 na swoim serwerze gier, dodając mody Lua lub C++ do odpowiedniego folderu, aby Twój serwer Subnautica automatycznie je ładował przy starcie. -> Dowiedz się więcej teraz"
-sidebar_label: Subnautica 2: Instalacja Modów
+sidebar_label: "Instalacja Modów"
 services:
  - gameserver-subnautica-2
 ---
