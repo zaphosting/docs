@@ -1719,6 +1719,19 @@ const servicesMap: serviceMap = {
         }),
         price: `${priceFrom} 5.52€`,
     },
+    'gameserver-subnautica-2': {
+        title: translate({
+            message: 'Subnautica 2 Gameserver',
+            id: 'service.gameserver-subnautica-2.title',
+            description: 'Product name for the gameserver product',
+        }),
+        url: translate({
+            message: '{marketingSite}/{language}/subnautica-2-server-hosting/',
+            id: 'service.gameserver-subnautica-2.path',
+            description: 'URL path for the gameserver product',
+        }),
+        price: `${priceFrom} 5.80€`,
+    },
     'gameserver-sunkenland': {
         title: translate({
             message: 'Sunkenland Gameserver',
