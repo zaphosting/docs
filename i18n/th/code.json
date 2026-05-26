@@ -947,6 +947,14 @@
     "message": "{marketingSite}/subsistence-server-hosting/",
     "description": "URL path for the gameserver product"
   },
+  "service.gameserver-subnautica-2.title": {
+    "message": "เซิร์ฟเวอร์เกม Subnautica 2",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-subnautica-2.path": {
+    "message": "{marketingSite}/subnautica-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
   "service.gameserver-sunkenland.title": {
     "message": "เซิร์ฟเวอร์เกม Sunkenland",
     "description": "Product name for the gameserver product"

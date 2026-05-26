@@ -2,7 +2,9 @@
 id: subnautica-2-connect-to-server
 title: "Subnautica 2: サーバーへの接続方法"
 description: "Subnautica 2サーバーに接続するための正しいサーバー情報の取得方法と、スムーズに接続するための手順を解説します。よくある問題の対処法も紹介。"
-sidebar_label: "Subnautica 2: サーバーへの接続方法"
+sidebar_label: "サーバーへの接続方法"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

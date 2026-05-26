@@ -2,7 +2,9 @@
 id: subnautica-2-dashboard
 title: "Subnautica 2: แดชบอร์ด"
 description: "ค้นพบวิธีจัดการเซิร์ฟเวอร์ Subnautica 2 ของคุณด้วยแดชบอร์ด ZAP-Hosting ตรวจสอบประสิทธิภาพการโฮสต์ และเข้าถึงฟีเจอร์การจัดการเว็บ zap ที่สำคัญ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: "Subnautica 2: แดชบอร์ด"
+sidebar_label: "แดชบอร์ด"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

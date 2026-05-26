@@ -2,7 +2,9 @@
 id: subnautica-2-common-issues
 title: "Subnautica 2: المشاكل الشائعة"
 description: "اكتشف المشاكل الشائعة في سيرفر ألعاب Subnautica 2، مشاكل الاتصال، وحلول الأداء للحفاظ على لعبتك متصلة ومستقرة -> تعلّم المزيد الآن"
-sidebar_label: "Subnautica 2: المشاكل الشائعة"
+sidebar_label: "المشاكل الشائعة"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

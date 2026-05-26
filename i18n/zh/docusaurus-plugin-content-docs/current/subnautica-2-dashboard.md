@@ -2,7 +2,9 @@
 id: subnautica-2-dashboard
 title: "Subnautica 2: 控制面板"
 description: "了解如何通过 ZAP-Hosting 控制面板管理您的 Subnautica 2 服务器，监控主机性能，并访问重要的 ZAP 网络管理功能 -> 立即了解更多"
-sidebar_label: "Subnautica 2: 控制面板"
+sidebar_label: "控制面板"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

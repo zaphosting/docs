@@ -979,6 +979,14 @@
     "message": "{marketingSite}/{language}/生存游戏服务器托管/",
     "description": "URL path for the gameserver product"
   },
+  "service.gameserver-subnautica-2.title": {
+    "message": "Subnautica 2 游戏服务器",
+    "description": "Product name for the gameserver product"
+  },
+  "service.gameserver-subnautica-2.path": {
+    "message": "{marketingSite}/{language}/subnautica-2-server-hosting/",
+    "description": "URL path for the gameserver product"
+  },
   "service.gameserver-sunkenland.title": {
     "message": "沉没之地游戏服务器",
     "description": "Product name for the gameserver product"

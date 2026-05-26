@@ -2,7 +2,9 @@
 id: subnautica-2-dashboard
 title: "Subnautica 2: ダッシュボード"
 description: "ZAP-HostingのダッシュボードでSubnautica 2サーバーの管理方法、ホスティングのパフォーマンス監視、重要なZAPウェブ管理機能へのアクセス方法を解説 -> 今すぐ詳しく学ぶ"
-sidebar_label: "Subnautica 2: ダッシュボード"
+sidebar_label: "ダッシュボード"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,9 @@
 id: subnautica-2-common-issues
 title: "Subnautica 2: Veelvoorkomende problemen"
 description: "Ontdek veelvoorkomende Subnautica 2 gameserver problemen, verbindingsproblemen en prestatieoplossingen om je game online en stabiel te houden -> Leer nu meer"
-sidebar_label: "Subnautica 2: Veelvoorkomende problemen"
+sidebar_label: "Veelvoorkomende problemen"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

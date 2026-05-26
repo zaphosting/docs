@@ -2,7 +2,9 @@
 id: subnautica-2-connect-to-server
 title: "Subnautica 2: Connexion au serveur"
 description: "Apprenez à vous connecter à votre serveur Subnautica 2 en utilisant les bonnes informations serveur et établissez une connexion fluide sans problèmes courants -> Découvrez comment maintenant"
-sidebar_label: "Subnautica 2: Connexion au serveur"
+sidebar_label: "Connexion au serveur"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

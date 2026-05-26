@@ -2,7 +2,9 @@
 id: subnautica-2-dashboard
 title: "Subnautica 2: Tableau de bord"
 description: "Découvrez comment gérer votre serveur Subnautica 2 avec le tableau de bord ZAP-Hosting, surveiller les performances de l’hébergement et accéder aux fonctionnalités importantes de l’administration web zap -> En savoir plus maintenant"
-sidebar_label: "Subnautica 2: Tableau de bord"
+sidebar_label: "Tableau de bord"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

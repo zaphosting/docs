@@ -2,7 +2,9 @@
 id: subnautica-2-dashboard
 title: "Subnautica 2: Panel główny"
 description: "Dowiedz się, jak zarządzać swoim serwerem Subnautica 2 za pomocą panelu głównego ZAP-Hosting, monitorować wydajność hostingu i korzystać z ważnych funkcji administracyjnych zap -> Sprawdź teraz"
-sidebar_label: "Subnautica 2: Panel główny"
+sidebar_label: "Panel główny"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

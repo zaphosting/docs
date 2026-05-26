@@ -2,7 +2,9 @@
 id: subnautica-2-common-issues
 title: "Subnautica 2: 常见问题"
 description: "了解 Subnautica 2 游戏服务器的常见问题、连接故障和性能修复方法，保持游戏在线且稳定 -> 立即了解更多"
-sidebar_label: "Subnautica 2: 常见问题"
+sidebar_label: "常见问题"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

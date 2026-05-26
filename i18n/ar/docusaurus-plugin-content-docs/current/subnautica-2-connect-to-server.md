@@ -2,7 +2,9 @@
 id: subnautica-2-connect-to-server
 title: "Subnautica 2: الاتصال بالسيرفر"
 description: "تعرف على كيفية الاتصال بسيرفر Subnautica 2 الخاص بك باستخدام تفاصيل السيرفر الصحيحة وإنشاء اتصال سلس بدون مشاكل شائعة -> تعلّم المزيد الآن"
-sidebar_label: "Subnautica 2: الاتصال بالسيرفر"
+sidebar_label: "الاتصال بالسيرفر"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

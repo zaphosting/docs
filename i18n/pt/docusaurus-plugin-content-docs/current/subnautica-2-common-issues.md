@@ -2,7 +2,9 @@
 id: subnautica-2-common-issues
 title: "Subnautica 2: Problemas Comuns"
 description: "Descubra problemas comuns no servidor de jogos Subnautica 2, problemas de conexão e correções de desempenho para manter seu jogo online e estável -> Saiba mais agora"
-sidebar_label: "Subnautica 2: Problemas Comuns"
+sidebar_label: "Problemas Comuns"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

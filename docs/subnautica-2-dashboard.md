@@ -2,7 +2,9 @@
 id: subnautica-2-dashboard
 title: "Subnautica 2: Dashboard"
 description: "Discover how to manage your Subnautica 2 server with the ZAP-Hosting dashboard, monitor hosting performance, and access important zap web administration features -> Learn more now"
-sidebar_label: "Subnautica 2: Dashboard"
+sidebar_label: "Dashboard"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

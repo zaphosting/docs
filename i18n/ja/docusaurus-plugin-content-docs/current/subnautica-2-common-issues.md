@@ -2,7 +2,9 @@
 id: subnautica-2-common-issues
 title: "Subnautica 2: よくある問題"
 description: "Subnautica 2ゲームサーバーのよくある問題、接続トラブル、パフォーマンス改善方法を解説し、ゲームを安定稼働させる方法を紹介します -> 今すぐ詳しく学ぶ"
-sidebar_label: "Subnautica 2: よくある問題"
+sidebar_label: "よくある問題"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

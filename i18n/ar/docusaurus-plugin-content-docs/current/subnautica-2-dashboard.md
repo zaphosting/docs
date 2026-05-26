@@ -2,7 +2,9 @@
 id: subnautica-2-dashboard
 title: "Subnautica 2: لوحة المعلومات"
 description: "اكتشف كيفية إدارة سيرفرك Subnautica 2 باستخدام لوحة معلومات ZAP-Hosting، راقب أداء التأجير، وادخل إلى ميزات إدارة الويب المهمة -> تعلّم المزيد الآن"
-sidebar_label: "Subnautica 2: لوحة المعلومات"
+sidebar_label: "لوحة المعلومات"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

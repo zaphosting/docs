@@ -2,7 +2,9 @@
 id: subnautica-2-connect-to-server
 title: "Subnautica 2: 连接服务器"
 description: "了解如何使用正确的服务器信息连接到您的 Subnautica 2 服务器，并顺利建立连接，避免常见问题 -> 立即了解更多"
-sidebar_label: "Subnautica 2: 连接服务器"
+sidebar_label: "连接服务器"
+services:
+  - gameserver-subnautica-2
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
