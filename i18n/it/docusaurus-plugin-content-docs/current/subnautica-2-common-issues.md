@@ -339,4 +339,22 @@ Usa questa checklist per ridurre la probabilità di problemi futuri:
 | --- | --- |
 | Crea backup regolari | Protegge il mondo e la configurazione da perdite di dati |
 | Aggiorna il server con attenzione | Riduce bug e problemi di versione non corrispondente |
-| Testa le modific
+| Testa le modifiche una alla volta | Facilita la risoluzione dei problemi se qualcosa si rompe |
+| Monitora le prestazioni dopo le modifiche | Aiuta a individuare presto l'aumento dell'uso di CPU o memoria |
+| Mantieni installato solo il contenuto necessario | Riduce i rischi di compatibilità e prestazioni |
+
+### Usa i backup regolarmente
+
+I backup regolari possono farti risparmiare molto tempo e prevenire la perdita permanente di dati. Se una modifica alla configurazione, un aggiornamento o un problema del mondo causa problemi, puoi ripristinare uno stato funzionante noto invece di ricostruire tutto manualmente.
+
+Puoi usare la [soluzione di backup](gameserver-backups.md) disponibile per creare backup manuali o programmati per il tuo gameserver.
+
+:::tip Backup prima di modifiche rischiose
+Crea un backup prima di aggiornare il server, modificare file importanti o aggiungere nuove mod e contenuti. Questo ti offre un punto di rollback sicuro se compaiono nuovi problemi.
+:::
+
+<InlineVoucher />
+
+## Conclusione
+
+Congratulazioni, hai risolto con successo i problemi comuni sul tuo gameserver Subnautica 2. Per ulteriori domande o assistenza, non esitare a contattare il nostro team di supporto, disponibile ogni giorno per aiutarti!

@@ -337,4 +337,24 @@ Använd följande checklista för att minska risken för framtida problem:
 
 | Uppgift | Varför du bör göra det |
 | --- | --- |
-| Skapa
+| Skapa regelbundna säkerhetskopior | Skyddar din värld och konfiguration från dataförlust |
+| Uppdatera servern försiktigt | Minskar buggar och versionsmatchningsproblem |
+| Testa ändringar en i taget | Gör felsökning enklare om något går sönder |
+| Övervaka prestanda efter ändringar | Hjälper till att upptäcka ökad CPU- eller minnesanvändning tidigt |
+| Behåll endast nödvändigt innehåll installerat | Minskar kompatibilitets- och prestandarisker |
+
+### Använd säkerhetskopior regelbundet
+
+Regelbundna säkerhetskopior kan spara mycket tid och förhindra permanent dataförlust. Om en konfigurationsändring, uppdatering eller världsproblem orsakar problem kan du återställa ett känt fungerande tillstånd istället för att bygga om allt manuellt.
+
+Du kan använda den tillgängliga [säkerhetskopieringslösningen](gameserver-backups.md) för att skapa manuella eller schemalagda säkerhetskopior för din spelserver.
+
+:::tip Säkerhetskopiera före riskfyllda ändringar
+Skapa en säkerhetskopia innan du uppdaterar servern, redigerar viktiga filer eller lägger till nya mods och innehåll. Detta ger en säker återställningspunkt om nya problem uppstår.
+:::
+
+<InlineVoucher />
+
+## Slutsats
+
+Grattis, du har framgångsrikt felsökt vanliga problem på din Subnautica 2-spelserver. För ytterligare frågor eller hjälp, tveka inte att kontakta vårt supportteam som finns tillgängligt dagligen för att hjälpa dig!
