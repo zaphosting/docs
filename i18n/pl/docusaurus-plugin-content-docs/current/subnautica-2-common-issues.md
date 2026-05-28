@@ -278,4 +278,83 @@ Jeśli wszyscy gracze rozłączają się jednocześnie, problem zwykle dotyczy s
 
 Serwery gier mogą być czasem celem złośliwego ruchu, w tym ataków Distributed Denial of Service. Mogą one powodować lagi, problemy z połączeniem lub tymczasową niedostępność.
 
-ZAP-Hosting zapewnia ochronę DDoS dla hostowanych usług, co pomaga zm
+ZAP-Hosting zapewnia ochronę DDoS dla hostowanych usług, co pomaga zmniejszyć wpływ typowych i zaawansowanych wzorców ataków. Jeśli jednak podejrzewasz, że Twój serwer Subnautica 2 jest atakowany, skontaktuj się z pomocą techniczną i podaj jak najwięcej szczegółów, na przykład:
+
+- kiedy problem się zaczął
+- czy wszyscy gracze są dotknięci
+- czy serwer staje się całkowicie niedostępny
+- czy problem powtarza się o określonych porach
+
+:::info Wbudowana ochrona
+Łagodzenie DDoS odbywa się po stronie infrastruktury. Jeśli podejrzewasz złośliwy ruch, zwykle nie musisz najpierw zmieniać ustawień serwera gry. Zamiast tego zbierz objawy i skontaktuj się z pomocą techniczną.
+:::
+
+</details>
+
+### Problemy serwera związane z rozgrywką
+
+Niektóre problemy nie są bezpośrednimi awariami ani błędami sieci, ale nadal wpływają na to, czy gra działa poprawnie dla graczy.
+
+<details>
+  <summary>Niezgodność wersji między klientem a serwerem</summary>
+
+Jeśli gracze nie mogą dołączyć po aktualizacji gry, serwer i klient gry mogą działać na różnych wersjach. Jest to szczególnie częste tuż po łatkach.
+
+Aby to rozwiązać:
+
+1. Potwierdź, że serwer został zaktualizowany
+2. Uruchom ponownie serwer po aktualizacji
+3. Upewnij się, że gracze zaktualizowali klienta gry
+4. Przetestuj połączenie ponownie
+
+Jeśli tylko niektórzy gracze mogą dołączyć, najpierw porównaj ich wersję gry z wersją serwera.
+
+</details>
+
+<details>
+  <summary>Zmiany nie są stosowane po edycji ustawień</summary>
+
+Jeśli zmieniłeś wartości konfiguracji, ale w grze nic się nie zmienia, serwer może nadal używać danych w pamięci podręcznej lub niezmienionych danych runtime, albo edytowany plik może nie być aktywny.
+
+Sprawdź:
+
+- czy edytowany został właściwy plik
+- czy wartości zostały pomyślnie zapisane
+- czy serwer został w pełni uruchomiony ponownie
+- czy zmienione ustawienie jest obsługiwane przez zainstalowaną wersję
+
+Jeśli dokładne zachowanie konfiguracji jest niejasne dla Twojej obecnej wersji Subnautica 2, unikaj zgadywania i testuj zmiany pojedynczo, aby jasno określić, co ma zastosowanie.
+
+</details>
+
+## Środki zapobiegawcze
+
+Zapobieganie problemom jest zwykle łatwiejsze niż ich naprawianie po tym, jak wpłyną na graczy. Kilka regularnych kroków konserwacyjnych może znacząco poprawić stabilność.
+
+### Zalecana lista kontrolna konserwacji
+
+Użyj poniższej listy kontrolnej, aby zmniejszyć ryzyko przyszłych problemów:
+
+| Zadanie | Dlaczego warto to robić |
+| --- | --- |
+| Twórz regularne kopie zapasowe | Chroni Twój świat i konfigurację przed utratą danych |
+| Aktualizuj serwer ostrożnie | Zmniejsza błędy i problemy z niezgodnością wersji |
+| Testuj zmiany pojedynczo | Ułatwia rozwiązywanie problemów, jeśli coś się zepsuje |
+| Monitoruj wydajność po zmianach | Pomaga wcześnie wykryć rosnące użycie CPU lub pamięci |
+| Instaluj tylko niezbędną zawartość | Zmniejsza ryzyko kompatybilności i wydajności |
+
+### Regularnie korzystaj z kopii zapasowych
+
+Regularne kopie zapasowe mogą zaoszczędzić dużo czasu i zapobiec trwałej utracie danych. Jeśli zmiana konfiguracji, aktualizacja lub problem ze światem powodują problemy, możesz przywrócić znany działający stan zamiast ręcznie odbudowywać wszystko.
+
+Możesz użyć dostępnego [rozwiązania kopii zapasowych](gameserver-backups.md), aby tworzyć ręczne lub zaplanowane kopie zapasowe serwera gier.
+
+:::tip Kopia zapasowa przed ryzykownymi zmianami
+Utwórz kopię zapasową przed aktualizacją serwera, edycją ważnych plików lub dodaniem nowych modów i zawartości. Daje to bezpieczny punkt powrotu, jeśli pojawią się nowe problemy.
+:::
+
+<InlineVoucher />
+
+## Podsumowanie
+
+Gratulacje, pomyślnie rozwiązałeś typowe problemy na swoim serwerze gier Subnautica 2. W razie dalszych pytań lub pomocy skontaktuj się z naszym zespołem wsparcia, który jest dostępny codziennie!
