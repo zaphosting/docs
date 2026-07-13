@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.10.1",
-    "@docusaurus/types": "^3.10.1",
+    "@docusaurus/types": "^3.10.2",
     "baseline-browser-mapping": "^2.10.40"
   },
   "browserslist": {
