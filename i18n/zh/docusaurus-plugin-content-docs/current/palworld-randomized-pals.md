@@ -2,7 +2,7 @@
 id: palworld-randomized-pals
 title: "Palworld：随机化伙伴"
 description: "了解如何通过编辑服务器配置启用 Palworld 中的随机化伙伴，包括随机器类型和种子设置。-> 立即了解更多"
-sidebar_label: "Palworld：随机化伙伴"
+sidebar_label: "随机化伙伴"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-enable-global-palbox
 title: "Palworld：启用全球 Palbox"
 description: "了解如何在您的专用服务器上启用 Palworld 全球 Palbox 服务器设置，实现全球 Palbox 的导入和导出。-> 立即了解更多"
-sidebar_label: "Palworld：启用全球 Palbox"
+sidebar_label: "启用全球 Palbox"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

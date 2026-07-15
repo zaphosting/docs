@@ -2,7 +2,7 @@
 id: palworld-troubleshooting
 title: "Palworld : Dépannage"
 description: "Résolvez les problèmes courants des serveurs Palworld tels que les soucis de mise à jour Steam, les délais de connexion et les erreurs Steam sur votre serveur de jeux. -> En savoir plus maintenant"
-sidebar_label: "Palworld : Dépannage"
+sidebar_label: "Dépannage"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

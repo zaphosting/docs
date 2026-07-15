@@ -2,7 +2,7 @@
 id: palworld-change-server-type
 title: "Palworld：更改服务器类型"
 description: "了解如何在 Palworld 服务器中切换 Linux 和 Windows 服务器类型，更新正确的配置路径，并正确应用更改以确保模组兼容。-> 立即了解更多"
-sidebar_label: "Palworld：更改服务器类型"
+sidebar_label: "更改服务器类型"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

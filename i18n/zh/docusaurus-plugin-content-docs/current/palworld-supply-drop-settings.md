@@ -2,7 +2,7 @@
 id: palworld-supply-drop-settings
 title: "Palworld：空投设置"
 description: "了解如何通过手动编辑 SupplyDropSpan 设置来更改 Palworld 游戏服务器上的空投频率。-> 立即了解更多"
-sidebar_label: "Palworld：空投设置"
+sidebar_label: "空投设置"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

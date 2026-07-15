@@ -2,7 +2,7 @@
 id: palworld-troubleshooting
 title: "Palworld：故障排除"
 description: "修复常见的 Palworld 服务器问题，如 Palworld Steam 更新故障、连接超时和游戏服务器上的 Steam 错误。-> 立即了解更多"
-sidebar_label: "Palworld：故障排除"
+sidebar_label: "故障排除"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

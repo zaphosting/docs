@@ -2,7 +2,7 @@
 id: palworld-pal-damage-multiplier
 title: "Palworld：Pal伤害倍率"
 description: "了解如何通过编辑服务器上的Pal伤害设置来更改Palworld中Pal的伤害倍率。-> 立即了解更多"
-sidebar_label: "Palworld：Pal伤害倍率"
+sidebar_label: "Pal伤害倍率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

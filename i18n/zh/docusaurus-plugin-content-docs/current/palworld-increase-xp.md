@@ -2,7 +2,7 @@
 id: palworld-increase-xp
 title: "Palworld：提升经验值"
 description: "了解如何通过编辑 Palworld 服务器配置并正确调整经验值倍率来提升游戏中的经验值获取。-> 立即了解更多"
-sidebar_label: "Palworld：提升经验值"
+sidebar_label: "提升经验值"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

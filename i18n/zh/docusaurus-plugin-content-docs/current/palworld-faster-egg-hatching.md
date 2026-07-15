@@ -2,7 +2,7 @@
 id: palworld-faster-egg-hatching
 title: "Palworld：加快孵蛋速度"
 description: "了解如何通过编辑 Palworld 服务器的孵蛋设置来缩短孵蛋时间，实现更快的孵化效果。-> 立即了解更多"
-sidebar_label: "Palworld：加快孵蛋速度"
+sidebar_label: "加快孵蛋速度"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

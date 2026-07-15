@@ -2,7 +2,7 @@
 id: palworld-set-a-password
 title: "Palworld：设置密码"
 description: "了解如何通过手动编辑 Palworld 游戏配置来设置服务器密码，并正确应用密码更改。-> 立即了解更多"
-sidebar_label: "Palworld：设置密码"
+sidebar_label: "设置密码"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

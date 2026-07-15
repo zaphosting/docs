@@ -2,7 +2,7 @@
 id: palworld-max-dropped-items
 title: "Palworld：最大掉落物品数量"
 description: "了解如何通过编辑正确的配置值来更改 Palworld 服务器上的掉落物品限制和物品消失设置。-> 立即了解更多"
-sidebar_label: "Palworld：最大掉落物品数量"
+sidebar_label: "最大掉落物品数量"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

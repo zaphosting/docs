@@ -2,7 +2,7 @@
 id: palworld-reset-server
 title: "Palworld：重置服务器"
 description: "了解如何在 ZAP 面板中重置你的 Palworld 服务器，清楚哪些设置会被删除，并安全恢复默认服务器数据。-> 立即了解更多"
-sidebar_label: "Palworld：重置服务器"
+sidebar_label: "重置服务器"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

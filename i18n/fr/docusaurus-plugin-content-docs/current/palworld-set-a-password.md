@@ -2,7 +2,7 @@
 id: palworld-set-a-password
 title: "Palworld : Définir un mot de passe"
 description: "Apprenez à définir un mot de passe pour votre serveur Palworld en modifiant manuellement la configuration du jeu et en appliquant correctement le changement. -> En savoir plus maintenant"
-sidebar_label: "Palworld : Définir un mot de passe"
+sidebar_label: "Définir un mot de passe"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

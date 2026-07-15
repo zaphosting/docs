@@ -2,7 +2,7 @@
 id: palworld-performance-guide
 title: "Palworld：性能指南"
 description: "通过手动配置更改提升 Palworld 服务器性能，减少性能下降，降低服务器负载。-> 立即了解更多"
-sidebar_label: "Palworld：性能指南"
+sidebar_label: "性能指南"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

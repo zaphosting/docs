@@ -2,7 +2,7 @@
 id: palworld-player-damage-and-defense
 title: "Palworld：玩家伤害与防御"
 description: "了解如何通过编辑服务器配置和正确调整伤害倍率来更改 Palworld 中的玩家伤害和防御设置。-> 立即了解更多"
-sidebar_label: "Palworld：玩家伤害与防御"
+sidebar_label: "玩家伤害与防御"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

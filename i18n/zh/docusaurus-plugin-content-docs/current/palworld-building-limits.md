@@ -2,7 +2,7 @@
 id: palworld-building-limits
 title: "Palworld：建筑限制"
 description: "了解如何通过手动编辑服务器配置来更改 Palworld 的建筑限制、基地建筑规则和区域限制。-> 立即了解更多"
-sidebar_label: "Palworld：建筑限制"
+sidebar_label: "建筑限制"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

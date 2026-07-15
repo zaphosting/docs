@@ -2,7 +2,7 @@
 id: palworld-reset-world
 title: "Palworld：重置世界"
 description: "了解如何通过删除当前存档数据，在同一服务器上重置你的 Palworld 游戏服务器世界并开始新的 Palworld 世界地图。-> 立即了解更多"
-sidebar_label: "Palworld：重置世界"
+sidebar_label: "重置世界"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

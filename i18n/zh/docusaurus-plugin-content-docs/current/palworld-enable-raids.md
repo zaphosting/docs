@@ -2,7 +2,7 @@
 id: palworld-enable-raids
 title: "Palworld：启用突袭"
 description: "了解如何通过编辑正确的配置设置来启用或禁用 Palworld 服务器上的突袭敌人攻击。-> 立即了解更多"
-sidebar_label: "Palworld：启用突袭"
+sidebar_label: "启用突袭"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

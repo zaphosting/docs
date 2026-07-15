@@ -2,7 +2,7 @@
 id: palworld-structure-damage-rate
 title: "Palworld：建筑物伤害倍率"
 description: "了解如何通过安全且正确地编辑服务器配置来更改 Palworld 建筑物伤害和建筑物腐蚀速率。-> 立即了解更多"
-sidebar_label: "Palworld：建筑物伤害倍率"
+sidebar_label: "建筑物伤害倍率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

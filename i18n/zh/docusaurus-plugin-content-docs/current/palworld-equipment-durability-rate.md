@@ -2,7 +2,7 @@
 id: palworld-equipment-durability-rate
 title: "Palworld：装备耐久度倍率"
 description: "了解如何通过编辑正确的配置值来更改装备耐久度，并调整您 Palworld 服务器上的装备耐久度倍率。-> 立即了解更多"
-sidebar_label: "Palworld：装备耐久度倍率"
+sidebar_label: "装备耐久度倍率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

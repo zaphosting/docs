@@ -2,7 +2,7 @@
 id: palworld-enemy-drop-rate
 title: "Palworld : Taux de Drop des Ennemis"
 description: "Apprenez à modifier le taux de drop des ennemis dans Palworld sur votre serveur de jeux Palworld en éditant la bonne valeur de configuration pour un meilleur équilibre du loot. -> En savoir plus maintenant"
-sidebar_label: "Palworld : Taux de Drop des Ennemis"
+sidebar_label: "Taux de Drop des Ennemis"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

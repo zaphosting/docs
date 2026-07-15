@@ -2,7 +2,7 @@
 id: palworld-reset-world
 title: "Palworld : Réinitialiser le Monde"
 description: "Apprenez à réinitialiser le monde de votre serveur de jeux Palworld en supprimant les données de sauvegarde actuelles et en démarrant une nouvelle carte du monde Palworld sur le même serveur. -> En savoir plus maintenant"
-sidebar_label: "Palworld : Réinitialiser le Monde"
+sidebar_label: "Réinitialiser le Monde"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-spectate-mode
 title: "Palworld：观战模式"
 description: "了解如何在 Palworld 中使用观战模式，设置所需的管理员密码，并在您的服务器上进入观战模式。-> 立即了解更多"
-sidebar_label: "Palworld：观战模式"
+sidebar_label: "观战模式"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

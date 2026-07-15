@@ -2,7 +2,7 @@
 id: palworld-enable-hardcore-mode
 title: "Palworld：启用硬核模式"
 description: "了解如何通过编辑正确的服务器配置文件，设置 True 或 False 值，并安全应用永久死亡选项来启用 Palworld 的硬核模式。-> 立即了解更多"
-sidebar_label: "Palworld：启用硬核模式"
+sidebar_label: "启用硬核模式"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

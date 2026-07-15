@@ -2,7 +2,7 @@
 id: palworld-change-hp-regeneration
 title: "Palworld：更改HP回复"
 description: "了解如何通过编辑服务器上的玩家和Pal回复设置来更改Palworld中的HP回复，实现更快、更慢或禁用的治疗 -> 立即了解更多"
-sidebar_label: "Palworld：更改HP回复"
+sidebar_label: "更改HP回复"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

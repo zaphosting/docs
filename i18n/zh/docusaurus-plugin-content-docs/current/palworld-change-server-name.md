@@ -2,7 +2,7 @@
 id: palworld-change-server-name
 title: "Palworld：更改服务器名称"
 description: "了解如何通过手动编辑正确的配置文件来更改您的 Palworld 服务器名称以及更新玩家看到的服务器浏览器名称。-> 立即了解更多"
-sidebar_label: "Palworld：更改服务器名称"
+sidebar_label: "更改服务器名称"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

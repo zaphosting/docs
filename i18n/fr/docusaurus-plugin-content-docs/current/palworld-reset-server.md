@@ -2,7 +2,7 @@
 id: palworld-reset-server
 title: "Palworld : Réinitialiser le serveur"
 description: "Apprenez à réinitialiser votre serveur Palworld dans l’interface web ZAP, comprenez quelles configurations sont supprimées, et restaurez les données par défaut du serveur en toute sécurité. -> En savoir plus maintenant"
-sidebar_label: "Palworld : Réinitialiser le serveur"
+sidebar_label: "Réinitialiser le serveur"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

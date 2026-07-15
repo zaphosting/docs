@@ -2,7 +2,7 @@
 id: palworld-enemy-drop-rate
 title: "Palworld：敌人掉落率"
 description: "了解如何通过编辑正确的配置值来更改 Palworld 游戏服务器上的敌人掉落率，实现更好的战利品平衡。-> 立即了解更多"
-sidebar_label: "Palworld：敌人掉落率"
+sidebar_label: "敌人掉落率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

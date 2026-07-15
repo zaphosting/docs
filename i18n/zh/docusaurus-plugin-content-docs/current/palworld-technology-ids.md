@@ -2,7 +2,7 @@
 id: palworld-technology-ids
 title: "Palworld：科技ID"
 description: "了解如何管理Palworld科技ID，禁用特定科技条目，并安全编辑正确的服务器配置。-> 立即了解更多"
-sidebar_label: "Palworld：科技ID"
+sidebar_label: "科技ID"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

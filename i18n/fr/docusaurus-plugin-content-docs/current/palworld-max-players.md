@@ -2,7 +2,7 @@
 id: palworld-max-players
 title: "Palworld : Nombre max de joueurs"
 description: "Apprenez à modifier le nombre max de joueurs sur votre serveur de jeux Palworld en éditant le bon fichier de config dans l’interface ZAP. -> En savoir plus maintenant"
-sidebar_label: "Palworld : Nombre max de joueurs"
+sidebar_label: "Nombre max de joueurs"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

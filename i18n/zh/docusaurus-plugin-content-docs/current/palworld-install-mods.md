@@ -2,7 +2,7 @@
 id: palworld-install-mods
 title: "Palworld：安装 Mod"
 description: "了解如何在您的专用服务器上安装 Palworld Mod，包括 UE4SS Palworld、Lua Mod 和 .pak Mod。-> 立即了解更多"
-sidebar_label: "Palworld：安装 Mod"
+sidebar_label: "安装 Mod"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

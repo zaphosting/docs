@@ -2,7 +2,7 @@
 id: palworld-host-character-transfer
 title: "Palworld：主机角色转移"
 description: "了解如何使用 Palworld Save Tools 和正确的存档文件，将你的 Palworld 主机角色从单人或合作存档转移到专用服务器。-> 立即了解更多"
-sidebar_label: "Palworld：主机角色转移"
+sidebar_label: "主机角色转移"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

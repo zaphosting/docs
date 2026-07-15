@@ -2,7 +2,7 @@
 id: palworld-max-guild-bases
 title: "Palworld：最大公会基地数"
 description: "了解如何通过编辑服务器上的 BaseCampMaxNumInGuild 值来更改 Palworld 中的最大公会基地设置。-> 立即了解更多"
-sidebar_label: "Palworld：最大公会基地数"
+sidebar_label: "最大公会基地数"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
