@@ -2,7 +2,7 @@
 id: palworld-change-day-night-speed
 title: "Palworld: 昼夜の速度変更"
 description: "Palworldでサーバーの昼夜サイクル設定を編集して昼夜の速度を変更する方法を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: 昼夜の速度変更
+sidebar_label: "昼夜の速度変更"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

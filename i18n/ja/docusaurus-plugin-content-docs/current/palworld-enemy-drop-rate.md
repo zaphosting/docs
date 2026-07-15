@@ -2,7 +2,7 @@
 id: palworld-enemy-drop-rate
 title: "Palworld: 敵のドロップ率"
 description: "Palworldゲームサーバーで敵のドロップ率を変更する方法を、正しい設定値を編集してより良い戦利品バランスを実現する手順で解説します。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: 敵のドロップ率
+sidebar_label: "敵のドロップ率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

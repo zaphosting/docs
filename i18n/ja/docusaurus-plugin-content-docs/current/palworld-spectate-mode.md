@@ -2,7 +2,7 @@
 id: palworld-spectate-mode
 title: "Palworld: 観戦モード"
 description: "Palworldの観戦モードの使い方、必要な管理者パスワードの設定方法、サーバーでの観戦モードの入り方を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: 観戦モード
+sidebar_label: "観戦モード"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

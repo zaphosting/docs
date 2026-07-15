@@ -2,7 +2,7 @@
 id: palworld-reset-world
 title: "Palworld: إعادة تعيين العالم"
 description: "تعلم كيفية إعادة تعيين عالم سيرفر ألعاب Palworld الخاص بك عن طريق إزالة بيانات الحفظ الحالية وبدء خريطة عالم جديدة على نفس السيرفر. -> تعرّف على المزيد الآن"
-sidebar_label: Palworld: إعادة تعيين العالم
+sidebar_label: "إعادة تعيين العالم"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

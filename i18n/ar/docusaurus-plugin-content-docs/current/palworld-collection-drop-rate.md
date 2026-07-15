@@ -2,7 +2,7 @@
 id: palworld-collection-drop-rate
 title: "Palworld: معدل سقوط الموارد"
 description: "تعلم كيفية تعديل إعدادات جمع الموارد في Palworld، زيادة الموارد المجمعة، وتسريع إعادة ظهور الموارد على سيرفر ألعاب Palworld الخاص بك. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: معدل سقوط الموارد
+sidebar_label: "معدل سقوط الموارد"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

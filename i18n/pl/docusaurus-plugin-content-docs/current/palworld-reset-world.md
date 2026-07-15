@@ -2,7 +2,7 @@
 id: palworld-reset-world
 title: "Palworld: Resetowanie Świata"
 description: "Dowiedz się, jak zresetować świat na swoim serwerze gier Palworld, usuwając aktualne dane zapisu i rozpoczynając nową mapę świata Palworld na tym samym serwerze. -> Dowiedz się więcej teraz"
-sidebar_label: Palworld: Resetowanie Świata
+sidebar_label: "Resetowanie Świata"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

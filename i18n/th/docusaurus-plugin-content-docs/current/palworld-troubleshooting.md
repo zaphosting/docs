@@ -2,7 +2,7 @@
 id: palworld-troubleshooting
 title: "Palworld: การแก้ไขปัญหา"
 description: "แก้ไขปัญหาเซิร์ฟเวอร์ Palworld ทั่วไป เช่น ปัญหาอัปเดต Palworld Steam, การเชื่อมต่อหมดเวลา และข้อผิดพลาด Steam บนเซิร์ฟเวอร์เกมของคุณ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: การแก้ไขปัญหา
+sidebar_label: "การแก้ไขปัญหา"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

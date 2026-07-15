@@ -2,7 +2,7 @@
 id: palworld-enable-fast-travel
 title: "Palworld: Fast Travel Inschakelen"
 description: "Leer hoe je fast travel op je Palworld-server configureert, inclusief fast travel alleen vanaf bases en handmatige config-aanpassingen. -> Leer nu meer"
-sidebar_label: Palworld: Fast Travel Inschakelen
+sidebar_label: "Fast Travel Inschakelen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

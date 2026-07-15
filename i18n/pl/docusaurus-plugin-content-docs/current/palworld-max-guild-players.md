@@ -2,7 +2,7 @@
 id: palworld-max-guild-players
 title: "Palworld: Maksymalna liczba graczy w gildii"
 description: "Dowiedz się, jak zmienić limit graczy w gildii w Palworld, edytując ustawienie maksymalnej liczby graczy w gildii na swoim serwerze. -> Dowiedz się więcej teraz"
-sidebar_label: Palworld: Maksymalna liczba graczy w gildii
+sidebar_label: "Maksymalna liczba graczy w gildii"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

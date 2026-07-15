@@ -2,7 +2,7 @@
 id: palworld-pal-spawn-rate
 title: "Palworld: Frequenza di Spawn dei Pal"
 description: "Scopri come modificare la frequenza di spawn dei Pal in Palworld modificando l'impostazione di spawn nel tuo server -> Scopri di più ora"
-sidebar_label: Palworld: Frequenza di Spawn dei Pal
+sidebar_label: "Frequenza di Spawn dei Pal"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

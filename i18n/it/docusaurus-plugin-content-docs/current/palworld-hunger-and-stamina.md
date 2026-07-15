@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld: Fame e Stamina"
 description: "Scopri come regolare la velocità di consumo di fame e stamina per giocatori e Pal modificando la configurazione del tuo server. -> Scopri di più ora"
-sidebar_label: Palworld: Fame e Stamina
+sidebar_label: "Fame e Stamina"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

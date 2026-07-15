@@ -2,7 +2,7 @@
 id: palworld-structure-damage-rate
 title: "Palworld: อัตราความเสียหายของโครงสร้าง"
 description: "เรียนรู้วิธีเปลี่ยนอัตราความเสียหายและการเสื่อมสภาพของโครงสร้างใน Palworld โดยแก้ไขการตั้งค่าเซิร์ฟเวอร์เกมอย่างปลอดภัยและถูกต้อง -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: อัตราความเสียหายของโครงสร้าง
+sidebar_label: "อัตราความเสียหายของโครงสร้าง"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

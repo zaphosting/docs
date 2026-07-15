@@ -2,7 +2,7 @@
 id: palworld-spectate-mode
 title: "Palworld: Tryb obserwatora"
 description: "Dowiedz się, jak korzystać z trybu obserwatora w Palworld, ustawić wymagane hasło administratora i wejść w tryb obserwatora na swoim serwerze. -> Dowiedz się więcej"
-sidebar_label: Palworld: Tryb obserwatora
+sidebar_label: "Tryb obserwatora"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

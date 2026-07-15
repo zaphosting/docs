@@ -2,7 +2,7 @@
 id: palworld-max-workers
 title: "Palworld: Maksymalna liczba pracowników"
 description: "Dowiedz się, jak zmienić maksymalną liczbę pracowników w Palworld, edytując BaseCampWorkerMaxNum, wraz z domyślnymi i bezpiecznymi limitami vanilla dla pracowników na bazę. -> Sprawdź teraz"
-sidebar_label: Palworld: Maksymalna liczba pracowników
+sidebar_label: "Maksymalna liczba pracowników"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

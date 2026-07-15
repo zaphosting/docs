@@ -2,7 +2,7 @@
 id: palworld-max-workers
 title: "Palworld: الحد الأقصى للعمال"
 description: "تعلم كيفية تغيير إعداد الحد الأقصى للعمال في Palworld عن طريق تعديل BaseCampWorkerMaxNum، بما في ذلك الحد الافتراضي والحدود الآمنة للعمال لكل قاعدة. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: الحد الأقصى للعمال
+sidebar_label: "الحد الأقصى للعمال"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

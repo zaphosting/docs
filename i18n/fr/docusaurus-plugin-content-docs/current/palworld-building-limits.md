@@ -2,7 +2,7 @@
 id: palworld-building-limits
 title: "Palworld : Limites de Construction"
 description: "Apprenez à modifier les limites de construction, les règles de base et les restrictions de zone dans Palworld en éditant manuellement la configuration de votre serveur. -> En savoir plus maintenant"
-sidebar_label: Palworld : Limites de Construction
+sidebar_label: "Palworld : Limites de Construction"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

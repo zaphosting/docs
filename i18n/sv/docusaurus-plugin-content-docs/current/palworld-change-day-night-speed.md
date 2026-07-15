@@ -2,7 +2,7 @@
 id: palworld-change-day-night-speed
 title: "Palworld: Ändra dag- och natthastighet"
 description: "Lär dig hur du ändrar dag- och natthastigheten i Palworld genom att redigera dagcykelinställningarna på din server. -> Läs mer nu"
-sidebar_label: Palworld: Ändra dag- och natthastighet
+sidebar_label: "Ändra dag- och natthastighet"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

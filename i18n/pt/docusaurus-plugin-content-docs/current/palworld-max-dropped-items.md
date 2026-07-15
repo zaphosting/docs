@@ -2,7 +2,7 @@
 id: palworld-max-dropped-items
 title: "Palworld: Máximo de Itens Caídos"
 description: "Aprenda como alterar os limites de itens caídos e as configurações de desaparecimento de itens no seu servidor de Palworld editando os valores corretos no arquivo de configuração. -> Saiba mais agora"
-sidebar_label: Palworld: Máximo de Itens Caídos
+sidebar_label: "Máximo de Itens Caídos"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

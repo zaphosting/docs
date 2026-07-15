@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld: الجوع والقدرة على التحمل"
 description: "تعرف على كيفية تعديل معدلات استنزاف الجوع والقدرة على التحمل للاعبين وPals في Palworld عن طريق تحرير إعدادات السيرفر. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: الجوع والقدرة على التحمل
+sidebar_label: "الجوع والقدرة على التحمل"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

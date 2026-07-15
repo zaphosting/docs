@@ -2,7 +2,7 @@
 id: palworld-reset-world
 title: "Palworld: ワールドリセット"
 description: "Palworldゲームサーバーの現在のセーブデータを削除し、同じサーバー上で新しいワールドマップを開始する方法を学びましょう。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: ワールドリセット
+sidebar_label: "ワールドリセット"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

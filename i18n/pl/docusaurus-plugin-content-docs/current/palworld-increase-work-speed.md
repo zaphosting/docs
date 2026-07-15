@@ -2,7 +2,7 @@
 id: palworld-increase-work-speed
 title: "Palworld: Zwiększ prędkość pracy"
 description: "Dowiedz się, jak zwiększyć prędkość pracy w Palworld, edytując ustawienie WorkSpeedRate, aby przyspieszyć pracę graczy i Pal na Twoim serwerze. -> Sprawdź teraz"
-sidebar_label: Palworld: Zwiększ prędkość pracy
+sidebar_label: "Zwiększ prędkość pracy"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

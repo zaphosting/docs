@@ -2,7 +2,7 @@
 id: palworld-max-workers
 title: "Palworld：最大工人数量"
 description: "了解如何通过编辑 BaseCampWorkerMaxNum 来更改 Palworld 的最大工人设置，包括每个基地的默认最大值和安全的原版限制。-> 立即了解更多"
-sidebar_label: Palworld：最大工人数量
+sidebar_label: "Palworld：最大工人数量"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-set-a-password
 title: "Palworld: Definir uma Senha"
 description: "Aprenda como definir uma senha para o servidor Palworld editando manualmente a configuração do jogo e aplicando a alteração corretamente. -> Saiba mais agora"
-sidebar_label: Palworld: Definir uma Senha
+sidebar_label: "Definir uma Senha"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

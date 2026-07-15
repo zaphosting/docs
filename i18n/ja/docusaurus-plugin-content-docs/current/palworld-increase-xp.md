@@ -2,7 +2,7 @@
 id: palworld-increase-xp
 title: "Palworld: XPを増やす方法"
 description: "PalworldゲームでXPを増やす方法を、Palworldサーバーの設定を編集しXP倍率を正しく調整する手順で解説します。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: XPを増やす方法
+sidebar_label: "XPを増やす方法"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

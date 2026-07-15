@@ -2,7 +2,7 @@
 id: palworld-supply-drop-settings
 title: "Palworld: إعدادات تسليم الإمدادات"
 description: "تعلم كيفية تغيير تكرار تسليم الإمدادات في Palworld على سيرفر ألعاب Palworld الخاص بك عن طريق تعديل إعداد SupplyDropSpan يدويًا. -> تعرّف على المزيد الآن"
-sidebar_label: Palworld: إعدادات تسليم الإمدادات
+sidebar_label: "إعدادات تسليم الإمدادات"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

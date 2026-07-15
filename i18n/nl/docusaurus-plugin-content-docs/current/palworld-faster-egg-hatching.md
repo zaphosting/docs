@@ -2,7 +2,7 @@
 id: palworld-faster-egg-hatching
 title: "Palworld: Sneller Eieren Uitbroeden"
 description: "Leer hoe je de uitbroedtijd van eieren in Palworld kunt verkorten door de serverinstelling voor het uitbroeden van eieren aan te passen voor snellere resultaten. -> Leer nu meer"
-sidebar_label: Palworld: Sneller Eieren Uitbroeden
+sidebar_label: "Sneller Eieren Uitbroeden"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

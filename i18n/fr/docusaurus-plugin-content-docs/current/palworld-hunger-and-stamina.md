@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld : Faim et Endurance"
 description: "Apprenez à ajuster les taux de diminution de la faim et de l’endurance pour les joueurs et les Pals en modifiant la configuration de votre serveur. -> En savoir plus maintenant"
-sidebar_label: Palworld : Faim et Endurance
+sidebar_label: "Palworld : Faim et Endurance"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

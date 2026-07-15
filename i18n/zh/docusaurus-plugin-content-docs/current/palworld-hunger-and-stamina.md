@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld：饥饿与耐力"
 description: "了解如何通过编辑服务器配置来调整 Palworld 中玩家和 Pal 的饥饿与耐力消耗速率。-> 立即了解更多"
-sidebar_label: Palworld：饥饿与耐力
+sidebar_label: "Palworld：饥饿与耐力"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

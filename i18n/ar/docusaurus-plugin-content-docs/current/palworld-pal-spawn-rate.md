@@ -2,7 +2,7 @@
 id: palworld-pal-spawn-rate
 title: "Palworld: معدل ظهور الـ Pal"
 description: "تعلم كيفية تغيير معدل ظهور الـ Pal في Palworld عن طريق تعديل إعداد التكرار في سيرفرك -> تعلّم المزيد الآن"
-sidebar_label: Palworld: معدل ظهور الـ Pal
+sidebar_label: "معدل ظهور الـ Pal"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

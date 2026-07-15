@@ -2,7 +2,7 @@
 id: palworld-spectate-mode
 title: "Palworld: وضع المراقبة"
 description: "تعلم كيفية استخدام وضع المراقبة في Palworld، تعيين كلمة مرور المسؤول المطلوبة، والدخول إلى وضع المراقبة على سيرفرك. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: وضع المراقبة
+sidebar_label: "وضع المراقبة"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-reset-world
 title: "Palworld: Reiniciar Mundo"
 description: "Aprende cómo reiniciar el mundo de tu servidor de juegos Palworld eliminando los datos guardados actuales y comenzando un nuevo mapa mundial en el mismo servidor. -> Aprende más ahora"
-sidebar_label: Palworld: Reiniciar Mundo
+sidebar_label: "Reiniciar Mundo"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

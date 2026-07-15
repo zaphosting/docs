@@ -2,7 +2,7 @@
 id: palworld-max-guild-bases
 title: "Palworld: Massimo Numero di Basi per Gilda"
 description: "Scopri come modificare l'impostazione del massimo numero di basi per gilda in Palworld modificando il valore BaseCampMaxNumInGuild sul tuo server. -> Scopri di più ora"
-sidebar_label: Palworld: Massimo Numero di Basi per Gilda
+sidebar_label: "Massimo Numero di Basi per Gilda"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

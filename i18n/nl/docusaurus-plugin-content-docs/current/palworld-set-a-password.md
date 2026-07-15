@@ -2,7 +2,7 @@
 id: palworld-set-a-password
 title: "Palworld: Stel een Wachtwoord in"
 description: "Leer hoe je een Palworld serverwachtwoord instelt door de Palworld gameconfiguratie handmatig te bewerken en de wachtwoordwijziging correct toe te passen. -> Leer nu meer"
-sidebar_label: Palworld: Stel een Wachtwoord in
+sidebar_label: "Stel een Wachtwoord in"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

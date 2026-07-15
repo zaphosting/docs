@@ -2,7 +2,7 @@
 id: palworld-reset-world
 title: "Palworld: Wereld Resetten"
 description: "Leer hoe je je Palworld game server wereld reset door de huidige save data te verwijderen en een nieuwe Palworld wereldkaart te starten op dezelfde server. -> Leer nu meer"
-sidebar_label: Palworld: Wereld Resetten
+sidebar_label: "Wereld Resetten"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

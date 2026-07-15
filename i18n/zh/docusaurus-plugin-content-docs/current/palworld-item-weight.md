@@ -2,7 +2,7 @@
 id: palworld-item-weight
 title: "Palworld：物品重量"
 description: "了解如何通过编辑服务器配置中的物品重量设置来更改 Palworld 物品重量倍数，实现更好的携带重量平衡。-> 立即了解更多"
-sidebar_label: Palworld：物品重量
+sidebar_label: "Palworld：物品重量"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

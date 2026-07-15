@@ -2,7 +2,7 @@
 id: palworld-max-guild-players
 title: "Palworld：最大公会玩家数"
 description: "了解如何通过编辑服务器上的最大公会玩家数设置来更改 Palworld 公会玩家限制。-> 立即了解更多"
-sidebar_label: Palworld：最大公会玩家数
+sidebar_label: "Palworld：最大公会玩家数"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

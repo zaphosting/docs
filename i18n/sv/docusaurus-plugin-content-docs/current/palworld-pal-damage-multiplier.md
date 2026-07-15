@@ -2,7 +2,7 @@
 id: palworld-pal-damage-multiplier
 title: "Palworld: Pal Damage Multiplier"
 description: "Learn how to change the Palworld pal damage multiplier by editing Pal damage settings for attack and defense values on your server. -> Learn more now"
-sidebar_label: Palworld: Pal Damage Multiplier
+sidebar_label: "Pal Damage Multiplier"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

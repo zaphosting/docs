@@ -2,7 +2,7 @@
 id: palworld-max-workers
 title: "Palworld: Max Workers"
 description: "Erfahre, wie du die maximale Anzahl an Arbeitern in Palworld änderst, indem du BaseCampWorkerMaxNum anpasst, inklusive der Standard- und sicheren Vanilla-Grenzen für Arbeiter pro Basis. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Max Workers
+sidebar_label: "Max Workers"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

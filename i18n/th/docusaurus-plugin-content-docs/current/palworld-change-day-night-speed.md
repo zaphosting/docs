@@ -2,7 +2,7 @@
 id: palworld-change-day-night-speed
 title: "Palworld: เปลี่ยนความเร็วกลางวันกลางคืน"
 description: "เรียนรู้วิธีเปลี่ยนความเร็วกลางวันกลางคืนใน Palworld โดยแก้ไขการตั้งรอบวันในเซิร์ฟเวอร์ของคุณ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: เปลี่ยนความเร็วกลางวันกลางคืน
+sidebar_label: "เปลี่ยนความเร็วกลางวันกลางคืน"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

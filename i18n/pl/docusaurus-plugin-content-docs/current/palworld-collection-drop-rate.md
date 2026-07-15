@@ -2,7 +2,7 @@
 id: palworld-collection-drop-rate
 title: "Palworld: Współczynnik Zbierania Surowców"
 description: "Dowiedz się, jak dostosować ustawienia zbierania w Palworld, zwiększyć ilość zbieranych surowców i przyspieszyć odradzanie się zasobów na Twoim serwerze gier Palworld. -> Dowiedz się więcej"
-sidebar_label: Palworld: Współczynnik Zbierania Surowców
+sidebar_label: "Współczynnik Zbierania Surowców"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

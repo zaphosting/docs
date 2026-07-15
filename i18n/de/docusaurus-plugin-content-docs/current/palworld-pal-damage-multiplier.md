@@ -2,7 +2,7 @@
 id: palworld-pal-damage-multiplier
 title: "Palworld: Pal Schadensmultiplikator"
 description: "Erfahre, wie du den Palworld Pal Schadensmultiplikator änderst, indem du die Schadenseinstellungen für Angriff und Verteidigung auf deinem Server anpasst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Pal Schadensmultiplikator
+sidebar_label: "Pal Schadensmultiplikator"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-pal-capture-rate
 title: "Palworld: Pal 捕獲率"
 description: "PalworldのPal捕獲率をPalCaptureRate設定を編集して変更する方法を学び、サーバーでの捕獲を簡単にしましょう。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: Pal 捕獲率
+sidebar_label: "Pal 捕獲率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

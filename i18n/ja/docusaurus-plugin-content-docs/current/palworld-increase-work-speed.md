@@ -2,7 +2,7 @@
 id: palworld-increase-work-speed
 title: "Palworld: 作業速度の向上"
 description: "Palworldの作業速度をWorkSpeedRate設定を編集して向上させる方法を学び、サーバー上でプレイヤーとPalの作業をより速く行えるようにします。 -> 今すぐ詳細を確認"
-sidebar_label: Palworld: 作業速度の向上
+sidebar_label: "作業速度の向上"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

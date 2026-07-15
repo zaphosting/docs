@@ -2,7 +2,7 @@
 id: palworld-performance-guide
 title: "Palworld: Poradnik optymalizacji wydajności"
 description: "Popraw wydajność serwera Palworld, zmniejsz spadki wydajności i obciążenie serwera dzięki ręcznym zmianom konfiguracji. -> Dowiedz się więcej teraz"
-sidebar_label: Palworld: Poradnik optymalizacji wydajności
+sidebar_label: "Poradnik optymalizacji wydajności"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

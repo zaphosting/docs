@@ -2,7 +2,7 @@
 id: palworld-set-a-password
 title: "Palworld: ตั้งรหัสผ่าน"
 description: "เรียนรู้วิธีตั้งรหัสผ่านเซิร์ฟเวอร์ Palworld โดยแก้ไขการตั้งค่าเกม Palworld ด้วยตนเองและใช้การเปลี่ยนรหัสผ่านอย่างถูกต้อง -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: ตั้งรหัสผ่าน
+sidebar_label: "ตั้งรหัสผ่าน"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

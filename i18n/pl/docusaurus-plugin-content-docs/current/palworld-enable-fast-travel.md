@@ -2,7 +2,7 @@
 id: palworld-enable-fast-travel
 title: "Palworld: Włącz szybkie podróże"
 description: "Dowiedz się, jak skonfigurować szybkie podróże na swoim serwerze Palworld, w tym ustawienia podróży tylko między bazami oraz ręczne zmiany w konfiguracji. -> Sprawdź teraz"
-sidebar_label: Palworld: Włącz szybkie podróże
+sidebar_label: "Włącz szybkie podróże"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

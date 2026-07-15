@@ -2,7 +2,7 @@
 id: palworld-pal-damage-multiplier
 title: "Palworld: Palダメージ倍率"
 description: "PalworldのPalダメージ倍率を変更する方法を解説します。サーバー上で攻撃・防御値のダメージ設定を編集して調整しましょう。 -> 詳しくはこちら"
-sidebar_label: Palworld: Palダメージ倍率
+sidebar_label: "Palダメージ倍率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

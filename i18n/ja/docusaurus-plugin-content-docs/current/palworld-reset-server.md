@@ -2,7 +2,7 @@
 id: palworld-reset-server
 title: "Palworld: サーバーリセット"
 description: "ZAPのウェブインターフェースでPalworldサーバーをリセットする方法、削除される設定内容、デフォルトのサーバーデータを安全に復元する方法を解説します。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: サーバーリセット
+sidebar_label: "サーバーリセット"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

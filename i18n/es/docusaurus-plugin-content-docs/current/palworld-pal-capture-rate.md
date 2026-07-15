@@ -2,7 +2,7 @@
 id: palworld-pal-capture-rate
 title: "Palworld: Tasa de Captura de Pal"
 description: "Aprende cómo cambiar la tasa de captura de Pal en Palworld editando el ajuste PalCaptureRate para facilitar la captura en tu servidor. -> Aprende más ahora"
-sidebar_label: Palworld: Tasa de Captura de Pal
+sidebar_label: "Tasa de Captura de Pal"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-enable-raids
 title: "Palworld: Enable Raids"
 description: "Learn how to enable or disable raids on your Palworld server by editing the correct configuration setting for invader enemy attacks. -> Learn more now"
-sidebar_label: Palworld: Enable Raids
+sidebar_label: "Enable Raids"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

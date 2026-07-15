@@ -2,7 +2,7 @@
 id: palworld-supply-drop-settings
 title: "Palworld: Ustawienia Dostaw"
 description: "Dowiedz się, jak zmienić częstotliwość dostaw w Palworld na swoim serwerze gier Palworld, edytując ręcznie ustawienie SupplyDropSpan. -> Dowiedz się więcej teraz"
-sidebar_label: Palworld: Ustawienia Dostaw
+sidebar_label: "Ustawienia Dostaw"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

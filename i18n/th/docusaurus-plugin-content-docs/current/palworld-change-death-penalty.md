@@ -2,7 +2,7 @@
 id: palworld-change-death-penalty
 title: "Palworld: เปลี่ยนโทษเมื่อตาย"
 description: "เรียนรู้วิธีเปลี่ยนโทษเมื่อตายใน Palworld โดยแก้ไขการตั้งค่าเซิร์ฟเวอร์ รวมถึงค่า DeathPenalty และขั้นตอนการรีสตาร์ท -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: เปลี่ยนโทษเมื่อตาย
+sidebar_label: "เปลี่ยนโทษเมื่อตาย"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

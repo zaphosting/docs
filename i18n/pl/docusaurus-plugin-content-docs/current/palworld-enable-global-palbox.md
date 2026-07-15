@@ -2,7 +2,7 @@
 id: palworld-enable-global-palbox
 title: "Palworld: Włącz Globalny Palbox"
 description: "Dowiedz się, jak włączyć globalne ustawienie palboxa w Palworld na swoim serwerze dedykowanym, aby umożliwić globalny import i eksport palów. -> Sprawdź teraz"
-sidebar_label: Palworld: Włącz Globalny Palbox
+sidebar_label: "Włącz Globalny Palbox"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

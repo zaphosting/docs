@@ -2,7 +2,7 @@
 id: palworld-change-server-type
 title: "Palworld: Byt Servertyp"
 description: "Lär dig hur du byter servertyp för din Palworld-server mellan Linux och Windows, uppdaterar rätt konfigurationsväg och tillämpar ändringen korrekt för mod-kompatibilitet. -> Läs mer nu"
-sidebar_label: Palworld: Byt Servertyp
+sidebar_label: "Byt Servertyp"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

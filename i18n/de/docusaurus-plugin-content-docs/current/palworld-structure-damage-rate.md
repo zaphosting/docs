@@ -2,7 +2,7 @@
 id: palworld-structure-damage-rate
 title: "Palworld: Struktur-Schadensrate"
 description: "Lerne, wie du die Struktur-Schadens- und Verfallsraten in Palworld sicher und korrekt durch Bearbeiten der Serverkonfiguration änderst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Struktur-Schadensrate
+sidebar_label: "Struktur-Schadensrate"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

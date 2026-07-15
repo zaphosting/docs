@@ -2,7 +2,7 @@
 id: palworld-player-damage-and-defense
 title: "Palworld: การโจมตีและการป้องกันของผู้เล่น"
 description: "เรียนรู้วิธีเปลี่ยนการโจมตีและการป้องกันของผู้เล่นใน Palworld โดยการแก้ไขการตั้งค่าเซิร์ฟเวอร์และปรับตัวคูณความเสียหายอย่างถูกต้อง -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: การโจมตีและการป้องกันของผู้เล่น
+sidebar_label: "การโจมตีและการป้องกันของผู้เล่น"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-equipment-durability-rate
 title: "Palworld: Taxa de Durabilidade do Equipamento"
 description: "Aprenda como alterar a durabilidade do equipamento e ajustar a taxa de durabilidade no seu servidor Palworld editando o valor correto na configuração. -> Saiba mais agora"
-sidebar_label: Palworld: Taxa de Durabilidade do Equipamento
+sidebar_label: "Taxa de Durabilidade do Equipamento"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

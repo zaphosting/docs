@@ -2,7 +2,7 @@
 id: palworld-supply-drop-settings
 title: "Palworld: Supply Drop Instellingen"
 description: "Leer hoe je de frequentie van supply drops in Palworld aanpast op je Palworld game server door de SupplyDropSpan instelling handmatig te wijzigen. -> Leer nu meer"
-sidebar_label: Palworld: Supply Drop Instellingen
+sidebar_label: "Supply Drop Instellingen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

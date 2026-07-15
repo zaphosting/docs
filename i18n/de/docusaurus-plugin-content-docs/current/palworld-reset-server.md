@@ -2,7 +2,7 @@
 id: palworld-reset-server
 title: "Palworld: Server zurücksetzen"
 description: "Lerne, wie du deinen Palworld Gameserver im ZAP-Webinterface zurücksetzt, welche Einstellungen dabei gelöscht werden und wie du die Standard-Serverdaten sicher wiederherstellst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Server zurücksetzen
+sidebar_label: "Server zurücksetzen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

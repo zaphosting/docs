@@ -2,7 +2,7 @@
 id: palworld-enable-pvp
 title: "Palworld：启用 PvP"
 description: "了解如何在 Palworld 中启用 PvP，配置基地战斗行为，并在您的服务器上应用推荐的 PvP 设置。-> 立即了解更多"
-sidebar_label: Palworld：启用 PvP
+sidebar_label: "Palworld：启用 PvP"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

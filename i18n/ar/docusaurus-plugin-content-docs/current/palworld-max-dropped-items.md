@@ -2,7 +2,7 @@
 id: palworld-max-dropped-items
 title: "Palworld: الحد الأقصى للعناصر المسقطة"
 description: "تعرف على كيفية تغيير حدود العناصر المسقطة وإعدادات اختفاء العناصر على سيرفر Palworld الخاص بك عن طريق تعديل القيم الصحيحة في ملف الإعدادات. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: الحد الأقصى للعناصر المسقطة
+sidebar_label: "الحد الأقصى للعناصر المسقطة"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

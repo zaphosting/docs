@@ -2,7 +2,7 @@
 id: palworld-collection-drop-rate
 title: "Palworld: コレクションドロップ率"
 description: "Palworldのコレクション設定を調整し、収集資源を増やし、Palworldゲームサーバー上でのリスポーン速度を速める方法を学びましょう。 -> 今すぐ詳細を確認"
-sidebar_label: Palworld: コレクションドロップ率
+sidebar_label: "コレクションドロップ率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

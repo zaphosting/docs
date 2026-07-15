@@ -2,7 +2,7 @@
 id: palworld-faster-egg-hatching
 title: "Palworld: تسريع فقس البيض"
 description: "تعلم كيفية تقليل وقت فقس البيض في Palworld عن طريق تعديل إعداد فقس البيض في سيرفر Palworld للحصول على نتائج فقس أسرع. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: تسريع فقس البيض
+sidebar_label: "تسريع فقس البيض"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

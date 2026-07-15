@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld: Honger en Uithoudingsvermogen"
 description: "Leer hoe je de hongergevoeligheid en uithoudingsvermogen van spelers en Pals in Palworld aanpast door je serverconfiguratie te bewerken. -> Leer nu meer"
-sidebar_label: Palworld: Honger en Uithoudingsvermogen
+sidebar_label: "Honger en Uithoudingsvermogen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

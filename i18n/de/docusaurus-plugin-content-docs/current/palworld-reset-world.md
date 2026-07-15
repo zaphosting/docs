@@ -2,7 +2,7 @@
 id: palworld-reset-world
 title: "Palworld: Welt zurücksetzen"
 description: "Lerne, wie du deine Palworld-Gameserver-Welt zurücksetzt, indem du die aktuellen Spieldaten entfernst und auf demselben Server eine neue Palworld-Weltkarte startest. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Welt zurücksetzen
+sidebar_label: "Welt zurücksetzen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

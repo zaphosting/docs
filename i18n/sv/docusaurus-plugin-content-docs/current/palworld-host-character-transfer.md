@@ -2,7 +2,7 @@
 id: palworld-host-character-transfer
 title: "Palworld: Hostkaraktäröverföring"
 description: "Lär dig hur du överför din Palworld hostkaraktär från en solo- eller co-op-save till en dedikerad server med Palworld Save Tools och rätt save-filer. -> Lär dig mer nu"
-sidebar_label: Palworld: Hostkaraktäröverföring
+sidebar_label: "Hostkaraktäröverföring"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

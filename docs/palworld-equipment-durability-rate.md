@@ -2,7 +2,7 @@
 id: palworld-equipment-durability-rate
 title: "Palworld: Equipment Durability Rate"
 description: "Learn how to change equipment durability and adjust the equipment durability rate on your Palworld server by editing the correct config value. -> Learn more now"
-sidebar_label: Palworld: Equipment Durability Rate
+sidebar_label: "Equipment Durability Rate"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

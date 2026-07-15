@@ -2,7 +2,7 @@
 id: palworld-randomized-pals
 title: "Palworld: ランダム化されたPals"
 description: "Palworldのゲームワールドでランダム化されたPalsを有効にする方法を、ランダマイザーの種類やシード設定を含むサーバー設定ファイルの編集を通じて学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: ランダム化されたPals
+sidebar_label: "ランダム化されたPals"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

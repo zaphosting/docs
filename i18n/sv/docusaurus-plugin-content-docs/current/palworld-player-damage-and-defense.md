@@ -2,7 +2,7 @@
 id: palworld-player-damage-and-defense
 title: "Palworld: Spelarskada och Försvar"
 description: "Lär dig hur du ändrar spelarskada och försvarsinställningar i Palworld genom att redigera serverns konfig och justera skademultiplikatorer korrekt. -> Lär dig mer nu"
-sidebar_label: Palworld: Spelarskada och Försvar
+sidebar_label: "Spelarskada och Försvar"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

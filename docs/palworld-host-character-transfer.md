@@ -2,7 +2,7 @@
 id: palworld-host-character-transfer
 title: "Palworld: Host Character Transfer"
 description: "Learn how to transfer your Palworld host character from a solo or co-op save to a dedicated server using Palworld Save Tools and the correct save files. -> Learn more now"
-sidebar_label: Palworld: Host Character Transfer
+sidebar_label: "Host Character Transfer"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

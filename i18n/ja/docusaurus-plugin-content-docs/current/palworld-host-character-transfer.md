@@ -2,7 +2,7 @@
 id: palworld-host-character-transfer
 title: "Palworld: ホストキャラクター転送"
 description: "Palworld Save Toolsと正しいセーブファイルを使って、ソロまたは協力プレイのホストキャラクターを専用サーバーに転送する方法を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: ホストキャラクター転送
+sidebar_label: "ホストキャラクター転送"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

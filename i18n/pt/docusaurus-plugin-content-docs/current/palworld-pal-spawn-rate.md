@@ -2,7 +2,7 @@
 id: palworld-pal-spawn-rate
 title: "Palworld: Taxa de Spawn dos Pals"
 description: "Aprenda como alterar a taxa de spawn dos Pals no Palworld editando a configuração de frequência de spawn no seu servidor -> Saiba mais agora"
-sidebar_label: Palworld: Taxa de Spawn dos Pals
+sidebar_label: "Taxa de Spawn dos Pals"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

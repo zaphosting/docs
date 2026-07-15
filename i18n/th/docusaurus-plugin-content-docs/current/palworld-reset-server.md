@@ -2,7 +2,7 @@
 id: palworld-reset-server
 title: "Palworld: รีเซ็ตเซิร์ฟเวอร์"
 description: "เรียนรู้วิธีรีเซ็ตเซิร์ฟเวอร์ Palworld ของคุณในเว็บอินเทอร์เฟซ ZAP เข้าใจว่าการตั้งค่าใดถูกลบ และวิธีคืนค่าข้อมูลเซิร์ฟเวอร์เริ่มต้นอย่างปลอดภัย -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: รีเซ็ตเซิร์ฟเวอร์
+sidebar_label: "รีเซ็ตเซิร์ฟเวอร์"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

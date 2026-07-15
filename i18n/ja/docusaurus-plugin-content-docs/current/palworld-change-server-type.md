@@ -2,7 +2,7 @@
 id: palworld-change-server-type
 title: "Palworld: サーバータイプの変更"
 description: "PalworldのサーバータイプをLinuxとWindows間で変更し、正しい設定ファイルパスを更新して、mod互換性のために正しく適用する方法を学びましょう。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: サーバータイプの変更
+sidebar_label: "サーバータイプの変更"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

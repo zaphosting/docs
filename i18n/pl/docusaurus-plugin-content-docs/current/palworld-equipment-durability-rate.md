@@ -2,7 +2,7 @@
 id: palworld-equipment-durability-rate
 title: "Palworld: Współczynnik Trwałości Ekwipunku"
 description: "Dowiedz się, jak zmienić trwałość ekwipunku i dostosować współczynnik trwałości na swoim serwerze Palworld, edytując odpowiednią wartość w konfiguracji. -> Sprawdź teraz"
-sidebar_label: Palworld: Współczynnik Trwałości Ekwipunku
+sidebar_label: "Współczynnik Trwałości Ekwipunku"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

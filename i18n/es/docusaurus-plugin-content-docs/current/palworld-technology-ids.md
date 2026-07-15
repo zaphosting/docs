@@ -2,7 +2,7 @@
 id: palworld-technology-ids
 title: "Palworld: IDs de Tecnología"
 description: "Aprende a gestionar los IDs de tecnología de Palworld, desactivar entradas específicas de tecnología y editar de forma segura la configuración correcta del servidor. -> Aprende más ahora"
-sidebar_label: Palworld: IDs de Tecnología
+sidebar_label: "IDs de Tecnología"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

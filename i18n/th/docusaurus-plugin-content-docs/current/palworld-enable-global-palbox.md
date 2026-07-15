@@ -2,7 +2,7 @@
 id: palworld-enable-global-palbox
 title: "Palworld: เปิดใช้งาน Global Palbox"
 description: "เรียนรู้วิธีเปิดใช้งานการตั้งค่า Global Palbox ของ Palworld สำหรับการนำเข้าและส่งออก Palbox ทั่วโลกบนเซิร์ฟเวอร์เฉพาะของคุณ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: เปิดใช้งาน Global Palbox
+sidebar_label: "เปิดใช้งาน Global Palbox"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

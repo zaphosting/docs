@@ -2,7 +2,7 @@
 id: palworld-building-limits
 title: "Palworld: Bau-Limits"
 description: "Erfahre, wie du die Bau-Limits, Basisbau-Regeln und Bereichsbeschränkungen in Palworld manuell über die Serverkonfiguration änderst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Bau-Limits
+sidebar_label: "Bau-Limits"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

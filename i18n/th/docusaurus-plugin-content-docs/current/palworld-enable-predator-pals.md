@@ -2,7 +2,7 @@
 id: palworld-enable-predator-pals
 title: "Palworld: เปิดใช้งาน Predator Pals"
 description: "เรียนรู้วิธีเปิดหรือปิด predator pals บนเซิร์ฟเวอร์ Palworld ของคุณ แก้ไขปัญหา predator pals ไม่เกิด และตั้งค่าที่ถูกต้องด้วยตนเอง -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: เปิดใช้งาน Predator Pals
+sidebar_label: "เปิดใช้งาน Predator Pals"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

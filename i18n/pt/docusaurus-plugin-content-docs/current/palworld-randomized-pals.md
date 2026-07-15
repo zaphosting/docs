@@ -2,7 +2,7 @@
 id: palworld-randomized-pals
 title: "Palworld: Pals Aleatórios"
 description: "Aprenda a ativar Pals aleatórios no Palworld editando a configuração do seu servidor, incluindo o tipo de randomizador e as configurações de seed para o mundo do jogo Palworld. -> Saiba mais agora"
-sidebar_label: Palworld: Pals Aleatórios
+sidebar_label: "Pals Aleatórios"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

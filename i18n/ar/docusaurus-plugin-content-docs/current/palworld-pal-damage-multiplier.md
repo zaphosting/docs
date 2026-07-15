@@ -2,7 +2,7 @@
 id: palworld-pal-damage-multiplier
 title: "Palworld: مضاعف ضرر البال"
 description: "تعلم كيفية تغيير مضاعف ضرر البال في Palworld عن طريق تعديل إعدادات الضرر للهجوم والدفاع على سيرفرك. -> تعرّف على المزيد الآن"
-sidebar_label: Palworld: مضاعف ضرر البال
+sidebar_label: "مضاعف ضرر البال"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

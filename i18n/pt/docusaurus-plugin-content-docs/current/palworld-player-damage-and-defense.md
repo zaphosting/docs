@@ -2,7 +2,7 @@
 id: palworld-player-damage-and-defense
 title: "Palworld: Dano e Defesa do Jogador"
 description: "Aprenda como alterar as configurações de dano e defesa do jogador no Palworld editando o arquivo de configuração do servidor e ajustando corretamente os multiplicadores de dano. -> Saiba mais agora"
-sidebar_label: Palworld: Dano e Defesa do Jogador
+sidebar_label: "Dano e Defesa do Jogador"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

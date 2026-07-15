@@ -2,7 +2,7 @@
 id: palworld-enable-raids
 title: "Palworld : Activer les Raids"
 description: "Apprenez à activer ou désactiver les raids sur votre serveur Palworld en modifiant le bon paramètre de configuration pour les attaques ennemies envahissantes. -> En savoir plus maintenant"
-sidebar_label: Palworld : Activer les Raids
+sidebar_label: "Palworld : Activer les Raids"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

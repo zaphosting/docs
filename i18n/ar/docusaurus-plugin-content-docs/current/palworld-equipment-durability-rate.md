@@ -2,7 +2,7 @@
 id: palworld-equipment-durability-rate
 title: "Palworld: معدل تحمل المعدات"
 description: "تعلم كيفية تغيير تحمل المعدات وضبط معدل تحمل المعدات على سيرفر Palworld الخاص بك عن طريق تعديل القيمة الصحيحة في ملف الإعدادات. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: معدل تحمل المعدات
+sidebar_label: "معدل تحمل المعدات"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

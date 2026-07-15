@@ -2,7 +2,7 @@
 id: palworld-change-day-night-speed
 title: "Palworld：调整昼夜速度"
 description: "了解如何通过编辑服务器上的昼夜循环设置来调整 Palworld 中的昼夜速度。-> 立即了解更多"
-sidebar_label: Palworld：调整昼夜速度
+sidebar_label: "Palworld：调整昼夜速度"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-enemy-drop-rate
 title: "Palworld: Enemy Drop Rate"
 description: "Learn how to change the Palworld enemy drop rate on your Palworld game server by editing the correct config value for better loot balance. -> Learn more now"
-sidebar_label: Palworld: Enemy Drop Rate
+sidebar_label: "Enemy Drop Rate"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-enable-fast-travel
 title: "Palworld: تفعيل التنقل السريع"
 description: "تعلم كيفية إعداد التنقل السريع على سيرفر Palworld الخاص بك، بما في ذلك إعدادات التنقل السريع بين القواعد فقط وتعديلات التكوين اليدوية. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: تفعيل التنقل السريع
+sidebar_label: "تفعيل التنقل السريع"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-max-guild-players
 title: "Palworld: 最大ギルドプレイヤー数"
 description: "Palworldのギルドプレイヤー数制限をサーバーのmax guild players設定を編集して変更する方法を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: 最大ギルドプレイヤー数
+sidebar_label: "最大ギルドプレイヤー数"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

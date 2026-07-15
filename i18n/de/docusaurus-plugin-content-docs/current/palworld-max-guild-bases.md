@@ -2,7 +2,7 @@
 id: palworld-max-guild-bases
 title: "Palworld: Maximalzahl der Gildenbasen"
 description: "Erfahre, wie du die maximale Anzahl der Gildenbasen in Palworld änderst, indem du den Wert BaseCampMaxNumInGuild auf deinem Server anpasst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Maximalzahl der Gildenbasen
+sidebar_label: "Maximalzahl der Gildenbasen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

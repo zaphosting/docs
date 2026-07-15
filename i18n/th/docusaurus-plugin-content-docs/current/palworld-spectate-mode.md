@@ -2,7 +2,7 @@
 id: palworld-spectate-mode
 title: "Palworld: โหมดส่อง"
 description: "เรียนรู้วิธีใช้โหมดส่องใน Palworld ตั้งรหัสผ่านแอดมินที่จำเป็น และเข้าสู่โหมดส่องบนเซิร์ฟเวอร์ของคุณ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: โหมดส่อง
+sidebar_label: "โหมดส่อง"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

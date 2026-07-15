@@ -2,7 +2,7 @@
 id: palworld-set-a-password
 title: "Palworld: Establecer una Contraseña"
 description: "Aprende a establecer una contraseña para tu servidor de Palworld editando manualmente la configuración del juego y aplicando correctamente el cambio de contraseña. -> Aprende más ahora"
-sidebar_label: Palworld: Establecer una Contraseña
+sidebar_label: "Establecer una Contraseña"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

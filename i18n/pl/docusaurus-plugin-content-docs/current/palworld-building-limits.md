@@ -2,7 +2,7 @@
 id: palworld-building-limits
 title: "Palworld: Limity Budowy"
 description: "Dowiedz się, jak zmienić limity budowy w Palworld, zasady budowania baz oraz ograniczenia obszarów, edytując ręcznie konfigurację serwera. -> Dowiedz się więcej teraz"
-sidebar_label: Palworld: Limity Budowy
+sidebar_label: "Limity Budowy"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

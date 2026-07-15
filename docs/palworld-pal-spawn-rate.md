@@ -2,7 +2,7 @@
 id: palworld-pal-spawn-rate
 title: "Palworld: Pal Spawn Rate"
 description: "Learn how to change the Palworld pal spawn rate by editing the spawn setting for Pal frequency on your server -> Learn more now"
-sidebar_label: Palworld: Pal Spawn Rate
+sidebar_label: "Pal Spawn Rate"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

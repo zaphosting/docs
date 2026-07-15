@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld: Carica una Salvataggio Esistente"
 description: "Scopri come caricare una salvataggio esistente di Palworld, caricare correttamente i dati del file e configurare il tuo server per caricare la cartella mondo corretta. -> Scopri di più ora"
-sidebar_label: Palworld: Carica una Salvataggio Esistente
+sidebar_label: "Carica una Salvataggio Esistente"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

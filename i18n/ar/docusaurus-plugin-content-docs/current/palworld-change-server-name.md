@@ -2,7 +2,7 @@
 id: palworld-change-server-name
 title: "Palworld: تغيير اسم السيرفر"
 description: "تعلم كيفية تغيير اسم سيرفر Palworld الخاص بك وتحديث اسم السيرفر المعروض في متصفح السيرفرات للاعبين عن طريق تعديل ملف الإعدادات الصحيح يدويًا. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: تغيير اسم السيرفر
+sidebar_label: "تغيير اسم السيرفر"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

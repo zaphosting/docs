@@ -2,7 +2,7 @@
 id: palworld-randomized-pals
 title: "Palworld: Losowe Pals"
 description: "Dowiedz się, jak włączyć losowe Pals w Palworld, edytując konfigurację serwera, w tym typ randomizera i ustawienia seed dla świata gry Palworld. -> Dowiedz się więcej teraz"
-sidebar_label: Palworld: Losowe Pals
+sidebar_label: "Losowe Pals"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

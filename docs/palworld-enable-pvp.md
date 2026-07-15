@@ -2,7 +2,7 @@
 id: palworld-enable-pvp
 title: "Palworld: Enable PvP"
 description: "Learn how to enable PvP in Palworld, configure base combat behavior, and apply recommended PvP settings on your server. -> Learn more now"
-sidebar_label: Palworld: Enable PvP
+sidebar_label: "Enable PvP"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

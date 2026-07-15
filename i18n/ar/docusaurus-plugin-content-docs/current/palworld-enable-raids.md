@@ -2,7 +2,7 @@
 id: palworld-enable-raids
 title: "Palworld: تفعيل الغارات"
 description: "تعلم كيفية تفعيل أو تعطيل الغارات على سيرفر Palworld الخاص بك عن طريق تعديل إعداد التكوين الصحيح لهجمات الأعداء الغزاة. -> تعرّف على المزيد الآن"
-sidebar_label: Palworld: تفعيل الغارات
+sidebar_label: "تفعيل الغارات"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

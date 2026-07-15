@@ -2,7 +2,7 @@
 id: palworld-enable-fast-travel
 title: "Palworld：启用快速旅行"
 description: "了解如何在您的 Palworld 服务器上配置快速旅行，包括仅限基地的快速旅行设置和手动配置更改。-> 立即了解更多"
-sidebar_label: Palworld：启用快速旅行
+sidebar_label: "Palworld：启用快速旅行"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

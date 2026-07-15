@@ -2,7 +2,7 @@
 id: palworld-structure-damage-rate
 title: "Palworld: معدل ضرر الهياكل"
 description: "تعلم كيفية تغيير معدل ضرر الهياكل ومعدل تدهورها في Palworld عن طريق تعديل إعدادات الخادم بأمان وبشكل صحيح. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: معدل ضرر الهياكل
+sidebar_label: "معدل ضرر الهياكل"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

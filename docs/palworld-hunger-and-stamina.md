@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld: Hunger and Stamina"
 description: "Learn how to adjust Palworld hunger and stamina depletion rates for players and Pals by editing your server configuration. -> Learn more now"
-sidebar_label: Palworld: Hunger and Stamina
+sidebar_label: "Hunger and Stamina"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

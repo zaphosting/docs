@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld: Hambre y Resistencia"
 description: "Aprende a ajustar las tasas de agotamiento de hambre y resistencia para jugadores y Pals en Palworld editando la configuración de tu servidor. -> Aprende más ahora"
-sidebar_label: Palworld: Hambre y Resistencia
+sidebar_label: "Hambre y Resistencia"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

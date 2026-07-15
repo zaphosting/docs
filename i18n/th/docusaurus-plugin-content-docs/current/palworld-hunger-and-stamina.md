@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld: ความหิวและความอึด"
 description: "เรียนรู้วิธีปรับอัตราการลดความหิวและความอึดของ Palworld สำหรับผู้เล่นและ Pals โดยการแก้ไขการตั้งค่าเซิร์ฟเวอร์ของคุณ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: ความหิวและความอึด
+sidebar_label: "ความหิวและความอึด"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

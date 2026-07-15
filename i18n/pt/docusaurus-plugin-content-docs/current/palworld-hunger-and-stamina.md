@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld: Fome e Stamina"
 description: "Aprenda a ajustar as taxas de consumo de fome e stamina para jogadores e Pals no Palworld editando a configuração do seu servidor. -> Saiba mais agora"
-sidebar_label: Palworld: Fome e Stamina
+sidebar_label: "Fome e Stamina"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

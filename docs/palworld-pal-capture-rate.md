@@ -2,7 +2,7 @@
 id: palworld-pal-capture-rate
 title: "Palworld: Pal Capture Rate"
 description: "Learn how to change the Palworld Pal capture rate by editing the PalCaptureRate setting for easier capture results on your server. -> Learn more now"
-sidebar_label: Palworld: Pal Capture Rate
+sidebar_label: "Pal Capture Rate"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

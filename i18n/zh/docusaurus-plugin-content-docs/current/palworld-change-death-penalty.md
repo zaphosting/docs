@@ -2,7 +2,7 @@
 id: palworld-change-death-penalty
 title: "Palworld：更改死亡惩罚"
 description: "了解如何通过编辑服务器配置更改 Palworld 的死亡惩罚，包括 DeathPenalty 值和重启步骤。-> 立即了解更多"
-sidebar_label: Palworld：更改死亡惩罚
+sidebar_label: "Palworld：更改死亡惩罚"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

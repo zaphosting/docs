@@ -2,7 +2,7 @@
 id: palworld-enable-raids
 title: "Palworld: Raids inschakelen"
 description: "Leer hoe je raids op je Palworld-server aan- of uitzet door de juiste configuratie-instelling voor indringer-aanvallen te bewerken. -> Leer nu meer"
-sidebar_label: Palworld: Raids inschakelen
+sidebar_label: "Raids inschakelen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

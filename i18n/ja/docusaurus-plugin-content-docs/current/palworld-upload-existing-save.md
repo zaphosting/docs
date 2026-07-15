@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld: 既存セーブのアップロード"
 description: "既存のPalworldセーブをアップロードし、ファイルデータを正しくアップロードして、サーバーが正しいワールドフォルダを読み込むように設定する方法を学びます。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: 既存セーブのアップロード
+sidebar_label: "既存セーブのアップロード"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

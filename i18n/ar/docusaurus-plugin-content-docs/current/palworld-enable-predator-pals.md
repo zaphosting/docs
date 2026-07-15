@@ -2,7 +2,7 @@
 id: palworld-enable-predator-pals
 title: "Palworld: تفعيل Predator Pals"
 description: "تعلم كيفية تفعيل أو تعطيل predator pals على سيرفر Palworld الخاص بك، إصلاح عدم ظهور predator pals، وتكوين الإعداد الصحيح يدويًا. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: تفعيل Predator Pals
+sidebar_label: "تفعيل Predator Pals"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

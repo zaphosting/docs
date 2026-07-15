@@ -2,7 +2,7 @@
 id: palworld-building-limits
 title: "Palworld: Building Limits"
 description: "Learn how to change Palworld building limits, base building rules, and area restrictions by editing your server configuration manually. -> Learn more now"
-sidebar_label: Palworld: Building Limits
+sidebar_label: "Building Limits"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

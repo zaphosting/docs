@@ -2,7 +2,7 @@
 id: palworld-increase-work-speed
 title: "Palworld: Öka Arbetsfarten"
 description: "Lär dig hur du ökar arbetsfarten i Palworld genom att ändra inställningen WorkSpeedRate för snabbare arbete av spelare och Pals på din server. -> Läs mer nu"
-sidebar_label: Palworld: Öka Arbetsfarten
+sidebar_label: "Öka Arbetsfarten"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

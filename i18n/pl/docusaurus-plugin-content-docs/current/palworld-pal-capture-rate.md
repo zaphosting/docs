@@ -2,7 +2,7 @@
 id: palworld-pal-capture-rate
 title: "Palworld: Współczynnik łapania Palów"
 description: "Dowiedz się, jak zmienić współczynnik łapania Palów w Palworld, edytując ustawienie PalCaptureRate, aby ułatwić łapanie na Twoim serwerze. -> Sprawdź teraz"
-sidebar_label: Palworld: Współczynnik łapania Palów
+sidebar_label: "Współczynnik łapania Palów"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

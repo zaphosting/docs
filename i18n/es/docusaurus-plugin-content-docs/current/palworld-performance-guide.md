@@ -2,7 +2,7 @@
 id: palworld-performance-guide
 title: "Palworld: Guía de Rendimiento"
 description: "Mejora el rendimiento de tu servidor de Palworld, reduce caídas de rendimiento y disminuye la carga del servidor con cambios manuales en la configuración. -> Aprende más ahora"
-sidebar_label: Palworld: Guía de Rendimiento
+sidebar_label: "Guía de Rendimiento"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

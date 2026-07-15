@@ -2,7 +2,7 @@
 id: palworld-performance-guide
 title: "Palworld: Performance Anleitung"
 description: "Verbessere die Palworld Gameserver-Performance, reduziere Performance-Einbrüche und verringere die Serverlast durch manuelle Konfigurationsänderungen. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Performance Anleitung
+sidebar_label: "Performance Anleitung"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

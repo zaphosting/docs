@@ -2,7 +2,7 @@
 id: palworld-pal-spawn-rate
 title: "Palworld：Pal 出生率"
 description: "了解如何通过编辑服务器上的 Pal 频率出生设置来更改 Palworld 中 Pal 的出生率 -> 立即了解更多"
-sidebar_label: Palworld：Pal 出生率
+sidebar_label: "Palworld：Pal 出生率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

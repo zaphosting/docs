@@ -2,7 +2,7 @@
 id: palworld-increase-xp
 title: "Palworld: Zwiększanie XP"
 description: "Dowiedz się, jak zwiększyć XP w grze Palworld, edytując konfigurację serwera Palworld i poprawnie dostosowując mnożnik XP. -> Dowiedz się więcej teraz"
-sidebar_label: Palworld: Zwiększanie XP
+sidebar_label: "Zwiększanie XP"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

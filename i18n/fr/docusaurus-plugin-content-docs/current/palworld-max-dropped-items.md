@@ -2,7 +2,7 @@
 id: palworld-max-dropped-items
 title: "Palworld : Nombre maximal d’objets lâchés"
 description: "Apprenez à modifier les limites d’objets lâchés et les paramètres de disparition des objets sur votre serveur de jeux Palworld en éditant les bonnes valeurs de configuration. -> En savoir plus maintenant"
-sidebar_label: Palworld : Nombre maximal d’objets lâchés
+sidebar_label: "Palworld : Nombre maximal d’objets lâchés"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

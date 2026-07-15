@@ -2,7 +2,7 @@
 id: palworld-pal-damage-multiplier
 title: "Palworld: Mnożnik obrażeń Pal"
 description: "Dowiedz się, jak zmienić mnożnik obrażeń Pal w Palworld, edytując ustawienia obrażeń dla wartości ataku i obrony na swoim serwerze. -> Dowiedz się więcej teraz"
-sidebar_label: Palworld: Mnożnik obrażeń Pal
+sidebar_label: "Mnożnik obrażeń Pal"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

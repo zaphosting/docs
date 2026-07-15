@@ -2,7 +2,7 @@
 id: palworld-enable-hardcore-mode
 title: "Palworld: ハードコアモードの有効化"
 description: "Palworldでハードコアモードを有効にする方法を解説します。正しいサーバー設定ファイルの編集、TrueまたはFalseの値設定、パーマデスオプションの安全な適用方法を学べます。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: ハードコアモードの有効化
+sidebar_label: "ハードコアモードの有効化"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

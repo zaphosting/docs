@@ -2,7 +2,7 @@
 id: palworld-enable-pvp
 title: "Palworld: เปิดใช้งาน PvP"
 description: "เรียนรู้วิธีเปิดใช้งาน PvP ใน Palworld ตั้งค่าพฤติกรรมการต่อสู้ฐาน และใช้การตั้งค่า PvP ที่แนะนำบนเซิร์ฟเวอร์ของคุณ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: เปิดใช้งาน PvP
+sidebar_label: "เปิดใช้งาน PvP"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

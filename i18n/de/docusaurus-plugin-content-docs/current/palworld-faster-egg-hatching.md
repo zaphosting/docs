@@ -2,7 +2,7 @@
 id: palworld-faster-egg-hatching
 title: "Palworld: Schnellere Ei-Schlüpfzeit"
 description: "Lerne, wie du die Ei-Schlüpfzeit in Palworld verkürzt, indem du die entsprechende Einstellung im Palworld Gameserver änderst, um schnellere Schlüpfergebnisse zu erzielen. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Schnellere Ei-Schlüpfzeit
+sidebar_label: "Schnellere Ei-Schlüpfzeit"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

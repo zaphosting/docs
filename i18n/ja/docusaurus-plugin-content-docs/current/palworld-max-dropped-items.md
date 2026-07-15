@@ -2,7 +2,7 @@
 id: palworld-max-dropped-items
 title: "Palworld: 最大ドロップアイテム数設定"
 description: "Palworldサーバーでドロップアイテムの上限や消失時間を設定ファイルを編集して変更する方法を解説します。 -> 詳しくはこちら"
-sidebar_label: Palworld: 最大ドロップアイテム数設定
+sidebar_label: "最大ドロップアイテム数設定"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

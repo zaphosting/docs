@@ -2,7 +2,7 @@
 id: palworld-collection-drop-rate
 title: "Palworld: Collection Drop Rate"
 description: "Leer hoe je Palworld collectie-instellingen aanpast, verzamelde resources verhoogt en respawns versnelt op je Palworld game server. -> Leer nu meer"
-sidebar_label: Palworld: Collection Drop Rate
+sidebar_label: "Collection Drop Rate"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

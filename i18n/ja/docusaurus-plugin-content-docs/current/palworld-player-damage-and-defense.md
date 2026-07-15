@@ -2,7 +2,7 @@
 id: palworld-player-damage-and-defense
 title: "Palworld: プレイヤーダメージと防御"
 description: "Palworldのサーバー設定を編集し、ダメージ倍率を正しく調整してプレイヤーダメージと防御設定を変更する方法を学びましょう。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: プレイヤーダメージと防御
+sidebar_label: "プレイヤーダメージと防御"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

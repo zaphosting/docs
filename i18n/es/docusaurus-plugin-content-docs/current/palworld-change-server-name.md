@@ -2,7 +2,7 @@
 id: palworld-change-server-name
 title: "Palworld: Cambiar el Nombre del Servidor"
 description: "Aprende cómo cambiar el nombre de tu servidor de Palworld y actualizar el nombre que aparece en el navegador de servidores editando manualmente el archivo de configuración correcto. -> Aprende más ahora"
-sidebar_label: Palworld: Cambiar el Nombre del Servidor
+sidebar_label: "Cambiar el Nombre del Servidor"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

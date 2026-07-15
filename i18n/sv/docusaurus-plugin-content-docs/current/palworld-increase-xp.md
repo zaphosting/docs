@@ -2,7 +2,7 @@
 id: palworld-increase-xp
 title: "Palworld: Öka XP"
 description: "Lär dig hur du ökar XP i spelet Palworld genom att redigera Palworld-serverns konfiguration och justera XP-multiplikatorn korrekt. -> Läs mer nu"
-sidebar_label: Palworld: Öka XP
+sidebar_label: "Öka XP"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

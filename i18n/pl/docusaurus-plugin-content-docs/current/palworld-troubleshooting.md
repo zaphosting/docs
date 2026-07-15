@@ -2,7 +2,7 @@
 id: palworld-troubleshooting
 title: "Palworld: Rozwiązywanie problemów"
 description: "Napraw typowe problemy z serwerem Palworld, takie jak błędy aktualizacji Steam, przekroczenia czasu połączenia i błędy Steam na Twoim serwerze gier. -> Dowiedz się więcej teraz"
-sidebar_label: Palworld: Rozwiązywanie problemów
+sidebar_label: "Rozwiązywanie problemów"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

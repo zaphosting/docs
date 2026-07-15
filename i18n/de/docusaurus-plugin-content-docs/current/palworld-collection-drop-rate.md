@@ -2,7 +2,7 @@
 id: palworld-collection-drop-rate
 title: "Palworld: Collection Drop Rate"
 description: "Erfahre, wie du die Palworld-Sammel-Einstellungen anpasst, gesammelte Ressourcen erhöhst und Respawns auf deinem Palworld-Gameserver beschleunigst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Collection Drop Rate
+sidebar_label: "Collection Drop Rate"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

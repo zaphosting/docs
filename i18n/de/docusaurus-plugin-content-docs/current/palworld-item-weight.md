@@ -2,7 +2,7 @@
 id: palworld-item-weight
 title: "Palworld: Itemgewicht"
 description: "Lerne, wie du den Itemgewicht-Multiplikator in Palworld änderst, indem du die Itemgewicht-Einstellung in deiner Serverkonfiguration anpasst, um das Tragegewicht besser auszubalancieren. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Itemgewicht
+sidebar_label: "Itemgewicht"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-max-players
 title: "Palworld: Máximo de Jogadores"
 description: "Aprenda como alterar a configuração de máximo de jogadores no Palworld no seu servidor de jogos Palworld editando o arquivo de configuração correto na interface ZAP. -> Saiba mais agora"
-sidebar_label: Palworld: Máximo de Jogadores
+sidebar_label: "Máximo de Jogadores"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

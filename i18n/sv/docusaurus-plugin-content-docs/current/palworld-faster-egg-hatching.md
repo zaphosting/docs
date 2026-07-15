@@ -2,7 +2,7 @@
 id: palworld-faster-egg-hatching
 title: "Palworld: Snabbare Äggkläckning"
 description: "Lär dig hur du minskar äggkläckningstiden i Palworld genom att redigera inställningen för äggkläckning på din Palworld-server för snabbare resultat. -> Läs mer nu"
-sidebar_label: Palworld: Snabbare Äggkläckning
+sidebar_label: "Snabbare Äggkläckning"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

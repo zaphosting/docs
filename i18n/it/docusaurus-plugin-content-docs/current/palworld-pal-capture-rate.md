@@ -2,7 +2,7 @@
 id: palworld-pal-capture-rate
 title: "Palworld: Tasso di Cattura dei Pal"
 description: "Scopri come modificare il tasso di cattura dei Pal in Palworld modificando l'impostazione PalCaptureRate per facilitare la cattura sul tuo server. -> Scopri di più ora"
-sidebar_label: Palworld: Tasso di Cattura dei Pal
+sidebar_label: "Tasso di Cattura dei Pal"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

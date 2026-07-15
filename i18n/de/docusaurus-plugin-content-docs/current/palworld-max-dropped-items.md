@@ -2,7 +2,7 @@
 id: palworld-max-dropped-items
 title: "Palworld: Max. Anzahl gefallener Items"
 description: "Erfahre, wie du die Limits für gefallene Items und das Verschwinden von Items auf deinem Palworld-Server durch Bearbeiten der richtigen Konfigurationswerte änderst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Max. Anzahl gefallener Items
+sidebar_label: "Max. Anzahl gefallener Items"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-enable-fast-travel
 title: "Palworld: เปิดใช้งาน Fast Travel"
 description: "เรียนรู้วิธีตั้งค่า fast travel บนเซิร์ฟเวอร์ Palworld ของคุณ รวมถึงการตั้งค่า fast travel เฉพาะฐานและการแก้ไข config ด้วยตนเอง -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: เปิดใช้งาน Fast Travel
+sidebar_label: "เปิดใช้งาน Fast Travel"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

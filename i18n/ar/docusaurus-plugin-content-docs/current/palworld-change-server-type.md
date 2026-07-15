@@ -2,7 +2,7 @@
 id: palworld-change-server-type
 title: "Palworld: تغيير نوع السيرفر"
 description: "تعلم كيفية تغيير نوع سيرفر Palworld بين Linux و Windows، تحديث مسار الإعدادات الصحيح، وتطبيق التغيير بشكل صحيح لضمان توافق المودات. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: تغيير نوع السيرفر
+sidebar_label: "تغيير نوع السيرفر"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-player-damage-and-defense
 title: "Palworld: Spieler Schaden und Verteidigung"
 description: "Lerne, wie du den Spielerschaden und die Spielerverteidigung in Palworld durch Bearbeiten der Serverkonfiguration und korrektes Anpassen der Schadensmultiplikatoren änderst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Spieler Schaden und Verteidigung
+sidebar_label: "Spieler Schaden und Verteidigung"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

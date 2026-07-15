@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld: رفع حفظ موجود"
 description: "تعلم كيفية رفع حفظ Palworld موجود، رفع بيانات الملف بشكل صحيح، وتكوين سيرفرك لتحميل مجلد العالم الصحيح. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: رفع حفظ موجود
+sidebar_label: "رفع حفظ موجود"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

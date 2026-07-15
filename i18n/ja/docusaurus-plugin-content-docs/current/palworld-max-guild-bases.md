@@ -2,7 +2,7 @@
 id: palworld-max-guild-bases
 title: "Palworld: 最大ギルド拠点数設定"
 description: "Palworldでギルドごとの最大拠点数設定を変更する方法を、サーバー上のBaseCampMaxNumInGuild値を編集して解説します。 -> 詳しくはこちら"
-sidebar_label: Palworld: 最大ギルド拠点数設定
+sidebar_label: "最大ギルド拠点数設定"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

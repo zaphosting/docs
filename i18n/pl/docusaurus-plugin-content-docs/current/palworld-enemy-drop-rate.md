@@ -2,7 +2,7 @@
 id: palworld-enemy-drop-rate
 title: "Palworld: Współczynnik Dropu Przeciwników"
 description: "Dowiedz się, jak zmienić współczynnik dropu przeciwników w Palworld na swoim serwerze gier Palworld, edytując odpowiednią wartość w konfiguracji dla lepszego balansu łupów. -> Dowiedz się więcej teraz"
-sidebar_label: Palworld: Współczynnik Dropu Przeciwników
+sidebar_label: "Współczynnik Dropu Przeciwników"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

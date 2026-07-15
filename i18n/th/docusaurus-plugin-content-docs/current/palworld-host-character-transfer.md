@@ -2,7 +2,7 @@
 id: palworld-host-character-transfer
 title: "Palworld: โอนย้ายตัวละครโฮสต์"
 description: "เรียนรู้วิธีโอนย้ายตัวละครโฮสต์ Palworld จากการบันทึกแบบเล่นคนเดียวหรือเล่นร่วมกันไปยังเซิร์ฟเวอร์เฉพาะโดยใช้ Palworld Save Tools และไฟล์บันทึกที่ถูกต้อง -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: โอนย้ายตัวละครโฮสต์
+sidebar_label: "โอนย้ายตัวละครโฮสต์"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

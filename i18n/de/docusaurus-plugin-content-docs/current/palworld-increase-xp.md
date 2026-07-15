@@ -2,7 +2,7 @@
 id: palworld-increase-xp
 title: "Palworld: XP erhöhen"
 description: "Lerne, wie du die XP in Palworld erhöhst, indem du die Palworld-Serverkonfiguration bearbeitest und den XP-Multiplikator richtig anpasst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: XP erhöhen
+sidebar_label: "XP erhöhen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

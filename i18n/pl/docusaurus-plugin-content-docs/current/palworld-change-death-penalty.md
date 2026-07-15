@@ -2,7 +2,7 @@
 id: palworld-change-death-penalty
 title: "Palworld: Zmiana kary śmierci"
 description: "Dowiedz się, jak zmienić karę śmierci w Palworld, edytując konfigurację serwera, w tym wartości DeathPenalty oraz jak poprawnie zrestartować serwer. -> Sprawdź teraz"
-sidebar_label: Palworld: Zmiana kary śmierci
+sidebar_label: "Zmiana kary śmierci"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

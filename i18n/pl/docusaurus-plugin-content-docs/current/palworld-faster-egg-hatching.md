@@ -2,7 +2,7 @@
 id: palworld-faster-egg-hatching
 title: "Palworld: Szybsze Wylęganie Jaj"
 description: "Dowiedz się, jak skrócić czas wylęgania jaj w Palworld, edytując odpowiednią konfigurację serwera Palworld dla szybszych efektów. -> Sprawdź teraz"
-sidebar_label: Palworld: Szybsze Wylęganie Jaj
+sidebar_label: "Szybsze Wylęganie Jaj"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

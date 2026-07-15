@@ -2,7 +2,7 @@
 id: palworld-faster-egg-hatching
 title: "Palworld: Eclosão de Ovos Mais Rápida"
 description: "Aprenda como reduzir o tempo de eclosão dos ovos no Palworld editando a configuração do servidor Palworld para resultados de eclosão mais rápidos. -> Saiba mais agora"
-sidebar_label: Palworld: Eclosão de Ovos Mais Rápida
+sidebar_label: "Eclosão de Ovos Mais Rápida"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-reset-server
 title: "Palworld: Server Resetten"
 description: "Leer hoe je je Palworld-server reset in de ZAP-webinterface, welke instellingen worden verwijderd en hoe je standaard serverdata veilig herstelt. -> Leer nu meer"
-sidebar_label: Palworld: Server Resetten
+sidebar_label: "Server Resetten"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

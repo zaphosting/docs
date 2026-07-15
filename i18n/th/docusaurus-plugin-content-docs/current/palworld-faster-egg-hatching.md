@@ -2,7 +2,7 @@
 id: palworld-faster-egg-hatching
 title: "Palworld: เร่งเวลาฟักไข่"
 description: "เรียนรู้วิธีลดเวลาฟักไข่ใน Palworld โดยแก้ไขการตั้งค่าเซิร์ฟเวอร์ Palworld เพื่อให้ฟักไข่ได้เร็วขึ้น -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: เร่งเวลาฟักไข่
+sidebar_label: "เร่งเวลาฟักไข่"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

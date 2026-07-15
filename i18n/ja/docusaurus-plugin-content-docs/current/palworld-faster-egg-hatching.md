@@ -2,7 +2,7 @@
 id: palworld-faster-egg-hatching
 title: "Palworld: 卵の孵化時間短縮"
 description: "Palworldの卵の孵化時間を短縮する方法を、Palworldゲームサーバーの設定ファイルを編集して孵化時間を速くする手順で解説します。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: 卵の孵化時間短縮
+sidebar_label: "卵の孵化時間短縮"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-change-day-night-speed
 title: "Palworld: Verander de Snelheid van Dag en Nacht"
 description: "Leer hoe je de snelheid van dag en nacht in Palworld aanpast door de dagcyclusinstellingen op je server te wijzigen. -> Leer nu meer"
-sidebar_label: Palworld: Verander de Snelheid van Dag en Nacht
+sidebar_label: "Verander de Snelheid van Dag en Nacht"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

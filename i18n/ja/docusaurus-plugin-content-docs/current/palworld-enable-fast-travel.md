@@ -2,7 +2,7 @@
 id: palworld-enable-fast-travel
 title: "Palworld: ファストトラベルの有効化"
 description: "Palworldサーバーでのファストトラベル設定方法を解説します。拠点限定のファストトラベル設定や手動でのコンフィグ変更も含みます。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: ファストトラベルの有効化
+sidebar_label: "ファストトラベルの有効化"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

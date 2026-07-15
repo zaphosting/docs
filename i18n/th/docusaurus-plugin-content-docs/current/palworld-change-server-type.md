@@ -2,7 +2,7 @@
 id: palworld-change-server-type
 title: "Palworld: เปลี่ยนประเภทเซิร์ฟเวอร์"
 description: "เรียนรู้วิธีเปลี่ยนประเภทเซิร์ฟเวอร์ Palworld ของคุณระหว่าง Linux และ Windows อัปเดตเส้นทางคอนฟิกที่ถูกต้อง และใช้งานการเปลี่ยนแปลงอย่างถูกต้องเพื่อความเข้ากันได้กับม็อด -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: เปลี่ยนประเภทเซิร์ฟเวอร์
+sidebar_label: "เปลี่ยนประเภทเซิร์ฟเวอร์"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

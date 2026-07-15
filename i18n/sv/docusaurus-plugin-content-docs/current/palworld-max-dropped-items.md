@@ -2,7 +2,7 @@
 id: palworld-max-dropped-items
 title: "Palworld: Max Droppade Föremål"
 description: "Lär dig hur du ändrar gränser för droppade föremål och inställningar för föremålsförsvinnande på din Palworld-server genom att redigera rätt konfigurationsvärden. -> Läs mer nu"
-sidebar_label: Palworld: Max Droppade Föremål
+sidebar_label: "Max Droppade Föremål"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

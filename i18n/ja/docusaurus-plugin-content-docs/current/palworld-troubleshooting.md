@@ -2,7 +2,7 @@
 id: palworld-troubleshooting
 title: "Palworld: トラブルシューティング"
 description: "PalworldゲームサーバーでのPalworld Steamアップデート問題、接続タイムアウト、Steamエラーなどの一般的な問題を解決します。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: トラブルシューティング
+sidebar_label: "トラブルシューティング"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

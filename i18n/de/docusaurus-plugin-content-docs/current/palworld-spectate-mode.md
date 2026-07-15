@@ -2,7 +2,7 @@
 id: palworld-spectate-mode
 title: "Palworld: Spectate-Modus"
 description: "Lerne, wie du den Spectate-Modus in Palworld nutzt, das erforderliche Admin-Passwort setzt und den Spectate-Modus auf deinem Server aktivierst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Spectate-Modus
+sidebar_label: "Spectate-Modus"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

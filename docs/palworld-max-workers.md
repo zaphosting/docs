@@ -2,7 +2,7 @@
 id: palworld-max-workers
 title: "Palworld: Max Workers"
 description: "Learn how to change the Palworld max workers setting by editing BaseCampWorkerMaxNum, including the default max and safe vanilla limits for workers per base. -> Learn more now"
-sidebar_label: Palworld: Max Workers
+sidebar_label: "Max Workers"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

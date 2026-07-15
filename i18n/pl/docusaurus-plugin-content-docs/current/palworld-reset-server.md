@@ -2,7 +2,7 @@
 id: palworld-reset-server
 title: "Palworld: Reset Serwera"
 description: "Dowiedz się, jak zresetować swój serwer Palworld w panelu ZAP, jakie ustawienia zostaną usunięte i jak bezpiecznie przywrócić domyślne dane serwera. -> Sprawdź teraz"
-sidebar_label: Palworld: Reset Serwera
+sidebar_label: "Reset Serwera"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

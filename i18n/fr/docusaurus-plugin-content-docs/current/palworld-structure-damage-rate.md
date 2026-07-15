@@ -2,7 +2,7 @@
 id: palworld-structure-damage-rate
 title: "Palworld : Taux de dégâts des structures"
 description: "Apprenez à modifier les taux de dégâts et de dégradation des structures dans Palworld en éditant correctement et en toute sécurité la configuration du serveur. -> En savoir plus maintenant"
-sidebar_label: Palworld : Taux de dégâts des structures
+sidebar_label: "Palworld : Taux de dégâts des structures"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

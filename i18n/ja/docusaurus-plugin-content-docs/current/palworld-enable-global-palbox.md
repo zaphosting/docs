@@ -2,7 +2,7 @@
 id: palworld-enable-global-palbox
 title: "Palworld: グローバルパルボックスの有効化"
 description: "専用サーバーでPalworldのグローバルパルボックスのインポートとエクスポートを有効にする方法を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: グローバルパルボックスの有効化
+sidebar_label: "グローバルパルボックスの有効化"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

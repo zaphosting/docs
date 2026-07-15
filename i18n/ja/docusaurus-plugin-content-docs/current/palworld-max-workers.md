@@ -2,7 +2,7 @@
 id: palworld-max-workers
 title: "Palworld: 最大ワーカー数"
 description: "BaseCampWorkerMaxNumを編集してPalworldの最大ワーカー数設定を変更する方法を学びます。デフォルトの最大値やバニラの安全な制限も含みます。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: 最大ワーカー数
+sidebar_label: "最大ワーカー数"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

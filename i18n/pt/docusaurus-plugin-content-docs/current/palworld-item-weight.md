@@ -2,7 +2,7 @@
 id: palworld-item-weight
 title: "Palworld: Peso dos Itens"
 description: "Aprenda como alterar o multiplicador de peso dos itens no Palworld editando a configuração de peso dos itens no seu servidor para um melhor equilíbrio da capacidade de carga. -> Saiba mais agora"
-sidebar_label: Palworld: Peso dos Itens
+sidebar_label: "Peso dos Itens"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-item-weight
 title: "Palworld: น้ำหนักไอเทม"
 description: "เรียนรู้วิธีเปลี่ยนตัวคูณน้ำหนักไอเทมใน Palworld โดยแก้ไขการตั้งค่าน้ำหนักไอเทมในไฟล์คอนฟิกเซิร์ฟเวอร์ของคุณ เพื่อปรับสมดุลน้ำหนักที่พกพาได้ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: น้ำหนักไอเทม
+sidebar_label: "น้ำหนักไอเทม"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

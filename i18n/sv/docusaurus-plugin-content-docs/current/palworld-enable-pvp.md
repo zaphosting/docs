@@ -2,7 +2,7 @@
 id: palworld-enable-pvp
 title: "Palworld: Aktivera PvP"
 description: "Lär dig hur du aktiverar PvP i Palworld, konfigurerar basstridsbeteende och tillämpar rekommenderade PvP-inställningar på din server. -> Läs mer nu"
-sidebar_label: Palworld: Aktivera PvP
+sidebar_label: "Aktivera PvP"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

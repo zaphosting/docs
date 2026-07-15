@@ -2,7 +2,7 @@
 id: palworld-equipment-durability-rate
 title: "Palworld: Haltbarkeit der Ausrüstung"
 description: "Erfahre, wie du die Haltbarkeit der Ausrüstung änderst und die Haltbarkeitsrate auf deinem Palworld-Server anpasst, indem du den richtigen Config-Wert bearbeitest. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Haltbarkeit der Ausrüstung
+sidebar_label: "Haltbarkeit der Ausrüstung"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-structure-damage-rate
 title: "Palworld: Structure Damage Rate"
 description: "Learn how to change Palworld structure damage and structure decay rates by editing the server configuration safely and correctly. -> Learn more now"
-sidebar_label: Palworld: Structure Damage Rate
+sidebar_label: "Structure Damage Rate"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

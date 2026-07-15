@@ -2,7 +2,7 @@
 id: palworld-install-mods
 title: "Palworld: ติดตั้งม็อด"
 description: "เรียนรู้วิธีติดตั้งม็อด Palworld รวมถึง UE4SS Palworld, ม็อด Lua และ .pak บนเซิร์ฟเวอร์เฉพาะของคุณ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: ติดตั้งม็อด
+sidebar_label: "ติดตั้งม็อด"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

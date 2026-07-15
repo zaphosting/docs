@@ -2,7 +2,7 @@
 id: palworld-player-damage-and-defense
 title: "Palworld: Spelerschade en Verdediging"
 description: "Leer hoe je de speler schade en verdediging instellingen in Palworld aanpast door de serverconfig te bewerken en de schade-multipliers correct in te stellen. -> Leer nu meer"
-sidebar_label: Palworld: Spelerschade en Verdediging
+sidebar_label: "Spelerschade en Verdediging"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

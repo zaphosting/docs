@@ -2,7 +2,7 @@
 id: palworld-equipment-durability-rate
 title: "Palworld: Utrustnings hållbarhetsfaktor"
 description: "Lär dig hur du ändrar utrustningens hållbarhet och justerar hållbarhetsfaktorn på din Palworld-server genom att redigera rätt konfigurationsvärde. -> Läs mer nu"
-sidebar_label: Palworld: Utrustnings hållbarhetsfaktor
+sidebar_label: "Utrustnings hållbarhetsfaktor"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

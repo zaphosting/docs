@@ -2,7 +2,7 @@
 id: palworld-enable-pvp
 title: "Palworld: PvPを有効化する"
 description: "PalworldでPvPを有効にし、拠点戦闘の挙動を設定し、サーバーに推奨されるPvP設定を適用する方法を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: PvPを有効化する
+sidebar_label: "PvPを有効化する"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

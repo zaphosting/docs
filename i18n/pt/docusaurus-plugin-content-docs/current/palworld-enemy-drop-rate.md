@@ -2,7 +2,7 @@
 id: palworld-enemy-drop-rate
 title: "Palworld: Taxa de Drop dos Inimigos"
 description: "Aprenda como alterar a taxa de drop dos inimigos no seu servidor de jogos Palworld editando o valor correto na configuração para um balanceamento melhor do loot. -> Saiba mais agora"
-sidebar_label: Palworld: Taxa de Drop dos Inimigos
+sidebar_label: "Taxa de Drop dos Inimigos"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

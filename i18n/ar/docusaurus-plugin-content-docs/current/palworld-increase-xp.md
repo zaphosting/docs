@@ -2,7 +2,7 @@
 id: palworld-increase-xp
 title: "Palworld: زيادة نقاط الخبرة"
 description: "تعرف على كيفية زيادة نقاط الخبرة في لعبة Palworld عن طريق تعديل إعدادات سيرفر Palworld وضبط مضاعف معدل نقاط الخبرة بشكل صحيح. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: زيادة نقاط الخبرة
+sidebar_label: "زيادة نقاط الخبرة"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

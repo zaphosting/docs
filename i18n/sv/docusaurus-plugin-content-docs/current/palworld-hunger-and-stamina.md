@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld: Hunger och Stamina"
 description: "Lär dig hur du justerar Palworlds hunger- och staminaförbrukning för spelare och Pals genom att redigera din serverkonfiguration. -> Läs mer nu"
-sidebar_label: Palworld: Hunger och Stamina
+sidebar_label: "Hunger och Stamina"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

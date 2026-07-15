@@ -2,7 +2,7 @@
 id: palworld-item-weight
 title: "Palworld : Poids des objets"
 description: "Apprenez à modifier le multiplicateur de poids des objets dans Palworld en éditant le paramètre de poids dans la configuration de votre serveur pour un meilleur équilibre de la charge. -> En savoir plus maintenant"
-sidebar_label: Palworld : Poids des objets
+sidebar_label: "Palworld : Poids des objets"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

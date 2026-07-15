@@ -2,7 +2,7 @@
 id: palworld-set-a-password
 title: "Palworld: Passwort festlegen"
 description: "Lerne, wie du ein Passwort für deinen Palworld-Server manuell in der Palworld-Spielkonfiguration setzt und die Passwortänderung korrekt anwendest. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Passwort festlegen
+sidebar_label: "Passwort festlegen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

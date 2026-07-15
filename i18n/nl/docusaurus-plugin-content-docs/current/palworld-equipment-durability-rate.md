@@ -2,7 +2,7 @@
 id: palworld-equipment-durability-rate
 title: "Palworld: Uithoudingsvermogen van Uitrusting"
 description: "Leer hoe je het uithoudingsvermogen van uitrusting kunt aanpassen en de uithoudingsverhouding op je Palworld-server kunt wijzigen door de juiste config-waarde te bewerken. -> Leer nu meer"
-sidebar_label: Palworld: Uithoudingsvermogen van Uitrusting
+sidebar_label: "Uithoudingsvermogen van Uitrusting"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

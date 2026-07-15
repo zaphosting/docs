@@ -2,7 +2,7 @@
 id: palworld-equipment-durability-rate
 title: "Palworld: 装備耐久率"
 description: "Palworldサーバーで装備の耐久度を変更し、装備耐久率を調整する方法を正しい設定値の編集で学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: 装備耐久率
+sidebar_label: "装備耐久率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

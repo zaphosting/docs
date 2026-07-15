@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld: Upload Bestaande Save"
 description: "Leer hoe je een bestaande Palworld save uploadt, de bestandsdata correct uploadt en je server configureert om de juiste wereldmap te laden. -> Leer nu meer"
-sidebar_label: Palworld: Upload Bestaande Save
+sidebar_label: "Upload Bestaande Save"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

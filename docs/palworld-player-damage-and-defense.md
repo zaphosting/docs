@@ -2,7 +2,7 @@
 id: palworld-player-damage-and-defense
 title: "Palworld: Player Damage and Defense"
 description: "Learn how to change player damage and player defense settings in Palworld by editing the server config and adjusting damage multipliers correctly. -> Learn more now"
-sidebar_label: Palworld: Player Damage and Defense
+sidebar_label: "Player Damage and Defense"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

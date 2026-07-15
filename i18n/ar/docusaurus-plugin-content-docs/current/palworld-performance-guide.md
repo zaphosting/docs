@@ -2,7 +2,7 @@
 id: palworld-performance-guide
 title: "Palworld: دليل الأداء"
 description: "حسّن أداء سيرفر Palworld، قلل من انخفاض الأداء، وقلل من حمل السيرفر عبر تغييرات التكوين اليدوية. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: دليل الأداء
+sidebar_label: "دليل الأداء"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

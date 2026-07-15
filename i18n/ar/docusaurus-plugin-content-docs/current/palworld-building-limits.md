@@ -2,7 +2,7 @@
 id: palworld-building-limits
 title: "Palworld: حدود البناء"
 description: "تعلم كيفية تغيير حدود البناء في Palworld، قواعد بناء القواعد، وقيود المناطق من خلال تعديل إعدادات السيرفر يدويًا. -> تعرّف على المزيد الآن"
-sidebar_label: Palworld: حدود البناء
+sidebar_label: "حدود البناء"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

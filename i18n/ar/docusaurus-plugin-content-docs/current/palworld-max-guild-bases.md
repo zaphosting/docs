@@ -2,7 +2,7 @@
 id: palworld-max-guild-bases
 title: "Palworld: الحد الأقصى لعدد قواعد النقابات"
 description: "تعرف على كيفية تغيير إعداد الحد الأقصى لقواعد النقابات في Palworld عن طريق تعديل قيمة BaseCampMaxNumInGuild على سيرفرك. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: الحد الأقصى لعدد قواعد النقابات
+sidebar_label: "الحد الأقصى لعدد قواعد النقابات"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

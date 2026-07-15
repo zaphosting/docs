@@ -2,7 +2,7 @@
 id: palworld-enable-raids
 title: "Palworld: Włączanie Najazdów"
 description: "Dowiedz się, jak włączyć lub wyłączyć najazdy na swoim serwerze Palworld, edytując odpowiednią konfigurację ataków wrogów na bazę. -> Sprawdź teraz"
-sidebar_label: Palworld: Włączanie Najazdów
+sidebar_label: "Włączanie Najazdów"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

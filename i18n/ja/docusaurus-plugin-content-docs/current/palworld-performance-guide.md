@@ -2,7 +2,7 @@
 id: palworld-performance-guide
 title: "Palworld: パフォーマンスガイド"
 description: "Palworldサーバーのパフォーマンスを向上させ、パフォーマンス低下を減らし、サーバー負荷を軽減するための手動設定変更方法を解説します。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: パフォーマンスガイド
+sidebar_label: "パフォーマンスガイド"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

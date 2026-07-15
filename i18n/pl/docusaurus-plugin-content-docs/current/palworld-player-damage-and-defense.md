@@ -2,7 +2,7 @@
 id: palworld-player-damage-and-defense
 title: "Palworld: Obrażenia i Obrona Gracza"
 description: "Dowiedz się, jak zmienić ustawienia obrażeń i obrony gracza w Palworld, edytując konfigurację serwera i poprawnie dostosowując mnożniki obrażeń. -> Sprawdź teraz"
-sidebar_label: Palworld: Obrażenia i Obrona Gracza
+sidebar_label: "Obrażenia i Obrona Gracza"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

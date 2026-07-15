@@ -2,7 +2,7 @@
 id: palworld-technology-ids
 title: "Palworld: รหัสเทคโนโลยี"
 description: "เรียนรู้วิธีจัดการรหัสเทคโนโลยีของ Palworld ปิดการใช้งานเทคโนโลยีเฉพาะ และแก้ไขการตั้งค่าเซิร์ฟเวอร์อย่างปลอดภัย -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: รหัสเทคโนโลยี
+sidebar_label: "รหัสเทคโนโลยี"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

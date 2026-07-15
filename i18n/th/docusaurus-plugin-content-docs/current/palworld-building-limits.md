@@ -2,7 +2,7 @@
 id: palworld-building-limits
 title: "Palworld: ขีดจำกัดการสร้าง"
 description: "เรียนรู้วิธีเปลี่ยนขีดจำกัดการสร้างใน Palworld กฎการสร้างฐาน และข้อจำกัดพื้นที่โดยการแก้ไขการตั้งค่าเซิร์ฟเวอร์ด้วยตนเอง -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: ขีดจำกัดการสร้าง
+sidebar_label: "ขีดจำกัดการสร้าง"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

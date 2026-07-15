@@ -2,7 +2,7 @@
 id: palworld-supply-drop-settings
 title: "Palworld: 補給物資ドロップ設定"
 description: "Palworldゲームサーバーで補給物資ドロップの頻度を手動で変更する方法を、SupplyDropSpan設定の編集を通じて学びましょう。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: 補給物資ドロップ設定
+sidebar_label: "補給物資ドロップ設定"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

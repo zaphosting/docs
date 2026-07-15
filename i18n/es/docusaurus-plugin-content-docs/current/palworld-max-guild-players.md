@@ -2,7 +2,7 @@
 id: palworld-max-guild-players
 title: "Palworld: Máximo de Jugadores por Guild"
 description: "Aprende cómo cambiar el límite de jugadores por guild en Palworld editando la configuración de máximo de jugadores por guild en tu servidor. -> Aprende más ahora"
-sidebar_label: Palworld: Máximo de Jugadores por Guild
+sidebar_label: "Máximo de Jugadores por Guild"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

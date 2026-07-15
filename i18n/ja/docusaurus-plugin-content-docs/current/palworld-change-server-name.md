@@ -2,7 +2,7 @@
 id: palworld-change-server-name
 title: "Palworld: サーバー名の変更"
 description: "Palworldのサーバー名を変更し、プレイヤーに表示されるサーバーブラウザ名を正しい設定ファイルを手動で編集して更新する方法を学びます。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: サーバー名の変更
+sidebar_label: "サーバー名の変更"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

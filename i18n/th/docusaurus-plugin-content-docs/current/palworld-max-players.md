@@ -2,7 +2,7 @@
 id: palworld-max-players
 title: "Palworld: Max Players"
 description: "Learn how to change the Palworld max players setting on your Palworld game server by editing the correct config file in the ZAP interface. -> Learn more now"
-sidebar_label: Palworld: Max Players
+sidebar_label: "Max Players"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

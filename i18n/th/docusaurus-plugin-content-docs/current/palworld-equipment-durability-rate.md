@@ -2,7 +2,7 @@
 id: palworld-equipment-durability-rate
 title: "Palworld: อัตราความทนทานของอุปกรณ์"
 description: "เรียนรู้วิธีเปลี่ยนอัตราความทนทานของอุปกรณ์และปรับค่า EquipmentDurabilityDamageRate ในเซิร์ฟเวอร์ Palworld ของคุณโดยแก้ไขค่าคอนฟิกที่ถูกต้อง -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: อัตราความทนทานของอุปกรณ์
+sidebar_label: "อัตราความทนทานของอุปกรณ์"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

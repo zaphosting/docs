@@ -2,7 +2,7 @@
 id: palworld-performance-guide
 title: "Palworld: Prestatiehandleiding"
 description: "Verbeter de prestaties van je Palworld-server, verminder prestatieproblemen en verlaag de serverbelasting met handmatige configuratiewijzigingen. -> Leer nu meer"
-sidebar_label: Palworld: Prestatiehandleiding
+sidebar_label: "Prestatiehandleiding"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

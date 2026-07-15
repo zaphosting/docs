@@ -2,7 +2,7 @@
 id: palworld-set-a-password
 title: "Palworld: パスワード設定"
 description: "Palworldのゲームサーバー設定を手動で編集し、パスワード変更を正しく適用する方法を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: パスワード設定
+sidebar_label: "パスワード設定"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

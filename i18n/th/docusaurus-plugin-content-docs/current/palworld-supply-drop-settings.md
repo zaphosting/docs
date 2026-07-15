@@ -2,7 +2,7 @@
 id: palworld-supply-drop-settings
 title: "Palworld: การตั้งค่า Supply Drop"
 description: "เรียนรู้วิธีเปลี่ยนความถี่ของ Supply Drop ใน Palworld บนเซิร์ฟเวอร์เกม Palworld ของคุณโดยการแก้ไขการตั้งค่า SupplyDropSpan ด้วยตนเอง -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: การตั้งค่า Supply Drop
+sidebar_label: "การตั้งค่า Supply Drop"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-enable-fast-travel
 title: "Palworld: Aktivera Snabbresor"
 description: "Lär dig hur du konfigurerar snabbresor på din Palworld-server, inklusive inställningar för snabbresor endast mellan baser och manuella konfigurationsändringar. -> Läs mer nu"
-sidebar_label: Palworld: Aktivera Snabbresor
+sidebar_label: "Aktivera Snabbresor"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

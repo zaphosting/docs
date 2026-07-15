@@ -2,7 +2,7 @@
 id: palworld-player-damage-and-defense
 title: "Palworld: ضرر ودفاع اللاعب"
 description: "تعلم كيفية تغيير إعدادات ضرر اللاعب ودفاعه في Palworld عن طريق تعديل إعدادات السيرفر وضبط مضاعفات الضرر بشكل صحيح. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: ضرر ودفاع اللاعب
+sidebar_label: "ضرر ودفاع اللاعب"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

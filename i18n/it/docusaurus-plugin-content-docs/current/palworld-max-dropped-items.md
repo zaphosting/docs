@@ -2,7 +2,7 @@
 id: palworld-max-dropped-items
 title: "Palworld: Numero massimo di oggetti lasciati a terra"
 description: "Scopri come modificare i limiti degli oggetti lasciati a terra e le impostazioni di scomparsa degli oggetti sul tuo server Palworld modificando i valori di configurazione corretti. -> Scopri di più ora"
-sidebar_label: Palworld: Numero massimo di oggetti lasciati a terra
+sidebar_label: "Numero massimo di oggetti lasciati a terra"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

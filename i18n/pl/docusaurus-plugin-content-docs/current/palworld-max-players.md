@@ -2,7 +2,7 @@
 id: palworld-max-players
 title: "Palworld: Maksymalna liczba graczy"
 description: "Dowiedz się, jak zmienić maksymalną liczbę graczy w Palworld na swoim serwerze gier Palworld, edytując odpowiedni plik konfiguracyjny w panelu ZAP. -> Sprawdź teraz"
-sidebar_label: Palworld: Maksymalna liczba graczy
+sidebar_label: "Maksymalna liczba graczy"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

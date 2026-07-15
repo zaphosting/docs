@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld: Hunger und Ausdauer"
 description: "Erfahre, wie du die Hunger- und Ausdauerraten für Spieler und Pals in Palworld durch Bearbeiten der Serverkonfiguration anpasst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Hunger und Ausdauer
+sidebar_label: "Hunger und Ausdauer"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

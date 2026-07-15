@@ -2,7 +2,7 @@
 id: palworld-faster-egg-hatching
 title: "Palworld: Schiusa delle Uova più Veloce"
 description: "Scopri come ridurre il tempo di schiusa delle uova in Palworld modificando l'impostazione del server Palworld per una schiusa più rapida. -> Scopri di più ora"
-sidebar_label: Palworld: Schiusa delle Uova più Veloce
+sidebar_label: "Schiusa delle Uova più Veloce"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-change-day-night-speed
 title: "Palworld: تغيير سرعة النهار والليل"
 description: "تعلم كيفية تغيير سرعة النهار والليل في Palworld عن طريق تعديل إعدادات دورة اليوم على سيرفرك. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: تغيير سرعة النهار والليل
+sidebar_label: "تغيير سرعة النهار والليل"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

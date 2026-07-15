@@ -2,7 +2,7 @@
 id: palworld-max-guild-players
 title: "Palworld: Numero massimo di giocatori per gilda"
 description: "Scopri come modificare il limite di giocatori per gilda in Palworld modificando l'impostazione max guild players sul tuo server. -> Scopri di più ora"
-sidebar_label: Palworld: Numero massimo di giocatori per gilda
+sidebar_label: "Numero massimo di giocatori per gilda"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

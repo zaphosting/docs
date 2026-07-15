@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld: Subir Partida Guardada Existente"
 description: "Aprende cómo subir una partida guardada existente de Palworld, subir los datos correctamente y configurar tu servidor para cargar la carpeta del mundo correcta. -> Aprende más ahora"
-sidebar_label: Palworld: Subir Partida Guardada Existente
+sidebar_label: "Subir Partida Guardada Existente"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

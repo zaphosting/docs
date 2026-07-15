@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld: Bestehenden Save hochladen"
 description: "Lerne, wie du einen bestehenden Palworld-Save hochlädst, die Spieldateien korrekt überträgst und deinen Server so konfigurierst, dass der richtige Welt-Ordner geladen wird. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Bestehenden Save hochladen
+sidebar_label: "Bestehenden Save hochladen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

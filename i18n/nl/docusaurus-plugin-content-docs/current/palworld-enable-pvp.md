@@ -2,7 +2,7 @@
 id: palworld-enable-pvp
 title: "Palworld: PvP inschakelen"
 description: "Leer hoe je PvP inschakelt in Palworld, de basisgevechtsinstellingen configureert en aanbevolen PvP-instellingen toepast op je server. -> Leer nu meer"
-sidebar_label: Palworld: PvP inschakelen
+sidebar_label: "PvP inschakelen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

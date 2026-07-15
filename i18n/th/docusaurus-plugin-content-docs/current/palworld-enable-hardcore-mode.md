@@ -2,7 +2,7 @@
 id: palworld-enable-hardcore-mode
 title: "Palworld: เปิดใช้งานโหมด Hardcore"
 description: "เรียนรู้วิธีเปิดใช้งานโหมด hardcore ใน Palworld โดยแก้ไขการตั้งค่าเซิร์ฟเวอร์ที่ถูกต้อง กำหนดค่า True หรือ False และตั้งค่าตัวเลือก permadeath อย่างปลอดภัย -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: เปิดใช้งานโหมด Hardcore
+sidebar_label: "เปิดใช้งานโหมด Hardcore"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

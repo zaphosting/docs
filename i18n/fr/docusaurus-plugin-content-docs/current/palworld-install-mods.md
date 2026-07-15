@@ -2,7 +2,7 @@
 id: palworld-install-mods
 title: "Palworld : Installer des Mods"
 description: "Apprenez à installer des mods Palworld, y compris UE4SS Palworld, mods Lua et mods .pak, sur votre serveur dédié. -> En savoir plus maintenant"
-sidebar_label: Palworld : Installer des Mods
+sidebar_label: "Palworld : Installer des Mods"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

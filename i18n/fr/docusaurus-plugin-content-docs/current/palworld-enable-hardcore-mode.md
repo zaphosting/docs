@@ -2,7 +2,7 @@
 id: palworld-enable-hardcore-mode
 title: "Palworld : Activer le mode Hardcore"
 description: "Apprenez à activer le mode hardcore dans Palworld en modifiant la bonne config serveur, en définissant les valeurs True ou False, et en appliquant les options de mort permanente en toute sécurité. -> En savoir plus maintenant"
-sidebar_label: Palworld : Activer le mode Hardcore
+sidebar_label: "Palworld : Activer le mode Hardcore"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

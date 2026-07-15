@@ -2,7 +2,7 @@
 id: palworld-max-guild-players
 title: "Palworld: الحد الأقصى لعدد لاعبي النقابة"
 description: "تعرف على كيفية تغيير حدود لاعبي النقابة في Palworld عن طريق تعديل إعداد الحد الأقصى للاعبي النقابة على سيرفرك. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: الحد الأقصى لعدد لاعبي النقابة
+sidebar_label: "الحد الأقصى لعدد لاعبي النقابة"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

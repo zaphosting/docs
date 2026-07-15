@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld: Enviar Save Existente"
 description: "Aprenda como enviar um save existente do Palworld, enviar os dados do arquivo corretamente e configurar seu servidor para carregar a pasta do mundo certa. -> Saiba mais agora"
-sidebar_label: Palworld: Enviar Save Existente
+sidebar_label: "Enviar Save Existente"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

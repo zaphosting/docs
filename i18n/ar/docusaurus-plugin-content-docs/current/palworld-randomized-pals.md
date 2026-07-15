@@ -2,7 +2,7 @@
 id: palworld-randomized-pals
 title: "Palworld: أصدقاء عشوائيون"
 description: "تعلم كيفية تفعيل الأصدقاء العشوائيين في Palworld عن طريق تعديل إعدادات السيرفر، بما في ذلك نوع العشوائية وقيم البذرة لعالم لعبة Palworld. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: أصدقاء عشوائيون
+sidebar_label: "أصدقاء عشوائيون"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-performance-guide
 title: "Palworld: Performance Guide"
 description: "Improve Palworld server performance, reduce performance drops, and decrease server load with manual configuration changes. -> Learn more now"
-sidebar_label: Palworld: Performance Guide
+sidebar_label: "Performance Guide"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

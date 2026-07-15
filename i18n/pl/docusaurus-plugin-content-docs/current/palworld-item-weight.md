@@ -2,7 +2,7 @@
 id: palworld-item-weight
 title: "Palworld: Waga Przedmiotów"
 description: "Dowiedz się, jak zmienić mnożnik wagi przedmiotów w Palworld, edytując ustawienie wagi przedmiotów w konfiguracji serwera, aby lepiej zbalansować udźwig. -> Sprawdź teraz"
-sidebar_label: Palworld: Waga Przedmiotów
+sidebar_label: "Waga Przedmiotów"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

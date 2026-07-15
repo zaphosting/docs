@@ -2,7 +2,7 @@
 id: palworld-troubleshooting
 title: "Palworld: استكشاف الأخطاء وإصلاحها"
 description: "إصلاح مشاكل سيرفر ألعاب Palworld الشائعة مثل مشاكل تحديث Palworld Steam، انتهاء مهلة الاتصال، وأخطاء Steam على سيرفر ألعابك. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: استكشاف الأخطاء وإصلاحها
+sidebar_label: "استكشاف الأخطاء وإصلاحها"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

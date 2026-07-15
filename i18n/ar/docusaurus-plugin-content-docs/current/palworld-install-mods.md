@@ -2,7 +2,7 @@
 id: palworld-install-mods
 title: "Palworld: تثبيت الإضافات"
 description: "تعلم كيفية تثبيت إضافات Palworld، بما في ذلك UE4SS Palworld، إضافات Lua، وإضافات .pak، على سيرفرك المخصص. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: تثبيت الإضافات
+sidebar_label: "تثبيت الإضافات"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

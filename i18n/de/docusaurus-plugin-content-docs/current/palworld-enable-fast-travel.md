@@ -2,7 +2,7 @@
 id: palworld-enable-fast-travel
 title: "Palworld: Schnelles Reisen aktivieren"
 description: "Lerne, wie du schnelles Reisen auf deinem Palworld-Gameserver konfigurierst, inklusive Basis-Only-Schnellreise und manueller Config-Anpassungen. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Schnelles Reisen aktivieren
+sidebar_label: "Schnelles Reisen aktivieren"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

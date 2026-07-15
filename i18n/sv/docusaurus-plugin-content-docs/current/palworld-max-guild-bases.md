@@ -2,7 +2,7 @@
 id: palworld-max-guild-bases
 title: "Palworld: Max Antal Guildbaser"
 description: "Lär dig hur du ändrar inställningen för max antal guildbaser i Palworld genom att redigera värdet BaseCampMaxNumInGuild på din server. -> Läs mer nu"
-sidebar_label: Palworld: Max Antal Guildbaser
+sidebar_label: "Max Antal Guildbaser"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

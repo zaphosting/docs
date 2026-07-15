@@ -2,7 +2,7 @@
 id: palworld-technology-ids
 title: "Palworld: テクノロジーID"
 description: "PalworldのテクノロジーIDの管理方法、特定のテクノロジーの無効化、正しいサーバー設定の安全な編集方法を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: テクノロジーID
+sidebar_label: "テクノロジーID"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

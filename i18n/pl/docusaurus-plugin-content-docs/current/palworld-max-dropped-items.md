@@ -2,7 +2,7 @@
 id: palworld-max-dropped-items
 title: "Palworld: Maksymalna liczba upuszczonych przedmiotów"
 description: "Dowiedz się, jak zmienić limity upuszczonych przedmiotów i ustawienia ich znikania na serwerze Palworld, edytując odpowiednie wartości w konfiguracji. -> Sprawdź teraz"
-sidebar_label: Palworld: Maksymalna liczba upuszczonych przedmiotów
+sidebar_label: "Maksymalna liczba upuszczonych przedmiotów"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-reset-server
 title: "Palworld: إعادة ضبط السيرفر"
 description: "تعرف على كيفية إعادة ضبط سيرفر Palworld الخاص بك في واجهة الويب من ZAP، وفهم الإعدادات التي يتم حذفها، واستعادة بيانات السيرفر الافتراضية بأمان. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: إعادة ضبط السيرفر
+sidebar_label: "إعادة ضبط السيرفر"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

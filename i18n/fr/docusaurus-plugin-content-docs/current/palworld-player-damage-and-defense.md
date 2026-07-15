@@ -2,7 +2,7 @@
 id: palworld-player-damage-and-defense
 title: "Palworld : Dégâts et Défense du Joueur"
 description: "Apprenez à modifier les dégâts infligés et la défense du joueur dans Palworld en éditant la config du serveur et en ajustant correctement les multiplicateurs de dégâts. -> En savoir plus maintenant"
-sidebar_label: Palworld : Dégâts et Défense du Joueur
+sidebar_label: "Palworld : Dégâts et Défense du Joueur"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

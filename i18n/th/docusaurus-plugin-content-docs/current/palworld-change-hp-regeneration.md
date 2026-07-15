@@ -2,7 +2,7 @@
 id: palworld-change-hp-regeneration
 title: "Palworld: เปลี่ยนอัตราการฟื้นฟู HP"
 description: "เรียนรู้วิธีเปลี่ยนอัตราการฟื้นฟู HP ใน Palworld โดยแก้ไขการตั้งค่าการฟื้นฟูของผู้เล่นและ Pal บนเซิร์ฟเวอร์ของคุณ เพื่อให้การฟื้นฟูเร็วขึ้น ช้าลง หรือปิดการฟื้นฟู -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: เปลี่ยนอัตราการฟื้นฟู HP
+sidebar_label: "เปลี่ยนอัตราการฟื้นฟู HP"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

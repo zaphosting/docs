@@ -2,7 +2,7 @@
 id: palworld-troubleshooting
 title: "Palworld: Felsökning"
 description: "Åtgärda vanliga Palworld-serverproblem som Palworld Steam-uppdateringsproblem, anslutningstidsgränser och Steam-fel på din spelserver. -> Läs mer nu"
-sidebar_label: Palworld: Felsökning
+sidebar_label: "Felsökning"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

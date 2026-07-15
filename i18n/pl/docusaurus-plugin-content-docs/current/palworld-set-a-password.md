@@ -2,7 +2,7 @@
 id: palworld-set-a-password
 title: "Palworld: Ustaw Hasło"
 description: "Dowiedz się, jak ustawić hasło do serwera Palworld, edytując ręcznie konfigurację gry i poprawnie zastosować zmianę hasła. -> Dowiedz się więcej teraz"
-sidebar_label: Palworld: Ustaw Hasło
+sidebar_label: "Ustaw Hasło"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

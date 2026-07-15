@@ -2,7 +2,7 @@
 id: palworld-enable-raids
 title: "Palworld: Ativar Raides"
 description: "Aprenda como ativar ou desativar raides no seu servidor de jogos Palworld editando a configuração correta para ataques de inimigos invasores. -> Saiba mais agora"
-sidebar_label: Palworld: Ativar Raides
+sidebar_label: "Ativar Raides"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

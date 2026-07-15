@@ -2,7 +2,7 @@
 id: palworld-pal-spawn-rate
 title: "Palworld: Współczynnik pojawiania się Palów"
 description: "Dowiedz się, jak zmienić współczynnik pojawiania się Palów w Palworld, edytując ustawienie częstotliwości pojawiania się Palów na swoim serwerze -> Sprawdź teraz"
-sidebar_label: Palworld: Współczynnik pojawiania się Palów
+sidebar_label: "Współczynnik pojawiania się Palów"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

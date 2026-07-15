@@ -2,7 +2,7 @@
 id: palworld-change-death-penalty
 title: "Palworld: 死亡ペナルティの変更"
 description: "サーバー設定のDeathPenalty値を編集してPalworldの死亡ペナルティを変更する方法と再起動手順を解説します。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: 死亡ペナルティの変更
+sidebar_label: "死亡ペナルティの変更"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

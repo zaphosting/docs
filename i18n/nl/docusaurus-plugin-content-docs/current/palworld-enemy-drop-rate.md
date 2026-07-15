@@ -2,7 +2,7 @@
 id: palworld-enemy-drop-rate
 title: "Palworld: Enemy Drop Rate"
 description: "Leer hoe je de Palworld enemy drop rate aanpast op je Palworld game server door de juiste config waarde te wijzigen voor een betere lootbalans. -> Leer nu meer"
-sidebar_label: Palworld: Enemy Drop Rate
+sidebar_label: "Enemy Drop Rate"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

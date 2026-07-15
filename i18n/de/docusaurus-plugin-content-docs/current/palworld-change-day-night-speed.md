@@ -2,7 +2,7 @@
 id: palworld-change-day-night-speed
 title: "Palworld: Tag-Nacht-Geschwindigkeit ändern"
 description: "Lerne, wie du die Tag- und Nachtgeschwindigkeit in Palworld änderst, indem du die Tagzyklus-Einstellungen auf deinem Server anpasst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Tag-Nacht-Geschwindigkeit ändern
+sidebar_label: "Tag-Nacht-Geschwindigkeit ändern"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

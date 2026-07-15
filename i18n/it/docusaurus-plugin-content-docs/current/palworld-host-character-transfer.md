@@ -2,7 +2,7 @@
 id: palworld-host-character-transfer
 title: "Palworld: Trasferimento del Personaggio Host"
 description: "Scopri come trasferire il personaggio host di Palworld da una partita in solo o co-op a un server dedicato usando Palworld Save Tools e i file di salvataggio corretti. -> Scopri di più ora"
-sidebar_label: Palworld: Trasferimento del Personaggio Host
+sidebar_label: "Trasferimento del Personaggio Host"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

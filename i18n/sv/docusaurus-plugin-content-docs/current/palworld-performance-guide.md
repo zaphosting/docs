@@ -2,7 +2,7 @@
 id: palworld-performance-guide
 title: "Palworld: Prestandaguide"
 description: "Förbättra Palworld-serverns prestanda, minska prestandafall och sänk serverbelastningen med manuella konfigurationsändringar. -> Lär dig mer nu"
-sidebar_label: Palworld: Prestandaguide
+sidebar_label: "Prestandaguide"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

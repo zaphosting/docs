@@ -2,7 +2,7 @@
 id: palworld-change-server-type
 title: "Palworld: Cambiar Tipo de Servidor"
 description: "Aprende cómo cambiar el tipo de servidor Palworld entre Linux y Windows, actualizar la ruta correcta de configuración y aplicar el cambio correctamente para la compatibilidad con mods. -> Aprende más ahora"
-sidebar_label: Palworld: Cambiar Tipo de Servidor
+sidebar_label: "Cambiar Tipo de Servidor"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

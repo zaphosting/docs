@@ -2,7 +2,7 @@
 id: palworld-pal-spawn-rate
 title: "Palworld: อัตราการเกิด Pal"
 description: "เรียนรู้วิธีเปลี่ยนอัตราการเกิด Pal ใน Palworld โดยแก้ไขการตั้งค่า spawn สำหรับความถี่ของ Pal บนเซิร์ฟเวอร์ของคุณ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: อัตราการเกิด Pal
+sidebar_label: "อัตราการเกิด Pal"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

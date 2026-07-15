@@ -2,7 +2,7 @@
 id: palworld-change-hp-regeneration
 title: "Palworld: Zmiana regeneracji HP"
 description: "Dowiedz się, jak zmienić regenerację HP w Palworld, edytując ustawienia regeneracji gracza i Pala na swoim serwerze, aby przyspieszyć, spowolnić lub wyłączyć leczenie -> Sprawdź teraz"
-sidebar_label: Palworld: Zmiana regeneracji HP
+sidebar_label: "Zmiana regeneracji HP"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

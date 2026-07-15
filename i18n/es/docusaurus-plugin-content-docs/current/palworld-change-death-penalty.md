@@ -2,7 +2,7 @@
 id: palworld-change-death-penalty
 title: "Palworld: Cambiar la Penalización por Muerte"
 description: "Aprende cómo cambiar la penalización por muerte en Palworld editando la configuración del servidor, incluyendo los valores de DeathPenalty y los pasos para reiniciar. -> Aprende más ahora"
-sidebar_label: Palworld: Cambiar la Penalización por Muerte
+sidebar_label: "Cambiar la Penalización por Muerte"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

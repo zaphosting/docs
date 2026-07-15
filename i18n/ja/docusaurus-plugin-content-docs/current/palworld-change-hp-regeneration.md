@@ -2,7 +2,7 @@
 id: palworld-change-hp-regeneration
 title: "Palworld: HP回復速度の変更"
 description: "PalworldでプレイヤーとPalの回復設定をサーバー上で編集し、回復速度を速くしたり遅くしたり無効化する方法を学びましょう -> 今すぐ詳しく"
-sidebar_label: Palworld: HP回復速度の変更
+sidebar_label: "HP回復速度の変更"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

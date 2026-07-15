@@ -2,7 +2,7 @@
 id: palworld-collection-drop-rate
 title: "Palworld：采集掉落率"
 description: "了解如何调整 Palworld 采集设置，增加采集资源数量，加快资源刷新速度，提升你的 Palworld 游戏服务器体验。-> 立即了解更多"
-sidebar_label: Palworld：采集掉落率
+sidebar_label: "Palworld：采集掉落率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

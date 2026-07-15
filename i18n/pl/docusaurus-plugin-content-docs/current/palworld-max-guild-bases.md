@@ -2,7 +2,7 @@
 id: palworld-max-guild-bases
 title: "Palworld: Maksymalna liczba baz gildii"
 description: "Dowiedz się, jak zmienić ustawienie maksymalnej liczby baz gildii w Palworld, edytując wartość BaseCampMaxNumInGuild na swoim serwerze. -> Dowiedz się więcej teraz"
-sidebar_label: Palworld: Maksymalna liczba baz gildii
+sidebar_label: "Maksymalna liczba baz gildii"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

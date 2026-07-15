@@ -2,7 +2,7 @@
 id: palworld-enable-predator-pals
 title: "Palworld: Ativar Predator Pals"
 description: "Aprenda como ativar ou desativar predator pals no seu servidor Palworld, corrigir o problema de predator pals que não aparecem e configurar a opção correta manualmente. -> Saiba mais agora"
-sidebar_label: Palworld: Ativar Predator Pals
+sidebar_label: "Ativar Predator Pals"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

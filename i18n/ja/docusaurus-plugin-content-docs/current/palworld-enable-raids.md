@@ -2,7 +2,7 @@
 id: palworld-enable-raids
 title: "Palworld: レイドの有効化"
 description: "Palworldサーバーでのレイド（侵入者の敵の攻撃）を有効または無効にする方法を、正しい設定ファイルの編集で学びましょう。 -> 今すぐ詳しく学ぶ"
-sidebar_label: Palworld: レイドの有効化
+sidebar_label: "レイドの有効化"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

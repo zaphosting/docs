@@ -2,7 +2,7 @@
 id: palworld-structure-damage-rate
 title: "Palworld: Wskaźnik uszkodzeń struktur"
 description: "Dowiedz się, jak zmienić wskaźnik uszkodzeń i rozkładu struktur w Palworld, edytując plik konfiguracyjny serwera w sposób bezpieczny i poprawny. -> Dowiedz się więcej"
-sidebar_label: Palworld: Wskaźnik uszkodzeń struktur
+sidebar_label: "Wskaźnik uszkodzeń struktur"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

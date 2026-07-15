@@ -2,7 +2,7 @@
 id: palworld-pal-capture-rate
 title: "Palworld：Pal 捕获率"
 description: "了解如何通过编辑 PalCaptureRate 设置来调整 Palworld 服务器上的 Pal 捕获率，从而更轻松地捕获 Pal。-> 立即了解更多"
-sidebar_label: Palworld：Pal 捕获率
+sidebar_label: "Palworld：Pal 捕获率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

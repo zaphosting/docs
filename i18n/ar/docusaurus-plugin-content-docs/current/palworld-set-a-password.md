@@ -2,7 +2,7 @@
 id: palworld-set-a-password
 title: "Palworld: تعيين كلمة مرور"
 description: "تعلم كيفية تعيين كلمة مرور لسيرفر Palworld عن طريق تعديل إعدادات اللعبة يدويًا وتطبيق تغيير كلمة المرور بشكل صحيح. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: تعيين كلمة مرور
+sidebar_label: "تعيين كلمة مرور"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-enable-fast-travel
 title: "Palworld: Abilitare il Viaggio Veloce"
 description: "Scopri come configurare il viaggio veloce sul tuo server Palworld, incluse le impostazioni per il viaggio veloce solo tra basi e le modifiche manuali al file di configurazione. -> Scopri di più ora"
-sidebar_label: Palworld: Abilitare il Viaggio Veloce
+sidebar_label: "Abilitare il Viaggio Veloce"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

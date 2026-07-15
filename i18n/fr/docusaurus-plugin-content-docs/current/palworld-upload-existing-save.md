@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld : Télécharger une sauvegarde existante"
 description: "Apprenez à télécharger une sauvegarde Palworld existante, à transférer correctement les fichiers et à configurer votre serveur pour charger le bon dossier de monde. -> En savoir plus maintenant"
-sidebar_label: Palworld : Télécharger une sauvegarde existante
+sidebar_label: "Palworld : Télécharger une sauvegarde existante"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

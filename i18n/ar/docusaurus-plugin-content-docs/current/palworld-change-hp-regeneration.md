@@ -2,7 +2,7 @@
 id: palworld-change-hp-regeneration
 title: "Palworld: تغيير تجديد نقاط الصحة"
 description: "تعلم كيفية تغيير تجديد نقاط الصحة في Palworld عن طريق تعديل إعدادات تجديد اللاعب وPal على سيرفرك لتسريع، إبطاء، أو تعطيل الشفاء -> تعرف على المزيد الآن"
-sidebar_label: Palworld: تغيير تجديد نقاط الصحة
+sidebar_label: "تغيير تجديد نقاط الصحة"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

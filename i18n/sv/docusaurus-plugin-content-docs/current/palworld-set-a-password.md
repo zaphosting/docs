@@ -2,7 +2,7 @@
 id: palworld-set-a-password
 title: "Palworld: Ställ in ett lösenord"
 description: "Lär dig hur du ställer in ett lösenord för din Palworld-server genom att manuellt redigera Palworlds konfigurationsfil och tillämpa lösenordsändringen korrekt. -> Läs mer nu"
-sidebar_label: Palworld: Ställ in ett lösenord
+sidebar_label: "Ställ in ett lösenord"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

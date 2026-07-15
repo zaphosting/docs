@@ -2,7 +2,7 @@
 id: palworld-change-death-penalty
 title: "Palworld: Change Death Penalty"
 description: "Learn how to change the Palworld death penalty by editing the server config, including DeathPenalty values and restart steps. -> Learn more now"
-sidebar_label: Palworld: Change Death Penalty
+sidebar_label: "Change Death Penalty"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

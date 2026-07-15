@@ -2,7 +2,7 @@
 id: palworld-pal-damage-multiplier
 title: "Palworld: Multiplicador de Dano dos Pals"
 description: "Aprenda como alterar o multiplicador de dano dos Pals no Palworld editando as configurações de dano para valores de ataque e defesa no seu servidor. -> Saiba mais agora"
-sidebar_label: Palworld: Multiplicador de Dano dos Pals
+sidebar_label: "Multiplicador de Dano dos Pals"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

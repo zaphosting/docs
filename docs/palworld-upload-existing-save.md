@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld: Upload Existing Save"
 description: "Learn how to upload an existing Palworld save, upload file data correctly, and configure your server to load the right world folder. -> Learn more now"
-sidebar_label: Palworld: Upload Existing Save
+sidebar_label: "Upload Existing Save"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

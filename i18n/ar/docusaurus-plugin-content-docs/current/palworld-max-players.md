@@ -2,7 +2,7 @@
 id: palworld-max-players
 title: "Palworld: الحد الأقصى للاعبين"
 description: "تعلم كيفية تغيير إعداد الحد الأقصى للاعبين في Palworld على سيرفر ألعاب Palworld الخاص بك عن طريق تعديل ملف الإعدادات الصحيح في واجهة ZAP. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: الحد الأقصى للاعبين
+sidebar_label: "الحد الأقصى للاعبين"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

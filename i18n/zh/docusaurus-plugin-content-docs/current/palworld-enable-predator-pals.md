@@ -2,7 +2,7 @@
 id: palworld-enable-predator-pals
 title: "Palworld：启用掠食者伙伴"
 description: "了解如何在您的 Palworld 服务器上启用或禁用掠食者伙伴，解决掠食者伙伴不生成的问题，并手动配置正确的设置。-> 立即了解更多"
-sidebar_label: Palworld：启用掠食者伙伴
+sidebar_label: "Palworld：启用掠食者伙伴"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

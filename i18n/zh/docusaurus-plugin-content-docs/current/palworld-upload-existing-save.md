@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld：上传已有存档"
 description: "了解如何上传已有的 Palworld 存档，正确上传文件数据，并配置服务器以加载正确的世界文件夹。-> 立即了解更多"
-sidebar_label: Palworld：上传已有存档
+sidebar_label: "Palworld：上传已有存档"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

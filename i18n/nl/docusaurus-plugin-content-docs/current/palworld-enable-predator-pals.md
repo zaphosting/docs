@@ -2,7 +2,7 @@
 id: palworld-enable-predator-pals
 title: "Palworld: Predator Pals inschakelen"
 description: "Leer hoe je predator pals aan- of uitzet op je Palworld-server, problemen met het niet spawnen van predator pals oplost en de juiste instelling handmatig configureert. -> Leer nu meer"
-sidebar_label: Palworld: Predator Pals inschakelen
+sidebar_label: "Predator Pals inschakelen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

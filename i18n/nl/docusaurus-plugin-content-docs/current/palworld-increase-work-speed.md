@@ -2,7 +2,7 @@
 id: palworld-increase-work-speed
 title: "Palworld: Werktempo Verhogen"
 description: "Leer hoe je het werktempo in Palworld verhoogt door de WorkSpeedRate-instelling aan te passen voor sneller werk van spelers en Pals op je server. -> Leer nu meer"
-sidebar_label: Palworld: Werktempo Verhogen
+sidebar_label: "Werktempo Verhogen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

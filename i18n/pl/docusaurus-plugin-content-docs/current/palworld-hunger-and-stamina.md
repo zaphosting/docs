@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld: Głód i Wytrzymałość"
 description: "Dowiedz się, jak dostosować tempo spadku głodu i wytrzymałości dla graczy i Palów, edytując konfigurację serwera. -> Sprawdź teraz"
-sidebar_label: Palworld: Głód i Wytrzymałość
+sidebar_label: "Głód i Wytrzymałość"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

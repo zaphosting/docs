@@ -2,7 +2,7 @@
 id: palworld-max-workers
 title: "Palworld : Nombre max de travailleurs"
 description: "Apprenez à modifier le paramètre max workers de Palworld en éditant BaseCampWorkerMaxNum, incluant la limite max par défaut et les limites vanilla sûres pour les travailleurs par base. -> En savoir plus maintenant"
-sidebar_label: Palworld : Nombre max de travailleurs
+sidebar_label: "Palworld : Nombre max de travailleurs"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

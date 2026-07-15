@@ -2,7 +2,7 @@
 id: palworld-reset-world
 title: "Palworld: Återställ Värld"
 description: "Lär dig hur du återställer din Palworld-spelservervärld genom att ta bort den nuvarande sparade datan och starta en ny Palworld-världskarta på samma server. -> Läs mer nu"
-sidebar_label: Palworld: Återställ Värld
+sidebar_label: "Återställ Värld"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

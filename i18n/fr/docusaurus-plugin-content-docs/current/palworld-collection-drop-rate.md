@@ -2,7 +2,7 @@
 id: palworld-collection-drop-rate
 title: "Palworld : Taux de Drop de Collection"
 description: "Apprenez à ajuster les paramètres de collection dans Palworld, augmenter les ressources récoltées et accélérer les respawns sur votre serveur de jeux Palworld. -> En savoir plus maintenant"
-sidebar_label: Palworld : Taux de Drop de Collection
+sidebar_label: "Palworld : Taux de Drop de Collection"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

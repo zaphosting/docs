@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld: Ladda upp befintligt spar"
 description: "Lär dig hur du laddar upp ett befintligt Palworld-spar, laddar upp fildata korrekt och konfigurerar din server för att ladda rätt världsmapp. -> Läs mer nu"
-sidebar_label: Palworld: Ladda upp befintligt spar
+sidebar_label: "Ladda upp befintligt spar"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

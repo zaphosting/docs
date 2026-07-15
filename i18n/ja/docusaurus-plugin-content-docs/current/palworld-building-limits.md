@@ -2,7 +2,7 @@
 id: palworld-building-limits
 title: "Palworld: 建築制限"
 description: "Palworldの建築制限、拠点建築ルール、エリア制限をサーバー設定を手動で編集して変更する方法を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: 建築制限
+sidebar_label: "建築制限"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-host-character-transfer
 title: "Palworld: نقل شخصية المضيف"
 description: "تعلم كيفية نقل شخصية مضيف Palworld من حفظ فردي أو تعاوني إلى سيرفر مخصص باستخدام أدوات حفظ Palworld والملفات الصحيحة. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: نقل شخصية المضيف
+sidebar_label: "نقل شخصية المضيف"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

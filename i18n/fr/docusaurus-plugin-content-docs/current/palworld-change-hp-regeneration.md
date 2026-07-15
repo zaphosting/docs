@@ -2,7 +2,7 @@
 id: palworld-change-hp-regeneration
 title: "Palworld : Modifier la régénération de PV"
 description: "Apprenez à modifier la régénération de PV dans Palworld en éditant les paramètres de régénération des joueurs et des Pals sur votre serveur pour une guérison plus rapide, plus lente ou désactivée -> Découvrez comment faire maintenant"
-sidebar_label: Palworld : Modifier la régénération de PV
+sidebar_label: "Palworld : Modifier la régénération de PV"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-reset-world
 title: "Palworld: Reset World"
 description: "Learn how to reset your Palworld game server world by removing the current save data and starting a new Palworld world map on the same server. -> Learn more now"
-sidebar_label: Palworld: Reset World
+sidebar_label: "Reset World"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

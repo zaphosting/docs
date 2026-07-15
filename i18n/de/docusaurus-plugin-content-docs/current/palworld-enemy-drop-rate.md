@@ -2,7 +2,7 @@
 id: palworld-enemy-drop-rate
 title: "Palworld: Gegner-Drop-Rate"
 description: "Lerne, wie du die Gegner-Drop-Rate in Palworld auf deinem Palworld Gameserver durch Bearbeiten des richtigen Config-Werts für ein besseres Loot-Balancing änderst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Gegner-Drop-Rate
+sidebar_label: "Gegner-Drop-Rate"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

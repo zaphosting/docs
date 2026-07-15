@@ -2,7 +2,7 @@
 id: palworld-faster-egg-hatching
 title: "Palworld: Faster Egg Hatching"
 description: "Learn how to reduce egg hatching time in Palworld by editing the egg hatching Palworld server setting for faster hatching results. -> Learn more now"
-sidebar_label: Palworld: Faster Egg Hatching
+sidebar_label: "Faster Egg Hatching"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

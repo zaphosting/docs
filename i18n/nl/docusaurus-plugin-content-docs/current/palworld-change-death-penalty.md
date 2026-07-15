@@ -2,7 +2,7 @@
 id: palworld-change-death-penalty
 title: "Palworld: Death Penalty Wijzigen"
 description: "Leer hoe je de Palworld death penalty aanpast door het serverconfiguratiebestand te bewerken, inclusief DeathPenalty-waarden en herstartstappen. -> Leer nu meer"
-sidebar_label: Palworld: Death Penalty Wijzigen
+sidebar_label: "Death Penalty Wijzigen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-collection-drop-rate
 title: "Palworld: อัตราการดรอปของการเก็บของ"
 description: "เรียนรู้วิธีปรับแต่งการตั้งค่าการเก็บของใน Palworld เพิ่มทรัพยากรที่เก็บได้ และเร่งการเกิดใหม่ของวัตถุในเซิร์ฟเวอร์เกม Palworld ของคุณ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: อัตราการดรอปของการเก็บของ
+sidebar_label: "อัตราการดรอปของการเก็บของ"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

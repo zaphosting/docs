@@ -2,7 +2,7 @@
 id: palworld-change-death-penalty
 title: "Palworld: تغيير عقوبة الموت"
 description: "تعلم كيفية تغيير عقوبة الموت في Palworld عن طريق تعديل إعدادات السيرفر، بما في ذلك قيم DeathPenalty وخطوات إعادة التشغيل. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: تغيير عقوبة الموت
+sidebar_label: "تغيير عقوبة الموت"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

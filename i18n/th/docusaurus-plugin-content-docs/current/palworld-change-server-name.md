@@ -2,7 +2,7 @@
 id: palworld-change-server-name
 title: "Palworld: เปลี่ยนชื่อเซิร์ฟเวอร์"
 description: "เรียนรู้วิธีเปลี่ยนชื่อเซิร์ฟเวอร์ Palworld ของคุณและอัปเดตชื่อที่แสดงในตัวเลือกเซิร์ฟเวอร์เกมโดยแก้ไขไฟล์คอนฟิกที่ถูกต้องด้วยตนเอง -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: เปลี่ยนชื่อเซิร์ฟเวอร์
+sidebar_label: "เปลี่ยนชื่อเซิร์ฟเวอร์"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-structure-damage-rate
 title: "Palworld: Tasso di Danno alle Strutture"
 description: "Scopri come modificare i tassi di danno e decadimento delle strutture in Palworld modificando in modo sicuro e corretto la configurazione del server. -> Scopri di più ora"
-sidebar_label: Palworld: Tasso di Danno alle Strutture
+sidebar_label: "Tasso di Danno alle Strutture"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

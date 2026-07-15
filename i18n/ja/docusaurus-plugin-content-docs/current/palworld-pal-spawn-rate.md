@@ -2,7 +2,7 @@
 id: palworld-pal-spawn-rate
 title: "Palworld: Palスポーン率"
 description: "サーバーのPal出現頻度設定を編集してPalworldのPalスポーン率を変更する方法を学びましょう -> 今すぐ詳細を確認"
-sidebar_label: Palworld: Palスポーン率
+sidebar_label: "Palスポーン率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

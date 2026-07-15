@@ -2,7 +2,7 @@
 id: palworld-building-limits
 title: "Palworld: Bygggränser"
 description: "Lär dig hur du ändrar bygggränser, basbyggnadsregler och områdesbegränsningar i Palworld genom att manuellt redigera din serverkonfiguration. -> Läs mer nu"
-sidebar_label: Palworld: Bygggränser
+sidebar_label: "Bygggränser"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

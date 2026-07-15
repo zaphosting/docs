@@ -2,7 +2,7 @@
 id: palworld-pal-damage-multiplier
 title: "Palworld: ตัวคูณความเสียหายของ Pal"
 description: "เรียนรู้วิธีเปลี่ยนตัวคูณความเสียหายของ Palworld โดยแก้ไขการตั้งค่าความเสียหายของ Pal สำหรับค่าโจมตีและป้องกันบนเซิร์ฟเวอร์ของคุณ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: ตัวคูณความเสียหายของ Pal
+sidebar_label: "ตัวคูณความเสียหายของ Pal"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

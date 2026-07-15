@@ -2,7 +2,7 @@
 id: palworld-spectate-mode
 title: "Palworld: Modalità Spettatore"
 description: "Scopri come usare la modalità spettatore in Palworld, impostare la password admin richiesta e accedere alla modalità spettatore sul tuo server. -> Scopri di più ora"
-sidebar_label: Palworld: Modalità Spettatore
+sidebar_label: "Modalità Spettatore"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

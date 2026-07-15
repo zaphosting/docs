@@ -2,7 +2,7 @@
 id: palworld-enable-raids
 title: "Palworld: เปิดใช้งานการบุก (Raids)"
 description: "เรียนรู้วิธีเปิดหรือปิดการบุกในเซิร์ฟเวอร์ Palworld ของคุณโดยการแก้ไขการตั้งค่าคอนฟิกที่ถูกต้องสำหรับการโจมตีของศัตรูผู้บุกรุก -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: เปิดใช้งานการบุก (Raids)
+sidebar_label: "เปิดใช้งานการบุก (Raids)"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

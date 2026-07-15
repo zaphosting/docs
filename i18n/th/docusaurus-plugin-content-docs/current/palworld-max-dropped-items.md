@@ -2,7 +2,7 @@
 id: palworld-max-dropped-items
 title: "Palworld: Max Dropped Items"
 description: "Learn how to change dropped items limits and item despawn settings on your Palworld server by editing the correct config values. -> Learn more now"
-sidebar_label: Palworld: Max Dropped Items
+sidebar_label: "Max Dropped Items"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

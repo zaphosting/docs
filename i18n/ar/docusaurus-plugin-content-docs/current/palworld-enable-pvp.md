@@ -2,7 +2,7 @@
 id: palworld-enable-pvp
 title: "Palworld: تفعيل PvP"
 description: "تعلم كيفية تفعيل PvP في Palworld، تكوين سلوك القتال في القاعدة، وتطبيق إعدادات PvP الموصى بها على سيرفرك. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: تفعيل PvP
+sidebar_label: "تفعيل PvP"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

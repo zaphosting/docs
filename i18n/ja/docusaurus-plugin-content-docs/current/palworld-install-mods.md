@@ -2,7 +2,7 @@
 id: palworld-install-mods
 title: "Palworld: モッズのインストール"
 description: "専用サーバーでのUE4SS Palworld、Luaモッズ、.pakモッズのインストール方法を学びましょう。 -> 詳しくはこちら"
-sidebar_label: Palworld: モッズのインストール
+sidebar_label: "モッズのインストール"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-reset-world
 title: "Palworld: รีเซ็ตโลก"
 description: "เรียนรู้วิธีรีเซ็ตโลกเซิร์ฟเวอร์เกม Palworld ของคุณโดยการลบข้อมูลเซฟปัจจุบันและเริ่มแผนที่โลก Palworld ใหม่บนเซิร์ฟเวอร์เดียวกัน -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: รีเซ็ตโลก
+sidebar_label: "รีเซ็ตโลก"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

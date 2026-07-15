@@ -2,7 +2,7 @@
 id: palworld-pal-capture-rate
 title: "Palworld: อัตราการจับ Pal"
 description: "เรียนรู้วิธีเปลี่ยนอัตราการจับ Pal ใน Palworld โดยแก้ไขการตั้งค่า PalCaptureRate เพื่อให้จับง่ายขึ้นบนเซิร์ฟเวอร์ของคุณ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: อัตราการจับ Pal
+sidebar_label: "อัตราการจับ Pal"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

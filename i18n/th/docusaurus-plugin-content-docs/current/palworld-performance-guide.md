@@ -2,7 +2,7 @@
 id: palworld-performance-guide
 title: "Palworld: คู่มือปรับแต่งประสิทธิภาพ"
 description: "ปรับปรุงประสิทธิภาพเซิร์ฟเวอร์ Palworld ลดการตกของประสิทธิภาพ และลดภาระเซิร์ฟเวอร์ด้วยการแก้ไขการตั้งค่าแบบแมนนวล -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: คู่มือปรับแต่งประสิทธิภาพ
+sidebar_label: "คู่มือปรับแต่งประสิทธิภาพ"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

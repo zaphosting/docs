@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld: Wgrywanie Istniejącego Save'a"
 description: "Dowiedz się, jak wgrać istniejący save Palworld, poprawnie przesłać pliki oraz skonfigurować serwer, aby załadował właściwy folder świata. -> Sprawdź teraz"
-sidebar_label: Palworld: Wgrywanie Istniejącego Save'a
+sidebar_label: "Wgrywanie Istniejącego Save'a"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

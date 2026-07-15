@@ -2,7 +2,7 @@
 id: palworld-max-guild-bases
 title: "Palworld: Máximo de Bases por Guild"
 description: "Aprende a cambiar el ajuste de máximo de bases por guild en Palworld editando el valor BaseCampMaxNumInGuild en tu servidor. -> Aprende más ahora"
-sidebar_label: Palworld: Máximo de Bases por Guild
+sidebar_label: "Máximo de Bases por Guild"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

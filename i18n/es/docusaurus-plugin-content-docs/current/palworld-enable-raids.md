@@ -2,7 +2,7 @@
 id: palworld-enable-raids
 title: "Palworld: Activar Incursiones"
 description: "Aprende cómo activar o desactivar las incursiones en tu servidor de Palworld editando la configuración correcta para los ataques de enemigos invasores. -> Aprende más ahora"
-sidebar_label: Palworld: Activar Incursiones
+sidebar_label: "Activar Incursiones"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

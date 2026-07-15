@@ -2,7 +2,7 @@
 id: palworld-upload-existing-save
 title: "Palworld: อัปโหลดเซฟที่มีอยู่แล้ว"
 description: "เรียนรู้วิธีอัปโหลดเซฟ Palworld ที่มีอยู่แล้ว อัปโหลดข้อมูลไฟล์อย่างถูกต้อง และตั้งค่าเซิร์ฟเวอร์ของคุณให้โหลดโฟลเดอร์โลกที่ถูกต้อง -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: อัปโหลดเซฟที่มีอยู่แล้ว
+sidebar_label: "อัปโหลดเซฟที่มีอยู่แล้ว"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

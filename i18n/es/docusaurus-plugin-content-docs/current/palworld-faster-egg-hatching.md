@@ -2,7 +2,7 @@
 id: palworld-faster-egg-hatching
 title: "Palworld: Incubación de Huevos Más Rápida"
 description: "Aprende cómo reducir el tiempo de incubación de huevos en Palworld editando la configuración del servidor para obtener resultados de incubación más rápidos. -> Aprende más ahora"
-sidebar_label: Palworld: Incubación de Huevos Más Rápida
+sidebar_label: "Incubación de Huevos Más Rápida"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

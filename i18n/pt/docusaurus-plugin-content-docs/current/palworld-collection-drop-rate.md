@@ -2,7 +2,7 @@
 id: palworld-collection-drop-rate
 title: "Palworld: Taxa de Coleta"
 description: "Aprenda a ajustar as configurações de coleta no Palworld, aumentar os recursos coletados e acelerar o respawn no seu servidor de jogos Palworld. -> Saiba mais agora"
-sidebar_label: Palworld: Taxa de Coleta
+sidebar_label: "Taxa de Coleta"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

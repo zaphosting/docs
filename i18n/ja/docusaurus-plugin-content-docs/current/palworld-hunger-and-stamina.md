@@ -2,7 +2,7 @@
 id: palworld-hunger-and-stamina
 title: "Palworld: 空腹とスタミナ"
 description: "Palworldのプレイヤーとパルの空腹およびスタミナの減少速度をサーバー設定を編集して調整する方法を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: 空腹とスタミナ
+sidebar_label: "空腹とスタミナ"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-item-weight
 title: "Palworld: وزن العنصر"
 description: "تعلم كيفية تغيير معامل وزن العنصر في Palworld عن طريق تعديل إعداد وزن العنصر في تكوين السيرفر الخاص بك لتحقيق توازن أفضل في وزن الحمل. -> تعرّف على المزيد الآن"
-sidebar_label: Palworld: وزن العنصر
+sidebar_label: "وزن العنصر"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

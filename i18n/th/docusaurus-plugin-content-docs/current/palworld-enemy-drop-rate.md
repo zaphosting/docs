@@ -2,7 +2,7 @@
 id: palworld-enemy-drop-rate
 title: "Palworld: อัตราการดรอปของศัตรู"
 description: "เรียนรู้วิธีเปลี่ยนอัตราการดรอปของศัตรูใน Palworld บนเซิร์ฟเวอร์เกม Palworld ของคุณโดยแก้ไขค่าคอนฟิกที่ถูกต้องเพื่อความสมดุลของไอเท็มดรอปที่ดีขึ้น -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: อัตราการดรอปของศัตรู
+sidebar_label: "อัตราการดรอปของศัตรู"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

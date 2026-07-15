@@ -2,7 +2,7 @@
 id: palworld-enable-global-palbox
 title: "Palworld: تفعيل صندوق الأصدقاء العالمي"
 description: "تعلم كيفية تفعيل إعداد صندوق الأصدقاء العالمي في Palworld لاستيراد وتصدير الأصدقاء عبر سيرفرك المخصص. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: تفعيل صندوق الأصدقاء العالمي
+sidebar_label: "تفعيل صندوق الأصدقاء العالمي"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

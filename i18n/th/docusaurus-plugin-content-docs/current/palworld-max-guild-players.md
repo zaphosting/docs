@@ -2,7 +2,7 @@
 id: palworld-max-guild-players
 title: "Palworld: จำนวนผู้เล่นสูงสุดในกิลด์"
 description: "เรียนรู้วิธีเปลี่ยนจำนวนผู้เล่นสูงสุดในกิลด์ของ Palworld โดยแก้ไขการตั้งค่า max guild players ในเซิร์ฟเวอร์ของคุณ -> เรียนรู้เพิ่มเติมตอนนี้"
-sidebar_label: Palworld: จำนวนผู้เล่นสูงสุดในกิลด์
+sidebar_label: "จำนวนผู้เล่นสูงสุดในกิลด์"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

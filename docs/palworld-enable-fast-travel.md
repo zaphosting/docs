@@ -2,7 +2,7 @@
 id: palworld-enable-fast-travel
 title: "Palworld: Enable Fast Travel"
 description: "Learn how to configure fast travel on your Palworld server, including base-only fast travel settings and manual config changes. -> Learn more now"
-sidebar_label: Palworld: Enable Fast Travel
+sidebar_label: "Enable Fast Travel"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

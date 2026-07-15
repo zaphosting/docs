@@ -2,7 +2,7 @@
 id: palworld-max-players
 title: "Palworld: 最大玩家数"
 description: "了解如何通过编辑 ZAP 面板中的正确配置文件来更改 Palworld 游戏服务器的最大玩家数设置。-> 立即了解更多"
-sidebar_label: Palworld: 最大玩家数
+sidebar_label: "最大玩家数"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

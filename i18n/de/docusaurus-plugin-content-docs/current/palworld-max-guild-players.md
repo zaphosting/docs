@@ -2,7 +2,7 @@
 id: palworld-max-guild-players
 title: "Palworld: Max. Spieler pro Gilde"
 description: "Erfahre, wie du das Limit der Spieler pro Gilde in Palworld änderst, indem du die Einstellung für max. Spieler pro Gilde auf deinem Server anpasst. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Max. Spieler pro Gilde
+sidebar_label: "Max. Spieler pro Gilde"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-enemy-drop-rate
 title: "Palworld: معدل إسقاط الأعداء"
 description: "تعرف على كيفية تغيير معدل إسقاط الأعداء في Palworld على سيرفر ألعاب Palworld الخاص بك عن طريق تعديل القيمة الصحيحة في ملف الإعدادات لتحقيق توازن أفضل في الغنائم. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: معدل إسقاط الأعداء
+sidebar_label: "معدل إسقاط الأعداء"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

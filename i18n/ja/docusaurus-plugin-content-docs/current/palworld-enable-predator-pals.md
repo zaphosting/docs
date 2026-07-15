@@ -2,7 +2,7 @@
 id: palworld-enable-predator-pals
 title: "Palworld: プレデターパルの有効化"
 description: "Palworldサーバーでプレデターパルを有効または無効にする方法、プレデターパルが出現しない問題の解決方法、正しい設定を手動で行う方法を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: プレデターパルの有効化
+sidebar_label: "プレデターパルの有効化"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

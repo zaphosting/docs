@@ -2,7 +2,7 @@
 id: palworld-structure-damage-rate
 title: "Palworld: 構造物ダメージ率"
 description: "Palworldの構造物ダメージと劣化率を安全かつ正しくサーバー設定を編集して変更する方法を学びましょう。 -> 今すぐ詳しく見る"
-sidebar_label: Palworld: 構造物ダメージ率
+sidebar_label: "構造物ダメージ率"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

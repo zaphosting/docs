@@ -2,7 +2,7 @@
 id: palworld-technology-ids
 title: "Palworld: معرفات التكنولوجيا"
 description: "تعرف على كيفية إدارة معرفات التكنولوجيا في Palworld، تعطيل تقنيات محددة، وتحرير إعدادات السيرفر بشكل آمن. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: معرفات التكنولوجيا
+sidebar_label: "معرفات التكنولوجيا"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

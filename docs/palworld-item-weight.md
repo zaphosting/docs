@@ -2,7 +2,7 @@
 id: palworld-item-weight
 title: "Palworld: Item Weight"
 description: "Learn how to change the Palworld item weight multiplier by editing the item weight setting in your server configuration for better carry weight balance. -> Learn more now"
-sidebar_label: Palworld: Item Weight
+sidebar_label: "Item Weight"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

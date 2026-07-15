@@ -2,7 +2,7 @@
 id: palworld-pal-capture-rate
 title: "Palworld: معدل التقاط Pal"
 description: "تعلم كيفية تغيير معدل التقاط Pal في Palworld عن طريق تعديل إعداد PalCaptureRate للحصول على نتائج التقاط أسهل على سيرفرك. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: معدل التقاط Pal
+sidebar_label: "معدل التقاط Pal"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

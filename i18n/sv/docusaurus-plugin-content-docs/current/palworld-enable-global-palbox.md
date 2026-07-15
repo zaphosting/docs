@@ -2,7 +2,7 @@
 id: palworld-enable-global-palbox
 title: "Palworld: Aktivera Global Palbox"
 description: "Lär dig hur du aktiverar Palworlds globala palbox-serverinställning för global import och export av pals på din dedikerade server. -> Läs mer nu"
-sidebar_label: Palworld: Aktivera Global Palbox
+sidebar_label: "Aktivera Global Palbox"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

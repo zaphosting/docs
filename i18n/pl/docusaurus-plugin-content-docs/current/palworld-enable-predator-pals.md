@@ -2,7 +2,7 @@
 id: palworld-enable-predator-pals
 title: "Palworld: Włączanie Predator Pals"
 description: "Dowiedz się, jak włączyć lub wyłączyć predator pals na swoim serwerze Palworld, naprawić problem z ich niepojawianiem się oraz jak ręcznie skonfigurować odpowiednie ustawienie. -> Sprawdź teraz"
-sidebar_label: Palworld: Włączanie Predator Pals
+sidebar_label: "Włączanie Predator Pals"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

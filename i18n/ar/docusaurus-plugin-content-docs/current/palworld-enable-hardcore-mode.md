@@ -2,7 +2,7 @@
 id: palworld-enable-hardcore-mode
 title: "Palworld: تفعيل وضع الهاردكور"
 description: "تعلم كيفية تفعيل وضع الهاردكور في Palworld عن طريق تعديل ملف إعدادات السيرفر الصحيح، وضبط القيم على True أو False، وتطبيق خيارات الموت الدائم بأمان. -> تعلّم المزيد الآن"
-sidebar_label: Palworld: تفعيل وضع الهاردكور
+sidebar_label: "تفعيل وضع الهاردكور"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

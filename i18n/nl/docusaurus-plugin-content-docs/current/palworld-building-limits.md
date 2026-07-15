@@ -2,7 +2,7 @@
 id: palworld-building-limits
 title: "Palworld: Bouwlimieten"
 description: "Leer hoe je de bouwlimieten, basisbouwregels en gebiedsbeperkingen in Palworld kunt aanpassen door je serverconfiguratie handmatig te bewerken. -> Leer nu meer"
-sidebar_label: Palworld: Bouwlimieten
+sidebar_label: "Bouwlimieten"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

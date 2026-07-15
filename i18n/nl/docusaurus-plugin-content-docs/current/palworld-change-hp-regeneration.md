@@ -2,7 +2,7 @@
 id: palworld-change-hp-regeneration
 title: "Palworld: HP-regeneratie aanpassen"
 description: "Leer hoe je de HP-regeneratie in Palworld kunt aanpassen door de speler- en Pal-regeneratie-instellingen op je server te wijzigen voor snellere, langzamere of uitgeschakelde genezing -> Leer het nu"
-sidebar_label: Palworld: HP-regeneratie aanpassen
+sidebar_label: "HP-regeneratie aanpassen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

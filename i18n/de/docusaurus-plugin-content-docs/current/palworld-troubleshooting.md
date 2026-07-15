@@ -2,7 +2,7 @@
 id: palworld-troubleshooting
 title: "Palworld: Fehlerbehebung"
 description: "Behebe häufige Palworld-Gameserver-Probleme wie Palworld Steam-Update-Probleme, Verbindungs-Timeouts und Steam-Fehler. -> Jetzt mehr erfahren"
-sidebar_label: Palworld: Fehlerbehebung
+sidebar_label: "Fehlerbehebung"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

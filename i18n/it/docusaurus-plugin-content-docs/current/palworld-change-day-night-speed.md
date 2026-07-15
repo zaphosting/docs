@@ -2,7 +2,7 @@
 id: palworld-change-day-night-speed
 title: "Palworld: Cambiare la Velocità Giorno Notte"
 description: "Scopri come modificare la velocità del ciclo giorno e notte in Palworld modificando le impostazioni del ciclo giorno sul tuo server. -> Scopri di più ora"
-sidebar_label: Palworld: Cambiare la Velocità Giorno Notte
+sidebar_label: "Cambiare la Velocità Giorno Notte"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

@@ -2,7 +2,7 @@
 id: palworld-change-server-name
 title: "Palworld: Servernaam Wijzigen"
 description: "Leer hoe je de servernaam van je Palworld-server wijzigt en de naam in de serverbrowser aanpast door het juiste configuratiebestand handmatig te bewerken. -> Leer nu meer"
-sidebar_label: Palworld: Servernaam Wijzigen
+sidebar_label: "Servernaam Wijzigen"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';

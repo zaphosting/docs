@@ -2,7 +2,7 @@
 id: palworld-max-guild-players
 title: "Palworld: Max Guild Players"
 description: "Learn how to change Palworld guild players limits by editing the max guild players setting on your server. -> Learn more now"
-sidebar_label: Palworld: Max Guild Players
+sidebar_label: "Max Guild Players"
 ---
 
 import InlineVoucher from '@site/src/components/InlineVoucher';
