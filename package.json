@@ -14,16 +14,16 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.10.1",
-    "@docusaurus/faster": "^3.10.1",
-    "@docusaurus/plugin-client-redirects": "^3.10.1",
-    "@docusaurus/plugin-content-docs": "^3.10.1",
-    "@docusaurus/plugin-google-tag-manager": "^3.10.1",
-    "@docusaurus/plugin-pwa": "^3.10.1",
-    "@docusaurus/plugin-sitemap": "^3.10.1",
-    "@docusaurus/preset-classic": "^3.10.1",
-    "@docusaurus/theme-classic": "^3.10.1",
-    "@docusaurus/theme-mermaid": "^3.10.1",
+    "@docusaurus/core": "^3.10.2",
+    "@docusaurus/faster": "^3.10.2",
+    "@docusaurus/plugin-client-redirects": "^3.10.2",
+    "@docusaurus/plugin-content-docs": "^3.10.2",
+    "@docusaurus/plugin-google-tag-manager": "^3.10.2",
+    "@docusaurus/plugin-pwa": "^3.10.2",
+    "@docusaurus/plugin-sitemap": "^3.10.2",
+    "@docusaurus/preset-classic": "^3.10.2",
+    "@docusaurus/theme-classic": "^3.10.2",
+    "@docusaurus/theme-mermaid": "^3.10.2",
     "@mdx-js/react": "^3.1.0",
     "body-parser": "^2.3.0",
     "clsx": "^2.1.1",
@@ -32,11 +32,11 @@
     "docusaurus-lunr-search": "^3.6.1",
     "express": "^5.2.1",
     "git-url-parse": "^16.1.0",
-    "js-yaml": "^5.2.0",
+    "js-yaml": "^5.2.1",
     "lodash": "^4.17.23",
     "mdast-util-to-hast": "^13.2.1",
     "medium-zoom": "^1.1.0",
-    "mermaid": "^11.15.0",
+    "mermaid": "^11.16.0",
     "node-forge": "^1.4.0",
     "openai": "^6.45.0",
     "path-to-regexp": "^8.4.0",
@@ -46,12 +46,12 @@
     "react-copy-to-clipboard": "github:zaphosting/react-copy-to-clipboard#master",
     "react-dom": "^19.2.6",
     "react-markdown": "^10.1.0",
-    "webpack": "^5.108.1"
+    "webpack": "^5.108.4"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.10.1",
-    "@docusaurus/types": "^3.10.1",
-    "baseline-browser-mapping": "^2.10.40"
+    "@docusaurus/module-type-aliases": "^3.10.2",
+    "@docusaurus/types": "^3.10.2",
+    "baseline-browser-mapping": "^2.10.43"
   },
   "browserslist": {
     "production": [
