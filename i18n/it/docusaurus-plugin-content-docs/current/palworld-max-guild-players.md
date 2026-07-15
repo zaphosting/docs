@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ti permette di controllare quanti giocatori possono entrare in una singola gilda sul tuo server. In questa guida, imparerai come modificare manualmente il limite massimo di giocatori per gilda modificando il file di configurazione corretto nella tua amministrazione server di gioco ZAP-Hosting.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

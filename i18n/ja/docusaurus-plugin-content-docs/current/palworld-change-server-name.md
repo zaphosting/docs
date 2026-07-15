@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、ゲーム内のサーバーブラウザに表示されるサーバー名を設定ファイルで定義しています。このガイドでは、ZAP-Hostingのウェブインターフェースで表示されるサーバー名を手動で変更し、正しく反映させる方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

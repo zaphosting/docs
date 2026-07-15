@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld permite que você controle quantos jogadores podem entrar no seu servidor ao mesmo tempo. Neste guia, você vai aprender como alterar manualmente o limite máximo de jogadores editando o arquivo de configuração correto na administração do seu servidor de jogos ZAP-Hosting.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparação
 

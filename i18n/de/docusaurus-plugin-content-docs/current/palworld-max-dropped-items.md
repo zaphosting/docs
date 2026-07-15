@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ermöglicht dir, zu steuern, wie viele gefallene Items gleichzeitig in deiner Welt existieren können und wie lange diese Items bleiben, bevor sie verschwinden. In dieser Anleitung lernst du, wie du die richtige Konfigurationsdatei im ZAP-Hosting Interface bearbeitest, die Einstellungen für gefallene Items anpasst und die Änderungen sicher übernimmst.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 

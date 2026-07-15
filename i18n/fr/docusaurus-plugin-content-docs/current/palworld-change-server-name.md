@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld utilise un fichier de configuration pour définir le nom du serveur affiché dans le navigateur de serveurs en jeu. Dans ce guide, vous apprendrez à modifier manuellement le nom affiché via l’interface web ZAP-Hosting et à appliquer correctement ce changement.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

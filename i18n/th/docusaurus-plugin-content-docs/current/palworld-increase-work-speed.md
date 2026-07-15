@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณปรับความเร็วที่ผู้เล่นและ Pal ทำงานที่ฐานได้โดยการเปลี่ยนค่าการตั้งค่าเซิร์ฟเวอร์ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเพิ่มความเร็วในการทำงานบนเซิร์ฟเวอร์ Palworld ของคุณที่ ZAP-Hosting โดยการแก้ไขไฟล์คอนฟิกที่ถูกต้องและนำการเปลี่ยนแปลงไปใช้ให้ถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ใน Palworld อัตราความทนทานของอุปกรณ์จะควบคุมความเร็วที่เครื่องมือ อาวุธ และชุดเกราะของคุณสูญเสียความทนทานระหว่างการใช้งาน ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเปลี่ยนค่า `EquipmentDurabilityDamageRate` ด้วยตนเองในคอนฟิกเซิร์ฟเวอร์ Palworld ของคุณบน ZAP-Hosting และวิธีใช้การเปลี่ยนแปลงอย่างถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

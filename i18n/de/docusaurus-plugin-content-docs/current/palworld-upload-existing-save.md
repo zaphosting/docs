@@ -15,7 +15,7 @@ Palworld speichert die Weltdaten eines Dedicated Servers in einem bestimmten Sav
 Du kannst Xbox-Konsolen- oder PS5-Cloud-Saves nicht direkt auf einen Dedicated Palworld Gameserver übertragen. Nur Saves von einer PC-Installation oder einem bestehenden Dedicated Server können mit dieser Methode migriert werden.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 

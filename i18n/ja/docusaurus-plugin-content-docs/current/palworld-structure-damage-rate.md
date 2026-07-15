@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、構造物が受けるダメージ量や時間経過による劣化速度をコントロールできます。このガイドでは、ZAP-Hostingのゲームサーバー管理画面で正しい設定ファイルを手動で編集し、新しい構造物ダメージ設定を適用する方法を解説します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

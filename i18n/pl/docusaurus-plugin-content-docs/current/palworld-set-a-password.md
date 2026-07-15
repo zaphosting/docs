@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld pozwala zabezpieczyć Twój serwer hasłem, aby tylko uprawnieni gracze mogli dołączyć. W tym poradniku nauczysz się, jak ręcznie ustawić lub zmienić hasło serwera w konfiguracji serwera gier ZAP-Hosting i poprawnie zastosować tę zmianę.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

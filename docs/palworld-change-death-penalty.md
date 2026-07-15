@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld allows you to control what players lose on death by changing the `DeathPenalty` server setting. In this guide, you will learn how to edit the correct configuration file in the ZAP-Hosting web interface and apply the change properly.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

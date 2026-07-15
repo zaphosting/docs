@@ -72,7 +72,7 @@ Dentro dessa pasta, você deve encontrar pelo menos:
 - `LevelMeta.sav`
 - `Players/`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Prepare o Personagem do Servidor Dedicado
 
@@ -148,7 +148,7 @@ No aplicativo, escolha:
 Fix Host Save
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Selecione os Arquivos Corretos
 

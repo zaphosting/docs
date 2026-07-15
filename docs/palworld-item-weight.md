@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld allows you to adjust item weight on your server by changing a configuration value in the main server settings file. In this guide, you will learn where to find the correct file in the ZAP-Hosting web interface, which `item weight` setting to edit, and how to apply the change properly.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

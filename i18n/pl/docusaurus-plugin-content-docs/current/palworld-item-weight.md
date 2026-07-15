@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld pozwala na dostosowanie wagi przedmiotów na Twoim serwerze poprzez zmianę wartości konfiguracyjnej w głównym pliku ustawień serwera. W tym poradniku dowiesz się, gdzie znaleźć odpowiedni plik w panelu ZAP-Hosting, które ustawienie `item weight` edytować oraz jak poprawnie zastosować zmianę.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

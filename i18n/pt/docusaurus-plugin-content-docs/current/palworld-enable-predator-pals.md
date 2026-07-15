@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *Predator Pals* são Pals poderosos do tipo chefe que podem aparecer pelo mundo em Palworld. Neste guia, você vai aprender como ativar ou desativar predator pals no seu servidor Palworld da ZAP-Hosting editando manualmente o arquivo de configuração correto.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparação
 

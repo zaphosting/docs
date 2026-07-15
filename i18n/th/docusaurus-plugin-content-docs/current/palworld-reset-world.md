@@ -15,7 +15,7 @@ Palworld เก็บโลกที่คุณเล่นอยู่ใน�
 การรีเซ็ตโลก Palworld ของคุณจะลบโลกปัจจุบันอย่างถาวร รวมถึงความก้าวหน้าของผู้เล่น โครงสร้าง Pals และข้อมูลเซฟอื่นๆ ที่เก็บไว้ในโลกนั้น
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -67,7 +67,7 @@ Pal/Saved/SaveGames/0/
 
 ขึ้นอยู่กับรูปแบบผลิตภัณฑ์ของคุณ คุณอาจเข้าถึงได้ผ่านตัวจัดการไฟล์หรือส่วนเข้าถึงไฟล์ในเว็บอินเทอร์เฟซ
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### อ้างอิงเส้นทาง
 

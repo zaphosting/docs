@@ -29,7 +29,7 @@ Dans l’administration serveur de jeux ZAP-Hosting :
 2. Rendez-vous dans la section `Configs`.
 3. Ouvrez le fichier `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Fichier utilisé pour les multiplicateurs de gameplay
 Les réglages de faim et d’endurance sont stockés dans `PalWorldSettings.ini`. Ces valeurs font généralement partie de la chaîne d’options principale utilisée par le serveur dédié.

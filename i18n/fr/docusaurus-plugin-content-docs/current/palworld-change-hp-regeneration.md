@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld vous permet de modifier les paramètres de régénération pour les joueurs et les Pals via la configuration principale du serveur. Dans ce guide, vous apprendrez à éditer le fichier de config approprié dans l’interface web ZAP-Hosting, ajuster les valeurs de régénération de PV, et appliquer correctement les changements.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

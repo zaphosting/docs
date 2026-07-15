@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 突袭是针对玩家基地的入侵敌人攻击。在本指南中，您将学习如何通过手动编辑 ZAP-Hosting 游戏服务器管理中的正确配置文件来启用或禁用突袭。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

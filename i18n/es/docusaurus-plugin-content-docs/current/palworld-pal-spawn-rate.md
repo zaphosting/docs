@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld te permite controlar con qué frecuencia aparecen los Pals en tu mundo mediante una configuración del servidor. En esta guía, aprenderás a editar el archivo de configuración correcto en la administración de tu servidor de juegos ZAP-Hosting y aplicar una nueva tasa de aparición de Pals de forma segura.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 

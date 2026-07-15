@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、プレイヤーが収集する資源の量や収集可能なオブジェクトの復活速度を制御できます。このガイドでは、ZAP-Hostingのゲームサーバーで正しい設定ファイルを手動で編集し、コレクションドロップ率や関連する資源設定を変更する方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

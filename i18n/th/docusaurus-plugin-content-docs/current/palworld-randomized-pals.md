@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld มีการตั้งค่า randomizer ที่ช่วยเปลี่ยนวิธีการเกิดของ Pals ทั่วโลกเกม ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเปิดใช้งานและตั้งค่า randomized Pals บนเซิร์ฟเวอร์ Palworld ของคุณที่ ZAP-Hosting โดยการแก้ไขไฟล์คอนฟิกที่ถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

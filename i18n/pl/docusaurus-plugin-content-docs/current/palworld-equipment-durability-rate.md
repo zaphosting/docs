@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 W Palworld współczynnik trwałości ekwipunku kontroluje, jak szybko twoje narzędzia, bronie i zbroje tracą trwałość podczas używania. W tym poradniku nauczysz się, jak ręcznie zmienić ustawienie `EquipmentDurabilityDamageRate` w konfiguracji serwera Palworld w ZAP-Hosting i poprawnie zastosować tę zmianę.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

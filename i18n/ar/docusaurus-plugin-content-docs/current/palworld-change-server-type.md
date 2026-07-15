@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يمكن لسيرفرات Palworld العمل بأنواع سيرفر مختلفة، عادةً Linux أو Windows، حسب إعدادات التأجير ومتطلبات المودات. في هذا الدليل، ستتعلم كيفية تغيير نوع السيرفر في واجهة ZAP-Hosting، تحديد مسار ملف الإعداد الصحيح بعد ذلك، وتطبيق التغيير بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 
@@ -65,7 +65,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 3. غيّر الإعداد من `Linux` إلى `Windows`، أو من `Windows` إلى `Linux`، حسب الإعداد المستهدف.
 4. احفظ التغيير.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::info إذا لم تجد خيار نوع السيرفر
 تسمية وموقع هذا الإعداد قد تختلف حسب واجهة ZAP-Hosting الحالية أو جيل المنتج. إذا لم يظهر محدد نوع السيرفر، قد يتطلب التغيير إعادة تثبيت أو مساعدة من الدعم.

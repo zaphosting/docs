@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你通过服务器配置值调整玩家造成的伤害和玩家受到的伤害。在本指南中，你将学习如何编辑 ZAP-Hosting 游戏服务器中的正确配置文件，修改玩家伤害和防御倍率，并正确应用更改。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

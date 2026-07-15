@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *Hardcore mode* in Palworld enables permanent death rules for players and, optionally, for Pals. In this guide, you will learn how to manually enable hardcore mode on your ZAP-Hosting Palworld server by editing the correct configuration file and restarting the server afterward.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

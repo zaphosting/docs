@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يستخدم Palworld *معرفات التكنولوجيا* لتحديد التقنيات القابلة للفتح وبعض إعدادات العناصر في تكوين السيرفر. في هذا الدليل، ستتعلم كيفية تعطيل تقنيات محددة عن طريق تحرير إعداد `DenyTechnologyList` في تكوين سيرفر Palworld الخاص بك على ZAP-Hosting.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 
@@ -72,7 +72,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 هذا هو ملف التكوين حيث يتم تخزين وتحرير إعداد `DenyTechnologyList`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### تحديد الإعداد ذي الصلة
 

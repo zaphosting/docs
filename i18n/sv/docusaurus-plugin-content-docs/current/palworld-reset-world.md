@@ -15,7 +15,7 @@ Palworld sparar din aktiva värld i serverns sparade data istället för i en ko
 Att återställa din Palworld-värld raderar permanent den nuvarande världen, inklusive spelarprogression, byggnader, Pals och annan sparad data som finns i den världen.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -67,7 +67,7 @@ Pal/Saved/SaveGames/0/
 
 Beroende på din produktlayout kan du nå detta via filhanteraren eller en liknande filåtkomstsektion i webbgränssnittet.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Sökvägsreferens
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、プレイヤーとPalの回復設定をメインのサーバー設定から変更できます。このガイドでは、ZAP-Hostingのウェブインターフェースで正しい設定ファイルを編集し、HP回復値を調整して変更を適用する方法を解説します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

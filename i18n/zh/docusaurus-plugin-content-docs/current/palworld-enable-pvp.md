@@ -38,7 +38,7 @@ Palworld 中的 PvP 被游戏开发者视为试验功能。配置选项和游戏
 3. 在游戏服务器管理中导航到 `Configs`。
 4. 打开文件 `PalWorldSettings.ini`。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note 配置格式说明
 Palworld 服务器设置通常存储在 `PalWorldSettings.ini` 的 `OptionSettings=(...)` 部分内。您需要在该设置块中添加或调整所需的键值。

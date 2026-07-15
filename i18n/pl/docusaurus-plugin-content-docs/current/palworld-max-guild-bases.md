@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld pozwala kontrolować maksymalną liczbę baz, które każda gildia może postawić na Twoim serwerze. W tym poradniku nauczysz się, jak ręcznie edytować odpowiedni plik konfiguracyjny w panelu ZAP-Hosting, zmienić ustawienie `BaseCampMaxNumInGuild` i zastosować zmianę przez restart serwera.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

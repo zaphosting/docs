@@ -29,7 +29,7 @@ En la administración de servidores de juegos de ZAP-Hosting:
 2. Ve a la sección `Configs`.
 3. Abre el archivo `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Archivo usado para multiplicadores de juego
 Los ajustes de hambre y resistencia se almacenan en `PalWorldSettings.ini`. Estos valores suelen formar parte de la cadena principal de opciones usada por el servidor dedicado.

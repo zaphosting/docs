@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Les serveurs Palworld peuvent fonctionner avec différents types de serveurs, généralement Linux ou Windows, selon votre configuration d’hébergement et vos besoins en modding. Dans ce guide, vous apprendrez à changer le type de serveur dans l’interface ZAP-Hosting, à identifier le bon chemin du fichier de configuration ensuite, et à appliquer correctement le changement.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -65,7 +65,7 @@ Le changement de type de serveur se fait généralement via les paramètres du p
 3. Changez le paramètre de `Linux` à `Windows`, ou de `Windows` à `Linux`, selon votre configuration cible.
 4. Enregistrez le changement.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::info Si vous ne trouvez pas l’option de type de serveur
 Le libellé exact et l’emplacement de ce paramètre peuvent varier selon l’interface ZAP-Hosting ou la génération du produit. Si aucun sélecteur de type de serveur n’est visible, le changement peut nécessiter une réinstallation ou l’aide du support.

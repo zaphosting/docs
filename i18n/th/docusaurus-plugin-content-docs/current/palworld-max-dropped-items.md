@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณควบคุมจำนวนไอเท็มที่ถูกทิ้งในโลกของคุณและระยะเวลาที่ไอเท็มเหล่านั้นจะอยู่ก่อนหายไป ในคู่มือนี้ คุณจะได้เรียนรู้วิธีแก้ไขไฟล์คอนฟิกที่ถูกต้องในแผงควบคุม ZAP-Hosting ปรับตั้งค่าไอเท็มที่ถูกทิ้ง และนำการเปลี่ยนแปลงไปใช้ได้อย่างปลอดภัย
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

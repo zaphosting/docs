@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ermöglicht dir, zu steuern, wie viele Spieler einer einzelnen Gilde auf deinem Server beitreten können. In dieser Anleitung lernst du, wie du das maximale Spielerlimit pro Gilde manuell änderst, indem du die richtige Konfigurationsdatei in deiner ZAP-Hosting Gameserver-Verwaltung bearbeitest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 

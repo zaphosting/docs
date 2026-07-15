@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、サーバー上の1つのギルドに参加できるプレイヤー数を制御できます。このガイドでは、ZAP-Hostingのゲームサーバー管理画面で正しい設定ファイルを編集して、最大ギルドプレイヤー数の制限を手動で変更する方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

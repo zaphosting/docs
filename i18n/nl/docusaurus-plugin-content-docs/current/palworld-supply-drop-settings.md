@@ -29,7 +29,7 @@ In je ZAP-Hosting game server beheer:
 2. Ga naar **Configs**.
 3. Open het bestand `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Locatie van het Configuratiebestand
 Bij ZAP-Hosting worden de relevante Palworld instellingen voor gameplay meestal beheerd via het bestand `PalWorldSettings.ini` in het **Configs** gedeelte van je serverbeheer. Als je interface iets anders is, gebruik dan de lijst met beschikbare configbestanden en zoek specifiek naar `PalWorldSettings.ini`.

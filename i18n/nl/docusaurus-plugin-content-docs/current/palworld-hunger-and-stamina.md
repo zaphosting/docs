@@ -29,7 +29,7 @@ In de ZAP-Hosting game server administratie:
 2. Ga naar de sectie `Configs`.
 3. Open het bestand `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Bestand voor Gameplay Multipliers
 De instellingen voor honger en uithoudingsvermogen staan in `PalWorldSettings.ini`. Deze waarden maken meestal deel uit van de hoofdoptiestring die door de dedicated server wordt gebruikt.

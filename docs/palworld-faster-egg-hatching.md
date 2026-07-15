@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In Palworld, egg hatching time is controlled through a server configuration value. In this guide, you will learn how to reduce egg hatching time on your ZAP-Hosting Palworld server by editing the correct config file and applying the change properly.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -53,7 +53,7 @@ PalWorldSettings.ini
 
 This is the file that contains the gameplay configuration entries for your Palworld server, including the egg hatching time setting.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Edit the Egg Hatching Time
 

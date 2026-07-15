@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณปรับอัตราการจับ Pal บนเซิร์ฟเวอร์ของคุณผ่านการตั้งค่าโลกหลัก ในคู่มือนี้ คุณจะได้เรียนรู้ว่าจะหาไฟล์คอนฟิกที่ถูกต้องในอินเทอร์เฟซ ZAP-Hosting ได้ที่ไหน ค่าที่ต้องเปลี่ยน และวิธีใช้ค่าอัตราการจับใหม่
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 إعادة تعيين عالم Palworld الخاص بك تحذف بشكل دائم العالم الحالي، بما في ذلك تقدم اللاعبين، والهياكل، والـ Pals، وغيرها من البيانات المحفوظة في ذلك العالم.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 
@@ -67,7 +67,7 @@ Pal/Saved/SaveGames/0/
 
 اعتماداً على تخطيط منتجك، قد تصل إلى هذا عبر مدير الملفات أو قسم وصول الملفات في واجهة الويب.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### مرجع المسار
 

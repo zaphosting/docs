@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 `EnemyDropItemRate` は Palworld における敵のドロップする戦利品の量を制御します。このガイドでは、ZAP-Hostingのゲームサーバー管理画面で正しい設定ファイルを手動で編集し、新しい敵のドロップ率を適用する方法を学びます。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

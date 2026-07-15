@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يمكن أن تواجه سيرفرات Palworld المخصصة أحيانًا مشاكل في التحديث، بدء التشغيل، والاتصال، خاصة بعد تحديث Palworld Steam أو عند تثبيت تعديلات طرف ثالث. في هذا الدليل، ستتعلم كيفية تحديد المشكلات الشائعة، الملفات أو الإعدادات التي يجب التحقق منها في إدارة سيرفر ألعاب ZAP-Hosting، والإجراءات المطلوبة لاستعادة التشغيل الطبيعي.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

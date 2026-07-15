@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يدعم Palworld عدة أنواع من إضافات السيرفر، وأكثرها شيوعًا هي إضافات `UE4SS`، `.lua`، و `.pak`. في هذا الدليل، ستتعلم كيفية تجهيز سيرفرك، تحديد نوع الإضافة الصحيح، رفع الملفات المطلوبة، وإعادة تشغيل السيرفر لتحميل الإضافات بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 

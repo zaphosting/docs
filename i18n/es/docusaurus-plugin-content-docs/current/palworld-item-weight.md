@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld te permite ajustar el peso de los objetos en tu servidor cambiando un valor de configuración en el archivo principal de ajustes del servidor. En esta guía, aprenderás dónde encontrar el archivo correcto en la interfaz web de ZAP-Hosting, qué configuración de `peso de objeto` editar y cómo aplicar el cambio correctamente.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 

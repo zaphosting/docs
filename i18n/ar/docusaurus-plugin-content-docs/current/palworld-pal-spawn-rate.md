@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يتيح لك Palworld التحكم في مدى تكرار ظهور الـ Pals في عالمك من خلال إعداد تكوين السيرفر. في هذا الدليل، ستتعلم كيفية تعديل ملف التكوين الصحيح في إدارة سيرفر ألعاب ZAP-Hosting وتطبيق معدل ظهور جديد للـ Pal بأمان.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

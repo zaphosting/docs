@@ -15,7 +15,7 @@ Palworld speichert deine Welt, den Spielfortschritt und die Servereinstellungen 
 Ein vollständiger Reset löscht dauerhaft deine bestehenden Speicherstände, Konfigurationsänderungen und alle anderen Serverdateien der aktuellen Installation. Nutze diese Funktion nur als letzten Ausweg.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 
@@ -80,7 +80,7 @@ Suche in der Palworld Server-Verwaltung nach der Funktion zum Neuinstallieren od
 
 Da die Bezeichnungen je nach Panel-Version variieren können, kann die genaue Wortwahl leicht abweichen. Bei ZAP-Hosting findest du diese Funktion meist dort, wo Neuinstallations- oder Formatierungsaktionen angeboten werden.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Vollständigen Reset starten
 

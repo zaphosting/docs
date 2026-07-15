@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ti permette di modificare le impostazioni di rigenerazione sia per i giocatori che per i Pal tramite la configurazione principale del server. In questa guida, imparerai come modificare il file di configurazione corretto nell’interfaccia web di ZAP-Hosting, regolare i valori di rigenerazione HP e applicare correttamente le modifiche.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

@@ -15,7 +15,7 @@ Palworldはアクティブなワールドを設定可能なワールド設定で
 Palworldのワールドをリセットすると、プレイヤーの進行状況、建造物、Pals、その他そのワールドに保存されているデータを含む現在のワールドが完全に削除されます。
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 
@@ -67,7 +67,7 @@ Pal/Saved/SaveGames/0/
 
 製品の構成によっては、ファイルマネージャーやウェブインターフェースの類似のファイルアクセスセクションからアクセスできます。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### パスの参照
 

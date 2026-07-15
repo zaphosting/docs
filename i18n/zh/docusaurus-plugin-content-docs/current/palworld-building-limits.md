@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你通过服务器配置控制多个建筑限制和限制规则。在本指南中，你将学习如何在 ZAP-Hosting 网页界面手动编辑正确的配置文件，修改相关建筑数值，并正确应用更改。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

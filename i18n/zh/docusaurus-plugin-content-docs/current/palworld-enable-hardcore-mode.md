@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *硬核模式* 在 Palworld 中启用玩家以及可选的 Pals 的永久死亡规则。通过本指南，你将学会如何在 ZAP-Hosting Palworld 服务器上手动启用硬核模式，方法是编辑正确的配置文件并重启服务器。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

@@ -38,7 +38,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 3. انتقل إلى قسم `Configs` في إدارة سيرفر الألعاب.
 4. افتح الملف `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Configuration Format
 عادةً ما تُخزن إعدادات سيرفر Palworld داخل قسم `OptionSettings=(...)` في ملف `PalWorldSettings.ini`. تحتاج إلى إضافة أو تعديل المفاتيح المطلوبة داخل هذا القسم.

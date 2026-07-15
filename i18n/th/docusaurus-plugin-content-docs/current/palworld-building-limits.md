@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณควบคุมขีดจำกัดและข้อจำกัดการสร้างหลายอย่างผ่านการตั้งค่าเซิร์ฟเวอร์ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีแก้ไขไฟล์คอนฟิกที่ถูกต้องในแผงควบคุม ZAP-Hosting ด้วยตนเอง เปลี่ยนค่าการสร้างที่เกี่ยวข้อง และนำการเปลี่ยนแปลงไปใช้ได้อย่างถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

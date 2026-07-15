@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ti permette di controllare quanto frequentemente i Pal spawnano nel tuo mondo tramite un'impostazione di configurazione del server. In questa guida, imparerai come modificare il file di configurazione corretto nell’amministrazione del server di gioco ZAP-Hosting e applicare in modo sicuro una nuova frequenza di spawn dei Pal.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

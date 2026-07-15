@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、サーバーをパスワードで保護し、許可されたプレイヤーのみが参加できるようにできます。このガイドでは、ZAP-Hostingのゲームサーバー設定でサーバーパスワードを手動で設定または変更し、正しく適用する方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld pozwala na dostosowanie, ile obrażeń zadają i otrzymują Twoje Pals, zmieniając ustawienia mnożnika obrażeń na serwerze. W tym poradniku dowiesz się, który plik konfiguracyjny edytować w panelu administracyjnym ZAP-Hosting, jakie wartości zmienić oraz jak poprawnie zastosować nowe ustawienia.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ermöglicht dir, verschiedene Bau-Limits und Einschränkungen über die Serverkonfiguration zu steuern. In dieser Anleitung lernst du, wie du die richtige Konfigurationsdatei im ZAP-Hosting Gameserver Control Panel manuell bearbeitest, die relevanten Bauwerte änderst und die Änderungen korrekt anwendest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

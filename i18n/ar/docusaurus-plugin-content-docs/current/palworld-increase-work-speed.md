@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 تتيح لك لعبة Palworld تعديل سرعة إنجاز اللاعبين وPals للأعمال المتعلقة بالقاعدة عبر تغيير قيمة إعداد في السيرفر. في هذا الدليل، ستتعلم كيفية زيادة سرعة العمل على سيرفر Palworld الخاص بك في ZAP-Hosting عن طريق تعديل ملف الإعدادات الصحيح وتطبيق التغييرات بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 

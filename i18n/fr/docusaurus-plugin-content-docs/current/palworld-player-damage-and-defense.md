@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld vous permet d’ajuster les dégâts infligés par un joueur ainsi que les dégâts reçus via des valeurs de configuration serveur. Dans ce guide, vous apprendrez à modifier le bon fichier de configuration sur votre serveur de jeux ZAP-Hosting, à changer les multiplicateurs de dégâts et de défense du joueur, puis à appliquer correctement ces changements.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

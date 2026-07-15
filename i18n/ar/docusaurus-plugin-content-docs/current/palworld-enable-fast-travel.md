@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يتيح لك Palworld التحكم في كيفية استخدام اللاعبين للتنقل السريع على سيرفرك من خلال تكوين السيرفر الرئيسي. في هذا الدليل، ستتعلم كيفية تعديل ملف التكوين الصحيح في واجهة ZAP-Hosting، وضبط إعدادات التنقل السريع، وتطبيق التغييرات بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 

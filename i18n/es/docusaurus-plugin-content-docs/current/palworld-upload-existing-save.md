@@ -15,7 +15,7 @@ Palworld almacena los datos del mundo del servidor de juegos dedicado en una car
 No puedes transferir partidas guardadas de consola Xbox o de la nube de PS5 directamente a un servidor dedicado de Palworld. Solo se pueden migrar partidas guardadas desde una instalación en PC o desde otro servidor dedicado existente con este método.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 

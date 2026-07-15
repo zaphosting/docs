@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 `EnemyDropItemRate` styr hur mycket loot fiender släpper i Palworld. I den här guiden lär du dig hur du manuellt redigerar rätt konfigurationsfil i din ZAP-Hosting spelserveradministration och framgångsrikt applicerar den nya fiendedroppfrekvensen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

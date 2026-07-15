@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、サーバーの設定を通じてPalの出現頻度を制御できます。このガイドでは、ZAP-Hostingのゲームサーバー管理画面で正しい設定ファイルを編集し、安全にPalのスポーン率を変更する方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

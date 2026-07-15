@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld låter dig skydda din server med ett lösenord så att endast auktoriserade spelare kan ansluta. I den här guiden lär du dig hur du manuellt ställer in eller ändrar serverns lösenord i din ZAP-Hosting spelserverkonfiguration och tillämpar lösenordet korrekt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

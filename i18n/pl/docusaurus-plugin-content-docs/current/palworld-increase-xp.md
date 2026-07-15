@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld pozwala na dostosowanie mnożników rozgrywki poprzez konfigurację serwera, w tym ilości zdobywanego XP przez graczy. W tym poradniku nauczysz się, jak zwiększyć mnożnik XP na swoim serwerze gier Palworld w ZAP-Hosting, edytując odpowiedni plik konfiguracyjny i poprawnie stosując zmiany.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

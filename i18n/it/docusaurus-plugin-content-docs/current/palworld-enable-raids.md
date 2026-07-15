@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Le raid in Palworld sono attacchi nemici invasori che possono colpire le basi dei giocatori sul tuo server. In questa guida, imparerai come abilitare o disabilitare le raid modificando manualmente il file di configurazione corretto nell’amministrazione del server di gioco ZAP-Hosting.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

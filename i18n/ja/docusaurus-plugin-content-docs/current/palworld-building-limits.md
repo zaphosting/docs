@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、サーバー設定を通じて複数の建築制限や制約を管理できます。このガイドでは、ZAP-Hostingのゲームサーバー管理画面で正しい設定ファイルを手動で編集し、関連する建築設定を変更して正しく適用する方法を解説します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

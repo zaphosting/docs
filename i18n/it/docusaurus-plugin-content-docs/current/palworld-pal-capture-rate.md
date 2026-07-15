@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ti permette di regolare il tasso di cattura dei Pal sul tuo server tramite la configurazione principale del mondo. In questa guida, scoprirai dove trovare il file di configurazione corretto nell’interfaccia ZAP-Hosting, quale valore modificare e come applicare il nuovo tasso di cattura.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

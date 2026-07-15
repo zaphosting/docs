@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 เซิร์ฟเวอร์เฉพาะ Palworld อาจเจอปัญหาอัปเดต การเริ่มต้น และการเชื่อมต่อได้บ้าง โดยเฉพาะหลังจากอัปเดต Palworld Steam หรือเมื่อติดตั้งม็อดจากภายนอก ในคู่มือนี้ คุณจะได้เรียนรู้วิธีระบุปัญหาทั่วไป ไฟล์หรือการตั้งค่าที่ต้องตรวจสอบในแผงควบคุมเซิร์ฟเวอร์เกม ZAP-Hosting และวิธีแก้ไขเพื่อให้เซิร์ฟเวอร์กลับมาทำงานปกติ
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *وضع الهاردكور* في Palworld يفعّل قواعد الموت الدائم للاعبين، وباختيارك يمكن أن يشمل الـ Pals أيضًا. في هذا الدليل، ستتعلم كيفية تفعيل وضع الهاردكور يدويًا على سيرفر ألعاب Palworld الخاص بك في ZAP-Hosting عن طريق تعديل ملف الإعدادات الصحيح وإعادة تشغيل السيرفر بعد ذلك.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 

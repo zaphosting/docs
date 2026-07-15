@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 `EnemyDropItemRate` bepaalt hoeveel loot vijanden droppen in Palworld. In deze gids leer je hoe je handmatig het juiste configuratiebestand aanpast in je ZAP-Hosting game server administratie en de nieuwe enemy drop rate succesvol toepast.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

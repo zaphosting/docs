@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你更改服务器上每个基地营地分配的最大工作 Pal 数量。在本指南中，你将学习如何在 ZAP-Hosting 网页界面中编辑正确的配置文件，调整 `BaseCampWorkerMaxNum` 值，并正确应用更改。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 
@@ -50,7 +50,7 @@ Palworld 中负责最大工人数量的设置是 `BaseCampWorkerMaxNum`。此选
 
 这是存储 Palworld 服务器游戏设置的配置文件。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 编辑 BaseCampWorkerMaxNum 值
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ti permette di regolare quanto danno un giocatore infligge e quanto ne riceve tramite valori di configurazione del server. In questa guida imparerai come modificare il file di configurazione corretto nel tuo server di gioco ZAP-Hosting, cambiare i moltiplicatori di danno e difesa del giocatore e applicare correttamente le modifiche.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

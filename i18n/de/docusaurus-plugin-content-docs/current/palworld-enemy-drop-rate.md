@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 `EnemyDropItemRate` steuert, wie viel Loot Gegner in Palworld fallen lassen. In dieser Anleitung lernst du, wie du die richtige Konfigurationsdatei in deiner ZAP-Hosting Gameserver-Verwaltung manuell bearbeitest und die neue Gegner-Drop-Rate erfolgreich anwendest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 

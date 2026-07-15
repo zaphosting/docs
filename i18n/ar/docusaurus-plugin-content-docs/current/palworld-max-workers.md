@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 تتيح لك لعبة Palworld تغيير الحد الأقصى لعدد العمال (Pals) المعينين لكل معسكر قاعدة على سيرفرك. في هذا الدليل، ستتعلم كيفية تعديل ملف الإعدادات الصحيح في واجهة الويب الخاصة بـ ZAP-Hosting، وضبط قيمة `BaseCampWorkerMaxNum`، وتطبيق التغيير بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -50,7 +50,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 هذا هو ملف الإعدادات الذي يخزن إعدادات اللعب لسيرفر Palworld الخاص بك.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Edit the BaseCampWorkerMaxNum Value
 

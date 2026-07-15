@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In Palworld steuert die Haltbarkeitsrate der Ausrüstung, wie schnell deine Werkzeuge, Waffen und Rüstungen während der Nutzung an Haltbarkeit verlieren. In dieser Anleitung lernst du, wie du die Einstellung `EquipmentDurabilityDamageRate` manuell in der Konfiguration deines ZAP-Hosting Palworld-Servers änderst und die Änderung korrekt anwendest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

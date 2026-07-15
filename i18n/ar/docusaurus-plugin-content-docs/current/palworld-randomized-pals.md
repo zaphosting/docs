@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 تتضمن لعبة Palworld إعدادات عشوائية يمكنها تغيير كيفية ظهور الأصدقاء في عالم اللعبة. في هذا الدليل، ستتعلم كيفية تفعيل وتكوين الأصدقاء العشوائيين يدويًا على سيرفر Palworld الخاص بك في ZAP-Hosting عن طريق تعديل ملف الإعدادات الصحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

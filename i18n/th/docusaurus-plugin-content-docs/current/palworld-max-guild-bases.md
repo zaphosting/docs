@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณควบคุมจำนวนฐานสูงสุดที่แต่ละกิลด์สามารถวางบนเซิร์ฟเวอร์เกมของคุณได้ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีแก้ไขไฟล์คอนฟิกที่ถูกต้องในแผงควบคุม ZAP-Hosting ด้วยตนเอง เปลี่ยนค่าตัวแปร `BaseCampMaxNumInGuild` และนำการเปลี่ยนแปลงไปใช้โดยการรีสตาร์ทเซิร์ฟเวอร์เกมของคุณ
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

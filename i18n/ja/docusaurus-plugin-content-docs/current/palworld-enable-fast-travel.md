@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、サーバーのメイン設定を通じてプレイヤーのファストトラベル利用方法を制御できます。このガイドでは、ZAP-Hostingのインターフェースで正しい設定ファイルを編集し、ファストトラベルの設定を調整して適切に反映させる方法を学びます。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

@@ -32,7 +32,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 3. انتقل إلى **Configs**.
 4. افتح الملف `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note أين تجري التعديلات
 الإعدادات المتعلقة بالأداء مخزنة في `PalWorldSettings.ini`. تحتاج إلى تعديل قيم الخيارات الموجودة يدويًا في هذا الملف.
@@ -125,7 +125,7 @@ OptionSettings=(Difficulty=None,DayTimeSpeedRate=1.000000,NightTimeSpeedRate=1.0
 2. عد إلى إدارة سيرفر الألعاب.
 3. أعد تشغيل سيرفر Palworld.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::info إعادة تشغيل مطلوبة
 يجب إعادة تشغيل السيرفر بعد تغيير `PalWorldSettings.ini`. بدون إعادة تشغيل، سيستمر السيرفر في استخدام الإعدادات السابقة.

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、各ギルドがサーバー上に設置できる拠点の最大数を制御できます。このガイドでは、ZAP-Hostingのウェブインターフェースで正しい設定ファイルを手動で編集し、`BaseCampMaxNumInGuild`設定を変更してサーバーを再起動し、変更を適用する方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

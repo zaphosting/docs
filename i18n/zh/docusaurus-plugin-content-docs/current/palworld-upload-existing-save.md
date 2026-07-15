@@ -15,7 +15,7 @@ Palworld 将专用服务器的世界数据存储在特定的存档文件夹中�
 你无法直接将 Xbox 主机或 PS5 云存档转移到专用 Palworld 服务器。此方法仅支持来自 PC 安装或已有专用服务器的存档迁移。
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

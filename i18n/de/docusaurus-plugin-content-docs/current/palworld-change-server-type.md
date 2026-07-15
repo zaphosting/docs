@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld-Gameserver können mit verschiedenen Servertypen laufen, meist Linux oder Windows, je nach deinem Hosting-Setup und Modding-Anforderungen. In dieser Anleitung lernst du, wie du den Servertyp im ZAP-Hosting Interface änderst, den korrekten Konfigurationspfad findest und die Änderung richtig anwendest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 
@@ -65,7 +65,7 @@ Die Änderung des Servertyps erfolgt in der Regel über die Produkt- oder Softwa
 3. Ändere die Einstellung von `Linux` auf `Windows` oder umgekehrt, je nach gewünschtem Setup.
 4. Speichere die Änderung.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::info Servertyp-Option nicht gefunden?
 Die genaue Bezeichnung und Position dieser Einstellung kann je nach ZAP-Hosting Interface oder Produktgeneration variieren. Wenn kein Servertyp-Auswahlfeld sichtbar ist, kann die Änderung eine Neuinstallation oder Support-Hilfe erfordern.

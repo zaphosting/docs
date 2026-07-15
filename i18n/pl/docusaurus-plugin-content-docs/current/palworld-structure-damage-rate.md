@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld pozwala kontrolować, jak dużo uszkodzeń otrzymują struktury oraz jak szybko ulegają rozkładowi w czasie. W tym poradniku nauczysz się, jak ręcznie edytować odpowiedni plik konfiguracyjny w panelu administracyjnym serwera gier ZAP-Hosting i zastosować nowe ustawienia uszkodzeń struktur.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

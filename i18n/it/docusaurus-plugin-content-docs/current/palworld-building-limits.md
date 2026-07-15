@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ti permette di gestire diversi limiti e restrizioni di costruzione tramite la configurazione del server. In questa guida, imparerai come modificare manualmente il file di configurazione corretto nell’interfaccia web di ZAP-Hosting, cambiare i valori di costruzione rilevanti e applicare correttamente le modifiche.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

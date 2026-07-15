@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يتيح لك Palworld تعديل وزن العناصر على سيرفرك عن طريق تغيير قيمة في ملف إعدادات السيرفر الرئيسي. في هذا الدليل، ستتعلم مكان العثور على الملف الصحيح في واجهة الويب الخاصة بـ ZAP-Hosting، وأي إعداد `item weight` يجب تعديله، وكيفية تطبيق التغيير بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

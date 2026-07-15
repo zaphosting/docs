@@ -29,7 +29,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 2. اذهب إلى **Configs**.
 3. افتح الملف `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note موقع ملف التكوين
 في ZAP-Hosting، يتم عادةً إدارة إعدادات Palworld المتعلقة بأسلوب اللعب من خلال ملف `PalWorldSettings.ini` في منطقة **Configs** ضمن إدارة السيرفر. إذا كان تخطيط واجهتك مختلفًا قليلاً، استخدم قائمة ملفات التكوين المتاحة وابحث تحديدًا عن `PalWorldSettings.ini`.

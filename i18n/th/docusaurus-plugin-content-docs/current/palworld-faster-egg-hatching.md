@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ใน Palworld เวลาฟักไข่จะถูกควบคุมผ่านค่าการตั้งค่าเซิร์ฟเวอร์ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีลดเวลาฟักไข่บนเซิร์ฟเวอร์เกม Palworld ของคุณที่ ZAP-Hosting โดยการแก้ไขไฟล์คอนฟิกที่ถูกต้องและใช้การเปลี่ยนแปลงอย่างถูกวิธี
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -53,7 +53,7 @@ PalWorldSettings.ini
 
 ไฟล์นี้เป็นไฟล์ที่เก็บการตั้งค่าเกมเพลย์สำหรับเซิร์ฟเวอร์ Palworld ของคุณ รวมถึงการตั้งค่าเวลาฟักไข่ด้วย
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Edit the Egg Hatching Time
 

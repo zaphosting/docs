@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يستخدم Palworld ملف إعدادات لتحديد اسم السيرفر المعروض في متصفح السيرفر داخل اللعبة. في هذا الدليل، ستتعلم كيفية تغيير اسم السيرفر المعروض يدويًا في واجهة الويب الخاصة بـ ZAP-Hosting وتطبيق التغيير بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

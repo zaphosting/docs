@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يتيح لك Palworld التحكم في عدد العناصر المسقطة التي يمكن أن توجد في عالمك ومدة بقاء هذه العناصر قبل أن تختفي. في هذا الدليل، ستتعلم كيفية تعديل ملف الإعدادات الصحيح في واجهة ZAP-Hosting، وضبط إعدادات العناصر المسقطة، وتطبيق التغييرات بأمان.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

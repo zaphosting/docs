@@ -15,7 +15,7 @@ Palworld armazena os dados do mundo do servidor dedicado em uma pasta de save es
 Você não pode transferir saves da nuvem do Xbox console ou PS5 diretamente para um servidor dedicado Palworld. Apenas saves de uma instalação no PC ou de outro servidor dedicado existente podem ser migrados com este método.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparação
 

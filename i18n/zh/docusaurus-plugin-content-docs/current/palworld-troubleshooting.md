@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 专用服务器有时会遇到更新、启动和连接问题，尤其是在 Palworld Steam 更新后或安装第三方修改时。通过本指南，您将学会如何识别常见问题，检查 ZAP-Hosting 游戏服务器管理中的相关文件或设置，以及采取哪些措施恢复正常运行。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

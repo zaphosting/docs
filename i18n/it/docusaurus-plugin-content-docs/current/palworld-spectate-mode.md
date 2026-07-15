@@ -33,7 +33,7 @@ Nell’interfaccia web del tuo server di gioco ZAP-Hosting, apri la sezione **Co
 
 A seconda del template del server e della versione del gioco, questo file contiene le principali opzioni del server, inclusa la voce della password admin.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Verifica la voce della password admin
 

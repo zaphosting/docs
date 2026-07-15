@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณปรับน้ำหนักไอเทมบนเซิร์ฟเวอร์ของคุณได้โดยการเปลี่ยนค่าคอนฟิกในไฟล์ตั้งค่าเซิร์ฟเวอร์หลัก ในคู่มือนี้ คุณจะได้เรียนรู้ว่าจะหาไฟล์ที่ถูกต้องในเว็บอินเทอร์เฟซของ ZAP-Hosting ได้ที่ไหน, การตั้งค่า `item weight` ที่ต้องแก้ไข และวิธีใช้การเปลี่ยนแปลงอย่างถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يتيح لك Palworld تعديل مقدار الضرر الذي يسببه اللاعب ومقدار الضرر الذي يتلقاه من خلال قيم إعدادات السيرفر. في هذا الدليل، ستتعلم كيفية تحرير ملف الإعدادات الصحيح في سيرفر ألعاب ZAP-Hosting الخاص بك، وتغيير مضاعفات ضرر ودفاع اللاعب، وتطبيق التغييرات بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

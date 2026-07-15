@@ -15,7 +15,7 @@ Palworld memorizza i dati del mondo del server dedicato in una cartella di salva
 Non puoi trasferire direttamente salvataggi cloud da console Xbox o PS5 a un server dedicato Palworld. Solo i salvataggi da un’installazione PC o da un altro server dedicato esistente possono essere migrati con questo metodo.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

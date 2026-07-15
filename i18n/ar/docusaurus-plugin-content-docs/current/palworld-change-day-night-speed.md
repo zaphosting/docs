@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يتيح لك Palworld تعديل سرعة مرور دورة النهار والليل على سيرفرك. في هذا الدليل، ستتعلم كيفية تغيير سرعة النهار والليل عن طريق تعديل ملف الإعدادات الصحيح في إدارة سيرفر ألعاب ZAP-Hosting وتطبيق التغييرات بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你控制建筑物受到的伤害量以及它们随时间腐蚀的速度。在本指南中，你将学习如何在 ZAP-Hosting 游戏服务器管理中手动编辑正确的配置文件，并应用新的建筑物伤害设置。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

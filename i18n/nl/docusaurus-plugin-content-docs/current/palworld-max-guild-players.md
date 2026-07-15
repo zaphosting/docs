@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld laat je bepalen hoeveel spelers er in één guild op jouw server kunnen zitten. In deze gids leer je hoe je handmatig de maximale guild spelerslimiet aanpast door het juiste configuratiebestand in jouw ZAP-Hosting game server administratie te bewerken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

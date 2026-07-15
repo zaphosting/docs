@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *โหมด Hardcore* ใน Palworld เปิดใช้นโยบายการตายถาวรสำหรับผู้เล่น และสามารถเลือกเปิดสำหรับ Pals ได้ด้วย ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเปิดใช้งานโหมด hardcore ด้วยตนเองบนเซิร์ฟเวอร์เกม Palworld ของคุณที่ ZAP-Hosting โดยการแก้ไขไฟล์คอนฟิกที่ถูกต้องและรีสตาร์ทเซิร์ฟเวอร์หลังจากนั้น
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

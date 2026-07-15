@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *Global Palbox* ใน Palworld ช่วยให้ผู้เล่นสามารถย้าย Pals ระหว่างเซิร์ฟเวอร์ได้โดยใช้ระบบเก็บ Pal บนคลาวด์ทั่วโลก ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเปิดใช้งานการนำเข้าและส่งออก Global Palbox บนเซิร์ฟเวอร์ Palworld ของคุณที่ ZAP-Hosting โดยการแก้ไขไฟล์คอนฟิกที่ถูกต้องด้วยตนเอง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

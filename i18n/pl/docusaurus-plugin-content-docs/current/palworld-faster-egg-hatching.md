@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 W Palworld czas wylęgania jaj jest kontrolowany przez wartość konfiguracyjną serwera. W tym poradniku nauczysz się, jak skrócić czas wylęgania jaj na swoim serwerze gier Palworld w ZAP-Hosting, edytując odpowiedni plik konfiguracyjny i poprawnie stosując zmiany.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -53,7 +53,7 @@ PalWorldSettings.ini
 
 To plik zawierający wpisy konfiguracyjne rozgrywki twojego serwera Palworld, w tym ustawienie czasu wylęgania jaj.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Edytuj czas wylęgania jaj
 

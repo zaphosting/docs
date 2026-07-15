@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 I Palworld styrs äggkläckningstiden via en serverkonfigurationsinställning. I den här guiden lär du dig hur du minskar äggkläckningstiden på din ZAP-Hosting Palworld-server genom att redigera rätt konfigurationsfil och tillämpa ändringen korrekt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -53,7 +53,7 @@ PalWorldSettings.ini
 
 Detta är filen som innehåller gameplay-konfigurationsinställningarna för din Palworld-server, inklusive inställningen för äggkläckningstid.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Redigera Äggkläckningstiden
 

@@ -33,7 +33,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ขึ้นอยู่กับเทมเพลตเซิร์ฟเวอร์และเวอร์ชันเกม ไฟล์นี้จะมีตัวเลือกหลักของเซิร์ฟเวอร์รวมถึงการตั้งค่ารหัสผ่านแอดมิน
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### ตรวจสอบการตั้งค่ารหัสผ่านแอดมิน
 

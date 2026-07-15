@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 تتيح لك لعبة Palworld التحكم في ما يخسره اللاعبون عند الموت من خلال تغيير إعداد `DeathPenalty` في السيرفر. في هذا الدليل، ستتعلم كيفية تعديل ملف الإعدادات الصحيح في واجهة ZAP-Hosting وتطبيق التغيير بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

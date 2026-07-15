@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ermöglicht es dir, den Schaden, den deine Pals verursachen und erhalten, durch Anpassung der Schadensmultiplikator-Einstellungen auf dem Server zu verändern. In dieser Anleitung lernst du, welche Konfigurationsdatei du im ZAP-Hosting Interface bearbeiten musst, welche Werte du ändern solltest und wie du die neuen Einstellungen korrekt anwendest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 

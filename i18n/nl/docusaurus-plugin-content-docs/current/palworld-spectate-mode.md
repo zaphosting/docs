@@ -33,7 +33,7 @@ Open in de ZAP-Hosting game server webinterface de sectie **Configs**. De releva
 
 Afhankelijk van de servertemplate en gameversie bevat dit bestand de belangrijkste serveropties, inclusief de admin-wachtwoordinstelling.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Controleer de admin-wachtwoordinstelling
 

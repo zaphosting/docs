@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld verwendet *Technologie-IDs*, um freischaltbare Technologien und bestimmte itembezogene Einstellungen in der Serverkonfiguration zu identifizieren. In dieser Anleitung lernst du, wie du bestimmte Technologien deaktivierst, indem du die Einstellung `DenyTechnologyList` in deiner ZAP-Hosting Palworld Serverkonfiguration bearbeitest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 
@@ -72,7 +72,7 @@ Um Technologie-IDs auf deinem ZAP-Hosting Server zu konfigurieren, musst du die 
 
 Dies ist die Konfigurationsdatei, in der die Einstellung `DenyTechnologyList` gespeichert und bearbeitet wird.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Relevante Einstellung finden
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يتيح لك Palworld تعديل مقدار الضرر الذي يسببه ويتلقاه بالاتك من خلال تغيير إعدادات مضاعف الضرر على السيرفر. في هذا الدليل، ستتعلم أي ملف إعدادات يجب تعديله في واجهة ZAP-Hosting، القيم التي يجب تغييرها، وكيفية تطبيق الإعدادات الجديدة بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -33,7 +33,7 @@ ZAP-Hostingのゲームサーバーウェブインターフェースで、**Conf
 
 サーバーテンプレートやゲームバージョンによって、このファイルには管理者パスワードを含む主要なサーバーオプションが記載されています。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### 管理者パスワードの設定を確認する
 

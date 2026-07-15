@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ermöglicht es dir, deinen Gameserver mit einem Passwort zu schützen, sodass nur autorisierte Spieler beitreten können. In dieser Anleitung lernst du, wie du das Serverpasswort manuell in der ZAP-Hosting Gameserver-Konfiguration setzt oder änderst und die Änderung korrekt anwendest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 

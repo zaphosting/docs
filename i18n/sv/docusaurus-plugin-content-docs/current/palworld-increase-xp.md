@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld låter dig justera spelmultiplikatorer via serverkonfigurationen, inklusive mängden XP spelare får. I den här guiden lär du dig hur du ökar XP-hastigheten på din ZAP-Hosting Palworld-server genom att redigera rätt konfigurationsfil och tillämpa ändringarna korrekt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

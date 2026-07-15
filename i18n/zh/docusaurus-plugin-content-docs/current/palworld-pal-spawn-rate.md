@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你通过服务器配置设置控制 Pal 在世界中的出生频率。在本指南中，你将学习如何在 ZAP-Hosting 游戏服务器管理中编辑正确的配置文件，并安全地应用新的 Pal 出生率。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

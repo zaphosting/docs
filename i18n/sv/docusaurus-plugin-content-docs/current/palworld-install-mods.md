@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld stöder flera typer av servermods, vanligast är `UE4SS`, `.lua` och `.pak` mods. I den här guiden lär du dig hur du förbereder din server, identifierar rätt modtyp, laddar upp nödvändiga filer och startar om servern så att mods kan laddas korrekt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

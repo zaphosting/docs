@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *Predator Pals* هي Pals قوية من نوع الزعماء يمكن أن تظهر في جميع أنحاء العالم في Palworld. في هذا الدليل، ستتعلم كيفية تفعيل أو تعطيل predator pals على سيرفر Palworld الخاص بك في ZAP-Hosting عن طريق تعديل ملف التكوين الصحيح يدويًا.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

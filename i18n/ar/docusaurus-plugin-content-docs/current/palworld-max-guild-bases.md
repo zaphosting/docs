@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يتيح لك Palworld التحكم في الحد الأقصى لعدد القواعد التي يمكن لكل نقابة وضعها على سيرفرك. في هذا الدليل، ستتعلم كيفية تعديل ملف الإعدادات الصحيح يدويًا في واجهة الويب الخاصة بـ ZAP-Hosting، وتغيير إعداد `BaseCampMaxNumInGuild`، وتطبيق التغيير عن طريق إعادة تشغيل السيرفر.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

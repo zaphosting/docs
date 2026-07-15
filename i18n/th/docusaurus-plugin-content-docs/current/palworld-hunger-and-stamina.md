@@ -29,7 +29,7 @@ Palworld ให้คุณควบคุมความเร็วในก�
 2. ไปที่ส่วน `Configs`
 3. เปิดไฟล์ `PalWorldSettings.ini`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note ไฟล์สำหรับตัวคูณเกมเพลย์
 การตั้งค่าความหิวและความอึดจะถูกเก็บไว้ใน `PalWorldSettings.ini` ค่าพวกนี้มักเป็นส่วนหนึ่งของสตริงตัวเลือกหลักที่ใช้โดยเซิร์ฟเวอร์เฉพาะ

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Las incursiones en Palworld son ataques de enemigos invasores que pueden dirigirse a las bases de los jugadores en tu servidor. En esta guía, aprenderás cómo activar o desactivar las incursiones editando manualmente el archivo de configuración correcto en la administración de tu servidor de juegos ZAP-Hosting.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld允许你通过主服务器配置更改玩家和Pal的回复设置。在本指南中，你将学习如何在ZAP-Hosting网页界面中编辑正确的配置文件，调整HP回复数值，并正确应用更改。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

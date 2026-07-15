@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld laat je bepalen hoe snel spelers en Pals werk aan de basis afronden door een serverconfiguratie aan te passen. In deze gids leer je hoe je het werktempo verhoogt op je ZAP-Hosting Palworld-server door het juiste configuratiebestand te bewerken en de wijzigingen correct toe te passen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Voorbereiding
 

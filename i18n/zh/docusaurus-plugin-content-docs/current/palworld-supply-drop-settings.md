@@ -29,7 +29,7 @@ Palworld 包含定期出现的空投，内含有用资源。通过本指南，�
 2. 进入 **Configs**。
 3. 打开文件 `PalWorldSettings.ini`。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note 配置文件位置说明
 在 ZAP-Hosting，Palworld 的相关游戏设置通常通过服务器管理中的 **Configs** 区域内的 `PalWorldSettings.ini` 文件管理。如果你的界面布局略有不同，请在可用的配置文件列表中查找 `PalWorldSettings.ini`。

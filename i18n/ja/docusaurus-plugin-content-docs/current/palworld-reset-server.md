@@ -15,7 +15,7 @@ Palworldはゲームサーバー上にワールド、プレイヤーの進行状
 完全リセットは現在のセーブデータ、設定変更、その他サーバーファイルを永久に削除します。最終手段としてのみ使用してください。
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 
@@ -80,7 +80,7 @@ Palworldサーバー管理のサーバー管理エリアで再インストール
 
 パネルのバージョンによって表記が異なる場合がありますが、ZAP-Hostingでは通常サーバー管理画面に再インストールやフォーマット操作が用意されています。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### 完全リセットを開始する
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld używa *ID technologii* do identyfikacji odblokowywanych technologii oraz niektórych ustawień związanych z przedmiotami w konfiguracji serwera. W tym poradniku nauczysz się, jak wyłączyć konkretne technologie, edytując ustawienie `DenyTechnologyList` w konfiguracji serwera Palworld na ZAP-Hosting.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 
@@ -72,7 +72,7 @@ Aby skonfigurować ID technologii na swoim serwerze ZAP-Hosting, musisz ręcznie
 
 To jest plik konfiguracyjny, w którym znajduje się i jest edytowane ustawienie `DenyTechnologyList`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Znajdź odpowiednie ustawienie
 

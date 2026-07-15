@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In Palworld, the equipment durability rate controls how quickly your tools, weapons, and armor lose durability during use. In this guide, you will learn how to manually change the `EquipmentDurabilityDamageRate` setting in your ZAP-Hosting Palworld server configuration and apply the change correctly.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld låter dig styra det maximala antalet baser som varje guild kan placera på din server. I den här guiden lär du dig hur du manuellt redigerar rätt konfigurationsfil i ZAP-Hostings webbgränssnitt, ändrar inställningen `BaseCampMaxNumInGuild` och tillämpar ändringen genom att starta om din server.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

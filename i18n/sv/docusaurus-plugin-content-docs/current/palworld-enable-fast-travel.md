@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld låter dig styra hur spelare använder snabbresor på din server via huvudkonfigurationen. I den här guiden lär du dig hur du redigerar rätt konfigurationsfil i ZAP-Hostings gränssnitt, justerar snabbresorna och tillämpar ändringarna korrekt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

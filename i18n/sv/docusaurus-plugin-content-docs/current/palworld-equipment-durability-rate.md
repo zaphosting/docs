@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 I Palworld styr utrustningens hållbarhetsfaktor hur snabbt dina verktyg, vapen och rustningar tappar hållbarhet vid användning. I den här guiden lär du dig hur du manuellt ändrar inställningen `EquipmentDurabilityDamageRate` i din ZAP-Hosting Palworld-serverkonfiguration och tillämpar ändringen korrekt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ti permette di controllare quanti oggetti lasciati a terra possono esistere nel tuo mondo e per quanto tempo rimangono prima di scomparire. In questa guida, imparerai come modificare il file di configurazione corretto nell’interfaccia ZAP-Hosting, regolare le impostazioni degli oggetti lasciati a terra e applicare le modifiche in modo sicuro.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

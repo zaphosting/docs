@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、卵の孵化時間はサーバー設定値で管理されています。このガイドでは、ZAP-HostingのPalworldゲームサーバーで正しい設定ファイルを編集し、孵化時間を短縮する方法を学びます。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 
@@ -53,7 +53,7 @@ PalWorldSettings.ini
 
 このファイルには、Palworldサーバーのゲームプレイ設定が含まれており、卵の孵化時間設定もここにあります。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 卵の孵化時間を編集する
 

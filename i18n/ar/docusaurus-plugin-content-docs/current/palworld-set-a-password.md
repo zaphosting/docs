@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 تتيح لك Palworld حماية سيرفرك بكلمة مرور بحيث يمكن فقط للاعبين المصرح لهم الانضمام. في هذا الدليل، ستتعلم كيفية تعيين أو تغيير كلمة مرور السيرفر يدويًا في إعدادات سيرفر الألعاب الخاص بك في ZAP-Hosting وتطبيق كلمة المرور بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

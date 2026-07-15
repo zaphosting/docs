@@ -33,7 +33,7 @@ Palworld 的观战模式允许您在服务器上观察玩家，而无需主动�
 
 根据服务器模板和游戏版本，此文件包含主要服务器选项，包括管理员密码条目。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### 验证管理员密码条目
 

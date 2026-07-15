@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณปรับตัวคูณการเล่นเกมผ่านการตั้งค่าเซิร์ฟเวอร์ รวมถึงจำนวน XP ที่ผู้เล่นได้รับ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเพิ่มอัตรา XP บนเซิร์ฟเวอร์ Palworld ของคุณที่ ZAP-Hosting โดยการแก้ไขไฟล์การตั้งค่าที่ถูกต้องและนำการเปลี่ยนแปลงไปใช้ให้ถูกวิธี
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

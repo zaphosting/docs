@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 En Palworld, el tiempo de incubación de huevos se controla mediante un valor de configuración del servidor. En esta guía, aprenderás cómo reducir el tiempo de incubación de huevos en tu servidor de juegos Palworld de ZAP-Hosting editando el archivo de configuración correcto y aplicando el cambio adecuadamente.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 
@@ -53,7 +53,7 @@ PalWorldSettings.ini
 
 Este es el archivo que contiene las entradas de configuración del gameplay para tu servidor Palworld, incluyendo la configuración del tiempo de incubación de huevos.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Edita el Tiempo de Incubación de Huevos
 

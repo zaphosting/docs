@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldには、ゲームワールド内でPalsの出現をランダム化する設定があります。このガイドでは、ZAP-HostingのPalworldゲームサーバーでランダム化されたPalsを手動で有効化し、正しい設定ファイルを編集して構成する方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In Palworld kannst du einstellen, wie schnell Spieler und Pals Basisarbeiten erledigen, indem du einen Server-Konfigurationswert änderst. In dieser Anleitung lernst du, wie du das Arbeitstempo auf deinem ZAP-Hosting Palworld Gameserver erhöhst, indem du die richtige Konfigurationsdatei bearbeitest und die Änderungen korrekt anwendest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 

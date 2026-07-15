@@ -72,7 +72,7 @@ In diesem Ordner solltest du mindestens finden:
 - `LevelMeta.sav`
 - `Players/`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Bereite den Dedicated Server Charakter vor
 
@@ -148,7 +148,7 @@ Wähle in der Anwendung:
 Fix Host Save
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Wähle die richtigen Dateien aus
 

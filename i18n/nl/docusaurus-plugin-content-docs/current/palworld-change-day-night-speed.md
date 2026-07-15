@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld laat je bepalen hoe snel de dag- en nachtcyclus op je server verloopt. In deze gids leer je hoe je de snelheid van dag en nacht aanpast door het juiste configuratiebestand in je ZAP-Hosting game serverbeheer te bewerken en de wijzigingen correct toe te passen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Voorbereiding
 

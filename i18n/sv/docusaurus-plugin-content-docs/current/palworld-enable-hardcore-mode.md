@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *Hardcore-läge* i Palworld aktiverar permanenta dödsregler för spelare och, valfritt, för Pals. I den här guiden lär du dig hur du manuellt aktiverar hardcore-läge på din ZAP-Hosting Palworld-server genom att redigera rätt konfigurationsfil och sedan starta om servern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、*テクノロジーID*を使ってアンロック可能なテクノロジーや特定のアイテム関連設定をサーバー設定内で識別します。このガイドでは、ZAP-HostingのPalworldゲームサーバー設定の`DenyTechnologyList`を編集して特定のテクノロジーを無効化する方法を学びます。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 
@@ -72,7 +72,7 @@ ZAP-HostingサーバーでテクノロジーIDを設定するには、正しいP
 
 このファイルに`DenyTechnologyList`設定が保存されており、ここで編集します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### 関連設定を見つける
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณเปลี่ยนการตั้งค่าการฟื้นฟูสำหรับทั้งผู้เล่นและ Pal ผ่านการตั้งค่าเซิร์ฟเวอร์หลัก ในคู่มือนี้ คุณจะได้เรียนรู้วิธีแก้ไขไฟล์คอนฟิกที่ถูกต้องในเว็บอินเทอร์เฟซของ ZAP-Hosting ปรับค่าอัตราการฟื้นฟู HP และนำการเปลี่ยนแปลงไปใช้ได้อย่างถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

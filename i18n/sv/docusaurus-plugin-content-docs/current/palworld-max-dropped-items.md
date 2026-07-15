@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld låter dig kontrollera hur många droppade föremål som kan finnas i din värld och hur länge dessa föremål stannar kvar innan de försvinner. I den här guiden lär du dig hur du redigerar rätt konfigurationsfil i ZAP-Hosting-gränssnittet, justerar inställningarna för droppade föremål och tillämpar ändringarna på ett säkert sätt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

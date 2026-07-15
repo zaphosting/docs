@@ -15,7 +15,7 @@ Palworld salva il tuo mondo attivo nei dati di salvataggio del server anziché i
 Resettare il mondo di Palworld elimina definitivamente il mondo attuale, inclusi i progressi dei giocatori, le strutture, i Pals e altri dati salvati in quel mondo.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 
@@ -67,7 +67,7 @@ Pal/Saved/SaveGames/0/
 
 A seconda della configurazione del tuo prodotto, potresti accedere a questa cartella tramite il file manager o una sezione simile di accesso ai file nell’interfaccia web.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Riferimento Percorso
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld stelt je in staat om aan te passen hoeveel schade je Pals aanrichten en ontvangen door de damage multiplier instellingen van de server te wijzigen. In deze gids leer je welk configuratiebestand je moet bewerken in de ZAP-Hosting interface, welke waarden je moet aanpassen en hoe je de nieuwe instellingen correct toepast.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

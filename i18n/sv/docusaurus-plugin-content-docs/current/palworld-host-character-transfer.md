@@ -72,7 +72,7 @@ Inuti denna mapp bör du hitta minst:
 - `LevelMeta.sav`
 - `Players/`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Förbered den Dedikerade Serverkaraktären
 
@@ -148,7 +148,7 @@ I programmet väljer du:
 Fix Host Save
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Välj Rätt Filer
 

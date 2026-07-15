@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你通过服务器配置调整游戏内的各种倍率，包括玩家获得的经验值。在本指南中，你将学习如何通过编辑正确的配置文件并正确应用更改，在你的 ZAP-Hosting Palworld 服务器上提升经验值倍率。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

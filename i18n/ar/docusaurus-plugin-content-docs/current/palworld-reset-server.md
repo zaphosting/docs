@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 إعادة الضبط الكاملة تحذف بشكل دائم بيانات الحفظ الحالية، تغييرات الإعدادات، وأي ملفات أخرى للسيرفر مخزنة على التثبيت الحالي. يجب استخدام هذا الخيار فقط كملاذ أخير.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 
@@ -80,7 +80,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 نظرًا لاختلاف تسميات الواجهة بين إصدارات اللوحة، قد تختلف الصياغة الدقيقة قليلاً. في ZAP-Hosting، توجد هذه الوظيفة عادةً في منطقة إدارة السيرفر حيث تتوفر إجراءات إعادة التثبيت أو التهيئة.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### ابدأ إعادة الضبط الكاملة
 

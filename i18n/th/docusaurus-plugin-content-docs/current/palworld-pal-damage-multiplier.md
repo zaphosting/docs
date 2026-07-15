@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณปรับแต่งความเสียหายที่ Pals ของคุณสร้างและรับได้โดยการเปลี่ยนการตั้งค่าตัวคูณความเสียหายของเซิร์ฟเวอร์ ในคู่มือนี้ คุณจะได้เรียนรู้ว่าไฟล์การตั้งค่าไหนที่ต้องแก้ไขในแผงควบคุม ZAP-Hosting ค่าที่ต้องเปลี่ยน และวิธีใช้การตั้งค่าใหม่อย่างถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

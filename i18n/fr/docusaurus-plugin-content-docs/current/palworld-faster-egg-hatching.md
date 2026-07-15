@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Dans Palworld, le temps d’éclosion des œufs est contrôlé par une valeur de configuration serveur. Dans ce guide, vous apprendrez à réduire ce temps d’éclosion sur votre serveur de jeux Palworld ZAP-Hosting en modifiant le bon fichier de config et en appliquant correctement le changement.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Préparation
 
@@ -53,7 +53,7 @@ PalWorldSettings.ini
 
 C’est le fichier qui contient les entrées de configuration gameplay pour votre serveur Palworld, y compris le paramètre du temps d’éclosion des œufs.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Modifier le temps d’éclosion des œufs
 

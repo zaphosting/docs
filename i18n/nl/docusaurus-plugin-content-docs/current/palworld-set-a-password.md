@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld stelt je in staat om je server te beveiligen met een wachtwoord zodat alleen geautoriseerde spelers kunnen meedoen. In deze gids leer je hoe je handmatig het serverwachtwoord instelt of wijzigt in de ZAP-Hosting game serverconfiguratie en het wachtwoord correct toepast.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Voorbereiding
 

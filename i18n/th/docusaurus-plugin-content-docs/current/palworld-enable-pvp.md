@@ -38,7 +38,7 @@ PvP ใน Palworld ถือเป็นฟีเจอร์ทดลองโ
 3. ไปที่เมนู `Configs` ในแผงควบคุมเซิร์ฟเวอร์เกม
 4. เปิดไฟล์ `PalWorldSettings.ini`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note รูปแบบการตั้งค่า
 การตั้งค่าเซิร์ฟเวอร์ Palworld มักจะเก็บไว้ในส่วน `OptionSettings=(...)` ของไฟล์ `PalWorldSettings.ini` คุณต้องเพิ่มหรือปรับแต่งคีย์ที่จำเป็นภายในบล็อกการตั้งค่านี้

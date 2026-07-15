@@ -33,7 +33,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 اعتمادًا على قالب السيرفر وإصدار اللعبة، يحتوي هذا الملف على خيارات السيرفر الرئيسية بما في ذلك إدخال كلمة مرور المسؤول.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### تحقق من إدخال كلمة مرور المسؤول
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 在 Palworld 中，孵蛋时间由服务器配置值控制。本指南将教你如何通过编辑正确的配置文件并正确应用更改，来缩短你在 ZAP-Hosting Palworld 服务器上的孵蛋时间。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 
@@ -53,7 +53,7 @@ PalWorldSettings.ini
 
 该文件包含你的 Palworld 服务器的游戏玩法配置项，包括孵蛋时间设置。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 编辑孵蛋时间
 

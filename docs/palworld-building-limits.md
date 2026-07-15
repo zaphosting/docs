@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld allows you to control several building limits and restrictions through the server configuration. In this guide, you will learn how to manually edit the correct config file in the ZAP-Hosting web interface, change the relevant building values, and apply the changes correctly.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

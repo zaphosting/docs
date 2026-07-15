@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 `EnemyDropItemRate` ควบคุมจำนวนไอเท็มที่ศัตรูดรอปใน Palworld ในคู่มือนี้ คุณจะได้เรียนรู้วิธีแก้ไขไฟล์คอนฟิกที่ถูกต้องด้วยตนเองในแผงควบคุมเซิร์ฟเวอร์เกม ZAP-Hosting ของคุณและตั้งค่าอัตราการดรอปของศัตรูใหม่ได้สำเร็จ
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

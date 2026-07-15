@@ -29,7 +29,7 @@ ZAP-Hostingのゲームサーバー管理画面で：
 2. 「Configs」セクションに移動します。
 3. `PalWorldSettings.ini`ファイルを開きます。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note ゲームプレイ倍率用のファイル
 空腹とスタミナの設定は`PalWorldSettings.ini`に保存されています。これらの値は通常、専用サーバーで使用されるメインのオプション文字列の一部です。

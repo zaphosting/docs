@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld stelt je in staat om de Pal capture rate op je server aan te passen via de hoofdwereldconfiguratie. In deze gids leer je waar je het juiste config-bestand vindt in de ZAP-Hosting interface, welke waarde je moet wijzigen en hoe je de nieuwe capture rate toepast.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

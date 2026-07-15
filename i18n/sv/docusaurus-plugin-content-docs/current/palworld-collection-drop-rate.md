@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld låter dig styra hur mycket resurser spelare samlar och hur snabbt samlingsbara objekt återkommer. I den här guiden lär du dig hur du manuellt redigerar rätt konfigurationsfil på din ZAP-Hosting-spelserver för att ändra samlingsfrekvensen och relaterade resursinställningar.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld te permite controlar cuántos ítems caídos pueden existir en tu mundo y cuánto tiempo permanecen antes de desaparecer. En esta guía, aprenderás a editar el archivo de configuración correcto en la interfaz de ZAP-Hosting, ajustar los parámetros de los ítems caídos y aplicar los cambios de forma segura.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 

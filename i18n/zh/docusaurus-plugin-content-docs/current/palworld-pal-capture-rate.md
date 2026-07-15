@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你通过主世界配置调整服务器上的 Pal 捕获率。在本指南中，你将学习如何在 ZAP-Hosting 界面中找到正确的配置文件，修改哪个数值，以及如何应用新的捕获率。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

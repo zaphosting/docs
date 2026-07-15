@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld専用サーバーは、特にPalworldのSteamアップデート後やサードパーティ製の改造を導入した際に、アップデート、起動、接続の問題が発生することがあります。このガイドでは、よくある問題の特定方法、ZAP-Hostingのゲームサーバー管理画面で確認すべきファイルや設定、正常な動作を復旧するための対処法を学びます。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

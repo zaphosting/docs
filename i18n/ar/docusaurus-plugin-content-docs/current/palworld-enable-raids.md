@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 غارات Palworld هي هجمات من أعداء غزاة يمكن أن تستهدف قواعد اللاعبين على سيرفرك. في هذا الدليل، ستتعلم كيفية تفعيل أو تعطيل الغارات عن طريق تعديل ملف التكوين الصحيح يدويًا في إدارة سيرفر ألعاب ZAP-Hosting.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 

@@ -29,7 +29,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 2. انتقل إلى قسم `Configs`.
 3. افتح ملف `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note الملف المستخدم لمضاعفات اللعب
 يتم تخزين إعدادات الجوع والقدرة على التحمل في `PalWorldSettings.ini`. عادةً ما تكون هذه القيم جزءًا من سلسلة الخيارات الرئيسية المستخدمة بواسطة السيرفر المخصص.

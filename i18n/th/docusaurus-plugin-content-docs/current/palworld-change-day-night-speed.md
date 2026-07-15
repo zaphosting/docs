@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณปรับความเร็วของรอบกลางวันกลางคืนบนเซิร์ฟเวอร์เกมของคุณได้ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเปลี่ยนความเร็วกลางวันกลางคืนโดยแก้ไขไฟล์คอนฟิกที่ถูกต้องในแผงควบคุมเซิร์ฟเวอร์เกม ZAP-Hosting และนำการเปลี่ยนแปลงไปใช้ให้ถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

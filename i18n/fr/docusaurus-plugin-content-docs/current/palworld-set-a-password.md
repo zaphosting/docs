@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld vous permet de protéger votre serveur avec un mot de passe afin que seuls les joueurs autorisés puissent rejoindre. Dans ce guide, vous apprendrez à définir ou modifier manuellement le mot de passe du serveur dans la configuration de votre serveur de jeux ZAP-Hosting et à appliquer correctement ce mot de passe.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณปรับแต่งว่าผู้เล่นจะสร้างความเสียหายได้มากแค่ไหนและรับความเสียหายได้มากแค่ไหนผ่านค่าการตั้งค่าเซิร์ฟเวอร์ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีแก้ไขไฟล์คอนฟิกที่ถูกต้องในเซิร์ฟเวอร์เกมของคุณที่ ZAP-Hosting ปรับตัวคูณความเสียหายและการป้องกันของผู้เล่น และนำการเปลี่ยนแปลงไปใช้ให้ถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

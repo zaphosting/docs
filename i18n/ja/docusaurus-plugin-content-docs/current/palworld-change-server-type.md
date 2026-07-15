@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldのゲームサーバーは、ホスティング環境やmodの要件に応じて、主にLinuxまたはWindowsのサーバータイプで動作します。このガイドでは、ZAP-Hostingのインターフェースでサーバータイプを変更し、正しい設定ファイルのパスを特定して、変更を正しく適用する方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 
@@ -65,7 +65,7 @@ modを使用している場合や手動で設定ファイルを編集してい�
 3. 目的の設定に応じて、`Linux`から`Windows`、または`Windows`から`Linux`に変更します。
 4. 変更を保存します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::info サーバータイプオプションが見つからない場合
 この設定の正確なラベルや場所は、ZAP-Hostingのインターフェースや製品の世代によって異なる場合があります。サーバータイプの選択肢が表示されない場合は、再インストールが必要か、サポートの助けが必要な可能性があります。

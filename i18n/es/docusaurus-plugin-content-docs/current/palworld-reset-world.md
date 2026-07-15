@@ -15,7 +15,7 @@ Palworld guarda tu mundo activo en los datos guardados del servidor en lugar de 
 Reiniciar tu mundo de Palworld elimina permanentemente el mundo actual, incluyendo el progreso de los jugadores, estructuras, Pals y otros datos guardados en ese mundo.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 
@@ -67,7 +67,7 @@ Pal/Saved/SaveGames/0/
 
 Dependiendo de la configuración de tu producto, puedes acceder a esto a través del administrador de archivos o una sección similar de acceso a archivos en la interfaz web.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Referencia de Ruta
 

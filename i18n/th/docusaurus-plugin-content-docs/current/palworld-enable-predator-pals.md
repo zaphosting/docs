@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *Predator Pals* คือ Pals แบบบอสที่ทรงพลังซึ่งสามารถเกิดขึ้นทั่วโลกในเกม Palworld ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเปิดหรือปิด predator pals บนเซิร์ฟเวอร์ Palworld ของคุณที่ ZAP-Hosting โดยการแก้ไขไฟล์คอนฟิกที่ถูกต้องด้วยตนเอง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

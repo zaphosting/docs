@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 `EnemyDropItemRate` 控制 Palworld 中敌人掉落的战利品数量。在本指南中，您将学习如何在 ZAP-Hosting 游戏服务器管理面板中手动编辑正确的配置文件，并成功应用新的敌人掉落率。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

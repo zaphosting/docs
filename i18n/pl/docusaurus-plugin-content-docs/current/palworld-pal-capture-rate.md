@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld pozwala na dostosowanie współczynnika łapania Palów na Twoim serwerze poprzez główną konfigurację świata. W tym poradniku dowiesz się, gdzie znaleźć odpowiedni plik konfiguracyjny w panelu ZAP-Hosting, którą wartość zmienić oraz jak zastosować nowy współczynnik łapania.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

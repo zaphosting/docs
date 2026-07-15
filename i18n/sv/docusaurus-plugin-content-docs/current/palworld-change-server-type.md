@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld-servrar kan köras med olika servertyper, vanligtvis Linux eller Windows, beroende på din hostingsetup och modkrav. I den här guiden lär du dig hur du byter servertyp i ZAP-Hostings gränssnitt, identifierar rätt konfigurationsfilsväg efteråt och tillämpar ändringen korrekt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -65,7 +65,7 @@ Servertypbytet hanteras vanligtvis via produkt- eller mjukvaruinställningarna i
 3. Byt inställningen från `Linux` till `Windows`, eller från `Windows` till `Linux`, beroende på din målsetup.
 4. Spara ändringen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::info Om du inte hittar servertyp-alternativet
 Den exakta benämningen och platsen för denna inställning kan variera beroende på aktuell ZAP-Hosting-gränssnitt eller produktgeneration. Om ingen servertypväljare syns kan bytet kräva ominstallation eller supporthjälp.

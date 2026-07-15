@@ -15,7 +15,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 لا يمكنك نقل حفظات Xbox console أو PS5 cloud مباشرة إلى سيرفر Palworld مخصص. فقط الحفظات من تثبيت على PC أو سيرفر مخصص موجود يمكن ترحيلها بهذه الطريقة.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

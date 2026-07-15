@@ -15,7 +15,7 @@ Palworld guarda tu mundo, progreso de jugador y configuraciones del servidor en 
 Un reinicio completo elimina permanentemente tus datos guardados existentes, cambios de configuración y cualquier otro archivo del servidor almacenado en la instalación actual. Solo debes usar esto como último recurso.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 
@@ -80,7 +80,7 @@ En la administración de tu servidor Palworld, busca la función de reinstalaci�
 
 Como las etiquetas de la interfaz pueden variar entre versiones del panel, el texto exacto puede diferir ligeramente. En ZAP-Hosting, esta función generalmente está en el área de administración del servidor donde están disponibles las acciones de reinstalar o formatear.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Inicia el reinicio completo
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld pozwala kontrolować, ile surowców gracze zbierają oraz jak szybko odradzają się obiekty do zbierania. W tym poradniku nauczysz się, jak ręcznie edytować odpowiedni plik konfiguracyjny na swoim serwerze gier Palworld w ZAP-Hosting, aby zmienić współczynnik zbierania i powiązane ustawienia surowców.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

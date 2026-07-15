@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld låter dig justera hur mycket skada en spelare ger och hur mycket skada en spelare tar via serverns konfigurationsvärden. I den här guiden lär du dig hur du redigerar rätt konfigurationsfil på din ZAP-Hosting spelserver, ändrar spelarskada och försvarsmultiplikatorer, och tillämpar ändringarna korrekt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你控制单个公会中最多可以加入多少玩家。在本指南中，你将学习如何通过编辑 ZAP-Hosting 游戏服务器管理中的正确配置文件，手动更改最大公会玩家数限制。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

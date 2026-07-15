@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld raids zijn aanvallen van indringer-vijanden die spelersbases op je server kunnen aanvallen. In deze gids leer je hoe je raids aan- of uitzet door handmatig het juiste configuratiebestand te bewerken in de ZAP-Hosting game server administratie.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Voorbereiding
 

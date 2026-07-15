@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณควบคุมได้ว่าโครงสร้างจะได้รับความเสียหายมากแค่ไหนและเสื่อมสภาพเร็วแค่ไหนตามเวลา ในคู่มือนี้ คุณจะได้เรียนรู้วิธีแก้ไขไฟล์การตั้งค่าที่ถูกต้องในแผงควบคุมเซิร์ฟเวอร์เกม ZAP-Hosting ของคุณและนำการตั้งค่าอัตราความเสียหายโครงสร้างใหม่ไปใช้
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

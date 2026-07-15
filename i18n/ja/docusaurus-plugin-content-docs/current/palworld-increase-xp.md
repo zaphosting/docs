@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、サーバー設定を通じてゲームプレイの倍率を調整でき、その中にはプレイヤーが獲得するXPの量も含まれます。このガイドでは、ZAP-HostingのPalworldゲームサーバーでXP倍率を増やすために、正しい設定ファイルを編集し変更を適用する方法を学びます。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

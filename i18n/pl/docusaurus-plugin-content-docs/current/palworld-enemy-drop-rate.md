@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 `EnemyDropItemRate` kontroluje, ile łupów zostawiają przeciwnicy w Palworld. W tym poradniku nauczysz się, jak ręcznie edytować odpowiedni plik konfiguracyjny w panelu administracyjnym swojego serwera gier ZAP-Hosting i skutecznie zastosować nowy współczynnik dropu przeciwników.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

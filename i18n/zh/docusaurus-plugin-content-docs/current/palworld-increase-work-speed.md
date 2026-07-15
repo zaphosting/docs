@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你通过更改服务器配置值来调整玩家和 Pal 完成基地相关工作的速度。在本指南中，你将学习如何通过编辑正确的配置文件并正确应用更改，在你的 ZAP-Hosting Palworld 服务器上提升工作速度。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

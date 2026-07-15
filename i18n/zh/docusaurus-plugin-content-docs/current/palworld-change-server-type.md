@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 服务器可以运行不同的服务器类型，通常是 Linux 或 Windows，具体取决于您的托管环境和模组需求。在本指南中，您将学习如何在 ZAP-Hosting 界面中更改服务器类型，识别正确的配置文件路径，并正确应用更改。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 
@@ -65,7 +65,7 @@ Palworld 服务器可以运行不同的服务器类型，通常是 Linux 或 Win
 3. 根据目标设置，将选项从 `Linux` 更改为 `Windows`，或从 `Windows` 更改为 `Linux`。
 4. 保存更改。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::info 如果找不到服务器类型选项
 该设置的具体标签和位置可能因当前 ZAP-Hosting 界面或产品版本而异。如果没有看到服务器类型选择器，可能需要重新安装或联系支持协助。

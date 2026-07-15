@@ -29,7 +29,7 @@ Palworld 允许你控制玩家和 Pal 的饥饿与耐力消耗速度。在本指
 2. 进入 `Configs`（配置）部分。
 3. 打开 `PalWorldSettings.ini` 文件。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note 用于游戏倍率的文件
 饥饿和耐力设置存储在 `PalWorldSettings.ini` 中。这些值通常是专用服务器使用的主选项字符串的一部分。

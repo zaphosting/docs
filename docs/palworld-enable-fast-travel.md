@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld allows you to control how players use fast travel on your server through the main server configuration. In this guide, you will learn how to edit the correct config file in the ZAP-Hosting interface, adjust the fast travel settings, and apply the changes properly.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

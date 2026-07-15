@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你通过密码保护服务器，只有授权玩家才能加入。本指南将教你如何在 ZAP-Hosting 游戏服务器配置中手动设置或更改服务器密码，并正确应用密码。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 การบุก (raids) ใน Palworld คือการโจมตีจากศัตรูผู้บุกรุกที่สามารถมุ่งเป้าไปยังฐานผู้เล่นบนเซิร์ฟเวอร์ของคุณ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเปิดหรือปิดการบุกโดยการแก้ไขไฟล์คอนฟิกที่ถูกต้องด้วยตนเองผ่านแผงควบคุมเซิร์ฟเวอร์เกมของ ZAP-Hosting
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

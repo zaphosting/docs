@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ti permette di regolare i moltiplicatori di gioco tramite la configurazione del server, incluso l’ammontare di XP che i giocatori guadagnano. In questa guida, imparerai come aumentare il tasso di XP sul tuo server Palworld ZAP-Hosting modificando il file di configurazione corretto e applicando le modifiche nel modo giusto.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

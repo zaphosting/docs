@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld vous permet de contrôler combien d’objets lâchés peuvent exister dans votre monde et combien de temps ces objets restent avant de disparaître. Dans ce guide, vous apprendrez à modifier le fichier de configuration approprié dans l’interface ZAP-Hosting, ajuster les paramètres des objets lâchés, et appliquer les changements en toute sécurité.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

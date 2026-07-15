@@ -33,7 +33,7 @@ Im Webinterface deines ZAP-Hosting Gameservers öffnest du den Bereich **Configs
 
 Je nach Server-Template und Spielversion enthält diese Datei die wichtigsten Serveroptionen inklusive des Admin-Passwort-Eintrags.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Überprüfe den Admin-Passwort-Eintrag
 

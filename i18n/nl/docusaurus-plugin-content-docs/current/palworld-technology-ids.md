@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld gebruikt *technology IDs* om ontgrendelbare technologieën en bepaalde item-gerelateerde instellingen in de serverconfiguratie te identificeren. In deze gids leer je hoe je specifieke technologieën uitschakelt door de `DenyTechnologyList`-instelling in je ZAP-Hosting Palworld serverconfiguratie aan te passen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -72,7 +72,7 @@ Om technology IDs op je ZAP-Hosting server te configureren, moet je het juiste P
 
 Dit is het configuratiebestand waarin de `DenyTechnologyList`-instelling wordt opgeslagen en bewerkt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Zoek de relevante instelling
 

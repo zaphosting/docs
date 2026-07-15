@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ermöglicht dir, zu steuern, wie viel Schaden Strukturen erleiden und wie schnell sie im Laufe der Zeit verfallen. In dieser Anleitung lernst du, wie du die richtige Konfigurationsdatei in deiner ZAP-Hosting Gameserver-Verwaltung manuell bearbeitest und die neuen Struktur-Schadenseinstellungen anwendest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 

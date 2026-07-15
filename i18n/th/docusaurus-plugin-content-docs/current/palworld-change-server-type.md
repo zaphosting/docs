@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 เซิร์ฟเวอร์ Palworld สามารถรันด้วยประเภทเซิร์ฟเวอร์ต่าง ๆ ได้ โดยปกติจะเป็น Linux หรือ Windows ขึ้นอยู่กับการตั้งค่าเช่าเซิร์ฟเวอร์และความต้องการม็อด ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเปลี่ยนประเภทเซิร์ฟเวอร์ในแผงควบคุม ZAP-Hosting ระบุเส้นทางไฟล์คอนฟิกที่ถูกต้องหลังจากนั้น และใช้งานการเปลี่ยนแปลงอย่างถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -65,7 +65,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 3. เปลี่ยนการตั้งค่าจาก `Linux` เป็น `Windows` หรือจาก `Windows` เป็น `Linux` ตามที่คุณต้องการ
 4. บันทึกการเปลี่ยนแปลง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::info หากคุณไม่พบตัวเลือกประเภทเซิร์ฟเวอร์
 ชื่อและตำแหน่งของการตั้งค่านี้อาจแตกต่างกันตามอินเทอร์เฟซหรือรุ่นผลิตภัณฑ์ ZAP-Hosting ปัจจุบัน หากไม่มีตัวเลือกเปลี่ยนประเภทเซิร์ฟเวอร์ การเปลี่ยนอาจต้องติดตั้งใหม่หรือขอความช่วยเหลือจากฝ่ายสนับสนุน

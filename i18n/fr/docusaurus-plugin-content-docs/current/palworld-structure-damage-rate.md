@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld vous permet de contrôler la quantité de dégâts subis par les structures ainsi que leur vitesse de dégradation dans le temps. Dans ce guide, vous apprendrez à modifier manuellement le fichier de configuration adéquat dans l’administration de votre serveur de jeux ZAP-Hosting et à appliquer les nouveaux réglages de dégâts des structures.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

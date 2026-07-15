@@ -29,7 +29,7 @@ I ZAP-Hostings spelserveradministration:
 2. Gå till avsnittet `Configs`.
 3. Öppna filen `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Fil för gameplay-multiplikatorer
 Inställningarna för hunger och stamina sparas i `PalWorldSettings.ini`. Dessa värden är vanligtvis en del av huvudalternativsträngen som används av dedikerade servern.

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld låter dig ändra det maximala antalet arbetande Pals som tilldelas varje basläger på din server. I den här guiden lär du dig hur du redigerar rätt konfigurationsfil i ZAP-Hostings webbgränssnitt, justerar värdet för `BaseCampWorkerMaxNum` och tillämpar ändringen korrekt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -50,7 +50,7 @@ För att ändra max workers-inställningen måste du redigera filen `PalWorldSet
 
 Detta är konfigurationsfilen där spelinställningarna för din Palworld-server sparas.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Edit the BaseCampWorkerMaxNum Value
 

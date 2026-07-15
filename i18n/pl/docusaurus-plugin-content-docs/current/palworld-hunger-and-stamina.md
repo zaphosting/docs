@@ -29,7 +29,7 @@ W panelu administracyjnym serwera gier ZAP-Hosting:
 2. Przejdź do sekcji `Configs`.
 3. Otwórz plik `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Plik z mnożnikami rozgrywki
 Ustawienia głodu i wytrzymałości znajdują się w `PalWorldSettings.ini`. Te wartości są zwykle częścią głównego ciągu opcji używanego przez serwer dedykowany.

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *Globalny Palbox* w Palworld pozwala graczom na transfer Palów między serwerami za pomocą globalnego, chmurowego systemu przechowywania Palów. W tym poradniku nauczysz się, jak włączyć import i eksport Globalnego Palboxa na swoim serwerze Palworld w ZAP-Hosting, edytując odpowiedni plik konfiguracyjny ręcznie.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

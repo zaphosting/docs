@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld geeft je controle over hoeveel schade structuren oplopen en hoe snel ze na verloop van tijd vervallen. In deze gids leer je hoe je handmatig het juiste configuratiebestand in jouw ZAP-Hosting game server administratie aanpast en de nieuwe instellingen voor structuurschade toepast.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

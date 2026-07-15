@@ -32,7 +32,7 @@ ZAP-Hostingのゲームサーバー管理パネルでPalworldサーバーにア�
 3. **Configs**に移動します。
 4. `PalWorldSettings.ini`ファイルを開きます。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note 変更箇所について
 パフォーマンス関連の設定は`PalWorldSettings.ini`に保存されています。このファイル内の既存のオプション値を手動で編集してください。
@@ -125,7 +125,7 @@ Palworldの設定フォーマットはアップデートで変わることがあ
 2. ゲームサーバー管理画面に戻ります。
 3. Palworldサーバーを再起動します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::info 再起動が必要です
 `PalWorldSettings.ini`を変更した後は必ず再起動してください。再起動しないとサーバーは以前の設定を使い続けます。

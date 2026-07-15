@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld inclut des paramètres de randomizer qui peuvent modifier la façon dont les Pals apparaissent dans votre monde de jeu. Dans ce guide, vous apprendrez à activer et configurer manuellement les Pals aléatoires sur votre serveur Palworld ZAP-Hosting en éditant le fichier de configuration approprié.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld使用*科技ID*来识别可解锁的科技和服务器配置中的某些物品相关设置。在本指南中，您将学习如何通过编辑ZAP-Hosting Palworld服务器配置中的`DenyTechnologyList`设置来禁用特定科技。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 
@@ -72,7 +72,7 @@ Palworld科技ID是基于字符串的值，例如`GrapplingGun`、`GrapplingGun2
 
 这是存储和编辑`DenyTechnologyList`设置的配置文件。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### 定位相关设置
 

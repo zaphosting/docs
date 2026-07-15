@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 `EnemyDropItemRate` controlla quanti oggetti lasciano cadere i nemici in Palworld. In questa guida, imparerai come modificare manualmente il file di configurazione corretto nella tua amministrazione server di gioco ZAP-Hosting e applicare con successo il nuovo tasso di drop dei nemici.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

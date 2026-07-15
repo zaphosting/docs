@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你控制玩家采集资源的数量以及可采集物体的刷新速度。在本指南中，你将学习如何在 ZAP-Hosting 游戏服务器中手动编辑正确的配置文件，以更改采集掉落率和相关资源设置。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

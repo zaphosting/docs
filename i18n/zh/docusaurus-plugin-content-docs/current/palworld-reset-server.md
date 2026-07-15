@@ -15,7 +15,7 @@ Palworld 会将你的世界、玩家进度和服务器设置存储在游戏服�
 完全重置会永久删除你现有的存档数据、配置更改以及当前安装中的所有其他服务器文件。请仅在万不得已时使用此操作。
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 
@@ -80,7 +80,7 @@ Palworld 的完全重置是通过 ZAP 面板中的重新安装功能，配合格
 
 由于面板版本不同，界面标签可能略有差异。在 ZAP-Hosting 上，这个功能通常位于服务器管理区域，提供重新安装或格式化操作。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### 开始完全重置
 

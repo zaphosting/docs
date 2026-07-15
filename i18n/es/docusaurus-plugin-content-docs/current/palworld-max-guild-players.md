@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld te permite controlar cuántos jugadores pueden unirse a una sola guild en tu servidor. En esta guía, aprenderás cómo cambiar manualmente el límite máximo de jugadores por guild editando el archivo de configuración correcto en la administración de tu servidor de juegos ZAP-Hosting.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 

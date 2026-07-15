@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *Tryb hardcore* w Palworld włącza zasady trwałej śmierci dla graczy, a opcjonalnie także dla Pals. W tym poradniku nauczysz się, jak ręcznie włączyć tryb hardcore na swoim serwerze gier Palworld w ZAP-Hosting, edytując odpowiedni plik konfiguracyjny i restartując serwer.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

@@ -38,7 +38,7 @@ Om PvP in te schakelen, moet je het bestand `PalWorldSettings.ini` bewerken.
 3. Navigeer naar `Configs` in de game server administratie.
 4. Open het bestand `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Configuratieformaat
 Palworld serverinstellingen worden meestal opgeslagen binnen de `OptionSettings=(...)` sectie in `PalWorldSettings.ini`. Je moet de benodigde sleutels toevoegen of aanpassen binnen dat instellingenblok.

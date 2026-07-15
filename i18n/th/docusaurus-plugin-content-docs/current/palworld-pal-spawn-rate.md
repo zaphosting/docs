@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณควบคุมความถี่ในการเกิดของ Pals ในโลกของคุณผ่านการตั้งค่าเซิร์ฟเวอร์ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีแก้ไขไฟล์การตั้งค่าที่ถูกต้องในแผงควบคุมเซิร์ฟเวอร์เกม ZAP-Hosting และปรับอัตราการเกิด Pal ใหม่อย่างปลอดภัย
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

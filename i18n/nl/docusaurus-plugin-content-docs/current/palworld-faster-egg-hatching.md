@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In Palworld wordt de uitbroedtijd van eieren geregeld via een serverconfiguratie. In deze gids leer je hoe je de uitbroedtijd op jouw ZAP-Hosting Palworld-server kunt verkorten door het juiste configuratiebestand aan te passen en de wijziging correct toe te passen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Voorbereiding
 
@@ -53,7 +53,7 @@ PalWorldSettings.ini
 
 Dit is het bestand dat de gameplay-configuratie bevat voor je Palworld-server, inclusief de uitbroedtijd van eieren.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Pas de Uitbroedtijd aan
 

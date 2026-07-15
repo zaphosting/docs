@@ -15,7 +15,7 @@ Palworld เก็บข้อมูลโลกของเซิร์ฟเ�
 คุณไม่สามารถโอนย้ายเซฟจากเครื่อง Xbox หรือ PS5 cloud ไปยังเซิร์ฟเวอร์เกมเฉพาะ Palworld ได้โดยตรง วิธีนี้รองรับเฉพาะเซฟจากการติดตั้งบน PC หรือเซิร์ฟเวอร์เกมเฉพาะที่มีอยู่แล้วเท่านั้น
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

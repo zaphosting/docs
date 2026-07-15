@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld允许你通过更改服务器的伤害倍率设置来调整你的Pals造成和承受的伤害。在本指南中，你将学习在ZAP-Hosting界面中编辑哪个配置文件，修改哪些数值，以及如何正确应用新的设置。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld te permite controlar cuántos recursos recolectan los jugadores y qué tan rápido vuelven a aparecer los objetos recolectables. En esta guía, aprenderás a editar manualmente el archivo de configuración correcto en tu servidor de juegos Palworld de ZAP-Hosting para cambiar la tasa de recolección y otros ajustes relacionados.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 

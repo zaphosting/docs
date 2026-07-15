@@ -15,7 +15,7 @@ Palworld slaat je actieve wereld op in de server save data in plaats van in een 
 Het resetten van je Palworld wereld verwijdert permanent de huidige wereld, inclusief spelerprogressie, bouwwerken, Pals en andere opgeslagen data in die wereld.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -67,7 +67,7 @@ Pal/Saved/SaveGames/0/
 
 Afhankelijk van je productindeling kun je dit bereiken via de bestandsmanager of een vergelijkbare bestands-toegangssectie in de webinterface.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Pad Referentie
 

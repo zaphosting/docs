@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In Palworld, il tasso di durabilità dell'equipaggiamento determina quanto velocemente i tuoi strumenti, armi e armature perdono durabilità durante l'uso. In questa guida, imparerai come modificare manualmente l'impostazione `EquipmentDurabilityDamageRate` nella configurazione del tuo server Palworld su ZAP-Hosting e applicare correttamente la modifica.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

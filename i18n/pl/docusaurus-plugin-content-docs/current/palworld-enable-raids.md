@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Najazdy w Palworld to ataki wrogów na bazy graczy na Twoim serwerze. W tym poradniku nauczysz się, jak włączyć lub wyłączyć najazdy, ręcznie edytując odpowiedni plik konfiguracyjny w panelu administracyjnym serwera gier ZAP-Hosting.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

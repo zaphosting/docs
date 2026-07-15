@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 I server dedicati Palworld possono occasionalmente incontrare problemi di aggiornamento, avvio e connessione, specialmente dopo un aggiornamento Steam di Palworld o quando sono installate modifiche di terze parti. In questa guida imparerai a identificare i problemi comuni, quali file o impostazioni controllare nell’amministrazione del tuo server di gioco ZAP-Hosting e quali azioni intraprendere per ripristinare il funzionamento normale.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你调整服务器上昼夜循环的速度。在本指南中，你将学习如何通过编辑 ZAP-Hosting 游戏服务器管理中的正确配置文件来更改昼夜速度，并正确应用更改。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld te permite cambiar el número máximo de Pals trabajadores asignados a cada campamento base en tu servidor. En esta guía, aprenderás a editar el archivo de configuración correcto en el panel web de ZAP-Hosting, ajustar el valor `BaseCampWorkerMaxNum` y aplicar el cambio correctamente.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 
@@ -50,7 +50,7 @@ Abre la administración de tu servidor de juegos Palworld y navega a:
 
 Este es el archivo de configuración donde se almacenan los ajustes de jugabilidad para tu servidor Palworld.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Edita el Valor BaseCampWorkerMaxNum
 

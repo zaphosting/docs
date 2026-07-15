@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld laat je bepalen hoeveel spelers er tegelijk op je server kunnen spelen. In deze gids leer je hoe je handmatig het maximale aantal spelers aanpast door het juiste configuratiebestand in je ZAP-Hosting game server beheer te bewerken.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld vous permet d’ajuster le taux de capture des Pals sur votre serveur via la configuration principale du monde. Dans ce guide, vous apprendrez où trouver le fichier de config approprié dans l’interface ZAP-Hosting, quelle valeur modifier, et comment appliquer le nouveau taux de capture.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

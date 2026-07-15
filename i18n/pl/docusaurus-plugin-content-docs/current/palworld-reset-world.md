@@ -15,7 +15,7 @@ Palworld przechowuje aktywny świat w danych zapisu serwera, a nie w konfigurowa
 Resetowanie świata Palworld trwale usuwa aktualny świat, w tym postępy graczy, budowle, Pals oraz inne dane zapisane w tym świecie.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 
@@ -67,7 +67,7 @@ Pal/Saved/SaveGames/0/
 
 W zależności od układu Twojego produktu, możesz mieć do tego dostęp przez menedżer plików lub podobną sekcję dostępu do plików w interfejsie webowym.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Odniesienie do Ścieżki
 

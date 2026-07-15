@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld låter dig styra hur många spelare som kan ansluta till din server samtidigt. I den här guiden lär du dig hur du manuellt ändrar max antal spelare genom att redigera rätt konfigurationsfil i din ZAP-Hosting spelserveradministration.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

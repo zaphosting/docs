@@ -15,7 +15,7 @@ Palworld slaat dedicated server werelddata op in een specifieke save-map en vere
 Je kunt Xbox console of PS5 cloud saves niet direct overzetten naar een dedicated Palworld server. Alleen saves van een PC-installatie of een bestaande dedicated server kunnen met deze methode gemigreerd worden.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Voorbereiding
 

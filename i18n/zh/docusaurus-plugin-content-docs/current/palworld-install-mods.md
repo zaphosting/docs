@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 支持多种服务器 Mod 类型，最常见的是 `UE4SS`、`.lua` 和 `.pak` Mod。通过本指南，您将学习如何准备服务器、识别正确的 Mod 类型、上传所需文件，并重启服务器以确保 Mod 正确加载。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

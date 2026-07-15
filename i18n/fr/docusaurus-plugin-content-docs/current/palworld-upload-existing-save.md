@@ -15,7 +15,7 @@ Palworld stocke les données du monde du serveur de jeux dédié dans un dossier
 Vous ne pouvez pas transférer directement les sauvegardes cloud des consoles Xbox ou PS5 vers un serveur de jeux dédié Palworld. Seules les sauvegardes issues d’une installation PC ou d’un autre serveur dédié peuvent être migrées avec cette méthode.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Préparation
 

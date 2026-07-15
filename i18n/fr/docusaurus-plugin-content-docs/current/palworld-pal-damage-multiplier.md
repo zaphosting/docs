@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld vous permet d’ajuster les dégâts infligés et subis par vos Pals en modifiant les paramètres de multiplicateur de dégâts du serveur. Dans ce guide, vous apprendrez quel fichier de configuration éditer dans l’interface ZAP-Hosting, quelles valeurs modifier, et comment appliquer correctement les nouveaux réglages.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

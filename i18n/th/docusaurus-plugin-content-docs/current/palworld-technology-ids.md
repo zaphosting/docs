@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ใช้ *รหัสเทคโนโลยี* เพื่อระบุเทคโนโลยีที่ปลดล็อกได้และการตั้งค่าบางอย่างที่เกี่ยวข้องกับไอเท็มในคอนฟิกเซิร์ฟเวอร์ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีปิดการใช้งานเทคโนโลยีเฉพาะโดยแก้ไขการตั้งค่า `DenyTechnologyList` ในคอนฟิกเซิร์ฟเวอร์ Palworld ของคุณบน ZAP-Hosting
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -72,7 +72,7 @@ Palworld ใช้ *รหัสเทคโนโลยี* เพื่อร�
 
 นี่คือไฟล์คอนฟิกที่เก็บและแก้ไขการตั้งค่า `DenyTechnologyList`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### ค้นหาการตั้งค่าที่เกี่ยวข้อง
 

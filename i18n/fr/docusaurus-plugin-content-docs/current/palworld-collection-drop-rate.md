@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld vous permet de contrôler la quantité de ressources que les joueurs collectent et la rapidité avec laquelle les objets récoltables réapparaissent. Dans ce guide, vous apprendrez à modifier manuellement le fichier de configuration approprié sur votre serveur de jeux Palworld ZAP-Hosting pour changer le taux de drop de collection et les paramètres liés aux ressources.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Préparation
 

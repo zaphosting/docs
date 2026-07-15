@@ -15,7 +15,7 @@ Palworld 将你的活动世界存储在服务器的存档数据中，而不是�
 重置你的 Palworld 世界会永久删除当前世界，包括玩家进度、建筑、Pals 以及存储在该世界中的其他保存数据。
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 
@@ -67,7 +67,7 @@ Pal/Saved/SaveGames/0/
 
 根据你的产品布局，你可能通过文件管理器或网页界面中的类似文件访问部分进入此路径。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### 路径参考
 

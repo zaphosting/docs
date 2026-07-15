@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld pozwala na dostosowanie, ile obrażeń zadaje gracz oraz ile obrażeń otrzymuje, poprzez wartości konfiguracyjne serwera. W tym poradniku nauczysz się, jak edytować odpowiedni plik konfiguracyjny na swoim serwerze gier ZAP-Hosting, zmienić mnożniki obrażeń i obrony gracza oraz poprawnie zastosować zmiany.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

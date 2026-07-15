@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld låter dig styra hur mycket skada byggnader tar och hur snabbt de förfaller över tid. I den här guiden lär du dig hur du manuellt redigerar rätt konfigurationsfil i din ZAP-Hosting spelserveradministration och tillämpar de nya inställningarna för byggnadsskador.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

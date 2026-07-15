@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณปกป้องเซิร์ฟเวอร์ด้วยรหัสผ่านเพื่อให้เฉพาะผู้เล่นที่ได้รับอนุญาตเท่านั้นที่สามารถเข้าร่วมได้ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีตั้งหรือเปลี่ยนรหัสผ่านเซิร์ฟเวอร์ด้วยตนเองในไฟล์การตั้งค่าเซิร์ฟเวอร์เกม Palworld ของคุณบน ZAP-Hosting และใช้รหัสผ่านอย่างถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

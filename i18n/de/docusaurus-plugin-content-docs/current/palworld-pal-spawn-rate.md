@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ermöglicht dir, die Häufigkeit, mit der Pals in deiner Welt spawnen, über eine Server-Konfiguration einzustellen. In dieser Anleitung lernst du, wie du die richtige Konfigurationsdatei in der ZAP-Hosting Gameserver-Verwaltung bearbeitest und sicher eine neue Pal Spawn Rate anwendest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 

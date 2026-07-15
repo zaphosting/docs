@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يتيح لك Palworld تغيير إعدادات التجديد لكل من اللاعبين وPals من خلال إعدادات السيرفر الرئيسية. في هذا الدليل، ستتعلم كيفية تعديل ملف الإعدادات الصحيح في واجهة الويب الخاصة بـ ZAP-Hosting، وضبط قيم تجديد نقاط الصحة، وتطبيق التغييرات بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 

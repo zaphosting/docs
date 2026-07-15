@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In Palworld, il tempo di schiusa delle uova è gestito tramite un valore di configurazione del server. In questa guida, imparerai come ridurre il tempo di schiusa delle uova sul tuo server Palworld di ZAP-Hosting modificando il file di configurazione corretto e applicando la modifica nel modo giusto.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparazione
 
@@ -53,7 +53,7 @@ PalWorldSettings.ini
 
 Questo è il file che contiene le voci di configurazione del gameplay per il tuo server Palworld, incluso il tempo di schiusa delle uova.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Modificare il Tempo di Schiusa delle Uova
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、サーバーのダメージ倍率設定を変更することで、Palが与えるダメージや受けるダメージの量を調整できます。このガイドでは、ZAP-Hostingのゲームサーバー管理画面で編集する設定ファイルや変更すべき値、正しい適用方法を解説します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

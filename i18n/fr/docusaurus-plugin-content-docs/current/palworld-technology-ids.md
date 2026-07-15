@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld utilise des *identifiants de technologie* pour reconnaître les technologies déblocables et certains paramètres liés aux objets dans la configuration du serveur. Dans ce guide, vous apprendrez à désactiver des technologies spécifiques en modifiant le paramètre `DenyTechnologyList` dans la configuration de votre serveur de jeux Palworld chez ZAP-Hosting.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -72,7 +72,7 @@ Pour configurer les identifiants de technologie sur votre serveur ZAP-Hosting, v
 
 C’est dans ce fichier de configuration que le paramètre `DenyTechnologyList` est stocké et modifié.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Localiser le paramètre concerné
 

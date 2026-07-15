@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يتيح لك Palworld تعديل معدل التقاط Pal على سيرفرك من خلال إعدادات العالم الرئيسي. في هذا الدليل، ستتعلم مكان العثور على ملف الإعدادات الصحيح في واجهة ZAP-Hosting، والقيمة التي يجب تعديلها، وكيفية تطبيق معدل الالتقاط الجديد.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

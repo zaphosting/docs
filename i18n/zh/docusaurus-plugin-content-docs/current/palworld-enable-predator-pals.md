@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *掠食者伙伴* 是 Palworld 中可以在世界各地生成的强力Boss类型伙伴。在本指南中，您将学习如何通过手动编辑正确的配置文件，在您的 ZAP-Hosting Palworld 服务器上启用或禁用掠食者伙伴。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

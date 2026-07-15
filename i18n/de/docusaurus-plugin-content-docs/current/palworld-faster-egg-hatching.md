@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In Palworld wird die Ei-Schlüpfzeit über eine Server-Konfiguration gesteuert. In dieser Anleitung lernst du, wie du die Ei-Schlüpfzeit auf deinem ZAP-Hosting Palworld Gameserver durch Bearbeiten der richtigen Konfigurationsdatei verkürzt und die Änderung korrekt anwendest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -53,7 +53,7 @@ PalWorldSettings.ini
 
 Diese Datei enthält die Gameplay-Konfigurationen für deinen Palworld Server, inklusive der Einstellung zur Ei-Schlüpfzeit.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Die Ei-Schlüpfzeit bearbeiten
 

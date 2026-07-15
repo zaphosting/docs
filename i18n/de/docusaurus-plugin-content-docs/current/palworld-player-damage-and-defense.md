@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ermöglicht es dir, einzustellen, wie viel Schaden ein Spieler verursacht und wie viel Schaden ein Spieler erhält, indem du Serverkonfigurationswerte anpasst. In dieser Anleitung lernst du, wie du die richtige Konfigurationsdatei auf deinem ZAP-Hosting Gameserver bearbeitest, die Schadens- und Verteidigungsmultiplikatoren änderst und die Änderungen korrekt anwendest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 

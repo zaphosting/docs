@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 在 Palworld 中，装备耐久度倍率控制您的工具、武器和护甲在使用过程中耐久度的消耗速度。本指南将教您如何手动更改 ZAP-Hosting Palworld 服务器配置中的 `EquipmentDurabilityDamageRate` 设置，并正确应用该更改。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *Predator Pals* är kraftfulla boss-typ Pals som kan spawnas runt om i världen i Palworld. I den här guiden lär du dig hur du aktiverar eller inaktiverar predator pals på din ZAP-Hosting Palworld-server genom att manuellt redigera rätt konfigurationsfil.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

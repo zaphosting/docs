@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 تتيح لك لعبة Palworld التحكم في كمية الموارد التي يجمعها اللاعبون وسرعة عودة العناصر القابلة للجمع. في هذا الدليل، ستتعلم كيفية تعديل ملف الإعدادات الصحيح يدويًا على سيرفر ألعاب Palworld الخاص بك في ZAP-Hosting لتغيير معدل سقوط الموارد والإعدادات ذات الصلة.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

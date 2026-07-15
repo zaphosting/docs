@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、サーバー上の各ベースキャンプに割り当てられる最大ワーカー数を変更できます。このガイドでは、ZAP-Hostingのゲームサーバーのコントロールパネルで正しい設定ファイルを編集し、`BaseCampWorkerMaxNum`の値を調整して変更を適用する方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -50,7 +50,7 @@ Palworldゲームサーバー管理画面を開き、以下の順に進みます
 
 ここがPalworldサーバーのゲームプレイ設定が保存されている設定ファイルです。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## BaseCampWorkerMaxNumの値を編集する
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld รองรับม็อดเซิร์ฟเวอร์หลายประเภท โดยทั่วไปคือ `UE4SS`, `.lua` และ `.pak` ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเตรียมเซิร์ฟเวอร์ของคุณ ระบุประเภทม็อดที่ถูกต้อง อัปโหลดไฟล์ที่จำเป็น และรีสตาร์ทเซิร์ฟเวอร์เพื่อให้ม็อดโหลดได้อย่างถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

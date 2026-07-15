@@ -33,7 +33,7 @@ I ditt ZAP-Hosting spelserverwebbgränssnitt, öppna sektionen **Configs**. Den 
 
 Beroende på servermall och spelversion innehåller denna fil huvudserveralternativen inklusive adminlösenordsinställningen.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Verifiera adminlösenordet
 

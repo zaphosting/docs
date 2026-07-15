@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 في لعبة Palworld، يتم التحكم في وقت فقس البيض من خلال قيمة إعدادات السيرفر. في هذا الدليل، ستتعلم كيفية تقليل وقت فقس البيض على سيرفر Palworld الخاص بك في ZAP-Hosting عن طريق تعديل ملف الإعدادات الصحيح وتطبيق التغيير بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -53,7 +53,7 @@ PalWorldSettings.ini
 
 هذا هو الملف الذي يحتوي على إعدادات اللعب لسيرفر Palworld الخاص بك، بما في ذلك إعداد وقت فقس البيض.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Edit the Egg Hatching Time
 

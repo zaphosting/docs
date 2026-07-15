@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 In Palworld bepaalt de uithoudingsverhouding van uitrusting hoe snel je gereedschap, wapens en armor slijten tijdens gebruik. In deze gids leer je hoe je de instelling `EquipmentDurabilityDamageRate` handmatig aanpast in de configuratie van je ZAP-Hosting Palworld-server en deze wijziging correct toepast.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Voorbereiding
 

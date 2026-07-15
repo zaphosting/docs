@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld laat je bepalen hoeveel schade een speler uitdeelt en hoeveel schade een speler ontvangt via serverconfiguratie-instellingen. In deze gids leer je hoe je het juiste configuratiebestand op je ZAP-Hosting game server bewerkt, de speler schade- en verdedigingsmultipliers aanpast en de wijzigingen correct toepast.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Voorbereiding
 

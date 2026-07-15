@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณควบคุมจำนวนผู้เล่นที่สามารถเข้าร่วมกิลด์เดียวกันในเซิร์ฟเวอร์ของคุณได้ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเปลี่ยนจำนวนผู้เล่นสูงสุดในกิลด์ด้วยตนเองโดยแก้ไขไฟล์คอนฟิกที่ถูกต้องในแผงควบคุมเซิร์ฟเวอร์เกม ZAP-Hosting ของคุณ
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

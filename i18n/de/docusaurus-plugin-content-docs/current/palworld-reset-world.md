@@ -15,7 +15,7 @@ Palworld speichert deine aktive Welt in den Server-Speicherdaten und nicht in ei
 Das Zurücksetzen deiner Palworld-Welt löscht dauerhaft die aktuelle Welt, inklusive Spielerfortschritt, Strukturen, Pals und anderen gespeicherten Daten in dieser Welt.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 
@@ -67,7 +67,7 @@ Pal/Saved/SaveGames/0/
 
 Je nach Produktlayout erreichst du diesen über den Datei-Manager oder einen ähnlichen Dateizugriffsbereich im Webinterface.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Pfadübersicht
 

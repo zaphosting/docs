@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldは主に`UE4SS`、`.lua`、および`.pak`モッズの複数の種類をサポートしています。このガイドでは、サーバーの準備、正しいモッドタイプの特定、必要なファイルのアップロード、そしてモッズを正しく読み込むためのサーバー再起動方法を学びます。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

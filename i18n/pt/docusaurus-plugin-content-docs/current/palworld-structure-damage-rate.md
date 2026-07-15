@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld permite que você controle quanto dano as estruturas recebem e com que rapidez elas se deterioram ao longo do tempo. Neste guia, você vai aprender a editar manualmente o arquivo de configuração correto na administração do seu servidor de jogos ZAP-Hosting e aplicar as novas configurações de dano em estruturas.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparação
 

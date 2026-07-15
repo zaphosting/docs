@@ -33,7 +33,7 @@ W panelu webowym serwera gier ZAP-Hosting przejdź do sekcji **Configs**. Odpowi
 
 W zależności od szablonu serwera i wersji gry, plik ten zawiera główne opcje serwera, w tym wpis hasła administratora.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Zweryfikuj wpis hasła administratora
 

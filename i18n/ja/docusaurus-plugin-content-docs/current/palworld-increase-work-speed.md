@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、サーバーの設定値を変更することでプレイヤーとPalの拠点作業の速度を調整できます。このガイドでは、ZAP-HostingのPalworldゲームサーバーで作業速度を上げるために正しい設定ファイルを編集し、変更を適用する方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

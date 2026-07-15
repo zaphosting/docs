@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *Predator Pals* to potężne Pals typu boss, które mogą pojawiać się w świecie Palworld. W tym poradniku nauczysz się, jak włączyć lub wyłączyć predator pals na swoim serwerze gier Palworld w ZAP-Hosting, edytując ręcznie odpowiedni plik konfiguracyjny.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

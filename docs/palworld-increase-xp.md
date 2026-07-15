@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld allows you to adjust gameplay multipliers through its server configuration, including the amount of XP players gain. In this guide, you will learn how to increase the XP rate on your ZAP-Hosting Palworld server by editing the correct configuration file and applying the changes properly.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

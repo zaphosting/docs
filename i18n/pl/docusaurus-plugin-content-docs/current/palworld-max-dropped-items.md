@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld pozwala kontrolować, ile upuszczonych przedmiotów może znajdować się w świecie oraz jak długo pozostają one na ziemi, zanim znikną. W tym poradniku nauczysz się, jak edytować właściwy plik konfiguracyjny w panelu ZAP-Hosting, dostosować ustawienia upuszczonych przedmiotów i bezpiecznie zastosować zmiany.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Przygotowanie
 

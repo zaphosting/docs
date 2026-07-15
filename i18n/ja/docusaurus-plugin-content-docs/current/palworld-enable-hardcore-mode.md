@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldの*ハードコアモード*は、プレイヤーとオプションでパルに対してパーマデス（永久死亡）ルールを有効にします。このガイドでは、ZAP-HostingのPalworldゲームサーバーで正しい設定ファイルを編集し、サーバーを再起動してハードコアモードを手動で有効にする方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

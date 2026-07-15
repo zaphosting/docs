@@ -15,7 +15,7 @@ Palworld stocke votre monde actif dans les données de sauvegarde du serveur plu
 La réinitialisation de votre monde Palworld supprime définitivement le monde actuel, y compris la progression des joueurs, les structures, les Pals et toutes les autres données sauvegardées dans ce monde.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Préparation
 
@@ -67,7 +67,7 @@ Pal/Saved/SaveGames/0/
 
 Selon la configuration de votre produit, vous pouvez y accéder via le gestionnaire de fichiers ou une section similaire d’accès aux fichiers dans l’interface web.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Référence du Chemin
 

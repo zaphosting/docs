@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณควบคุมจำนวนทรัพยากรที่ผู้เล่นเก็บได้และความเร็วในการเกิดใหม่ของวัตถุที่เก็บได้ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีแก้ไขไฟล์คอนฟิกที่ถูกต้องในเซิร์ฟเวอร์เกม Palworld ของคุณบน ZAP-Hosting เพื่อเปลี่ยนอัตราการดรอปของการเก็บของและการตั้งค่าทรัพยากรที่เกี่ยวข้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -15,7 +15,7 @@ Palworldは専用ゲームサーバーのワールドデータを特定のセー
 XboxコンソールやPS5のクラウドセーブを専用Palworldサーバーに直接転送することはできません。この方法で移行できるのはPCインストール版または既存の専用サーバーからのセーブのみです。
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

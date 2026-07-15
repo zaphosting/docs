@@ -72,7 +72,7 @@ In deze map vind je minimaal:
 - `LevelMeta.sav`
 - `Players/`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Bereid het Dedicated Serverpersonage Voor
 
@@ -148,7 +148,7 @@ Kies in de applicatie:
 Fix Host Save
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Selecteer de Juiste Bestanden
 

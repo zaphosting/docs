@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 تتيح لك لعبة Palworld التحكم في عدد اللاعبين الذين يمكنهم الانضمام إلى نقابة واحدة على سيرفرك. في هذا الدليل، ستتعلم كيفية تغيير حد لاعبي النقابة الأقصى يدويًا عن طريق تعديل ملف التكوين الصحيح في إدارة سيرفر ألعاب ZAP-Hosting الخاص بك.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

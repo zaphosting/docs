@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 تتيح لك Palworld التحكم في عدد اللاعبين الذين يمكنهم الانضمام إلى سيرفرك في نفس الوقت. في هذا الدليل، ستتعلم كيفية تغيير الحد الأقصى لعدد اللاعبين يدويًا عن طريق تعديل ملف الإعدادات الصحيح في إدارة سيرفر ألعاب ZAP-Hosting الخاص بك.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

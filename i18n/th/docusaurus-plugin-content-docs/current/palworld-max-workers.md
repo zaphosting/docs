@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ให้คุณปรับจำนวนสูงสุดของ Pals ที่ทำงานในแต่ละฐานบนเซิร์ฟเวอร์ของคุณได้ ในคู่มือนี้ คุณจะได้เรียนรู้วิธีแก้ไขไฟล์คอนฟิกที่ถูกต้องผ่านแผงควบคุม ZAP-Hosting ปรับค่า `BaseCampWorkerMaxNum` และนำการเปลี่ยนแปลงไปใช้ให้ถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -50,7 +50,7 @@ Palworld ให้คุณปรับจำนวนสูงสุดขอ�
 
 นี่คือไฟล์คอนฟิกที่เก็บการตั้งค่าเกมเพลย์ของเซิร์ฟเวอร์ Palworld ของคุณ
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Edit the BaseCampWorkerMaxNum Value
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Dans Palworld, le taux de durabilité de l’équipement contrôle la vitesse à laquelle vos outils, armes et armures perdent de la durabilité lors de leur utilisation. Dans ce guide, vous apprendrez à modifier manuellement le paramètre `EquipmentDurabilityDamageRate` dans la configuration de votre serveur Palworld ZAP-Hosting et à appliquer correctement ce changement.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Préparation
 

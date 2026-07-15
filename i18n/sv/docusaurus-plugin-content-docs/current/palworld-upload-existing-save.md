@@ -15,7 +15,7 @@ Palworld lagrar dedikerade servervärldsdata i en specifik sparmapp och kräver 
 Du kan inte överföra Xbox-konsol- eller PS5-molnspar direkt till en dedikerad Palworld-server. Endast spar från en PC-installation eller en befintlig dedikerad server kan migreras med denna metod.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

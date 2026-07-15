@@ -15,7 +15,7 @@ Palworld przechowuje dane świata serwera dedykowanego w określonym folderze sa
 Nie możesz bezpośrednio przenieść save'ów z konsoli Xbox lub chmury PS5 na dedykowany serwer Palworld. Metoda ta działa tylko dla save'ów z instalacji na PC lub z innego serwera dedykowanego.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

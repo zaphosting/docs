@@ -32,7 +32,7 @@ För att optimera din server behöver du redigera huvudkonfigurationsfilen för 
 3. Navigera till **Configs**.
 4. Öppna filen `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Var du gör ändringarna
 Prestandarelaterade inställningar finns i `PalWorldSettings.ini`. Du behöver redigera de befintliga värdena manuellt i denna fil.
@@ -125,7 +125,7 @@ Efter att du redigerat filen behöver du spara konfigurationen och starta om ser
 2. Gå tillbaka till din spelserveradministration.
 3. Starta om Palworld-servern.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::info Omstart krävs
 En omstart krävs efter att du ändrat `PalWorldSettings.ini`. Utan omstart kommer servern fortsätta använda de tidigare inställningarna.

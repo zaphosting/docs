@@ -33,7 +33,7 @@ Dans l’interface web de votre serveur de jeux ZAP-Hosting, ouvrez la section *
 
 Selon le template serveur et la version du jeu, ce fichier contient les options principales du serveur, y compris l’entrée du mot de passe admin.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Vérifier l’entrée du mot de passe admin
 

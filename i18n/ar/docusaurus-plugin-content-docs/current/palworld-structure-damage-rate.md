@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 تتيح لك لعبة Palworld التحكم في مقدار الضرر الذي تتلقاه الهياكل ومدى سرعة تدهورها مع مرور الوقت. في هذا الدليل، ستتعلم كيفية تعديل ملف الإعدادات الصحيح يدويًا في إدارة سيرفر ألعاب ZAP-Hosting وتطبيق إعدادات ضرر الهياكل الجديدة.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -29,7 +29,7 @@ In der ZAP-Hosting Gameserver-Verwaltung:
 2. Gehe zum Bereich `Configs`.
 3. Öffne die Datei `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Datei für Gameplay-Multiplikatoren
 Die Einstellungen für Hunger und Ausdauer werden in `PalWorldSettings.ini` gespeichert. Diese Werte sind normalerweise Teil des Hauptoptionsstrings, der vom Dedicated Server verwendet wird.

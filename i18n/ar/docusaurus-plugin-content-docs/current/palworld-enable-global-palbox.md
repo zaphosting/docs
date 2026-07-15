@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يتيح *صندوق الأصدقاء العالمي* في Palworld للاعبين نقل الأصدقاء بين السيرفرات باستخدام نظام تخزين الأصدقاء السحابي العالمي الخاص بـ Palworld. في هذا الدليل، ستتعلم كيفية تفعيل استيراد وتصدير صندوق الأصدقاء العالمي على سيرفر Palworld الخاص بك في ZAP-Hosting عن طريق تعديل ملف الإعدادات الصحيح يدويًا.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

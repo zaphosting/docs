@@ -32,7 +32,7 @@ Per ottimizzare il server, devi modificare il file principale di configurazione 
 3. Vai su **Configs**.
 4. Apri il file `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Dove Apportare le Modifiche
 Le impostazioni relative alle prestazioni sono memorizzate in `PalWorldSettings.ini`. Devi modificare manualmente i valori delle opzioni esistenti in questo file.
@@ -125,7 +125,7 @@ Dopo aver modificato il file, devi salvare la configurazione e riavviare il serv
 2. Torna all’amministrazione del server di gioco.
 3. Riavvia il server Palworld.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::info Riavvio Necessario
 È necessario un riavvio dopo aver modificato `PalWorldSettings.ini`. Senza riavvio, il server continuerà a usare le impostazioni precedenti.

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、世界に存在できるドロップアイテムの最大数や、アイテムが消えるまでの時間を制御できます。このガイドでは、ZAP-Hostingのインターフェースで正しい設定ファイルを編集し、ドロップアイテムの設定を調整して安全に反映させる方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

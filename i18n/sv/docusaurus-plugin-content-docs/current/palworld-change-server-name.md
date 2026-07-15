@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld använder en konfigurationsfil för att definiera servernamnet som visas i spelets serverlista. I den här guiden lär du dig hur du manuellt ändrar det visade servernamnet i ZAP-Hostings webbgränssnitt och tillämpar ändringen korrekt.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 تتيح لك لعبة Palworld تعديل مضاعفات اللعب من خلال إعدادات السيرفر، بما في ذلك كمية نقاط الخبرة التي يحصل عليها اللاعبون. في هذا الدليل، ستتعلم كيفية زيادة معدل نقاط الخبرة على سيرفر Palworld الخاص بك في ZAP-Hosting عن طريق تعديل ملف الإعدادات الصحيح وتطبيق التغييرات بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 

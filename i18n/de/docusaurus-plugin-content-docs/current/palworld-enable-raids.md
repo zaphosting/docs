@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld Raids sind Angriffe von Eindringlingen, die Spielerbasen auf deinem Server ins Visier nehmen können. In dieser Anleitung lernst du, wie du Raids aktivierst oder deaktivierst, indem du die richtige Konfigurationsdatei in der ZAP-Hosting Gameserver-Verwaltung manuell bearbeitest.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Vorbereitung
 

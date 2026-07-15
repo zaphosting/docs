@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld stelt je in staat om te bepalen hoeveel gedropte items er in je wereld kunnen bestaan en hoe lang deze items blijven liggen voordat ze verdwijnen. In deze gids leer je hoe je het juiste configuratiebestand in de ZAP-Hosting interface bewerkt, de instellingen voor gedropte items aanpast en de wijzigingen veilig toepast.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

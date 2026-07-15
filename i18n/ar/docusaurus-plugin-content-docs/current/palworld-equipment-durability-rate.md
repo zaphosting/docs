@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 في لعبة Palworld، يتحكم معدل تحمل المعدات في سرعة فقدان أدواتك، أسلحتك، ودروعك لتحملها أثناء الاستخدام. في هذا الدليل، ستتعلم كيفية تغيير إعداد `EquipmentDurabilityDamageRate` يدويًا في تكوين سيرفر Palworld الخاص بك على ZAP-Hosting وتطبيق التغيير بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## التحضير
 

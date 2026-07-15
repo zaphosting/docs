@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 `EnemyDropItemRate` يتحكم في كمية الغنائم التي يسقطها الأعداء في Palworld. في هذا الدليل، ستتعلم كيفية تعديل ملف الإعدادات الصحيح يدويًا في إدارة سيرفر ألعاب ZAP-Hosting وتطبيق معدل إسقاط الأعداء الجديد بنجاح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

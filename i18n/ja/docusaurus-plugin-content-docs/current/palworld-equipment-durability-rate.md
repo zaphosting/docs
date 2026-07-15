@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworldでは、装備耐久率がツール、武器、鎧の耐久度が使用中にどれくらい早く減るかを制御します。このガイドでは、ZAP-HostingのPalworldサーバー設定で`EquipmentDurabilityDamageRate`を手動で変更し、正しく適用する方法を学びます。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 準備
 

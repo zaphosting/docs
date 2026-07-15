@@ -32,7 +32,7 @@ Palworld 服务器性能可能会随着时间下降，尤其是在拥有大量�
 3. 进入 **Configs**。
 4. 打开文件 `PalWorldSettings.ini`。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note 修改位置说明
 性能相关设置存储在 `PalWorldSettings.ini` 中。你需要手动编辑此文件中的现有选项值。
@@ -125,7 +125,7 @@ Palworld 配置格式可能随更新变化。保存前，请确保你是在编�
 2. 返回游戏服务器管理界面。
 3. 重启 Palworld 服务器。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::info 需要重启
 修改 `PalWorldSettings.ini` 后必须重启。否则服务器将继续使用之前的设置。

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ช่วยให้คุณควบคุมจำนวนผู้เล่นที่สามารถเข้าร่วมเซิร์ฟเวอร์ได้พร้อมกัน ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเปลี่ยนจำนวนผู้เล่นสูงสุดด้วยตนเองโดยการแก้ไขไฟล์คอนฟิกที่ถูกต้องในแผงควบคุมเซิร์ฟเวอร์เกมของ ZAP-Hosting
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

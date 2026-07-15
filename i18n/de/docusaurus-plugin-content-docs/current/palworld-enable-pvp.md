@@ -38,7 +38,7 @@ Um PvP zu aktivieren, musst du die Datei `PalWorldSettings.ini` bearbeiten.
 3. Navigiere in der Gameserver-Verwaltung zu `Configs`.
 4. Öffne die Datei `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Konfigurationsformat
 Palworld Server-Einstellungen werden typischerweise im Abschnitt `OptionSettings=(...)` in der Datei `PalWorldSettings.ini` gespeichert. Du musst die erforderlichen Schlüssel innerhalb dieses Blocks hinzufügen oder anpassen.

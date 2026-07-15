@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld te permite ajustar la velocidad a la que pasa el ciclo de día y noche en tu servidor. En esta guía, aprenderás cómo cambiar la velocidad del día y la noche editando el archivo de configuración correcto en la administración de tu servidor de juegos ZAP-Hosting y aplicando los cambios correctamente.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 

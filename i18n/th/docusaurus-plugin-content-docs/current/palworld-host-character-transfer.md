@@ -72,7 +72,7 @@ Pal/Saved/SaveGames/0/[your_savefolder_id]/
 - `LevelMeta.sav`
 - `Players/`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Prepare the Dedicated Server Character
 
@@ -148,7 +148,7 @@ Pal/Saved/SaveGames/0/[your_savefolder_id]/
 Fix Host Save
 ```
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Select the Correct Files
 

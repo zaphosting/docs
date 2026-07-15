@@ -29,7 +29,7 @@ Nella gestione server di ZAP-Hosting:
 2. Vai alla sezione `Configs`.
 3. Apri il file `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note File Usato per i Moltiplicatori di Gioco
 Le impostazioni di fame e stamina sono memorizzate in `PalWorldSettings.ini`. Questi valori fanno generalmente parte della stringa principale di opzioni usata dal server dedicato.

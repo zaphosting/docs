@@ -15,7 +15,7 @@ Palworld sparar din värld, spelarprogression och serverinställningar på spels
 En fullständig återställning raderar permanent dina befintliga sparfiler, konfigurationsändringar och alla andra serverfiler som finns på den aktuella installationen. Du bör endast använda detta som en sista utväg.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 
@@ -80,7 +80,7 @@ I din Palworld-serveradministration, leta efter ominstallations- eller återstä
 
 Eftersom gränssnittsetiketter kan variera mellan panelversioner kan den exakta formuleringen skilja sig något. Hos ZAP-Hosting finns denna funktion vanligtvis i serveradministrationsområdet där ominstallation eller formateringsåtgärder är tillgängliga.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Starta fullständig återställning
 

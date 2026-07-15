@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld allows you to adjust how quickly players and Pals complete base-related work by changing a server configuration value. In this guide, you will learn how to increase work speed on your ZAP-Hosting Palworld server by editing the correct config file and applying the changes properly.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

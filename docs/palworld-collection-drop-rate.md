@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld allows you to control how many resources players collect and how quickly gatherable objects return. In this guide, you will learn how to manually edit the correct configuration file in your ZAP-Hosting game server to change the collection drop rate and related resource settings.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

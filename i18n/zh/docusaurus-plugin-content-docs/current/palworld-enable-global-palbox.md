@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *全球 Palbox* 是 Palworld 中允许玩家通过 Palworld 的全球云端 Pal 存储系统在服务器间传输 Pals 的功能。本文将指导您如何通过手动编辑正确的配置文件，在您的 ZAP-Hosting Palworld 服务器上启用全球 Palbox 的导入和导出。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

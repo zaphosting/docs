@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你控制每个公会在服务器上可以放置的最大基地数量。本指南将教你如何在 ZAP-Hosting 网页界面手动编辑正确的配置文件，修改 `BaseCampMaxNumInGuild` 设置，并通过重启服务器应用更改。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

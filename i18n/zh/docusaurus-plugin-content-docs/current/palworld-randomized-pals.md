@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 包含随机器设置，可以改变伙伴在游戏世界中的生成方式。在本指南中，您将学习如何通过编辑正确的配置文件，在您的 ZAP-Hosting Palworld 服务器上手动启用和配置随机化伙伴。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

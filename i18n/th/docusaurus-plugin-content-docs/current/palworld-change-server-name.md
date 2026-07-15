@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld ใช้ไฟล์คอนฟิกเพื่อกำหนดชื่อเซิร์ฟเวอร์ที่แสดงในตัวเลือกเซิร์ฟเวอร์เกม ในคู่มือนี้ คุณจะได้เรียนรู้วิธีเปลี่ยนชื่อเซิร์ฟเวอร์ที่แสดงด้วยตนเองผ่านแผงควบคุม ZAP-Hosting และนำการเปลี่ยนแปลงไปใช้ให้ถูกต้อง
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

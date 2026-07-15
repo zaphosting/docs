@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *グローバルパルボックス*は、Palworldでプレイヤーがサーバー間でパルを転送できるクラウドベースのパル保管システムです。このガイドでは、ZAP-HostingのPalworldゲームサーバーでグローバルパルボックスのインポートとエクスポートを手動で設定ファイルを編集して有効にする方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

@@ -33,7 +33,7 @@ En la interfaz web de tu servidor de juegos ZAP-Hosting, abre la sección **Conf
 
 Dependiendo de la plantilla del servidor y la versión del juego, este archivo contiene las opciones principales del servidor, incluyendo la entrada de la contraseña de administrador.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Verifica la entrada de la contraseña de administrador
 

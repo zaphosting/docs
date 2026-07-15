@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 `EnemyDropItemRate` contrôle la quantité de loot que les ennemis lâchent dans Palworld. Dans ce guide, vous apprendrez à modifier manuellement le fichier de configuration approprié dans l’administration de votre serveur de jeux ZAP-Hosting et à appliquer avec succès le nouveau taux de drop des ennemis.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Préparation
 

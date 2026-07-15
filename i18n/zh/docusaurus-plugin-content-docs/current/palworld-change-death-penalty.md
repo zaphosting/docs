@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你通过更改 `DeathPenalty` 服务器设置来控制玩家死亡时失去的内容。在本指南中，你将学习如何在 ZAP-Hosting 网页界面中编辑正确的配置文件并正确应用更改。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

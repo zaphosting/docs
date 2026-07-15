@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许您通过主服务器配置控制玩家在服务器上的快速旅行使用方式。在本指南中，您将学习如何在 ZAP-Hosting 界面中编辑正确的配置文件，调整快速旅行设置，并正确应用更改。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

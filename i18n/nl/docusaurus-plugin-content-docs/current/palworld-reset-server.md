@@ -15,7 +15,7 @@ Palworld slaat je wereld, spelersvoortgang en serverinstellingen op de game serv
 Een volledige reset verwijdert permanent je bestaande opgeslagen data, configuratiewijzigingen en alle andere serverbestanden die op de huidige installatie staan. Gebruik dit alleen als laatste redmiddel.
 :::
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Voorbereiding
 
@@ -80,7 +80,7 @@ Zoek in je Palworld serverbeheer naar de herinstallatie- of resetfunctie in het 
 
 Omdat de benamingen kunnen verschillen tussen panelversies, kan de exacte tekst iets afwijken. Bij ZAP-Hosting vind je deze functie meestal in het serverbeheer waar herinstallatie- of formatteeracties beschikbaar zijn.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ### Start de volledige reset
 

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld 允许你控制世界中最多存在多少掉落物品，以及这些物品在消失前能存在多久。在本指南中，你将学习如何在 ZAP-Hosting 面板中编辑正确的配置文件，调整掉落物品设置，并安全应用更改。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## 准备工作
 

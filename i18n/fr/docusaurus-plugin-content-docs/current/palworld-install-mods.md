@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Palworld prend en charge plusieurs types de mods serveur, les plus courants étant les mods `UE4SS`, `.lua` et `.pak`. Dans ce guide, vous apprendrez à préparer votre serveur, identifier le type de mod correct, uploader les fichiers nécessaires et redémarrer votre serveur pour que les mods se chargent correctement.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Préparation
 

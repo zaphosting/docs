@@ -29,7 +29,7 @@ Palworld มีระบบ supply drops ที่จะปรากฏเป็
 2. ไปที่ **Configs**
 3. เปิดไฟล์ `PalWorldSettings.ini`
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note ตำแหน่งไฟล์คอนฟิก
 บน ZAP-Hosting การตั้งค่า Palworld ที่เกี่ยวข้องกับการเล่นเกมมักจะถูกจัดการผ่านไฟล์ `PalWorldSettings.ini` ในส่วน **Configs** ของระบบจัดการเซิร์ฟเวอร์ของคุณ หากอินเทอร์เฟซของคุณแตกต่างเล็กน้อย ให้ใช้รายการไฟล์คอนฟิกที่มีและค้นหาไฟล์ `PalWorldSettings.ini` โดยเฉพาะ

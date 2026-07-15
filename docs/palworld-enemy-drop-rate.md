@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 `EnemyDropItemRate` controls how much loot enemies drop in Palworld. In this guide, you will learn how to manually edit the correct configuration file in your ZAP-Hosting game server administration and apply the new enemy drop rate successfully.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

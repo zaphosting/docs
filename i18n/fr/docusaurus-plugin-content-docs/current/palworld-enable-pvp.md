@@ -38,7 +38,7 @@ Pour activer le PvP, vous devez éditer le fichier `PalWorldSettings.ini`.
 3. Allez dans `Configs` dans l’administration du serveur.
 4. Ouvrez le fichier `PalWorldSettings.ini`.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note Format de Configuration
 Les paramètres du serveur Palworld sont généralement stockés dans la section `OptionSettings=(...)` du fichier `PalWorldSettings.ini`. Vous devez ajouter ou modifier les clés nécessaires à l’intérieur de ce bloc de paramètres.

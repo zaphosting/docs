@@ -29,7 +29,7 @@ In the ZAP-Hosting game server administration:
 2. Go to the `Configs` section.
 3. Open the `PalWorldSettings.ini` file.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 :::note File Used for Gameplay Multipliers
 The hunger and stamina settings are stored in `PalWorldSettings.ini`. These values are typically part of the main option string used by the dedicated server.

@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 يتيح لك Palworld التحكم في عدة حدود وقيود للبناء عبر إعدادات السيرفر. في هذا الدليل، ستتعلم كيفية تعديل ملف الإعدادات الصحيح يدويًا في واجهة الويب الخاصة بـ ZAP-Hosting، وتغيير القيم المتعلقة بالبناء، وتطبيق التغييرات بشكل صحيح.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

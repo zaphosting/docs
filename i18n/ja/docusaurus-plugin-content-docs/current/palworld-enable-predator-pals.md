@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 *プレデターパル*は、Palworldの世界中に出現する強力なボスタイプのパルです。このガイドでは、ZAP-HostingのPalworldゲームサーバーでプレデターパルを有効または無効にするために、正しい設定ファイルを手動で編集する方法を説明します。
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparation
 

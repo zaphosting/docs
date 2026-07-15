@@ -11,7 +11,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 El *modo hardcore* en Palworld activa reglas de muerte permanente para los jugadores y, opcionalmente, para los Pals. En esta guía, aprenderás cómo activar manualmente el modo hardcore en tu servidor de juegos Palworld de ZAP-Hosting editando el archivo de configuración correcto y reiniciando el servidor después.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/SCREENSHOT_PLACEHOLDER/preview)
+
 
 ## Preparación
 
