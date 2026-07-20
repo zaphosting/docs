@@ -38,7 +38,7 @@
     "medium-zoom": "^1.1.0",
     "mermaid": "^11.16.0",
     "node-forge": "^1.4.0",
-    "openai": "^6.45.0",
+    "openai": "^6.48.0",
     "path-to-regexp": "^8.4.0",
     "prism-react-renderer": "^2.4.1",
     "qs": "^6.15.3",
