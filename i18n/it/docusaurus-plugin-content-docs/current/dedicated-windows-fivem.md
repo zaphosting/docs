@@ -1,9 +1,10 @@
 ---
 id: dedicated-windows-fivem
-title: "Server Dedicato: Configurazione Server Dedicato FiveM"
-description: "Scopri come configurare e gestire il tuo Server Dedicato FiveM con txAdmin per un multiplayer senza intoppi → Scopri di più ora"
+title: "Configurazione Server Dedicato FiveM"
+description: "Scopri come configurare e gestire il tuo server dedicato FiveM con txAdmin per un multiplayer senza intoppi → Scopri di più ora"
 sidebar_label: FiveM
 services:
+  - vserver
   - dedicated
 ---
 
@@ -12,88 +13,68 @@ import TabItem from '@theme/TabItem';
 import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
-
-
-
 ## Introduzione
 
-Hai un server dedicato e vuoi installare e gestire il tuo Server Dedicato FiveM con txAdmin? Sei nel posto giusto! Qui ti spieghiamo tutti i passaggi necessari per installarlo, configurarlo e cosa devi tenere a mente.
-
-
+Possiedi un server dedicato e vuoi installare e gestire il tuo server dedicato FiveM con txAdmin? Sei nel posto giusto! Qui ti spieghiamo tutti i passaggi necessari per installarlo, configurarlo e cosa devi tenere a mente.
 
 :::warning Sistema operativo selezionato e installato
-Si presume che tu abbia già scelto e installato un sistema operativo per il tuo server dedicato. Se non hai ancora completato questo passaggio, devi prima seguire la guida [Configurazione iniziale](dedicated-setup.md) per server dedicati.
+Si presume che tu abbia già selezionato e installato un sistema operativo per il tuo VPS/Server Dedicato. Se non hai ancora completato questo passaggio, devi prima seguire la guida [Configurazione iniziale](dedicated-setup.md) per server dedicati.
 :::
-
-
 
 ## Preparazione
 
-Per configurare un server FiveM, sono necessari alcuni passaggi preparatori da completare prima di iniziare l’installazione vera e propria del Server Dedicato FiveM.
+Per configurare un server FiveM, sono necessari alcuni passaggi preparatori che devono essere completati prima di iniziare la configurazione vera e propria del server dedicato FiveM.
 
+### Configurare il database
 
+Se vuoi usare e installare risorse che richiedono un database, ti serve un **server database** aggiuntivo. Ci sono diversi modi per configurare un server del genere. Nella nostra guida [Installare MySQL](dedicated-windows-installmysql.md) ti mostriamo come installare un **server database** sul tuo **server dedicato**.
 
-### Configura il database
+### Scaricare il software del server FiveM
 
-Se vuoi usare e installare risorse che richiedono un database, ti serve un **server database** aggiuntivo. Ci sono vari modi per configurarlo. Nella nostra guida [Installare MySQL](dedicated-windows-installmysql.md) ti mostriamo come installare il tuo **server database** sul **server dedicato**.
+Il passo successivo è scaricare il software del server FiveM. Per farlo, vai sul sito [Server Build List](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) di FiveM tramite uno dei browser installati e scarica l’ultima build del server FiveM.
 
+Decomprimi il file scaricato nella cartella Download e sposta i file del server FiveM preferibilmente in una cartella separata. In questo esempio, il software del server si trova in una cartella chiamata **FiveM** sul desktop.
 
-
-### Scarica il software del server FiveM
-
-Il passo successivo è scaricare il software del server FiveM. Vai sul sito [Server Build List](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) di FiveM tramite uno dei browser installati e scarica l’ultima build del server FiveM.
-
-Estrai il file scaricato nella cartella Download e sposta i file del server FiveM preferibilmente in una cartella separata. In questo esempio, il software del server si trova in una cartella chiamata **FiveM** sul desktop.
-
-:::warning Serve un tool per estrarre
-Per estrarre il software del server FiveM scaricato, serve un tool di decompressione per il file compresso. In questo esempio usiamo [7Zip](https://7-zip.com/).
+:::warning Strumento di decompressione necessario
+Per decomprimere il software del server FiveM scaricato, serve uno strumento di decompressione per il file compresso. In questo esempio si usa [7Zip](https://7-zip.com/).
 :::
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/B9Qs9raB3fRZjJ4/download)
 
+### Creare la chiave di licenza del server FiveM
 
-
-### Crea la chiave di licenza del server FiveM
-
-Ogni server FiveM richiede una chiave di licenza, gestita tramite il nuovo [Portale Cfx.re](http://portal.cfx.re/). La chiave è collegata al tuo account Cfx.re. Accedi al sito, vai nella categoria **Server** e clicca su **Generate Key**.
+Ogni server FiveM richiede una chiave di licenza personale, gestita tramite il nuovo [Portale Cfx.re](http://portal.cfx.re/). La chiave di licenza è collegata al tuo account Cfx.re. Accedi al sito, vai nella categoria **Server** e clicca sul pulsante **Generate Key**.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/X6kHcs6o2dcFJqw/preview)
 
-
-
 ## Configurazione
 
-Ora puoi iniziare l’installazione del Server FiveM e txAdmin. Per partire, apri la cartella del Server FiveM e avvia l’applicazione `FXServer.exe`.
+Ora puoi iniziare con l’installazione del server FiveM e di txAdmin. Per partire, apri di nuovo la cartella del server FiveM e avvia l’applicazione `cfx-server.exe`.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aSEbx3LnJe2rZpd/download)
 
-
-Una volta avviata l’applicazione server, si apriranno la console del server e txAdmin. Nell’interfaccia di txAdmin devi collegare il tuo **account Cfx.re** a txAdmin.
-
-
+Una volta avviata l’applicazione del server, si apriranno la console del server e txAdmin. Nell’interfaccia di txAdmin devi collegare il tuo **account Cfx.re** a txAdmin.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/EDcJWjKSrrwARTL/download)
 
-
-
 ### Configurazione txAdmin
 
-Durante la configurazione di txAdmin, il tuo server FiveM viene installato e configurato in cinque passaggi. Segui le istruzioni nell’interfaccia txAdmin e definisci prima un **nome server**. Poi scegli il **tipo di server** desiderato. Questo esempio mostra l’installazione di un server FiveM con QBCore preinstallato.
+Durante la configurazione di txAdmin, il tuo server FiveM viene installato e configurato in cinque passaggi. Segui le istruzioni nell’interfaccia di txAdmin e definisci prima un **nome server**. Poi seleziona il **tipo di server** desiderato. Questo esempio mostra l’installazione di un server FiveM con QBCore preinstallato.
 
-Seleziona l’opzione **Popular Recipes** nel passaggio **Deployment Type** e poi il **QBCore Framework Template**. Conferma la **Data Directory** desiderata e avvia il **Recipe Deployer** per completare l’installazione.
+Seleziona l’opzione **Popular Recipes** nel passaggio **Deployment Type** e poi il template **QBCore Framework Template**. Conferma la **Data Directory** desiderata e avvia il **Recipe Deployer** per completare l’installazione.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/WACQEdocRxNrRrk/download)
 
-Durante il Recipe Deployer devi inserire le ultime informazioni prima di poter avviare il server. Inserisci la chiave di licenza FiveM creata prima nel campo **License Key**. Poi clicca su **Show/Hide Database Options (Advanced)** e inserisci i dati di accesso del tuo server database. In questo caso serve solo la password definita per l’utente **root**. Tutte le altre impostazioni possono restare invariate. Controlla i dati inseriti e clicca su **Run Recipe** per avviare il processo.
+Durante il Recipe Deployer devi inserire le ultime informazioni necessarie prima di poter avviare il server. Inserisci la chiave di licenza FiveM creata in precedenza nel campo **License Key**. Poi clicca su **Show/Hide Database Options (Advanced)** e inserisci i dati di accesso del tuo server database. In questo caso serve solo la password definita in precedenza per l’utente **root**. Tutte le altre impostazioni possono rimanere invariate. Controlla i dati inseriti e clicca su **Run Recipe** per avviare il processo.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/QPyEctyQbp3kCxa/download)
 
+### Configurazione del firewall
 
-### Configurazione firewall
-Per far sì che il tuo server sia accessibile pubblicamente, devi modificare le regole di port forwarding per le porte usate dal processo del server dedicato. Puoi farlo tramite comandi Powershell, che è più semplice, oppure tramite la pagina di Windows Defender Firewall.
+Per fare in modo che il tuo server sia accessibile pubblicamente, devi modificare le regole di inoltro porte per le porte usate dal processo del VPS/Server Dedicato. Puoi farlo direttamente tramite comandi Powershell, che è più semplice, oppure tramite la pagina di Windows Defender Firewall.
 
 <Tabs>
-<TabItem value="powershell" label="Via Powershell" default>
+<TabItem value="powershell" label="Tramite Powershell" default>
 
 Apri la ricerca di Windows e cerca **Powershell**. Assicurati di cliccare con il tasto destro e selezionare **Esegui come amministratore** per avere i permessi necessari e far funzionare tutto correttamente.
 
@@ -113,15 +94,15 @@ Questi comandi creeranno automaticamente le regole firewall necessarie per rende
 
 </TabItem>
 
-<TabItem value="windefender" label="Via Windows Defender">
+<TabItem value="windefender" label="Tramite Windows Defender">
 
-Usa la ricerca di Windows per aprire **Impostazioni Windows Firewall con sicurezza avanzata**. Potrebbe essere necessario cliccare su **Impostazioni avanzate** per aprire la finestra corretta se apri la pagina base del firewall.
+Usa la funzione di ricerca di Windows per aprire **Impostazioni Firewall di Windows con sicurezza avanzata**. Potrebbe essere necessario cliccare su **Impostazioni avanzate** per aprire la finestra necessaria se apri la pagina base del firewall di Windows.
 
-![](https://screensaver01.zap-hosting.com/index.php/s/ZT2WzELZSBPrFsB/preview)
+![](https://screensaver01.zap-hosting.com/index.php/s/woitzXpAAirg9JN/preview)
 
-Devi creare nuove regole per il tuo server FiveM. Per farlo, clicca sulle regole in entrata e in uscita come descritto e aggiungile per i seguenti protocolli e porte:
-- TCP in entrata e uscita: 30120
-- UDP in entrata e uscita: 30120
+Devi creare nuove regole per il tuo server FiveM. Per farlo, clicca sulle regole in entrata e in uscita come descritto qui sotto e aggiungile per i seguenti protocolli e porte:
+- TCP in entrata e in uscita: 30120
+- UDP in entrata e in uscita: 30120
 
 Se ti serve aiuto, usa la nostra guida [Port Forwarding (Firewall)](vserver-windows-port.md).
 
@@ -130,7 +111,4 @@ Se ti serve aiuto, usa la nostra guida [Port Forwarding (Firewall)](vserver-wind
 
 ## Conclusione
 
-Hai installato e configurato con successo un Server Dedicato FiveM sul tuo server dedicato. Per domande o supporto, non esitare a contattare il nostro team di assistenza, disponibile ogni giorno per aiutarti! 🙂
-
-
-
+Hai installato e configurato con successo un server dedicato FiveM sul tuo VPS/Server Dedicato. Per ulteriori domande o assistenza, non esitare a contattare il nostro team di supporto, disponibile ogni giorno per aiutarti! 🙂
