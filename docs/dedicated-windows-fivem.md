@@ -64,7 +64,7 @@ Every FiveM server requires its own license key, which is managed via the new [C
 
 ## Configuration
 
-Now you can start with the installation of the FiveM Server and txAdmin. To start with this step, open your FiveM Server directory again and run the `FXServer.exe` application.
+Now you can start with the installation of the FiveM Server and txAdmin. To start with this step, open your FiveM Server directory again and run the `cfx-server.exe` application.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/aSEbx3LnJe2rZpd/download)
 
@@ -131,6 +131,3 @@ Please use our [Port Forwarding (Firewall)](vserver-windows-port.md) guide if yo
 ## Conclusion
 
 You have successfully installed and configured a FiveM Dedicated Server service on your VPS/Dedicated Server. For further questions or assistance, please don't hesitate to contact our support team, which is available daily to assist you! 🙂
-
-
-
