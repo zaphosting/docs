@@ -32,26 +32,26 @@
     "docusaurus-lunr-search": "^3.6.1",
     "express": "^5.2.1",
     "git-url-parse": "^16.1.0",
-    "js-yaml": "^5.2.1",
+    "js-yaml": "^5.2.3",
     "lodash": "^4.17.23",
     "mdast-util-to-hast": "^13.2.1",
     "medium-zoom": "^1.1.0",
-    "mermaid": "^11.16.0",
+    "mermaid": "^11.16.1",
     "node-forge": "^1.4.0",
-    "openai": "^6.45.0",
+    "openai": "^6.49.0",
     "path-to-regexp": "^8.4.0",
     "prism-react-renderer": "^2.4.1",
     "qs": "^6.15.3",
-    "react": "^19.2.6",
+    "react": "^19.2.8",
     "react-copy-to-clipboard": "github:zaphosting/react-copy-to-clipboard#master",
-    "react-dom": "^19.2.6",
+    "react-dom": "^19.2.8",
     "react-markdown": "^10.1.0",
-    "webpack": "^5.108.4"
+    "webpack": "^5.109.2"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.10.2",
     "@docusaurus/types": "^3.10.2",
-    "baseline-browser-mapping": "^2.10.43"
+    "baseline-browser-mapping": "^2.11.13"
   },
   "browserslist": {
     "production": [
@@ -69,6 +69,12 @@
     "node": ">=18.0"
   },
   "overrides": {
-    "serialize-javascript": "^7.0.4"
+    "serialize-javascript": "^7.0.4",
+    "webpack-dev-server": "^5.2.6",
+    "shell-quote": "^1.10.0",
+    "websocket-driver": "^0.7.5",
+    "brace-expansion@1": "^1.1.18",
+    "fast-uri": "^3.1.5",
+    "dompurify": "^3.4.13"
   }
 }
