@@ -69,6 +69,7 @@
     "node": ">=18.0"
   },
   "overrides": {
-    "serialize-javascript": "^7.0.4"
+    "serialize-javascript": "^7.0.4",
+    "websocket-driver": "0.7.5"
   }
 }
