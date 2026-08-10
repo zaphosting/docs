@@ -1,11 +1,48 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-
 version: 2
+
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: npm
+    directory: "/"
+    target-branch: master
     schedule:
-      interval: "weekly"
+      interval: weekly
+      day: monday
+      time: "05:00"
+      timezone: Europe/Berlin
+    open-pull-requests-limit: 5
+    rebase-strategy: auto
+    versioning-strategy: increase-if-necessary
+    commit-message:
+      prefix: "deps"
+      include: scope
+    labels:
+      - dependencies
+      - javascript
+    groups:
+      weekly-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    target-branch: master
+    schedule:
+      interval: weekly
+      day: tuesday
+      time: "05:00"
+      timezone: Europe/Berlin
+    open-pull-requests-limit: 5
+    rebase-strategy: auto
+    commit-message:
+      prefix: "ci"
+      include: scope
+    labels:
+      - dependencies
+      - github-actions
+    groups:
+      github-actions:
+        patterns:
+          - "*"
