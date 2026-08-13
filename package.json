@@ -70,6 +70,7 @@
   },
   "overrides": {
     "serialize-javascript": "^7.0.4",
-    "websocket-driver": "^0.7.5"
+    "websocket-driver": "^0.7.5",
+    "brace-expansion": "1.1.18"
   }
 }
