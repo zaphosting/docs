@@ -70,6 +70,39 @@
   },
   "overrides": {
     "serialize-javascript": "^7.0.4",
-    "websocket-driver": "^0.7.5"
+    "websocket-driver": "^0.7.5",
+    "nanoid": "^3.3.17",
+    "postcss": "^8.5.23",
+    "dompurify": "^3.4.13",
+    "fast-uri": "^3.1.5",
+    "shell-quote": "^1.9.0",
+    "brace-expansion": "^1.1.18",
+    "filelist": {
+      "brace-expansion": "^2.1.4"
+    },
+    "sockjs": {
+      "uuid": "^11.1.1"
+    },
+    "webpack-dev-server": {
+      ".": "^5.2.6",
+      "express": {
+        "body-parser": "^1.20.6"
+      }
+    },
+    "@11ty/gray-matter": {
+      "js-yaml": "^4.3.1"
+    },
+    "@docusaurus/plugin-content-docs": {
+      "js-yaml": "^4.3.1"
+    },
+    "@docusaurus/utils-validation": {
+      "js-yaml": "^4.3.1"
+    },
+    "@docusaurus/utils": {
+      "js-yaml": "^4.3.1"
+    },
+    "cosmiconfig": {
+      "js-yaml": "^4.3.1"
+    }
   }
 }
