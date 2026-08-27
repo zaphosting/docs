@@ -58,4 +58,3 @@ Både hyres- och livstidsalternativ finns för majoriteten av våra produkter. B
 | Webbspace         | ✓    | ✓        |
 | Voicebot          | ✓    | ✓        |
 | Voiceserver       | ✓    | ✓        |
-| FiveM Upvotes     | ✓    | X        |

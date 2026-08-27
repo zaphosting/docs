@@ -58,4 +58,3 @@ Les options location et à vie sont disponibles pour la majorité de nos produit
 | Hébergement web   | ✓        | ✓      |
 | Bot vocal         | ✓        | ✓      |
 | Serveur vocal     | ✓        | ✓      |
-| FiveM Upvotes     | ✓        | X      |

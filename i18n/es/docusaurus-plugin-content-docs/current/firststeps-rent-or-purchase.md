@@ -58,4 +58,3 @@ Ambas opciones, alquiler y por vida, están disponibles para la mayoría de nues
 | Hosting web       | ✓        | ✓           |
 | Bot de voz        | ✓        | ✓           |
 | Servidor de voz   | ✓        | ✓           |
-| FiveM Upvotes     | ✓        | X           |

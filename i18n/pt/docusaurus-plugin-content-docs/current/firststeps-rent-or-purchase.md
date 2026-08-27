@@ -58,4 +58,3 @@ Tanto a opção de aluguel quanto a vitalícia estão disponíveis para a maiori
 | Hospedagem de sites | ✓     | ✓         |
 | Bot de voz        | ✓       | ✓         |
 | Servidor de voz   | ✓       | ✓         |
-| FiveM Upvotes     | ✓       | X         |

@@ -58,4 +58,3 @@ Zowel huur- als lifetime opties zijn beschikbaar voor de meeste van onze product
 | Webspace          | ✓     | ✓        |
 | Voicebot          | ✓     | ✓        |
 | Voiceserver       | ✓     | ✓        |
-| FiveM Upvotes     | ✓     | X        |

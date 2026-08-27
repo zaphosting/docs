@@ -58,4 +58,3 @@ Sowohl Miet- als auch Lifetime-Optionen sind für die Mehrheit unserer Produkte 
 | Webspace          | ✓      | ✓        |
 | Voicebot          | ✓      | ✓        |
 | Voiceserver       | ✓      | ✓        |
-| FiveM Upvotes     | ✓      | X        |

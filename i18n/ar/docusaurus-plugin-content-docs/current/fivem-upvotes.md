@@ -3,13 +3,9 @@ id: fivem-upvotes
 title: "FiveM: التصويتات والتعزيزات للسيرفر"
 description: "اكتشف كيف تعزز ترتيب سيرفر FiveM الخاص بك وظهوره مع التصويتات لنمو شعبي طويل الأمد أو سريع → تعلّم المزيد الآن"
 sidebar_label: التصويتات
-services:
-  - fivem-upvotes
-  - fivem-upvotes-burst
 ---
 
 import YouTube from '@site/src/components/YouTube/YouTube';
-import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## مقدمة
 
@@ -18,29 +14,14 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 <YouTube videoId="H-bdMJTQkSM" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/3NafFXm8AdQoyWM/preview" title="احصل على تصويتات FiveM بسرعة!" description="تحس إنك تفهم أفضل لما تشوف الأشياء على أرض الواقع؟ إحنا معاك! غص في الفيديو اللي يشرح كل شيء. سواء كنت مستعجل أو تحب تستوعب المعلومات بأكثر طريقة ممتعة!"/>
 
 
-
 ## التصويتات مقابل تصويتات Burst
 
 تصويتات FiveM وتصويتات Burst هما طريقتان لزيادة ظهور وشعبية سيرفر FiveM. التصويتات العادية هي تصويتات مستمرة تُستخدم على فترة طويلة لضمان ظهور طويل الأمد في ترتيب السيرفرات. أما تصويتات Burst فهي تصويتات قصيرة المدى، حيث تُستخدم عدد كبير من التصويتات في فترة قصيرة لرفع ترتيب السيرفر بسرعة خلال وقت قصير.
 
 
-
 ## الحصول على التصويتات
 
-يمكنك شراء تصويتات FiveM من [متجرنا](https://zap-hosting.com/en/shop/product/fivem-upvotes/). أثناء عملية الطلب، يمكنك اختيار عدد التصويتات، مدة التشغيل، اسم مستخدم FiveM وطريقة الدفع.
-
-:::warning تحذير بخصوص عملية الدفع
-لا يمكن شراء تصويتات FiveM باستخدام ZAP Coins لأنها منتج خارجي. يجب الدفع عبر طرق مقبولة مثل PayPal أو بطاقة الائتمان.
-:::
-
-لاستخدام تصويتات FiveM، من الضروري ربط حساب FiveM الخاص بك. سيتم تخصيص التصويتات لهذا الحساب، والذي يمكنك استخدامه لاحقًا لتوزيع التصويتات داخل اللعبة حسب رغبتك.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/2fT6CyCfzo4wEe5/download)
-
-
-بمجرد تأكيد ذلك، يمكن إكمال الطلب. سيتم إرسال المعلومات فورًا إلى FiveM ومعالجتها هناك. بمجرد الانتهاء من هذه العملية، تصبح التصويتات متاحة لك ويمكن إدارتها عبر الواجهة. تبدأ مدة تشغيل التصويتات من هذه النقطة.
-
-
+لم تعد FiveM Upvotes تُباع عبر متجر ZAP-Hosting. يمكنك شراء الـ Upvotes والـ Burst Upvotes مباشرة وبشكل رسمي عبر [بوابة Cfx.re](https://portal.cfx.re/subscriptions/upvotes). للاطلاع على الخطوات الدقيقة، راجع دليل Cfx.re الرسمي: [How to buy Upvotes for FiveM/RedM servers](https://support.cfx.re/hc/en-us/articles/18675194571420).
 
 ## تخصيص التصويتات
 
@@ -50,22 +31,15 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 ![](https://screensaver01.zap-hosting.com/index.php/s/onkKXJGpWoGYWa2/download)
 
 
-
 ## إعادة تعيين التصويتات
 
-إذا أردت إعادة تخصيص التصويتات لسيرفر آخر أو حدث خطأ أثناء التخصيص، يمكنك إعادة تعيينها عبر لوحة المعلومات. ستستغرق إعادة التعيين بضع دقائق حتى تعتمدها Cfx.re.
-
-![](https://screensaver01.zap-hosting.com/index.php/s/LjcYptAkZ6dfH8Y/preview)
+إذا كان يجب إعادة تخصيص الـ Upvotes لخادم آخر أو حدث خطأ أثناء التخصيص، يمكن إعادة تعيينها مباشرة عبر [بوابة Cfx.re](https://portal.cfx.re/subscriptions/upvotes). تستغرق إعادة تعيين الـ Upvotes بضع دقائق حتى يتم اعتمادها من قبل Cfx.re.
 
 :::danger فترة التهدئة لإعادة التعيين
 تفرض Cfx.re فترة **تهدئة** على التصويتات. لذلك، يمكن تخصيص التصويتات مرة واحدة فقط يوميًا لسيرفر تختاره. بعد التخصيص، يجب الانتظار **24 ساعة** قبل أن تتمكن من تخصيصها مرة أخرى.
 :::
 
-
-
-
 ## الخلاصة
 
 لقد حصلت على تصويتاتك بنجاح وتعرف الآن كيف تديرها. لأي أسئلة أو مساعدة إضافية، لا تتردد في التواصل مع فريق الدعم الخاص بنا، المتوفر يوميًا لمساعدتك! 🙂
 
-<InlineVoucher />
