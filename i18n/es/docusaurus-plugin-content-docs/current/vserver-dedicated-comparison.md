@@ -31,9 +31,11 @@ La tabla a continuación ofrece una comparación técnica de las dos categorías
 | Rendimiento Dedicado       | ✗              | ✓                      |
 | Virtualización Anidada     | ✓              | ✓                      |
 | Instalación de ISO Personal| ✗              | ✓                      |
-| Núcleos Máximos            | 16             | 20 (40)                |
-| Memoria Máxima             | 64 GB          | 256 GB                 |
-| Almacenamiento Máximo      | 200 GB         | 2 TB                   |
+| Núcleos Máximos            | 64             | 20 (40)                |
+| Memoria Máxima             | 128 GB         | 256 GB                 |
+| Almacenamiento Máximo      | 2 TB (según la ubicación) | 2 TB                   |
+| Ancho de Banda Máximo      | 5 Gbit/s                  | 25 Gbit/s              |
+| Direcciones IP Máximas     | 10                        | 100                    |
 | Interfaz GS/TS3            | ✓              | ✓                      |
 | Protección DDoS            | ✓              | ✓                      |
 | Tráfico Flat Rate de Uso Justo | ✓          | ✓                      |

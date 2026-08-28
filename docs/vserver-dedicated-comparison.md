@@ -31,9 +31,11 @@ The table below provides a technical comparison of the three product categories:
 | Dedicated Performance      | ✗              | ✓                      |
 | Nested Virtualization      | ✓              | ✓                      |
 | Custom ISO Installation    | ✗              | ✓                      |
-| Max Cores                  | 16             | 20 (40)                |
-| Max Memory                 | 64 GB          | 256 GB                 |
-| Max Storage                | 200 GB         | 2 TB                   |
+| Max Cores                  | 64             | 20 (40)                |
+| Max Memory                 | 128 GB         | 256 GB                 |
+| Max Storage                | 2 TB (varies by location) | 2 TB                   |
+| Max Bandwidth              | 5 Gbit/s                  | 25 Gbit/s              |
+| Max IP Addresses           | 10                        | 100                    |
 | GS/TS3 Interface           | ✓              | ✓                      |
 | DDoS Protection            | ✓              | ✓                      |
 | Fair Use Traffic Flat Rate | ✓              | ✓                      |

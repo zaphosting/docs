@@ -31,9 +31,11 @@ A tabela abaixo traz uma comparação técnica entre as duas categorias de produ
 | Desempenho Dedicado       | ✗              | ✓                      |
 | Virtualização Aninhada    | ✓              | ✓                      |
 | Instalação de ISO Custom  | ✗              | ✓                      |
-| Núcleos Máximos           | 16             | 20 (40)                |
-| Memória Máxima            | 64 GB          | 256 GB                 |
-| Armazenamento Máximo      | 200 GB         | 2 TB                   |
+| Núcleos Máximos           | 64             | 20 (40)                |
+| Memória Máxima            | 128 GB         | 256 GB                 |
+| Armazenamento Máximo      | 2 TB (conforme a localização) | 2 TB                   |
+| Largura de Banda Máxima   | 5 Gbit/s                      | 25 Gbit/s              |
+| Endereços IP Máximos      | 10                            | 100                    |
 | Interface GS/TS3          | ✓              | ✓                      |
 | Proteção DDoS             | ✓              | ✓                      |
 | Tráfego Fair Use Flat Rate| ✓              | ✓                      |

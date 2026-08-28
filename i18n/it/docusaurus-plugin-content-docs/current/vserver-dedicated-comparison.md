@@ -31,9 +31,11 @@ La tabella qui sotto offre un confronto tecnico tra le due categorie di prodotto
 | Prestazioni Dedicati       | ✗              | ✓                      |
 | Virtualizzazione Annidata  | ✓              | ✓                      |
 | Installazione ISO Custom   | ✗              | ✓                      |
-| Max Core                  | 16             | 20 (40)                |
-| Max Memoria                | 64 GB          | 256 GB                 |
-| Max Storage               | 200 GB         | 2 TB                   |
+| Max Core                  | 64             | 20 (40)                |
+| Max Memoria                | 128 GB         | 256 GB                 |
+| Max Storage               | 2 TB (in base alla sede) | 2 TB                   |
+| Max Banda                 | 5 Gbit/s                 | 25 Gbit/s              |
+| Max IP                    | 10                       | 100                    |
 | Interfaccia GS/TS3         | ✓              | ✓                      |
 | Protezione DDoS            | ✓              | ✓                      |
 | Traffico Flat Rate Fair Use| ✓              | ✓                      |

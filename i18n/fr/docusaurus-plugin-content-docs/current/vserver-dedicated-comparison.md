@@ -31,9 +31,11 @@ Le tableau ci-dessous propose une comparaison technique des deux catégories de 
 | Performance Dédiée         | ✗              | ✓                      |
 | Virtualisation Embarquée   | ✓              | ✓                      |
 | Installation ISO Personnalisée | ✗          | ✓                      |
-| Cœurs Max                  | 16             | 20 (40)                |
-| Mémoire Max                | 64 Go          | 256 Go                 |
-| Stockage Max               | 200 Go         | 2 To                   |
+| Cœurs Max                  | 64             | 20 (40)                |
+| Mémoire Max                | 128 Go         | 256 Go                 |
+| Stockage Max               | 2 To (selon l'emplacement) | 2 To                   |
+| Bande Passante Max         | 5 Gbit/s                   | 25 Gbit/s              |
+| Adresses IP Max            | 10                         | 100                    |
 | Interface GS/TS3           | ✓              | ✓                      |
 | Protection DDoS            | ✓              | ✓                      |
 | Forfait Trafic Fair Use    | ✓              | ✓                      |
