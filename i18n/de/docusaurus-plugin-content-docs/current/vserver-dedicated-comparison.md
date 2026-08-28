@@ -31,9 +31,11 @@ Die folgende Tabelle zeigt den technischen Vergleich der beiden Produktkategorie
 | Dedizierte Performance     | ✗              | ✓                      |
 | Nested Virtualization      | ✓              | ✓                      |
 | Eigene ISO Installation    | ✗              | ✓                      |
-| Max. CPU-Kerne             | 16             | 20 (40)                |
-| Max. RAM                   | 64 GB          | 256 GB                 |
-| Max. Speicher              | 200 GB         | 2 TB                   |
+| Max. CPU-Kerne             | 64             | 20 (40)                |
+| Max. RAM                   | 128 GB         | 256 GB                 |
+| Max. Speicher              | 2 TB (je nach Standort) | 2 TB                   |
+| Max. Bandbreite            | 5 Gbit/s                | 25 Gbit/s              |
+| Max. IP-Adressen           | 10                      | 100                    |
 | GS/TS3 Interface           | ✓              | ✓                      |
 | DDoS-Schutz               | ✓              | ✓                      |
 | Fair Use Traffic Flat Rate | ✓              | ✓                      |

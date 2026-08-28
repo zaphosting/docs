@@ -31,9 +31,11 @@ Hieronder een technische vergelijking van de twee productcategorieën:
 | Dedicated Performance      | ✗              | ✓                      |
 | Nested Virtualization      | ✓              | ✓                      |
 | Custom ISO Installatie     | ✗              | ✓                      |
-| Max Cores                  | 16             | 20 (40)                |
-| Max Geheugen              | 64 GB          | 256 GB                 |
-| Max Opslag                 | 200 GB         | 2 TB                   |
+| Max Cores                  | 64             | 20 (40)                |
+| Max Geheugen              | 128 GB         | 256 GB                 |
+| Max Opslag                 | 2 TB (afhankelijk van locatie) | 2 TB                   |
+| Max Bandbreedte            | 5 Gbit/s                       | 25 Gbit/s              |
+| Max IP-adressen            | 10                             | 100                    |
 | GS/TS3 Interface           | ✓              | ✓                      |
 | DDoS Bescherming           | ✓              | ✓                      |
 | Fair Use Traffic Flat Rate | ✓              | ✓                      |

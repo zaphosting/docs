@@ -31,9 +31,11 @@ Poniższa tabela przedstawia techniczne porównanie obu kategorii produktów:
 | Dedykowana wydajność      | ✗              | ✓                      |
 | Wirtualizacja zagnieżdżona| ✓              | ✓                      |
 | Instalacja własnego ISO   | ✗              | ✓                      |
-| Maks. liczba rdzeni CPU   | 16             | 20 (40)                |
-| Maks. pamięć RAM          | 64 GB          | 256 GB                 |
-| Maks. miejsce na dysku    | 200 GB         | 2 TB                   |
+| Maks. liczba rdzeni CPU   | 64             | 20 (40)                |
+| Maks. pamięć RAM          | 128 GB         | 256 GB                 |
+| Maks. miejsce na dysku    | 2 TB (zależnie od lokalizacji) | 2 TB                   |
+| Maks. przepustowość łącza | 5 Gbit/s                       | 25 Gbit/s              |
+| Maks. liczba adresów IP   | 10                             | 100                    |
 | Interfejs GS/TS3          | ✓              | ✓                      |
 | Ochrona DDoS              | ✓              | ✓                      |
 | Nielimitowany ruch (Fair Use) | ✓          | ✓                      |

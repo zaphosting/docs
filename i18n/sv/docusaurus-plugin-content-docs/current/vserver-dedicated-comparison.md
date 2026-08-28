@@ -31,9 +31,11 @@ Tabellen nedan visar en teknisk jämförelse mellan de två produktkategorierna:
 | Dedikerad Prestanda        | ✗              | ✓                      |
 | Nested Virtualization      | ✓              | ✓                      |
 | Egen ISO-installation      | ✗              | ✓                      |
-| Max Kärnor                 | 16             | 20 (40)                |
-| Max Minne                  | 64 GB          | 256 GB                 |
-| Max Lagring                | 200 GB         | 2 TB                   |
+| Max Kärnor                 | 64             | 20 (40)                |
+| Max Minne                  | 128 GB         | 256 GB                 |
+| Max Lagring                | 2 TB (beroende på plats) | 2 TB                   |
+| Max Bandbredd              | 5 Gbit/s                 | 25 Gbit/s              |
+| Max IP-adresser            | 10                       | 100                    |
 | GS/TS3-gränssnitt          | ✓              | ✓                      |
 | DDoS-skydd                 | ✓              | ✓                      |
 | Fair Use Trafik Flat Rate  | ✓              | ✓                      |
