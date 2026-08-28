@@ -58,4 +58,3 @@ Sia l’opzione noleggio che quella lifetime sono disponibili per la maggior par
 | Webspace          | ✓        | ✓        |
 | Voicebot          | ✓        | ✓        |
 | Voiceserver       | ✓        | ✓        |
-| FiveM Upvotes     | ✓        | X        |

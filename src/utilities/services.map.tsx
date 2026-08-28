@@ -185,32 +185,6 @@ const servicesMap: serviceMap = {
         }),
         price: `${priceFrom} 2.90€`,
     },
-    'fivem-upvotes': {
-        title: translate({
-            message: 'FiveM Upvotes',
-            id: 'service.fivemupvotes.title',
-            description: 'Product name for the storage product',
-        }),
-        url: translate({
-            message: '{marketingSite}/{language}/shop/product/fivem-upvotes/',
-            id: 'service.fivemupvotes.path',
-            description: 'URL path for the storage product',
-        }),
-        price: `${priceFrom} 4.58€`,
-    },
-    'fivem-upvotes-burst': {
-        title: translate({
-            message: 'FiveM Upvotes BURST',
-            id: 'service.fivemupvotesburst.title',
-            description: 'Product name for the storage product',
-        }),
-        url: translate({
-            message: '{marketingSite}/{language}/shop/product/fivem-upvotes-burst/',
-            id: 'service.fivemupvotes.path',
-            description: 'URL path for the storage product',
-        }),
-        price: `${priceFrom} 10.71€`,
-    },
     'discord-bot': {
         title: translate({
             message: 'Discord Bot',

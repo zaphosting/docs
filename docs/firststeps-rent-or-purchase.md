@@ -58,4 +58,3 @@ Both rental and lifetime options are available for the majority of our products.
 | Webspace          | ✓    | ✓        |
 | Voicebot          | ✓    | ✓        |
 | Voiceserver       | ✓    | ✓        |
-| FiveM Upvotes     | ✓    | X        |

@@ -58,4 +58,3 @@ Obie opcje, wynajmu i na zawsze, są dostępne dla większości naszych produkt�
 | Hosting           | ✓       | ✓         |
 | Bot głosowy       | ✓       | ✓         |
 | Serwer głosowy    | ✓       | ✓         |
-| FiveM Upvotes     | ✓       | X         |
